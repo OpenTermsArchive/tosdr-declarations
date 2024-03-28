@@ -32,6 +32,12 @@
       "updateTemplateId": 0
     }
   },
+  "logger": {
+    "smtp": {
+      "host": "smtp.sendgrid.net",
+      "username": "tosdr-bot"
+    }
+  },
   "reporter": {
     "githubIssues": {
       "repositories": {
