@@ -1,0 +1,13 @@
+{
+  "name": "Fastvpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.namecheap.com/legal/apps/vpn-privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.namecheap.com/legal/apps/vpn-tos/",
+      "select": "html > body > fragment:nth-of-type(2) > fragment-app-775d661f > div > div"
+    }
+  }
+}

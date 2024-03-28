@@ -1,0 +1,13 @@
+{
+  "name": "Adstra",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://adstradata.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://adstradata.com/terms",
+      "select": "body"
+    }
+  }
+}

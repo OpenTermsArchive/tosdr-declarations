@@ -1,0 +1,9 @@
+{
+  "name": "Gamemonetize",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gamemonetize.com/privacypolicy",
+      "select": "html > body > main"
+    }
+  }
+}

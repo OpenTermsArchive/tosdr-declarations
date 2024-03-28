@@ -1,0 +1,9 @@
+{
+  "name": "Avtest",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.av-test.org/en/contact/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

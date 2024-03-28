@@ -1,0 +1,9 @@
+{
+  "name": "Sketchup",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sketchup.com/legal/privacy-notice",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Park harrisburg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://parkharrisburg.com/sp-plus-automated-license-plate-recognition-alpr-usage-and-privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://parkharrisburg.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

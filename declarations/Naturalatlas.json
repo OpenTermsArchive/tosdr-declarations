@@ -1,0 +1,13 @@
+{
+  "name": "Naturalatlas",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://naturalatlas.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://naturalatlas.com/privacy",
+      "select": "body"
+    }
+  }
+}

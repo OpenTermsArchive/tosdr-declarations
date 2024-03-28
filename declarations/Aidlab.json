@@ -1,0 +1,9 @@
+{
+  "name": "Aidlab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.aidlab.com/privacy_policy",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

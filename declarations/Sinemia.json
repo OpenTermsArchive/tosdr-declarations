@@ -1,0 +1,9 @@
+{
+  "name": "Sinemia",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sinemia.com/pages/terms",
+      "select": "body"
+    }
+  }
+}

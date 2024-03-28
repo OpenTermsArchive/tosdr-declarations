@@ -1,0 +1,13 @@
+{
+  "name": "Climate leadership group",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.c40.org/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.c40.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

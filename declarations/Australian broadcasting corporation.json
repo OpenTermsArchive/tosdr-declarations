@@ -1,0 +1,17 @@
+{
+  "name": "Australian broadcasting corporation",
+  "documents": {
+    "Corporate Social Responsibility": {
+      "fetch": "http://about.abc.net.au/accessibility-statement/",
+      "select": "article.page"
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.abc.net.au/hc/en-us/articles/360001154976",
+      "select": "html > body > main > div:nth-of-type(3) > div > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.abc.net.au/hc/en-us/articles/360001548096",
+      "select": "html > body > main > div:nth-of-type(3) > div > article"
+    }
+  }
+}

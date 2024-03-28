@@ -1,0 +1,13 @@
+{
+  "name": "Every door real estate",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://search.everydoorrealestate.com/idx-information",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://search.everydoorrealestate.com/privacy-policy",
+      "select": null
+    }
+  }
+}

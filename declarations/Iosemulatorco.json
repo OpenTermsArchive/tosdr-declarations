@@ -1,0 +1,9 @@
+{
+  "name": "Iosemulatorco",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://iosemulator.co/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div > main > article > div"
+    }
+  }
+}

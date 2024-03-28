@@ -1,0 +1,13 @@
+{
+  "name": "Tweetdelete",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tweetdelete.net/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tweetdelete.net/privacy/",
+      "select": "body"
+    }
+  }
+}

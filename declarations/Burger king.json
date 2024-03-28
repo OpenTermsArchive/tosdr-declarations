@@ -1,0 +1,17 @@
+{
+  "name": "Burger king",
+  "documents": {
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.bk.com/accessibility",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bk.com/terms-of-service",
+      "select": " > div > div > div > div > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bk.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Save our bank",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://saveourbank.coop/privacy-policy",
+      "select": "body"
+    }
+  }
+}

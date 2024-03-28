@@ -1,0 +1,9 @@
+{
+  "name": "Surveymonkey",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

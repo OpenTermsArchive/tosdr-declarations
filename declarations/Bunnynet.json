@@ -1,0 +1,17 @@
+{
+  "name": "Bunnynet",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://bunny.net/acceptable-use/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://bunny.net/tos/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bunny.net/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Schoop",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.schoop.co.uk/cookies/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.schoop.co.uk/terms/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.schoop.co.uk/privacy/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

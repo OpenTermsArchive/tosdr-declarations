@@ -1,0 +1,17 @@
+{
+  "name": "Planning center",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.planningcenter.com/privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.planningcenter.com/security",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.planningcenter.com/terms",
+      "select": "body"
+    }
+  }
+}

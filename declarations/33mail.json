@@ -1,0 +1,9 @@
+{
+  "name": "33mail",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://33mail.com/tos",
+      "select": "body"
+    }
+  }
+}

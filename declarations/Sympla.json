@@ -1,0 +1,29 @@
+{
+  "name": "Sympla",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://termos-e-politicas.sympla.com.br/hc/pt-br/articles/360031094131-Vers%C3%A3o-completa",
+      "select": "body article section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://termos-e-politicas.sympla.com.br/hc/pt-br/articles/360030752532-Vers%C3%A3o-completa",
+      "select": "html > body > main > article > section > div:first-of-type > div:nth-of-type(2) > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://termos-e-politicas.sympla.com.br/hc/pt-br/articles/360048945451-Vers%C3%A3o-Completa",
+      "select": "body article section"
+    },
+    "Community Guidelines": {
+      "fetch": "https://termos-e-politicas.sympla.com.br/hc/pt-br/articles/360051573432-Vers%C3%A3o-Completa",
+      "select": "body article div"
+    },
+    "Developer Terms": {
+      "fetch": "https://termos-e-politicas.sympla.com.br/hc/pt-br/articles/360031078511-5-Privacidade-e-Prote%C3%A7%C3%A3o-de-dados-pessoais",
+      "select": "body article div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://termos-e-politicas.sympla.com.br/hc/pt-br/articles/360030753872-Vers%C3%A3o-completa",
+      "select": "body article div"
+    }
+  }
+}

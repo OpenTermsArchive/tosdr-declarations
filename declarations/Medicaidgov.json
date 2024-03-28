@@ -1,0 +1,9 @@
+{
+  "name": "Medicaidgov",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.medicaid.gov/privacy-policy/index.html",
+      "select": null
+    }
+  }
+}

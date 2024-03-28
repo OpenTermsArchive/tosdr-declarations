@@ -1,0 +1,13 @@
+{
+  "name": "Billions in change",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://billionsinchange.com/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://billionsinchange.com/privacy/",
+      "select": null
+    }
+  }
+}

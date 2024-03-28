@@ -1,0 +1,17 @@
+{
+  "name": "Sanoma media finland",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sanoma.fi/mita-teemme/tietosuoja/tietosuojalauseke/",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(2) > div:first-of-type > article > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sanoma.fi/mita-teemme/tietosuoja/evastekaytannot/",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(2) > div > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://oma.sanoma.fi/aihe/tilaus-ja-kayttoehdot/kayttoehdot",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(2) > div > article > div"
+    }
+  }
+}

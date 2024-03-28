@@ -1,0 +1,9 @@
+{
+  "name": "Autohotkeycom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.autohotkey.com/boards/ucp.php?mode=register",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > form:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

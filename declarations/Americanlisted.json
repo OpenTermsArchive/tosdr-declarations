@@ -1,0 +1,17 @@
+{
+  "name": "Americanlisted",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.americanlisted.com/privacy.html",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.americanlisted.com/cookie_policy.html",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.americanlisted.com/terms.html",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

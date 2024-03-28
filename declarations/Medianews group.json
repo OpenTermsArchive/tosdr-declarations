@@ -1,0 +1,17 @@
+{
+  "name": "Medianews group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.medianewsgroup.com/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.medianewsgroup.com/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.medianewsgroup.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

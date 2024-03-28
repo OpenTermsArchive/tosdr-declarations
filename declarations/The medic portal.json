@@ -1,0 +1,17 @@
+{
+  "name": "The medic portal",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.themedicportal.com/cookies-policy/",
+      "select": "html > body > section:nth-of-type(2) > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.themedicportal.com/terms-conditions/",
+      "select": "html > body > section:nth-of-type(2) > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.themedicportal.com/privacy-policy/",
+      "select": "html > body > section:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

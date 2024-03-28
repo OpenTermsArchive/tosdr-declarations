@@ -1,0 +1,21 @@
+{
+  "name": "Vidazoo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vidazoo.gitbook.io/vidazoo-legal/data-protection-addendum",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://vidazoo.gitbook.io/vidazoo-legal/cookies-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://vidazoo.gitbook.io/vidazoo-legal/website-terms-of-use",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://vidazoo.gitbook.io/vidazoo-legal/publisher-guidelines",
+      "select": "body"
+    }
+  }
+}

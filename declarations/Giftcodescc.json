@@ -1,0 +1,17 @@
+{
+  "name": "Giftcodescc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://giftcodes.cc/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > div > div > div > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://giftcodes.cc/terms-of-service",
+      "select": "html > body > div:first-of-type > div > main > div > div > div > article > div"
+    },
+    "Legal Information": {
+      "fetch": "https://giftcodes.cc/disclaimer",
+      "select": "html > body > div:first-of-type > div > main > div > div > div > article > div"
+    }
+  }
+}

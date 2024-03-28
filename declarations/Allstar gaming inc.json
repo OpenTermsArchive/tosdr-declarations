@@ -1,0 +1,13 @@
+{
+  "name": "Allstar gaming inc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://allstar.gg/legal/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://allstar.gg/legal/privacy-policy",
+      "select": " > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

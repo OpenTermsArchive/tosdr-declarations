@@ -1,0 +1,13 @@
+{
+  "name": "Bfdi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bfdi.bund.de/DE/Meta/Datenschutz/datenschutz_node.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.bfdi.bund.de/DE/Meta/Impressum/impressum_node.html",
+      "select": "body"
+    }
+  }
+}

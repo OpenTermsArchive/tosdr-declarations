@@ -1,0 +1,13 @@
+{
+  "name": "Cloze",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cloze.com/app/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cloze.com/app/legal/terms",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

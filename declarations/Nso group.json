@@ -1,0 +1,13 @@
+{
+  "name": "Nso group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nsogroup.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nsogroup.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

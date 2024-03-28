@@ -1,0 +1,17 @@
+{
+  "name": "Domestica",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.domestika.org/en/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.domestika.org/en/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.domestika.org/en/terms",
+      "select": "body"
+    }
+  }
+}

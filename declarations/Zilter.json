@@ -1,0 +1,13 @@
+{
+  "name": "Zilter",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zilter.io/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.zilter.io/terms-and-condition.html",
+      "select": "body"
+    }
+  }
+}

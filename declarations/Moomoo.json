@@ -1,0 +1,13 @@
+{
+  "name": "Moomoo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.moomoo.com/?tid=42 ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.moomoo.com/?tid=41 ",
+      "select": "body"
+    }
+  }
+}

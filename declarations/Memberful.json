@@ -1,0 +1,9 @@
+{
+  "name": "Memberful",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://memberful.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Itslili",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://itslili.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://itslili.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

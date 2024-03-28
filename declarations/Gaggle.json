@@ -1,0 +1,13 @@
+{
+  "name": "Gaggle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gaggle.net/privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.gaggle.net/student-data-privacy-notice",
+      "select": "body"
+    }
+  }
+}

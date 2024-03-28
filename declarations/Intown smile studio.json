@@ -1,0 +1,9 @@
+{
+  "name": "Intown smile studio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://intownsmilestudio.com/privacy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    }
+  }
+}

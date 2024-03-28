@@ -1,0 +1,13 @@
+{
+  "name": "Open foundry",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://open-foundry.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://open-foundry.com/privacy",
+      "select": "body"
+    }
+  }
+}

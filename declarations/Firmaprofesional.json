@@ -1,0 +1,13 @@
+{
+  "name": "Firmaprofesional",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.firmaprofesional.com/aviso-legal/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.firmaprofesional.com/cookies/",
+      "select": "body"
+    }
+  }
+}

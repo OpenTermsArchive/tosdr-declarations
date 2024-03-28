@@ -1,0 +1,13 @@
+{
+  "name": "Sciencebuddiesorg",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.sciencebuddies.org/about/terms-and-conditions-of-fair-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sciencebuddies.org/about/privacy-policy",
+      "select": "body"
+    }
+  }
+}

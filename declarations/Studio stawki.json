@@ -1,0 +1,9 @@
+{
+  "name": "Studio stawki",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://studiostawki.com/uploads/files/1693260000-2475100731-privacy-policy.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Isomedia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.isomedia.com/privacy-policy.shtml",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.isomedia.com/terms-and-conditions.shtml",
+      "select": null
+    }
+  }
+}

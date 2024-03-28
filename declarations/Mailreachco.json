@@ -1,0 +1,13 @@
+{
+  "name": "Mailreachco",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mailreach.co/terms-of-use",
+      "select": "html > body > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mailreach.co/privacy-policy",
+      "select": "body"
+    }
+  }
+}

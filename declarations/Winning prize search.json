@@ -1,0 +1,9 @@
+{
+  "name": "Winning prize search",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.winningprizesearch.com/privacypolicy.php",
+      "select": "html > body > div:nth-of-type(3) > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Tice app",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ticeapp.com/en/privacy/",
+      "select": "body"
+    }
+  }
+}

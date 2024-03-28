@@ -1,0 +1,9 @@
+{
+  "name": "Bc transit corporation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bctransit.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Kelloggs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kelloggstore.com/privacy-policy",
+      "select": " > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kelloggcompany.com/en_US/legal.html",
+      "select": " > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.kelloggstore.com/return-policy",
+      "select": " > div > div"
+    }
+  }
+}

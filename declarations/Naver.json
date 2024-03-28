@@ -1,0 +1,13 @@
+{
+  "name": "Naver",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policy.naver.com/rules/privacy.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://policy.naver.com/rules/disclaimer.html",
+      "select": "body"
+    }
+  }
+}

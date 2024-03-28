@@ -1,0 +1,13 @@
+{
+  "name": "Asus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official-Site/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/",
+      "select": "html > body > form > div:nth-of-type(2) > div > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > span > div"
+    }
+  }
+}

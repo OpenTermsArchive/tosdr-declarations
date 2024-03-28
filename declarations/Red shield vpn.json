@@ -1,0 +1,17 @@
+{
+  "name": "Red shield vpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://redshieldvpn.com/en/pp",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://redshieldvpn.com/en/help/description/rp",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://redshieldvpn.com/en/tos",
+      "select": "body"
+    }
+  }
+}

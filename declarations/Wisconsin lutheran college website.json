@@ -1,0 +1,13 @@
+{
+  "name": "Wisconsin lutheran college website",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.wlc.edu/_files/about-wlc/Health-Services-Notice-of-Privacy-Practices.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wlc.edu/about-wlc/offices-resources/information-technology/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

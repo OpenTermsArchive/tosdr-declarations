@@ -1,0 +1,9 @@
+{
+  "name": "Sceptre",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sceptre.com/support/disclaimer.html",
+      "select": "body"
+    }
+  }
+}

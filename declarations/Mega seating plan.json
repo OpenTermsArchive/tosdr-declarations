@@ -1,0 +1,17 @@
+{
+  "name": "Mega seating plan",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.seatingplan.com/privacy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.seatingplan.com/dsa",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.seatingplan.com/terms",
+      "select": "body"
+    }
+  }
+}

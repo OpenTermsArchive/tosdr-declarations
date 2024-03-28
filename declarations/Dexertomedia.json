@@ -1,0 +1,13 @@
+{
+  "name": "Dexertomedia",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.dexerto.media/legal/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dexerto.media/legal/privacy",
+      "select": "html > body > div:nth-of-type(4)"
+    }
+  }
+}

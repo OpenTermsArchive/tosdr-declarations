@@ -1,0 +1,21 @@
+{
+  "name": "Zyxel communications corp",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://service-provider.zyxel.com/emea/en/cookies-and-similar-technologies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://service-provider.zyxel.com/emea/en/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > div > div > article > section:nth-of-type(3) > div > div > div > div > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://service-provider.zyxel.com/emea/en/legal-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://service-provider.zyxel.com/emea/en/terms-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Rbxbest",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://rbx.best/terms-of-service",
+      "select": "html > body > section > div:nth-of-type(8)"
+    }
+  }
+}

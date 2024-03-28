@@ -1,0 +1,13 @@
+{
+  "name": "Axiom space",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.axiomspace.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.axiomspace.com/terms-and-conditions ",
+      "select": "body"
+    }
+  }
+}

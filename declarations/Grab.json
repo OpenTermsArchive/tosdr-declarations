@@ -1,0 +1,17 @@
+{
+  "name": "Grab",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.grab.com/sg/terms-policies/transport-delivery-logistics/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.grab.com/sg/terms-policies/privacy-notice/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.grab.com/sg/terms-policies/payment-rewards/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Paypal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.paypal.com/sg/webapps/mpp/ua/privacy-full",
+      "select": "html > body > div:first-of-type > div > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.paypal.com/us/webapps/mpp/ua/useragreement-full",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.paypal.com/sg/webapps/mpp/ua/ebaybilling-full",
+      "select": "html > body > div:first-of-type > div > section > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.paypal.com/sg/webapps/mpp/ua/upcoming-policies-full",
+      "select": "html > body > div:first-of-type > div > section"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.paypal.com/sg/webapps/mpp/ua/acceptableuse-full",
+      "select": "html > body > div:first-of-type > div > section"
+    },
+    "Review Guidelines": {
+      "fetch": "https://www.paypal.com/sg/webapps/mpp/ua/infringementrpt-full",
+      "select": "html > body > div:first-of-type > div > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.paypal.com/us/webapps/mpp/ua/cookie-full",
+      "select": "body"
+    }
+  }
+}

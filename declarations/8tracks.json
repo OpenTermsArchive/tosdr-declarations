@@ -1,0 +1,21 @@
+{
+  "name": "8tracks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://8tracks.com/terms",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://8tracks.com/copyright",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://8tracks.com/licensing",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://8tracks.com/privacy",
+      "select": "body"
+    }
+  }
+}

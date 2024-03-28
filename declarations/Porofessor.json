@@ -1,0 +1,13 @@
+{
+  "name": "Porofessor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://porofessor.gg/privacy",
+      "select": "html > body > main > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://porofessor.gg/terms-of-use",
+      "select": "html > body > main > div:nth-of-type(2)"
+    }
+  }
+}

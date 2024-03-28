@@ -1,0 +1,9 @@
+{
+  "name": "Zapier",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://zapier.com/privacy",
+      "select": "body"
+    }
+  }
+}

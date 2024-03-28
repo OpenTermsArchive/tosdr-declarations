@@ -1,0 +1,13 @@
+{
+  "name": "Thishostingrocks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thishosting.rocks/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://thishosting.rocks/tos/",
+      "select": null
+    }
+  }
+}

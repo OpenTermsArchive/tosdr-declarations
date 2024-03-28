@@ -1,0 +1,13 @@
+{
+  "name": "Reason up",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.reasonsecurity.com/small-business/reason-up/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.reasonsecurity.com/small-business/reason-up/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

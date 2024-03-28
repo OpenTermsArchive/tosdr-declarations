@@ -1,0 +1,13 @@
+{
+  "name": "Formula 1",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://account.formula1.com/#/en/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://account.formula1.com/#/en/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Jontube",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jontube.com/legal/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://jontube.com/legal/rules.html",
+      "select": "body"
+    }
+  }
+}

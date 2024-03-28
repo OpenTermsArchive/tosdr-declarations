@@ -1,0 +1,13 @@
+{
+  "name": "Bigbangempire",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://us5.bigbangempire.com/tos ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://us5.bigbangempire.com/policy",
+      "select": "body"
+    }
+  }
+}

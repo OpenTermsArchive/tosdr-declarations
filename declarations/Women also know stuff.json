@@ -1,0 +1,13 @@
+{
+  "name": "Women also know stuff",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://womenalsoknowstuff.com",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://womenalsoknowstuff.com/",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2)"
+    }
+  }
+}

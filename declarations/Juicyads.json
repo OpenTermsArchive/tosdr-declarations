@@ -1,0 +1,21 @@
+{
+  "name": "Juicyads",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.juicyads.com/aup",
+      "select": "html > body > div:nth-of-type(5)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.juicyads.com/privacy",
+      "select": "html > body > div:nth-of-type(5)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.juicyads.com/cookies",
+      "select": "html > body > div:nth-of-type(5)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.juicyads.com/terms",
+      "select": "html > body > div:nth-of-type(5)"
+    }
+  }
+}

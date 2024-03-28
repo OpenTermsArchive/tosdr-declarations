@@ -1,0 +1,9 @@
+{
+  "name": "Vancouver regional construction association",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vrca.ca/wp-content/uploads/Privacy-Policy.pdf",
+      "select": "body"
+    }
+  }
+}

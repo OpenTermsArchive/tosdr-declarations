@@ -1,0 +1,17 @@
+{
+  "name": "Binanceus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.binance.us/en/terms-of-use",
+      "select": "html > body > div:first-of-type > div > main > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.binance.us/cookie-policy",
+      "select": "html > body > div:first-of-type > div > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.binance.us/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main"
+    }
+  }
+}

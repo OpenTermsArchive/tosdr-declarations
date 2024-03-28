@@ -1,0 +1,13 @@
+{
+  "name": "Myntra",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.myntra.com/privacypolicy",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.myntra.com/tac",
+      "select": "body"
+    }
+  }
+}

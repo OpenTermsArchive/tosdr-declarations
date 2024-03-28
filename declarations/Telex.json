@@ -1,0 +1,17 @@
+{
+  "name": "Telex",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://telex.hu/dokumentum/adatkezelesi-tajekoztato",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://telex.hu/dokumentum/sutitajekoztato",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://telex.hu/dokumentum/altalanos-szerzodesi-feltetelek",
+      "select": "body"
+    }
+  }
+}

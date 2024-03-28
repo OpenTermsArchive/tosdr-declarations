@@ -1,0 +1,9 @@
+{
+  "name": "Medita barcelona",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.meditabarcelona.org/politica-privacidad/",
+      "select": "body"
+    }
+  }
+}

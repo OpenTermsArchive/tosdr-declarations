@@ -1,0 +1,13 @@
+{
+  "name": "Ekoru",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ekoru.org/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ekoru.org/privacy/",
+      "select": "body"
+    }
+  }
+}

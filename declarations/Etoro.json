@@ -1,0 +1,9 @@
+{
+  "name": "Etoro",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://1mr3lc1zt3xi1fzits1il485-wpengine.netdna-ssl.com/wp-content/uploads/2020/05/eToro-Privacy-Policy_20-05-2020-1.pdf",
+      "select": "body"
+    }
+  }
+}

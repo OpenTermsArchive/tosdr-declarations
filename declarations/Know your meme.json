@@ -1,0 +1,17 @@
+{
+  "name": "Know your meme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://knowyourmeme.com/privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://knowyourmeme.com/dmca",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://knowyourmeme.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

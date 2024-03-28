@@ -1,0 +1,13 @@
+{
+  "name": "Polytoria",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://polytoria.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://polytoria.com/privacy",
+      "select": "body"
+    }
+  }
+}

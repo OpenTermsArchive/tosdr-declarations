@@ -1,0 +1,13 @@
+{
+  "name": "Sanyo",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.sanyo-av.com/us/support/cookie.php ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sanyo-av.com/us/support/privacy.php",
+      "select": "body"
+    }
+  }
+}

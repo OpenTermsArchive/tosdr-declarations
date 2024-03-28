@@ -1,0 +1,13 @@
+{
+  "name": "Hackmd",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hackmd.io/s/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hackmd.io/s/privacy",
+      "select": "body"
+    }
+  }
+}

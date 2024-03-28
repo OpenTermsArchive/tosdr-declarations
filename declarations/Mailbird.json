@@ -1,0 +1,13 @@
+{
+  "name": "Mailbird",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.getmailbird.com/license-agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.getmailbird.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Abcmouse",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.abcmouse.com/tandc",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.abcmouse.com/privacy",
+      "select": "body"
+    }
+  }
+}

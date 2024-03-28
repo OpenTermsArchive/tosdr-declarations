@@ -1,0 +1,13 @@
+{
+  "name": "Familyalbum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://family-album.com/privacy",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://family-album.com/terms",
+      "select": null
+    }
+  }
+}

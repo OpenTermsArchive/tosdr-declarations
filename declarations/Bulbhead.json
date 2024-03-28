@@ -1,0 +1,17 @@
+{
+  "name": "Bulbhead",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bulbhead.com/pages/security-policy",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.bulbhead.com/pages/reseller-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bulbhead.com/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

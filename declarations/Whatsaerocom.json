@@ -1,0 +1,9 @@
+{
+  "name": "Whatsaerocom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://yonlendir.whatsaero.com/page/legal/content_terms_and_conditions/?lang=en",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Scam detector",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.scam-detector.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div:first-of-type > div > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.scam-detector.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div:first-of-type > div > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Dingtalk",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_dingtalk/suit_bu1_dingtalk202010200940_84493.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_dingtalk/suit_bu1_dingtalk202102181006_34132.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://page.dingtalk.com/wow/dingtalk/act/service-en-lite",
+      "select": "body"
+    }
+  }
+}

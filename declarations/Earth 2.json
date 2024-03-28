@@ -1,0 +1,13 @@
+{
+  "name": "Earth 2",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://earth2.io/privacy",
+      "select": "html > body > div:first-of-type > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://earth2.io/terms",
+      "select": "html > body > div:first-of-type > main > div > div"
+    }
+  }
+}

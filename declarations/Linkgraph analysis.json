@@ -1,0 +1,9 @@
+{
+  "name": "Linkgraph analysis",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://linkgraphanalysis.net/privacy.html",
+      "select": "body"
+    }
+  }
+}

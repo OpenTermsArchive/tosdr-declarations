@@ -1,0 +1,21 @@
+{
+  "name": "Media creek",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://empirestreaming.com/adshare",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://empirestreaming.com/privacy",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://empirestreaming.com/aup",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://empirestreaming.com/dmca",
+      "select": "body"
+    }
+  }
+}

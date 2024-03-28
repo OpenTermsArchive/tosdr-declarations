@@ -1,0 +1,13 @@
+{
+  "name": "Weird gloop limited",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://weirdgloop.org/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://weirdgloop.org/terms/",
+      "select": "html > body"
+    }
+  }
+}

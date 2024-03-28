@@ -1,0 +1,13 @@
+{
+  "name": "Youvisit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://eab.com/privacy-policy-2/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.youvisit.com/terms-of-use/",
+      "select": "html > body > main > div > div > div > div > div > div > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Online etymology dictionary",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.etymonline.com/legal/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.etymonline.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

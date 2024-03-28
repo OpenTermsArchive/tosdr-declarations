@@ -1,0 +1,9 @@
+{
+  "name": "Chaos software group inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.chaossoftware.com/privacy.aspx",
+      "select": "body"
+    }
+  }
+}

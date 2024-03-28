@@ -1,0 +1,13 @@
+{
+  "name": "An1com",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://an1.com/dmca.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://an1.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

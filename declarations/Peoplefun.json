@@ -1,0 +1,13 @@
+{
+  "name": "Peoplefun",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.peoplefun.com/terms",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.peoplefun.com/privacy",
+      "select": "body"
+    }
+  }
+}

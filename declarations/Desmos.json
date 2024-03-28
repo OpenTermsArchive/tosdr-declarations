@@ -1,0 +1,17 @@
+{
+  "name": "Desmos",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.desmos.com/terms",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.desmos.com/privacy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.desmos.com/studentdata?lang=en",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

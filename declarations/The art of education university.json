@@ -1,0 +1,13 @@
+{
+  "name": "The art of education university",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://theartofeducation.edu/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://theartofeducation.edu/documents/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

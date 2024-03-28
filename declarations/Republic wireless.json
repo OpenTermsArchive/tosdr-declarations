@@ -1,0 +1,9 @@
+{
+  "name": "Republic wireless",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://republicwireless.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

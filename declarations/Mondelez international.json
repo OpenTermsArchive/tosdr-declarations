@@ -1,0 +1,17 @@
+{
+  "name": "Mondelez international",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mondelezinternational.com/Privacy-Policy",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mondelezinternational.com/Terms-of-Use",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.mondelezinternational.com/Cookie-Policy",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Memrise",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.memrise.com/cookies?hsLang=en",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.memrise.com/privacy?hsLang=en",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.memrise.com/terms?hsLang=en",
+      "select": "body"
+    }
+  }
+}

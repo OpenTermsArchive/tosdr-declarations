@@ -1,0 +1,17 @@
+{
+  "name": "Fastestvpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://fastestvpn.com/terms-of-service",
+      "select": "html > body > section:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://fastestvpn.com/privacy-policy",
+      "select": "html > body > section:first-of-type > div"
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://fastestvpn.com/affiliate-policy",
+      "select": "html > body > section:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Camel camel camel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://camelcamelcamel.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://camelcamelcamel.com/tos",
+      "select": null
+    }
+  }
+}

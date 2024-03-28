@@ -1,0 +1,13 @@
+{
+  "name": "Oxifresh",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.oxifresh.com/terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.oxifresh.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

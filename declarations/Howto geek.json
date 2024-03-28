@@ -1,0 +1,13 @@
+{
+  "name": "Howto geek",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.howtogeek.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(5) > div > main > article > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.howtogeek.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(5) > div > main > article > div:first-of-type"
+    }
+  }
+}

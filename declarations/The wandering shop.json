@@ -1,0 +1,9 @@
+{
+  "name": "The wandering shop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wandering.shop/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:first-of-type > div"
+    }
+  }
+}

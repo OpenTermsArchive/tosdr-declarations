@@ -1,0 +1,9 @@
+{
+  "name": "Privacyspy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacyspy.org/terms-and-privacy/",
+      "select": "html > body > div > main"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "University of babylon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.uobabylon.edu.iq/web/privacy.pdf",
+      "select": "body"
+    }
+  }
+}

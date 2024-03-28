@@ -1,0 +1,13 @@
+{
+  "name": "Mga entertainment",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mgae.com/terms-of-use?country=usa",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mgae.com/privacy-policy?country=usa",
+      "select": "body"
+    }
+  }
+}

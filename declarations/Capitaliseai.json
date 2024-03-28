@@ -1,0 +1,13 @@
+{
+  "name": "Capitaliseai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://capitalise.ai/terms-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://capitalise.ai/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

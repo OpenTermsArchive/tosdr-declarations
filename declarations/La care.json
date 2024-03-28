@@ -1,0 +1,13 @@
+{
+  "name": "La care",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lacare.org/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lacare.org/privacy",
+      "select": "body"
+    }
+  }
+}

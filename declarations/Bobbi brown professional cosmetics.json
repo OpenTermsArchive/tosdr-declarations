@@ -1,0 +1,13 @@
+{
+  "name": "Bobbi brown professional cosmetics",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bobbibrowncosmetics.com/customer-service-corporate#corporate-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bobbibrowncosmetics.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

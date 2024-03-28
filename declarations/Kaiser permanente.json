@@ -1,0 +1,17 @@
+{
+  "name": "Kaiser permanente",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://healthy.kaiserpermanente.org/termsconditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://healthy.kaiserpermanente.org/privacy",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://healthy.kaiserpermanente.org/georgia/privacy-practices",
+      "select": "body"
+    }
+  }
+}

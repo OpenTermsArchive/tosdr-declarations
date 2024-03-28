@@ -1,0 +1,13 @@
+{
+  "name": "California pet pharmacy",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.californiapetpharmacy.com/company/policies/",
+      "select": "html > body > div:nth-of-type(2) > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.californiapetpharmacy.com/company/terms-and-conditions/",
+      "select": "html > body > div:nth-of-type(2) > main"
+    }
+  }
+}

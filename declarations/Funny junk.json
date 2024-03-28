@@ -1,0 +1,17 @@
+{
+  "name": "Funny junk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://funnyjunk.com/privacypolicy/",
+      "select": "html > body > nav > section > section > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://funnyjunk.com/termsofservice/",
+      "select": "html > body > nav > section > section > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://funnyjunk.com/copyrightnotice/",
+      "select": "html > body > nav > section > section > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

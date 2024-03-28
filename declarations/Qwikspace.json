@@ -1,0 +1,13 @@
+{
+  "name": "Qwikspace",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://qwik.space/articles/terms_of_service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://qwik.space/articles/privacy_policy",
+      "select": "body"
+    }
+  }
+}

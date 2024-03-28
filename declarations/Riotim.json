@@ -1,0 +1,17 @@
+{
+  "name": "Riotim",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://matrix.org/legal/terms-and-conditions/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://riot.im/privacy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://matrix-client.matrix.org/_matrix/consent?v=1.0",
+      "select": "html > body"
+    }
+  }
+}

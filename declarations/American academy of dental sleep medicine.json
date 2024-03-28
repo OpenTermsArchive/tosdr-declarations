@@ -1,0 +1,9 @@
+{
+  "name": "American academy of dental sleep medicine",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mms.aadsm.org/privacy_policy_start.php?org_id=adsm",
+      "select": "body"
+    }
+  }
+}

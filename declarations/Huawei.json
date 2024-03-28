@@ -1,0 +1,17 @@
+{
+  "name": "Huawei",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://consumer.huawei.com/en/legal/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://consumer.huawei.com/en/legal/terms-of-use/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://consumer.huawei.com/en/legal/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Scienceorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.science.org/content/page/terms-service",
+      "select": "html > body > div:first-of-type > div > div > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.science.org/content/page/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > main"
+    }
+  }
+}

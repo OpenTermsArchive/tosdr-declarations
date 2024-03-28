@@ -1,0 +1,13 @@
+{
+  "name": "Fanza",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://terms.dmm.co.jp/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://terms.dmm.co.jp/member/",
+      "select": "body"
+    }
+  }
+}

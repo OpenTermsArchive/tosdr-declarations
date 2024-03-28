@@ -1,0 +1,9 @@
+{
+  "name": "Lwnnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lwn.net/op/Privacy.lwn",
+      "select": "html > body > div:nth-of-type(4) > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

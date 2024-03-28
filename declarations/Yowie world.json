@@ -1,0 +1,13 @@
+{
+  "name": "Yowie world",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://yowieworld.com/terms-conditions/",
+      "select": " > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://yowieworld.com/privacy-policy/",
+      "select": " > div > div > div"
+    }
+  }
+}

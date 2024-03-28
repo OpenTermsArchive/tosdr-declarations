@@ -1,0 +1,13 @@
+{
+  "name": "Opencare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.opencare.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.opencare.com/terms/",
+      "select": "body"
+    }
+  }
+}

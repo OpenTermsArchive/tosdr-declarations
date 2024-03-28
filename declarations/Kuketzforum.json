@@ -1,0 +1,13 @@
+{
+  "name": "Kuketzforum",
+  "documents": {
+    "Frequently Asked Questions": {
+      "fetch": "https://forum.kuketz-blog.de/app.php/regeln_faq",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://forum.kuketz-blog.de/app.php/datenschutzhinweis",
+      "select": "body"
+    }
+  }
+}

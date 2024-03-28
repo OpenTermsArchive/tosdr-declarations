@@ -1,0 +1,9 @@
+{
+  "name": "Anilist",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://anilist.co/terms",
+      "select": "body"
+    }
+  }
+}

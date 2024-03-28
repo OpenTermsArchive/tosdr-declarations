@@ -1,0 +1,9 @@
+{
+  "name": "Migadu",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.migadu.com/terms/",
+      "select": "body"
+    }
+  }
+}

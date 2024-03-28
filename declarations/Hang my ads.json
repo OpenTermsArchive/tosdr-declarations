@@ -1,0 +1,9 @@
+{
+  "name": "Hang my ads",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://affiliates.hangmytracking.com/index.php?pag=terms",
+      "select": "body"
+    }
+  }
+}

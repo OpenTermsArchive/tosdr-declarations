@@ -1,0 +1,17 @@
+{
+  "name": "Click a snap",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.clickasnap.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.clickasnap.com/terms-and-conditions",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.clickasnap.com/refund-policy",
+      "select": "body"
+    }
+  }
+}

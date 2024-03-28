@@ -1,0 +1,25 @@
+{
+  "name": "Ring llc",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://shop.ring.com/pages/warranty",
+      "select": "html > body > div:nth-of-type(5) > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://ring.com/cookie-policy",
+      "select": "html > body > section > main > div:first-of-type"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://support.ring.com/hc/en-us/articles/360039693891-Enhancing-Security-with-Two-Step-Verification",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://ring.com/privacy-notice",
+      "select": "html > body > section > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://ring.com/terms",
+      "select": "html > body > section > main"
+    }
+  }
+}

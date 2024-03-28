@@ -1,0 +1,13 @@
+{
+  "name": "Free telly",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.freetelly.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.freetelly.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

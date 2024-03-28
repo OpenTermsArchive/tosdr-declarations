@@ -1,0 +1,17 @@
+{
+  "name": "Mit technology review",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.technologyreview.com/cookies/",
+      "select": " > div > div:first-of-type > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.technologyreview.com/privacy",
+      "select": " > div > div:first-of-type > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.technologyreview.com/terms-of-service/",
+      "select": " > div > div:first-of-type > div > div > div > div"
+    }
+  }
+}

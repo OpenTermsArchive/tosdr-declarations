@@ -1,0 +1,17 @@
+{
+  "name": "Psiphon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.psiphon.ca/en/privacy.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://psiphon.ca/cookiepolicy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://psiphon.ca/en/license.html",
+      "select": "body"
+    }
+  }
+}

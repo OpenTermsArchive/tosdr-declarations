@@ -1,0 +1,13 @@
+{
+  "name": "Ballotpedia",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://ballotpedia.org/Ballotpedia:General_disclaimer",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ballotpedia.org/Ballotpedia:Privacy_policy",
+      "select": "body"
+    }
+  }
+}

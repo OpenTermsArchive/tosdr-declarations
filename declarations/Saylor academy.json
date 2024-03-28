@@ -1,0 +1,13 @@
+{
+  "name": "Saylor academy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.saylor.org/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.saylor.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

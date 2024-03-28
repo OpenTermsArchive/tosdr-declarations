@@ -1,0 +1,17 @@
+{
+  "name": "Ebay",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260",
+      "select": "html > body > div:nth-of-type(5) > div > div:first-of-type > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "http://pages.ebay.com/help/account/cookies-web-beacons.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259",
+      "select": "html > body > div:nth-of-type(5) > div > div:first-of-type > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

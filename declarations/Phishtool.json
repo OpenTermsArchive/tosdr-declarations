@@ -1,0 +1,17 @@
+{
+  "name": "Phishtool",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://phishtool.com/terms-of-service",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://phishtool.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://phishtool.com/proof-of-value-agreement",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    }
+  }
+}

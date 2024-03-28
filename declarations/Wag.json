@@ -1,0 +1,13 @@
+{
+  "name": "Wag",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://safety.wagwalking.com/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://safety.wagwalking.com/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    }
+  }
+}

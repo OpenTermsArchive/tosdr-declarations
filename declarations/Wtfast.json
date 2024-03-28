@@ -1,0 +1,17 @@
+{
+  "name": "Wtfast",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wtfast.com/en/terms-of-service/",
+      "select": "html > body > main > content"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wtfast.com/en/privacy-policy",
+      "select": "html > body > main > content"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wtfast.com/en/cookies/",
+      "select": "html > body > main > content"
+    }
+  }
+}

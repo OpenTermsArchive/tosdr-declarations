@@ -1,0 +1,17 @@
+{
+  "name": "Educba",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.educba.com/shipping-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.educba.com/terms-and-conditions/?source=footer",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.educba.com/privacy-policy/?source=footer",
+      "select": "body"
+    }
+  }
+}

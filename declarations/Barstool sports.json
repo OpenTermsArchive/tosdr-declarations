@@ -1,0 +1,13 @@
+{
+  "name": "Barstool sports",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.barstoolsports.com/privacy-policy",
+      "select": "body"
+    },
+    "Merged": {
+      "fetch": "https://www.barstoolsports.com/privacy-policy",
+      "select": null
+    }
+  }
+}

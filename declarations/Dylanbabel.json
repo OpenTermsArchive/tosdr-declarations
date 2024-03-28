@@ -1,0 +1,9 @@
+{
+  "name": "Dylanbabel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dylanbabel.tk/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

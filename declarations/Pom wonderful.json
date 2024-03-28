@@ -1,0 +1,13 @@
+{
+  "name": "Pom wonderful",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pomwonderful.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pomwonderful.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

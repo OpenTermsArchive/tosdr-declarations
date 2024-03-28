@@ -1,0 +1,13 @@
+{
+  "name": "The school district of philadelphia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.philasd.org/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.philasd.org/terms-of-use",
+      "select": "body"
+    }
+  }
+}

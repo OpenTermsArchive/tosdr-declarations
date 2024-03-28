@@ -1,0 +1,9 @@
+{
+  "name": "Mcmastercarr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mcmaster.com/termsandconditions/",
+      "select": "body"
+    }
+  }
+}

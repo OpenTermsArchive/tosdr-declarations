@@ -1,0 +1,13 @@
+{
+  "name": "Chat hispano",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://chathispano.com/condiciones/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://chathispano.com/lopd/",
+      "select": "body"
+    }
+  }
+}

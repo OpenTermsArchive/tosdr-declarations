@@ -1,0 +1,9 @@
+{
+  "name": "Liberachat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://libera.chat/privacy",
+      "select": null
+    }
+  }
+}

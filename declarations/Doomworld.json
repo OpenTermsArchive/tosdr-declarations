@@ -1,0 +1,9 @@
+{
+  "name": "Doomworld",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.doomworld.com/privacy/",
+      "select": "body"
+    }
+  }
+}

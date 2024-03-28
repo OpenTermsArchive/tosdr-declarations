@@ -1,0 +1,9 @@
+{
+  "name": "Northcountry",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.northcountry.org/home/fiFiles/static/documents/Privacy_policy.pdf ",
+      "select": "body"
+    }
+  }
+}

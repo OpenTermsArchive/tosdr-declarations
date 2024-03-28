@@ -1,0 +1,9 @@
+{
+  "name": "Medtinker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://medtinker.net/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

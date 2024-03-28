@@ -1,0 +1,13 @@
+{
+  "name": "Lover app inc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lover.io/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lover.io/privacy-policy",
+      "select": "body"
+    }
+  }
+}

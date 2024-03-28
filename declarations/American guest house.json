@@ -1,0 +1,9 @@
+{
+  "name": "American guest house",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.americanguesthouse.com/privacy-policy",
+      "select": null
+    }
+  }
+}

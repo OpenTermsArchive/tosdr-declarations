@@ -1,0 +1,13 @@
+{
+  "name": "Clevertype",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.clevertype.co/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.clevertype.co/privacy-policy",
+      "select": "body"
+    }
+  }
+}

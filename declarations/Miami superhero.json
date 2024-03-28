@@ -1,0 +1,17 @@
+{
+  "name": "Miami superhero",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://miamisuperhero.com/terms-of-use",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://miamisuperhero.com/refund-policy",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://miamisuperhero.com/privacy-policy",
+      "select": null
+    }
+  }
+}

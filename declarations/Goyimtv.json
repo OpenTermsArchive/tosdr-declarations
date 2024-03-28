@@ -1,0 +1,13 @@
+{
+  "name": "Goyimtv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.goyimtv.tv/page?t=page-privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.goyimtv.tv/page?t=page-terms",
+      "select": "body"
+    }
+  }
+}

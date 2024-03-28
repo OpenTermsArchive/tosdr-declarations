@@ -1,0 +1,13 @@
+{
+  "name": "Ra4w vpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ra4wvpn.com/tos",
+      "select": "html > body > section > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ra4wvpn.com/privacy",
+      "select": "html > body > div > section > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Reality media",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://realitymediainc.com/privacypolicy.html",
+      "select": "body"
+    }
+  }
+}

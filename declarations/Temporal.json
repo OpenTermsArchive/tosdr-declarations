@@ -1,0 +1,13 @@
+{
+  "name": "Temporal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.temporal.io/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.temporal.io/pdf/temporal-tos-2021-07-24.pdf",
+      "select": "body"
+    }
+  }
+}

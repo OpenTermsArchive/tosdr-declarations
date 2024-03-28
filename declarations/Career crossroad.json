@@ -1,0 +1,13 @@
+{
+  "name": "Career crossroad",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://careerscrossroad.com/pages/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://careerscrossroad.com/pages/privacy.html",
+      "select": "body"
+    }
+  }
+}

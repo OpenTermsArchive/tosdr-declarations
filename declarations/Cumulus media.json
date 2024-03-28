@@ -1,0 +1,13 @@
+{
+  "name": "Cumulus media",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cumulusmedia.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cumulusmedia.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

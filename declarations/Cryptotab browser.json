@@ -1,0 +1,13 @@
+{
+  "name": "Cryptotab browser",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cryptobrowser.site/en/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://cryptobrowser.site/en/terms",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

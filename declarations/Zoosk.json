@@ -1,0 +1,21 @@
+{
+  "name": "Zoosk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zoosk.com/privacy.php?from=footer",
+      "select": "div.privacy-policy-eu"
+    },
+    "Trackers Policy": {
+      "fetch": "https://docviewer.zoosk.com/legal-cookiepolicy-en.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://docviewer.zoosk.com/legal-tos-en.html",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://docviewer.zoosk.com/legal-erecords.html",
+      "select": "body"
+    }
+  }
+}

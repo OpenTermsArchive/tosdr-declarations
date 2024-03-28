@@ -1,0 +1,9 @@
+{
+  "name": "Toms hardware",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://hothardware.com/pages/privacyterms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Ngp van",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ngpvan.com/content/terms-service",
+      "select": " > div > section:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ngpvan.com/content/data-processing-agreement",
+      "select": " > div > section:nth-of-type(2) > div > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.ngpvan.com/content/acceptable-use-policy",
+      "select": " > div > section:nth-of-type(2) > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ngpvan.com/content/cookie-policy",
+      "select": " > div > section:nth-of-type(2) > div > div"
+    }
+  }
+}

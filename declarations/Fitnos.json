@@ -1,0 +1,13 @@
+{
+  "name": "Fitnos",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.getfitnos.com/gpstracker/try/v3/page-terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.getfitnos.com/gpstracker/try/v3/page-privacy.php",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Vionic shoes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.vionicshoes.com/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vionicshoes.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    }
+  }
+}

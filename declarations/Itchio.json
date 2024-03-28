@@ -1,0 +1,17 @@
+{
+  "name": "Itchio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://itch.io/docs/legal/privacy-policy",
+      "select": "div.content_column"
+    },
+    "Trackers Policy": {
+      "fetch": "https://itch.io/docs/legal/cookie-policy",
+      "select": "div.content_column"
+    },
+    "Terms of Service": {
+      "fetch": "https://itch.io/docs/legal/terms",
+      "select": "div.content_column"
+    }
+  }
+}

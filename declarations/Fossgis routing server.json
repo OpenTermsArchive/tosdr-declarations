@@ -1,0 +1,13 @@
+{
+  "name": "Fossgis routing server",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fossgis.de/datenschutzerkl%C3%A4rung/",
+      "select": "body"
+    },
+    "About": {
+      "fetch": "http://routing.openstreetmap.de/about.html",
+      "select": "body"
+    }
+  }
+}

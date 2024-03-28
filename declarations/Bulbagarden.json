@@ -1,0 +1,9 @@
+{
+  "name": "Bulbagarden",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bulbapedia.bulbagarden.net/wiki/Bulbapedia:Privacy_policy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Cloud dns",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cloudns.net/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cloudns.net/tos/",
+      "select": "body"
+    }
+  }
+}

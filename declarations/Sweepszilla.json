@@ -1,0 +1,13 @@
+{
+  "name": "Sweepszilla",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sweepszilla.com/Site/Terms",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sweepszilla.com/Site/PrivacyPolicy",
+      "select": "body"
+    }
+  }
+}

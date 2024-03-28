@@ -1,0 +1,9 @@
+{
+  "name": "Groundnews",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://about.ground.news/privacy-policy",
+      "select": " > div > p"
+    }
+  }
+}

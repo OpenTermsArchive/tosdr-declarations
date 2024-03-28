@@ -1,0 +1,9 @@
+{
+  "name": "Tapad",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tapad.com/global-privacy-notice",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Occupy democrats",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://occupydemocrats.com/privacy/",
+      "select": "body"
+    }
+  }
+}

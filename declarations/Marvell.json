@@ -1,0 +1,13 @@
+{
+  "name": "Marvell",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.marvell.com/privacy-statement.html",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.marvell.com/terms-of-use.html",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

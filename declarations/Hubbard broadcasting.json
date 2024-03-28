@@ -1,0 +1,13 @@
+{
+  "name": "Hubbard broadcasting",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hubbardbroadcasting.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hubbardbroadcasting.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

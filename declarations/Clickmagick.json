@@ -1,0 +1,13 @@
+{
+  "name": "Clickmagick",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.clickmagick.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.clickmagick.com/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Definitionorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://definition.org/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://definition.org/privacy",
+      "select": "body"
+    }
+  }
+}

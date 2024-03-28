@@ -1,0 +1,13 @@
+{
+  "name": "Onehackus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://onehack.us/t/onehack-privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://onehack.us/t/terms-of-service",
+      "select": "body"
+    }
+  }
+}

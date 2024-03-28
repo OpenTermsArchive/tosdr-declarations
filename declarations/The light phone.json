@@ -1,0 +1,9 @@
+{
+  "name": "The light phone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thelightphone.com/cookie-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Mediaplayer10",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mediaplayer10.com/terms-service/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mediaplayer10.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Mugglenet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mugglenet.com/site/privacy/",
+      "select": "body"
+    }
+  }
+}

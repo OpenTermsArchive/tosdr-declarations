@@ -1,0 +1,13 @@
+{
+  "name": "Genoa healthcare",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.genoahealthcare.com/website-terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.genoahealthcare.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

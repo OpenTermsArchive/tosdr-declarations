@@ -1,0 +1,13 @@
+{
+  "name": "Livemecom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pro.liveme.com/protocol/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://pro.liveme.com/protocol/terms.html",
+      "select": "body"
+    }
+  }
+}

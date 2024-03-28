@@ -1,0 +1,13 @@
+{
+  "name": "Valevpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.valevpn.com/terms-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.valevpn.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

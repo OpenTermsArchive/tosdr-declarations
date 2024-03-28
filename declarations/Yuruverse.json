@@ -1,0 +1,9 @@
+{
+  "name": "Yuruverse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yt.funami.tech/privacy",
+      "select": "body"
+    }
+  }
+}

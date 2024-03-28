@@ -1,0 +1,13 @@
+{
+  "name": "Socialpass",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.socialpass.ch/en/data-protection/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.socialpass.ch/en/cct/",
+      "select": "body"
+    }
+  }
+}

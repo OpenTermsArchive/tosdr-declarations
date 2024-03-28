@@ -1,0 +1,13 @@
+{
+  "name": "Chequered ink ltd",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://chequered.ink/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://chequered.ink/privacy-policy/",
+      "select": null
+    }
+  }
+}

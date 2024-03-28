@@ -1,0 +1,13 @@
+{
+  "name": "Onlineconverter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.onlineconverter.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.onlineconverter.com/privacy",
+      "select": "body"
+    }
+  }
+}

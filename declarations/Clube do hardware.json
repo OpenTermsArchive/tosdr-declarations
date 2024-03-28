@@ -1,0 +1,13 @@
+{
+  "name": "Clube do hardware",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.clubedohardware.com.br/pagina/privacidade/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.clubedohardware.com.br/topic/690576-regras-do-clube-do-hardware-atualizadas-em-08062020/",
+      "select": "body"
+    }
+  }
+}

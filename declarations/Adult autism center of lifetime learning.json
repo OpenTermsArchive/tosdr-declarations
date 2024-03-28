@@ -1,0 +1,13 @@
+{
+  "name": "Adult autism center of lifetime learning",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://adultautismcenter.org/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://adultautismcenter.org/terms-and-conditions/",
+      "select": "html > body > main > section"
+    }
+  }
+}

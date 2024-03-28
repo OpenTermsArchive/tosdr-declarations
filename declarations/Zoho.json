@@ -1,0 +1,21 @@
+{
+  "name": "Zoho",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.zoho.com/privacy/cookie-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.zoho.com/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.zoho.com/privacy.html",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.zoho.com/policy.html",
+      "select": "body"
+    }
+  }
+}

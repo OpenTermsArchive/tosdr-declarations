@@ -1,0 +1,9 @@
+{
+  "name": "Kemono",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://kemono.party/dmca",
+      "select": "body"
+    }
+  }
+}

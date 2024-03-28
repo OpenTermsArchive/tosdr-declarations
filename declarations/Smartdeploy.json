@@ -1,0 +1,9 @@
+{
+  "name": "Smartdeploy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.smartdeploy.com/terms-privacy",
+      "select": "body"
+    }
+  }
+}

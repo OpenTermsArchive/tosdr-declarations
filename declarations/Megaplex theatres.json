@@ -1,0 +1,13 @@
+{
+  "name": "Megaplex theatres",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.megaplextheatres.com/i/privacypolicy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.megaplextheatres.com/i/termsandconditions",
+      "select": null
+    }
+  }
+}

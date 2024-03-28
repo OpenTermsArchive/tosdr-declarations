@@ -1,0 +1,13 @@
+{
+  "name": "U k insurance limited",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://u-k-insurance.co.uk/brands-policy.html",
+      "select": "html > body > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://u-k-insurance.co.uk/cookies-notice.html",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

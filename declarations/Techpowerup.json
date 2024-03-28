@@ -1,0 +1,13 @@
+{
+  "name": "Techpowerup",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.techpowerup.com/forums/help/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.techpowerup.com/forums/help/terms/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    }
+  }
+}

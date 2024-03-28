@@ -1,0 +1,9 @@
+{
+  "name": "Le crabe info",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lecrabeinfo.net/politique-de-confidentialite",
+      "select": "body"
+    }
+  }
+}

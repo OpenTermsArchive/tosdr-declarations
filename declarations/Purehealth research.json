@@ -1,0 +1,17 @@
+{
+  "name": "Purehealth research",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://liverhealthformula.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://liverhealthformula.com/terms-and-conditions",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://liverhealthformula.com/return-exchange-policy",
+      "select": "body"
+    }
+  }
+}

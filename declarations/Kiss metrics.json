@@ -1,0 +1,13 @@
+{
+  "name": "Kiss metrics",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kissmetrics.io/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kissmetrics.io/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Red black tree doo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rbt.rs/privacy",
+      "select": "html > body > div > div > div > main"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Audacity",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.audacityteam.org/terms-of-service/",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://www.audacityteam.org/about/desktop-privacy-notice/",
+      "select": null
+    }
+  }
+}

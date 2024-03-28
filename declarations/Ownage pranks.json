@@ -1,0 +1,9 @@
+{
+  "name": "Ownage pranks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ownagepranks.com/tos-privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(3) > div > div:first-of-type > div > div > div:first-of-type"
+    }
+  }
+}

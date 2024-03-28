@@ -1,0 +1,17 @@
+{
+  "name": "Fetster",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.fetster.com/internetdatingsafetyact",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fetster.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fetster.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    }
+  }
+}

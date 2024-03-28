@@ -1,0 +1,21 @@
+{
+  "name": "Taboola",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.taboola.com/policies/platform-terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.taboola.com/policies/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.taboola.com/policies/cookie-policy",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.taboola.com/policies/vulnerability-disclosure-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Universitystudentorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.universitystudent.org/site/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.universitystudent.org/site/terms",
+      "select": "body"
+    }
+  }
+}

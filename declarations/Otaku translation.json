@@ -1,0 +1,9 @@
+{
+  "name": "Otaku translation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://otakutl.blogspot.com/p/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

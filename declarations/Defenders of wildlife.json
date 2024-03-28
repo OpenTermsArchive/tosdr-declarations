@@ -1,0 +1,13 @@
+{
+  "name": "Defenders of wildlife",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://defenders.org/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://defenders.org/defenders-wildlife-privacy-policy",
+      "select": "body"
+    }
+  }
+}

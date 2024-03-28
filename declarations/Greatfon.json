@@ -1,0 +1,9 @@
+{
+  "name": "Greatfon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://greatfon.com/page/privacy",
+      "select": "body"
+    }
+  }
+}

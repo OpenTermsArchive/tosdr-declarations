@@ -1,0 +1,17 @@
+{
+  "name": "Miraheze",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://meta.miraheze.org/wiki/Meta:General_disclaimer",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://meta.miraheze.org/w/index.php?title=Terms_of_Use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://meta.miraheze.org/wiki/Privacy_Policy",
+      "select": "body"
+    }
+  }
+}

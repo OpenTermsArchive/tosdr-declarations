@@ -1,0 +1,13 @@
+{
+  "name": "Anydesk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://anydesk.com/en/data-processing-agreement",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://anydesk.com/en/terms",
+      "select": "body"
+    }
+  }
+}

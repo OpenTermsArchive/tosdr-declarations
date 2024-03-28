@@ -1,0 +1,9 @@
+{
+  "name": "Wikimatrix",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wikimatrix.org/static/privacy",
+      "select": "html > body > div:nth-of-type(4) > div > div:nth-of-type(2)"
+    }
+  }
+}

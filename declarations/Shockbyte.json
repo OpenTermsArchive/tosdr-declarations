@@ -1,0 +1,13 @@
+{
+  "name": "Shockbyte",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://shockbyte.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://shockbyte.com/terms-of-service",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > section:nth-of-type(2)"
+    }
+  }
+}

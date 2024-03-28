@@ -1,0 +1,13 @@
+{
+  "name": "Edison software",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.edison.tech/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.edison.tech/privacy",
+      "select": "body"
+    }
+  }
+}

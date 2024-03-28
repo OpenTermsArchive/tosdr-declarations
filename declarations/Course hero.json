@@ -1,0 +1,13 @@
+{
+  "name": "Course hero",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.coursehero.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.coursehero.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Buy emergency medical products",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.buyemp.com/terms-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.buyemp.com/privacy-statement",
+      "select": "body"
+    }
+  }
+}

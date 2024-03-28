@@ -1,0 +1,13 @@
+{
+  "name": "Smartertips",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://smartertips.net/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://smartertips.net/terms-of-use",
+      "select": "body"
+    }
+  }
+}

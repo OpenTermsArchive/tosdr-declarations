@@ -1,0 +1,13 @@
+{
+  "name": "Creased cards",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.creasedcards.com/cookies",
+      "select": "html > body > div:nth-of-type(6) > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.creasedcards.com/privacy-policy-i4",
+      "select": "html > body > div:nth-of-type(6) > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Stack exchange",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://stackexchange.com/legal/content-policy",
+      "select": "body"
+    },
+    "Developer Terms": {
+      "fetch": "https://stackexchange.com/legal/api-terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://stackexchange.com/legal/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://stackoverflow.com/legal/terms-of-service/public",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://stackexchange.com/legal/trademark-guidance",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div > div > div:nth-of-type(2) > main"
+    }
+  }
+}

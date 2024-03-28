@@ -1,0 +1,13 @@
+{
+  "name": "Simplenote",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://simplenote.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://automattic.com/privacy/",
+      "select": "body"
+    }
+  }
+}

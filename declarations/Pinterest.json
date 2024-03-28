@@ -1,0 +1,17 @@
+{
+  "name": "Pinterest",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policy.pinterest.com/en/privacy-policy",
+      "select": "main.site__content article:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://policy.pinterest.com/en/terms-of-service",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.pinterest.com/en/articles/third-party-analytics-or-advertising-providers-pinterest-uses-or-allows",
+      "select": null
+    }
+  }
+}

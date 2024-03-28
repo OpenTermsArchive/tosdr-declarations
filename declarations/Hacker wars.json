@@ -1,0 +1,13 @@
+{
+  "name": "Hacker wars",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hackerwars.io/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://hackerwars.io/TOS",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sendent",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sendent.nl/wp-content/uploads/2020/06/Terms-and-Conditions-Sendent-BV_February-2020.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sendent.nl/privacy-policy/?lang=en",
+      "select": null
+    }
+  }
+}

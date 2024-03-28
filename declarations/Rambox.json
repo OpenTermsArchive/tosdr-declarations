@@ -1,0 +1,13 @@
+{
+  "name": "Rambox",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rambox.app/#terms-use",
+      "select": "html > body > section > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://rambox.app/#privacy-policy",
+      "select": "html > body > section > section"
+    }
+  }
+}

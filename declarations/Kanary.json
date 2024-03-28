@@ -1,0 +1,13 @@
+{
+  "name": "Kanary",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thekanary.com/signup/terms",
+      "select": "html > body > main > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thekanary.com/privacy_and_security",
+      "select": "html > body > main > section:nth-of-type(2)"
+    }
+  }
+}

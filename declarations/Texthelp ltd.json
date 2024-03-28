@@ -1,0 +1,21 @@
+{
+  "name": "Texthelp ltd",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://support.texthelp.com/help/changes-to-our-end-user-licence-agreements",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vQCSBCA7MNK_t-Rm0-jpUzEqArG9MzZzgtP6pyMLUDi9Pvdg2Xmd5-XeCV0BoXQ1V2jkx4J3v4pMvjw/pub",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/1l9GWjNkyetuyg-WcHJoi-18K-kfDWNcT3_P8kSuHEVY/pub",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vT7M-dFSbEanEZMNdGo7_nn_jfGaEa6XhDZK7hqTScwCTp8QA3l7izaWcoixJMRD_Rmv2zfLo4nLgRN/pub",
+      "select": "body"
+    }
+  }
+}

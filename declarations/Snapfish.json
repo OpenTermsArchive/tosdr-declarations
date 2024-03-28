@@ -1,0 +1,17 @@
+{
+  "name": "Snapfish",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.snapfish.com/privacy-overlay",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.snapfish.com/tac-overlay",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.snapfish.com/cookienotice-overlay",
+      "select": "body"
+    }
+  }
+}

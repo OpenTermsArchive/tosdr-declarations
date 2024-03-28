@@ -1,0 +1,21 @@
+{
+  "name": "Shadow",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://shadow.tech/terms-of-use",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://shadow.tech/legal-notice",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://shadow.tech/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://shadow.tech/cookies",
+      "select": "body"
+    }
+  }
+}

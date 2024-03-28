@@ -1,0 +1,17 @@
+{
+  "name": "Lo4d",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lo4d.com/corp/privacy",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lo4d.com/corp/terms",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(4)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.lo4d.com/corp/dmca",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(4)"
+    }
+  }
+}

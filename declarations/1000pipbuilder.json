@@ -1,0 +1,13 @@
+{
+  "name": "1000pipbuilder",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.1000pipbuilder.com/privacy-policy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.1000pipbuilder.com/termsanddisclaimer/",
+      "select": "body"
+    }
+  }
+}

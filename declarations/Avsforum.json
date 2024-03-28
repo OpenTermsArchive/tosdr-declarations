@@ -1,0 +1,13 @@
+{
+  "name": "Avsforum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.avsforum.com/help/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.avsforum.com/help/terms/",
+      "select": "body"
+    }
+  }
+}

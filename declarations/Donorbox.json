@@ -1,0 +1,13 @@
+{
+  "name": "Donorbox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://donorbox.org/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://donorbox.org/terms",
+      "select": "html > body > main > section:nth-of-type(2) > ol"
+    }
+  }
+}

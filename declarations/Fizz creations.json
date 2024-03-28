@@ -1,0 +1,13 @@
+{
+  "name": "Fizz creations",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.fizzcreations.com/fizz-creations-privacy-notice/ ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fizzcreations.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

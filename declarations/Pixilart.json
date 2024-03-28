@@ -1,0 +1,13 @@
+{
+  "name": "Pixilart",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pixilart.com/privacy",
+      "select": "html > body > div:first-of-type > main > section:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://pixilart.com/terms",
+      "select": "html > body > div:first-of-type > main > section:first-of-type"
+    }
+  }
+}

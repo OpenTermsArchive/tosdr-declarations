@@ -1,0 +1,9 @@
+{
+  "name": "Tubebuddy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tubebuddy.com/privacy",
+      "select": "body"
+    }
+  }
+}

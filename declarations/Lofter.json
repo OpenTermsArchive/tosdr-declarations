@@ -1,0 +1,13 @@
+{
+  "name": "Lofter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lofter.com/agreement",
+      "select": "html > body > div:nth-of-type(4) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lofter.com/agreement?op=privacyPolicy",
+      "select": "html > body > div:nth-of-type(4) > div > div:nth-of-type(2)"
+    }
+  }
+}

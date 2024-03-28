@@ -1,0 +1,13 @@
+{
+  "name": "Naked juice company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policy.nakedjuice.com/privacy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nakedjuice.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Omada health",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.omadahealth.com/terms-of-use",
+      "select": "html > body > div:first-of-type > main > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.omadahealth.com/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Sparkling ice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sparklingice.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

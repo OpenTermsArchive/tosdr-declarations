@@ -1,0 +1,13 @@
+{
+  "name": "Adgate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://adgaterewards.com/wallprivacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://adgaterewards.com/wallterms",
+      "select": "body"
+    }
+  }
+}

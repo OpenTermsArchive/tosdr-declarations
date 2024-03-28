@@ -1,0 +1,13 @@
+{
+  "name": "Vidcloud",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vidcloud.co/terms",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://vidcloud.co/copyright",
+      "select": null
+    }
+  }
+}

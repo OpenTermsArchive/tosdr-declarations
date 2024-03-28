@@ -1,0 +1,13 @@
+{
+  "name": "Hypeauditor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hypeauditor.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://hypeauditor.com/terms",
+      "select": null
+    }
+  }
+}

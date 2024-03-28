@@ -1,0 +1,13 @@
+{
+  "name": "Contemporary pediatric dentistry",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://contemppediatrdent.org/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://contemppediatrdent.org/privacy-policy/",
+      "select": "html > body > main > div > div:first-of-type > section:nth-of-type(2)"
+    }
+  }
+}

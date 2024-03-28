@@ -1,0 +1,9 @@
+{
+  "name": "Cpa canada",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cpacanada.ca/en/privacy-policy ",
+      "select": "body"
+    }
+  }
+}

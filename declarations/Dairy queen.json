@@ -1,0 +1,13 @@
+{
+  "name": "Dairy queen",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.dairyqueen.com/en-us/terms-conditions/",
+      "select": " > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dairyqueen.com/en-us/privacy-statement/",
+      "select": " > div"
+    }
+  }
+}

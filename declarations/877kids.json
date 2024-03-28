@@ -1,0 +1,9 @@
+{
+  "name": "877kids",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.877kids.com/Content/patient-forms/877Kids-Privacy-Policy.pdf",
+      "select": "body"
+    }
+  }
+}

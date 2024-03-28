@@ -1,0 +1,13 @@
+{
+  "name": "Webinar",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://webinar.ru/legal/private-agreement-soft.pdf",
+      "select": "body"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://webinar.ru/legal/agreement_paid_webinars.pdf",
+      "select": "body"
+    }
+  }
+}

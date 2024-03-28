@@ -1,0 +1,13 @@
+{
+  "name": "Tracemyip",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tracemyip.org/tos.htm",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tracemyip.org/privacy.htm",
+      "select": "body"
+    }
+  }
+}

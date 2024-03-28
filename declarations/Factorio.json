@@ -1,0 +1,13 @@
+{
+  "name": "Factorio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://factorio.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://factorio.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Philips hue",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.philips-hue.com/en-us/support/legal/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.philips-hue.com/en-us/support/legal/cookie-notice",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2) > div > div:nth-of-type(2) > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.philips-hue.com/en-us/support/legal/terms-conditions",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2) > div > div:nth-of-type(2) > section"
+    }
+  }
+}

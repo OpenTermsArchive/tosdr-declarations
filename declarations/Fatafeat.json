@@ -1,0 +1,9 @@
+{
+  "name": "Fatafeat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fatafeat.com/privacy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:first-of-type"
+    }
+  }
+}

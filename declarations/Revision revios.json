@@ -1,0 +1,13 @@
+{
+  "name": "Revision revios",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.revi.cc/policies/legal",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.revi.cc/policies/terms-of-use",
+      "select": "body"
+    }
+  }
+}

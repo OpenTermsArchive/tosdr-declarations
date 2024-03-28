@@ -1,0 +1,13 @@
+{
+  "name": "Scam call fighters",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.scamcallfighters.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://www.scamcallfighters.com/terms.html",
+      "select": "body"
+    }
+  }
+}

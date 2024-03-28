@@ -1,0 +1,13 @@
+{
+  "name": "Discadia",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://discadia.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://discadia.com/privacy",
+      "select": "body"
+    }
+  }
+}

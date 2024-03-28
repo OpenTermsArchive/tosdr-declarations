@@ -1,0 +1,17 @@
+{
+  "name": "Titanhq",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.titanhq.com/about/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.titanhq.com/about/cookie-policy/",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.titanhq.com/about/terms-conditions/",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

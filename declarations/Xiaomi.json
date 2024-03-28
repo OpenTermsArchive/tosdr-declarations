@@ -1,0 +1,13 @@
+{
+  "name": "Xiaomi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mi.com/global/about/agreement/",
+      "select": "html > body > div:nth-of-type(5)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mi.com/global/about/privacy/",
+      "select": "html > body > div:nth-of-type(5)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Regions banking",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.regions.com/about-regions/privacy-security",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.regions.com/digital-banking/digital-services/electronic-banking-service-agreement",
+      "select": null
+    }
+  }
+}

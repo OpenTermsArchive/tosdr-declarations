@@ -1,0 +1,13 @@
+{
+  "name": "Rain of snow",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rainofsnow.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://rainofsnow.com/term-and-conditions/",
+      "select": "body"
+    }
+  }
+}

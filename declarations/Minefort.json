@@ -1,0 +1,21 @@
+{
+  "name": "Minefort",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://minefort.com/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://minefort.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://minefort.com/terms-of-service",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://minefort.com/refund-policy",
+      "select": "body"
+    }
+  }
+}

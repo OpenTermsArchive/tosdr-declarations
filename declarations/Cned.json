@@ -1,0 +1,17 @@
+{
+  "name": "Cned",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://college.cned.fr/theme/ecl/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://college.cned.fr/theme/ecl/gdpr.php",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.cned.fr/informations-légales/cookies",
+      "select": "body"
+    }
+  }
+}

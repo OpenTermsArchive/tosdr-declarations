@@ -1,0 +1,9 @@
+{
+  "name": "Michael west",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.michaelwest.com.au/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div > div > div > div"
+    }
+  }
+}

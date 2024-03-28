@@ -1,0 +1,17 @@
+{
+  "name": "Trystlink",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://tryst.link/legal-notices ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tryst.link/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tryst.link/terms",
+      "select": null
+    }
+  }
+}

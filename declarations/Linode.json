@@ -1,0 +1,9 @@
+{
+  "name": "Linode",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.linode.com/legal",
+      "select": "body"
+    }
+  }
+}

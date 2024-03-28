@@ -1,0 +1,13 @@
+{
+  "name": "Bluraycom",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.blu-ray.com/legal/",
+      "select": "html > body > center:nth-of-type(2) > table > tbody > tr > td:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.blu-ray.com/contact/privacy.php",
+      "select": "html > body > center:nth-of-type(2) > table > tbody > tr > td:nth-of-type(2)"
+    }
+  }
+}

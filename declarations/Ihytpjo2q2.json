@@ -1,0 +1,9 @@
+{
+  "name": "Ihytpjo2q2",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ihytpjo2q2.com/terms",
+      "select": "body"
+    }
+  }
+}

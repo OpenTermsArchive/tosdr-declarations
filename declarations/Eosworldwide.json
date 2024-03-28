@@ -1,0 +1,17 @@
+{
+  "name": "Eosworldwide",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.eosworldwide.com/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.eosworldwide.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.eosworldwide.com/terms-conditions",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Overdrive",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://company.cdn.overdrive.com/policies/cookie-policy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://company.cdn.overdrive.com/policies/terms-and-conditions.htm",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://company.cdn.overdrive.com/policies/security-statement",
+      "select": "body"
+    }
+  }
+}

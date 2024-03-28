@@ -1,0 +1,13 @@
+{
+  "name": "Vyprimax male enhancement",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tryvyprimaxnow.com/vy-a-s/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tryvyprimaxnow.com/vy-a-s/terms",
+      "select": "body"
+    }
+  }
+}

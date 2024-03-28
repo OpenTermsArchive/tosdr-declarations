@@ -1,0 +1,13 @@
+{
+  "name": "Nextroll",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.nextroll.com/privacy",
+      "select": "html > body > section:nth-of-type(2) > div > section:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nextroll.com/terms",
+      "select": "html > body > section:nth-of-type(2) > div > section:nth-of-type(2) > div"
+    }
+  }
+}

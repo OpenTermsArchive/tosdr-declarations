@@ -1,0 +1,13 @@
+{
+  "name": "Petal search",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://h5hosting-dra.dbankcdn.com/cch5/petalsearch/global/agreement/common/b0/latest/terms.htm?timestamp=202305182250",
+      "select": "html > body > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://h5hosting-dra.dbankcdn.com/cch5/petalsearch/global/agreement/Aspiegel/b0/latest/privacy-statement-en-us.htm?timestamp=202305182250",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Startup alley",
+  "documents": {
+    "Policy": {
+      "fetch": "https://playstartupalley.com/payment-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://playstartupalley.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://playstartupalley.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

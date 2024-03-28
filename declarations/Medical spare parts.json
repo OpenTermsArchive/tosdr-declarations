@@ -1,0 +1,13 @@
+{
+  "name": "Medical spare parts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.medicalspareparts.com/en/privacy-policy-cookie-restriction-mode",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.medicalspareparts.com/en/general-terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Wizebot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://support.wizebot.tv/support/terms",
+      "select": "html > body > div:first-of-type > main > div > article"
+    }
+  }
+}

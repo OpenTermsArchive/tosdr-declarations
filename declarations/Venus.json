@@ -1,0 +1,13 @@
+{
+  "name": "Venus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.venus.com/privacy.aspx",
+      "select": " > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.venus.com/termsofuse.aspx",
+      "select": " > div > div"
+    }
+  }
+}

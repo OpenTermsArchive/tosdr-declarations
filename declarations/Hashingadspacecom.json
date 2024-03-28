@@ -1,0 +1,9 @@
+{
+  "name": "Hashingadspacecom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hashingadspace.com/privacy_policy.php",
+      "select": "body"
+    }
+  }
+}

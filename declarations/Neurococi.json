@@ -1,0 +1,17 @@
+{
+  "name": "Neurococi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://neurococi.ro/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://neurococi.ro/legal#2",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://neurococi.ro/legal",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Coffee mugs never lie",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://coffeemugsneverlie.com/pages/return-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://coffeemugsneverlie.com/pages/terms-and-conditions",
+      "select": "html > body > main"
+    }
+  }
+}

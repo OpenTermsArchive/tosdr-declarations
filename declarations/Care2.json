@@ -1,0 +1,13 @@
+{
+  "name": "Care2",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.care2.com/help/general/tos.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.care2.com/privacy-policy",
+      "select": null
+    }
+  }
+}

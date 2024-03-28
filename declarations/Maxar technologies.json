@@ -1,0 +1,13 @@
+{
+  "name": "Maxar technologies",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.maxar.com/legal/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.maxar.com/legal/website-terms-of-use",
+      "select": "body"
+    }
+  }
+}

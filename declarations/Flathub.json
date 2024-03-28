@@ -1,0 +1,13 @@
+{
+  "name": "Flathub",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://flathub.org/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://flathub.org/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div"
+    }
+  }
+}

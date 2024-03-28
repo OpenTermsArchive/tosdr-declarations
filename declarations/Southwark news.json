@@ -1,0 +1,17 @@
+{
+  "name": "Southwark news",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.southwarknews.co.uk/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.southwarknews.co.uk/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.southwarknews.co.uk/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Wifi map",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wifimap.notion.site/WiFi-Map-Terms-of-Use-fbb2b31e0bc544cbbf8d671a3544ac5b",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wifimap.notion.site/wifimap/WiFi-Map-Privacy-Policy-Android-6c0f86d18b8a40718260a676182094a9",
+      "select": "body"
+    }
+  }
+}

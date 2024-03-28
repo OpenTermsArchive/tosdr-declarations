@@ -1,0 +1,13 @@
+{
+  "name": "Muffins milkers",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://muffinsmilkers.com/Info/TermsOfService",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://muffinsmilkers.com/Info/PrivacyPolicy",
+      "select": "body"
+    }
+  }
+}

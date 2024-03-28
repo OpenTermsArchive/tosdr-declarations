@@ -1,0 +1,13 @@
+{
+  "name": "Speekee",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.speekee.com/policy/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.speekee.com/policy/terms",
+      "select": "body"
+    }
+  }
+}

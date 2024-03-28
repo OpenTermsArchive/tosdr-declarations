@@ -1,0 +1,9 @@
+{
+  "name": "Fake email generator",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://emailfake.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

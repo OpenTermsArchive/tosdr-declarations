@@ -1,0 +1,9 @@
+{
+  "name": "Cybex",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cybex-online.com/en-en/privacy-policy",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

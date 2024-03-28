@@ -1,0 +1,17 @@
+{
+  "name": "Datadog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.datadoghq.com/legal/privacy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.datadoghq.com/legal/terms/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.datadoghq.com/legal/cookies/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Luckydice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://luckydice.com/en/legal?p=a-ads&d=100456_161523",
+      "select": "body"
+    }
+  }
+}

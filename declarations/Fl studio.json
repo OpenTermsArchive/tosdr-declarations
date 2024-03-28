@@ -1,0 +1,21 @@
+{
+  "name": "Fl studio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.image-line.com/mobile-app-privacy/",
+      "select": "html > body > main > section:nth-of-type(2) > div > div > div > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.image-line.com/cookies/",
+      "select": "html > body > main > section:nth-of-type(2) > div > div > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.image-line.com/image-line-software-eula/",
+      "select": "html > body > main > section:nth-of-type(2) > div > div > div > div > div > div > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.image-line.com/refund-policy/",
+      "select": "html > body > main > section:nth-of-type(2) > div > div > div > div > div > div > div"
+    }
+  }
+}

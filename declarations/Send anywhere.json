@@ -1,0 +1,17 @@
+{
+  "name": "Send anywhere",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://send-anywhere.com/terms#terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://send-anywhere.com/terms#privacy",
+      "select": "body"
+    },
+    "Developer Terms": {
+      "fetch": "https://send-anywhere.com/terms#api_terms",
+      "select": "body"
+    }
+  }
+}

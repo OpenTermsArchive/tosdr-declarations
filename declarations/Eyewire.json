@@ -1,0 +1,9 @@
+{
+  "name": "Eyewire",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://eyewire.org/legal",
+      "select": "body"
+    }
+  }
+}

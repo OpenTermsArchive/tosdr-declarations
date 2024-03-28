@@ -1,0 +1,9 @@
+{
+  "name": "First state bank",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.firststate.bank/_/kcms-doc/114/4472/privacynotice-new.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Xdadevelopers",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.xda-developers.com/xda-tos/",
+      "select": "html > body > section > div > div > div:first-of-type > article > div:nth-of-type(2) > div"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.xda-developers.com/xda-disclosure-policy/",
+      "select": "html > body > section > div > div > div:first-of-type > article > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.xda-developers.com/xda-developers-privacy-policy/",
+      "select": "html > body > section > div > div > div:first-of-type > article > div > div"
+    }
+  }
+}

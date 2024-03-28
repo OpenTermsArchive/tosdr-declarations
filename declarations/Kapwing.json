@@ -1,0 +1,13 @@
+{
+  "name": "Kapwing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kapwing.com/policies/privacy",
+      "select": "html > body > custom > main > div > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kapwing.com/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

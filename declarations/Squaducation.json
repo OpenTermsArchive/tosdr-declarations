@@ -1,0 +1,13 @@
+{
+  "name": "Squaducation",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.squaducation.com/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.squaducation.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

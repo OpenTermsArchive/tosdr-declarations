@@ -1,0 +1,13 @@
+{
+  "name": "Godot engine",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://godotengine.org/privacy-policy",
+      "select": "html > body > main"
+    },
+    "Community Guidelines": {
+      "fetch": "https://godotengine.org/code-of-conduct",
+      "select": "html > body > main"
+    }
+  }
+}

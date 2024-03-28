@@ -1,0 +1,13 @@
+{
+  "name": "Ramsey solutions",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ramseysolutions.com/company/policies/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ramseysolutions.com/company/policies/terms-of-use",
+      "select": null
+    }
+  }
+}

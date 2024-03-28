@@ -1,0 +1,13 @@
+{
+  "name": "Signaturesurveys",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.signaturesurveys.com/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.signaturesurveys.com/terms.php",
+      "select": "body"
+    }
+  }
+}

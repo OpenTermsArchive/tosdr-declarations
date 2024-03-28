@@ -1,0 +1,13 @@
+{
+  "name": "Codewars",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.codewars.com/about/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.codewars.com/about/privacy",
+      "select": "body"
+    }
+  }
+}

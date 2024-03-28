@@ -1,0 +1,13 @@
+{
+  "name": "Americas health insurance plans",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ahip.org/privacy",
+      "select": "html > body > section > div > div:nth-of-type(2) > section:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ahip.org/tos",
+      "select": "html > body > section > div > div:nth-of-type(2) > section:nth-of-type(2) > div"
+    }
+  }
+}

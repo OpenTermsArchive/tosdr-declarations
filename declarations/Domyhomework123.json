@@ -1,0 +1,9 @@
+{
+  "name": "Domyhomework123",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://domyhomework123.com/manage/terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

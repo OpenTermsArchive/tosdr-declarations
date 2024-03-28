@@ -1,0 +1,9 @@
+{
+  "name": "What can you do",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.whatcanyoudocampaign.org/privacy-policy/",
+      "select": null
+    }
+  }
+}

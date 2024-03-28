@@ -1,0 +1,13 @@
+{
+  "name": "Linustechtipscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://linustechtips.com/main/privacy/",
+      "select": "div"
+    },
+    "Terms of Service": {
+      "fetch": "https://linustechtips.com/main/terms/",
+      "select": "div"
+    }
+  }
+}

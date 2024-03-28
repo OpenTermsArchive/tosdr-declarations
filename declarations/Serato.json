@@ -1,0 +1,17 @@
+{
+  "name": "Serato",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://serato.com/legal/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://serato.com/legal/serato-privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://serato.com/legal/terms-of-use",
+      "select": "body"
+    }
+  }
+}

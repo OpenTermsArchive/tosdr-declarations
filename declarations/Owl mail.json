@@ -1,0 +1,13 @@
+{
+  "name": "Owl mail",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://owlmail.io/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://owlmail.io/privacy",
+      "select": " > main > div:nth-of-type(5) > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Avs video editor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.avs4you.com/privacy.aspx",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.avs4you.com/license-agreement.aspx",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Group help bot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.grouphelp.top/privacy",
+      "select": "body"
+    }
+  }
+}

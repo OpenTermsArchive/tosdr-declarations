@@ -1,0 +1,9 @@
+{
+  "name": "The inspiration grid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://theinspirationgrid.com/privacy-policy-terms-of-use/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

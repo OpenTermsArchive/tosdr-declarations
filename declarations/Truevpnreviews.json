@@ -1,0 +1,17 @@
+{
+  "name": "Truevpnreviews",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://truevpnreviews.net/terms-of-use/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://truevpnreviews.net/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://truevpnreviews.net/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

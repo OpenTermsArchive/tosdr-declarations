@@ -1,0 +1,13 @@
+{
+  "name": "Smashrun",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://smashrun.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://smashrun.com/tos",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Pikminfanon",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://pikminfanon.com/wiki/PikminFanon:Cookie_policy",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://pikminfanon.com/wiki/PikminFanon:Privacy_policy",
+      "select": null
+    }
+  }
+}

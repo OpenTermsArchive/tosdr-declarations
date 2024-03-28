@@ -1,0 +1,17 @@
+{
+  "name": "Mevitae",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.mevitae.com/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mevitae.com/privacy-policy-and-gdpr",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mevitae.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

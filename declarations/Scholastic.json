@@ -1,0 +1,13 @@
+{
+  "name": "Scholastic",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://educationsolutions.scholastic.com/privacypolicy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.scholastic.com/terms.htm",
+      "select": "body"
+    }
+  }
+}

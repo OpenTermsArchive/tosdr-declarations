@@ -1,0 +1,13 @@
+{
+  "name": "Pipefy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pipefy.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pipefy.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

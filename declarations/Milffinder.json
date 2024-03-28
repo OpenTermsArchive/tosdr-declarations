@@ -1,0 +1,13 @@
+{
+  "name": "Milffinder",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.milffinder.com/assets/tplegal/tc.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.milffinder.com/assets/tplegal/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Crowdin",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://support.crowdin.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://support.crowdin.com/security-policy/",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://support.crowdin.com/vulnerability-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://support.crowdin.com/cookies/",
+      "select": "body"
+    }
+  }
+}

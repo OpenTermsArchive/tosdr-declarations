@@ -1,0 +1,13 @@
+{
+  "name": "Gtaforums",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gtaforums.com/terms/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://gtaforums.com/gtanet/privacy",
+      "select": "body"
+    }
+  }
+}

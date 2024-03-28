@@ -1,0 +1,21 @@
+{
+  "name": "Citation mcachine",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.chegg.com/privacypolicy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.chegg.com/termsofuse",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.chegg.com/generalpolicies",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.chegg.com/copyright",
+      "select": "body"
+    }
+  }
+}

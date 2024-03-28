@@ -1,0 +1,9 @@
+{
+  "name": "Inputsh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://r3bl.blog/en/privacy-policy/",
+      "select": "div#main"
+    }
+  }
+}

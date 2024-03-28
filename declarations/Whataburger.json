@@ -1,0 +1,13 @@
+{
+  "name": "Whataburger",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://whataburger.com/home/privacypolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://whataburger.com/home/termsandconditions",
+      "select": "body"
+    }
+  }
+}

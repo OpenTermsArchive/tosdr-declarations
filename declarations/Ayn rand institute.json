@@ -1,0 +1,13 @@
+{
+  "name": "Ayn rand institute",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://aynrand.org/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://aynrand.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

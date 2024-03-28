@@ -1,0 +1,17 @@
+{
+  "name": "Artix entertainment llc",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.artix.com/policy-cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.artix.com/policy-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.artix.com/policy-privacy",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div"
+    }
+  }
+}

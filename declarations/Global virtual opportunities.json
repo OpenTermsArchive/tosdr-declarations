@@ -1,0 +1,37 @@
+{
+  "name": "Global virtual opportunities",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gogvo.com/legal/privacy-policy.php",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://gogvo.com/legal/refund_policy.php",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://gogvo.com/legal/affiliation-affidavit.php",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://gogvo.com/legal/dmca-notice.php",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://gogvo.com/legal/tos2.php",
+      "select": "body"
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://gogvo.com/legal/external-links-policy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://gogvo.com/legal/terms-of-use.php",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://gogvo.com/legal/antispam-policy.php",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Citizencard",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.citizencard.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.citizencard.com/cookie-privacy-policy",
+      "select": "body"
+    }
+  }
+}

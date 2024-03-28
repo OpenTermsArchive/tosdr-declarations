@@ -1,0 +1,13 @@
+{
+  "name": "Mac of all trades",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.iubenda.com/terms-and-conditions/43926847",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/43926847/legal",
+      "select": "body"
+    }
+  }
+}

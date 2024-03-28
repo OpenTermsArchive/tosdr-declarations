@@ -1,0 +1,21 @@
+{
+  "name": "Rise broadband",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.risebroadband.com/legal/broadband-internet-terms-and-conditions-of-service/",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.risebroadband.com/legal/open-internet-statement-and-policy/",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.risebroadband.com/additional-fees-disclosure-statement/",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.risebroadband.com/legal/broadband-internet-acceptable-use-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Jornal record",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aminhaconta.xl.pt/Layers/PrivacyPolicy#privacyPolicy",
+      "select": "body"
+    }
+  }
+}

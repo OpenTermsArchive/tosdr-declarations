@@ -1,0 +1,9 @@
+{
+  "name": "Ad lightning",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.adlightning.com/privacy",
+      "select": "body"
+    }
+  }
+}

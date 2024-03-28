@@ -1,0 +1,9 @@
+{
+  "name": "Evidence based decision making in critical care medicine",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.evidencebased.net/PrivacyPolicy.shtml",
+      "select": "body"
+    }
+  }
+}

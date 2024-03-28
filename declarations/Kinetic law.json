@@ -1,0 +1,9 @@
+{
+  "name": "Kinetic law",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kineticlaw.co.uk/terms-of-use-and-privacy-notice/",
+      "select": null
+    }
+  }
+}

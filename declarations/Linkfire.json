@@ -1,0 +1,13 @@
+{
+  "name": "Linkfire",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.linkfire.com/legal/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.linkfire.com/legal/privacy-and-data-protection/policies",
+      "select": "body"
+    }
+  }
+}

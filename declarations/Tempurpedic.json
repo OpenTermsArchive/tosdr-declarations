@@ -1,0 +1,17 @@
+{
+  "name": "Tempurpedic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tempurpedic.com/customer-service/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tempurpedic.com/customer-service/privacy-policy-general/",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.tempurpedic.com/customer-service/return-policy/",
+      "select": null
+    }
+  }
+}

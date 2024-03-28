@@ -1,0 +1,9 @@
+{
+  "name": "Lexing yingda",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lexing.tech//privacy.html",
+      "select": "body"
+    }
+  }
+}

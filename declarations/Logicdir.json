@@ -1,0 +1,13 @@
+{
+  "name": "Logicdir",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://logicdir.com/page/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://logicdir.com/page/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Abm",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.abm.com/wp-content/uploads/2019/12/ALPR-Policy-FINAL-.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.abm.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

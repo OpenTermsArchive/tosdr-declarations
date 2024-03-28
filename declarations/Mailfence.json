@@ -1,0 +1,17 @@
+{
+  "name": "Mailfence",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mailfence.com/en/end-to-end-encryption.jsp",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mailfence.com/en/terms.jsp",
+      "select": "div.content"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://mailfence.com/en/two-factor-authentication.jsp",
+      "select": "body"
+    }
+  }
+}

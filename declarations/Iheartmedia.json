@@ -1,0 +1,13 @@
+{
+  "name": "Iheartmedia",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.iheartmedia.com/legal/terms",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iheartmedia.com/legal/privacy",
+      "select": "html > body > main"
+    }
+  }
+}

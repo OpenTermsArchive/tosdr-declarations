@@ -1,0 +1,13 @@
+{
+  "name": "Dallas news",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.dallasnews.com/help/terms-of-service/",
+      "select": "html > body > div:first-of-type > section > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dallasnews.com/help/privacy-policy",
+      "select": "html > body > div:first-of-type > section > div:first-of-type"
+    }
+  }
+}

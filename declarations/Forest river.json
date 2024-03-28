@@ -1,0 +1,13 @@
+{
+  "name": "Forest river",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://forestriverinc.com/privacypolicy.aspx",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://forestriverinc.com/termsofuse.aspx",
+      "select": "body"
+    }
+  }
+}

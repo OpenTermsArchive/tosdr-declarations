@@ -1,0 +1,13 @@
+{
+  "name": "Usseek",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://usseek.com/Privacy",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://usseek.com/Terms",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

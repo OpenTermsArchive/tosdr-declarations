@@ -1,0 +1,9 @@
+{
+  "name": "Bowsnties",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bows-n-ties.com/privacy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Le figaro",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mentions-legales.lefigaro.fr/le-figaro/cgu-figaro",
+      "select": " > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mentions-legales.lefigaro.fr/le-figaro/politique-de-confidentialite-figaro",
+      "select": " > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://mentions-legales.lefigaro.fr/le-figaro/info-cookies-figaro",
+      "select": " > div"
+    },
+    "Other": {
+      "fetch": "https://mentions-legales.lefigaro.fr/le-figaro/charte-de-moderation-figaro",
+      "select": " > div"
+    }
+  }
+}

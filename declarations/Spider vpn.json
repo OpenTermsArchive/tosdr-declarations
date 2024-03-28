@@ -1,0 +1,13 @@
+{
+  "name": "Spider vpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://spidervpn.org/privacy-policy/",
+      "select": "html > body > div:nth-of-type(3) > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://spidervpn.org/tos/",
+      "select": "html > body > div:nth-of-type(3) > section"
+    }
+  }
+}

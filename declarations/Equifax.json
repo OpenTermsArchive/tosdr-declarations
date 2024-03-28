@@ -1,0 +1,13 @@
+{
+  "name": "Equifax",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.equifax.com/privacy/privacy-statement/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.equifax.com/terms",
+      "select": null
+    }
+  }
+}

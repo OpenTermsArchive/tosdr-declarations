@@ -1,0 +1,13 @@
+{
+  "name": "Cna",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cna.com/web/guest/cna/cnadisclaimer?sub=termsofuse",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cna.com/web/guest/cna/privacy/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Kjo biztonsgi szerver",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kbsz.kjokmjnoi.hu/aszf.php",
+      "select": "body"
+    }
+  }
+}

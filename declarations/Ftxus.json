@@ -1,0 +1,13 @@
+{
+  "name": "Ftxus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.ftx.us/hc/en-us/articles/360043578593-Privacy-Policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://ftx.us/TermsOfService.pdf",
+      "select": "body"
+    }
+  }
+}

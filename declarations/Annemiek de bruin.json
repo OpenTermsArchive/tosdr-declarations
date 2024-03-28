@@ -1,0 +1,9 @@
+{
+  "name": "Annemiek de bruin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://annemiekdebruin.nl/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

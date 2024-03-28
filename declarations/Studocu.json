@@ -1,0 +1,9 @@
+{
+  "name": "Studocu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.studocu.com/en-us/privacy-policy",
+      "select": "body"
+    }
+  }
+}

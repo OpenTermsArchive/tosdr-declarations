@@ -1,0 +1,13 @@
+{
+  "name": "Btguard",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://btguard.com/privacy",
+      "select": "html > body > div > div > div > div:nth-of-type(2) > div > div:first-of-type > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://btguard.com/tos",
+      "select": "body"
+    }
+  }
+}

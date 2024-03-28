@@ -1,0 +1,13 @@
+{
+  "name": "Image chest",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://imgchest.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://imgchest.com/tos",
+      "select": "body"
+    }
+  }
+}

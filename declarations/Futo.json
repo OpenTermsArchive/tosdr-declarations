@@ -1,0 +1,9 @@
+{
+  "name": "Futo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://voiceinput.futo.org/VoiceInput/PrivacyPolicy",
+      "select": "body"
+    }
+  }
+}

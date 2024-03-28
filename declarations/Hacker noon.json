@@ -1,0 +1,17 @@
+{
+  "name": "Hacker noon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hackernoon.com/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://hackernoon.com/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://hackernoon.com/terms",
+      "select": "body"
+    }
+  }
+}

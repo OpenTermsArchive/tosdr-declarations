@@ -1,0 +1,13 @@
+{
+  "name": "Ploudos",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ploudos.com/rules/",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ploudos.com/privacypolicy/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

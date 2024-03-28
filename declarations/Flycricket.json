@@ -1,0 +1,17 @@
+{
+  "name": "Flycricket",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.flycricket.com/privacy.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.flycricket.com/cookie_policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.flycricket.com/terms.html",
+      "select": "body"
+    }
+  }
+}

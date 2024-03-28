@@ -1,0 +1,13 @@
+{
+  "name": "Applyboard",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.applyboard.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.applyboard.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

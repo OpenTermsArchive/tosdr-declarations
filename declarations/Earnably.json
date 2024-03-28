@@ -1,0 +1,17 @@
+{
+  "name": "Earnably",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://earnably.com/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://earnably.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://earnably.com/terms",
+      "select": "body"
+    }
+  }
+}

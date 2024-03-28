@@ -1,0 +1,13 @@
+{
+  "name": "Card kingdom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cardkingdom.com/static/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cardkingdom.com/static/tos",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

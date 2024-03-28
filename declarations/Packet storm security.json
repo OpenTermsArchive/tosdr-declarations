@@ -1,0 +1,13 @@
+{
+  "name": "Packet storm security",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://packetstormsecurity.com/legal/privacy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://packetstormsecurity.com/legal/tos.html",
+      "select": null
+    }
+  }
+}

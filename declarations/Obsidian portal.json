@@ -1,0 +1,13 @@
+{
+  "name": "Obsidian portal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.obsidianportal.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.obsidianportal.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

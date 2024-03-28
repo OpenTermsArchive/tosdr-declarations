@@ -1,0 +1,13 @@
+{
+  "name": "Spencers",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.spencers.in/terms-and-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spencers.in/privacy-policy",
+      "select": null
+    }
+  }
+}

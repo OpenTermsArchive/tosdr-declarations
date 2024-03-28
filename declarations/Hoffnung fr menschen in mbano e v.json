@@ -1,0 +1,9 @@
+{
+  "name": "Hoffnung fr menschen in mbano e v",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hoffnung-fuer-mbano.de/datenschutz",
+      "select": "body"
+    }
+  }
+}

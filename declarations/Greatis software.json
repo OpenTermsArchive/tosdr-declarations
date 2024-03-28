@@ -1,0 +1,13 @@
+{
+  "name": "Greatis software",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.greatis.com/unhackme/cookie-policy.htm",
+      "select": "html > body > section:nth-of-type(2) > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.greatis.com/unhackme/policy.htm",
+      "select": "html > body > section:nth-of-type(2) > div > div > div > div > div"
+    }
+  }
+}

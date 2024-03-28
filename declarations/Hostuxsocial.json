@@ -1,0 +1,9 @@
+{
+  "name": "Hostuxsocial",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hostux.social/about/more",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Brassring jobs",
+  "documents": {
+    "Law Enforcement Guidelines": {
+      "fetch": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25515&siteid=5616&jobId=2970895#Applypage",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Zeam health",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zeamhealth.com/your-privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.zeamhealth.com/our-terms",
+      "select": "body"
+    }
+  }
+}

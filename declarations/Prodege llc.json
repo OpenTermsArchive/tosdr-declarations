@@ -1,0 +1,13 @@
+{
+  "name": "Prodege llc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.prodege.com/privacy-policy-intl",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.prodege.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

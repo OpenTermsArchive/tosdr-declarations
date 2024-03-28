@@ -1,0 +1,13 @@
+{
+  "name": "California digital library",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cdlib.org/about/policies-and-guidelines/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://cdlib.org/about/policies-and-guidelines/terms-conditions/",
+      "select": null
+    }
+  }
+}

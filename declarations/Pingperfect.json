@@ -1,0 +1,13 @@
+{
+  "name": "Pingperfect",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pingperfect.com/Terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > section > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://new.pingperfect.com/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > section > div > div > div:nth-of-type(2)"
+    }
+  }
+}

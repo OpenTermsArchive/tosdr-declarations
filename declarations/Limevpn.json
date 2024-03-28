@@ -1,0 +1,21 @@
+{
+  "name": "Limevpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://limevpn.com/log-keeping-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "http://limevpn.com/refund",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://limevpn.com/terms-of-use",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "http://limevpn.com/dmca",
+      "select": "body"
+    }
+  }
+}

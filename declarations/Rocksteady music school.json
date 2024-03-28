@@ -1,0 +1,17 @@
+{
+  "name": "Rocksteady music school",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.rocksteadymusicschool.com/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rocksteadymusicschool.com/terms-conditions/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.rocksteadymusicschool.com/privacy-notice/",
+      "select": "body"
+    }
+  }
+}

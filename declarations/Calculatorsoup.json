@@ -1,0 +1,13 @@
+{
+  "name": "Calculatorsoup",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.calculatorsoup.com/privacy.php",
+      "select": "html > body > div:first-of-type > div > main"
+    },
+    "Legal Information": {
+      "fetch": "https://www.calculatorsoup.com/legal.php",
+      "select": "html > body > div:first-of-type > div > main"
+    }
+  }
+}

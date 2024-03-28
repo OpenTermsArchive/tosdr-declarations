@@ -1,0 +1,9 @@
+{
+  "name": "Discogs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://support.discogs.com/hc/en-us/articles/360009334333",
+      "select": "body"
+    }
+  }
+}

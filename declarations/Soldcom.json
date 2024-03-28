@@ -1,0 +1,13 @@
+{
+  "name": "Soldcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sold.com/privacy-statement",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sold.com/terms",
+      "select": "body"
+    }
+  }
+}

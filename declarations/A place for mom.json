@@ -1,0 +1,13 @@
+{
+  "name": "A place for mom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.aplaceformom.com/privacy",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.aplaceformom.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

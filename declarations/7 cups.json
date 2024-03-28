@@ -1,0 +1,13 @@
+{
+  "name": "7 cups",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.7cups.com/Documents/PrivacyPolicy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.7cups.com/Documents/TermsOfService/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

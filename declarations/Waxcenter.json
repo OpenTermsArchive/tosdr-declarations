@@ -1,0 +1,17 @@
+{
+  "name": "Waxcenter",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://waxcenter.com/policies/privacy-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://waxcenter.com/policies/refund-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://waxcenter.com/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Burpee",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.burpee.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(4) > main > div:nth-of-type(4) > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.burpee.com/return-policy",
+      "select": "html > body > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.burpee.com/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(4) > main > div:nth-of-type(4) > div"
+    }
+  }
+}

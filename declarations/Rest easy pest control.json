@@ -1,0 +1,9 @@
+{
+  "name": "Rest easy pest control",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.resteasypestcontrol.com/privacy-policy-2/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > main > div > section > div > div"
+    }
+  }
+}

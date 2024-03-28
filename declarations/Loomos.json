@@ -1,0 +1,13 @@
+{
+  "name": "Loomos",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://loomos.com.br/termos-de-uso",
+      "select": "html > body > div:first-of-type > main > article > section > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://loomos.com.br/politica-de-privacidade",
+      "select": "html > body > div:first-of-type > main > article > section > div:first-of-type > div"
+    }
+  }
+}

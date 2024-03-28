@@ -1,0 +1,17 @@
+{
+  "name": "Hyperbeam",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hyperbeam.com/terms/",
+      "select": "html > body > div:nth-of-type(4) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hyperbeam.com/privacy/",
+      "select": "html > body > div:nth-of-type(4) > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://hyperbeam.com/dmca/",
+      "select": "html > body > div:nth-of-type(4) > div > div"
+    }
+  }
+}

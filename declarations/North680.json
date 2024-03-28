@@ -1,0 +1,13 @@
+{
+  "name": "North680",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://north680.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://north680.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

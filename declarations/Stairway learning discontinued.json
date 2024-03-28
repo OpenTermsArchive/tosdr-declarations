@@ -1,0 +1,13 @@
+{
+  "name": "Stairway learning discontinued",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.stairwaylearning.com/terms",
+      "select": "html > body > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.stairwaylearning.com/privacy",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

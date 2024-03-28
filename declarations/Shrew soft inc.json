@@ -1,0 +1,9 @@
+{
+  "name": "Shrew soft inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.shrew.net/privacy",
+      "select": null
+    }
+  }
+}

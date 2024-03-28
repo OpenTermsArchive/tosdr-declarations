@@ -1,0 +1,9 @@
+{
+  "name": "Vlare",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vlare.tv/terms",
+      "select": "body"
+    }
+  }
+}

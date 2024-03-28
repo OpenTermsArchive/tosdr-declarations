@@ -1,0 +1,17 @@
+{
+  "name": "Nanoplanet cbd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nanoplanetcbd.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://nanoplanetcbd.com/shipping-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://nanoplanetcbd.com/terms-conditions/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

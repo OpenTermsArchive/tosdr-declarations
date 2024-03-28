@@ -1,0 +1,13 @@
+{
+  "name": "Adskeeper",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.adskeeper.com/pr/",
+      "select": "html > body > main > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.adskeeper.com/tos/",
+      "select": "html > body > main > div:first-of-type"
+    }
+  }
+}

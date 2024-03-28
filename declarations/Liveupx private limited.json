@@ -1,0 +1,17 @@
+{
+  "name": "Liveupx private limited",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://liveupx.com/refund-returns/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://liveupx.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://liveupx.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

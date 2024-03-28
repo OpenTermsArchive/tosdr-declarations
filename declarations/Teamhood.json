@@ -1,0 +1,13 @@
+{
+  "name": "Teamhood",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://teamhood.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://teamhood.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

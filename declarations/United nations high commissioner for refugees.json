@@ -1,0 +1,9 @@
+{
+  "name": "United nations high commissioner for refugees",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.unrefugees.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

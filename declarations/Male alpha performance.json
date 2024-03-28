@@ -1,0 +1,13 @@
+{
+  "name": "Male alpha performance",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://t1.mappilloffer.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://t1.mappilloffer.com/privacy",
+      "select": "body"
+    }
+  }
+}

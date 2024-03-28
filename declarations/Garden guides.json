@@ -1,0 +1,17 @@
+{
+  "name": "Garden guides",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.gardenguides.com/copyright-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gardenguides.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gardenguides.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

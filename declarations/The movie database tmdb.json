@@ -1,0 +1,17 @@
+{
+  "name": "The movie database tmdb",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.themoviedb.org/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.themoviedb.org/terms-of-use",
+      "select": "body"
+    },
+    "Developer Terms": {
+      "fetch": "https://www.themoviedb.org/documentation/api/terms-of-use",
+      "select": "html > body > div:first-of-type > main > div > div > div"
+    }
+  }
+}

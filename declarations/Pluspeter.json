@@ -1,0 +1,13 @@
+{
+  "name": "Pluspeter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pluspeter.com/agb/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.charly.education/datenschutz",
+      "select": "body"
+    }
+  }
+}

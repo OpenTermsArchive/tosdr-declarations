@@ -1,0 +1,13 @@
+{
+  "name": "Institute for multisensory education",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://imse.com/terms-and-conditions/",
+      "select": "html > body > main > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://imse.com/privacy-policy/",
+      "select": "html > body > main > article"
+    }
+  }
+}

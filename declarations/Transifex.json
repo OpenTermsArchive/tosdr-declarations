@@ -1,0 +1,13 @@
+{
+  "name": "Transifex",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.transifex.com/legal/terms/",
+      "select": "html > body article"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.transifex.com/about/privacy/",
+      "select": "html > body article"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Bromite browser",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bromite.org/privacy",
+      "select": "body"
+    }
+  }
+}

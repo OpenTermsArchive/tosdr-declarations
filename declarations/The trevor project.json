@@ -1,0 +1,13 @@
+{
+  "name": "The trevor project",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thetrevorproject.org/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.thetrevorproject.org/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

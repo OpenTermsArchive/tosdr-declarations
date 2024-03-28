@@ -1,0 +1,13 @@
+{
+  "name": "Schibsted",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://info.privacy.schibsted.com/en/privacy-and-cookie-policy-english-schibsted-sverige/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://login.schibsted.com/about/terms",
+      "select": "body"
+    }
+  }
+}

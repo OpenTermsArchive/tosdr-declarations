@@ -1,0 +1,13 @@
+{
+  "name": "Spectrum news",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.spectrumnews.org/terms/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spectrumnews.org/privacy/ ",
+      "select": "body"
+    }
+  }
+}

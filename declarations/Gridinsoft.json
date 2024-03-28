@@ -1,0 +1,13 @@
+{
+  "name": "Gridinsoft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gridinsoft.com/privacy-policy",
+      "select": "html > body > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://gridinsoft.com/terms-of-use",
+      "select": "html > body > section"
+    }
+  }
+}

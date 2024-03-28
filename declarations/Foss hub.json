@@ -1,0 +1,13 @@
+{
+  "name": "Foss hub",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fosshub.com/tos.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fosshub.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

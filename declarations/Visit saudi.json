@@ -1,0 +1,13 @@
+{
+  "name": "Visit saudi",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://visitsaudi.com/en/keep-in-touch-with-us/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://visitsaudi.com/en/keep-in-touch-with-us/privacy-policy",
+      "select": null
+    }
+  }
+}

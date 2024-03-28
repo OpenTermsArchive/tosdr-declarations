@@ -1,0 +1,9 @@
+{
+  "name": "Mozilla thunderbird",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mozilla.org/en-US/privacy/thunderbird/",
+      "select": " > div > article"
+    }
+  }
+}

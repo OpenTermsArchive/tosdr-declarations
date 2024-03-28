@@ -1,0 +1,9 @@
+{
+  "name": "Ichgcpnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ichgcp.net/privacy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > div:first-of-type"
+    }
+  }
+}

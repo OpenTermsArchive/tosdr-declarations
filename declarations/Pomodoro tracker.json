@@ -1,0 +1,13 @@
+{
+  "name": "Pomodoro tracker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pomodoro-tracker.com/privacy",
+      "select": "html > body > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://pomodoro-tracker.com/terms",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

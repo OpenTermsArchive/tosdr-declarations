@@ -1,0 +1,13 @@
+{
+  "name": "Majestic",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.majesticlist.com/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.majesticlist.com/terms.php",
+      "select": "body"
+    }
+  }
+}

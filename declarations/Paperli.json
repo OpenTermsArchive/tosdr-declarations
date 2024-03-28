@@ -1,0 +1,17 @@
+{
+  "name": "Paperli",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://paper.li/ip.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://paper.li/terms.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://paper.li/privacy.html",
+      "select": null
+    }
+  }
+}

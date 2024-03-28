@@ -1,0 +1,21 @@
+{
+  "name": "Msk cancer center",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.mskcc.org/legal-disclaimer",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > main > div > div > div > div:first-of-type > article > section > div > div > article > div:first-of-type > div:first-of-type > div > div > div > p"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mskcc.org/privacy/web-site-privacy-practices/website-terms-and-conditions",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > main > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > article > div:first-of-type > div:first-of-type > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mskcc.org/about/policies-standards/privacy/your-rights-access-control-your-health-information",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > main > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > article > div:first-of-type > div:first-of-type > div > div > div"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.mskcc.org/about/policies-standards/privacy/how-we-may-use-disclose-your-health-information/treatment-payment-business-operations",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > main > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > article > div:first-of-type > div:first-of-type > div > div > div"
+    }
+  }
+}

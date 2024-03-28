@@ -1,0 +1,13 @@
+{
+  "name": "Natures way brands",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://naturesway.com/pages/legal ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://naturesway.com/pages/legal/#Terms%20of%20Use",
+      "select": "body"
+    }
+  }
+}

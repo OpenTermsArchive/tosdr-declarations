@@ -1,0 +1,13 @@
+{
+  "name": "Askanna",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://askanna.io/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://askanna.io/terms/",
+      "select": "body"
+    }
+  }
+}

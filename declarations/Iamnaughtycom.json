@@ -1,0 +1,13 @@
+{
+  "name": "Iamnaughtycom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iamnaughty.com/c3RhdGljUGFnZS9wcml2YWN5cG9saWN5aWFtbmF1Z2h0eS5jb20=",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.iamnaughty.com/c3RhdGljUGFnZS90ZXJtc2lhbW5hdWdodHkuY29t",
+      "select": "body"
+    }
+  }
+}

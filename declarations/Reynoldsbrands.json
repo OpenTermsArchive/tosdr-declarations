@@ -1,0 +1,9 @@
+{
+  "name": "Reynoldsbrands",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://reynoldsconsumerproducts.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "How we feel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://howwefeel.org/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://howwefeel.org/terms",
+      "select": "body"
+    }
+  }
+}

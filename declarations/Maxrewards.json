@@ -1,0 +1,13 @@
+{
+  "name": "Maxrewards",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://maxrewards.co/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://maxrewards.co/terms-of-use",
+      "select": "body"
+    }
+  }
+}

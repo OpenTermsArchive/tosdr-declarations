@@ -1,0 +1,9 @@
+{
+  "name": "Localmonero",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://localmonero.co/terms",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(3) > main > div:nth-of-type(2) > div"
+    }
+  }
+}

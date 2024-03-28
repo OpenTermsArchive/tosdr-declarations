@@ -1,0 +1,17 @@
+{
+  "name": "Private vpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privatevpn.app/privacy-policy.html",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://privatevpn.app/shipping-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://privatevpn.app/terms.html",
+      "select": "body"
+    }
+  }
+}

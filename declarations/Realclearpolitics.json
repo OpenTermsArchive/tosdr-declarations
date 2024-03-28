@@ -1,0 +1,13 @@
+{
+  "name": "Realclearpolitics",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.realclearpolitics.com/terms_of_service.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.realclearpolitics.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

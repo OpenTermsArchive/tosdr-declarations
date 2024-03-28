@@ -1,0 +1,13 @@
+{
+  "name": "Teame health check",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cdc-jp.com/health_check_terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cdc-jp.com/health_check_privacy",
+      "select": "html > body > main > div > div > div"
+    }
+  }
+}

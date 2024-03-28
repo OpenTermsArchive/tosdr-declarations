@@ -1,0 +1,17 @@
+{
+  "name": "Senso",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://senso.cloud/cookies-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://senso.cloud/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://senso.cloud/terms-service-tos/",
+      "select": null
+    }
+  }
+}

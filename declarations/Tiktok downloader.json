@@ -1,0 +1,9 @@
+{
+  "name": "Tiktok downloader",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tiktokdownloader.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ingenta connect",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ingentaconnect.com/about/privacy",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ingentaconnect.com/about/terms",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:first-of-type"
+    }
+  }
+}

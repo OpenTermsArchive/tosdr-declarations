@@ -1,0 +1,13 @@
+{
+  "name": "Corsair",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.corsair.com/uk/en/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.corsair.com/us/en/terms-of-sale",
+      "select": " > section:nth-of-type(2) > div"
+    }
+  }
+}

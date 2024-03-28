@@ -1,0 +1,17 @@
+{
+  "name": "Safeshare",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://safeshare.tv/terms-and-conditions",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://safeshare.tv/dmca",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://safeshare.tv/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Lawnewz",
+  "documents": {
+    "Corporate Social Responsibility": {
+      "fetch": "https://lawandcrime.com/ethics-diversity-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://lawandcrime.com/user-agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://lawandcrime.com/privacy",
+      "select": "body"
+    }
+  }
+}

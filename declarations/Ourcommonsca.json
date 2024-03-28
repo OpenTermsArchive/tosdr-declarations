@@ -1,0 +1,9 @@
+{
+  "name": "Ourcommonsca",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://petitions.ourcommons.ca/en/Home/AboutContent?guide=PIElectronicGuide",
+      "select": "html > body > div:nth-of-type(3) > main > div"
+    }
+  }
+}

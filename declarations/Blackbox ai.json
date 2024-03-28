@@ -1,0 +1,13 @@
+{
+  "name": "Blackbox ai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.useblackbox.io/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.useblackbox.io/privacy",
+      "select": "body"
+    }
+  }
+}

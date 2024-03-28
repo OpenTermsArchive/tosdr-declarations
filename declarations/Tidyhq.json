@@ -1,0 +1,17 @@
+{
+  "name": "Tidyhq",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.tidyhq.com/cookie-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tidyhq.com/terms-of-service",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tidyhq.com/privacy",
+      "select": null
+    }
+  }
+}

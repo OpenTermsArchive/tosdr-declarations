@@ -1,0 +1,21 @@
+{
+  "name": "Cactus media",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cactusmedia.com/privacypolicy.asp",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cactusmedia.com/agreement.asp",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://cactusmedia.com/dmcapolicy.asp",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://cactusmedia.com/aupolicy.asp",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Serverssh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://serverssh.net/?q=privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://serverssh.net/?q=terms",
+      "select": "html > body > section:nth-of-type(4)"
+    }
+  }
+}

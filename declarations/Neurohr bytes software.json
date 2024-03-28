@@ -1,0 +1,13 @@
+{
+  "name": "Neurohr bytes software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://neurohr.bytes.software/public/data-protection?lang=en",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://neurohr.bytes.software/.well-known/dnt-policy.txt",
+      "select": "body"
+    }
+  }
+}

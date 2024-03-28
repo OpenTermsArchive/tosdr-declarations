@@ -1,0 +1,9 @@
+{
+  "name": "Jampp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jampp.com/privacy.html",
+      "select": "html > body > main > section > div > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Careerone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.careerone.com.au/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.careerone.com.au/terms",
+      "select": "body"
+    }
+  }
+}

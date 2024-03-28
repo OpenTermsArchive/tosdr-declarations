@@ -1,0 +1,21 @@
+{
+  "name": "Heycaf",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://heycafedocs.com/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://heycafedocs.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > article"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://heycafedocs.com/refunds",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > article"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://heycafedocs.com/report-copyright-violation",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > article"
+    }
+  }
+}

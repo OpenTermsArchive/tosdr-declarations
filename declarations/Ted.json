@@ -1,0 +1,13 @@
+{
+  "name": "Ted",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ted.com/about/our-organization/our-policies-terms/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    }
+  }
+}

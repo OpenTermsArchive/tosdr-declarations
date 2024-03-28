@@ -1,0 +1,13 @@
+{
+  "name": "Vision service plan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.vsp.com/legal/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vsp.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sky dental supply",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.skydentalsupply.com/privacy-statement/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.skydentalsupply.com/return-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Loky swiss encrypted search engine",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://loky.ch/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://loky.ch/privacy-policy.html#tos",
+      "select": "body"
+    }
+  }
+}

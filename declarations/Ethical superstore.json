@@ -1,0 +1,17 @@
+{
+  "name": "Ethical superstore",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.ethicalsuperstore.com/help-returns-and-refunds/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ethicalsuperstore.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ethicalsuperstore.com/help-privacy-and-security/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sucuri",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sucuri.net/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sucuri.net/privacy/",
+      "select": "body"
+    }
+  }
+}

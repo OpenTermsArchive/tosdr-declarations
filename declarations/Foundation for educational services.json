@@ -1,0 +1,9 @@
+{
+  "name": "Foundation for educational services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.filamentservices.org/privacypolicy/",
+      "select": "body"
+    }
+  }
+}

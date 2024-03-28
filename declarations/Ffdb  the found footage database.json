@@ -1,0 +1,9 @@
+{
+  "name": "Ffdb  the found footage database",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ffdb.cc/privacy.php",
+      "select": "body"
+    }
+  }
+}

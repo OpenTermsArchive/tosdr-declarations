@@ -1,0 +1,29 @@
+{
+  "name": "Soundtrap",
+  "documents": {
+    "Other": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vS9lGnRj4kIr8XbH9njpGX_HessErxPwz4cJwWYdFkMAcYRIsztFuQGf7st4_QZVAKHSQrMXS8Yw-Z9/pub",
+      "select": "body"
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vS_6UvWe7j8r57iedMT8j-T6qwJLssLQrGcbwIRQ4IlWoxBpXe6uk7PN2I4oSnPVTAB6oV2bylxJXYl/pub",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vSZYK1TA_VZcitqJQQWI23lyQMhkcTTgnzwcBqIQge-44zc80sny-UKcSUbLqa_yA2Qa_LV6V33JCb9/pub",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vSzR98HcSfgGp5PvZbh6J6BkcSIsbZ6FZnZ1dwxOc0COcfliSz62W30vUcnpH1Q_TmbEApie9V5XZu7/pub",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vS1RCl9Tuzzs2d14deoLcK53K19wDTIWbaa4lzGZPfCut0wjJXg8wJ0f3r6bQROuTlOXGzO_TelqZZ1/pub",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vR17J1DfgFG0_kMwdeAtoZWrwl0uONycJZwWrRfKIV-JccWEKtR0B85eChZd4UgeZT7diLqxHcc_76R/pub",
+      "select": "body"
+    }
+  }
+}

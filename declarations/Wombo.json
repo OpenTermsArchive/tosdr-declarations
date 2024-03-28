@@ -1,0 +1,13 @@
+{
+  "name": "Wombo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wombo.ai/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wombo.ai/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Newfold digital inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.endurance.com/privacy/addendum-for-california-users",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.endurance.com/our-policies/terms-of-use",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://newfold.com/privacy-center/cookie-policy",
+      "select": "body"
+    }
+  }
+}

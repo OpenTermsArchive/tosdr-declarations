@@ -1,0 +1,13 @@
+{
+  "name": "Aire link",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.aire.link/wp-content/uploads/2023/02/AIReLink_Terms_of_Use_v1.2.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.aire.link/wp-content/uploads/2023/02/AIReLink_Privacy_Policy_Website_v1.0.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Paimonmoe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://paimon.moe/privacy-policy",
+      "select": "body"
+    }
+  }
+}

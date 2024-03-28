@@ -1,0 +1,17 @@
+{
+  "name": "Leading the way with dr michael youssef",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.ltw.org/order-policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ltw.org/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://www.ltw.org/privacy-notice",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

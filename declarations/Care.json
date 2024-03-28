@@ -1,0 +1,13 @@
+{
+  "name": "Care",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.care.com/privacy-policy-p1013.html",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.care.com/terms-of-use-p1012.html",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

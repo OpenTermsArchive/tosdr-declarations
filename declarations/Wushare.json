@@ -1,0 +1,17 @@
+{
+  "name": "Wushare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wushare.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wushare.com/tos",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://wushare.com/dmca",
+      "select": null
+    }
+  }
+}

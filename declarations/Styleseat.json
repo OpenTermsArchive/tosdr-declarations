@@ -1,0 +1,13 @@
+{
+  "name": "Styleseat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.styleseat.com/tos-for-clients?utmParams=%5Bobject+Object%5D",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.styleseat.com/privacy?utmParams=%5Bobject+Object%5D",
+      "select": null
+    }
+  }
+}

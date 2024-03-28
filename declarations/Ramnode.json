@@ -1,0 +1,17 @@
+{
+  "name": "Ramnode",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://clientarea.ramnode.com/privacy.php",
+      "select": "html > body > section:nth-of-type(3) > div > div > div:first-of-type"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://clientarea.ramnode.com/aup.php",
+      "select": "html > body > section:nth-of-type(3) > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://clientarea.ramnode.com/tos.php",
+      "select": "html > body > section:nth-of-type(3) > div > div > div:first-of-type"
+    }
+  }
+}

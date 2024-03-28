@@ -1,0 +1,13 @@
+{
+  "name": "Epik",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.epik.com/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.epik.com/registration.php",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Points reward plus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pointsrewardsplus.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Whatsapp",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.whatsapp.com/legal/terms-of-service",
+      "select": " > div > section > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.whatsapp.com/legal/cookies/",
+      "select": " > div > section > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.whatsapp.com/legal/privacy-policy?eea=0&lang=en",
+      "select": " > div > section > div"
+    }
+  }
+}

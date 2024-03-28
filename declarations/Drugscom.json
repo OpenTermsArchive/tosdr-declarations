@@ -1,0 +1,13 @@
+{
+  "name": "Drugscom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.drugs.com/support/terms.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.drugs.com/support/privacy.html",
+      "select": "body"
+    }
+  }
+}

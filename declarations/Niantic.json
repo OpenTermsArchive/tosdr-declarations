@@ -1,0 +1,13 @@
+{
+  "name": "Niantic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://nianticlabs.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://nianticlabs.com/privacy",
+      "select": "html > body > main > div > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Oracle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.oracle.com/legal/privacy/services-privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.oracle.com/legal/terms.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4) > div"
+    }
+  }
+}

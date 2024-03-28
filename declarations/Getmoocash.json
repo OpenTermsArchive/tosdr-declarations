@@ -1,0 +1,9 @@
+{
+  "name": "Getmoocash",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.getmoocash.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

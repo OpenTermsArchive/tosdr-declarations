@@ -1,0 +1,13 @@
+{
+  "name": "Mysearchcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.my-search.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.my-search.com/terms.html",
+      "select": "body"
+    }
+  }
+}

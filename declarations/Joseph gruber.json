@@ -1,0 +1,9 @@
+{
+  "name": "Joseph gruber",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://josephgruber.space/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    }
+  }
+}

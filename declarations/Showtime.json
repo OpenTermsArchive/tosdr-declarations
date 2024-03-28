@@ -1,0 +1,21 @@
+{
+  "name": "Showtime",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.showtimeanytime.com/#termsAndConditions",
+      "select": "body"
+    },
+    "Social Media Policy": {
+      "fetch": "https://www.showtime.com/#videoServicesPolicy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.viacomcbsprivacy.com/en/policy",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.showtimeanytime.com/#videoServicesPolicy",
+      "select": "body"
+    }
+  }
+}

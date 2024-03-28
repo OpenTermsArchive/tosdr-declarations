@@ -1,0 +1,13 @@
+{
+  "name": "Scamphonecouk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.scamphone.co.uk/privacy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://www.scamphone.co.uk/terms",
+      "select": "body"
+    }
+  }
+}

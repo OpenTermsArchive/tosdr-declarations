@@ -1,0 +1,13 @@
+{
+  "name": "Reliancegames",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.reliancegames.com/terms-conditions/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.reliancegames.com/privacy-policy",
+      "select": null
+    }
+  }
+}

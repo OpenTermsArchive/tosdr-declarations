@@ -1,0 +1,9 @@
+{
+  "name": "Alienwarearena",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://na.alienwarearena.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

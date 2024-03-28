@@ -1,0 +1,13 @@
+{
+  "name": "Cypressio dashboard",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cypress.io/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://cypress.io/terms-of-use",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tv ears",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tvears.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tvears.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

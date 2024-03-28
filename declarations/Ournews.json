@@ -1,0 +1,17 @@
+{
+  "name": "Ournews",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://our.news/cookie-policy/",
+      "select": "html > body > div:nth-of-type(4) > div > div:first-of-type > main > div > article > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://our.news/data-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://our.news/terms/",
+      "select": null
+    }
+  }
+}

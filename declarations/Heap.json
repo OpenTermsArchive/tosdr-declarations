@@ -1,0 +1,13 @@
+{
+  "name": "Heap",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://heap.io/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://heap.io/terms",
+      "select": null
+    }
+  }
+}

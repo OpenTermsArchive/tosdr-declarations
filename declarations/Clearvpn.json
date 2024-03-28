@@ -1,0 +1,13 @@
+{
+  "name": "Clearvpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://clearvpn.com/terms-of-service/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://clearvpn.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main"
+    }
+  }
+}

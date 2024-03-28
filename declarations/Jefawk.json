@@ -1,0 +1,9 @@
+{
+  "name": "Jefawk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jefawk.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

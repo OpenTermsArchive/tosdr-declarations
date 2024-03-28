@@ -1,0 +1,13 @@
+{
+  "name": "Edsby",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.edsby.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.edsby.com/usage-policy/",
+      "select": "html > body > div:first-of-type > section > div"
+    }
+  }
+}

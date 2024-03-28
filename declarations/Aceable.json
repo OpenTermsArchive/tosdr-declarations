@@ -1,0 +1,13 @@
+{
+  "name": "Aceable",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.aceable.com/tandc",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.aceable.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

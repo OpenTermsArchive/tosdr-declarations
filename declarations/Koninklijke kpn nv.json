@@ -1,0 +1,13 @@
+{
+  "name": "Koninklijke kpn nv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kpn.com/w3/file?uuid=57efecea-25e1-4184-b4cb-b5e65950e369&owner=8de86c61-bdc8-4848-872e-e5b380e682fc&contentid=3544",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kpn.com/algemeen/missie-en-privacy-statement/privacy-statement.htm",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    }
+  }
+}

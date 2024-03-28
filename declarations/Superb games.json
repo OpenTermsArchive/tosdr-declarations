@@ -1,0 +1,17 @@
+{
+  "name": "Superb games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://superb.games/policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://superb.games/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://superb.games/terms",
+      "select": "body"
+    }
+  }
+}

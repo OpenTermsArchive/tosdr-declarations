@@ -1,0 +1,13 @@
+{
+  "name": "Worthpoint",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.worthpoint.com/page/terms-use ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.worthpoint.com/page/worthpoint-privacy-policy",
+      "select": "html > body > section"
+    }
+  }
+}

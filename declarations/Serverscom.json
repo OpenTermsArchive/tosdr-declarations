@@ -1,0 +1,17 @@
+{
+  "name": "Serverscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.servers.com/privacy/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div > div > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.servers.com/privacy/cookie-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.servers.com/about-us/legal",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div > div > main > div"
+    }
+  }
+}

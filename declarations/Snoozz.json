@@ -1,0 +1,9 @@
+{
+  "name": "Snoozz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://snoozz.me/privacy.html",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

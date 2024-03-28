@@ -1,0 +1,25 @@
+{
+  "name": "Shopify",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.shopify.com/legal/terms",
+      "select": "html > body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.shopify.com/legal/dpa",
+      "select": " > section:nth-of-type(3) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.shopify.com/en/manual/your-account/privacy/cookies",
+      "select": "html > body > div:nth-of-type(2) > main > div > div:nth-of-type(2) > section > article"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.shopify.com/legal/aup",
+      "select": " > section:nth-of-type(2) > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://help.shopify.com/en/manual/your-account/copyright-and-trademark",
+      "select": "html > body > div:nth-of-type(2) > main > div > div:nth-of-type(2) > section > article"
+    }
+  }
+}

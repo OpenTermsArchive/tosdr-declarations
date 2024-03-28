@@ -1,0 +1,13 @@
+{
+  "name": "Bon voyaged",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bonvoyaged.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://bonvoyaged.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

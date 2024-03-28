@@ -1,0 +1,13 @@
+{
+  "name": "Ctatech",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cta.tech/Landing-Pages/Policies/Privacy-Policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cta.tech/Landing-Pages/Policies/Terms-of-Use",
+      "select": "body"
+    }
+  }
+}

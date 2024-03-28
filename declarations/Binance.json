@@ -1,0 +1,13 @@
+{
+  "name": "Binance",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.binance.com/en/privacy",
+      "select": " > div > main > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.binance.com/en/terms",
+      "select": " > div > main > div > div > div"
+    }
+  }
+}

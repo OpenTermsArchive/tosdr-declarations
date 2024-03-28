@@ -1,0 +1,9 @@
+{
+  "name": "World harvest church",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://whc.life/privacy-policy",
+      "select": "body"
+    }
+  }
+}

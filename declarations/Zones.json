@@ -1,0 +1,9 @@
+{
+  "name": "Zones",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flaskapp.com/zones/privacy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

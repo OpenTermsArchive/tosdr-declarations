@@ -1,0 +1,13 @@
+{
+  "name": "Verteconl",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.verteco.nl/algemene-voorwaarden/",
+      "select": " > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.verteco.nl/privacy-policy/",
+      "select": " > div"
+    }
+  }
+}

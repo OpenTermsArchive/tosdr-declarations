@@ -1,0 +1,9 @@
+{
+  "name": "Aria network",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aria-net.org/SitePages/Portal/ToS.aspx",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:first-of-type > div > div > div > div > div > div > div:first-of-type"
+    }
+  }
+}

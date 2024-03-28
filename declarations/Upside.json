@@ -1,0 +1,13 @@
+{
+  "name": "Upside",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.upside.com/privacy",
+      "select": "html > body > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.upside.com/terms",
+      "select": "body"
+    }
+  }
+}

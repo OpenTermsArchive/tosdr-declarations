@@ -1,0 +1,17 @@
+{
+  "name": "Privatecoffee",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://private.coffee/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://invidious.private.coffee/privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://gothub.private.coffee/",
+      "select": "body"
+    }
+  }
+}

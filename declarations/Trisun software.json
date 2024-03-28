@@ -1,0 +1,9 @@
+{
+  "name": "Trisun software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.trisunsoft.com/privacy.htm",
+      "select": "body"
+    }
+  }
+}

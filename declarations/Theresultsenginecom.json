@@ -1,0 +1,13 @@
+{
+  "name": "Theresultsenginecom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.theresultsengine.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.theresultsengine.com/terms",
+      "select": "body"
+    }
+  }
+}

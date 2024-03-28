@@ -1,0 +1,13 @@
+{
+  "name": "Local now",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://localnow.com/about/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://localnow.com/about/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Treace medical concepts",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.treace.com/terms-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.treace.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

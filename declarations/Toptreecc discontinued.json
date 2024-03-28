@@ -1,0 +1,13 @@
+{
+  "name": "Toptreecc discontinued",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://toptree.cc/privacy-policy/",
+      "select": "section.content"
+    },
+    "Terms of Service": {
+      "fetch": "https://toptree.cc/terms-of-service/",
+      "select": "section.content"
+    }
+  }
+}

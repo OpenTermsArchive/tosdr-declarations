@@ -1,0 +1,13 @@
+{
+  "name": "Glinet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gl-inet.com/privacy-policy/",
+      "select": "html > body > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gl-inet.com/terms-of-service/",
+      "select": "html > body > main > div"
+    }
+  }
+}

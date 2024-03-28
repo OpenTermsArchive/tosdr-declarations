@@ -1,0 +1,17 @@
+{
+  "name": "Diario as",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://as.com/pdf/Condiciones_Generales_Suscripciones_DIARIO_AS.pdf",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://as.com/diarioas/politica_privacidad.html",
+      "select": "html > body > div:nth-of-type(4) > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://as.com/politica-de-cookies.html",
+      "select": "html > body > div:nth-of-type(4)"
+    }
+  }
+}

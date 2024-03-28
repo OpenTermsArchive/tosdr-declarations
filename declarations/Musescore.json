@@ -1,0 +1,21 @@
+{
+  "name": "Musescore",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://musescore.com/legal/privacy",
+      "select": "html > body > div > div > section > section > main"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://musescore.com/legal/dmca",
+      "select": "html > body > div > div > section > section > main > div > article"
+    },
+    "Trackers Policy": {
+      "fetch": "https://musescore.com/legal/cookies",
+      "select": "html > body > div > div > section > section > main > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://musescore.com/legal/terms",
+      "select": "html > body > div > div > section > section > main > article"
+    }
+  }
+}

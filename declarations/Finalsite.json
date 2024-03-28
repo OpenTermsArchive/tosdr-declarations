@@ -1,0 +1,13 @@
+{
+  "name": "Finalsite",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.finalsite.com/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.finalsite.com/cookie-policy",
+      "select": "body"
+    }
+  }
+}

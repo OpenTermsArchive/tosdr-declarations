@@ -1,0 +1,9 @@
+{
+  "name": "Piedmont healthcare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.piedmont.org/about-piedmont-healthcare/joint-notices/privacy-statement",
+      "select": "html > body > form > div:nth-of-type(6) > div:nth-of-type(3)"
+    }
+  }
+}

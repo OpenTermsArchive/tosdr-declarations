@@ -1,0 +1,17 @@
+{
+  "name": "Psafe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.psafe.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.psafe.com/terms-of-use/",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.psafe.com/promotion-policy/",
+      "select": "body"
+    }
+  }
+}

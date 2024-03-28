@@ -1,0 +1,13 @@
+{
+  "name": "Q care plus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://qcareplus.com/wp-content/uploads/2022/06/Software-Terms-of-Use-May-2022.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://qcareplus.com/wp-content/uploads/2022/06/Notice-of-Health-Information-Privacy-Practices-c.pdf",
+      "select": "body"
+    }
+  }
+}

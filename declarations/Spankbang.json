@@ -1,0 +1,29 @@
+{
+  "name": "Spankbang",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://spankbang.com/info/protection",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://spankbang.com/info/tos",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://spankbang.com/info/dmca",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Policy": {
+      "fetch": "https://spankbang.com/info/repeat",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://spankbang.com/info/questionable",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Records Keeping Policy": {
+      "fetch": "https://spankbang.com/info/s2257",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

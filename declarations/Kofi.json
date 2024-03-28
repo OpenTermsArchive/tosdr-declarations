@@ -1,0 +1,13 @@
+{
+  "name": "Kofi",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://more.ko-fi.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://more.ko-fi.com/terms",
+      "select": "body"
+    }
+  }
+}

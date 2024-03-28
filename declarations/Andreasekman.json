@@ -1,0 +1,9 @@
+{
+  "name": "Andreasekman",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.andreasekman.com/legal.html",
+      "select": "body"
+    }
+  }
+}

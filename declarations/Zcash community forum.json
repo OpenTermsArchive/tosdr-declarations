@@ -1,0 +1,17 @@
+{
+  "name": "Zcash community forum",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://forum.zcashcommunity.com/faq#rules",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://forum.zcashcommunity.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://forum.zcashcommunity.com/privacy",
+      "select": "body"
+    }
+  }
+}

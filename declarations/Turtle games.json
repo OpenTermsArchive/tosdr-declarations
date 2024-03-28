@@ -1,0 +1,9 @@
+{
+  "name": "Turtle games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.turtlegames.org/privacy",
+      "select": "body"
+    }
+  }
+}

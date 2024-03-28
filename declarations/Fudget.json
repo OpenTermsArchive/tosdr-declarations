@@ -1,0 +1,9 @@
+{
+  "name": "Fudget",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://privacy.fudget.com/",
+      "select": "body"
+    }
+  }
+}

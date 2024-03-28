@@ -1,0 +1,17 @@
+{
+  "name": "Runtastic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.runtastic.com/en/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.runtastic.com/en/privacy-policy",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.runtastic.com/en/community-guidelines",
+      "select": "html > body > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div:first-of-type > div > div > div > div:nth-of-type(3) > div > div > div"
+    }
+  }
+}

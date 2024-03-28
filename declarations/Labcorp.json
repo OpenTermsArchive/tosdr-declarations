@@ -1,0 +1,13 @@
+{
+  "name": "Labcorp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.labcorp.com/about/web-privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.labcorp.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

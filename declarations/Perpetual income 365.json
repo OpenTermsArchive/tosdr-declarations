@@ -1,0 +1,9 @@
+{
+  "name": "Perpetual income 365",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.perpetualincome365.online/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

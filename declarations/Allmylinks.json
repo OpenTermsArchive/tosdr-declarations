@@ -1,0 +1,13 @@
+{
+  "name": "Allmylinks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://allmylinks.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://allmylinks.com/privacy",
+      "select": "body"
+    }
+  }
+}

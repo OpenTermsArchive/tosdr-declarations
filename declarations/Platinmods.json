@@ -1,0 +1,21 @@
+{
+  "name": "Platinmods",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://platinmods.com/help/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://platinmods.com/help/terms",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(4)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://platinmods.com/help/cookies/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(4)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://platinmods.com/help/dmca/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(4)"
+    }
+  }
+}

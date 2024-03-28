@@ -1,0 +1,13 @@
+{
+  "name": "Mathnasium",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mathnasium.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mathnasium.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

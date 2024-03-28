@@ -1,0 +1,9 @@
+{
+  "name": "Swiftype",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.elastic.co/legal/privacy-statement",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

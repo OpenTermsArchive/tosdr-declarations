@@ -1,0 +1,9 @@
+{
+  "name": "North sky communications",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://northskycomm.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > section"
+    }
+  }
+}

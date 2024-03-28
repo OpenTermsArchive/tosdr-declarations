@@ -1,0 +1,13 @@
+{
+  "name": "Playtika",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.playtika.com/privacy-notice/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.playtika.com/infraction-terms/",
+      "select": "body"
+    }
+  }
+}

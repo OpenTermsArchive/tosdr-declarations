@@ -1,0 +1,13 @@
+{
+  "name": "Everquote",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.everquote.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.everquote.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

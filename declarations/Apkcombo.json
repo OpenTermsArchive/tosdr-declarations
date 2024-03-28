@@ -1,0 +1,17 @@
+{
+  "name": "Apkcombo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://apkcombo.com/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://apkcombo.com/terms",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://apkcombo.com/dmca",
+      "select": null
+    }
+  }
+}

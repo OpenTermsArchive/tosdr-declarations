@@ -1,0 +1,9 @@
+{
+  "name": "24metrics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.24metrics.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

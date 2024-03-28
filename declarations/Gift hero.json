@@ -1,0 +1,13 @@
+{
+  "name": "Gift hero",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gifthero.com/terms-of-use",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gifthero.com/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div"
+    }
+  }
+}

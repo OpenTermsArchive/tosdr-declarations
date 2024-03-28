@@ -1,0 +1,13 @@
+{
+  "name": "Timeperformance",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.timeperformance.com/mentions-legales",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.timeperformance.com/conditions-generales",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div"
+    }
+  }
+}

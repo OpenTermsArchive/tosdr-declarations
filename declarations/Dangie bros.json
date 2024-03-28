@@ -1,0 +1,9 @@
+{
+  "name": "Dangie bros",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dangiebrosshop.com/privacy-policy",
+      "select": null
+    }
+  }
+}

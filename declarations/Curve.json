@@ -1,0 +1,21 @@
+{
+  "name": "Curve",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.curve.com/legal/cookies/",
+      "select": " > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.curve.com/en-gb/legal/terms/",
+      "select": " > main > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.curve.com/legal/usa-privacy-policy/",
+      "select": " > main > div > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.curve.com/legal/fair-use/",
+      "select": " > main > div > div"
+    }
+  }
+}

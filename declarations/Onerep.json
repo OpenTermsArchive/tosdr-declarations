@@ -1,0 +1,13 @@
+{
+  "name": "Onerep",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://onerep.com/subscription-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://onerep.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

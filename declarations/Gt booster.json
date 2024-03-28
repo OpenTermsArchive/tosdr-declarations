@@ -1,0 +1,13 @@
+{
+  "name": "Gt booster",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gtbooster.com/legal/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gtbooster.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

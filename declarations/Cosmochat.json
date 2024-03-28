@@ -1,0 +1,9 @@
+{
+  "name": "Cosmochat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cosmochat.eu/en/tpc.php",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Redarm",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://redarm.tech/privacy.html",
+      "select": "body"
+    }
+  }
+}

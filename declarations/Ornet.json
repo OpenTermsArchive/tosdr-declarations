@@ -1,0 +1,13 @@
+{
+  "name": "Ornet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ornet.io/app/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ornet.io/app/terms.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Saksfifthavenuecom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.saksfifthavenue.com/c/content/term-of-use",
+      "select": "body"
+    }
+  }
+}

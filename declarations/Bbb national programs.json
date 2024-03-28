@@ -1,0 +1,13 @@
+{
+  "name": "Bbb national programs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bbbprograms.org/terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://bbbprograms.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

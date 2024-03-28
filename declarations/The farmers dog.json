@@ -1,0 +1,13 @@
+{
+  "name": "The farmers dog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thefarmersdog.com/content/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.thefarmersdog.com/content/terms",
+      "select": "body"
+    }
+  }
+}

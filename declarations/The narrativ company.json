@@ -1,0 +1,13 @@
+{
+  "name": "The narrativ company",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://narrativ.com/legal/msa/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dashboard.narrativ.com/v2/privacy-policy",
+      "select": "body"
+    }
+  }
+}

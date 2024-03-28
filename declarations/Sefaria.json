@@ -1,0 +1,13 @@
+{
+  "name": "Sefaria",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sefaria.org/terms",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sefaria.org/privacy-policy",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

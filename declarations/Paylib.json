@@ -1,0 +1,17 @@
+{
+  "name": "Paylib",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.paylib.fr/mention-legales/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.paylib.fr/politique-relative-aux-cookies/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.paylib.fr/politique-de-protection-des-donnees-a-caractere-personnel/",
+      "select": "body"
+    }
+  }
+}

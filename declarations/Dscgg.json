@@ -1,0 +1,13 @@
+{
+  "name": "Dscgg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dsc.gg/legal/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dsc.gg/legal/privacy",
+      "select": "body"
+    }
+  }
+}

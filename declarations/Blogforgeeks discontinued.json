@@ -1,0 +1,13 @@
+{
+  "name": "Blogforgeeks discontinued",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://blogforgeeks.co.uk/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://blogforgeeks.co.uk/terms-of-service",
+      "select": "body"
+    }
+  }
+}

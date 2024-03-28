@@ -1,0 +1,13 @@
+{
+  "name": "Brisbane times",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.brisbanetimes.com.au/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.brisbanetimes.com.au/subscription-terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

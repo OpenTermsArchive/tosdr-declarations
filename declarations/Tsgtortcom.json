@@ -1,0 +1,9 @@
+{
+  "name": "Tsgtortcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/26016682/legal",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Urban vpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.urban-vpn.com/about-us/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.urban-vpn.com/about-us/privacy/",
+      "select": "body"
+    }
+  }
+}

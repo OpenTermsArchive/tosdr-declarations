@@ -1,0 +1,13 @@
+{
+  "name": "Snow",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://b612.snow.me/help/termsOfUse?lang=en",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://b612.snow.me/help/privacyPolicy?lang=en",
+      "select": "body"
+    }
+  }
+}

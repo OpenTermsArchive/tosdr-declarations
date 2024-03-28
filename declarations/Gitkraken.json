@@ -1,0 +1,13 @@
+{
+  "name": "Gitkraken",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gitkraken.com/privacy",
+      "select": "html > body > main > div > div:first-of-type > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gitkraken.com/eula",
+      "select": "html > body > main > div > div:first-of-type > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Kinemaster",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kinemaster.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://kinemaster.com/tos/",
+      "select": "body"
+    }
+  }
+}

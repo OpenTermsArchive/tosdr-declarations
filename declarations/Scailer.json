@@ -1,0 +1,13 @@
+{
+  "name": "Scailer",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.scailer.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.scailer.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Revolut",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.revolut.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.revolut.com/legal/website-terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.revolut.com/legal/cookies-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Purple",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://purple.com/terms-and-privacy",
+      "select": "html > body > main > section > div > div"
+    }
+  }
+}

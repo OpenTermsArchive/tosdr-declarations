@@ -1,0 +1,13 @@
+{
+  "name": "99math",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://legal.99math.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://legal.99math.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

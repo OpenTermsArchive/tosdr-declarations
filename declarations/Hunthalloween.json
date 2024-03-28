@@ -1,0 +1,9 @@
+{
+  "name": "Hunthalloween",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hunthalloween.com/pages/privacy",
+      "select": "body"
+    }
+  }
+}

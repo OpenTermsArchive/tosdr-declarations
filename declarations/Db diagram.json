@@ -1,0 +1,9 @@
+{
+  "name": "Db diagram",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dbdiagram.io/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Valvoline",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.vioc.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vioc.com/terms-conditions",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > main > div > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

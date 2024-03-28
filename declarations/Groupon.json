@@ -1,0 +1,13 @@
+{
+  "name": "Groupon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.groupon.com/legal/privacypolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.groupon.com/legal/termsofservice",
+      "select": "body"
+    }
+  }
+}

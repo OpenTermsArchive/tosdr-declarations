@@ -1,0 +1,9 @@
+{
+  "name": "Xhamster",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.xhamster.com/info/privacy",
+      "select": "body"
+    }
+  }
+}

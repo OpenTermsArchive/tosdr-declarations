@@ -1,0 +1,13 @@
+{
+  "name": "Fjallraven",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fjallraven.com/us/en-us/legal/terms-conditions",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fjallraven.com/us/en-us/legal/privacy-policy",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

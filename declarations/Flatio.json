@@ -1,0 +1,13 @@
+{
+  "name": "Flatio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flat.io/help/en/policies/privacy-policy-annex-3-cookies",
+      "select": "html > body > main > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://flat.io/help/en/policies/terms-of-service-individual.html",
+      "select": "html > body > main > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

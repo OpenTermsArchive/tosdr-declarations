@@ -1,0 +1,13 @@
+{
+  "name": "Mindbody",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://company.mindbodyonline.com/legal/consumer-agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://company.mindbodyonline.com/legal/privacy-policy",
+      "select": "body"
+    }
+  }
+}

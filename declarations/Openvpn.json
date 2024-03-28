@@ -1,0 +1,17 @@
+{
+  "name": "Openvpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://openvpn.net/wp-content/uploads/OpenVPN_GDPA_OPT.pdf",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://openvpn.net/legal/",
+      "select": "html > body > main > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://openvpn.net/wp-content/uploads/ovpn-legal-08.23.23.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Fun kids jokes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://funkidsjokes.com/privacy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://funkidsjokes.com/dmca-copyright/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://funkidsjokes.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

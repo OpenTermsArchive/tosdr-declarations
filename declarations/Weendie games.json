@@ -1,0 +1,17 @@
+{
+  "name": "Weendie games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://weendie.games/legal/privacy",
+      "select": "html > body > section > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://weendie.games/legal/cookies",
+      "select": "html > body > section > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://weendie.games/legal/tos",
+      "select": "html > body > section > div > div"
+    }
+  }
+}

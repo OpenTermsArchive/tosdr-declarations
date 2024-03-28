@@ -1,0 +1,13 @@
+{
+  "name": "Flightradar24",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.flightradar24.com/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(6) > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.flightradar24.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(6) > div > div > div"
+    }
+  }
+}

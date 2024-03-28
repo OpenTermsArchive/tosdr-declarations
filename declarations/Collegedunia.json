@@ -1,0 +1,9 @@
+{
+  "name": "Collegedunia",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://collegedunia.com/website-usage-policy",
+      "select": "body"
+    }
+  }
+}

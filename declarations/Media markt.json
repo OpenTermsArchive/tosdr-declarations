@@ -1,0 +1,17 @@
+{
+  "name": "Media markt",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.mediamarkt.de/de/shop/AGB.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.mediamarkt.de/de/shop/datenschutzhinweis_cookies.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mediamarkt.de/de/shop/datenschutzhinweis_shop.html",
+      "select": "body"
+    }
+  }
+}

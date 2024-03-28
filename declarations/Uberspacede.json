@@ -1,0 +1,9 @@
+{
+  "name": "Uberspacede",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://uberspace.de/en/about/privacy",
+      "select": "html > body > main > article > section > div > div"
+    }
+  }
+}

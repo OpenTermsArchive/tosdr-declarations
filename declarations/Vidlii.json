@@ -1,0 +1,13 @@
+{
+  "name": "Vidlii",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.vidlii.com/terms",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vidlii.com/privacy",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(2)"
+    }
+  }
+}

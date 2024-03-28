@@ -1,0 +1,13 @@
+{
+  "name": "Usa today",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cm.usatoday.com/privacy/?hidebanner=false",
+      "select": " > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://cm.usatoday.com/terms/",
+      "select": " > div > div:nth-of-type(2)"
+    }
+  }
+}

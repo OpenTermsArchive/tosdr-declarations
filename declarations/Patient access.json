@@ -1,0 +1,21 @@
+{
+  "name": "Patient access",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://support.patientaccess.com/complaint-policy",
+      "select": "html > body > div:first-of-type > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://support.patientaccess.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://support.patientaccess.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://support.patientaccess.com/cookie-policy",
+      "select": "html > body > div:first-of-type > div > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

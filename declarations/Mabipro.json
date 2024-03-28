@@ -1,0 +1,9 @@
+{
+  "name": "Mabipro",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mabi.pro/terms",
+      "select": "body"
+    }
+  }
+}

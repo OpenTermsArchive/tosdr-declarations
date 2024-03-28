@@ -1,0 +1,13 @@
+{
+  "name": "Speedlight",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://speedlight.io/p/policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://speedlight.io/p/terms",
+      "select": "body"
+    }
+  }
+}

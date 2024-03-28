@@ -1,0 +1,13 @@
+{
+  "name": "Penguin random house",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.penguinrandomhouse.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.penguinrandomhouse.com/privacy/",
+      "select": "body"
+    }
+  }
+}

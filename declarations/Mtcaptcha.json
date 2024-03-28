@@ -1,0 +1,13 @@
+{
+  "name": "Mtcaptcha",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mtcaptcha.com/legal-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mtcaptcha.com/legal-privacy-captcha",
+      "select": "body"
+    }
+  }
+}

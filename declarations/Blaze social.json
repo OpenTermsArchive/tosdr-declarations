@@ -1,0 +1,13 @@
+{
+  "name": "Blaze social",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.blazeapp.net/terms-of-service",
+      "select": "html > body > div > div > div:nth-of-type(3) > div > main > div > div > div > div:nth-of-type(2) > div > div > div > section > div:nth-of-type(2) > div > div:nth-of-type(2) > p"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.blazeapp.net/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > main > div > div > div > div:nth-of-type(2) > div > div > div > section > div:first-of-type > div:first-of-type"
+    }
+  }
+}

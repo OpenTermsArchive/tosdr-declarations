@@ -1,0 +1,13 @@
+{
+  "name": "Styleforum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.styleforum.net/help/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.styleforum.net/help/terms/",
+      "select": "body"
+    }
+  }
+}

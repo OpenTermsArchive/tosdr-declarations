@@ -1,0 +1,13 @@
+{
+  "name": "Skydance",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://skydance.com/terms/",
+      "select": "html > body > div:first-of-type > div > main > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://skydance.com/privacy/",
+      "select": "html > body > div:first-of-type > div > main > div:nth-of-type(2)"
+    }
+  }
+}

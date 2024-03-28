@@ -1,0 +1,13 @@
+{
+  "name": "Rm  plc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rmplc.com/pdf/web/viewer.html?file=%2F%7E%2Fmedia%2FPDFs%2FRM-Plc%2FPrivacy-and-cookies%2FRM-plc-Privacy-policy.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.rmplc.com/cookies",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(6)"
+    }
+  }
+}

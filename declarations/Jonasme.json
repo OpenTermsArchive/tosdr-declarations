@@ -1,0 +1,9 @@
+{
+  "name": "Jonasme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jonas.me/privacy",
+      "select": null
+    }
+  }
+}

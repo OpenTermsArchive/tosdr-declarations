@@ -1,0 +1,9 @@
+{
+  "name": "Megaup",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://megaup.net/terms.html",
+      "select": "body"
+    }
+  }
+}

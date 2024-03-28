@@ -1,0 +1,13 @@
+{
+  "name": "Websecurerr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://websecurerr.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4) > div > div:first-of-type > div > div > div > div:nth-of-type(5) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://websecurerr.com/terms-conditions/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4) > div > div:first-of-type > div > div > div > div:nth-of-type(5) > div"
+    }
+  }
+}

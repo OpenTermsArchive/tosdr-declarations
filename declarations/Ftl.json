@@ -1,0 +1,9 @@
+{
+  "name": "Ftl",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.ftl.ltd/legal",
+      "select": "body"
+    }
+  }
+}

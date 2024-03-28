@@ -1,0 +1,13 @@
+{
+  "name": "Muxy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://muxy.io/privacy/",
+      "select": "html > body > main > div:nth-of-type(2) > section > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://muxy.io/terms",
+      "select": "body"
+    }
+  }
+}

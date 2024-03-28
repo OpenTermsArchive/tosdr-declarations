@@ -1,0 +1,9 @@
+{
+  "name": "Fix my debt america",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fixmydebtamerica.com/terms",
+      "select": "body"
+    }
+  }
+}

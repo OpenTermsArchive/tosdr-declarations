@@ -1,0 +1,9 @@
+{
+  "name": "Schulcloud brandenburg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://s3.hidrive.strato.com/cloud-instances/brb/Willkommensordner/Datenschutz/Nutzungsordnung_Schueler-innen.pdf",
+      "select": "body"
+    }
+  }
+}

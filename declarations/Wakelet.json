@@ -1,0 +1,13 @@
+{
+  "name": "Wakelet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wakelet.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wakelet.com/terms.html",
+      "select": "body"
+    }
+  }
+}

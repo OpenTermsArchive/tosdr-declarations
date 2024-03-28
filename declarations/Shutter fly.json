@@ -1,0 +1,13 @@
+{
+  "name": "Shutter fly",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.shutterflyinc.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.shutterflyinc.com/terms-of-use/",
+      "select": null
+    }
+  }
+}

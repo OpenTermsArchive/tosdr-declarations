@@ -1,0 +1,13 @@
+{
+  "name": "Best online mortgage loan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bestonlinemortgageloan.com/terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(6) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bestonlinemortgageloan.com/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(6) > div"
+    }
+  }
+}

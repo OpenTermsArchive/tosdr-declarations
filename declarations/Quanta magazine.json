@@ -1,0 +1,13 @@
+{
+  "name": "Quanta magazine",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.quantamagazine.org/terms-conditions/",
+      "select": "html > body > div:nth-of-type(4) > div > main > div > div > section:nth-of-type(2) > div > section > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.quantamagazine.org/privacy-policy",
+      "select": "html > body > div:nth-of-type(4) > div > main > div > div > section:nth-of-type(2) > div > section > div:first-of-type > div > div"
+    }
+  }
+}

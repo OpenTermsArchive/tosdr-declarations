@@ -1,0 +1,13 @@
+{
+  "name": "The fifth person",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://fifthperson.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://fifthperson.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

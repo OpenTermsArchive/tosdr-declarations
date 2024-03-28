@@ -1,0 +1,17 @@
+{
+  "name": "Lands end",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.landsend.com/customer-service/?1692481432012",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div:first-of-type > div:nth-of-type(4) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > div > div:first-of-type > div:first-of-type > div > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.landsend.com/customer-service/?1692481437579",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div:first-of-type > div:nth-of-type(4) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.landsend.com/customerservice/legal_policies/privacy/",
+      "select": null
+    }
+  }
+}

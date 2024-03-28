@@ -1,0 +1,13 @@
+{
+  "name": "Mineplex forums",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mineplex.com/data-notice/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mineplex.com/terms/",
+      "select": "body"
+    }
+  }
+}

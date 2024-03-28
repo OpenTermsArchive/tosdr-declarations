@@ -1,0 +1,17 @@
+{
+  "name": "Insticator",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.insticator.com/terms/",
+      "select": "html > body > div:nth-of-type(2) > section > div > section > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.insticator.com/cookies/",
+      "select": "html > body > div:nth-of-type(2) > section > div > section > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.insticator.com/privacy/",
+      "select": "body"
+    }
+  }
+}

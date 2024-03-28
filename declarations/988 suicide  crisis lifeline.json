@@ -1,0 +1,9 @@
+{
+  "name": "988 suicide  crisis lifeline",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://988lifeline.org/about/",
+      "select": null
+    }
+  }
+}

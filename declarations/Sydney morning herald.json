@@ -1,0 +1,13 @@
+{
+  "name": "Sydney morning herald",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.smh.com.au/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.smh.com.au/conditions-of-use",
+      "select": "body"
+    }
+  }
+}

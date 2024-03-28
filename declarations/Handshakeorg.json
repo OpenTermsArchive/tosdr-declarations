@@ -1,0 +1,13 @@
+{
+  "name": "Handshakeorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://handshake.org/terms-of-use",
+      "select": "html > body > div:first-of-type > div > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://handshake.org/privacy-policy",
+      "select": "html > body > div:first-of-type > div > section:nth-of-type(2)"
+    }
+  }
+}

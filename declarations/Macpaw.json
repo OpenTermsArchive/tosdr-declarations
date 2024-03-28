@@ -1,0 +1,9 @@
+{
+  "name": "Macpaw",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://macpaw.com/cleanmymac-x-privacy-policy",
+      "select": "body"
+    }
+  }
+}

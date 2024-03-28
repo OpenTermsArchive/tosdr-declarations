@@ -1,0 +1,17 @@
+{
+  "name": "Index education",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.index-education.com/fr/mentions-legales.php",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.index-education.com/fr/utilisation-cookies.php",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.index-education.com/fr/politique-confidentialite.php",
+      "select": null
+    }
+  }
+}

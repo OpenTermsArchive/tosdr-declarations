@@ -1,0 +1,13 @@
+{
+  "name": "Open book publishers",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.openbookpublishers.com/page/privacy/",
+      "select": "#content"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.openbookpublishers.com/section/6/1",
+      "select": "#content"
+    }
+  }
+}

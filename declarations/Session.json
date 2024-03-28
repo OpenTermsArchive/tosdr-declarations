@@ -1,0 +1,13 @@
+{
+  "name": "Session",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://getsession.org/terms-of-service/",
+      "select": "html > body > div > div > div > section:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://getsession.org/privacy-policy/",
+      "select": "html > body > div > div > div > section:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

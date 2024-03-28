@@ -1,0 +1,9 @@
+{
+  "name": "Minneapolis community and technical college",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://minneapolis.edu/other-links/online-privacy-statement",
+      "select": "html > body > div:nth-of-type(2) > div > div > main"
+    }
+  }
+}

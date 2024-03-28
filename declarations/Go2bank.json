@@ -1,0 +1,17 @@
+{
+  "name": "Go2bank",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.go2bank.com/content/dam/go2bank/legal/about/docs/cardholderandsecurityagreement-scc.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.go2bank.com/content/dam/go2bank/legal/about/docs/terms-of-use.pdf",
+      "select": "body"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://www.go2bank.com/content/dam/go2bank/legal/about/docs/electroniccommunicationsagreement.pdf",
+      "select": "body"
+    }
+  }
+}

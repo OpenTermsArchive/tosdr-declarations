@@ -1,0 +1,9 @@
+{
+  "name": "Cubash discontinued",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cubash.com/legal/terms",
+      "select": "body"
+    }
+  }
+}

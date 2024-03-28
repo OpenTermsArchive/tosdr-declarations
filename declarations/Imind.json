@@ -1,0 +1,17 @@
+{
+  "name": "Imind",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://imind.com/privacy_policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://imind.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://imind.com/terms_of_service",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Voiceai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://voice.ai/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://voice.ai/tos",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://voice.ai/dmca-policy",
+      "select": "body"
+    }
+  }
+}

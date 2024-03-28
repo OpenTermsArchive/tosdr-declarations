@@ -1,0 +1,13 @@
+{
+  "name": "Faircado",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://faircado.de/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://faircado.de/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Drugs forum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://drugs-forum.com/help/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://drugs-forum.com/help/cookies",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://drugs-forum.com/help/rules",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div"
+    }
+  }
+}

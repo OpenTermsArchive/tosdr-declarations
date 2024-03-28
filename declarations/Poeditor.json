@@ -1,0 +1,13 @@
+{
+  "name": "Poeditor",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://poeditor.com/terms/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://poeditor.com/terms/privacy",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

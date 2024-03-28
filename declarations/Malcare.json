@@ -1,0 +1,17 @@
+{
+  "name": "Malcare",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.malcare.com/cookie-policy/",
+      "select": " > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.malcare.com/privacy/",
+      "select": " > div > div > div > div > div > div > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.malcare.com/tos/",
+      "select": " > div"
+    }
+  }
+}

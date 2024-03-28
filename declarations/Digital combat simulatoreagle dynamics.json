@@ -1,0 +1,13 @@
+{
+  "name": "Digital combat simulatoreagle dynamics",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.digitalcombatsimulator.com/en/legal/privacy_policy.php",
+      "select": "html > body > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.digitalcombatsimulator.com/en/legal/terms_of_service.php",
+      "select": "html > body > div:nth-of-type(4)"
+    }
+  }
+}

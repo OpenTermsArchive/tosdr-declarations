@@ -1,0 +1,17 @@
+{
+  "name": "Prowritingaid",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://prowritingaid.com/en/Home/TermsOfService",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(4) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://prowritingaid.com/en/Home/Privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://prowritingaid.com/en/Home/CookiePolicy",
+      "select": "body"
+    }
+  }
+}

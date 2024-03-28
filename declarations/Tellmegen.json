@@ -1,0 +1,21 @@
+{
+  "name": "Tellmegen",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.tellmegen.com/legal-terms/?lang=en",
+      "select": "html > body > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tellmegen.com/privacy-policy/?lang=en",
+      "select": "html > body > main > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.tellmegen.com/cookie-policy/?lang=en",
+      "select": "html > body > main > div > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.tellmegen.com/return-policy/?lang=en",
+      "select": "html > body > main > div"
+    }
+  }
+}

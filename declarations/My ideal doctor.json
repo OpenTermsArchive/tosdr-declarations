@@ -1,0 +1,9 @@
+{
+  "name": "My ideal doctor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.wixstatic.com/ugd/9d793e_9a2c6b86ce7a4697ae09f4e6e7dffd01.pdf",
+      "select": "body"
+    }
+  }
+}

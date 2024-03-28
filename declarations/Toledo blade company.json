@@ -1,0 +1,13 @@
+{
+  "name": "Toledo blade company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.toledoblade.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.toledoblade.com/visitoragreement",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(4) > div:first-of-type > div > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

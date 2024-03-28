@@ -1,0 +1,9 @@
+{
+  "name": "Colegio palas atenea",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.colegiopalasatenea.com/wp-content/uploads/2021/01/Politica-de-privacidad-.pdf",
+      "select": "body"
+    }
+  }
+}

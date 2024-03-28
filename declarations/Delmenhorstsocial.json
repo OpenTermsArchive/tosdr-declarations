@@ -1,0 +1,9 @@
+{
+  "name": "Delmenhorstsocial",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://delmenhorst.social/register",
+      "select": null
+    }
+  }
+}

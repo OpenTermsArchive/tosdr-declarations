@@ -1,0 +1,9 @@
+{
+  "name": "Kjv bible now",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/1qx4MfgdZmoX79w-B-oGms1PB356hboI1HAEfhgeY2c4/edit?pli=1",
+      "select": "body"
+    }
+  }
+}

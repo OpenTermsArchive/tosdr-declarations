@@ -1,0 +1,13 @@
+{
+  "name": "Aldi us",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.aldi.us/en/terms-of-use/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.aldi.us/en/online-privacy-notice/",
+      "select": null
+    }
+  }
+}

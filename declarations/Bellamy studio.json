@@ -1,0 +1,9 @@
+{
+  "name": "Bellamy studio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bellamystudio.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

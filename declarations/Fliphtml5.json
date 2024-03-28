@@ -1,0 +1,17 @@
+{
+  "name": "Fliphtml5",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://fliphtml5.com/terms-of-service.php",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://fliphtml5.com/dmca-policy.php",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://fliphtml5.com/privacy-policy.php",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    }
+  }
+}

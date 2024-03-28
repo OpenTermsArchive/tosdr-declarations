@@ -1,0 +1,13 @@
+{
+  "name": "Food allergy research  education",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.foodallergy.org/terms-use",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > main > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.foodallergy.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

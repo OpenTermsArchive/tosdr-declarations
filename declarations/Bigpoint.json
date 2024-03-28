@@ -1,0 +1,13 @@
+{
+  "name": "Bigpoint",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://legal.bigpoint.com/EN/terms-and-conditions/en-GB",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://legal.bigpoint.com/DE/privacy-policy/en-GB",
+      "select": "body"
+    }
+  }
+}

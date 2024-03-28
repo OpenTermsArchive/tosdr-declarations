@@ -1,0 +1,17 @@
+{
+  "name": "Splashlearn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.splashlearn.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.splashlearn.com/terms-of-use",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.splashlearn.com/cookies_info_setting",
+      "select": "body"
+    }
+  }
+}

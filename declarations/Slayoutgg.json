@@ -1,0 +1,13 @@
+{
+  "name": "Slayoutgg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.play.slayout.gg/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.play.slayout.gg/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

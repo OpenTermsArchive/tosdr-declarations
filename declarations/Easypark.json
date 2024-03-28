@@ -1,0 +1,17 @@
+{
+  "name": "Easypark",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://parkmobile.nl/en/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.parkmobile.com/uk/privacypolicy",
+      "select": " > div:first-of-type"
+    },
+    "Legal Information": {
+      "fetch": "https://parkmobile.nl/en/privacy-notice/",
+      "select": "body"
+    }
+  }
+}

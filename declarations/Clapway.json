@@ -1,0 +1,13 @@
+{
+  "name": "Clapway",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://clapway.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://clapway.com/privacy/",
+      "select": "body"
+    }
+  }
+}

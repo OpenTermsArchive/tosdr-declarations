@@ -1,0 +1,9 @@
+{
+  "name": "Headerlift",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://headerlift.com/privacy.html ",
+      "select": "body"
+    }
+  }
+}

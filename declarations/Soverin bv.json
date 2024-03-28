@@ -1,0 +1,9 @@
+{
+  "name": "Soverin bv",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://soverin.net/legal",
+      "select": "body"
+    }
+  }
+}

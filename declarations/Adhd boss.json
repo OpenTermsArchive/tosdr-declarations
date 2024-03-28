@@ -1,0 +1,21 @@
+{
+  "name": "Adhd boss",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://adhdboss.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://adhdboss.com/tos/",
+      "select": " > article > div"
+    },
+    "Legal Information": {
+      "fetch": "https://adhdboss.com/medical-disclaimer/",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://adhdboss.com/affiliate-disclosure/",
+      "select": "body"
+    }
+  }
+}

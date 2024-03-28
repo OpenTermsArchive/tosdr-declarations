@@ -1,0 +1,9 @@
+{
+  "name": "Feeding america",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.feedingamerica.org/privacy-policy/donor-privacy-policy",
+      "select": "body"
+    }
+  }
+}

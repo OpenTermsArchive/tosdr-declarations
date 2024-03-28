@@ -1,0 +1,13 @@
+{
+  "name": "Pdffiller",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pdffiller.com/en/privacy_policy",
+      "select": " > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pdffiller.com/en/terms_of_services.htm",
+      "select": "body"
+    }
+  }
+}

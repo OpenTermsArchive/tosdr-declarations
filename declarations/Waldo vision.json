@@ -1,0 +1,21 @@
+{
+  "name": "Waldo vision",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.waldo.vision/legal/terms-of-service/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.waldo.vision/legal/privacy-policy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://docs.waldo.vision/legal/cookie-policy/",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://docs.waldo.vision/legal/code-of-conduct/",
+      "select": null
+    }
+  }
+}

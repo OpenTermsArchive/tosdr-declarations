@@ -1,0 +1,13 @@
+{
+  "name": "Shortest",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://shorte.st/privacy",
+      "select": "html > body > div:nth-of-type(9) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://shorte.st/tou",
+      "select": "html > body > div:nth-of-type(9) > div:nth-of-type(2)"
+    }
+  }
+}

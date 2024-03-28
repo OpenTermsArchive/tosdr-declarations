@@ -1,0 +1,13 @@
+{
+  "name": "Webmail",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.webmail.co.za/help/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.webmail.co.za/help/terms.php",
+      "select": null
+    }
+  }
+}

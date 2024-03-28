@@ -1,0 +1,9 @@
+{
+  "name": "Angeion group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://angeion-public.s3.amazonaws.com/docs/Privacy_Policy.pdf",
+      "select": "body"
+    }
+  }
+}

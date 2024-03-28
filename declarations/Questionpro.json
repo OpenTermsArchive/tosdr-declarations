@@ -1,0 +1,13 @@
+{
+  "name": "Questionpro",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.questionpro.com/help/privacy-policy.html",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > div > div:nth-of-type(5) > div:first-of-type > div > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.questionpro.com/help/terms-of-use.html",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > div > div:nth-of-type(5)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Centerfield",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.centerfield.com/terms-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.centerfield.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

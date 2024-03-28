@@ -1,0 +1,13 @@
+{
+  "name": "Transpose solutions",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.transposesolutions.com/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.transposesolutions.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Affirmtrust",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.affirmtrust.com/privacy-statement/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > main > article > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.affirmtrust.com/cookie-policy/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > main > article > div > div"
+    }
+  }
+}

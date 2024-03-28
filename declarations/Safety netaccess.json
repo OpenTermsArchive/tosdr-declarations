@@ -1,0 +1,13 @@
+{
+  "name": "Safety netaccess",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://snap.safetynetaccess.com/guests/welcome/1002731?MA=DC%3AF5%3A05%3A8F%3AD3%3A71&IP=192.168.13.248&username=&link-login-only=http%3A%2F%2F192.168.10.1%2Flogin&OS=http%3A%2F%2Fwww.msftconnecttest.com%2Fredirect&error=&interface-name=Guest+Bridge&authMethodID=2#data",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://safetynetaccess.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

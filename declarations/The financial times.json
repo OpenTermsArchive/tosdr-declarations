@@ -1,0 +1,17 @@
+{
+  "name": "The financial times",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.ft.com/legal-privacy/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.ft.com/legal-privacy/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.ft.com/legal-privacy/cookies/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Honeypot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.honeypot.io/pages/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.honeypot.io/pages/terms_of_service",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "High point university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.highpoint.edu/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > main > div"
+    }
+  }
+}

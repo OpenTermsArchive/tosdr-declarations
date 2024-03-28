@@ -1,0 +1,13 @@
+{
+  "name": "Nqn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nqn.blue/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://nqn.blue/terms",
+      "select": "body"
+    }
+  }
+}

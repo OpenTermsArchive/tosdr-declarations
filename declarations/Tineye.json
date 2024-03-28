@@ -1,0 +1,17 @@
+{
+  "name": "Tineye",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tineye.com/terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Developer Terms": {
+      "fetch": "https://tineye.com/api_terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tineye.com/dpa",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(6) > div:nth-of-type(2)"
+    }
+  }
+}

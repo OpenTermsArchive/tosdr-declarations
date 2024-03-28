@@ -1,0 +1,9 @@
+{
+  "name": "Wpx",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wpx.nl/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

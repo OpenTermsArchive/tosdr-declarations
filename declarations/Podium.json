@@ -1,0 +1,13 @@
+{
+  "name": "Podium",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.podium.com/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > main > article > div > div > div > div > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.podium.com/privacypolicy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Navient solutions llc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://navient.com/protecting-your-privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://navient.com/terms-of-use",
+      "select": "html > body > div > div:nth-of-type(2) > div > section > article"
+    }
+  }
+}

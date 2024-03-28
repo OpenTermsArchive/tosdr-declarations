@@ -1,0 +1,9 @@
+{
+  "name": "Guelph city hall",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://guelph.ca/city-hall/access-to-information/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

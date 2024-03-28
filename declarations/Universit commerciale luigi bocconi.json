@@ -1,0 +1,13 @@
+{
+  "name": "Universit commerciale luigi bocconi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/About+Us/Statute+Regulations+and+Documents/Data+Protection+Regulation+GDPR//?key=footer",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/56389806/cookie-policy?an=no&s_ck=false&newmarkup=yes",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Viewqwest",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://viewqwest.com/data-protection",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://viewqwest.com/wp-content/uploads/2020/07/VQ-Website-Terms-of-Use-v200625.pdf",
+      "select": "body"
+    }
+  }
+}

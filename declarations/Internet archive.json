@@ -1,0 +1,9 @@
+{
+  "name": "Internet archive",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://archive.org/about/terms.php",
+      "select": "body"
+    }
+  }
+}

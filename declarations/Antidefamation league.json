@@ -1,0 +1,9 @@
+{
+  "name": "Antidefamation league",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.adl.org/privacy-policy",
+      "select": "html"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Anymp4",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.anymp4.com/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.anymp4.com/terms-of-use.html",
+      "select": "body"
+    }
+  }
+}

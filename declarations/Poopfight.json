@@ -1,0 +1,9 @@
+{
+  "name": "Poopfight",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://poopfight.io/policy.php",
+      "select": "body"
+    }
+  }
+}

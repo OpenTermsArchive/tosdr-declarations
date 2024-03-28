@@ -1,0 +1,17 @@
+{
+  "name": "Vego+",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vegoplus.com/site/terms",
+      "select": "html > body > div:nth-of-type(5) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://vegoplus.com/site/privacy",
+      "select": "html > body > div:nth-of-type(5) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://vegoplus.com/site/cookies",
+      "select": "html > body > div:nth-of-type(5) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

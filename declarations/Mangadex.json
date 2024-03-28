@@ -1,0 +1,13 @@
+{
+  "name": "Mangadex",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mangadex.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > article > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://mangadex.com/terms-of-service/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > article > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Scratch wiki",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://de.scratch-wiki.info/wiki/Project:Impressum",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://de.scratch-wiki.info/wiki/Project:Datenschutz",
+      "select": null
+    }
+  }
+}

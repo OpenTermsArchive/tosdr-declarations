@@ -1,0 +1,9 @@
+{
+  "name": "Trevorio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://trevor.io/terms/",
+      "select": "body"
+    }
+  }
+}

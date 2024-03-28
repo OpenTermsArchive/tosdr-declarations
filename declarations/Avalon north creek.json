@@ -1,0 +1,21 @@
+{
+  "name": "Avalon north creek",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.avaloncommunities.com/terms-of-use/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.avaloncommunities.com/us-state-privacy-notice/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.avaloncommunities.com/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.avaloncommunities.com/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Verifymyage",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.verifymyage.co.uk/terms-of-sale",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.verifymyage.co.uk/privacy",
+      "select": "body"
+    }
+  }
+}

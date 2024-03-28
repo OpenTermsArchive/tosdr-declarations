@@ -1,0 +1,13 @@
+{
+  "name": "Trustwallet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://trustwallet.com/privacy-policy",
+      "select": "html > body > main > article > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://trustwallet.com/terms-of-services",
+      "select": "html > body > main > article > div > div"
+    }
+  }
+}

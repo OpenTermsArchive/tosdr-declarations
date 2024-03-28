@@ -1,0 +1,9 @@
+{
+  "name": "Ark curriculum plus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.arkcurriculumplus.org.uk/privacy-policy",
+      "select": "body"
+    }
+  }
+}

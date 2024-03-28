@@ -1,0 +1,13 @@
+{
+  "name": "2fadirectory",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://2fa.directory/companies/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://2fa.directory/privacy/",
+      "select": "body"
+    }
+  }
+}

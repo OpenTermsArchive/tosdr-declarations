@@ -1,0 +1,13 @@
+{
+  "name": "Unitsmaster",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://unitsmaster.com/terms.html",
+      "select": "html > body > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://unitsmaster.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "X",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://twitter.com/en/tos",
+      "select": "main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://twitter.com/en/privacy",
+      "select": "main"
+    }
+  }
+}

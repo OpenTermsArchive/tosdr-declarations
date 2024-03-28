@@ -1,0 +1,9 @@
+{
+  "name": "Headphonesty",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.headphonesty.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Valour",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://github.com/SpikeViper/Valour/blob/252cef85b54338e263b522b6aa3bfd56b44479b2/PRIVACY",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.termsfeed.com/live/8e6279fa-f040-442d-a2d2-4e4395aaf367",
+      "select": "body"
+    }
+  }
+}

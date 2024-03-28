@@ -1,0 +1,13 @@
+{
+  "name": "Queen vic darts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://queenvicdarts.org.uk/Privacy%20Policy.htm",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://queenvicdarts.org.uk/Cookie%20Policy.htm",
+      "select": "body"
+    }
+  }
+}

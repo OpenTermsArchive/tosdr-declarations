@@ -1,0 +1,9 @@
+{
+  "name": "Tagesspiegel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tagesspiegel.de/service/verlag-der-tagesspiegel-datenschutzerklaerung/22603436.html",
+      "select": "body"
+    }
+  }
+}

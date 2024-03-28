@@ -1,0 +1,9 @@
+{
+  "name": "Filipe cardeira",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://filipecardeira.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

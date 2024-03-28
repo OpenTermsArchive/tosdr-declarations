@@ -1,0 +1,13 @@
+{
+  "name": "Tidelift",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tidelift.com/about/privacy",
+      "select": "div"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.tidelift.com/article/57-lifter-agreement",
+      "select": "body"
+    }
+  }
+}

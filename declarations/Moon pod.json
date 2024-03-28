@@ -1,0 +1,13 @@
+{
+  "name": "Moon pod",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.moonpod.co/pages/terms-and-conditions",
+      "select": "html > body > div:first-of-type > main > section > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.moonpod.co/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

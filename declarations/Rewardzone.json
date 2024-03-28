@@ -1,0 +1,13 @@
+{
+  "name": "Rewardzone",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://contact.rzucscenter.com/policies/terms ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://contact.rzucscenter.com/policies/privacy",
+      "select": "body"
+    }
+  }
+}

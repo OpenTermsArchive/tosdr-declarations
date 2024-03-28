@@ -1,0 +1,17 @@
+{
+  "name": "Humble bundle",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.humblebundle.com/terms",
+      "select": "div.inner-main-wrapper"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.humblebundle.com/cookie-policy",
+      "select": "div.inner-main-wrapper"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.humblebundle.com/privacy",
+      "select": "div.inner-main-wrapper"
+    }
+  }
+}

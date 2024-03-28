@@ -1,0 +1,13 @@
+{
+  "name": "Fly clone",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://flyclone.com/ucp.php?mode=terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://flyclone.com/ucp.php?mode=privacy",
+      "select": "body"
+    }
+  }
+}

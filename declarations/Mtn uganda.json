@@ -1,0 +1,13 @@
+{
+  "name": "Mtn uganda",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mtn.co.ug/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mtn.co.ug/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

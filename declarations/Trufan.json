@@ -1,0 +1,13 @@
+{
+  "name": "Trufan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://playr.gg/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://playr.gg/privacy-policy",
+      "select": "body"
+    }
+  }
+}

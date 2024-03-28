@@ -1,0 +1,17 @@
+{
+  "name": "Think academy",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.thinkacademy.uk/pdf-viewer?pdf=https%3A%2F%2Fdownload-pa-s3.thethinkacademy.com%2Fstatic-pa%2Fstatic%2Fpdf%2Fprivacy-policy_en_0701122.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.thinkacademy.uk/cookies-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.thinkacademy.uk/user-agreement",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

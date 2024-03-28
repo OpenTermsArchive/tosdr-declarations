@@ -1,0 +1,17 @@
+{
+  "name": "Royal star  garter",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://starandgarter.org/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://starandgarter.org/cookies-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://starandgarter.org/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

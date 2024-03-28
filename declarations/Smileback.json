@@ -1,0 +1,13 @@
+{
+  "name": "Smileback",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://smileback.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://smileback.com/terms",
+      "select": "body"
+    }
+  }
+}

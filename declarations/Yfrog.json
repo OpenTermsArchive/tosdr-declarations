@@ -1,0 +1,9 @@
+{
+  "name": "Yfrog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://yfrog.com/page/tos",
+      "select": "body"
+    }
+  }
+}

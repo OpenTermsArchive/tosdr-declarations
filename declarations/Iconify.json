@@ -1,0 +1,9 @@
+{
+  "name": "Iconify",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://iconify.design/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Discordlist",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://discordlist.io/terms",
+      "select": "html > body > div:first-of-type > div > pre"
+    }
+  }
+}

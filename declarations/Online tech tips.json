@@ -1,0 +1,9 @@
+{
+  "name": "Online tech tips",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.online-tech-tips.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

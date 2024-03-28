@@ -1,0 +1,13 @@
+{
+  "name": "Ss activewear",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ssactivewear.com/about/termsofuse",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ssactivewear.com/about/privacypolicy",
+      "select": "body"
+    }
+  }
+}

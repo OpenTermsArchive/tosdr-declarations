@@ -1,0 +1,9 @@
+{
+  "name": "Deliberative entertainment",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.deliberativegames.com/legal/",
+      "select": "body"
+    }
+  }
+}

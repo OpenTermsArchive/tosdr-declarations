@@ -1,0 +1,13 @@
+{
+  "name": "Osmand",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://osmand.net/docs/legal/terms-of-use",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://osmand.net/help-online/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div"
+    }
+  }
+}

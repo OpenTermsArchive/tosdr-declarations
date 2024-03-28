@@ -1,0 +1,17 @@
+{
+  "name": "1muslim",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "http://1muslimapp.com/cookie-policy-en.html",
+      "select": "html > body > div:first-of-type > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://1muslimapp.com/privacy-policy-en.html",
+      "select": "html > body > div:first-of-type > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://1muslimapp.com/tos-en.html",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

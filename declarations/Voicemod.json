@@ -1,0 +1,13 @@
+{
+  "name": "Voicemod",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.voicemod.net/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.voicemod.net/cookies-policy/",
+      "select": "body"
+    }
+  }
+}

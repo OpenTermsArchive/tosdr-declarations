@@ -1,0 +1,13 @@
+{
+  "name": "The startup squad",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thestartupsquad.com/terms-and-conditions/",
+      "select": "html > body > section:nth-of-type(2) > div > div:first-of-type > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thestartupsquad.com/privacy/",
+      "select": "html > body > section:nth-of-type(2) > div > div:first-of-type > div > div > div > div > div"
+    }
+  }
+}

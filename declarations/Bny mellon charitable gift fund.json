@@ -1,0 +1,13 @@
+{
+  "name": "Bny mellon charitable gift fund",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://bnymelloncharitablegiftfund.org/bnym/Portals/5/docs/2023Non-EU%20and%20EMEA%20Cookie%20Notices-BNY%20Mellon%20Charitable%20Gift%20Fund.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bnymelloncharitablegiftfund.org/bnym/Portals/5/docs/Online%20Privacy%20Policy-BNY%20Mellon%20Charitable%20Gift%20Fund.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Sima academy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.simaacademy.tv/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.simaacademy.tv/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.simaacademy.tv/cookies",
+      "select": "body"
+    }
+  }
+}

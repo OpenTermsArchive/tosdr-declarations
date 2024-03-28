@@ -1,0 +1,13 @@
+{
+  "name": "Kajeet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kajeet.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kajeet.com/privacy-policy-2 ",
+      "select": "body"
+    }
+  }
+}

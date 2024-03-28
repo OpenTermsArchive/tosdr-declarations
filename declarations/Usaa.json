@@ -1,0 +1,13 @@
+{
+  "name": "Usaa",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://usaa.com/inet/pages/site_terms_and_conditions_main?wa_ref=pub_subglobal_footerUtility_footerDefaultPublic_TERMCONDITIONS",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.usaa.com/inet/wc/privacy_promise",
+      "select": "body"
+    }
+  }
+}

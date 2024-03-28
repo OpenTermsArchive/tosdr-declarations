@@ -1,0 +1,17 @@
+{
+  "name": "Sonic drivein",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sonicdrivein.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sonicdrivein.com/legal",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sonicdrivein.com/about-our-ads",
+      "select": "body"
+    }
+  }
+}

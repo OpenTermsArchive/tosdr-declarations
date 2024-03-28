@@ -1,0 +1,9 @@
+{
+  "name": "Other things in general",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://otherthingsingeneral.com/page/privacy",
+      "select": "body"
+    }
+  }
+}

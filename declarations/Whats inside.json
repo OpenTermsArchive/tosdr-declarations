@@ -1,0 +1,13 @@
+{
+  "name": "Whats inside",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://whatsinsidemerch.com/pages/refund-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://whatsinside.it/terms ",
+      "select": "body"
+    }
+  }
+}

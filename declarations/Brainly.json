@@ -1,0 +1,21 @@
+{
+  "name": "Brainly",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://brainly.com/pages/cookie_policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://brainly.com/pages/privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://brainly.com/pages/terms_of_use",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://brainly.com/pages/community_guidelines",
+      "select": "body"
+    }
+  }
+}

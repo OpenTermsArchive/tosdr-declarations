@@ -1,0 +1,13 @@
+{
+  "name": "Javelin",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://javelinstrategy.com/terms-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://javelinstrategy.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "City of reading",
+  "documents": {
+    "Affiliate Disclosure": {
+      "fetch": "https://www.readingpa.gov/linking-policy",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(5) > div > div > div:first-of-type > section > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.readingpa.gov/website-privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(5) > div > div > div:first-of-type > section > div:first-of-type > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Storychecks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://storychecks.com/About-StoryChecks/Privacy-Policy/",
+      "select": "body"
+    }
+  }
+}

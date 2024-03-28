@@ -1,0 +1,9 @@
+{
+  "name": "Polarbackup",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.polarbackup.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

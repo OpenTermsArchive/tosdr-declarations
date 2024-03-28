@@ -1,0 +1,17 @@
+{
+  "name": "Mahatat",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://mahatat.com/cookie-policy.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mahatat.com/policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mahatat.com/terms.html",
+      "select": "body"
+    }
+  }
+}

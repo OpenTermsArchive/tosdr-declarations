@@ -1,0 +1,9 @@
+{
+  "name": "Alicia online",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aliciagame.com/privacy",
+      "select": "body"
+    }
+  }
+}

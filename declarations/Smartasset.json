@@ -1,0 +1,13 @@
+{
+  "name": "Smartasset",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://smartasset.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://smartasset.com/privacy",
+      "select": "body"
+    }
+  }
+}

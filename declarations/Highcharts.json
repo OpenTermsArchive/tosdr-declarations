@@ -1,0 +1,13 @@
+{
+  "name": "Highcharts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wp-assets.highcharts.com/www-highcharts-com/blog/wp-content/uploads/2021/02/01122554/Highsoft-Privacy-Policy-8.5.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://wp-assets.highcharts.com/www-highcharts-com/blog/wp-content/uploads/2021/02/01122553/Cookie-Policy-2.0.pdf",
+      "select": "body"
+    }
+  }
+}

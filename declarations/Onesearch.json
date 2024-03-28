@@ -1,0 +1,13 @@
+{
+  "name": "Onesearch",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.onesearch.com/tos?hspart=ono&hsimp=yhs-df&intl=uk",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.onesearch.com/privacy-policy?hspart=ono&hsimp=yhs-df&intl=uk",
+      "select": "body"
+    }
+  }
+}

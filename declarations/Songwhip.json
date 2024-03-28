@@ -1,0 +1,13 @@
+{
+  "name": "Songwhip",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://songwhip.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://songwhip.com/privacy",
+      "select": "body"
+    }
+  }
+}

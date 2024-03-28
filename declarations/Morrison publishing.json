@@ -1,0 +1,25 @@
+{
+  "name": "Morrison publishing",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.morrisonpublishing.com/dmca-notice",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.morrisonpublishing.com/anti-spam",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.morrisonpublishing.com/terms-of-use",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.morrisonpublishing.com/refund-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.morrisonpublishing.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:first-of-type"
+    }
+  }
+}

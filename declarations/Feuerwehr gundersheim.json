@@ -1,0 +1,9 @@
+{
+  "name": "Feuerwehr gundersheim",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://feuerwehr-gundersheim.de/datenschutzerklaerung/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Surveysoda",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://surveysoda.com/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://surveysoda.com/terms.php",
+      "select": "body"
+    }
+  }
+}

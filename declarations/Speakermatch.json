@@ -1,0 +1,17 @@
+{
+  "name": "Speakermatch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.speakermatch.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.speakermatch.com/terms/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://support.speakermatch.com/050049-How-to-cancel-your-SpeakerMatch-Membership",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:first-of-type"
+    }
+  }
+}

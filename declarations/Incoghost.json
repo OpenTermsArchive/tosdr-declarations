@@ -1,0 +1,17 @@
+{
+  "name": "Incoghost",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://incog.host/privacy",
+      "select": "html > body > main > section:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://incog.host/legalstuff",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://incog.host/canary",
+      "select": "html > body > main > section"
+    }
+  }
+}

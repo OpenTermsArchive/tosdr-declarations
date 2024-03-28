@@ -1,0 +1,13 @@
+{
+  "name": "Hdfc bank",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hdfcbank.com/personal/useful-links/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(13) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hdfcbank.com/personal/useful-links/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(13) > div"
+    }
+  }
+}

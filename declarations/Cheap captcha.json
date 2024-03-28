@@ -1,0 +1,21 @@
+{
+  "name": "Cheap captcha",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cheapcaptcha.com/privacy-policy",
+      "select": " > div:nth-of-type(2) > div > div:first-of-type > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://cheapcaptcha.com/refund-policy",
+      "select": " > div > div > div > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Frequently Asked Questions": {
+      "fetch": "https://cheapcaptcha.com/faq",
+      "select": " > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://cheapcaptcha.com/terms",
+      "select": " > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

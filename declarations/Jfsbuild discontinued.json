@@ -1,0 +1,9 @@
+{
+  "name": "Jfsbuild discontinued",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jfsbuild.com/privacypolicy.txt",
+      "select": "body"
+    }
+  }
+}

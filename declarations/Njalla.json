@@ -1,0 +1,13 @@
+{
+  "name": "Njalla",
+  "documents": {
+    "Frequently Asked Questions": {
+      "fetch": "https://njal.la/#faq",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://njal.la/tos/",
+      "select": " > div:first-of-type"
+    }
+  }
+}

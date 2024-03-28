@@ -1,0 +1,13 @@
+{
+  "name": "Miniwebtool",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://miniwebtool.com/about/terms-and-disclaimer/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://miniwebtool.com/about/privacy/",
+      "select": "body"
+    }
+  }
+}

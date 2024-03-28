@@ -1,0 +1,9 @@
+{
+  "name": "Kronch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kronch.nl/privacyverklaring",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3) > div > main > div > div > div:nth-of-type(2) > div > div > div > section > div:first-of-type > div:first-of-type"
+    }
+  }
+}

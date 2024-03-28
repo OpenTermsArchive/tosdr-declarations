@@ -1,0 +1,13 @@
+{
+  "name": "Advertise freecouk",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.advertisefree.co.uk/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.advertisefree.co.uk/privacy.html",
+      "select": "body"
+    }
+  }
+}

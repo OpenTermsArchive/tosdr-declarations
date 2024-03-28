@@ -1,0 +1,13 @@
+{
+  "name": "Business module hub",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.businessmodulehub.com/privacy/",
+      "select": "html > body > div:nth-of-type(7) > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.businessmodulehub.com/terms/",
+      "select": "html > body > div:nth-of-type(7) > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

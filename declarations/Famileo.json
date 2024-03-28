@@ -1,0 +1,13 @@
+{
+  "name": "Famileo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.famileo.com/famileo/en-US/privacy-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.famileo.com/en-US/cgv",
+      "select": "body"
+    }
+  }
+}

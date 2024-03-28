@@ -1,0 +1,17 @@
+{
+  "name": "Taiga",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.taiga.io/terms-of-service/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://taiga.io/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.taiga.io/privacy-policy",
+      "select": "body"
+    }
+  }
+}

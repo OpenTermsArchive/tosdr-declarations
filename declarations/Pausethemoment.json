@@ -1,0 +1,9 @@
+{
+  "name": "Pausethemoment",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pausethemoment.in/privacy",
+      "select": "html > body > div > div > span > div > article"
+    }
+  }
+}

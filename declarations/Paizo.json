@@ -1,0 +1,9 @@
+{
+  "name": "Paizo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://paizo.com/paizo/privacy",
+      "select": "html > body > main > div > div:nth-of-type(2)"
+    }
+  }
+}

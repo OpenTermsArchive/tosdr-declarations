@@ -1,0 +1,9 @@
+{
+  "name": "Onetag",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.onetag.com/privacy/",
+      "select": "body"
+    }
+  }
+}

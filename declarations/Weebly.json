@@ -1,0 +1,13 @@
+{
+  "name": "Weebly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://termsandprivacy.weebly.com/tos-en-gb.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://termsandprivacy.weebly.com/privacy-en.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Return youtube dislike",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/privacy/",
+      "select": "html > body > div:first-of-type > div > div > div > div:nth-of-type(2) > section:nth-of-type(2)"
+    }
+  }
+}

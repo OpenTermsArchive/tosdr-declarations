@@ -1,0 +1,9 @@
+{
+  "name": "Spacedock",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://spacedock.info/privacy",
+      "select": "body"
+    }
+  }
+}

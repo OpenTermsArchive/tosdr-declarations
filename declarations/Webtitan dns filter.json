@@ -1,0 +1,13 @@
+{
+  "name": "Webtitan dns filter",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.webtitan.com/privacy-statement/",
+      "select": "html > body > div:first-of-type > div > div > div > div > div:first-of-type > article > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.webtitan.com/cookies-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > div > div:first-of-type > article > div"
+    }
+  }
+}

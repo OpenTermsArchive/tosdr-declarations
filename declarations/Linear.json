@@ -1,0 +1,9 @@
+{
+  "name": "Linear",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://linear.app/privacy",
+      "select": "div"
+    }
+  }
+}

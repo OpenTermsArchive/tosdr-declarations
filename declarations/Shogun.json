@@ -1,0 +1,17 @@
+{
+  "name": "Shogun",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://getshogun.com/privacy",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://getshogun.com/aup",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://getshogun.com/terms",
+      "select": "body"
+    }
+  }
+}

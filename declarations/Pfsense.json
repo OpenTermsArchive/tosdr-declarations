@@ -1,0 +1,13 @@
+{
+  "name": "Pfsense",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pfsense.org/terms.html",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pfsense.org/privacy.html",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    }
+  }
+}

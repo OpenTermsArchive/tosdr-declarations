@@ -1,0 +1,9 @@
+{
+  "name": "Bandai namco entertainment europe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://en.bandainamcoent.eu/privacy-policy",
+      "select": "body"
+    }
+  }
+}

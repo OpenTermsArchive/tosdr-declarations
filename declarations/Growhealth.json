@@ -1,0 +1,17 @@
+{
+  "name": "Growhealth",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://growhealth.nl/tos",
+      "select": "html > body > div:nth-of-type(4) > div > div > div > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://growhealth.nl/shipping-returns",
+      "select": "html > body > div:nth-of-type(4) > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://growhealth.nl/privacy ",
+      "select": "html > body > div:nth-of-type(4) > div > div > div > div"
+    }
+  }
+}

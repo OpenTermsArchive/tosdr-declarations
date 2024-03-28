@@ -1,0 +1,13 @@
+{
+  "name": "Vpn super unlimited proxy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mobilejump.mobi/about/tos.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mobilejump.mobi/about/privacy.html",
+      "select": "body"
+    }
+  }
+}

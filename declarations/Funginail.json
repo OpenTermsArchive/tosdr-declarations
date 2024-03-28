@@ -1,0 +1,13 @@
+{
+  "name": "Funginail",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://funginail.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > section > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://funginail.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > section > div > div > div"
+    }
+  }
+}

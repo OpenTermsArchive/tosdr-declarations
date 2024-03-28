@@ -1,0 +1,13 @@
+{
+  "name": "Iqoption",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://static.cdnroute.io/files/storage/public/62/7b/c17c026469a4c7h7g7.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://static.cdnroute.io/files/storage/public/cc/i5/g32cpif6r6n5vlrg.pdf",
+      "select": "body"
+    }
+  }
+}

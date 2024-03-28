@@ -1,0 +1,17 @@
+{
+  "name": "Pepsico",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://policy.pepsico.com/aboutads.htm",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pepsico.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pepsico.com/legal/terms-of-use",
+      "select": "body"
+    }
+  }
+}

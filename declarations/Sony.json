@@ -1,0 +1,13 @@
+{
+  "name": "Sony",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sony.com/en_us/SCA/terms.html",
+      "select": "html > body > main > div:nth-of-type(2) > section > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sony.com/en_us/SCA/privacy-policy.html",
+      "select": "html > body > main > div:nth-of-type(2) > section > div > div > div"
+    }
+  }
+}

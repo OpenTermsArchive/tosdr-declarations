@@ -1,0 +1,17 @@
+{
+  "name": "Unifrog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.unifrog.org/privacy-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.unifrog.org/privacy-notice-student",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.unifrog.org/website-terms",
+      "select": "body"
+    }
+  }
+}

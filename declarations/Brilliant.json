@@ -1,0 +1,17 @@
+{
+  "name": "Brilliant",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://brilliant.org/terms-of-use/",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://brilliant.org/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://brilliant.org/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Maryfi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.maryfi.com/Privacy-Policy.php",
+      "select": "body"
+    }
+  }
+}

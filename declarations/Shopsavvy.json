@@ -1,0 +1,13 @@
+{
+  "name": "Shopsavvy",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://shopsavvy.com/privacy",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://shopsavvy.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div"
+    }
+  }
+}

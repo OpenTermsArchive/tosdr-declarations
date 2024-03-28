@@ -1,0 +1,13 @@
+{
+  "name": "Siteminder",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.siteminder.com/legal/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.siteminder.com/legal/website-terms/",
+      "select": "body"
+    }
+  }
+}

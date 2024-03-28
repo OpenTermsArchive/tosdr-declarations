@@ -1,0 +1,13 @@
+{
+  "name": "Flirctv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://flirc.tv/tos",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://flirc.tv/return_policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > p"
+    }
+  }
+}

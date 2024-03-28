@@ -1,0 +1,13 @@
+{
+  "name": "Bhp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bhp.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bhp.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Aerogarden",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://aerogarden.com/ideas-and-inspiration/conditions-of-use.html ",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://aerogarden.com/ideas-and-inspiration/privacy-notice.html#cookies",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

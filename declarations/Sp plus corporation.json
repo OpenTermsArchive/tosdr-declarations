@@ -1,0 +1,13 @@
+{
+  "name": "Sp plus corporation",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.spplus.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spplus.com/sp-plus-automated-license-plate-recognition-usage-and-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

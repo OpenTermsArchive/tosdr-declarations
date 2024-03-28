@@ -1,0 +1,13 @@
+{
+  "name": "Adbridg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.adbridg.com/legal-terms-and-conditions",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > main > div > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.adbridg.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > main > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

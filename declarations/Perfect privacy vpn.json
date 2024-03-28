@@ -1,0 +1,13 @@
+{
+  "name": "Perfect privacy vpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.perfect-privacy.com/en/terms",
+      "select": "html > body > div:nth-of-type(3) > div > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.perfect-privacy.com/en/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > div > div:first-of-type > div"
+    }
+  }
+}

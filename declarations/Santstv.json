@@ -1,0 +1,9 @@
+{
+  "name": "Santstv",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.sants.tv/sec/14",
+      "select": "body"
+    }
+  }
+}

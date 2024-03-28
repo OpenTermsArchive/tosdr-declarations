@@ -1,0 +1,13 @@
+{
+  "name": "Zaprendo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://zaprendo.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://zaprendo.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Oneplus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.oneplus.com/ca_en/legal/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.oneplus.com/ca_en/legal/user-agreement",
+      "select": "body"
+    }
+  }
+}

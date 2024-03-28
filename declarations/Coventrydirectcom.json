@@ -1,0 +1,13 @@
+{
+  "name": "Coventrydirectcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.coventrydirect.com/privacy-policy",
+      "select": "html > body > section:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.coventrydirect.com/terms-and-conditions",
+      "select": "html > body > section:first-of-type"
+    }
+  }
+}

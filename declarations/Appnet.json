@@ -1,0 +1,17 @@
+{
+  "name": "Appnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://app.net/privacy",
+      "select": "html > body > main > section > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://app.net/terms",
+      "select": "html > body > main > section > div > div > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://app.net/copyright",
+      "select": "html > body > main > section > div > div"
+    }
+  }
+}

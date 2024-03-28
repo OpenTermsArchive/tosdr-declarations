@@ -1,0 +1,13 @@
+{
+  "name": "Buffalo 7",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://buffalo7.co.uk/terms-conditions/",
+      "select": "html > body > div:first-of-type > section > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://buffalo7.co.uk/privacy-policy/",
+      "select": "html > body > div:first-of-type > section > div > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Myki",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://myki.com/privacy/privacy-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://myki.com/legal/terms-of-service",
+      "select": "body"
+    }
+  }
+}

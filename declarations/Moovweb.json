@@ -1,0 +1,13 @@
+{
+  "name": "Moovweb",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.moovweb.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.moovweb.com/moovweb-website-terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Directly  cx automation experts at the heart of ai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.directly.com/legal/privacy/",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.directly.com/legal/",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    }
+  }
+}

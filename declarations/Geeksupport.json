@@ -1,0 +1,9 @@
+{
+  "name": "Geeksupport",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://geeksupport.nl/privacybeleid/",
+      "select": null
+    }
+  }
+}

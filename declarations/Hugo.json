@@ -1,0 +1,17 @@
+{
+  "name": "Hugo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hugoenergyapp.co.uk/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://hugoenergyapp.co.uk/terms-and-condition",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://hugoenergyapp.co.uk/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

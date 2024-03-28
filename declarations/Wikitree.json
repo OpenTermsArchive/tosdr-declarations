@@ -1,0 +1,17 @@
+{
+  "name": "Wikitree",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wikitree.com/wiki/Help:Privacy_Policy",
+      "select": " > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.wikitree.com/about/acceptable-use.html",
+      "select": "html > body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wikitree.com/about/terms.html",
+      "select": null
+    }
+  }
+}

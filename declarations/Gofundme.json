@@ -1,0 +1,13 @@
+{
+  "name": "Gofundme",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gofundme.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gofundme.com/privacy",
+      "select": "body"
+    }
+  }
+}

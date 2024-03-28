@@ -1,0 +1,13 @@
+{
+  "name": "Offerup",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://offerup.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://offerup.com/privacy/",
+      "select": "body"
+    }
+  }
+}

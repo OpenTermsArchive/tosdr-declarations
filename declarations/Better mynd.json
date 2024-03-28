@@ -1,0 +1,9 @@
+{
+  "name": "Better mynd",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://app.bettermynd.com/docs/student_terms.pdf",
+      "select": "body"
+    }
+  }
+}

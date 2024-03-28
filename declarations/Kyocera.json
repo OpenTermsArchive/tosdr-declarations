@@ -1,0 +1,13 @@
+{
+  "name": "Kyocera",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://americas.kyocera.com/uploads/us/Kyocera_Privacy_Statement.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://americas.kyocera.com/other/legal",
+      "select": "body"
+    }
+  }
+}

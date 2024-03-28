@@ -1,0 +1,17 @@
+{
+  "name": "Hltv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hltv.org/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.hltv.org/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hltv.org/terms",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

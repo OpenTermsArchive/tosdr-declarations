@@ -1,0 +1,9 @@
+{
+  "name": "Canadahelps",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.canadahelps.org/en/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

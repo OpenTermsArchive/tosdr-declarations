@@ -1,0 +1,13 @@
+{
+  "name": "Quicken",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.quicken.com/terms-of-use",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.quicken.com/privacy/us",
+      "select": "html > body > main"
+    }
+  }
+}

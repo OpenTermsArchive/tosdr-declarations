@@ -1,0 +1,13 @@
+{
+  "name": "Freelists",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.freelists.org/tos.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.freelists.org/privacy.html",
+      "select": "body"
+    }
+  }
+}

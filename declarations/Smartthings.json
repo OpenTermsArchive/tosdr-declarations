@@ -1,0 +1,13 @@
+{
+  "name": "Smartthings",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.smartthings.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.smartthings.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Gamned",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gamned.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

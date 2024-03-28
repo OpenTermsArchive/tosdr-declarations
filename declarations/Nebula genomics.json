@@ -1,0 +1,17 @@
+{
+  "name": "Nebula genomics",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://nebulagenomics.zendesk.com/hc/en-us/articles/360024317892-Terms-of-Use",
+      "select": ".article-body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://nebulagenomics.zendesk.com/hc/en-us/articles/360036479671-Cookie-Policy",
+      "select": ".article-body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://nebulagenomics.zendesk.com/hc/en-us/articles/360036114572",
+      "select": "body"
+    }
+  }
+}

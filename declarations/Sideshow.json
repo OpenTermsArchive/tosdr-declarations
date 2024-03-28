@@ -1,0 +1,13 @@
+{
+  "name": "Sideshow",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sideshow.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sideshow.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

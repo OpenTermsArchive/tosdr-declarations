@@ -1,0 +1,17 @@
+{
+  "name": "Acuityads",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.acuityads.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.acuityads.com/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.acuityads.com/corporate-privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

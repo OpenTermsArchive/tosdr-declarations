@@ -1,0 +1,13 @@
+{
+  "name": "Despegar",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.us.despegar.com/legal/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.us.despegar.com/legal/privacy-policies",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Securevpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://securevpn.com/?page=privacy_policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://securevpn.com/?page=terms_of_service",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    }
+  }
+}

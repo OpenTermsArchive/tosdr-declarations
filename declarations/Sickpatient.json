@@ -1,0 +1,9 @@
+{
+  "name": "Sickpatient",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sickpatient.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

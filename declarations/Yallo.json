@@ -1,0 +1,9 @@
+{
+  "name": "Yallo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.yallo.ch/fr/data-protection",
+      "select": "body"
+    }
+  }
+}

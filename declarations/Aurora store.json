@@ -1,0 +1,9 @@
+{
+  "name": "Aurora store",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gitlab.com/AuroraOSS/AuroraStore/-/raw/master/POLICY.md",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Paidsurveys",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://paidsurveys.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://paidsurveys.com/pages/terms/",
+      "select": "body"
+    }
+  }
+}

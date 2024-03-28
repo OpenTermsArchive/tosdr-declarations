@@ -1,0 +1,13 @@
+{
+  "name": "Ip location",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://iplocation.net/privacy-policy",
+      "select": "html > body > section > div > div > section > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.iplocation.net/terms-of-service",
+      "select": "html > body > section > div > div > section > div > div > div:first-of-type"
+    }
+  }
+}

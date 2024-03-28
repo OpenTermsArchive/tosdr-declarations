@@ -1,0 +1,21 @@
+{
+  "name": "Ccleaner",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ccleaner.com/about/privacy-policy/what-happens-to-your-data",
+      "select": "html > body > div:nth-of-type(3) > main > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ccleaner.com/legal/end-user-license-agreement",
+      "select": "html > body > div:nth-of-type(3) > main > div > div:first-of-type"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.ccleaner.com/cancellation-refund-policy",
+      "select": "html > body > div:nth-of-type(3) > main > div > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ccleaner.com/about/cookies-policy",
+      "select": "html > body > div:nth-of-type(3) > main > div > div:first-of-type"
+    }
+  }
+}

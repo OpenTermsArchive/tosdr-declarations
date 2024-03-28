@@ -1,0 +1,17 @@
+{
+  "name": "Axa",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.axa.com/en/page/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.axa.com/en/page/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.axa.co.uk/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

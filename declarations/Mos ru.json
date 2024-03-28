@@ -1,0 +1,9 @@
+{
+  "name": "Mos ru",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mos.ru/legal/rules/",
+      "select": "body"
+    }
+  }
+}

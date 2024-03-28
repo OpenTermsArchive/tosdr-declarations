@@ -1,0 +1,13 @@
+{
+  "name": "The christian science monitor",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.csmonitor.com/About/Terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.csmonitor.com/About/Privacy",
+      "select": "body"
+    }
+  }
+}

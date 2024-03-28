@@ -1,0 +1,13 @@
+{
+  "name": "Watne household site",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://johnwatne.no-ip.biz/our-stuff/terms-and-conditions/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > main > article > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://johnwatne.no-ip.biz/our-stuff/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > main > article > div"
+    }
+  }
+}

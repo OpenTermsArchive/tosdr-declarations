@@ -1,0 +1,13 @@
+{
+  "name": "Quickbcss",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://quickbcss.software/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://quickbcss.software/privacy",
+      "select": "body"
+    }
+  }
+}

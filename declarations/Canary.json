@@ -1,0 +1,21 @@
+{
+  "name": "Canary",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://canary.is/legal/cookie-policy/",
+      "select": "html > body > div > div > div:nth-of-type(2) > section:first-of-type > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://canary.is/legal/returns-and-warranty/",
+      "select": "html > body > div > div > div:nth-of-type(2) > section:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://canary.is/legal/",
+      "select": "html > body > div > div > div:nth-of-type(2) > section:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://canary.is/legal/privacy-policy/",
+      "select": "html > body > div > div > div:nth-of-type(2) > section:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

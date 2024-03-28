@@ -1,0 +1,13 @@
+{
+  "name": "Hearcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hear.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hear.com/mobile-terms-and-conditions",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > section > div"
+    }
+  }
+}

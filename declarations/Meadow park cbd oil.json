@@ -1,0 +1,13 @@
+{
+  "name": "Meadow park cbd oil",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://buymeadowpark.com/v1/mobile/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://buymeadowpark.com/v1/mobile/terms.php",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Cindymatches",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cindymatches.com/p/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cindymatches.com/p/privacy",
+      "select": "body"
+    }
+  }
+}

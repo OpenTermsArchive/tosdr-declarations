@@ -1,0 +1,9 @@
+{
+  "name": "Nmls consumer access",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nmlsconsumeraccess.org/Home.aspx/TermsOfUse",
+      "select": "body"
+    }
+  }
+}

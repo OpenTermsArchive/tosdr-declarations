@@ -1,0 +1,13 @@
+{
+  "name": "Thestatuslifecom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thestatuslife.com/terms-conditions",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(2) > article > div > div > div > div > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div > ol:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thestatuslife.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(2) > article > div > div > div > div > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div"
+    }
+  }
+}

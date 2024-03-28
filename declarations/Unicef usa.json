@@ -1,0 +1,9 @@
+{
+  "name": "Unicef usa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.unicefusa.org/about/site/privacy",
+      "select": "html > body > div:nth-of-type(3) > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Poll everywhere",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.polleverywhere.com/terms",
+      "select": "main#main > div:nth-of-type(5)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.polleverywhere.com/privacy-policy",
+      "select": "div.row div:first-of-type"
+    }
+  }
+}

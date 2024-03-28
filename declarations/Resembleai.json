@@ -1,0 +1,17 @@
+{
+  "name": "Resembleai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.resemble.ai/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://resemble.notion.site/Resemble-AI-Terms-of-Service-5f3893e508cf48778d2a07acf38abfbd",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.resemble.ai/cookie-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div"
+    }
+  }
+}

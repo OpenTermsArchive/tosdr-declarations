@@ -1,0 +1,9 @@
+{
+  "name": "Mason bee",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://masonbee.nz/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

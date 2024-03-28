@@ -1,0 +1,9 @@
+{
+  "name": "Whoer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://whoer.net/privacy_policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Hertz  car sales",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hertzcarsales.com/privacy-policy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hertz.com/rentacar/navigation/templates/legalView.jsp",
+      "select": "body"
+    }
+  }
+}

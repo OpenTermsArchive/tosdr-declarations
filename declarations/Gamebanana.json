@@ -1,0 +1,17 @@
+{
+  "name": "Gamebanana",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gamebanana.com/wikis/334",
+      "select": "html > body > wrapper > section > wrapper > div > row > column:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://gamebanana.com/wikis/1873",
+      "select": "html > body > wrapper > section > wrapper > div > row > column:first-of-type"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://gamebanana.com/wikis/677",
+      "select": "html > body > wrapper > section > wrapper > div > row > column:first-of-type"
+    }
+  }
+}

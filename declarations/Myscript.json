@@ -1,0 +1,13 @@
+{
+  "name": "Myscript",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.myscript.com/legal-notice/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.myscript.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

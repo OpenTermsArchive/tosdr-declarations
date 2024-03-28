@@ -1,0 +1,17 @@
+{
+  "name": "Theschoolbus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.schoolbus.co.uk/privacypolicy",
+      "select": "html > body > div:nth-of-type(2) > mat-sidenav-container > mat-sidenav-content > div > ng-component > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.schoolbus.co.uk/cookie/cookiepolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.schoolbus.co.uk/terms",
+      "select": "body"
+    }
+  }
+}

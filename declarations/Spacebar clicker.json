@@ -1,0 +1,17 @@
+{
+  "name": "Spacebar clicker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://spacebarclicker.co/privacy-policy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://spacebarclicker.co/dmca",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://spacebarclicker.co/terms-of-use",
+      "select": "body"
+    }
+  }
+}

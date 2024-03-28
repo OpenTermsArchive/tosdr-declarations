@@ -1,0 +1,13 @@
+{
+  "name": "Runalyze",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://runalyze.com/legal/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://runalyze.com/en/legal/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Night owl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nightowlsp.com/privacy-policy-cookie-restriction-mode",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://nightowlsp.com/terms-and-conditions",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "The vanguard group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://investor.vanguard.com/trust-security/privacy-center/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://personal.vanguard.com/us/content/SiteWide/LglDocs/SWLglTermsConditionsContent.jsp?cbdForceDomain=true",
+      "select": "body"
+    }
+  }
+}

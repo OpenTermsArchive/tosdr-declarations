@@ -1,0 +1,9 @@
+{
+  "name": "Ehwiki",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ehwiki.org/wiki/EHWiki:Privacy_policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(4) > div"
+    }
+  }
+}

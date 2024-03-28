@@ -1,0 +1,13 @@
+{
+  "name": "Infinityfree",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://infinityfree.net/terms/",
+      "select": "html > body > section:nth-of-type(3) > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://infinityfree.net/privacy/",
+      "select": "html > body > section:nth-of-type(3) > div > div > div"
+    }
+  }
+}

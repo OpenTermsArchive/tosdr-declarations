@@ -1,0 +1,9 @@
+{
+  "name": "Streamwish",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kswplayer.info/tos",
+      "select": "body"
+    }
+  }
+}

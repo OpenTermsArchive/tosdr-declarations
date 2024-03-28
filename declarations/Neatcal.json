@@ -1,0 +1,13 @@
+{
+  "name": "Neatcal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.neatcal.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.neatcal.com/tos",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "The open university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://about.open.ac.uk/strategy-and-policies/policies-and-statements/website-privacy-ou",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://about.open.ac.uk/strategy-and-policies/policies-and-statements/cookie-use-ou-website",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://about.open.ac.uk/strategy-and-policies/policies-and-statements/conditions-use-open-university-websites",
+      "select": null
+    }
+  }
+}

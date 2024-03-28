@@ -1,0 +1,9 @@
+{
+  "name": "Digital malayali",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://en.digitalmalayali.in/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > section > div > div > div"
+    }
+  }
+}

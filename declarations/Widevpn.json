@@ -1,0 +1,13 @@
+{
+  "name": "Widevpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://widevpn.com/main/privacyPolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://widevpn.com/tos",
+      "select": "body"
+    }
+  }
+}

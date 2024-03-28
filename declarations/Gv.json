@@ -1,0 +1,9 @@
+{
+  "name": "Gv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://assets.ctfassets.net/iuoxpp2nznvy/7gLDaV0zWkOP33IkJiqcLj/df40fd828220d59f076a5a29ccd63756/GV-Privacy-Policy.pdf",
+      "select": "body"
+    }
+  }
+}

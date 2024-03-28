@@ -1,0 +1,13 @@
+{
+  "name": "Pixelchat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pixelchat.tv/legal/Privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://pixelchat.tv/legal/ToS",
+      "select": "body"
+    }
+  }
+}

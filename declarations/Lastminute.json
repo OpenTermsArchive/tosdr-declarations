@@ -1,0 +1,9 @@
+{
+  "name": "Lastminute",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lastminute.com/terms/terms-and-conditions-lastminute-group/",
+      "select": "body"
+    }
+  }
+}

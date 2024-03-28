@@ -1,0 +1,13 @@
+{
+  "name": "Read aloud",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://readaloud.app/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://readaloud.app/tos.html",
+      "select": "body"
+    }
+  }
+}

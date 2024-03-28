@@ -1,0 +1,13 @@
+{
+  "name": "Appkarma",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.appkarma.io/legal/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.appkarma.io/legal/privacy/",
+      "select": "body"
+    }
+  }
+}

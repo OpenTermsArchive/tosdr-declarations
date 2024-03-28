@@ -1,0 +1,9 @@
+{
+  "name": "Sonoff",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sonoff.tech/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "０７６",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://youtube.076.ne.jp/privacy",
+      "select": "body"
+    }
+  }
+}

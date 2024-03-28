@@ -1,0 +1,13 @@
+{
+  "name": "Jupiter ed",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jupitered.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://jupitered.com/tos.html",
+      "select": "body"
+    }
+  }
+}

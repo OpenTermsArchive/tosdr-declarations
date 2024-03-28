@@ -1,0 +1,13 @@
+{
+  "name": "Artfight",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://artfight.net/info/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://artfight.net/info/tos",
+      "select": "body"
+    }
+  }
+}

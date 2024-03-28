@@ -1,0 +1,13 @@
+{
+  "name": "Gutterprotectionproscom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gutterprotectionpros.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://gutterprotectionpros.com/privacy ",
+      "select": "body"
+    }
+  }
+}

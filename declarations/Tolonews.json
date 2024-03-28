@@ -1,0 +1,13 @@
+{
+  "name": "Tolonews",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tolonews.com/index.php/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > article > div > div:nth-of-type(2) > div > div > div > article > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://tolonews.com/index.php/node/41",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > article > div > div:nth-of-type(2) > div > div > div > article > div:nth-of-type(2) > div > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Newbiesfirstbizcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://newbiesfirstbiz.com/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://newbiesfirstbiz.com/terms-and-conditions.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "http://newbiesfirstbiz.com/disclaimer.html",
+      "select": "body"
+    }
+  }
+}

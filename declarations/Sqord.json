@@ -1,0 +1,9 @@
+{
+  "name": "Sqord",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sqord.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Lookupid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lookup-id.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

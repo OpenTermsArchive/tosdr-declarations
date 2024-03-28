@@ -1,0 +1,17 @@
+{
+  "name": "Shkolo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.shkolo.bg/terms-school/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.shkolo.bg/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.shkolo.bg/cookiepolicy/",
+      "select": "body"
+    }
+  }
+}

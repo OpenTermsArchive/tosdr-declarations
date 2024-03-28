@@ -1,0 +1,13 @@
+{
+  "name": "Kikmessenger",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kik.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kik.com/terms-of-service/",
+      "select": "html > body > div:nth-of-type(5) > main > article > section"
+    }
+  }
+}

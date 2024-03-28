@@ -1,0 +1,13 @@
+{
+  "name": "Modtools",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://modtools.org/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://modtools.org/privacy",
+      "select": "body"
+    }
+  }
+}

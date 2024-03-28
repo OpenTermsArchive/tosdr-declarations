@@ -1,0 +1,13 @@
+{
+  "name": "Magmanode",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://magmanode.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://magmanode.com/terms",
+      "select": "body"
+    }
+  }
+}

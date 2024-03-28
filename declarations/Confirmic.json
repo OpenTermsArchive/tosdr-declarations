@@ -1,0 +1,21 @@
+{
+  "name": "Confirmic",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://confirmic.com/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://confirmic.com/cookies",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://confirmic.com/acceptable_use",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://confirmic.com/terms",
+      "select": "body"
+    }
+  }
+}

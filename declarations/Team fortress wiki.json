@@ -1,0 +1,9 @@
+{
+  "name": "Team fortress wiki",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wiki.teamfortress.com/wiki/Team_Fortress_Wiki:Terms_of_Use",
+      "select": "div > div"
+    }
+  }
+}

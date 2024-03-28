@@ -1,0 +1,9 @@
+{
+  "name": "Voyager sopris learning",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.voyagersopris.com/terms-conditions",
+      "select": "body"
+    }
+  }
+}

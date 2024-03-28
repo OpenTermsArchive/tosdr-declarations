@@ -1,0 +1,13 @@
+{
+  "name": "Opensubtitlesorg",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.opensubtitles.org/en/disclaimer",
+      "select": " > div:first-of-type"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.opensubtitles.org/en/dmca",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    }
+  }
+}

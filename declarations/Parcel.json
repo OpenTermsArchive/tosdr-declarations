@@ -1,0 +1,9 @@
+{
+  "name": "Parcel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://parcelapp.net/privacy.html#:~:text=Parcel%20collects%20anonymous%20data%20about,model%2C%20timezone%2C%20country%20code.",
+      "select": "body"
+    }
+  }
+}

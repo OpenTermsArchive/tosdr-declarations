@@ -1,0 +1,9 @@
+{
+  "name": "Peertube",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://peertube.touhoppai.moe/about/peertube#privacy",
+      "select": "html > body > my-app > div > div:nth-of-type(2) > div > div > my-about > div > div:nth-of-type(2) > my-about-peertube > div > div:nth-of-type(3) > div"
+    }
+  }
+}

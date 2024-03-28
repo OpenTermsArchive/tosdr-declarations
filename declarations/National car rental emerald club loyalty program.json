@@ -1,0 +1,9 @@
+{
+  "name": "National car rental emerald club loyalty program",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nationalcar.com/en/legal/terms-of-use.html",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(2) > section > div > div > div > div:nth-of-type(3) > div > div"
+    }
+  }
+}

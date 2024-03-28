@@ -1,0 +1,17 @@
+{
+  "name": "Focus home interactive",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.focus-entmt.com/en/eula",
+      "select": "html > body > div:first-of-type > main > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.focus-entmt.com/en/privacy-policy",
+      "select": "html > body > div:first-of-type > main > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.focus-entmt.com/en/cookie-policy",
+      "select": "html > body > div:first-of-type > main > section"
+    }
+  }
+}

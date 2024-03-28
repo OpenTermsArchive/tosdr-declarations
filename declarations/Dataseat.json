@@ -1,0 +1,9 @@
+{
+  "name": "Dataseat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dataseat.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

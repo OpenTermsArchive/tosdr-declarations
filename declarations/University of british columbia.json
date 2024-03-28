@@ -1,0 +1,9 @@
+{
+  "name": "University of british columbia",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ubc.ca/site/legal.html",
+      "select": null
+    }
+  }
+}

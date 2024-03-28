@@ -1,0 +1,13 @@
+{
+  "name": "Jobcloud",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.jobcloud.ch/c/en/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": " General Terms and Conditions (GTC)",
+      "select": "body"
+    }
+  }
+}

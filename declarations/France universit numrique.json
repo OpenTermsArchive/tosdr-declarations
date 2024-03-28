@@ -1,0 +1,13 @@
+{
+  "name": "France universit numrique",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fun-mooc.fr/payment/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fun-mooc.fr/en/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

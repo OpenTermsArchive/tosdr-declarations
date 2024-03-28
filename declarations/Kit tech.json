@@ -1,0 +1,13 @@
+{
+  "name": "Kit tech",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kit.co/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kit.co/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Nortonlifelock",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nortonlifelock.com/us/en/privacy/global-privacy-statement/",
+      "select": "html > body > div > main > div > div > div > div > div > div > div > div > div:nth-of-type(5)"
+    },
+    "Terms of Service": {
+      "fetch": "https://ie.norton.com/terms-of-sale",
+      "select": "body"
+    }
+  }
+}

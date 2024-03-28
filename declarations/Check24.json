@@ -1,0 +1,9 @@
+{
+  "name": "Check24",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.check24.de/popup/datenschutz-check24-gmbh/",
+      "select": "body"
+    }
+  }
+}

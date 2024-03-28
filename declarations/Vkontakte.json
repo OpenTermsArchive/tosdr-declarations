@@ -1,0 +1,13 @@
+{
+  "name": "Vkontakte",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vk.com/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://vk.com/privacy",
+      "select": null
+    }
+  }
+}

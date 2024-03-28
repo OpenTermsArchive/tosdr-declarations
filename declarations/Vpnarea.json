@@ -1,0 +1,17 @@
+{
+  "name": "Vpnarea",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vpnarea.com/front/home/privacy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://vpnarea.com/front/home/refund",
+      "select": "html > body > div:nth-of-type(3) > form"
+    },
+    "Terms of Service": {
+      "fetch": "https://vpnarea.com/front/home/terms",
+      "select": "html > body > div:first-of-type > form"
+    }
+  }
+}

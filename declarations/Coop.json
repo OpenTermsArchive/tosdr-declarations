@@ -1,0 +1,13 @@
+{
+  "name": "Coop",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.coop.ch/fr/entreprise/protection-des-donnees.html",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.coop.ch/fr/cgv.html",
+      "select": "body"
+    }
+  }
+}

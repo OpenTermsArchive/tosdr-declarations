@@ -1,0 +1,13 @@
+{
+  "name": "Degreesnap",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.degreesnap.com/privacypolicy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.degreesnap.com/terms.php",
+      "select": "body"
+    }
+  }
+}

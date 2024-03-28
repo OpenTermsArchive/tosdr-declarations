@@ -1,0 +1,9 @@
+{
+  "name": "Popupoff",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://popupoff.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

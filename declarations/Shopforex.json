@@ -1,0 +1,9 @@
+{
+  "name": "Shopforex",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://shopforex.online/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > main > div > div > div:first-of-type"
+    }
+  }
+}

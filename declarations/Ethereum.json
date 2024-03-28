@@ -1,0 +1,17 @@
+{
+  "name": "Ethereum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ethereum.org/en/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ethereum.org/en/terms-of-use/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://ethereum.org/en/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

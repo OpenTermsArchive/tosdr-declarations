@@ -1,0 +1,21 @@
+{
+  "name": "Security first",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://secfirst.org/legal/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://secfirst.org/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://secfirst.org/conduct/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://secfirst.org/terms/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div > div"
+    }
+  }
+}

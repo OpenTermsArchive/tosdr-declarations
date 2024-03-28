@@ -1,0 +1,13 @@
+{
+  "name": "Degoo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://degoo.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://degoo.com/privacy",
+      "select": "body"
+    }
+  }
+}

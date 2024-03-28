@@ -1,0 +1,9 @@
+{
+  "name": "Istituto nazionale della previdenza sociale",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.inps.it/nuovoportaleinps/default.aspx?iMenu=113",
+      "select": "body"
+    }
+  }
+}

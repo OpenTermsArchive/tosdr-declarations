@@ -1,0 +1,13 @@
+{
+  "name": "Ecoverage",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ecoverage.com/terms-of-service/",
+      "select": "html > body > div:first-of-type > main > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ecoverage.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Complete id",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.completeid.com/privacy-policy/ ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.completeid.com/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div > div > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Digminecraft",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.digminecraft.com/terms_of_service.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.digminecraft.com/privacy.php",
+      "select": null
+    }
+  }
+}

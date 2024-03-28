@@ -1,0 +1,13 @@
+{
+  "name": "Florida today",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cm.floridatoday.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cm.floridatoday.com/privacy/?hidebanner=true",
+      "select": "body"
+    }
+  }
+}

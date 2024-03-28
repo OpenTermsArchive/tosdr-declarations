@@ -1,0 +1,13 @@
+{
+  "name": "Mybib",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mybib.com/terms",
+      "select": "html > body > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mybib.com/privacy",
+      "select": "html > body > main > div"
+    }
+  }
+}

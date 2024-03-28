@@ -1,0 +1,17 @@
+{
+  "name": "Cryptostorm",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://cryptostorm.is/refund",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cryptostorm.is/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cryptostorm.is/tos.html",
+      "select": "body"
+    }
+  }
+}

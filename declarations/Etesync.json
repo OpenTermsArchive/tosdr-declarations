@@ -1,0 +1,9 @@
+{
+  "name": "Etesync",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.etesync.com/tos/",
+      "select": "html > body > article"
+    }
+  }
+}

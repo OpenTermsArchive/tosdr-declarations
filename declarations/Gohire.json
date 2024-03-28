@@ -1,0 +1,13 @@
+{
+  "name": "Gohire",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gohire.io/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://gohire.io/terms",
+      "select": "body"
+    }
+  }
+}

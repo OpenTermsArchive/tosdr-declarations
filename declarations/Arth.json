@@ -1,0 +1,9 @@
+{
+  "name": "Arth",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://raw.githubusercontent.com/ArthMC/.github/main/profile/README.md",
+      "select": "body"
+    }
+  }
+}

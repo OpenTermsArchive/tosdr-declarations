@@ -1,0 +1,9 @@
+{
+  "name": "Securitymetrics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.securitymetrics.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

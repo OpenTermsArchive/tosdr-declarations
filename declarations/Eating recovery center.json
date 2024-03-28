@@ -1,0 +1,13 @@
+{
+  "name": "Eating recovery center",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.eatingrecoverycenter.com/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(2) > div > main > div > div > div:first-of-type > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.eatingrecoverycenter.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > main > div > div > div:first-of-type > div > div:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Alfacloud",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.alfacloud.biz/p.html",
+      "select": "html > body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.alfacloud.biz/terms.html",
+      "select": "html > body"
+    }
+  }
+}

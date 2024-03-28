@@ -1,0 +1,17 @@
+{
+  "name": "Classdojo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.classdojo.com/terms/",
+      "select": "html > body > div > div:first-of-type > main > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.classdojo.com/website-privacy/",
+      "select": "html > body > div > div:first-of-type > main > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.classdojo.com/transparency/",
+      "select": "html > body > div > div:first-of-type > main > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

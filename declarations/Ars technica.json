@@ -1,0 +1,13 @@
+{
+  "name": "Ars technica",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.condenast.com/privacy-policy/",
+      "select": "body"
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://arstechnica.com/affiliate-link-policy/",
+      "select": null
+    }
+  }
+}

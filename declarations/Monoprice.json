@@ -1,0 +1,9 @@
+{
+  "name": "Monoprice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.monoprice.com/help?pn=privacy",
+      "select": "body"
+    }
+  }
+}

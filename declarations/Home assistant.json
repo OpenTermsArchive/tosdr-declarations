@@ -1,0 +1,9 @@
+{
+  "name": "Home assistant",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.home-assistant.io/privacy/",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

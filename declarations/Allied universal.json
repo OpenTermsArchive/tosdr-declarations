@@ -1,0 +1,13 @@
+{
+  "name": "Allied universal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.aus.com/privacy-policyhttps://www.aus.com/privacy-policyhttps://www.aus.com/privacy-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.aus.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

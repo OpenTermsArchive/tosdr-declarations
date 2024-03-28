@@ -1,0 +1,17 @@
+{
+  "name": "Privadovpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privadovpn.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://privadovpn.com/terms-of-service/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://privadovpn.com/copyright-policy/",
+      "select": "body"
+    }
+  }
+}

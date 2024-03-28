@@ -1,0 +1,13 @@
+{
+  "name": "Merriamwebster",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.merriam-webster.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(5)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.merriam-webster.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(5)"
+    }
+  }
+}

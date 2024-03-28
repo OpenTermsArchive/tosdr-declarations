@@ -1,0 +1,9 @@
+{
+  "name": "Fetlife",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fetlife.com/guidelines/privacy-policy",
+      "select": "body"
+    }
+  }
+}

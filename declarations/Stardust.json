@@ -1,0 +1,13 @@
+{
+  "name": "Stardust",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://stardust.app/terms-of-use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thestardustapp.com/privacypolicy",
+      "select": "body"
+    }
+  }
+}

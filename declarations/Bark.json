@@ -1,0 +1,13 @@
+{
+  "name": "Bark",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bark.us/privacy/",
+      "select": "html > body > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bark.us/wp-content/uploads/2023/05/Bark-Terms_of_Service_20220718.pdf",
+      "select": "body"
+    }
+  }
+}

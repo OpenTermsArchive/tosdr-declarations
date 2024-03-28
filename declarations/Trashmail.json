@@ -1,0 +1,13 @@
+{
+  "name": "Trashmail",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://trashmail.com/?cmd=privacy&lang=fr",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div:first-of-type > pre"
+    },
+    "Terms of Service": {
+      "fetch": "https://trashmail.com/?cmd=tos&lang=fr",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div:first-of-type > pre"
+    }
+  }
+}

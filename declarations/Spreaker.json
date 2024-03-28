@@ -1,0 +1,13 @@
+{
+  "name": "Spreaker",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.spreaker.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spreaker.com/privacy",
+      "select": "body"
+    }
+  }
+}

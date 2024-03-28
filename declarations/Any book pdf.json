@@ -1,0 +1,17 @@
+{
+  "name": "Any book pdf",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://anybookpdf.com/dmca/",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type > main > article > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://anybookpdf.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type > main > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://anybookpdf.com/terms-conditions/",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type > main > article > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Schoolonline",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.schoolonline.co.uk/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.schoolonline.co.uk/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

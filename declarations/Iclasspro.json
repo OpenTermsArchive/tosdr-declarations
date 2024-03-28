@@ -1,0 +1,13 @@
+{
+  "name": "Iclasspro",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.iclasspro.com/notice/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iclasspro.com/notice/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Aether technologies",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://getaether.net/privacypolicy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://getaether.net/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://getaether.net/dmca/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div"
+    }
+  }
+}

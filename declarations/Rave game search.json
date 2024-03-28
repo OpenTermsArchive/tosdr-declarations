@@ -1,0 +1,9 @@
+{
+  "name": "Rave game search",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://raw.githubusercontent.com/IdleEndeavor/gamesearch/main/README.md",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Byutv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.byutv.org/terms",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(3) > main > span > section > section > ol"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.byutv.org/privacy",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(3) > main > span > section > section"
+    }
+  }
+}

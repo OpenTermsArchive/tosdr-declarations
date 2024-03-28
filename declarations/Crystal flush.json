@@ -1,0 +1,17 @@
+{
+  "name": "Crystal flush",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://crystalflush.com/Privacy-Policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > section > div > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://crystalflush.com/Terms",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > section > div > div > div > div > div:nth-of-type(2) > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://crystalflush.com/Return-Policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > section > div > div > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

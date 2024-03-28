@@ -1,0 +1,13 @@
+{
+  "name": "Sleeperapp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://support.sleeper.app/en/articles/5486618-privacy-policy",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://sleeper.app/terms",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(2)"
+    }
+  }
+}

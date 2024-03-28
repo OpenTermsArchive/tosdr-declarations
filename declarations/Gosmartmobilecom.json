@@ -1,0 +1,13 @@
+{
+  "name": "Gosmartmobilecom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.verizon.com/about/terms-conditions/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > main > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tracfonewirelessinc.com/en/Privacy+Policy/",
+      "select": "html > body > main > section"
+    }
+  }
+}

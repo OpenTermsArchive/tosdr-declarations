@@ -1,0 +1,13 @@
+{
+  "name": "Windcave",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.windcave.com/legal",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sec.windcave.com/pxmi3/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Symbaloo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://blog.symbaloo.com/disclaimer/disclaimer_us.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://blog.symbaloo.com/terms/terms_us.html",
+      "select": "body"
+    }
+  }
+}

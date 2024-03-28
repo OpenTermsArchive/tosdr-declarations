@@ -1,0 +1,9 @@
+{
+  "name": "1800petmeds",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.1800petmeds.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

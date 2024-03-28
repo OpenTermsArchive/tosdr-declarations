@@ -1,0 +1,9 @@
+{
+  "name": "Sassy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sassybaby.net/privacy-policy",
+      "select": "body"
+    }
+  }
+}

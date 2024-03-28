@@ -1,0 +1,13 @@
+{
+  "name": "Instructure",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.instructure.com/policies/data-processing",
+      "select": "html > body > div:first-of-type > div > main > div > div > div:nth-of-type(2) > article > div > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.instructure.com/policies/intl-acceptable-use",
+      "select": "html > body > div:first-of-type > div > main > div > div > div:nth-of-type(2) > article > div > div"
+    }
+  }
+}

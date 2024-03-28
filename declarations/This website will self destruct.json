@@ -1,0 +1,13 @@
+{
+  "name": "This website will self destruct",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thiswebsitewillselfdestruct.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thiswebsitewillselfdestruct.com/privacy",
+      "select": "body"
+    }
+  }
+}

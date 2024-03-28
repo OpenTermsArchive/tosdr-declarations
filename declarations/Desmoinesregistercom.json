@@ -1,0 +1,13 @@
+{
+  "name": "Desmoinesregistercom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cm.desmoinesregister.com/terms",
+      "select": "html > body > div:first-of-type > div > center > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cm.desmoinesregister.com/privacy/",
+      "select": "html > body > div:first-of-type > div > div > div"
+    }
+  }
+}

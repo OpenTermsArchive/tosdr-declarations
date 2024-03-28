@@ -1,0 +1,21 @@
+{
+  "name": "Aeris",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.aeris.com/legal/acceptable-use-policy/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.aeris.com/legal/privacy-policy/ ",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.aeris.com/legal/billing-and-purchase-terms",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.aeris.com/legal/services-terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Redcard relodable",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.redcardreloadable.com/legal/bankaccount-privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.redcardreloadable.com/legal/deposit-account-agreement",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.redcardreloadable.com/legal/e-communications-disclosure",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Xoom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.xoom.com/user-agreement",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.xoom.com/privacy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Weaber lumber",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.weaberlumber.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

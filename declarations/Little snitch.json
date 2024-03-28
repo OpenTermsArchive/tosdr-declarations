@@ -1,0 +1,13 @@
+{
+  "name": "Little snitch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.obdev.at/privacy/index.html",
+      "select": "html > body > div:nth-of-type(2) > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.obdev.at/terms-and-conditions.html",
+      "select": "html > body > div:nth-of-type(2) > section"
+    }
+  }
+}

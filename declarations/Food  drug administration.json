@@ -1,0 +1,9 @@
+{
+  "name": "Food  drug administration",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fda.gov/about-fda/about-website/website-policies",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div > main > article > div"
+    }
+  }
+}

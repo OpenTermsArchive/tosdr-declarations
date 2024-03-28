@@ -1,0 +1,13 @@
+{
+  "name": "The story graph",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://app.thestorygraph.com/privacy",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://app.thestorygraph.com/terms-of-service",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

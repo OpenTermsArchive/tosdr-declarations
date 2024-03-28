@@ -1,0 +1,13 @@
+{
+  "name": "Abilene christian university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.acu.edu/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Policy": {
+      "fetch": "https://www.acu.edu/dean-of-students/general-university-policies/",
+      "select": " > section > div > div > div > div:nth-of-type(2) > div > div > div > div > div"
+    }
+  }
+}

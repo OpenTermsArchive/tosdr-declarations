@@ -1,0 +1,13 @@
+{
+  "name": "Ethanmcbloxxer",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://ethanmcbloxxer.github.io/privacy.html",
+      "select": "html > body > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://ethanmcbloxxer.github.io/terms.html",
+      "select": "html > body > div"
+    }
+  }
+}

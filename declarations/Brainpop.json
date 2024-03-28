@@ -1,0 +1,13 @@
+{
+  "name": "Brainpop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.brainpop.com/about/terms_of_use/",
+      "select": "html > body > main > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.brainpop.com/about/privacy_policy/",
+      "select": "html > body > main > div > div"
+    }
+  }
+}

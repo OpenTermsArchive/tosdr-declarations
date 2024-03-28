@@ -1,0 +1,13 @@
+{
+  "name": "Bausch",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.bauschhealth.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bausch.com/privacy",
+      "select": "body"
+    }
+  }
+}

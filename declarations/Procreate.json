@@ -1,0 +1,17 @@
+{
+  "name": "Procreate",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://procreate.com/terms-conditions",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(3) > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://procreate.com/cookies-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(3) > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://procreate.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(3) > main"
+    }
+  }
+}

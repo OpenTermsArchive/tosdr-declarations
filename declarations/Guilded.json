@@ -1,0 +1,17 @@
+{
+  "name": "Guilded",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://support.guilded.gg/hc/en-us/articles/360039235054-Privacy",
+      "select": "html > body > main > div:nth-of-type(2) > div > article > div > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://support.guilded.gg/hc/en-us/articles/360052815873-Community-guidelines",
+      "select": "html > body > main > div:nth-of-type(2) > div > article > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://support.guilded.gg/hc/en-us/articles/360039728313-Terms-of-use",
+      "select": "html > body > main > div:nth-of-type(2) > div > article > div > div"
+    }
+  }
+}

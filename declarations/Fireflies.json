@@ -1,0 +1,13 @@
+{
+  "name": "Fireflies",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://fireflies.ai/terms-of-service.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://fireflies.ai/privacy_policy.pdf",
+      "select": "body"
+    }
+  }
+}

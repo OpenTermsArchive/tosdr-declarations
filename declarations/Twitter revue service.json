@@ -1,0 +1,13 @@
+{
+  "name": "Twitter revue service",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.getrevue.co/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.getrevue.co/privacy",
+      "select": null
+    }
+  }
+}

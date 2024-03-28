@@ -1,0 +1,13 @@
+{
+  "name": "Dollarshaveclub",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ask.dollarshaveclub.com/en-US/privacy-policy-195939",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ask.dollarshaveclub.com/en-US/terms-of-service-195938",
+      "select": "body"
+    }
+  }
+}

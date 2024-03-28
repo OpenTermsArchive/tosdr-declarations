@@ -1,0 +1,13 @@
+{
+  "name": "Funko",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.funko.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.funko.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

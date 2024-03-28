@@ -1,0 +1,13 @@
+{
+  "name": "The right scoop",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://therightscoop.com/the-right-scoop-commenting-rules/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://therightscoop.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

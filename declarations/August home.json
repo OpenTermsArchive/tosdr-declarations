@@ -1,0 +1,21 @@
+{
+  "name": "August home",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://august.com/pages/end-user-agreement",
+      "select": "html > body > main > div:first-of-type > div:nth-of-type(5) > div > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://august.com/pages/privacy-policy",
+      "select": "html > body > main > div:first-of-type > div:nth-of-type(5) > div > div:nth-of-type(3)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://august.com/pages/warranty",
+      "select": "html > body > main > div:first-of-type > div:nth-of-type(5) > div > div:nth-of-type(3)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://august.com/pages/cookie-policy",
+      "select": "html > body > main > div:first-of-type > div:nth-of-type(5) > div > div:nth-of-type(3)"
+    }
+  }
+}

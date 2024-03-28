@@ -1,0 +1,17 @@
+{
+  "name": "Toptal",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.toptal.com/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.toptal.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.toptal.com/company-tos",
+      "select": "body"
+    }
+  }
+}

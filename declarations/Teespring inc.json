@@ -1,0 +1,29 @@
+{
+  "name": "Teespring inc",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.spri.ng/policies/spring-terms-of-service?section=acceptable-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spri.ng/policies/spring-terms-of-service?section=privacy",
+      "select": "html > body > div:first-of-type > div > main > section > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.spri.ng/policies/spring-terms-of-service?section=intellectual-property",
+      "select": "body"
+    },
+    "Developer Terms": {
+      "fetch": "https://www.spri.ng/policies/spring-terms-of-service?section=api-terms-of-service",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.spri.ng/policies/spring-terms-of-service?section=terms-of-service",
+      "select": "html > body > div:first-of-type > div > main > section > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.spri.ng/policies/spring-terms-of-service?section=giveaways-privacy-notice",
+      "select": "html > body > div:first-of-type > div > main > section > div"
+    }
+  }
+}

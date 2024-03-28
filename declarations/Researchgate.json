@@ -1,0 +1,17 @@
+{
+  "name": "Researchgate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.researchgate.net/privacy-policy",
+      "select": "div.privacy-policy"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.researchgate.net/ip-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.researchgate.net/terms-of-service",
+      "select": "body"
+    }
+  }
+}

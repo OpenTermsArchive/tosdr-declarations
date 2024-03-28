@@ -1,0 +1,9 @@
+{
+  "name": "University of kentucky",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.uky.edu/see/privacy",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:first-of-type"
+    }
+  }
+}

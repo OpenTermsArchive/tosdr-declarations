@@ -1,0 +1,9 @@
+{
+  "name": "Microsip",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.microsip.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

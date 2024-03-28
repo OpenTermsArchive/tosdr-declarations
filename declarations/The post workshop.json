@@ -1,0 +1,9 @@
+{
+  "name": "The post workshop",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://postworkshop.io/privacy/",
+      "select": "body"
+    }
+  }
+}

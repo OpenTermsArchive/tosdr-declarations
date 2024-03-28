@@ -1,0 +1,13 @@
+{
+  "name": "Video link",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://video.link/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://video.link/privacy-policy",
+      "select": "body"
+    }
+  }
+}

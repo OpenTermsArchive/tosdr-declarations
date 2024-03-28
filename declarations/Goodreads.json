@@ -1,0 +1,17 @@
+{
+  "name": "Goodreads",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.goodreads.com/about/privacy",
+      "select": "html > body > div:nth-of-type(3) > div > div:nth-of-type(3) > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.goodreads.com/about/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.goodreads.com/about/cookies_notice",
+      "select": "html > body > div:nth-of-type(3) > div > div:nth-of-type(3) > div:first-of-type"
+    }
+  }
+}

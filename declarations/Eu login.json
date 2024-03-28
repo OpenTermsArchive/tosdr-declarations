@@ -1,0 +1,13 @@
+{
+  "name": "Eu login",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://ecas.ec.europa.eu/cas/cookies.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ecas.ec.europa.eu/cas/privacyStatement.html",
+      "select": "body"
+    }
+  }
+}

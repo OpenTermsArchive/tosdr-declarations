@@ -1,0 +1,13 @@
+{
+  "name": "Glose",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://glose.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://glose.com/privacy",
+      "select": "body"
+    }
+  }
+}

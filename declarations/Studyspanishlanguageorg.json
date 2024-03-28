@@ -1,0 +1,9 @@
+{
+  "name": "Studyspanishlanguageorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.studyspanishlanguage.org/privacy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

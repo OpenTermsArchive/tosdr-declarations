@@ -1,0 +1,9 @@
+{
+  "name": "The journal gazette",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.journalgazette.net/site/terms.html",
+      "select": "body"
+    }
+  }
+}

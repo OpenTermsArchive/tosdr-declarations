@@ -1,0 +1,13 @@
+{
+  "name": "Deshaicinet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://deshaici.net/feed/pages/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://deshaici.net/feed/pages/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div:first-of-type"
+    }
+  }
+}

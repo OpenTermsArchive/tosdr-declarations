@@ -1,0 +1,13 @@
+{
+  "name": "Saddio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sadd.io/termsofuse.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sadd.io/privacypolicy.pdf",
+      "select": "body"
+    }
+  }
+}

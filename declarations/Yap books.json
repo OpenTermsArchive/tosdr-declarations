@@ -1,0 +1,13 @@
+{
+  "name": "Yap books",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yapbooks.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://yapbooks.com/terms/",
+      "select": "body"
+    }
+  }
+}

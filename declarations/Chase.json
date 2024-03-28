@@ -1,0 +1,9 @@
+{
+  "name": "Chase",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.chase.com/digital/resources/terms-of-use",
+      "select": "body"
+    }
+  }
+}

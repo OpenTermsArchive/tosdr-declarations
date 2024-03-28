@@ -1,0 +1,13 @@
+{
+  "name": "Justetf",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.justetf.com/en/about/data-privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.justetf.com/documents/justETF_general_terms_and_conditions.pdf",
+      "select": "body"
+    }
+  }
+}

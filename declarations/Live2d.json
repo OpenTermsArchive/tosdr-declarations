@@ -1,0 +1,13 @@
+{
+  "name": "Live2d",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.live2d.com/eula/live2D-editor-software-license-agreement_en.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.live2d.jp/terms/privacy/",
+      "select": "body"
+    }
+  }
+}

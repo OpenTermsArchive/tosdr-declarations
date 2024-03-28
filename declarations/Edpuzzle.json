@@ -1,0 +1,13 @@
+{
+  "name": "Edpuzzle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://edpuzzle.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://edpuzzle.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Ptgms industries",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ptgms.space/privacy.html",
+      "select": "html > body > div"
+    }
+  }
+}

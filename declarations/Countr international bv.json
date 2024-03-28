@@ -1,0 +1,9 @@
+{
+  "name": "Countr international bv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.countrhq.com/terms-conditions",
+      "select": "body"
+    }
+  }
+}

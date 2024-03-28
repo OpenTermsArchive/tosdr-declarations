@@ -1,0 +1,17 @@
+{
+  "name": "Zevia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zevia.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.zevia.com/policies/terms-of-service",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.zevia.com/policies/refund-policy",
+      "select": " > div > div:nth-of-type(2) > div"
+    }
+  }
+}

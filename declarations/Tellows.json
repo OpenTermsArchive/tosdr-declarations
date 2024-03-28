@@ -1,0 +1,13 @@
+{
+  "name": "Tellows",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tellows.co.uk/c/about-tellows-uk/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tellows.co.uk/c/about-tellows-uk/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

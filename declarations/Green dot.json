@@ -1,0 +1,13 @@
+{
+  "name": "Green dot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.greendot.com/content/dam/greendot/legal/about/docs/greendotsitetermsofuse8.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.greendot.com/content/dam/greendot/legal/about/docs/greendottechnologyprivacystatement8.pdf",
+      "select": "body"
+    }
+  }
+}

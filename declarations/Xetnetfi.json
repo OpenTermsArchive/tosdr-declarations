@@ -1,0 +1,9 @@
+{
+  "name": "Xetnetfi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.xetnet.fi/xetnet-palveluiden-yleiset-sopimusehdot/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    }
+  }
+}

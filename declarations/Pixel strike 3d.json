@@ -1,0 +1,9 @@
+{
+  "name": "Pixel strike 3d",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/7966624",
+      "select": "body"
+    }
+  }
+}

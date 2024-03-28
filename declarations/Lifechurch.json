@@ -1,0 +1,13 @@
+{
+  "name": "Lifechurch",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.life.church/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.life.church/privacy/",
+      "select": "body"
+    }
+  }
+}

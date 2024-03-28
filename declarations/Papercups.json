@@ -1,0 +1,9 @@
+{
+  "name": "Papercups",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://papercups.io/privacy",
+      "select": "html > body > div:first-of-type > div > main"
+    }
+  }
+}

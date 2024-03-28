@@ -1,0 +1,13 @@
+{
+  "name": "Blinkist",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.blinkist.com/en/user_research_privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.blinkist.com/en/tos",
+      "select": "body"
+    }
+  }
+}

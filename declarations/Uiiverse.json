@@ -1,0 +1,13 @@
+{
+  "name": "Uiiverse",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://uiiverse.xyz/guide/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://uiiverse.xyz/guide/terms",
+      "select": "body"
+    }
+  }
+}

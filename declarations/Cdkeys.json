@@ -1,0 +1,13 @@
+{
+  "name": "Cdkeys",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cdkeys.com/terms-conditions",
+      "select": " > div:nth-of-type(4) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cdkeys.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

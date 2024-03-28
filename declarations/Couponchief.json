@@ -1,0 +1,13 @@
+{
+  "name": "Couponchief",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.couponchief.com/pages/privacy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.couponchief.com/pages/terms",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div:first-of-type > div"
+    }
+  }
+}

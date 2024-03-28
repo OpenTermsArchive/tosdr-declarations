@@ -1,0 +1,17 @@
+{
+  "name": "Taketwo interactive software",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.take2games.com/cookiepolicy/en-US",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.take2games.com/legal/en-US",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.take2games.com/privacy/en-US",
+      "select": "body"
+    }
+  }
+}

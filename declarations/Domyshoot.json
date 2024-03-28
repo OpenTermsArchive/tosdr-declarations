@@ -1,0 +1,13 @@
+{
+  "name": "Domyshoot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.domyshoot.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.domyshoot.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Notonthehighstreet enterprises",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.notonthehighstreet.com/about/privacy",
+      "select": "html > body > div:first-of-type > div > main > div > div > section:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.notonthehighstreet.com/about/cookies",
+      "select": "html > body > div:first-of-type > div > main > div > div > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.notonthehighstreet.com/about/shopper-terms",
+      "select": "html > body > div:first-of-type > div > main > div > div > section:nth-of-type(2)"
+    }
+  }
+}

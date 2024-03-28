@@ -1,0 +1,17 @@
+{
+  "name": "Express scripts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.express-scripts.com/frontend/consumer-legal-ui/#/legal?type=Privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.express-scripts.com/frontend/consumer-legal-ui/#/legal?type=Practices",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.express-scripts.com/frontend/consumer-legal-ui/#/legal?type=TermsOfUse",
+      "select": "body"
+    }
+  }
+}

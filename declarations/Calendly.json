@@ -1,0 +1,13 @@
+{
+  "name": "Calendly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://calendly.com/pages/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://calendly.com/pages/privacy",
+      "select": "body"
+    }
+  }
+}

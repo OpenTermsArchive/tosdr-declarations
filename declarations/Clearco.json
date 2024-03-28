@@ -1,0 +1,17 @@
+{
+  "name": "Clearco",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://clear.co/privacy",
+      "select": "html > body > div:first-of-type > div > div > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://clear.co/terms",
+      "select": "html > body > div:first-of-type > div > div > div > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://clear.co/cookie-policy",
+      "select": "html > body > div:first-of-type > div > div > div > main"
+    }
+  }
+}

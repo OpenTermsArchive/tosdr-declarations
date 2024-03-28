@@ -1,0 +1,9 @@
+{
+  "name": "Inventionleads",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://inventionleads.com/privacy",
+      "select": null
+    }
+  }
+}

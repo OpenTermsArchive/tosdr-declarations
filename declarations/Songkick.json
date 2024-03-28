@@ -1,0 +1,13 @@
+{
+  "name": "Songkick",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.songkick.com/info/privacy",
+      "select": "html > body > div:nth-of-type(5) > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.songkick.com/info/terms",
+      "select": "html > body > div:nth-of-type(5) > div > div > div > div"
+    }
+  }
+}

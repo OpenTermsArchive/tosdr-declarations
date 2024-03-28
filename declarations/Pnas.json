@@ -1,0 +1,9 @@
+{
+  "name": "Pnas",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pnas.org/about/terms",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

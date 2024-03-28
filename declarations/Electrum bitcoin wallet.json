@@ -1,0 +1,9 @@
+{
+  "name": "Electrum bitcoin wallet",
+  "documents": {
+    "Other": {
+      "fetch": "https://github.com/spesmilo/electrum/blob/1102ea50e878d02c126cbb27480abb39e74e0534/LICENCE",
+      "select": " > div > div:nth-of-type(4) > div:nth-of-type(2) > table"
+    }
+  }
+}

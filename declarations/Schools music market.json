@@ -1,0 +1,9 @@
+{
+  "name": "Schools music market",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://schoolsmusicmarket.com/sellers-terms-and-conditions/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > main > article > div"
+    }
+  }
+}

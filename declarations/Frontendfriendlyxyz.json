@@ -1,0 +1,13 @@
+{
+  "name": "Frontendfriendlyxyz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://safetwitch.frontendfriendly.xyz/privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://gothub.frontendfriendly.xyz/",
+      "select": "body"
+    }
+  }
+}

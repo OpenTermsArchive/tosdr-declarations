@@ -1,0 +1,13 @@
+{
+  "name": "Certsy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://certsy.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://certsy.com/terms/",
+      "select": "body"
+    }
+  }
+}

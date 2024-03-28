@@ -1,0 +1,13 @@
+{
+  "name": "Securesafe",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.securesafe.com/en/terms",
+      "select": "html > body > main > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.securesafe.com/en/business/privacy",
+      "select": "body"
+    }
+  }
+}

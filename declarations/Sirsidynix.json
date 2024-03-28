@@ -1,0 +1,9 @@
+{
+  "name": "Sirsidynix",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sirsidynix.com/privacy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(4) > div"
+    }
+  }
+}

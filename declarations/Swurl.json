@@ -1,0 +1,13 @@
+{
+  "name": "Swurl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://swurl.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://swurl.com/terms.html",
+      "select": "body"
+    }
+  }
+}

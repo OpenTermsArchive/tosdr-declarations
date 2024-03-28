@@ -1,0 +1,13 @@
+{
+  "name": "Vinted",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vinted.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vinted.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

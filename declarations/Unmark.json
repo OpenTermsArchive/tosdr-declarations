@@ -1,0 +1,9 @@
+{
+  "name": "Unmark",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.notion.so/cdevroe/Unmark-Terms-of-Use-505bfd6398634ceaba0865274b9ba258",
+      "select": "body"
+    }
+  }
+}

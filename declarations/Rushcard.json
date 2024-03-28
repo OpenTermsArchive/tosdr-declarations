@@ -1,0 +1,13 @@
+{
+  "name": "Rushcard",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://usermanagement.rushcard.com/legal/privacy-policies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://usermanagement.rushcard.com/legal/cardholder-policy-terms",
+      "select": "body"
+    }
+  }
+}

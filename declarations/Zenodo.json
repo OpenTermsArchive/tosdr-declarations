@@ -1,0 +1,13 @@
+{
+  "name": "Zenodo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://about.zenodo.org/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://about.zenodo.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

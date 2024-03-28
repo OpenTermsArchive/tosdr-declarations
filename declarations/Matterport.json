@@ -1,0 +1,17 @@
+{
+  "name": "Matterport",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://matterport.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > div > div > div:nth-of-type(2) > article > div:nth-of-type(2) > div:first-of-type > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://matterport.com/cookie-policy",
+      "select": "html > body > div:first-of-type > div > main > div > div > div:nth-of-type(2) > article > div:nth-of-type(2) > div:first-of-type > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://matterport.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div > main > div > div > div:nth-of-type(2) > article > div:nth-of-type(2) > div:first-of-type > div > div"
+    }
+  }
+}

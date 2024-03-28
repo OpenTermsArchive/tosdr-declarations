@@ -1,0 +1,13 @@
+{
+  "name": "Freewarefiles",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.freewarefiles.com/Eula.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.freewarefiles.com/Privacy-Policy.html",
+      "select": "body"
+    }
+  }
+}

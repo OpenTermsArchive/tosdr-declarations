@@ -1,0 +1,17 @@
+{
+  "name": "Blogger",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://policies.google.com/terms",
+      "select": "div[role=\"article\"]"
+    },
+    "Privacy Policy": {
+      "fetch": "https://w88-yes.com/privacy-policy",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://backlinksindexerhere.blogspot.com/",
+      "select": "body"
+    }
+  }
+}

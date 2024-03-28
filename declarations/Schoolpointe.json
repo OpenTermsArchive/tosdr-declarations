@@ -1,0 +1,13 @@
+{
+  "name": "Schoolpointe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://schoolpointe.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > main > div > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://schoolpointe.com/terms-of-service/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > main > div > article > div"
+    }
+  }
+}

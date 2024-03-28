@@ -1,0 +1,13 @@
+{
+  "name": "Flero games",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://services.flerogamessvc.com/policy/TermsofService_EN.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://services.flerogamessvc.com/policy/PrivacyPolicy_EN.html",
+      "select": null
+    }
+  }
+}

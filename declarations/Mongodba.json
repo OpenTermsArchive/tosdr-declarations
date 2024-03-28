@@ -1,0 +1,9 @@
+{
+  "name": "Mongodba",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mongodb.com/legal/privacy-policy",
+      "select": "body"
+    }
+  }
+}

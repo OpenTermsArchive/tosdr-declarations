@@ -1,0 +1,25 @@
+{
+  "name": "Whatbox",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://whatbox.ca/policies/terms",
+      "select": "body"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://whatbox.ca/policies/abuse",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://whatbox.ca/policies/refund",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://whatbox.ca/policies/data_handling",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://whatbox.ca/policies/cookies",
+      "select": "body"
+    }
+  }
+}

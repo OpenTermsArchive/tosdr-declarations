@@ -1,0 +1,21 @@
+{
+  "name": "Ureed",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://public.ureed.com/terms/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://public.ureed.com/terms/cookies/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://public.ureed.com/terms/dmca/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://public.ureed.com/terms/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Grasscity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.grasscity.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > main > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.grasscity.com/terms-conditions",
+      "select": "html > body > div:nth-of-type(3) > main > div:nth-of-type(2)"
+    }
+  }
+}

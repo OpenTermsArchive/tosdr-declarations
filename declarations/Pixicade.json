@@ -1,0 +1,17 @@
+{
+  "name": "Pixicade",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.pixicade.com/pages/guarantee-return-policy ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pixicade.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pixicade.com/pages/terms-of-service",
+      "select": "body"
+    }
+  }
+}

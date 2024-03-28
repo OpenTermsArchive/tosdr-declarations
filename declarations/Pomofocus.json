@@ -1,0 +1,9 @@
+{
+  "name": "Pomofocus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pomofocus.io/privacy",
+      "select": "body"
+    }
+  }
+}

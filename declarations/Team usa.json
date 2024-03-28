@@ -1,0 +1,13 @@
+{
+  "name": "Team usa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.teamusa.org/footer/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.teamusa.org/footer/terms-of-use",
+      "select": "body"
+    }
+  }
+}

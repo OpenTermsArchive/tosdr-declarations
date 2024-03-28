@@ -1,0 +1,17 @@
+{
+  "name": "Namecheap",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.namecheap.com/legal/general/privacy-policy/",
+      "select": "html > body > form:first-of-type > div:nth-of-type(4)"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.namecheap.com/legal/domains/udrp/",
+      "select": "html > body > form:first-of-type > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.namecheap.com/legal/universal/universal-tos/",
+      "select": "html > body > form:first-of-type > div:nth-of-type(4)"
+    }
+  }
+}

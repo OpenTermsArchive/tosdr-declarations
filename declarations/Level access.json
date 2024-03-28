@@ -1,0 +1,9 @@
+{
+  "name": "Level access",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.levelaccess.com/privacy/",
+      "select": "body"
+    }
+  }
+}

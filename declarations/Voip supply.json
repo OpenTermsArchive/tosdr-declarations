@@ -1,0 +1,13 @@
+{
+  "name": "Voip supply",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.voipsupply.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.voipsupply.com/terms",
+      "select": null
+    }
+  }
+}

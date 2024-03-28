@@ -1,0 +1,9 @@
+{
+  "name": "Learnflakes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://web.archive.org/web/20140417163206/https://learnflakes.net/?p=signup&pid=16",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Candle",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://candle.to/privacy",
+      "select": " > div:nth-of-type(2) > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://candle.to/terms",
+      "select": " > div:nth-of-type(2) > main > div"
+    }
+  }
+}

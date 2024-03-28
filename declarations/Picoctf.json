@@ -1,0 +1,13 @@
+{
+  "name": "Picoctf",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://picoctf.org/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://picoctf.org/terms",
+      "select": null
+    }
+  }
+}

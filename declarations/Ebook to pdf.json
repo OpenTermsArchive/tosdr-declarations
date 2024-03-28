@@ -1,0 +1,9 @@
+{
+  "name": "Ebook to pdf",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ebook2pdf.com/terms",
+      "select": "body"
+    }
+  }
+}

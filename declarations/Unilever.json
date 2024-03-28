@@ -1,0 +1,13 @@
+{
+  "name": "Unilever",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.unilevernotices.com/usa/english/privacy-notice/notice.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.unilevernotices.com/global/en_gb/cookie-notice/notice.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Abcsubmit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://abcsubmit.com/site/terms-of-use",
+      "select": " > div"
+    }
+  }
+}

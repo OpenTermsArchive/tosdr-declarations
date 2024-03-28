@@ -1,0 +1,9 @@
+{
+  "name": "Appalachian",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.appstate.edu/privacy/",
+      "select": null
+    }
+  }
+}

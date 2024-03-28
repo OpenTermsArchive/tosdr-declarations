@@ -1,0 +1,13 @@
+{
+  "name": "Componentsearchengine",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://componentsearchengine.com/privacyPolicy",
+      "select": "html > body > div:nth-of-type(5)"
+    },
+    "Terms of Service": {
+      "fetch": "https://intelligence.supplyframe.com/terms/",
+      "select": "html > body > div:nth-of-type(2) > main > div > article > div > div"
+    }
+  }
+}

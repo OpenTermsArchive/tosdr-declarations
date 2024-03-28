@@ -1,0 +1,9 @@
+{
+  "name": "Pintas  mullins law firm",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pintas.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Shoppers drug mart",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://corporate.shoppersdrugmart.ca/en/legal/",
+      "select": "html > body > div > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.loblaw.ca/en/privacy-policy/",
+      "select": "html > body > div > main > div:first-of-type"
+    }
+  }
+}

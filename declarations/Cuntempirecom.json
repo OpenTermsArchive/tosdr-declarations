@@ -1,0 +1,17 @@
+{
+  "name": "Cuntempirecom",
+  "documents": {
+    "Records Keeping Policy": {
+      "fetch": "https://www.cuntempire.com/docs/2257.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cuntempire.com/docs/privacy_policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cuntempire.com/docs/terms_of_use.html",
+      "select": "body"
+    }
+  }
+}

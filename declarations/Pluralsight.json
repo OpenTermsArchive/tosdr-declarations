@@ -1,0 +1,13 @@
+{
+  "name": "Pluralsight",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pluralsight.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pluralsight.com/terms",
+      "select": null
+    }
+  }
+}

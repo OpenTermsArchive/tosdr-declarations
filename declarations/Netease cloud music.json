@@ -1,0 +1,13 @@
+{
+  "name": "Netease cloud music",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://st.music.163.com/official-terms/privacy",
+      "select": " > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://st.music.163.com/official-terms/service",
+      "select": " > div > div"
+    }
+  }
+}

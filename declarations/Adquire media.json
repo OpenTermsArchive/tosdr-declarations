@@ -1,0 +1,13 @@
+{
+  "name": "Adquire media",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.adquire.com/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.adquire.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

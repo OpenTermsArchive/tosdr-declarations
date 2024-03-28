@@ -1,0 +1,13 @@
+{
+  "name": "Freemcservernet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://freemcserver.net/full-tos",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://freemcserver.net/privacy-policy",
+      "select": null
+    }
+  }
+}

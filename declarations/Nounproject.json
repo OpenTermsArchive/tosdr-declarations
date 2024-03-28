@@ -1,0 +1,17 @@
+{
+  "name": "Nounproject",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://thenounproject.com/legal/",
+      "select": " > section:nth-of-type(3) > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://thenounproject.com/legal/cookie-policy/",
+      "select": " > section:nth-of-type(3) > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://thenounproject.com/legal/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

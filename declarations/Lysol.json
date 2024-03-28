@@ -1,0 +1,13 @@
+{
+  "name": "Lysol",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lysol.com/content/lysol-us/us/en/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lysol.com/content/lysol-us/us/en/terms-conditions",
+      "select": "body"
+    }
+  }
+}

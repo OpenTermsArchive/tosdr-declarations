@@ -1,0 +1,21 @@
+{
+  "name": "Live365",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://live365.com/legal/terms",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://live365.com/legal/dmca",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://live365.com/legal/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://live365.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

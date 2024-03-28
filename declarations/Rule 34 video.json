@@ -1,0 +1,13 @@
+{
+  "name": "Rule 34 video",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://rule34video.com/dmca/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://rule34video.com/terms/",
+      "select": "body"
+    }
+  }
+}

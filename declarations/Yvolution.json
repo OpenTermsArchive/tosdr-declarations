@@ -1,0 +1,13 @@
+{
+  "name": "Yvolution",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.yvolution.com/us_en_yv/terms-conditions.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.yvolution.com/us_en_yv/privacy-security.html",
+      "select": "body"
+    }
+  }
+}

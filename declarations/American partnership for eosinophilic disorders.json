@@ -1,0 +1,13 @@
+{
+  "name": "American partnership for eosinophilic disorders",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://apfed.org/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://apfed.org/disclaimer-privacy-policy",
+      "select": "body"
+    }
+  }
+}

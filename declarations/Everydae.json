@@ -1,0 +1,13 @@
+{
+  "name": "Everydae",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://learn.everydae.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://learn.everydae.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

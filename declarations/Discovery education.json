@@ -1,0 +1,17 @@
+{
+  "name": "Discovery education",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.discoveryeducation.co.uk/terms-of-use/pathway/",
+      "select": " > div > div > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.discoveryeducation.co.uk/cookie-policy/",
+      "select": " > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.discoveryeducation.co.uk/wp-content/uploads/2022/10/Discovery-Education-GDPR-Data-Processing-Addendum-05.2023.pdf",
+      "select": "body"
+    }
+  }
+}

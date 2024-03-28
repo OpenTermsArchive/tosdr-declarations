@@ -1,0 +1,13 @@
+{
+  "name": "Yodata vpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.yodatavpn.com/terms-and-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.yodatavpn.com/privacy-policy",
+      "select": null
+    }
+  }
+}

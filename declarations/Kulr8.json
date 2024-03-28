@@ -1,0 +1,13 @@
+{
+  "name": "Kulr8",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kulr8.com/site/terms.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kulr8.com/site/privacy.html",
+      "select": "body"
+    }
+  }
+}

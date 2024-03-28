@@ -1,0 +1,13 @@
+{
+  "name": "Smartstreamtv gmbh",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.smartstream.tv/en/conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.smartstream.tv/en/productprivacy",
+      "select": "body"
+    }
+  }
+}

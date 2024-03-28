@@ -1,0 +1,13 @@
+{
+  "name": "Grey arrows drone club",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://greyarro.ws/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://greyarro.ws/privacy",
+      "select": "body"
+    }
+  }
+}

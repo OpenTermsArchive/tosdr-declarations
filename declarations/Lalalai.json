@@ -1,0 +1,13 @@
+{
+  "name": "Lalalai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lalal.ai/privacy-policy/",
+      "select": "html > body > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lalal.ai/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

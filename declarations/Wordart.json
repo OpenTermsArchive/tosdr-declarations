@@ -1,0 +1,13 @@
+{
+  "name": "Wordart",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wordart.com/terms",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wordart.com/terms/privacy-policy",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

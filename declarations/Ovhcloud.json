@@ -1,0 +1,13 @@
+{
+  "name": "Ovhcloud",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ovh.ie/support/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ovh.co.uk/support/termsofservice/Data%20Processing%20Agreement_UK.pdf",
+      "select": "body"
+    }
+  }
+}

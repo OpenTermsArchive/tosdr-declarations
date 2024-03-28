@@ -1,0 +1,13 @@
+{
+  "name": "Wingify",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vwo.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://vwo.com/terms/",
+      "select": "body"
+    }
+  }
+}

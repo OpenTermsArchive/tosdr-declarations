@@ -1,0 +1,13 @@
+{
+  "name": "Teach your monster",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.teachyourmonster.org/legals",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.teachyourmonster.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

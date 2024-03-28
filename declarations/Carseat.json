@@ -1,0 +1,17 @@
+{
+  "name": "Carseat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.car-seat.org/threads/terms-of-service-ad-policy-user-guidelines.131532/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.car-seat.org/help/cookies/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.car-seat.org/threads/privacy-policy.131533/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Crick software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cricksoft.com/uk/about/privacy-policy",
+      "select": "body"
+    }
+  }
+}

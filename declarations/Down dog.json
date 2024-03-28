@@ -1,0 +1,13 @@
+{
+  "name": "Down dog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.downdogapp.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://media.downdogapp.com/misc/terms.pdf",
+      "select": "body"
+    }
+  }
+}

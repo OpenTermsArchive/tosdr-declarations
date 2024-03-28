@@ -1,0 +1,17 @@
+{
+  "name": "2captcha",
+  "documents": {
+    "Policy": {
+      "fetch": "https://2captcha.com/refund-and-payment-policy",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://2captcha.com/cookie_and_privacy_policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://2captcha.com/terms-of-service",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

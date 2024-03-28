@@ -1,0 +1,13 @@
+{
+  "name": "Skullcandy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://info.skullcandy.com/Support?Dest=hc%2Fen-us%2Farticles%2F360010896673-Terms-of-Use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://info.skullcandy.com/Support?Dest=hc%2Fen-us%2Farticles%2F360010896613-Privacy-Policy",
+      "select": "body"
+    }
+  }
+}

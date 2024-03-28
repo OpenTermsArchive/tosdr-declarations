@@ -1,0 +1,17 @@
+{
+  "name": "Halfasleep chris",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.halfasleepchris.com/policies/refund-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.halfasleepchris.com/policies/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.halfasleepchris.com/policies/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > main > div > div:nth-of-type(2) > div"
+    }
+  }
+}

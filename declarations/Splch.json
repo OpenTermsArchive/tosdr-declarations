@@ -1,0 +1,9 @@
+{
+  "name": "Splch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://splch.dev/privacy-policy.txt",
+      "select": "body"
+    }
+  }
+}

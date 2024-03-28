@@ -1,0 +1,21 @@
+{
+  "name": "Vpn elf",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vpnelf.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vpnelf.com/privacy-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://vpnelf.com/export-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://vpnelf.com/returns-policy",
+      "select": "body"
+    }
+  }
+}

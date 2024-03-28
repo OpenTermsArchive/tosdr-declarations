@@ -1,0 +1,13 @@
+{
+  "name": "Spartacus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://spartacus.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://spartacus.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

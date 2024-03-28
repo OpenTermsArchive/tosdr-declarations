@@ -1,0 +1,13 @@
+{
+  "name": "Sphero",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://sphero.com/pages/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sphero.com/pages/privacy",
+      "select": null
+    }
+  }
+}

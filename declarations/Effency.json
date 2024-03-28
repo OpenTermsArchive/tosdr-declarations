@@ -1,0 +1,13 @@
+{
+  "name": "Effency",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.effency.fr/conditions-generales",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.effency.fr/protection-des-donnees",
+      "select": "body"
+    }
+  }
+}

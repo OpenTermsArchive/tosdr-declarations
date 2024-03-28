@@ -1,0 +1,13 @@
+{
+  "name": "Meze audio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mezeaudio.com/pages/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://mezeaudio.com/pages/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Snyk platform",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://snyk.io/policies/dpa/",
+      "select": "html > body > div:first-of-type > main > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://snyk.io/policies/terms-of-service/",
+      "select": "html > body > div:first-of-type > main > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://snyk.io/policies/cookies-policy/",
+      "select": "html > body > div:first-of-type > main > section"
+    }
+  }
+}

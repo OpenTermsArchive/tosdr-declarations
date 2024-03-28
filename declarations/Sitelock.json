@@ -1,0 +1,21 @@
+{
+  "name": "Sitelock",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sitelock.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sitelock.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4)"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.sitelock.com/download/legal/SiteLock_AUP_2016.pdf",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.sitelock.com/download/legal/SiteLock_Responsible_Disclosure_Policy_2016.pdf",
+      "select": "body"
+    }
+  }
+}

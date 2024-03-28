@@ -1,0 +1,13 @@
+{
+  "name": "Cpuid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cpuid.com/privacy-policy.html",
+      "select": "html > body > section:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cpuid.com/terms-of-service.html",
+      "select": "html > body > section:nth-of-type(3) > div"
+    }
+  }
+}

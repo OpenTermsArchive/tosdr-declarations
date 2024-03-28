@@ -1,0 +1,9 @@
+{
+  "name": "California narcotic officers association",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cnoa.org/privacy_policy",
+      "select": "html > body > main > div:nth-of-type(2) > div"
+    }
+  }
+}

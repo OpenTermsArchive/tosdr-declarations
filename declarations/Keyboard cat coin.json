@@ -1,0 +1,9 @@
+{
+  "name": "Keyboard cat coin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://keyboardcatcoin.com/privacy",
+      "select": null
+    }
+  }
+}

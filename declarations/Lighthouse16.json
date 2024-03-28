@@ -1,0 +1,13 @@
+{
+  "name": "Lighthouse16",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://lighthouse16.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://lighthouse16.com/privacy/",
+      "select": "body"
+    }
+  }
+}

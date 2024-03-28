@@ -1,0 +1,13 @@
+{
+  "name": "Dreamilyai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dreamily.ai/public/user/agreement_en.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dreamily.ai/public/user/privacy_en.html",
+      "select": "body"
+    }
+  }
+}

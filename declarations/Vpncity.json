@@ -1,0 +1,17 @@
+{
+  "name": "Vpncity",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.vpncity.com/page/terms-of-service",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.vpncity.com/page/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vpncity.com/page/privacy-policy",
+      "select": "body"
+    }
+  }
+}

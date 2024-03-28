@@ -1,0 +1,13 @@
+{
+  "name": "Tawkto",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tawk.to/data-protection/",
+      "select": "html > body > main > div > div:first-of-type > div > div > div > section:nth-of-type(2) > div > div > div > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tawk.to/terms-of-service/",
+      "select": "html > body > main > div > div:first-of-type > div > div > div > section > div > div > div > div > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

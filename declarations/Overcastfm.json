@@ -1,0 +1,13 @@
+{
+  "name": "Overcastfm",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://overcast.fm/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://overcast.fm/terms",
+      "select": "body"
+    }
+  }
+}

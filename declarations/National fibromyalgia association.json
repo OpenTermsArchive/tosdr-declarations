@@ -1,0 +1,9 @@
+{
+  "name": "National fibromyalgia association",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fmaware.org/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > main > div > section > div > div > div:first-of-type"
+    }
+  }
+}

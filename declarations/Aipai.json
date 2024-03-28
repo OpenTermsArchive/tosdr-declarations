@@ -1,0 +1,13 @@
+{
+  "name": "Aipai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.aipai.com/lastest_aipai/help/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.aipai.com/lastest_aipai/support/term.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Browserling",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.browserling.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.browserling.com/terms-of-service",
+      "select": null
+    }
+  }
+}

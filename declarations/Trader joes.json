@@ -1,0 +1,13 @@
+{
+  "name": "Trader joes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.traderjoes.com/home/privacy-policy",
+      "select": "html > body > div:nth-of-type(7) > div > div > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.traderjoes.com/home/terms-of-use",
+      "select": "body"
+    }
+  }
+}

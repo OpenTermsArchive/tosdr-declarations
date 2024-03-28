@@ -1,0 +1,21 @@
+{
+  "name": "Ddosguard",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://ddos-guard.net/file/aup_en.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ddos-guard.net/file/sladdg_en.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://ddos-guard.net/file/cookie_privacy_en.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ddos-guard.net/file/POPD_en.pdf",
+      "select": "body"
+    }
+  }
+}

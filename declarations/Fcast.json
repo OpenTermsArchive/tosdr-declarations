@@ -1,0 +1,9 @@
+{
+  "name": "Fcast",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fcast.org/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

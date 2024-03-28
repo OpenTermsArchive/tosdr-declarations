@@ -1,0 +1,13 @@
+{
+  "name": "Pacific life insurance company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pacificlife.com/home/privacy-and-other-policies/online-privacy-policy.html",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3) > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.pacificlife.com/home/privacy-and-other-policies/legal-information-and-website-usage.html",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3) > div"
+    }
+  }
+}

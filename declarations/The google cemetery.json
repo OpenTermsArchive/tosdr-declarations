@@ -1,0 +1,9 @@
+{
+  "name": "The google cemetery",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gcemetery.co/privacy-policy/",
+      "select": null
+    }
+  }
+}

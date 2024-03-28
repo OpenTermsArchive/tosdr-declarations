@@ -1,0 +1,9 @@
+{
+  "name": "Pima medical institute",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pmi.edu/privacypolicy",
+      "select": "body"
+    }
+  }
+}

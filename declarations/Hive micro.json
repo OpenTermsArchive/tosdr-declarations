@@ -1,0 +1,13 @@
+{
+  "name": "Hive micro",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hivemicro.com/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://thehive.ai/privacy",
+      "select": "body"
+    }
+  }
+}

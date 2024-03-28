@@ -1,0 +1,9 @@
+{
+  "name": "Her beauty",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://herbeauty.co/en/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > main > section > article > div"
+    }
+  }
+}

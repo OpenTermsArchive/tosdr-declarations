@@ -1,0 +1,9 @@
+{
+  "name": "Cmpjobs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cmp.jobs/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

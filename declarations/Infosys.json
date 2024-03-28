@@ -1,0 +1,17 @@
+{
+  "name": "Infosys",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.infosys.com/privacy-statement.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.infosys.com/privacy-statement/cookie-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.infosys.com/terms-of-use.html",
+      "select": "body"
+    }
+  }
+}

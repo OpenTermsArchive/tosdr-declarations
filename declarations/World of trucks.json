@@ -1,0 +1,13 @@
+{
+  "name": "World of trucks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.worldoftrucks.com/en/terms",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.worldoftrucks.com/en/privacy",
+      "select": "body"
+    }
+  }
+}

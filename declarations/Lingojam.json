@@ -1,0 +1,13 @@
+{
+  "name": "Lingojam",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lingojam.com/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://lingojam.com/terms.html",
+      "select": "body"
+    }
+  }
+}

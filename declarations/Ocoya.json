@@ -1,0 +1,17 @@
+{
+  "name": "Ocoya",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ocoya.net/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ocoya.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ocoya.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

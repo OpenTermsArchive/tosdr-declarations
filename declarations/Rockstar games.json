@@ -1,0 +1,17 @@
+{
+  "name": "Rockstar games",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rockstargames.com/legal",
+      "select": " > main > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.rockstargames.com/cookies",
+      "select": " > main > div > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rockstargames.com/privacy",
+      "select": " > main > div"
+    }
+  }
+}

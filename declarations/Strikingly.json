@@ -1,0 +1,13 @@
+{
+  "name": "Strikingly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://support.strikingly.com/hc/en-us/articles/214364828",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://support.strikingly.com/hc/en-us/articles/214364818",
+      "select": "body"
+    }
+  }
+}

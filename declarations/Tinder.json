@@ -1,0 +1,17 @@
+{
+  "name": "Tinder",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policies.tinder.com/security/intl/en",
+      "select": "main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.gotinder.com/cookie-policy?locale=en",
+      "select": "main"
+    },
+    "Terms of Service": {
+      "fetch": "https://policies.tinder.com/terms/intl/en",
+      "select": "html > body > div > div:first-of-type > div > div:nth-of-type(2) > main"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Privatoria",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.privatoria.net/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > article > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.privatoria.net/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > article > div > div"
+    }
+  }
+}

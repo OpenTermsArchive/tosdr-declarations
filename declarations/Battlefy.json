@@ -1,0 +1,13 @@
+{
+  "name": "Battlefy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://battlefy.com/policies/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://battlefy.com/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

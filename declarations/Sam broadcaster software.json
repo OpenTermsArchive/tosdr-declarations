@@ -1,0 +1,17 @@
+{
+  "name": "Sam broadcaster software",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://spacial.com/refund-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://spacial.com/sam-software-eula/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://spacial.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

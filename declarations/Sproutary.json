@@ -1,0 +1,13 @@
+{
+  "name": "Sproutary",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sproutary.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sproutary.com/privacy",
+      "select": "body"
+    }
+  }
+}

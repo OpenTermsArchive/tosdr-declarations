@@ -1,0 +1,13 @@
+{
+  "name": "Hideme vpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hide.me/en/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://hide.me/en/legal",
+      "select": null
+    }
+  }
+}

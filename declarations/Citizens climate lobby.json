@@ -1,0 +1,17 @@
+{
+  "name": "Citizens climate lobby",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://citizensclimatelobby.org/privacy-policy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://citizensclimatelobby.org/cookies/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://citizensclimatelobby.org/terms-service/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Scribd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://support.scribd.com/hc/en-us/articles/210129366-privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://support.scribd.com/hc/en-us/articles/210129326-General-Terms-of-Use",
+      "select": "body"
+    }
+  }
+}

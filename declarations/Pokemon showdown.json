@@ -1,0 +1,13 @@
+{
+  "name": "Pokemon showdown",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pokemonshowdown.com/privacy",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://pokemonshowdown.com/rules",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

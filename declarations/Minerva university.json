@@ -1,0 +1,17 @@
+{
+  "name": "Minerva university",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.minerva.edu/terms/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.minerva.edu/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.minerva.edu/cookies/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

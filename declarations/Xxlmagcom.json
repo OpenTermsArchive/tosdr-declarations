@@ -1,0 +1,17 @@
+{
+  "name": "Xxlmagcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://shop.xxlmag.com/terms_of_service",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://shop.xxlmag.com/return_policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://shop.xxlmag.com/privacy",
+      "select": "body"
+    }
+  }
+}

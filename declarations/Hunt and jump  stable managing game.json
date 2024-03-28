@@ -1,0 +1,9 @@
+{
+  "name": "Hunt and jump  stable managing game",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hj2.huntandjump.com/rules.php",
+      "select": "body"
+    }
+  }
+}

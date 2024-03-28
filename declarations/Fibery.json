@@ -1,0 +1,17 @@
+{
+  "name": "Fibery",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fibery.io/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://fibery.io/terms-of-service",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://fibery.io/cookies-policy",
+      "select": "body"
+    }
+  }
+}

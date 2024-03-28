@@ -1,0 +1,13 @@
+{
+  "name": "Skolera",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://skolera.com/en/PrivacyPolicy.aspx",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://skolera.com/en/terms-of-use",
+      "select": "body"
+    }
+  }
+}

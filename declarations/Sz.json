@@ -1,0 +1,9 @@
+{
+  "name": "Sz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://datenschutz.sueddeutsche.de/sz#",
+      "select": "body"
+    }
+  }
+}

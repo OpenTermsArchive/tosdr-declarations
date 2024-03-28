@@ -1,0 +1,13 @@
+{
+  "name": "Nevada777",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://nevada777.com/terms-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://nevada777.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

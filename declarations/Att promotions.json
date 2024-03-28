@@ -1,0 +1,13 @@
+{
+  "name": "Att promotions",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.attpromotions.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.attpromotions.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

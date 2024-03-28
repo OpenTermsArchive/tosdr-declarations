@@ -1,0 +1,9 @@
+{
+  "name": "Lolo company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lolo.co/privacy",
+      "select": "body"
+    }
+  }
+}

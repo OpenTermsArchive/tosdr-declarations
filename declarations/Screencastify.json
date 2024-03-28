@@ -1,0 +1,13 @@
+{
+  "name": "Screencastify",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.screencastify.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.screencastify.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

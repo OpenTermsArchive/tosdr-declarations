@@ -1,0 +1,13 @@
+{
+  "name": "Coinbrain",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://coinbrain.com/privacy-policy",
+      "select": "html > body > div:first-of-type > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://coinbrain.com/cookie-policy",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

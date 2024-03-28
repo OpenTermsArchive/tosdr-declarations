@@ -1,0 +1,17 @@
+{
+  "name": "Fred meyer",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.fredmeyer.com/i/terms/pickup-and-delivery",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div:first-of-type > main > div > div > div > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fredmeyer.com/i/terms/website-and-app",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fredmeyer.com/i/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Iron mountain incorporated",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ironmountain.com/utility/legal/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ironmountain.com/utility/legal/website-terms",
+      "select": "html > body > div:first-of-type > div > main > div > div:nth-of-type(2)"
+    }
+  }
+}

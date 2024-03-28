@@ -1,0 +1,9 @@
+{
+  "name": "Hollandse gamers hub",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hollandsegamershub.nl/privacy-en/",
+      "select": "body"
+    }
+  }
+}

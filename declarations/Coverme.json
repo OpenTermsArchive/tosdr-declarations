@@ -1,0 +1,13 @@
+{
+  "name": "Coverme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.coverme.ws/en/privacy_policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.coverme.ws/en/terms.html",
+      "select": "body"
+    }
+  }
+}

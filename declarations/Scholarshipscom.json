@@ -1,0 +1,17 @@
+{
+  "name": "Scholarshipscom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.scholarships.com/about-us/terms-of-use/",
+      "select": " > div:first-of-type"
+    },
+    "Frequently Asked Questions": {
+      "fetch": "https://www.scholarships.com/support/frequently-asked-questions/",
+      "select": " > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.scholarships.com/about-us/privacy-policy/",
+      "select": " > div:first-of-type"
+    }
+  }
+}

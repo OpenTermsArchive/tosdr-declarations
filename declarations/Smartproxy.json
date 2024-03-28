@@ -1,0 +1,13 @@
+{
+  "name": "Smartproxy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://smartproxy.com/legal/license-agreement",
+      "select": "html > body > div:nth-of-type(2) > main > section:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://smartproxy.com/legal/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > main > section:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Crystal art imports",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.crystalclassics.com/terms-conditions.htm",
+      "select": "body"
+    }
+  }
+}

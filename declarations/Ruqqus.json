@@ -1,0 +1,21 @@
+{
+  "name": "Ruqqus",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://ruqqus.com/help/rules",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://ruqqus.com/help/legal",
+      "select": "#main-content-col"
+    },
+    "Terms of Service": {
+      "fetch": "https://ruqqus.com/help/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://ruqqus.com/help/privacy",
+      "select": null
+    }
+  }
+}

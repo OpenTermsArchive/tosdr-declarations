@@ -1,0 +1,17 @@
+{
+  "name": "Slashdot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://slashdotmedia.com/privacy-statement/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://slashdotmedia.com/opt-out-choices/",
+      "select": "html > body > div:nth-of-type(3) > div > div > article > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://slashdotmedia.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(3) > div > div > article > div > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

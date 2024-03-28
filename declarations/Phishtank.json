@@ -1,0 +1,13 @@
+{
+  "name": "Phishtank",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.phishtank.com/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.phishtank.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

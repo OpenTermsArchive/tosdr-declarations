@@ -1,0 +1,21 @@
+{
+  "name": "Domaincomau",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.domain.com.au/group/privacy-policy/",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(3) > div > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.domain.com.au/group/tracking-and-targeting/",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(3) > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.domain.com.au/group/terms-and-conditions/",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(3) > div > div:nth-of-type(2) > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.domain.com.au/group/subscriber-acceptable-use-policy/",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(3) > div > div:nth-of-type(2) > div"
+    }
+  }
+}

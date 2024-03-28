@@ -1,0 +1,13 @@
+{
+  "name": "Musiksammler",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.musik-sammler.de/datenschutz/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.musik-sammler.de/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

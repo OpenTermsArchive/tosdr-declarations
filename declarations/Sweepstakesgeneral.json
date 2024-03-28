@@ -1,0 +1,13 @@
+{
+  "name": "Sweepstakesgeneral",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sweepstakesgeneral.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sweepstakesgeneral.com/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

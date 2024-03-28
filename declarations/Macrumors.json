@@ -1,0 +1,9 @@
+{
+  "name": "Macrumors",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.macrumors.com/privacydmca.html",
+      "select": "html > body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Swisscowsemail",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://swisscows.com/en/gtc",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://swisscows.email/en/privacy",
+      "select": "body"
+    }
+  }
+}

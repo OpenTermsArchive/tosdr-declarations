@@ -1,0 +1,9 @@
+{
+  "name": "Natwest",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://personal.natwest.com/global/cookie-privacy.html",
+      "select": "body"
+    }
+  }
+}

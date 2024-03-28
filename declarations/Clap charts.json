@@ -1,0 +1,17 @@
+{
+  "name": "Clap charts",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.clapcharts.com/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.clapcharts.com/policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.clapcharts.com/terms",
+      "select": "body"
+    }
+  }
+}

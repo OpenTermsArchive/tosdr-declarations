@@ -1,0 +1,13 @@
+{
+  "name": "Jetstar",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.jetstar.com/au/en/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.jetstar.com/au/en/privacy-policy",
+      "select": "body"
+    }
+  }
+}

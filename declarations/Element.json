@@ -1,0 +1,21 @@
+{
+  "name": "Element",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://element.io/copyright",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://element.io/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://element.io/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://element.io/terms-of-service",
+      "select": "body"
+    }
+  }
+}

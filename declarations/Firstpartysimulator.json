@@ -1,0 +1,9 @@
+{
+  "name": "Firstpartysimulator",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://firstpartysimulator.org/privacy",
+      "select": "body"
+    }
+  }
+}

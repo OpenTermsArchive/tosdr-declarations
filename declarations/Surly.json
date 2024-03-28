@@ -1,0 +1,13 @@
+{
+  "name": "Surly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sur.ly/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sur.ly/privacy-policy",
+      "select": "body"
+    }
+  }
+}

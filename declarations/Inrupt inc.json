@@ -1,0 +1,9 @@
+{
+  "name": "Inrupt inc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://inrupt.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

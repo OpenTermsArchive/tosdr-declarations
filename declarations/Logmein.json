@@ -1,0 +1,13 @@
+{
+  "name": "Logmein",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.logmein.com/legal/privacy/us",
+      "select": "html > body > div > section > div > div > div:nth-of-type(2) > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.logmein.com/legal/terms-and-conditions",
+      "select": "html > body > div > section > div > div > div:nth-of-type(2) > div > div > div > div > div"
+    }
+  }
+}

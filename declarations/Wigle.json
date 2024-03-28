@@ -1,0 +1,13 @@
+{
+  "name": "Wigle",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wigle.net/eula.html",
+      "select": "html > body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wigle.net/privacy",
+      "select": null
+    }
+  }
+}

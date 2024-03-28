@@ -1,0 +1,13 @@
+{
+  "name": "Fastspring",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fastspring.com/privacy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://fastspring.com/legal/",
+      "select": "body"
+    }
+  }
+}

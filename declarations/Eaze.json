@@ -1,0 +1,13 @@
+{
+  "name": "Eaze",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.eaze.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.eaze.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

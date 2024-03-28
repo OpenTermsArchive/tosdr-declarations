@@ -1,0 +1,13 @@
+{
+  "name": "Pixalate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pixalate.com/privacypolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pixalate.com/terms?hsLang=en",
+      "select": "body"
+    }
+  }
+}

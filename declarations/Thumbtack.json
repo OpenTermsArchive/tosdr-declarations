@@ -1,0 +1,13 @@
+{
+  "name": "Thumbtack",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thumbtack.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.thumbtack.com/terms",
+      "select": "body"
+    }
+  }
+}

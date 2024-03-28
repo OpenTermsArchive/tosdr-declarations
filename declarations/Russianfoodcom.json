@@ -1,0 +1,9 @@
+{
+  "name": "Russianfoodcom",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.russianfood.com/",
+      "select": "html > body > div:first-of-type > div > div > noindex > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2)"
+    }
+  }
+}

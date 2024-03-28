@@ -1,0 +1,13 @@
+{
+  "name": "Cashfuse",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cashfuse.ca/en/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cashfuse.ca/en/privacy.html",
+      "select": "body"
+    }
+  }
+}

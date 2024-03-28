@@ -1,0 +1,13 @@
+{
+  "name": "Magnite",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.magnite.com/legal/advertising-technology-privacy-policy/",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.magnite.com/website-privacy-policy/",
+      "select": "html > body > main"
+    }
+  }
+}

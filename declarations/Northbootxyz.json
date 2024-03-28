@@ -1,0 +1,9 @@
+{
+  "name": "Northbootxyz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://northboot.xyz/privacy.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Surfshark",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://surfshark.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://surfshark.com/terms-of-service",
+      "select": " > main > section > div > div > div:first-of-type"
+    }
+  }
+}

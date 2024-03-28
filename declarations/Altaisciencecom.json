@@ -1,0 +1,13 @@
+{
+  "name": "Altaisciencecom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://altaiscience.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://altaiscience.com/terms/",
+      "select": "body"
+    }
+  }
+}

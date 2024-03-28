@@ -1,0 +1,9 @@
+{
+  "name": "Tolino",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mytolino.it/",
+      "select": "body"
+    }
+  }
+}

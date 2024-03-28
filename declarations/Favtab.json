@@ -1,0 +1,13 @@
+{
+  "name": "Favtab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.favtab.com/pp",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.favtab.com/trms",
+      "select": "body"
+    }
+  }
+}

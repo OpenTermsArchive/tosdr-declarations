@@ -1,0 +1,29 @@
+{
+  "name": "Godaddy",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.godaddy.com/agreements/showdoc.aspx?pageid=DOMAIN_NAMEPROXY",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.godaddy.com/agreements/showdoc?pageid=PRIVACY",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.godaddy.com/legal-agreements.aspx?ci=20802",
+      "select": "body"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.godaddy.com/agreements/showdoc.aspx?pageid=CIVIL_SUBPOENA",
+      "select": "td.bodyText"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.godaddy.com/agreements/showdoc.aspx?pageid=TRADMARK_COPY",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.godaddy.com/legal/agreements/cookie-policy",
+      "select": null
+    }
+  }
+}

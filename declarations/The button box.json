@@ -1,0 +1,9 @@
+{
+  "name": "The button box",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://buttonbox.com/privacy-sm.html",
+      "select": "body"
+    }
+  }
+}

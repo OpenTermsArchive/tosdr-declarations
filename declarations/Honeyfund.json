@@ -1,0 +1,13 @@
+{
+  "name": "Honeyfund",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.honeyfund.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.honeyfund.com/Privacy",
+      "select": "body"
+    }
+  }
+}

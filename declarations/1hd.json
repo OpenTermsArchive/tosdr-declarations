@@ -1,0 +1,9 @@
+{
+  "name": "1hd",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://1hd.to/terms",
+      "select": "body"
+    }
+  }
+}

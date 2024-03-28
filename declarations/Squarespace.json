@@ -1,0 +1,13 @@
+{
+  "name": "Squarespace",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.squarespace.com/privacy",
+      "select": "html > body > footer > div > nav > div:nth-of-type(3) > div > a:nth-of-type(7)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.squarespace.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

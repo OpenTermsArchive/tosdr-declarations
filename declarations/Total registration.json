@@ -1,0 +1,9 @@
+{
+  "name": "Total registration",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.totalregistration.net/Exam-Registration-Services/Privacy-Policy.php",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

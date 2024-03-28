@@ -1,0 +1,9 @@
+{
+  "name": "Marcofquality",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.marcofquality.com/main/privacy.html",
+      "select": "body"
+    }
+  }
+}

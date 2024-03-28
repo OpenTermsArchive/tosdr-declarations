@@ -1,0 +1,9 @@
+{
+  "name": "Zooniverse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zooniverse.org/security",
+      "select": "html > body > div > div > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Drawboard",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.drawboard.com/terms/",
+      "select": " > div"
+    }
+  }
+}

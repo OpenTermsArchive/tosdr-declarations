@@ -1,0 +1,13 @@
+{
+  "name": "Parchment",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.parchment.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.parchment.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

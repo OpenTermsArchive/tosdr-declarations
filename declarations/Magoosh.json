@@ -1,0 +1,13 @@
+{
+  "name": "Magoosh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gre.magoosh.com/privacy",
+      "select": "html > body > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://gre.magoosh.com/terms",
+      "select": "html > body > div > div > div"
+    }
+  }
+}

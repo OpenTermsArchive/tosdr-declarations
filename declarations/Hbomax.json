@@ -1,0 +1,13 @@
+{
+  "name": "Hbomax",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hbomax.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.max.com/privacy/children",
+      "select": "body"
+    }
+  }
+}

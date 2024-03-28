@@ -1,0 +1,13 @@
+{
+  "name": "Orange neurosciences",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.orangeneurosciences.ca/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > main > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://readon.ai/Home/Privacy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

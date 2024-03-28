@@ -1,0 +1,13 @@
+{
+  "name": "Xavio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.xavio.in/terms",
+      "select": "html > body > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.xavio.in/privacy",
+      "select": "html > body > section"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Tinypng",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tinypng.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Not quite an adult",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.notquiteanadult.com/terms/",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.notquiteanadult.com/disclosure/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.notquiteanadult.com/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Numotion",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.numotion.com/privacy/privacy-policy ",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.numotion.com/privacy/notice-of-privacy-practices-(english) ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.numotion.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

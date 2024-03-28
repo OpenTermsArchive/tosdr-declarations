@@ -1,0 +1,13 @@
+{
+  "name": "Mermaid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.buymermaid.com/Privacy-Policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.buymermaid.com/Terms-and-Conditions",
+      "select": "body"
+    }
+  }
+}

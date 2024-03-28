@@ -1,0 +1,13 @@
+{
+  "name": "Seattle sports union",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://seattlesportsunion.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://seattlesportsunion.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Always personal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.alwayspersonal.co.uk/pages/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > main > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.alwayspersonal.co.uk/pages/terms-conditions",
+      "select": "html > body > div:nth-of-type(3) > main > div > div > div:nth-of-type(2)"
+    }
+  }
+}

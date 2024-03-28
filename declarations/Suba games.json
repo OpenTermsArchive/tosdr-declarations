@@ -1,0 +1,13 @@
+{
+  "name": "Suba games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://subagames.com/privacypolicy.aspx",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://subagames.com/termsandcondition.aspx",
+      "select": "body"
+    }
+  }
+}

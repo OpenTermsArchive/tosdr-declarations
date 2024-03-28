@@ -1,0 +1,17 @@
+{
+  "name": "Trilogy plus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.trilogyplus.com/privacy",
+      "select": "html > body > main > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.trilogyplus.com/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.trilogyplus.com/tos",
+      "select": "body"
+    }
+  }
+}

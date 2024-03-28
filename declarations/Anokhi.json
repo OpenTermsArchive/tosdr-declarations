@@ -1,0 +1,13 @@
+{
+  "name": "Anokhi",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://bank.anokhi.ai/privacy-compliance/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://bank.anokhi.ai/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

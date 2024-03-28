@@ -1,0 +1,13 @@
+{
+  "name": "Fite tv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://store.fite.tv/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fite.tv/app-terms-of-service.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ceufast",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ceufast.com/tos",
+      "select": "html > body > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ceufast.com/privacy",
+      "select": "html > body > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Wormhole",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wormhole.app/legal#terms",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wormhole.app/legal#privacy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

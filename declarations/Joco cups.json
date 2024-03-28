@@ -1,0 +1,13 @@
+{
+  "name": "Joco cups",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jococups.com/customer-care/privacy-policy/",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://jococups.com/customer-care/terms/",
+      "select": null
+    }
+  }
+}

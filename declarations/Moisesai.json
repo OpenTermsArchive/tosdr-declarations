@@ -1,0 +1,13 @@
+{
+  "name": "Moisesai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.moises.ai/hc/en-us/articles/360013805640-Privacy-Policy?click_section=footer_privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.moises.ai/hc/en-us/articles/7401394754962/?click_section=footer_terms",
+      "select": "body"
+    }
+  }
+}

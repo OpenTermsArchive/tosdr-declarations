@@ -1,0 +1,13 @@
+{
+  "name": "Intercelestial",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://intercelestial.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://intercelestial.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(3) > main > div > div > div"
+    }
+  }
+}

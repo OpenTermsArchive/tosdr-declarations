@@ -1,0 +1,17 @@
+{
+  "name": "Benefithub",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.benefithub.com/ada-compliance",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.benefithub.com/privacy-policy-global",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.benefithub.com/terms-and-conditions-global",
+      "select": "body"
+    }
+  }
+}

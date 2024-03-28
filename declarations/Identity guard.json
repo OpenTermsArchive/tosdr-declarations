@@ -1,0 +1,21 @@
+{
+  "name": "Identity guard",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.identityguard.com/legal/fcra-summary-of-rights",
+      "select": "html > body > idguard > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.identityguard.com/legal/website-terms-of-use",
+      "select": "html > body > idguard > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.identityguard.com/legal/refund-policy",
+      "select": "html > body > idguard > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.identityguard.com/legal/privacy-policy",
+      "select": "html > body > idguard > div:first-of-type > div:nth-of-type(3) > div"
+    }
+  }
+}

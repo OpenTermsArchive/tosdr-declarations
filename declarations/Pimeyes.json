@@ -1,0 +1,13 @@
+{
+  "name": "Pimeyes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pimeyes.com/en/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://pimeyes.com/en/premium-terms",
+      "select": null
+    }
+  }
+}

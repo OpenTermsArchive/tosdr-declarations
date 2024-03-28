@@ -1,0 +1,13 @@
+{
+  "name": "Linux hint",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://linuxhint.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://linuxhint.com/policies-and-privacy/",
+      "select": null
+    }
+  }
+}

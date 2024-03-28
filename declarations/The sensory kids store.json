@@ -1,0 +1,17 @@
+{
+  "name": "The sensory kids store",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sensorykidstore.com/service/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > section"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.sensorykidstore.com/service/shipping-returns/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sensorykidstore.com/service/general-terms-conditions/",
+      "select": "body"
+    }
+  }
+}

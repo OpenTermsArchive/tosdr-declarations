@@ -1,0 +1,13 @@
+{
+  "name": "Qoria",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://qoria.com/legal/data-processing-addendum",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://qoria.com/legal/end-user-license-agreement",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Opentracks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://opentracksapp.com/#privacy",
+      "select": "body"
+    }
+  }
+}

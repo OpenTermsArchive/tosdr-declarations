@@ -1,0 +1,13 @@
+{
+  "name": "Codeberg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://codeberg.org/Codeberg/org/src/branch/main/PrivacyPolicy.md",
+      "select": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://codeberg.org/Codeberg/org/src/branch/main/TermsOfUse.md",
+      "select": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "School day",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.schoolday.com/?view=page&id=78",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.schoolday.com/about/privacy",
+      "select": "body"
+    }
+  }
+}

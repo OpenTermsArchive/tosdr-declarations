@@ -1,0 +1,17 @@
+{
+  "name": "Florenfilecom",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://florenfile.com/dmca.html",
+      "select": " > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://florenfile.com/tos.html",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://florenfile.com/Refund_Policy.html",
+      "select": "body"
+    }
+  }
+}

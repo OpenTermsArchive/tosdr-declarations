@@ -1,0 +1,13 @@
+{
+  "name": "Get global event technologies",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.get.systems/en/gtc",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.get.systems/en/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

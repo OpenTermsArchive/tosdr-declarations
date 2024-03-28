@@ -1,0 +1,21 @@
+{
+  "name": "Nature",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.nature.com/info/cookies",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nature.com/info/privacy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.nature.com/info/legal-notice",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nature.com/info/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

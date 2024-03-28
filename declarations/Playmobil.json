@@ -1,0 +1,13 @@
+{
+  "name": "Playmobil",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.playmobil.us/content/terms_and_conditions/TERMS_AND_CONDITIONS.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.playmobil.us/content/privacy_policy/PRIVACY_POLICY.html",
+      "select": "body"
+    }
+  }
+}

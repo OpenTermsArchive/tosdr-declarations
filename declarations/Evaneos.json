@@ -1,0 +1,13 @@
+{
+  "name": "Evaneos",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.evaneos.com/evaneos/privacy-policy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.evaneos.com/evaneos/legal-notices/",
+      "select": "html > body > div:nth-of-type(5) > section:nth-of-type(2)"
+    }
+  }
+}

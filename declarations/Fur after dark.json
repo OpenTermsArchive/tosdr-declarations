@@ -1,0 +1,9 @@
+{
+  "name": "Fur after dark",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.furafterdark.com/tos.html",
+      "select": "body"
+    }
+  }
+}

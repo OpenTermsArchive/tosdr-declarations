@@ -1,0 +1,9 @@
+{
+  "name": "Pinafore",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pinafore.social/settings/about#privacy-policy",
+      "select": "body"
+    }
+  }
+}

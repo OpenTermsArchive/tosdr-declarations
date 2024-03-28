@@ -1,0 +1,17 @@
+{
+  "name": "Pathao",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pathao.com/privacy/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://pathao.com/shop-return-and-refund-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://pathao.com/terms/",
+      "select": "body"
+    }
+  }
+}

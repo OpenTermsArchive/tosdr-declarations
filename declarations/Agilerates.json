@@ -1,0 +1,13 @@
+{
+  "name": "Agilerates",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.agilerates.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.agilerates.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    }
+  }
+}

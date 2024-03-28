@@ -1,0 +1,9 @@
+{
+  "name": "Consumer procuct safety commision",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.cpsc.gov/About-CPSC/Policies-Statements-and-Directives/Privacy-Policy",
+      "select": "body"
+    }
+  }
+}

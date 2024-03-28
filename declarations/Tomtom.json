@@ -1,0 +1,17 @@
+{
+  "name": "Tomtom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.tomtom.com/en_us/cookies/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tomtom.com/en_us/privacy/online/",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(4) > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tomtom.com/en_us/legal/terms-and-conditions/",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(4) > div:nth-of-type(3)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tilvids",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tilvids.com/about/peertube",
+      "select": "html > body > my-app > div > div:nth-of-type(2) > div > div > my-about > div > div:nth-of-type(2) > my-about-peertube > div > div:nth-of-type(3) > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://tilvids.com/about/instance",
+      "select": "html > body > my-app > div > div:nth-of-type(2) > div > div > my-about > div"
+    }
+  }
+}

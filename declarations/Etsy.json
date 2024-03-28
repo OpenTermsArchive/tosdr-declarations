@@ -1,0 +1,17 @@
+{
+  "name": "Etsy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.etsy.com/legal/privacy",
+      "select": "html > body > div:nth-of-type(5) > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "http://www.etsy.com/legal/terms-of-use?ref=ftr",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.etsy.com/legal/cookies/",
+      "select": "html > body > div:nth-of-type(5) > div > div:nth-of-type(2) > div"
+    }
+  }
+}

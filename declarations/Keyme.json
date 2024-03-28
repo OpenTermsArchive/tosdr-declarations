@@ -1,0 +1,13 @@
+{
+  "name": "Keyme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://key.me/privacy",
+      "select": "html > body > div:first-of-type > div > div > main > main > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://key.me/terms",
+      "select": "html > body > div:first-of-type > div > div > main > main > div:nth-of-type(2) > div > div"
+    }
+  }
+}

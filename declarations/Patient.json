@@ -1,0 +1,13 @@
+{
+  "name": "Patient",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://patient.info/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://patient.info/privacy-policy",
+      "select": "body"
+    }
+  }
+}

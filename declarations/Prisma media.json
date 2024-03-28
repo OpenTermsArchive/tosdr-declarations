@@ -1,0 +1,17 @@
+{
+  "name": "Prisma media",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.prismamedia.com/cookies/",
+      "select": "html > body > div:nth-of-type(3)"
+    },
+    "Legal Information": {
+      "fetch": "https://www.prismamedia.com/charte-pour-la-protection-des-donnees/",
+      "select": "html > body > div:nth-of-type(3) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.prismamedia.com/cgu-prisma-connect/",
+      "select": "html > body > div:nth-of-type(3) > div > div"
+    }
+  }
+}

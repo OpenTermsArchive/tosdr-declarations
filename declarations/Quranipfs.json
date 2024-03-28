@@ -1,0 +1,9 @@
+{
+  "name": "Quranipfs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.quranipfs.com/EN/privacy.html",
+      "select": "html > body > main > section > ul > li"
+    }
+  }
+}

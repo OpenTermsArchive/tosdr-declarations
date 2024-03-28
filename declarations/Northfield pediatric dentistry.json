@@ -1,0 +1,9 @@
+{
+  "name": "Northfield pediatric dentistry",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://northfieldpedsdentistry.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

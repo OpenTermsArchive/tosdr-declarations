@@ -1,0 +1,13 @@
+{
+  "name": "Bookingcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.booking.com/content/privacy.html",
+      "select": " > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.booking.com/content/terms.html",
+      "select": " > div:nth-of-type(2) > div"
+    }
+  }
+}

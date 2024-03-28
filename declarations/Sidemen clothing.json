@@ -1,0 +1,13 @@
+{
+  "name": "Sidemen clothing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cdn.shopify.com/s/files/1/1078/8124/files/SDMN_Privacy_Policy_v2.0_latest_1.pdf?4615",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sidemenclothing.com/pages/terms-conditions",
+      "select": "html > body > div:nth-of-type(7) > section > div > div:nth-of-type(2)"
+    }
+  }
+}

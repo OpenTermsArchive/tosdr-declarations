@@ -1,0 +1,9 @@
+{
+  "name": "Aegis authenticator",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://getaegis.app/aegis/privacy.html",
+      "select": "body"
+    }
+  }
+}

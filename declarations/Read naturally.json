@@ -1,0 +1,9 @@
+{
+  "name": "Read naturally",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.readnaturally.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    }
+  }
+}

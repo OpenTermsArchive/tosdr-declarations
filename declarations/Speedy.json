@@ -1,0 +1,17 @@
+{
+  "name": "Speedy",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://speedy.bg/bg/cookies",
+      "select": " > div > div > div > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.speedy.bg/bg/gdpr",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://speedy.bg/bg/terms-and-conditions-20210501",
+      "select": "body"
+    }
+  }
+}

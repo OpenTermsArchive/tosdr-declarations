@@ -1,0 +1,13 @@
+{
+  "name": "Signal community",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://community.signalusers.org/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://community.signalusers.org/tos",
+      "select": "body"
+    }
+  }
+}

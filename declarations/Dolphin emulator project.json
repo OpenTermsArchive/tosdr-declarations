@@ -1,0 +1,9 @@
+{
+  "name": "Dolphin emulator project",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dolphin-emu.org/docs/privacy",
+      "select": "body"
+    }
+  }
+}

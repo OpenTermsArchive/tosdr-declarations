@@ -1,0 +1,9 @@
+{
+  "name": "Dave redfern",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://daveredfern.com/privacy/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

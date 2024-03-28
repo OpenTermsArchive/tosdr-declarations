@@ -1,0 +1,17 @@
+{
+  "name": "Duplicate files fixer",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.duplicatefilesfixer.com/refund-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.duplicatefilesfixer.com/eula/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.duplicatefilesfixer.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

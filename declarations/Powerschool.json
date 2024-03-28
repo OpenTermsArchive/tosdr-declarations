@@ -1,0 +1,13 @@
+{
+  "name": "Powerschool",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.powerschool.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.powerschool.com/privacy/",
+      "select": "body"
+    }
+  }
+}

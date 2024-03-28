@@ -1,0 +1,13 @@
+{
+  "name": "Innersloth among us",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://innersloth.com/codeofconduct.php",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://innersloth.com/privacy.php",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div"
+    }
+  }
+}

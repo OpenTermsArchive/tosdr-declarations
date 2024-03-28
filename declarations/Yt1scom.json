@@ -1,0 +1,13 @@
+{
+  "name": "Yt1scom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://yt1s.com/terms-of-service",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://yt1s.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Guardio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://guard.io/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://guard.io/privacy/",
+      "select": "body"
+    }
+  }
+}

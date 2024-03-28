@@ -1,0 +1,13 @@
+{
+  "name": "Checkfreescore",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.checkfreescore.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.checkfreescore.com/terms-of-service",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Hubbard radio",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://corporate.hubbardradio.com/dmca-notice/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://corporate.hubbardradio.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://corporate.hubbardradio.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

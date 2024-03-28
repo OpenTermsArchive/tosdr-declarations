@@ -1,0 +1,17 @@
+{
+  "name": "Tuxler privacy technologies",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tuxlervpn.com/privacy-policy/",
+      "select": "html > body > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tuxlervpn.com/end-user-license-agreement/",
+      "select": "html > body > section:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.tuxlervpn.com/refund-policy/",
+      "select": "html > body > section:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Anytype",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://anytype.io/terms_of_use/",
+      "select": " > div > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://anytype.io/website_privacy",
+      "select": "body"
+    }
+  }
+}

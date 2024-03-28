@@ -1,0 +1,21 @@
+{
+  "name": "Musicbrainz",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://musicbrainz.org/doc/Code_of_Conduct",
+      "select": "div.mw-parser-output"
+    },
+    "Privacy Policy": {
+      "fetch": "https://metabrainz.org/privacy",
+      "select": "body > div"
+    },
+    "Other": {
+      "fetch": "https://metabrainz.org/social-contract",
+      "select": "body > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://musicbrainz.org/doc/About/Data_License",
+      "select": "div.mw-parser-output"
+    }
+  }
+}

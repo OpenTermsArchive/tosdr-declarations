@@ -1,0 +1,9 @@
+{
+  "name": "Charitable allies",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://charitableallies.org/privacy-policy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Fitatu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fitatu.com/en/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.fitatu.com/en_GB/cookies-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fitatu.com/en_GB/regulations",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

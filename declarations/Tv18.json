@@ -1,0 +1,13 @@
+{
+  "name": "Tv18",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cnbctv18.com/privacy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(4) > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cnbctv18.com/termsofuse",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(4) > div > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

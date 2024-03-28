@@ -1,0 +1,13 @@
+{
+  "name": "Writebots",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.writebots.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.writebots.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

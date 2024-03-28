@@ -1,0 +1,13 @@
+{
+  "name": "Reliance jio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jio.com/en-in/privacy-policy",
+      "select": " > section > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jio.com/en-in/general-terms-and-conditions",
+      "select": " > section > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

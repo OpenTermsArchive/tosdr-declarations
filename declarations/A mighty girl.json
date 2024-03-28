@@ -1,0 +1,13 @@
+{
+  "name": "A mighty girl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.amightygirl.com/privacy-policy",
+      "select": "#privacy-content"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.amightygirl.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

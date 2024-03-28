@@ -1,0 +1,13 @@
+{
+  "name": "Merck",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.msdprivacy.com/us/en/internet-privacy-policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.merck.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > article > div > div > div:first-of-type"
+    }
+  }
+}

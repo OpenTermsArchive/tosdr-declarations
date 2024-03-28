@@ -1,0 +1,9 @@
+{
+  "name": "Have i been pwned",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://haveibeenpwned.com/Privacy",
+      "select": "body"
+    }
+  }
+}

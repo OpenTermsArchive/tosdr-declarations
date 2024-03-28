@@ -1,0 +1,13 @@
+{
+  "name": "Saashub",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.saashub.com/site/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.saashub.com/site/privacy",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sunbirdorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sunbird.org/terms-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sunbird.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Mytrugreenlawn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mytrugreenlawn.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > div > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://mytrugreenlawn.com/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > div > div > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Envoy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://envoy.com/tos/",
+      "select": "html > body > main > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://envoy.com/privacypolicy/",
+      "select": "html > body > main > article"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Wink",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wink.com/legal/",
+      "select": "body"
+    }
+  }
+}

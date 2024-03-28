@@ -1,0 +1,13 @@
+{
+  "name": "Cypaw",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cypaw.com/privacypolicy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://cypaw.com/terms.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

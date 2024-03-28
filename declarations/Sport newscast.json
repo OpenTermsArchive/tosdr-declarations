@@ -1,0 +1,13 @@
+{
+  "name": "Sport newscast",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sportnewscast.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://sportnewscast.com/terms-of-service/",
+      "select": null
+    }
+  }
+}

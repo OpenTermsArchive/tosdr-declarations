@@ -1,0 +1,13 @@
+{
+  "name": "Regence",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.regence.com/member/terms-of-use",
+      "select": "body"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://www.regence.com/fraud",
+      "select": "body"
+    }
+  }
+}

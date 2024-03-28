@@ -1,0 +1,13 @@
+{
+  "name": "The citizenry",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.the-citizenry.com/pages/privacy-policy",
+      "select": "html > body > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.the-citizenry.com/pages/terms",
+      "select": "body"
+    }
+  }
+}

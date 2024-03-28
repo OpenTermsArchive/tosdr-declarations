@@ -1,0 +1,13 @@
+{
+  "name": "Goodbudget",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://goodbudget.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://goodbudget.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

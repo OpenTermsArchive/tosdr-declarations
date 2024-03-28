@@ -1,0 +1,9 @@
+{
+  "name": "Foodpanda",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.foodpanda.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

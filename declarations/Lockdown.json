@@ -1,0 +1,13 @@
+{
+  "name": "Lockdown",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://lockdownprivacy.com/terms",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://lockdownprivacy.com/privacy",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

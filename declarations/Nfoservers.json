@@ -1,0 +1,13 @@
+{
+  "name": "Nfoservers",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nfoservers.com/privacypolicy.php",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nfoservers.com/termsofservice.php",
+      "select": null
+    }
+  }
+}

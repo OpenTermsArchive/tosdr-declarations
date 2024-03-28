@@ -1,0 +1,13 @@
+{
+  "name": "Texoma council of governments",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tcog.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tcog.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

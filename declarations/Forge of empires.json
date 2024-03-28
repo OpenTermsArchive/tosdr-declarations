@@ -1,0 +1,13 @@
+{
+  "name": "Forge of empires",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://legal.innogames.com/foe/us/agb",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://legal.innogames.com/foe/us/privacy",
+      "select": "body"
+    }
+  }
+}

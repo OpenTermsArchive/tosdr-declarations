@@ -1,0 +1,13 @@
+{
+  "name": "Kidlogger",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kidlogger.net/terms-of-service.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://kidlogger.net/privacy.html",
+      "select": null
+    }
+  }
+}

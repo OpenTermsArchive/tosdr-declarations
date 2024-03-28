@@ -1,0 +1,13 @@
+{
+  "name": "Showheroes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://showheroes.com/privacy/",
+      "select": "html > body > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://showheroes.com/pdf/Terms_and_Conditions_2021.pdf",
+      "select": "body"
+    }
+  }
+}

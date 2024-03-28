@@ -1,0 +1,13 @@
+{
+  "name": "Onenightfriendcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.onenightfriend.com/c3RhdGljUGFnZS90ZXJtc29uZW5pZ2h0ZnJpZW5kLmNvbQ==",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.onenightfriend.com/c3RhdGljUGFnZS9wcml2YWN5cG9saWN5b25lbmlnaHRmcmllbmQuY29t",
+      "select": "body"
+    }
+  }
+}

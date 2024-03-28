@@ -1,0 +1,13 @@
+{
+  "name": "Timestrip",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://timestripe.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://timestripe.com/privacy/",
+      "select": "body"
+    }
+  }
+}

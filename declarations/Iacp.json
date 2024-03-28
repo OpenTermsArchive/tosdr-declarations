@@ -1,0 +1,9 @@
+{
+  "name": "Iacp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.theiacp.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

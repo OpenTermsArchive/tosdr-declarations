@@ -1,0 +1,13 @@
+{
+  "name": "Owl labs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://owllabs.com/pages/terms-of-service",
+      "select": "html > body > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://owllabs.com/pages/privacy-policy",
+      "select": "html > body > main > div"
+    }
+  }
+}

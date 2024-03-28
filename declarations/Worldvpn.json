@@ -1,0 +1,13 @@
+{
+  "name": "Worldvpn",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://worldvpn.net/refund-policy",
+      "select": "html > body > section > section:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://worldvpn.net/privacy-policy",
+      "select": "html > body > section > section:nth-of-type(2) > div"
+    }
+  }
+}

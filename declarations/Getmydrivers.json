@@ -1,0 +1,13 @@
+{
+  "name": "Getmydrivers",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.getmydrivers.com/terms-of-service.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.getmydrivers.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

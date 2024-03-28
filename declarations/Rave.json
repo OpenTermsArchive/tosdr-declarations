@@ -1,0 +1,13 @@
+{
+  "name": "Rave",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ravemobilesafety.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ravemobilesafety.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

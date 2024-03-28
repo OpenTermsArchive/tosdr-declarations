@@ -1,0 +1,9 @@
+{
+  "name": "Robtex",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.robtex.com/privacy-policy",
+      "select": "html > body > main"
+    }
+  }
+}

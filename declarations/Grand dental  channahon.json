@@ -1,0 +1,9 @@
+{
+  "name": "Grand dental  channahon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.granddentalchannahon.com/privacy-policy.html",
+      "select": "html > body > main"
+    }
+  }
+}

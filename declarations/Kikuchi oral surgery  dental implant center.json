@@ -1,0 +1,13 @@
+{
+  "name": "Kikuchi oral surgery  dental implant center",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://oralsurgerylv.com/terms-of-use/",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://oralsurgerylv.com/privacy-policy/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

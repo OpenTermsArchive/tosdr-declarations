@@ -1,0 +1,25 @@
+{
+  "name": "Fastmail",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.fastmail.com/about/cookies.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fastmail.com/about/tos.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fastmail.com/help/ourservice/security.html",
+      "select": "body"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://www.fastmail.com/help/account/2fa.html",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.fastmail.com/help/",
+      "select": "body"
+    }
+  }
+}

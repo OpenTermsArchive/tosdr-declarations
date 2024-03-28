@@ -1,0 +1,9 @@
+{
+  "name": "Pdf drive",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pdfdrive.com/home/terms",
+      "select": "body"
+    }
+  }
+}

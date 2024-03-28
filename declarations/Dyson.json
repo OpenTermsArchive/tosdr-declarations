@@ -1,0 +1,13 @@
+{
+  "name": "Dyson",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://dyson-help.com/content/return",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.dyson.com/group/pages/privacypolicyhome/globalprivacypolicy.aspx",
+      "select": "html > body > form > div:nth-of-type(3) > main > div:nth-of-type(3) > div > div > ul > li:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    }
+  }
+}

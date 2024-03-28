@@ -1,0 +1,17 @@
+{
+  "name": "Google analytics",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.google.com/analytics/terms/us.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.google.com/policies/privacy/",
+      "select": " > c-wiz > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > c-wiz > div:nth-of-type(5) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://support.google.com/analytics/answer/2700409",
+      "select": "html > body > div:nth-of-type(2) > div > section > div > div:first-of-type > article > section"
+    }
+  }
+}

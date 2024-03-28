@@ -1,0 +1,13 @@
+{
+  "name": "Shapeshift",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://info.shapeshift.io/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://info.shapeshift.io/terms-of-service",
+      "select": "body"
+    }
+  }
+}

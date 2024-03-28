@@ -1,0 +1,17 @@
+{
+  "name": "Areyougame",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://areyougame.com/pages/ratings-reviews-terms-conditions",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://areyougame.com/pages/return-policy ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://areyougame.com/pages/privacy-policy ",
+      "select": "body"
+    }
+  }
+}

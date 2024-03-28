@@ -1,0 +1,13 @@
+{
+  "name": "Panera",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.panerabread.com/en-us/company-information/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.panerabread.com/en-us/legal/wifi-terms-of-use.html",
+      "select": "body"
+    }
+  }
+}

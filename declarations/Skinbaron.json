@@ -1,0 +1,13 @@
+{
+  "name": "Skinbaron",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://skinbaron.de/en/tos",
+      "select": "html > body > sb-root > div > sb-special-page > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://skinbaron.de/en/privacy_policy",
+      "select": "body"
+    }
+  }
+}

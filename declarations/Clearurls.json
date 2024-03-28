@@ -1,0 +1,9 @@
+{
+  "name": "Clearurls",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gitlab.com/ClearURLs/ClearUrls/-/raw/master/PRIVACY.md",
+      "select": "body"
+    }
+  }
+}

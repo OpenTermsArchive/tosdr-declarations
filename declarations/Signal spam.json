@@ -1,0 +1,13 @@
+{
+  "name": "Signal spam",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.signal-spam.fr/en/cgu/",
+      "select": "html > body > main > div:nth-of-type(3) > div > div > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://addons.thunderbird.net/en-us/thunderbird/addon/signal-spam/privacy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > section:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Tiptreeio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tiptree.io/earnings-disclaimer/",
+      "select": "body"
+    }
+  }
+}

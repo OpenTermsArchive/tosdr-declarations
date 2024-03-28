@@ -1,0 +1,13 @@
+{
+  "name": "Mycase",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mycase.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mycase.com/privacy",
+      "select": "body"
+    }
+  }
+}

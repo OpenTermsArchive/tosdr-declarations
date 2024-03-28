@@ -1,0 +1,9 @@
+{
+  "name": "Appinn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.appinn.com/privacy/",
+      "select": "html > body > div:first-of-type > div > div > article > div > div > div"
+    }
+  }
+}

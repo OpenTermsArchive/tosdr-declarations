@@ -1,0 +1,21 @@
+{
+  "name": "G fuel",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gfuel.com/pages/g-fuel-rewards-terms-and-conditions",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://gfuel.com/pages/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://gfuel.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://gfuel.com/pages/shipping-policy",
+      "select": "body"
+    }
+  }
+}

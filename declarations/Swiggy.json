@@ -1,0 +1,17 @@
+{
+  "name": "Swiggy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.swiggy.com/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.swiggy.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.swiggy.com/terms-and-conditions",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ttmik  talk to me in korean",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://talktomeinkorean.com/privacy-policy-of-talktomeinkorean-com/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://talktomeinkorean.com/terms-and-conditions-2023/",
+      "select": "body"
+    }
+  }
+}

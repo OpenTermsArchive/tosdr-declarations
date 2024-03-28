@@ -1,0 +1,13 @@
+{
+  "name": "Ipernity",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.ipernity.com/about/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.ipernity.com/about/you",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Nimbus audio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nimbusaudio.ch/assets/nimbus-cgv-2017.09.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nimbusaudio.ch/privacy.html",
+      "select": "body"
+    }
+  }
+}

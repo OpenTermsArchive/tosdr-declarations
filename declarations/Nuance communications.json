@@ -1,0 +1,17 @@
+{
+  "name": "Nuance communications",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nuance.com/about-us/company-policies/privacy-policies.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.nuance.com/about-us/company-policies/legal-notices.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.nuance.com/about-us/company-policies/cookies.html",
+      "select": "body"
+    }
+  }
+}

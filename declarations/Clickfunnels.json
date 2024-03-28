@@ -1,0 +1,17 @@
+{
+  "name": "Clickfunnels",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://signup.clickfunnels.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.clickfunnels.com/terms",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://signup.clickfunnels.com/dmca",
+      "select": "body"
+    }
+  }
+}

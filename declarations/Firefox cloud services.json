@@ -1,0 +1,21 @@
+{
+  "name": "Firefox cloud services",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.mozilla.org/en-US/privacy/websites/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.mozilla.org/en-US/privacy/firefox/",
+      "select": "html > body > div:nth-of-type(3) > div > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mozilla.org/en-US/privacy/ ",
+      "select": "html > body > div:nth-of-type(3) > div > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://accounts.firefox.com/en/legal/terms",
+      "select": "body"
+    }
+  }
+}

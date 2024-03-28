@@ -1,0 +1,9 @@
+{
+  "name": "The tribe must survive",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thetribemustsurvive.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

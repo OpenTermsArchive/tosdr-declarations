@@ -1,0 +1,13 @@
+{
+  "name": "Aerobase group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aerobasegroup.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://aerobasegroup.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Embedly",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://embed.ly/legal/privacy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://embed.ly/legal/terms",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://embed.ly/legal/copyright",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

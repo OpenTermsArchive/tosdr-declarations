@@ -1,0 +1,9 @@
+{
+  "name": "Pollpayapp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pollpay.app/web-privacy-en",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > main > article > div > div > div > section:nth-of-type(2) > div > div > div"
+    }
+  }
+}

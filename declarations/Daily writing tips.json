@@ -1,0 +1,9 @@
+{
+  "name": "Daily writing tips",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dailywritingtips.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > div > div"
+    }
+  }
+}

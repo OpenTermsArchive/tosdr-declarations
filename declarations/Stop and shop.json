@@ -1,0 +1,13 @@
+{
+  "name": "Stop and shop",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://stopandshop.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://stopandshop.com/pages/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Shipt",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.shipt.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.shipt.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

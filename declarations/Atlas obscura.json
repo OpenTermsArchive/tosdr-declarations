@@ -1,0 +1,17 @@
+{
+  "name": "Atlas obscura",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.atlasobscura.com/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.atlasobscura.com/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.atlasobscura.com/terms",
+      "select": "html > body > div:nth-of-type(2) > div > main"
+    }
+  }
+}

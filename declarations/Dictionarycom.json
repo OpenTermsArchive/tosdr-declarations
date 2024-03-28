@@ -1,0 +1,9 @@
+{
+  "name": "Dictionarycom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.dictionary.com/e/terms/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Smogon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.smogon.com/forums/help/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.smogon.com/forums/help/terms/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Wggesucht",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wg-gesucht.de/agb.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wg-gesucht.de/datenschutz.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wg-gesucht.de/ic/cookies.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Clearjunction",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://clearjunction.com/policies/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

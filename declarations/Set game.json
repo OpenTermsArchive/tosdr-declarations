@@ -1,0 +1,13 @@
+{
+  "name": "Set game",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.setgame.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://setgame.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

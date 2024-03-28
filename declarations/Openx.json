@@ -1,0 +1,17 @@
+{
+  "name": "Openx",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.openx.com/privacy-center/ad-exchange-privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.openx.com/legal/terms-and-conditions/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.openx.com/privacy-center/website-cookie-policy/",
+      "select": "body"
+    }
+  }
+}

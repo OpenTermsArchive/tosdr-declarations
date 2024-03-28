@@ -1,0 +1,13 @@
+{
+  "name": "Octohide",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://octohide.com/user-agreement",
+      "select": "html > body > div:first-of-type > main > header > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://octohide.com/privacy-policy",
+      "select": "html > body > div:first-of-type > main > header > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Microspot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.microspot.ch/fr/cms/entreprise/protection-des-donn%C3%A9es",
+      "select": " > div > div > div:nth-of-type(3) > div:first-of-type > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.microspot.ch/fr/cms/entreprise/cgv",
+      "select": " > div > div > div:nth-of-type(3) > div:first-of-type > div > div > div"
+    }
+  }
+}

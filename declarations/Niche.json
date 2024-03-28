@@ -1,0 +1,17 @@
+{
+  "name": "Niche",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.niche.com/about/terms/",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.niche.com/about/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.niche.com/about/privacy/",
+      "select": "body"
+    }
+  }
+}

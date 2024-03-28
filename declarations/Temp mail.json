@@ -1,0 +1,13 @@
+{
+  "name": "Temp mail",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://temp-mail.org/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://temp-mail.org/terms-of-service",
+      "select": "html > body > main"
+    }
+  }
+}

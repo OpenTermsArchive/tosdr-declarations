@@ -1,0 +1,9 @@
+{
+  "name": "Sip read repeat discontinued",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sipreadrepeat.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

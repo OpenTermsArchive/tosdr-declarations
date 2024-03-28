@@ -1,0 +1,13 @@
+{
+  "name": "Tapchamps",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tapchamps.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tapchamps.com/terms/",
+      "select": "body"
+    }
+  }
+}

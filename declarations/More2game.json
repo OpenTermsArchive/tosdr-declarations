@@ -1,0 +1,9 @@
+{
+  "name": "More2game",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.more2.cn/privacy.html",
+      "select": "body"
+    }
+  }
+}

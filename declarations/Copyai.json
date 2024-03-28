@@ -1,0 +1,13 @@
+{
+  "name": "Copyai",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://copy.ai/privacy-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://copy.ai/terms-of-service",
+      "select": "body"
+    }
+  }
+}

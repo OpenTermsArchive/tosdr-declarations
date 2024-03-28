@@ -1,0 +1,13 @@
+{
+  "name": "Lernu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lernu.net/privateco",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://lernu.net/reguloj",
+      "select": "body"
+    }
+  }
+}

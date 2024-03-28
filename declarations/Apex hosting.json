@@ -1,0 +1,13 @@
+{
+  "name": "Apex hosting",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://apexminecrafthosting.com/privacy-policy/",
+      "select": "html > body > main > section > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://apexminecrafthosting.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

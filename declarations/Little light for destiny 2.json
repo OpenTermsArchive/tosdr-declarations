@@ -1,0 +1,9 @@
+{
+  "name": "Little light for destiny 2",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://littlelight.club/privacy/",
+      "select": "body"
+    }
+  }
+}

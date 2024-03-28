@@ -1,0 +1,9 @@
+{
+  "name": "Tagpro",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/1yPGNGaHY5JNh1UGVmtMGz8cDZalgGoOMCNgjnKThpPo/edit",
+      "select": "body"
+    }
+  }
+}

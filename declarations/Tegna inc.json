@@ -1,0 +1,17 @@
+{
+  "name": "Tegna inc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tegna.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tegna.com/privacy-policy-2/",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.tegna.com/forward-looking-statements/",
+      "select": "body"
+    }
+  }
+}

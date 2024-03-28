@@ -1,0 +1,13 @@
+{
+  "name": "Braxme",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://brax.me/prod/license-v1.php?i=Y&s=web",
+      "select": "html > body > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://brax.me/prod/privacy.php?s=web",
+      "select": "html > body > div > div"
+    }
+  }
+}

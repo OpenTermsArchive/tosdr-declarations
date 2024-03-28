@@ -1,0 +1,13 @@
+{
+  "name": "Pipeflare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pipeflare.io/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://pipeflare.io/terms",
+      "select": "body"
+    }
+  }
+}

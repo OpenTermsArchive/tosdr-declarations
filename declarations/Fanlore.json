@@ -1,0 +1,13 @@
+{
+  "name": "Fanlore",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://fanlore.org/wiki/Fanlore:Terms_of_Service",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://fanlore.org/wiki/Fanlore:DMCA_Policy",
+      "select": "body"
+    }
+  }
+}

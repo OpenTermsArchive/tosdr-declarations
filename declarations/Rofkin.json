@@ -1,0 +1,17 @@
+{
+  "name": "Rofkin",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rokfin.com/tou",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://rokfin.com/copyright",
+      "select": " > section > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://rokfin.com/privacy",
+      "select": "html > body > div:first-of-type > section > main > div"
+    }
+  }
+}

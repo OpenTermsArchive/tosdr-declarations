@@ -1,0 +1,13 @@
+{
+  "name": "Openrouteservice",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://openrouteservice.org/terms-of-service/",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://openrouteservice.org/privacy-policy/",
+      "select": null
+    }
+  }
+}

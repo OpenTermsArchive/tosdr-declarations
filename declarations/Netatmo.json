@@ -1,0 +1,9 @@
+{
+  "name": "Netatmo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://legals.netatmo.com/",
+      "select": "body"
+    }
+  }
+}

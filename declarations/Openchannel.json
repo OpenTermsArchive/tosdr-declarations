@@ -1,0 +1,9 @@
+{
+  "name": "Openchannel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://support.openchannel.io/guides/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div > main > article > div > div > article > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Fixmestick",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.fixmestick.com/refund/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fixmestick.com/eula/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fixmestick.com/privacy/",
+      "select": null
+    }
+  }
+}

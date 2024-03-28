@@ -1,0 +1,13 @@
+{
+  "name": "Horoscopecom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.horoscope.com/us/tos.aspx",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.horoscope.com/us/privacy.aspx",
+      "select": "body"
+    }
+  }
+}

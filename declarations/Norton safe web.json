@@ -1,0 +1,21 @@
+{
+  "name": "Norton safe web",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.nortonlifelock.com/gb/en/privacy/cookies-and-analytics/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nortonlifelock.com/gb/en/legal/license-services-agreement/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.nortonlifelock.com/gb/en/privacy/privacy-notices/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nortonlifelock.com/gb/en/privacy/data-protection-agreements/",
+      "select": "body"
+    }
+  }
+}

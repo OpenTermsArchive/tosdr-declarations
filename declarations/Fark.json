@@ -1,0 +1,9 @@
+{
+  "name": "Fark",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.fark.com/farq/legal/",
+      "select": "body"
+    }
+  }
+}

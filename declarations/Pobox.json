@@ -1,0 +1,13 @@
+{
+  "name": "Pobox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pobox.com/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pobox.com/user-agreement",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

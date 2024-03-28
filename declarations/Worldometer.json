@@ -1,0 +1,13 @@
+{
+  "name": "Worldometer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.worldometers.info/policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "//body",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Govbuddy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.govbuddy.com/about/privacy/",
+      "select": "html > body > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.govbuddy.com/about/tos/",
+      "select": "html > body > section > div"
+    }
+  }
+}

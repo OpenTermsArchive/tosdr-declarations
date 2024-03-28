@@ -1,0 +1,13 @@
+{
+  "name": "Freevpnus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://freevpn.us/pages/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://freevpn.us/pages/term-of-service.html",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

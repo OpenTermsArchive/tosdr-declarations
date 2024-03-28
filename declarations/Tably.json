@@ -1,0 +1,13 @@
+{
+  "name": "Tably",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tablyapp.com/Algemene_voorwaarden.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tablyapp.com/site/privacy",
+      "select": "html > body > main > article"
+    }
+  }
+}

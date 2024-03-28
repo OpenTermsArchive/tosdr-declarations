@@ -1,0 +1,9 @@
+{
+  "name": "Rick riordan",
+  "documents": {
+    "Other": {
+      "fetch": "https://rickriordan.com/",
+      "select": "body"
+    }
+  }
+}

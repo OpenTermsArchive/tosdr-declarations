@@ -1,0 +1,13 @@
+{
+  "name": "Knowledgehook",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.knowledgehook.com/terms",
+      "select": "html > body > app-root > app-canada > div > app-terms > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.knowledgehook.com/privacy-policy",
+      "select": "html > body > app-root > app-canada > div > app-privacy-policy > div"
+    }
+  }
+}

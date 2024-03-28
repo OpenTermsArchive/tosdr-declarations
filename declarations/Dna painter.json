@@ -1,0 +1,13 @@
+{
+  "name": "Dna painter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dnapainter.com/legal",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dnapainter.com/privacy",
+      "select": "body"
+    }
+  }
+}

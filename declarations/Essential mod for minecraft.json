@@ -1,0 +1,13 @@
+{
+  "name": "Essential mod for minecraft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://essential.gg/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://essential.gg/terms-of-use",
+      "select": "body"
+    }
+  }
+}

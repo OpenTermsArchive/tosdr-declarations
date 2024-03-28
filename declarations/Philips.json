@@ -1,0 +1,17 @@
+{
+  "name": "Philips",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.philips.com/a-w/cookie-notice.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.philips.com/a-w/terms-of-use.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.philips.com/a-w/privacy-notice.html",
+      "select": "body"
+    }
+  }
+}

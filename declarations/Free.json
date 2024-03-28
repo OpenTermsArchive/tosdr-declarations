@@ -1,0 +1,21 @@
+{
+  "name": "Free",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.free.fr/freebox/informations/politique-de-confidentialite/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > section > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.free.fr/freebox/cookies/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://adsl.free.fr/cgv/CG_VENTE_20200707.pdf?69",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://adsl.free.fr/cgv/CGV_FORFAIT_hors_opt_20210427.pdf?71",
+      "select": "body"
+    }
+  }
+}

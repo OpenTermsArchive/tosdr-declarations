@@ -1,0 +1,13 @@
+{
+  "name": "Creative commons",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://creativecommons.org/terms/",
+      "select": "main article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://creativecommons.org/privacy/",
+      "select": "main article"
+    }
+  }
+}

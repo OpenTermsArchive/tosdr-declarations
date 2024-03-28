@@ -1,0 +1,13 @@
+{
+  "name": "Government of jersey",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gov.je/Pages/Privacy.aspx",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gov.je/Pages/Terms.aspx",
+      "select": "body"
+    }
+  }
+}

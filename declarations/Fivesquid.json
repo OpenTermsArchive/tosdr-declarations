@@ -1,0 +1,13 @@
+{
+  "name": "Fivesquid",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fivesquid.com/terms-of-service",
+      "select": "div.bigwrap"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fivesquid.com/privacy-policy",
+      "select": "div.bigwrap"
+    }
+  }
+}

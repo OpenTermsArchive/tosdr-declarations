@@ -1,0 +1,13 @@
+{
+  "name": "Cutoutpro",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cutout.pro/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cutout.pro/privacy",
+      "select": "body"
+    }
+  }
+}

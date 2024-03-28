@@ -1,0 +1,9 @@
+{
+  "name": "Sodastream",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://sodastream.com/pages/legal",
+      "select": " > div > div > div:nth-of-type(2)"
+    }
+  }
+}

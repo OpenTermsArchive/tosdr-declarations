@@ -1,0 +1,9 @@
+{
+  "name": "Chemtrail tracker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://chemtracker.co.uk/ui/privacy",
+      "select": "body"
+    }
+  }
+}

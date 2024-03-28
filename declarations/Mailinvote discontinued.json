@@ -1,0 +1,9 @@
+{
+  "name": "Mailinvote discontinued",
+  "documents": {
+    "Other": {
+      "fetch": "https://mailin.vote/",
+      "select": "body"
+    }
+  }
+}

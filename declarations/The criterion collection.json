@@ -1,0 +1,9 @@
+{
+  "name": "The criterion collection",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.criterion.com/privacy",
+      "select": "body"
+    }
+  }
+}

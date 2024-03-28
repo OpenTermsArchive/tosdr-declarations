@@ -1,0 +1,9 @@
+{
+  "name": "Roger",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.roger.com/privacy-and-cookies/",
+      "select": "body"
+    }
+  }
+}

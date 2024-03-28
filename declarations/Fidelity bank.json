@@ -1,0 +1,13 @@
+{
+  "name": "Fidelity bank",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bankwithfidelity.com/terms-conditions.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.bankwithfidelity.com/privacy-notice.html",
+      "select": "html > body > main > div:nth-of-type(2) > div > section"
+    }
+  }
+}

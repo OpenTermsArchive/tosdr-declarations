@@ -1,0 +1,21 @@
+{
+  "name": "Manscaped",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.manscaped.com/pages/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.manscaped.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.manscaped.com/pages/product-offer-warranty-return",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.manscaped.com/pages/terms-of-use",
+      "select": "body"
+    }
+  }
+}

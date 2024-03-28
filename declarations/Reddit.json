@@ -1,0 +1,17 @@
+{
+  "name": "Reddit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.redditinc.com/policies/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.redditinc.com/policies/user-agreement",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.redditinc.com/policies/content-policy",
+      "select": null
+    }
+  }
+}

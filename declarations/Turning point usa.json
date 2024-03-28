@@ -1,0 +1,13 @@
+{
+  "name": "Turning point usa",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.tpusa.com/cookiepolicy ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tpusa.com/privacypolicy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Glorious gaming",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gloriousgaming.com/pages/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gloriousgaming.com/pages/terms-of-service",
+      "select": "body"
+    }
+  }
+}

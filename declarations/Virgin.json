@@ -1,0 +1,17 @@
+{
+  "name": "Virgin",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.virgin.com/terms-and-conditions",
+      "select": "html > body > div > div:first-of-type > div > div:nth-of-type(3) > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.virgin.com/cookie-policy",
+      "select": "html > body > div > div:first-of-type > div > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.virgin.com/privacy-policy",
+      "select": "html > body > div > div:first-of-type > div > main"
+    }
+  }
+}

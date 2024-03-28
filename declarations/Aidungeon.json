@@ -1,0 +1,13 @@
+{
+  "name": "Aidungeon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://play.aidungeon.io/main/termsOfService",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://play.aidungeon.io/main/privacyPolicy",
+      "select": "body"
+    }
+  }
+}

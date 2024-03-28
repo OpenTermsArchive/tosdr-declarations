@@ -1,0 +1,9 @@
+{
+  "name": "Fritter",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fritter.cc/privacy/",
+      "select": "body"
+    }
+  }
+}

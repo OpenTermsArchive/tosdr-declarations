@@ -1,0 +1,13 @@
+{
+  "name": "Marlboro",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.marlboro.com/gtc/terms-of-use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.marlboro.com/gtc/privacy-statement.html",
+      "select": "body"
+    }
+  }
+}

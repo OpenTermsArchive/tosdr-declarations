@@ -1,0 +1,17 @@
+{
+  "name": "Just eat",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.justeattakeaway.com/cookie-policy/",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.just-eat.co.uk/info/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.just-eat.co.uk/info/terms-and-conditions",
+      "select": null
+    }
+  }
+}

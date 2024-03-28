@@ -1,0 +1,13 @@
+{
+  "name": "Downline farm",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://downlinefarm.com/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://downlinefarm.com/content.php?page=Privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Screenconnect software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.connectwise.com/company/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.connectwise.com/ConnectWise_Control_Documentation/SaaS_terms_and_conditions",
+      "select": "body"
+    }
+  }
+}

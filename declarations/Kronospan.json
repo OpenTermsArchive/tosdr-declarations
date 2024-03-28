@@ -1,0 +1,13 @@
+{
+  "name": "Kronospan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kronospan-worldwide.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kronospan-worldwide.com/privacy/",
+      "select": "body"
+    }
+  }
+}

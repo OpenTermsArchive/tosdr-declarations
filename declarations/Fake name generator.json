@@ -1,0 +1,13 @@
+{
+  "name": "Fake name generator",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fakenamegenerator.com/license.php",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fakenamegenerator.com/privacy.php",
+      "select": null
+    }
+  }
+}

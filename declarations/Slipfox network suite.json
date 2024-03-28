@@ -1,0 +1,21 @@
+{
+  "name": "Slipfox network suite",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://meta.git.slipfox.xyz/register/step2",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://lbry.slipfox.xyz/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://slipfox.xyz/terms-of-service.html",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://null.slipfox.xyz/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sharetube",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://share.tube/about/peertube ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://share.tube/about/instance#terms",
+      "select": null
+    }
+  }
+}

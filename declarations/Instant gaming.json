@@ -1,0 +1,13 @@
+{
+  "name": "Instant gaming",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.instant-gaming.com/en/terms-of-use/",
+      "select": "html > body > div:nth-of-type(5) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.instant-gaming.com/en/privacy-policy/",
+      "select": "html > body > div:nth-of-type(5) > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Voodoo doughnut",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.voodoodoughnut.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.voodoodoughnut.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

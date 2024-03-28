@@ -1,0 +1,13 @@
+{
+  "name": "Stay private mail",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://stayprivate.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.stayprivatemail.com/terms.html#PrivacyPolicy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Squawk box games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://squawkbox.games/PrivacyPolicy.txt",
+      "select": "body"
+    }
+  }
+}

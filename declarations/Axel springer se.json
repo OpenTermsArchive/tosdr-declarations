@@ -1,0 +1,9 @@
+{
+  "name": "Axel springer se",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.axelspringer.com/en/data-and-privacy",
+      "select": "body"
+    }
+  }
+}

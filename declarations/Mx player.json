@@ -1,0 +1,13 @@
+{
+  "name": "Mx player",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mxplayer.in/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mxplayer.in/terms-of-use",
+      "select": "body"
+    }
+  }
+}

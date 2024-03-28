@@ -1,0 +1,17 @@
+{
+  "name": "Streamguys",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://newsite.streamguys.com/aup",
+      "select": "html > body > div:first-of-type > div:nth-of-type(5)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://newsite.streamguys.com/dmca",
+      "select": "html > body > div:first-of-type > div:nth-of-type(5)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://newsite.streamguys.com/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(5)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Inf schule",
+  "documents": {
+    "Other": {
+      "fetch": "https://inf-schule.de/impressum",
+      "select": "inf-schule > impressum"
+    }
+  }
+}

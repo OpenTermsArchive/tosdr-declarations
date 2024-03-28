@@ -1,0 +1,17 @@
+{
+  "name": "Billgo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://billgo.com/privacy-policy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://billgo.com/copyright-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://billgo.com/legal",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Kano services",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kano.me/uk/terms-and-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://kano.me/uk/privacy-policy",
+      "select": null
+    }
+  }
+}

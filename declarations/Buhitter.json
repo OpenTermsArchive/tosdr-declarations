@@ -1,0 +1,13 @@
+{
+  "name": "Buhitter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://buhitter.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://buhitter.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Unacademy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://unacademy.com/referral-terms",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://unacademy.com/refund-policy",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://unacademy.com/guidelines",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://unacademy.com/live-mentorship-terms",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://unacademy.com/minor-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://unacademy.com/privacy",
+      "select": "body"
+    }
+  }
+}

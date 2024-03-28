@@ -1,0 +1,13 @@
+{
+  "name": "Theqrcodegeneratorcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.the-qrcode-generator.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.the-qrcode-generator.com/privacy",
+      "select": "body"
+    }
+  }
+}

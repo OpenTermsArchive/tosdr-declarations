@@ -1,0 +1,17 @@
+{
+  "name": "Trainpal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mytrainpal.com/web-pages/policies/privacy-policy.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.mytrainpal.com/policy-cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mytrainpal.com/web-pages/booking-terms-and-conditions.html",
+      "select": "body"
+    }
+  }
+}

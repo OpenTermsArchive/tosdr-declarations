@@ -1,0 +1,13 @@
+{
+  "name": "Tactical headlamp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.trytaclamp.com/v1/page-privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.trytaclamp.com/v1/page-terms.php",
+      "select": "body"
+    }
+  }
+}

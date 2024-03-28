@@ -1,0 +1,13 @@
+{
+  "name": "Leetcode",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://leetcode.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://leetcode.com/terms/",
+      "select": "body"
+    }
+  }
+}

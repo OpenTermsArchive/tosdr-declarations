@@ -1,0 +1,13 @@
+{
+  "name": "Scraptf",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://scrap.tf/terms",
+      "select": "html > body > div:nth-of-type(6) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://scrap.tf/privacy",
+      "select": "html > body > div:nth-of-type(4) > div"
+    }
+  }
+}

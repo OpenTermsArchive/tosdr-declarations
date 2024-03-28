@@ -1,0 +1,13 @@
+{
+  "name": "North sky games",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.northskygames.com/TermsOfService.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.northskygames.com/Privacy.html",
+      "select": "body"
+    }
+  }
+}

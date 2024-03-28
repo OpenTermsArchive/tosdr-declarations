@@ -1,0 +1,17 @@
+{
+  "name": "Namesmaker",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://namesmaker.com/cookies-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > main > article > div > div > div > div > section:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://namesmaker.com/privacy-notice/",
+      "select": "html > body > div:first-of-type > div > div > div > main > article > div > div > div > div > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://namesmaker.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div > div > main > article > div > div > div > div > section:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

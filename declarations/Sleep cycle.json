@@ -1,0 +1,9 @@
+{
+  "name": "Sleep cycle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sleepcycle.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

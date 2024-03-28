@@ -1,0 +1,13 @@
+{
+  "name": "Sokolove law",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sokolovelaw.com/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sokolovelaw.com/privacy",
+      "select": null
+    }
+  }
+}

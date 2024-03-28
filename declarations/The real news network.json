@@ -1,0 +1,13 @@
+{
+  "name": "The real news network",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://therealnews.com/privacy-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://therealnews.com/termsandconditions",
+      "select": "body"
+    }
+  }
+}

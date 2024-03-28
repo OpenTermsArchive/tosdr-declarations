@@ -1,0 +1,13 @@
+{
+  "name": "Fpmcertifycom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fpmcertify.com/products/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fpmcertify.com/privacy/",
+      "select": "body"
+    }
+  }
+}

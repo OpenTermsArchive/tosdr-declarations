@@ -1,0 +1,13 @@
+{
+  "name": "Cleaner smile",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cleanersmile.com/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > main > div > div > div > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cleanersmile.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > div > div > div > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Roland",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.roland.com/global/terms_of_use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.roland.com/global/privacy",
+      "select": "body"
+    }
+  }
+}

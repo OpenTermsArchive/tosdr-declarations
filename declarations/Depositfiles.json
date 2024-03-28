@@ -1,0 +1,13 @@
+{
+  "name": "Depositfiles",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://depositfiles.com/faq.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dfiles.eu/privacy_policy.html",
+      "select": "body"
+    }
+  }
+}

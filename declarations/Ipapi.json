@@ -1,0 +1,13 @@
+{
+  "name": "Ipapi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ipapi.co/privacy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://ipapi.co/terms/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Freedom publishers union",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.freedompublishersunion.net/pages/terms-of-service.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Xchair",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.xchair.com/pages/terms-of-use ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.xchair.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

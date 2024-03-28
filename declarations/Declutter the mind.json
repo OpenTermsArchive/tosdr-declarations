@@ -1,0 +1,17 @@
+{
+  "name": "Declutter the mind",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://declutterthemind.com/cookie-policy/",
+      "select": "html > body > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://declutterthemind.com/privacy-policy/",
+      "select": "html > body > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://declutterthemind.com/terms-of-service/",
+      "select": "html > body > section"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Glorylogic",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.glorylogic.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Browserstack",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.browserstack.com/terms",
+      "select": "html > body > div:first-of-type > main > section > article > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.browserstack.com/cookie-policy",
+      "select": "html > body > div:first-of-type > main > section > article > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.browserstack.com/privacy",
+      "select": "html > body > div:first-of-type > main > section > article > div > div > div > div > div > div > div > div > div > ol"
+    }
+  }
+}

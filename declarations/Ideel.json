@@ -1,0 +1,9 @@
+{
+  "name": "Ideel",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ideel.io/cgu",
+      "select": "body"
+    }
+  }
+}

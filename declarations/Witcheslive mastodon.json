@@ -1,0 +1,9 @@
+{
+  "name": "Witcheslive mastodon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://witches.live/terms",
+      "select": null
+    }
+  }
+}

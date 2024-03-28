@@ -1,0 +1,17 @@
+{
+  "name": "Spring",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://teespring.com/policies/privacy",
+      "select": "html > body > div:nth-of-type(2) > section > div > div > div > div:nth-of-type(2)"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://teespring.com/policies/acceptable-use",
+      "select": "html > body > div:nth-of-type(2) > section > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://teespring.com/policies/terms",
+      "select": "html > body > div:nth-of-type(2) > section > div > div > div"
+    }
+  }
+}

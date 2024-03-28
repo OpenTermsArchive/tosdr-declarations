@@ -1,0 +1,9 @@
+{
+  "name": "Lvfs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lvfs.readthedocs.io/en/latest/privacy.html",
+      "select": "body"
+    }
+  }
+}

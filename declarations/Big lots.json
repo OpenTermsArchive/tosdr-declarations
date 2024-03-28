@@ -1,0 +1,13 @@
+{
+  "name": "Big lots",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.biglots.com/page/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.biglots.com/page/user-agreement",
+      "select": "body"
+    }
+  }
+}

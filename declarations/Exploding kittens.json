@@ -1,0 +1,17 @@
+{
+  "name": "Exploding kittens",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.explodingkittens.com/pages/privacy-policy ",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.explodingkittens.com/pages/cookies-in-use-on-this-site",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.explodingkittens.com/pages/terms-of-service",
+      "select": "body"
+    }
+  }
+}

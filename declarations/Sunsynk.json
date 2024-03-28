@@ -1,0 +1,9 @@
+{
+  "name": "Sunsynk",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sunsynk.net/agreementen",
+      "select": "body"
+    }
+  }
+}

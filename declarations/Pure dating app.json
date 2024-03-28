@@ -1,0 +1,13 @@
+{
+  "name": "Pure dating app",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pure.app/content/en/terms",
+      "select": "html > body > div > main > div:nth-of-type(2) > section > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pure.app/content/ru/privacy",
+      "select": "html > body > div > main > div:nth-of-type(2) > section > div > div:nth-of-type(2)"
+    }
+  }
+}

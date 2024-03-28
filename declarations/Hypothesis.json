@@ -1,0 +1,13 @@
+{
+  "name": "Hypothesis",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://web.hypothes.is/privacy/lms/",
+      "select": " > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://web.hypothes.is/terms-of-service/",
+      "select": " > div"
+    }
+  }
+}

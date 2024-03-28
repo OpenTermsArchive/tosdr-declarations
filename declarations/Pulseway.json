@@ -1,0 +1,9 @@
+{
+  "name": "Pulseway",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pulseway.com/privacy",
+      "select": null
+    }
+  }
+}

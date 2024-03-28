@@ -1,0 +1,13 @@
+{
+  "name": "Seek discomfort",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.seekdiscomfort.com/pages/gdpr-e-privacy",
+      "select": "html > body > main > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.seekdiscomfort.com/pages/terms-conditions",
+      "select": "html > body > main"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Mushroomgg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mushroom.gg/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mushroom.gg/terms-and-privacy",
+      "select": "body"
+    }
+  }
+}

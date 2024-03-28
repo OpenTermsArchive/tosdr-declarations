@@ -1,0 +1,9 @@
+{
+  "name": "Tomygame",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tomygame.com/index.php?view=privacypolicy&",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(2)"
+    }
+  }
+}

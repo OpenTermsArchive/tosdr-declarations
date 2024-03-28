@@ -1,0 +1,13 @@
+{
+  "name": "Teleguard messenger",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://teleguard.com/en/privacy",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://teleguard.com/en/termsofuse",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

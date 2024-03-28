@@ -1,0 +1,9 @@
+{
+  "name": "Because trigger",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://becausetrigger.ga/terms",
+      "select": "body"
+    }
+  }
+}

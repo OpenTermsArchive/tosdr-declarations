@@ -1,0 +1,13 @@
+{
+  "name": "Cleancutbath",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cleancutbath.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://cleancutbath.com/terms-of-use/",
+      "select": null
+    }
+  }
+}

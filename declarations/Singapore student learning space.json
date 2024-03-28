@@ -1,0 +1,13 @@
+{
+  "name": "Singapore student learning space",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vle.learning.moe.edu.sg/mrv/termsofuse",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vle.learning.moe.edu.sg/mrv/privacystatement",
+      "select": "body"
+    }
+  }
+}

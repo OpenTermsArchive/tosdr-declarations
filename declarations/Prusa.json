@@ -1,0 +1,13 @@
+{
+  "name": "Prusa",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.prusa3d.com/page/general-terms-and-conditions_231236",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.prusa3d.com/page/privacy-policy_231258",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

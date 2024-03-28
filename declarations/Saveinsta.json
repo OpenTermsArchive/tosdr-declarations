@@ -1,0 +1,13 @@
+{
+  "name": "Saveinsta",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://saveinsta.app/privacy-policy",
+      "select": "html > body > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://saveinsta.app/terms-of-service",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

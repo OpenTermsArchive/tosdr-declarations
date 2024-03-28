@@ -1,0 +1,13 @@
+{
+  "name": "Thenumberguru",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.numberguru.com/terms-of-service/",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.numberguru.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

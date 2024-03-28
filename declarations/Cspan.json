@@ -1,0 +1,13 @@
+{
+  "name": "Cspan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.c-span.org/about/termsAndConditions/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.c-span.org/about/privacy/",
+      "select": "body"
+    }
+  }
+}

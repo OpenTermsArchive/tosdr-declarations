@@ -1,0 +1,13 @@
+{
+  "name": "American city business journals",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://acbj.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://acbj.com/useragreement",
+      "select": "body"
+    }
+  }
+}

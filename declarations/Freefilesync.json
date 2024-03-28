@@ -1,0 +1,9 @@
+{
+  "name": "Freefilesync",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://freefilesync.org/privacy.php",
+      "select": "body"
+    }
+  }
+}

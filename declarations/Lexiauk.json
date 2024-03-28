@@ -1,0 +1,13 @@
+{
+  "name": "Lexiauk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lexiauk.co.uk/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lexiauk.co.uk/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

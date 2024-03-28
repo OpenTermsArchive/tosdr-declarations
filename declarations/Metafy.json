@@ -1,0 +1,13 @@
+{
+  "name": "Metafy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://metafy.notion.site/Metafy-Privacy-Policy-ec055cb0618b435d87517a220e9f0ae0",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://metafy.notion.site/Metafy-Terms-of-Service-16472ffe2d0443b1bce4ce4ff43b7a1f",
+      "select": "body"
+    }
+  }
+}

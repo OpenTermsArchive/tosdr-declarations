@@ -1,0 +1,13 @@
+{
+  "name": "Vgyme",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vgy.me/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vgy.me/privacy-policy",
+      "select": "body"
+    }
+  }
+}

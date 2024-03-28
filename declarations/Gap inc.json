@@ -1,0 +1,13 @@
+{
+  "name": "Gap inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gapinc.com/en-us/consumer-privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gapinc.com/en-us/policy/terms-of-use",
+      "select": null
+    }
+  }
+}

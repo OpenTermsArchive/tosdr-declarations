@@ -1,0 +1,9 @@
+{
+  "name": "Puma",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://us.puma.com/en/us/privacy-policy/PRIVACY_POLICY.html",
+      "select": "body"
+    }
+  }
+}

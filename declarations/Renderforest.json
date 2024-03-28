@@ -1,0 +1,13 @@
+{
+  "name": "Renderforest",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.renderforest.com/terms-of-service",
+      "select": "html > body > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.renderforest.com/privacy-policy",
+      "select": "html > body > section"
+    }
+  }
+}

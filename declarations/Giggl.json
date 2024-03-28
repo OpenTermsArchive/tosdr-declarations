@@ -1,0 +1,13 @@
+{
+  "name": "Giggl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://giggl.app/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://giggl.app/terms",
+      "select": "body"
+    }
+  }
+}

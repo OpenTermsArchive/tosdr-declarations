@@ -1,0 +1,13 @@
+{
+  "name": "Spark revenue",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.corepassage.com/terms.aspx?sid=9",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.corepassage.com/privacy.aspx?sid=9",
+      "select": "body"
+    }
+  }
+}

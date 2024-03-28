@@ -1,0 +1,13 @@
+{
+  "name": "Smith brothers farms",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.smithbrothersfarms.com/privacy-policy",
+      "select": " > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.smithbrothersfarms.com/conditions-of-use",
+      "select": " > div:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Tuttut",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tut-tut.org/TOS-PrivacyPolicy",
+      "select": "body"
+    }
+  }
+}

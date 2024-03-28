@@ -1,0 +1,13 @@
+{
+  "name": "Consumerdigitalsurvey",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.consumerdigitalsurvey.com/terms.cgi?config=9311&qid=11960",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.consumerdigitalsurvey.com/privacy.cgi?config=9311",
+      "select": "body"
+    }
+  }
+}

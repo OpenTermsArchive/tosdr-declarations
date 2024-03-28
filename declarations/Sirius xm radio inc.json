@@ -1,0 +1,17 @@
+{
+  "name": "Sirius xm radio inc",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://shop.siriusxm.com/return-policy.html?intcmp=GN_FOOTER_NEW_ReturnPolicy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.siriusxm.com/phx/customer-agreement?intcmp=OTHER_NA_www:Home_CustomerAgreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.siriusxm.com/phx/privacy-policy",
+      "select": "html > body > main > section"
+    }
+  }
+}

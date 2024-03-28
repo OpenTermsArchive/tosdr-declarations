@@ -1,0 +1,21 @@
+{
+  "name": "Pico",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sf16-draftcdn-sg.ibytedtos.com/obj/ies-hotsoon-draft-sg/pico_website/14935194-cae4-4013-a567-f64ad2af85e4_nl-NL.html",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sf16-draftcdn-sg.ibytedtos.com/obj/ies-hotsoon-draft-sg/pico_website/a3647287-63e8-40d6-ae20-201e73c73fae_en.html",
+      "select": "html > body > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://sf19-draftcdn-sg.ibytedtos.com/obj/ies-hotsoon-draft-sg/pico_website/294df7a1-d18a-40c8-8390-21ab18092299.html",
+      "select": "html > body > div:first-of-type"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://sf16-draftcdn-sg.ibytedtos.com/obj/ies-hotsoon-draft-sg/pico_website/242d0441-f991-4a84-aece-f1efa43095c0.html",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

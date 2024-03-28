@@ -1,0 +1,13 @@
+{
+  "name": "Apkmirrior",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.apkmirror.com/dmca-copyright-infringement-notification/",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.apkmirror.com/apkmirror-com-privacy-policy/",
+      "select": null
+    }
+  }
+}

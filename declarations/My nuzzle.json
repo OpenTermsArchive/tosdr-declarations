@@ -1,0 +1,13 @@
+{
+  "name": "My nuzzle",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.mynuzzle.com/StaticContent.txt?filename=ReturnPolicy&isSelfContained=true",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mynuzzle.com/Privacy-Policy.dtm",
+      "select": "body"
+    }
+  }
+}

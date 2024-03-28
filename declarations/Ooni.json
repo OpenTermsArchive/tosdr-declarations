@@ -1,0 +1,9 @@
+{
+  "name": "Ooni",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ooni.org/about/data-policy/",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

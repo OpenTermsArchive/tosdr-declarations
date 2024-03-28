@@ -1,0 +1,13 @@
+{
+  "name": "Rakutenca",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rakuten.ca/help/terms-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rakuten.ca/help/privacy-security",
+      "select": null
+    }
+  }
+}

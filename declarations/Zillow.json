@@ -1,0 +1,13 @@
+{
+  "name": "Zillow",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.zillow.com/corp/Privacy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.zillow.com/corp/Terms.htm",
+      "select": "body"
+    }
+  }
+}

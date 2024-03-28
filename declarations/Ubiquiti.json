@@ -1,0 +1,13 @@
+{
+  "name": "Ubiquiti",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ui.com/legal/termsofservice/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ui.com/legal/privacypolicy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Moneysmartgovau",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://moneysmart.gov.au/about-us/privacy",
+      "select": "body"
+    }
+  }
+}

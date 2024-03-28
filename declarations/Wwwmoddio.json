@@ -1,0 +1,13 @@
+{
+  "name": "Wwwmoddio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.modd.io/agreement/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.modd.io/agreement/pp",
+      "select": "body"
+    }
+  }
+}

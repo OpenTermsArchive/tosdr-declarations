@@ -1,0 +1,13 @@
+{
+  "name": "Opti digital",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.optidigital.com/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div > div > div > article > div > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.optidigital.com/cookie-policy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div > div > div > article > div > div:first-of-type"
+    }
+  }
+}

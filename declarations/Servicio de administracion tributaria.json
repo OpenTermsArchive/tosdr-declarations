@@ -1,0 +1,9 @@
+{
+  "name": "Servicio de administracion tributaria",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tramitesdigitales.sat.gob.mx/BuzonTributario.Presentacion/generales/aviso/avisoprivacidad.html",
+      "select": "body"
+    }
+  }
+}

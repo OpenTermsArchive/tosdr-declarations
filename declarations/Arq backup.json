@@ -1,0 +1,13 @@
+{
+  "name": "Arq backup",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://arqbackup.com/privacy/",
+      "select": "html > body > section > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://arqbackup.com/docs/arqcloudbackup/English.lproj/termsOfService.html",
+      "select": "html > body > main"
+    }
+  }
+}

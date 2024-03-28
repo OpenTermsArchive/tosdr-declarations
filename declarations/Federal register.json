@@ -1,0 +1,9 @@
+{
+  "name": "Federal register",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.federalregister.gov/reader-aids/government-policy-and-ofr-procedures/privacy",
+      "select": "body"
+    }
+  }
+}

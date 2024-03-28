@@ -1,0 +1,13 @@
+{
+  "name": "Pikpok",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pikpok.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://pikpok.com/terms-of-use/",
+      "select": "html > body > section > section"
+    }
+  }
+}

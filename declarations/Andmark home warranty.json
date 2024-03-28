@@ -1,0 +1,9 @@
+{
+  "name": "Andmark home warranty",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.landmarkhw.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

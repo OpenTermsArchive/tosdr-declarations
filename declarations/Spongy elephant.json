@@ -1,0 +1,13 @@
+{
+  "name": "Spongy elephant",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.spongyelephant.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.spongyelephant.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

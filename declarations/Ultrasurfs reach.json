@@ -1,0 +1,13 @@
+{
+  "name": "Ultrasurfs reach",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ultrasurf.us/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ultrasurf.us/terms/",
+      "select": "body"
+    }
+  }
+}

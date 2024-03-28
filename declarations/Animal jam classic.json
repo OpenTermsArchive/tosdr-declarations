@@ -1,0 +1,13 @@
+{
+  "name": "Animal jam classic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.animaljam.com/en/terms_of_service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.animaljam.com/en/privacy",
+      "select": "body"
+    }
+  }
+}

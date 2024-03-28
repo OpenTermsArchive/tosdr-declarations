@@ -1,0 +1,9 @@
+{
+  "name": "Reclaim the net",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://reclaimthenet.org/privacy",
+      "select": "html > body > div:nth-of-type(2) > div > section > div > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Ryanair",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ryanair.com/ie/en/corporate/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ryanair.com/ie/en/cookie-policy/www_ryanair_com",
+      "select": "html > body > cookies-root > cookies-app-container > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ryanair.com/ie/en/corporate/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > main"
+    }
+  }
+}

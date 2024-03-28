@@ -1,0 +1,13 @@
+{
+  "name": "Animal jam",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.animaljam.com/en/terms_of_service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.animaljam.com/en/privacy",
+      "select": "html > body > app-root > app-page-layout > div > app-side-nav > div > mat-sidenav-container > mat-sidenav-content > div > div > app-section > div > app-privacy-policy"
+    }
+  }
+}

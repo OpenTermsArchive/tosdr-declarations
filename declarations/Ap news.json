@@ -1,0 +1,13 @@
+{
+  "name": "Ap news",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://apnews.com/termsofservice",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://apnews.com/privacystatement",
+      "select": "body"
+    }
+  }
+}

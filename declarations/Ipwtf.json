@@ -1,0 +1,9 @@
+{
+  "name": "Ipwtf",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ip.wtf/about",
+      "select": "html > body > article > div:nth-of-type(2)"
+    }
+  }
+}

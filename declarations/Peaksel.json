@@ -1,0 +1,13 @@
+{
+  "name": "Peaksel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://peaksel.com/privacy-policy-for-free-apps/",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://peaksel.com/fan-content-policy/",
+      "select": "body"
+    }
+  }
+}

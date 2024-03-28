@@ -1,0 +1,17 @@
+{
+  "name": "Slack",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://slack.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://slack.com/privacy-policy",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://slack.com/acceptable-use-policy",
+      "select": "body"
+    }
+  }
+}

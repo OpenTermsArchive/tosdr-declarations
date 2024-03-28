@@ -1,0 +1,13 @@
+{
+  "name": "The vg resource",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.spriters-resource.com/page/agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spriters-resource.com/page/privacy/",
+      "select": "body"
+    }
+  }
+}

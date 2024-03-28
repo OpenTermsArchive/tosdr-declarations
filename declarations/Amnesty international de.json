@@ -1,0 +1,9 @@
+{
+  "name": "Amnesty international de",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.amnesty.de/datenschutzhinweise",
+      "select": "body"
+    }
+  }
+}

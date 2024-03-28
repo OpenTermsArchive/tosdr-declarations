@@ -1,0 +1,13 @@
+{
+  "name": "Disconnect",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://disconnect.me/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://disconnect.me/terms",
+      "select": null
+    }
+  }
+}

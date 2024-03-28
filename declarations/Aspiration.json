@@ -1,0 +1,25 @@
+{
+  "name": "Aspiration",
+  "documents": {
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://assets.aspiration.com/docs/BCP_Disclosure_Statement_2019.04.08.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.aspiration.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.aspiration.com/terms-of-use",
+      "select": "body"
+    },
+    "Telephone Communication Guidelines": {
+      "fetch": "https://assets.ctfassets.net/ejg6grzpbbxj/7s85knyAH3EfrYRiVfo06Z/36d8939151e18dbbbe38c520c224f190/Aspiration_Financial__LLC___SMS_Policy._08.06.21.pdf",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://assets.ctfassets.net/ejg6grzpbbxj/3JctGJcbwxBFr2HHG1tygL/0d527f583bf757fb8dc7b2c1ea97abb7/Aspiration_Privacy_Notice_20230706.pdf",
+      "select": "body"
+    }
+  }
+}

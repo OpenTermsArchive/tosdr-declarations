@@ -1,0 +1,9 @@
+{
+  "name": "Environmental defense fund",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.edf.org/privacy-statement",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Walkme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.walkme.com/privacy-policy/",
+      "select": "html > body > main > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.walkme.com/terms-and-conditions/",
+      "select": "html > body > main > section"
+    }
+  }
+}

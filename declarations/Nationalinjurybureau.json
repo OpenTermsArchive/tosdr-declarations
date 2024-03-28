@@ -1,0 +1,13 @@
+{
+  "name": "Nationalinjurybureau",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nationalinjurybureau.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nationalinjurybureau.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Copyist ai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://copyistai.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://copyistai.com/privacy/",
+      "select": "body"
+    }
+  }
+}

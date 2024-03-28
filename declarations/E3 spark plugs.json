@@ -1,0 +1,13 @@
+{
+  "name": "E3 spark plugs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.e3sparkplugs.com/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.e3sparkplugs.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Minecraftbuzz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://minecraft.buzz/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://minecraft.buzz/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://minecraft.buzz/terms-of-service",
+      "select": "body"
+    }
+  }
+}

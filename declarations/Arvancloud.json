@@ -1,0 +1,29 @@
+{
+  "name": "Arvancloud",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.arvancloud.com/en/legal/cookie-statement",
+      "select": "html > body > section:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.arvancloud.com/en/legal/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.arvancloud.com/en/legal/privacy-policy",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.arvancloud.com/en/legal/acceptable-use-policy",
+      "select": "html > body > section:first-of-type"
+    },
+    "Other": {
+      "fetch": "https://www.arvancloud.com/en/legal/data-portability",
+      "select": "html > body > section:first-of-type"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.arvancloud.com/en/legal/trademark-notification-policy",
+      "select": "html > body > section:first-of-type"
+    }
+  }
+}

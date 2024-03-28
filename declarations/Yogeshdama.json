@@ -1,0 +1,9 @@
+{
+  "name": "Yogeshdama",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.yogeshdama.com/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

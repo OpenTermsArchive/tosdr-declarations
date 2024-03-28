@@ -1,0 +1,13 @@
+{
+  "name": "Ralph lauren",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ralphlauren.com/customerservice?cid=cs-company-info-use-terms",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://www.ralphlauren.com/customerservice?cid=cs-privacy-notice",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Gamepedia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fandom.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(4) > div > div > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fandom.com/terms-of-use",
+      "select": "html > body > div:nth-of-type(4) > div > div > article"
+    }
+  }
+}

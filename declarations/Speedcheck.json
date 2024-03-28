@@ -1,0 +1,13 @@
+{
+  "name": "Speedcheck",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.speedcheck.org/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.speedcheck.org/privacy/",
+      "select": "body"
+    }
+  }
+}

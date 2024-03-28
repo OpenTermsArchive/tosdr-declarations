@@ -1,0 +1,13 @@
+{
+  "name": "Tcrf  the cutting room floor",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://tcrf.net/The_Cutting_Room_Floor:General_disclaimer",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(4) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tcrf.net/The_Cutting_Room_Floor:Privacy_policy",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(4) > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Akshits blog",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.akshit.me/legal/terms",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.akshit.me/legal/privacy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(3)"
+    }
+  }
+}

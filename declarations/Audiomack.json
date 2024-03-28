@@ -1,0 +1,13 @@
+{
+  "name": "Audiomack",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://audiomack.com/about/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://audiomack.com/about/terms-of-service",
+      "select": "body"
+    }
+  }
+}

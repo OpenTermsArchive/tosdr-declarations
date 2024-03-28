@@ -1,0 +1,9 @@
+{
+  "name": "Wiremin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wiremin.org/terms_privacy_policy.html",
+      "select": null
+    }
+  }
+}

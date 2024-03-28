@@ -1,0 +1,17 @@
+{
+  "name": "Paradox interactive",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://legal.paradoxplaza.com/privacy",
+      "select": "html > body > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://legal.paradoxplaza.com/terms-of-use",
+      "select": "html > body > main > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.paradoxplaza.com/manage-cookies-page.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(6) > div:nth-of-type(3) > div:nth-of-type(2) > div > div > form > div:first-of-type"
+    }
+  }
+}

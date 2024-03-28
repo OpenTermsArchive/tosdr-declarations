@@ -1,0 +1,17 @@
+{
+  "name": "Layers of london",
+  "documents": {
+    "Review Guidelines": {
+      "fetch": "https://www.layersoflondon.org/takedown-policy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.layersoflondon.org/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.layersoflondon.org/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(3) > div"
+    }
+  }
+}

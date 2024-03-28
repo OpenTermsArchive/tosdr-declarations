@@ -1,0 +1,13 @@
+{
+  "name": "Stockx",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://stockx.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://stockx.com/terms",
+      "select": "html > body > div:first-of-type > div > main > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Ofcom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.ofcom.org.uk/about-ofcom/website/cookies-policy",
+      "select": "html > body > div:first-of-type > div > div > main > div > div > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ofcom.org.uk/about-ofcom/website/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div > main > div > div > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ofcom.org.uk/about-ofcom/foi-dp/general-privacy-statement",
+      "select": "html > body > div:first-of-type > div > div > main > div > div > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

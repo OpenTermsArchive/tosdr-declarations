@@ -1,0 +1,17 @@
+{
+  "name": "Mighty networks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mightynetworks.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.mightynetworks.com/cookie-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mightynetworks.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div:nth-of-type(2)"
+    }
+  }
+}

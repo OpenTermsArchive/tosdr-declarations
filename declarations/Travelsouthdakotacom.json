@@ -1,0 +1,9 @@
+{
+  "name": "Travelsouthdakotacom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.travelsouthdakota.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > div > main > div > section > div > div > article > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

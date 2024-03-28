@@ -1,0 +1,9 @@
+{
+  "name": "Bold screen media",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.boldcollective.co/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Yuh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://links.imagerelay.com/cdn/2958/ql/yuh-account-privacy-policy-en-v2",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://links.imagerelay.com/cdn/2958/ql/general-terms-and-conditions-en-v1",
+      "select": "body"
+    }
+  }
+}

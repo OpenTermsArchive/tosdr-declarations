@@ -1,0 +1,13 @@
+{
+  "name": "Historielaererdk",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://historielaerer.dk/cookie-politik-eu/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://historielaerer.dk/privatlivspolitik/",
+      "select": "body"
+    }
+  }
+}

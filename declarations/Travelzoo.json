@@ -1,0 +1,13 @@
+{
+  "name": "Travelzoo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.travelzoo.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.travelzoo.com/local-deals/terms-of-sale/",
+      "select": "body"
+    }
+  }
+}

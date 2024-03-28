@@ -1,0 +1,13 @@
+{
+  "name": "Consumidorgovbr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.consumidor.gov.br/pages/conteudo/publico/7",
+      "select": "html > body div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.consumidor.gov.br/pages/conteudo/publico/9",
+      "select": "html > body div"
+    }
+  }
+}

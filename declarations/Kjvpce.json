@@ -1,0 +1,9 @@
+{
+  "name": "Kjvpce",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kjvpce.com/about",
+      "select": "body"
+    }
+  }
+}

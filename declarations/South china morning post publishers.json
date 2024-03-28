@@ -1,0 +1,13 @@
+{
+  "name": "South china morning post publishers",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.scmp.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.scmp.com/terms-conditions",
+      "select": "body"
+    }
+  }
+}

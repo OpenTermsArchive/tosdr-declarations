@@ -1,0 +1,17 @@
+{
+  "name": "Replacement commercial parts warehouse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rcpw.com/info/privacy-notice.html",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.rcpw.com/info/return-policy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rcpw.com/terms-conditions",
+      "select": null
+    }
+  }
+}

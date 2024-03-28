@@ -1,0 +1,9 @@
+{
+  "name": "Joshgoldme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://joshgold.me/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

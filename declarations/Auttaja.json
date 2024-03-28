@@ -1,0 +1,9 @@
+{
+  "name": "Auttaja",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://app.termly.io/document/privacy-policy/140d203f-604d-4619-a7da-9f61799a62a1",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

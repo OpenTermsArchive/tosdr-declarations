@@ -1,0 +1,13 @@
+{
+  "name": "Boardgamegeek",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://boardgamegeek.com/privacy",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://boardgamegeek.com/terms",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    }
+  }
+}

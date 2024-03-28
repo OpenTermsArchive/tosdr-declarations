@@ -1,0 +1,13 @@
+{
+  "name": "Wargaming",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://legal.eu.wargaming.net/en/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://legal.eu.wargaming.net/en/eula/",
+      "select": "body"
+    }
+  }
+}

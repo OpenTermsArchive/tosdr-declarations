@@ -1,0 +1,13 @@
+{
+  "name": "Opgg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.op.gg/about/privacy/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.op.gg/about/agreement/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

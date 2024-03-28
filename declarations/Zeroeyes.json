@@ -1,0 +1,13 @@
+{
+  "name": "Zeroeyes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://zeroeyes.com/terms-conditions/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > article > div > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://zeroeyes.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

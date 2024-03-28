@@ -1,0 +1,9 @@
+{
+  "name": "Libregamewiki",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://libregamewiki.org/Libregamewiki:Privacy_policy",
+      "select": null
+    }
+  }
+}

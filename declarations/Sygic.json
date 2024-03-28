@@ -1,0 +1,17 @@
+{
+  "name": "Sygic",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sygic.com/company/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sygic.com/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sygic.com/company/terms-of-use",
+      "select": "body"
+    }
+  }
+}

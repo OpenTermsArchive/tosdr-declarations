@@ -1,0 +1,9 @@
+{
+  "name": "Ilify",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ilify.io/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Schoolbooking",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.schoolbooking.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.schoolbooking.com/terms",
+      "select": "body"
+    }
+  }
+}

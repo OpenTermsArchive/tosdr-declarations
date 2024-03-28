@@ -1,0 +1,21 @@
+{
+  "name": "Ripe ncc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ripe.net/about-us/legal/ripe-ncc-privacy-statement",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ripe.net/about-us/legal/terms-of-service",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.ripe.net/about-us/legal/copyright-statement",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ripe.net/about-us/legal/cookies",
+      "select": null
+    }
+  }
+}

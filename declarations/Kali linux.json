@@ -1,0 +1,13 @@
+{
+  "name": "Kali linux",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kali.org/docs/policy/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.kali.org/docs/policy/cookie/",
+      "select": "body"
+    }
+  }
+}

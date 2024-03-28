@@ -1,0 +1,9 @@
+{
+  "name": "Vibe cybersecurity international",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vibecyber.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

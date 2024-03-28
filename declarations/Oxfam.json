@@ -1,0 +1,17 @@
+{
+  "name": "Oxfam",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.oxfam.org/en/cookies-notice",
+      "select": "html > body > div:first-of-type > div > div:first-of-type"
+    },
+    "Legal Information": {
+      "fetch": "https://www.oxfam.org/en/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.oxfam.org/en/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

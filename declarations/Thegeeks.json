@@ -1,0 +1,21 @@
+{
+  "name": "Thegeeks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://thegeeks.click/rules.php",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://thegeeks.click/ratio.php",
+      "select": "body"
+    },
+    "Frequently Asked Questions": {
+      "fetch": "https://thegeeks.click/faq.php",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://thegeeks.click/dmca.php",
+      "select": "body"
+    }
+  }
+}

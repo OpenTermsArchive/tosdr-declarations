@@ -1,0 +1,9 @@
+{
+  "name": "Banggood",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fr.banggood.com/help_center/question_category.html?catid=196",
+      "select": "body"
+    }
+  }
+}

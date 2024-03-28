@@ -1,0 +1,21 @@
+{
+  "name": "Fur affinity",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.furaffinity.net/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.furaffinity.net/privacy",
+      "select": null
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.furaffinity.net/aup/",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.furaffinity.net/coc/",
+      "select": "body"
+    }
+  }
+}

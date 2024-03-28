@@ -1,0 +1,13 @@
+{
+  "name": "Enom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.enom.com/reseller/legal-policy-agreements/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.enom.com/reseller/legal-policy-agreements/certified-reseller-terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

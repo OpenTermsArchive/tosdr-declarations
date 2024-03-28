@@ -1,0 +1,13 @@
+{
+  "name": "Radio public",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://medium.com/radio-public/radiopublic-privacy-policy-549250c61572#.4q4d35xe2",
+      "select": " > div > div:nth-of-type(3) > article > div > section > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://about.radiopublic.com/2016/11/01/radiopublic-terms-of-service/",
+      "select": " > div:nth-of-type(2)"
+    }
+  }
+}

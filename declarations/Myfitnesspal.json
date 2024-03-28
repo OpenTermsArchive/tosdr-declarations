@@ -1,0 +1,13 @@
+{
+  "name": "Myfitnesspal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.myfitnesspal.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.myfitnesspal.com/terms-of-service",
+      "select": "html > body > div:first-of-type > div > main > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Alldebrid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://alldebrid.com/privacy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://alldebrid.com/tos/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Freeebooksnet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.free-ebooks.net/legal/tos.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.free-ebooks.net/legal/privacy",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.free-ebooks.net/legal/refund.html",
+      "select": "body"
+    }
+  }
+}

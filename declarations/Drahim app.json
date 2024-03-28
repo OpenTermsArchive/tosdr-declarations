@@ -1,0 +1,13 @@
+{
+  "name": "Drahim app",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://drahim.sa/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://drahim.sa/terms",
+      "select": "body"
+    }
+  }
+}

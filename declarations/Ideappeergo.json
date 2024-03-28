@@ -1,0 +1,9 @@
+{
+  "name": "Ideappeergo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://ideappeergo.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

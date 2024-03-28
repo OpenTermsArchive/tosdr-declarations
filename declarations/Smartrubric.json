@@ -1,0 +1,13 @@
+{
+  "name": "Smartrubric",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.smartrubric.com/Public/PrivacyPolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.smartrubric.com/Public/TermsOfUse",
+      "select": "body"
+    }
+  }
+}

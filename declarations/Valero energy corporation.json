@@ -1,0 +1,13 @@
+{
+  "name": "Valero energy corporation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.valero.com/privacy-statement",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.valero.com/legal-notice",
+      "select": "body"
+    }
+  }
+}

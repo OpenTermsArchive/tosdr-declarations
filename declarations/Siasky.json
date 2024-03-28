@@ -1,0 +1,13 @@
+{
+  "name": "Siasky",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://siasky.net/terms.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://siasky.net/privacy.pdf",
+      "select": "body"
+    }
+  }
+}

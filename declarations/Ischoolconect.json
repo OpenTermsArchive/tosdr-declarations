@@ -1,0 +1,13 @@
+{
+  "name": "Ischoolconect",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ischoolconnect.com/en/terms-of-use/",
+      "select": "html > body > app-root > app-master-page > ng-component > section:nth-of-type(2) > div > div > div > div > div > isc-terms-of-service > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ischoolconnect.com/en/privacy-policy/",
+      "select": "html > body > app-root > app-master-page > ng-component > section:nth-of-type(2) > div > div > div > div > div > isc-privacy-policy > article"
+    }
+  }
+}

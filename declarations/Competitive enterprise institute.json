@@ -1,0 +1,9 @@
+{
+  "name": "Competitive enterprise institute",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cei.org/privacy-policy/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

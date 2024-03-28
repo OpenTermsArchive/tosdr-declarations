@@ -1,0 +1,17 @@
+{
+  "name": "Neoseeker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.neoseeker.com/info/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.neoseeker.com/info/legal.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.neoseeker.com/info/advertising.html",
+      "select": "body"
+    }
+  }
+}

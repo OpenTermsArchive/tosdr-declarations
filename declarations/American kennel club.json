@@ -1,0 +1,21 @@
+{
+  "name": "American kennel club",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.akc.org/about/site/reproduction-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://marketplace.akc.org/termsofservice",
+      "select": "body"
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://www.akc.org/about/site/linking-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.akc.org/privacy/",
+      "select": "html > body > div:nth-of-type(4) > div > div:nth-of-type(3) > main > div:first-of-type > div > div > div"
+    }
+  }
+}

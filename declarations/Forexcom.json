@@ -1,0 +1,13 @@
+{
+  "name": "Forexcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.filesandimages.com/Brand/forex/pdf/fxus-customer-agreement.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.forex.com/en-us/terms-and-policies/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

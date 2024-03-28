@@ -1,0 +1,13 @@
+{
+  "name": "Ali reza hayatis personal page",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://alirezahayati.com/legal/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://alirezahayati.com/policies/",
+      "select": "body"
+    }
+  }
+}

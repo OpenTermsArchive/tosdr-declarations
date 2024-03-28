@@ -1,0 +1,13 @@
+{
+  "name": "Freshly",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.freshly.com/privacy",
+      "select": "html > body > div:nth-of-type(4) > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.freshly.com/terms",
+      "select": "html > body > main > div > div"
+    }
+  }
+}

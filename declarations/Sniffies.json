@@ -1,0 +1,13 @@
+{
+  "name": "Sniffies",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sniffies.com/map/policies/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://sniffies.com/map/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

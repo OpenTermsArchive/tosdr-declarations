@@ -1,0 +1,13 @@
+{
+  "name": "Dish network",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wwwprod.dish.com/service-agreements",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.dish.com/downloads/legal/privacystatement.aspx",
+      "select": "body"
+    }
+  }
+}

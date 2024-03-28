@@ -1,0 +1,13 @@
+{
+  "name": "Roamright",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.roamright.com/roamright-website-terms-and-conditions-of-use/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.archinsurancesolutions.com/documents/ArchPrivacyNotice.pdf",
+      "select": "body"
+    }
+  }
+}

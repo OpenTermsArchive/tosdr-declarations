@@ -1,0 +1,9 @@
+{
+  "name": "Top10",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://top-10.blog/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

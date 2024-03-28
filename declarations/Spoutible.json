@@ -1,0 +1,17 @@
+{
+  "name": "Spoutible",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://spoutible.com/privacy_policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://spoutible.com/cookies_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://spoutible.com/terms_of_use",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2) > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

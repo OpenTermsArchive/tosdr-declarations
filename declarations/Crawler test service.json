@@ -1,0 +1,9 @@
+{
+  "name": "Crawler test service",
+  "documents": {
+    "Spam": {
+      "fetch": "https://example.com",
+      "select": "html > body > div"
+    }
+  }
+}

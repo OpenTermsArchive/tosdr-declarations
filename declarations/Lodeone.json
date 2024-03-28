@@ -1,0 +1,17 @@
+{
+  "name": "Lodeone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lode.one/privacy-policy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://lode.one/gdpr-notice/",
+      "select": " > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://lode.one/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

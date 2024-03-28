@@ -1,0 +1,9 @@
+{
+  "name": "Mimobaby",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mimobaby.com/legal",
+      "select": "body"
+    }
+  }
+}

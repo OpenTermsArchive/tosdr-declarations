@@ -1,0 +1,9 @@
+{
+  "name": "Books4kids",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.books4kids.net/fr/i/7/protection-des-donnees-personnelles",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Gibson research corporation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.grc.com/privacy.htm",
+      "select": "body"
+    }
+  }
+}

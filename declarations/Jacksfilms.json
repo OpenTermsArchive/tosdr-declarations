@@ -1,0 +1,17 @@
+{
+  "name": "Jacksfilms",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://jacksfilms.shop/policies/refund-policy",
+      "select": "html > body > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://jacksfilms.shop/policies/terms-of-service",
+      "select": "html > body > main > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://jacksfilms.shop/policies/privacy-policy",
+      "select": "body"
+    }
+  }
+}

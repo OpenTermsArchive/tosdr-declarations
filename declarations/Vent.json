@@ -1,0 +1,13 @@
+{
+  "name": "Vent",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vent.co/pp",
+      "select": "html > body > main > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vent.co/tos",
+      "select": "html > body > main > article"
+    }
+  }
+}

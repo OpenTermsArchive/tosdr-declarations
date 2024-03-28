@@ -1,0 +1,9 @@
+{
+  "name": "Tresca",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://trescaproject.eu/privacy-policy-2",
+      "select": "body"
+    }
+  }
+}

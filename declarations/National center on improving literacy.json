@@ -1,0 +1,13 @@
+{
+  "name": "National center on improving literacy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://improvingliteracy.org/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://improvingliteracy.org/terms",
+      "select": null
+    }
+  }
+}

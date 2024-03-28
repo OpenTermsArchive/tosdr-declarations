@@ -1,0 +1,13 @@
+{
+  "name": "Flux systems ltd",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://app.tryflux.com/legal/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://app.tryflux.com/legal/privacy/starling",
+      "select": "body"
+    }
+  }
+}

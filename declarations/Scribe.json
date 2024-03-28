@@ -1,0 +1,17 @@
+{
+  "name": "Scribe",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://scribehow.com/legal/terms",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://scribehow.com/legal/cookies",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://scribehow.com/legal/privacy",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

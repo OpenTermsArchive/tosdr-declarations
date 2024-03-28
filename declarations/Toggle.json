@@ -1,0 +1,13 @@
+{
+  "name": "Toggle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gettoggle.com/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gettoggle.com/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

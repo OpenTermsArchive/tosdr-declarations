@@ -1,0 +1,9 @@
+{
+  "name": "Ortel mobile",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ortelmobile.de/rechtliches/datenschutz.html",
+      "select": "body"
+    }
+  }
+}

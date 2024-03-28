@@ -1,0 +1,9 @@
+{
+  "name": "Tootcommunity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://toot.community/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

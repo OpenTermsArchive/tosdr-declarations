@@ -1,0 +1,13 @@
+{
+  "name": "Findyourindependentadvisorcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.findyourindependentadvisor.com/privacy-policy.html",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.findyourindependentadvisor.com/FindAdvisor?zipCode=90005",
+      "select": "html > body > div:nth-of-type(2) > section > div > div:first-of-type > div:nth-of-type(3) > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Cliphunter",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cliphunter.com/terms/privacy",
+      "select": "html > body > div:nth-of-type(10) > div:first-of-type"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.cliphunter.com/dmca",
+      "select": "html > body > div:nth-of-type(10) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cliphunter.com/terms",
+      "select": "html > body > div:nth-of-type(10) > div:nth-of-type(2)"
+    }
+  }
+}

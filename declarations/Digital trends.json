@@ -1,0 +1,13 @@
+{
+  "name": "Digital trends",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dtmg.co/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.digitaltrends.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

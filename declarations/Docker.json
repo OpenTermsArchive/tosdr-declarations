@@ -1,0 +1,21 @@
+{
+  "name": "Docker",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.docker.com/legal/docker-subscription-service-agreement/",
+      "select": "article > div > div > div > div:nth-of-type(3)"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://www.docker.com/legal/docker-software-evaluation-agreement",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.docker.com/legal/trademark-guidelines",
+      "select": "article > div > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.docker.com/wp-content/uploads/2022/03/2022-Docker-EU-UK-SCC-Data-Processing-Agreement.pdf",
+      "select": "body"
+    }
+  }
+}

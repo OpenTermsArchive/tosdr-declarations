@@ -1,0 +1,13 @@
+{
+  "name": "Lincoln national corporation",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lfg.com/public/legal/terms",
+      "select": "html > body > div:first-of-type > main > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lfg.com/public/privacy/onlineprivacypolicy",
+      "select": "html > body > div:first-of-type > main > section"
+    }
+  }
+}

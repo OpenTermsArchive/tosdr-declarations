@@ -1,0 +1,9 @@
+{
+  "name": "Admozart",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.admozart.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

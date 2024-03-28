@@ -1,0 +1,13 @@
+{
+  "name": "Extreme discount depot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://extremediscountdepot.com/v1/offers/freedeals-limit-1/page-privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://extremediscountdepot.com/v1/offers/freedeals-limit-1/page-terms.php",
+      "select": "body"
+    }
+  }
+}

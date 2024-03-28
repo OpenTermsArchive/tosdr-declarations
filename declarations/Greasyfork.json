@@ -1,0 +1,9 @@
+{
+  "name": "Greasyfork",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://greasyfork.org/en/help/privacy",
+      "select": "body"
+    }
+  }
+}

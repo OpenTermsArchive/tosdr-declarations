@@ -1,0 +1,25 @@
+{
+  "name": "Tango live",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tango.me/terms-of-use",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.tango.me/dsa-information",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tango.me/privacy-policy",
+      "select": "body"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://www.tango.me/broadcaster-agreement",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.tango.me/copyright",
+      "select": "body"
+    }
+  }
+}

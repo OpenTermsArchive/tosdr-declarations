@@ -1,0 +1,33 @@
+{
+  "name": "Here technologies",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://legal.here.com/en-gb/privacy/here-tracking-reference-apps-privacy-supplement",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Other": {
+      "fetch": "https://legal.here.com/en-gb/terms/here-technologies",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://legal.here.com/en-gb/terms",
+      "select": "html > body > div:first-of-type > div > div > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://legal.here.com/en-gb/privacy/mobility-products-privacy-policy",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://legal.here.com/en-gb/terms/online-safety-guidelines",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://legal.here.com/en-gb/terms/acceptable-use-policy",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://legal.here.com/en-gb/privacy/here-mobility-products-supplemental-privacy-notice",
+      "select": "html > body > div:first-of-type > div > div > article"
+    }
+  }
+}

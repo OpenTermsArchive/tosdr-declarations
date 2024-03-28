@@ -1,0 +1,17 @@
+{
+  "name": "Bittorrent",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bittorrent.com/legal/eula/",
+      "select": "html > body > div > div:first-of-type > div:first-of-type > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bittorrent.com/legal/privacy",
+      "select": "html > body > div > div:first-of-type > div:first-of-type > main"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.bittorrent.com/legal/copyright/",
+      "select": "html > body > div > div:first-of-type > div:first-of-type > main"
+    }
+  }
+}

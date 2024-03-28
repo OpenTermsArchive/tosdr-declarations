@@ -1,0 +1,17 @@
+{
+  "name": "Interview stream",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://interviewstream.com/company/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://interviewstream.com/company/terms-of-service/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://interviewstream.com/company/cookie-policy/",
+      "select": null
+    }
+  }
+}

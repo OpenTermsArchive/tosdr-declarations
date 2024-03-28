@@ -1,0 +1,13 @@
+{
+  "name": "Dollywood foundation imagination library by dolly parton",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://imaginationlibrary.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://imaginationlibrary.com/terms-and-conditions/",
+      "select": null
+    }
+  }
+}

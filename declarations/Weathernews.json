@@ -1,0 +1,13 @@
+{
+  "name": "Weathernews",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://jp.weathernews.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://jp.weathernews.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

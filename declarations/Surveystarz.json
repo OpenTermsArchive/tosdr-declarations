@@ -1,0 +1,13 @@
+{
+  "name": "Surveystarz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.surveystarz.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.surveystarz.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

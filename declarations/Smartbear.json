@@ -1,0 +1,13 @@
+{
+  "name": "Smartbear",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://smartbear.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://smartbear.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

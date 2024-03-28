@@ -1,0 +1,13 @@
+{
+  "name": "Coinsbee",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://coinsbee.com/en/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://coinsbee.com/en/privacy",
+      "select": "body"
+    }
+  }
+}

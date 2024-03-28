@@ -1,0 +1,13 @@
+{
+  "name": "Similarweb",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.similarweb.com/corp/legal/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.similarweb.com/corp/legal/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

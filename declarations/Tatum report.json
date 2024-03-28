@@ -1,0 +1,9 @@
+{
+  "name": "Tatum report",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tatumreport.com/?page_id=160",
+      "select": "body"
+    }
+  }
+}

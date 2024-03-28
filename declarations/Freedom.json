@@ -1,0 +1,13 @@
+{
+  "name": "Freedom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://freedom.to/privacy",
+      "select": "html > body > main > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://freedom.to/terms",
+      "select": "html > body > main > div > div > div"
+    }
+  }
+}

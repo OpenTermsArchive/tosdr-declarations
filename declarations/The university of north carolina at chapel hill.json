@@ -1,0 +1,9 @@
+{
+  "name": "The university of north carolina at chapel hill",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.unc.edu/about/privacy-statement/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Restaurantcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.restaurant.com/about/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.restaurant.com/about/privacy",
+      "select": "body"
+    }
+  }
+}

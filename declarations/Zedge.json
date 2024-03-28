@@ -1,0 +1,21 @@
+{
+  "name": "Zedge",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.zedge.net/hc/en-us/articles/360028513632",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.zedge.net/hc/en-us/articles/360028512312",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://help.zedge.net/hc/en-us/articles/360025274311",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.zedge.net/hc/en-us/articles/360028821051",
+      "select": "body"
+    }
+  }
+}

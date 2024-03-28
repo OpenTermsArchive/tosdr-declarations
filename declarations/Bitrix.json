@@ -1,0 +1,13 @@
+{
+  "name": "Bitrix",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bitrix24.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bitrix24.com/terms/",
+      "select": "body"
+    }
+  }
+}

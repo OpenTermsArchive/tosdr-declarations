@@ -1,0 +1,17 @@
+{
+  "name": "Vex robotics",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.iubenda.com/terms-and-conditions/89449486",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vexrobotics.com/software-privacy-policy",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/89449486/cookie-policy",
+      "select": "body"
+    }
+  }
+}

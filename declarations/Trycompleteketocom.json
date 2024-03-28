@@ -1,0 +1,13 @@
+{
+  "name": "Trycompleteketocom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://trycompleteketo.com/static/components/modal/de/popup-privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://trycompleteketo.com/static/components/modal/de/popup-terms.html",
+      "select": "body"
+    }
+  }
+}

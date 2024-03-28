@@ -1,0 +1,13 @@
+{
+  "name": "Edmodo",
+  "documents": {
+    "Spam": {
+      "fetch": "https://www.optimum-wellness.net",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://go.edmodo.com/terms-of-service/",
+      "select": " > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(9) > ol > li:nth-of-type(2)"
+    }
+  }
+}

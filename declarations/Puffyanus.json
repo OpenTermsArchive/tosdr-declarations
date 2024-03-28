@@ -1,0 +1,9 @@
+{
+  "name": "Puffyanus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vid.puffyan.us/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Hackenproof",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hackenproof.com/pages/policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://hackenproof.com/pages/terms",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

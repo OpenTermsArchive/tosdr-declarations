@@ -1,0 +1,13 @@
+{
+  "name": "Tapfiliate bv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tapfiliate.com/privacy/privacy-policy/",
+      "select": "html > body > div:first-of-type > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://tapfiliate.com/tos/",
+      "select": "html > body > div:first-of-type > section"
+    }
+  }
+}

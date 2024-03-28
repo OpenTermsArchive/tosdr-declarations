@@ -1,0 +1,21 @@
+{
+  "name": "Eufy",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://us.eufy.com/pages/cookie-notice?ref=footer",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://us.eufy.com/policies/refund-policy?ref=footer",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://us.eufy.com/policies/privacy-policy?ref=footer",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://us.eufy.com/policies/terms-of-service?ref=footer",
+      "select": "html > body > div:nth-of-type(6)"
+    }
+  }
+}

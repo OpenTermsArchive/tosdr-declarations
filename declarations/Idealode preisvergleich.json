@@ -1,0 +1,9 @@
+{
+  "name": "Idealode preisvergleich",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.idealo.de/preisvergleich/Datenschutz.html",
+      "select": "body"
+    }
+  }
+}

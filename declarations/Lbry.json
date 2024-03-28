@@ -1,0 +1,13 @@
+{
+  "name": "Lbry",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lbry.com/privacypolicy",
+      "select": "html > body > main > section:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://lbry.com/termsofservice",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Undertheboard",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://undertheboard.com/legal/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://undertheboard.com/legal/private.html",
+      "select": "body"
+    }
+  }
+}

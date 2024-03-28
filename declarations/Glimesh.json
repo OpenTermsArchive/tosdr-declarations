@@ -1,0 +1,13 @@
+{
+  "name": "Glimesh",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://glimesh.tv/about/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://glimesh.tv/about/terms",
+      "select": null
+    }
+  }
+}

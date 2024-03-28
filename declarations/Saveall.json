@@ -1,0 +1,13 @@
+{
+  "name": "Saveall",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://saveall.ai/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://saveall.ai/privacy",
+      "select": "body"
+    }
+  }
+}

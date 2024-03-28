@@ -1,0 +1,17 @@
+{
+  "name": "Peep show toys",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.peepshowtoys.com/policies/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.peepshowtoys.com/policies/privacy-policy",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.peepshowtoys.com/policies/refund-policy",
+      "select": null
+    }
+  }
+}

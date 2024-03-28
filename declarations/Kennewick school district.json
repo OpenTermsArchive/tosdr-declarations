@@ -1,0 +1,9 @@
+{
+  "name": "Kennewick school district",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ksd.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

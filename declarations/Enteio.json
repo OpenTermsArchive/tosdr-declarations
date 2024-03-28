@@ -1,0 +1,13 @@
+{
+  "name": "Enteio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ente.io/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://ente.io/terms/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > div:nth-of-type(3)"
+    }
+  }
+}

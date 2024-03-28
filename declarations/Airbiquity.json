@@ -1,0 +1,13 @@
+{
+  "name": "Airbiquity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.airbiquity.com/company/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.airbiquity.com/company/terms-use ",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "South dakota school for the deaf",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sddeaf.org/Privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://sddeaf.org/Terms",
+      "select": "body"
+    }
+  }
+}

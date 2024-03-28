@@ -1,0 +1,17 @@
+{
+  "name": "Linuxhostsupport",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://linuxhostsupport.com/tos.html",
+      "select": "html > body > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://linuxhostsupport.com/cookies.html",
+      "select": "html > body > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://linuxhostsupport.com/privacy.html",
+      "select": "html > body > section"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Poshmark",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://poshmark.com/privacy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://poshmark.com/copyright",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://poshmark.com/terms",
+      "select": "body"
+    }
+  }
+}

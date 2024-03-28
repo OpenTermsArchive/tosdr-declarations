@@ -1,0 +1,17 @@
+{
+  "name": "Amino",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://narvii.com/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://support.aminoapps.com/hc/en-us/articles/360004040313-Does-Amino-use-cookies-on-its-website-",
+      "select": " > article > section:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://narvii.com/tos.html",
+      "select": "body"
+    }
+  }
+}

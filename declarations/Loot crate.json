@@ -1,0 +1,13 @@
+{
+  "name": "Loot crate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lootcrate.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://lootcrate.com/pages/special-terms",
+      "select": "body"
+    }
+  }
+}

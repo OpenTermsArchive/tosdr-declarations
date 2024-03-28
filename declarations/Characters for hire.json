@@ -1,0 +1,9 @@
+{
+  "name": "Characters for hire",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://charactersforhire.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

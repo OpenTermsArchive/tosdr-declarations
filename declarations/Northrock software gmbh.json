@@ -1,0 +1,9 @@
+{
+  "name": "Northrock software gmbh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://northrock.software/privacy/",
+      "select": "body"
+    }
+  }
+}

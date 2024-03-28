@@ -1,0 +1,17 @@
+{
+  "name": "Salesfire",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.salesfire.co.uk/policies/privacy-policy.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.salesfire.co.uk/policies/cookie-policy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.salesfire.co.uk/policies/terms-and-conditions.pdf",
+      "select": "body"
+    }
+  }
+}

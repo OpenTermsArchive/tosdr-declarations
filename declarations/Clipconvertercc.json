@@ -1,0 +1,9 @@
+{
+  "name": "Clipconvertercc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.clipconverter.cc/terms/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Obscurify music",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://spotiparel.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://spotiparel.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://spotiparel.com/shipping-and-returns/",
+      "select": "body"
+    }
+  }
+}

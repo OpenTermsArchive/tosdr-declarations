@@ -1,0 +1,13 @@
+{
+  "name": "Stibarc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://stibarc.com/privacy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://stibarc.com/tos.html",
+      "select": null
+    }
+  }
+}

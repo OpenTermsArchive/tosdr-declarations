@@ -1,0 +1,13 @@
+{
+  "name": "000webhost",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.000webhost.com:443/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.000webhost.com/term-page",
+      "select": "body"
+    }
+  }
+}

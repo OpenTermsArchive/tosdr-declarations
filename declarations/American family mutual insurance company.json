@@ -1,0 +1,13 @@
+{
+  "name": "American family mutual insurance company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.amfam.com/privacy-security",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.amfam.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

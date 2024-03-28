@@ -1,0 +1,13 @@
+{
+  "name": "Instacart",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.instacart.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.instacart.com/terms",
+      "select": "body"
+    }
+  }
+}

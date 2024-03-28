@@ -1,0 +1,17 @@
+{
+  "name": "Indiegogo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.indiegogo.com/about/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.indiegogo.com/about/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.indiegogo.com/about/cookies",
+      "select": "body"
+    }
+  }
+}

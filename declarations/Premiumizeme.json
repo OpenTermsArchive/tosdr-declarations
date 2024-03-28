@@ -1,0 +1,9 @@
+{
+  "name": "Premiumizeme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.premiumize.me/legal",
+      "select": "body"
+    }
+  }
+}

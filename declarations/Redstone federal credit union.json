@@ -1,0 +1,13 @@
+{
+  "name": "Redstone federal credit union",
+  "documents": {
+    "Telephone Communication Guidelines": {
+      "fetch": "https://open.redfcu.org/redfcu/oa/ApplicantNew.aspx",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.redfcu.org/helpful-links/privacy-and-security/",
+      "select": null
+    }
+  }
+}

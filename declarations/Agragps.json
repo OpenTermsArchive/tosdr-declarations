@@ -1,0 +1,17 @@
+{
+  "name": "Agragps",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.agra-gps.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.agra-gps.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.agra-gps.com/privacy-statement",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Inkscape",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://inkscape.org/about/privacy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://inkscape.org/community/coc/",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

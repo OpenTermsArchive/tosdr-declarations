@@ -1,0 +1,17 @@
+{
+  "name": "Deputy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.deputy.com/terms/product-specific-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.deputy.com/terms/data-processing-addendum",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.deputy.com/terms/acceptable-use-policy",
+      "select": "body"
+    }
+  }
+}

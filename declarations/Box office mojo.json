@@ -1,0 +1,13 @@
+{
+  "name": "Box office mojo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.boxofficemojo.com/privacy/?ref_=bo_ft_hm_privacy",
+      "select": "html > body > div:first-of-type > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.boxofficemojo.com/conditions/?ref_=bo_ft_hm_conditions",
+      "select": "html > body > div:first-of-type > main > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Qmee",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.qmee.com/en-us/privacy-notice#",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.qmee.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

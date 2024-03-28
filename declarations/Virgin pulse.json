@@ -1,0 +1,17 @@
+{
+  "name": "Virgin pulse",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.virginpulse.com/legal/membership-agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.virginpulse.com/legal/data-processing-consent/",
+      "select": "#content"
+    },
+    "Legal Information": {
+      "fetch": "https://www.virginpulse.com/privacy-notice/",
+      "select": null
+    }
+  }
+}

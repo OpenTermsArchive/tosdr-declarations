@@ -1,0 +1,17 @@
+{
+  "name": "Box",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.box.com/legal/privacypolicy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.box.com/legal/cookie-notification",
+      "select": " > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.box.com/legal/termsofservice/",
+      "select": "body"
+    }
+  }
+}

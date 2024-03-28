@@ -1,0 +1,9 @@
+{
+  "name": "Quality logo products",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.qualitylogoproducts.com/faq/privacy-policy-and-security-statement.htm",
+      "select": "body"
+    }
+  }
+}

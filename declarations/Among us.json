@@ -1,0 +1,13 @@
+{
+  "name": "Among us",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://among-us.io/privacy-policy/",
+      "select": "html > body > div:first-of-type > section:first-of-type > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://among-us.io/terms-of-use/",
+      "select": "html > body > div:first-of-type > section:first-of-type > div > div:nth-of-type(2) > div"
+    }
+  }
+}

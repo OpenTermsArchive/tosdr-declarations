@@ -1,0 +1,9 @@
+{
+  "name": "Neuber software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.neuber.com/download/privacy.html",
+      "select": "body"
+    }
+  }
+}

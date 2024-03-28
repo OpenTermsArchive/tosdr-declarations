@@ -1,0 +1,13 @@
+{
+  "name": "Safevpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://securesafevpn.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://securesafevpn.com/terms/",
+      "select": "body"
+    }
+  }
+}

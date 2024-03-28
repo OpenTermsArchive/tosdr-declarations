@@ -1,0 +1,17 @@
+{
+  "name": "Vovsoft",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://vovsoft.com/dmca/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://vovsoft.com/eula",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vovsoft.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

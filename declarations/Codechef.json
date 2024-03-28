@@ -1,0 +1,13 @@
+{
+  "name": "Codechef",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.codechef.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.codechef.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

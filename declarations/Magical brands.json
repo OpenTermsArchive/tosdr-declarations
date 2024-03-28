@@ -1,0 +1,17 @@
+{
+  "name": "Magical brands",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://magicalbutter.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://magicalbutter.com/policies/terms-of-service",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://magicalbutter.com/policies/refund-policy",
+      "select": "body"
+    }
+  }
+}

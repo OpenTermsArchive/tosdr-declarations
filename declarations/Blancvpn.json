@@ -1,0 +1,13 @@
+{
+  "name": "Blancvpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://blancvpn.com/terms-of-service",
+      "select": "html > body > div:nth-of-type(2) > main > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://blancvpn.com/privacy-policy",
+      "select": "html > body > div:first-of-type > main > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Kitco",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://online.kitco.com/legal/terms-and-conditions/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://online.kitco.com/legal/privacy-policy/",
+      "select": "html > body > header > nav:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(9) > div"
+    }
+  }
+}

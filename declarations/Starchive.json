@@ -1,0 +1,13 @@
+{
+  "name": "Starchive",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.starchive.io/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.starchive.io/privacy-notice/",
+      "select": "body"
+    }
+  }
+}

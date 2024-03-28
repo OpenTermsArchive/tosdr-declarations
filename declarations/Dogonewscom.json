@@ -1,0 +1,21 @@
+{
+  "name": "Dogonewscom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.dogonews.com/pages/cookie-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dogonews.com/pages/terms-and-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dogonews.com/pages/privacy-policy",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.dogonews.com/pages/copyright-policy",
+      "select": null
+    }
+  }
+}

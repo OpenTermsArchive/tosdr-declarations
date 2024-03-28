@@ -1,0 +1,13 @@
+{
+  "name": "Usa peoplesearch",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.usa-people-search.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.usa-people-search.com/privacy",
+      "select": "body"
+    }
+  }
+}

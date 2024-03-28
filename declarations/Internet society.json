@@ -1,0 +1,25 @@
+{
+  "name": "Internet society",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.internetsociety.org/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.internetsociety.org/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.internetsociety.org/privacy-policy/cookie-policy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.internetsociety.org/dmca-policy/",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.internetsociety.org/sharing-our-content/",
+      "select": "body"
+    }
+  }
+}

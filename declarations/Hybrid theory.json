@@ -1,0 +1,9 @@
+{
+  "name": "Hybrid theory",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://hybridtheory.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

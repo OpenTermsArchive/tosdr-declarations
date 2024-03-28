@@ -1,0 +1,13 @@
+{
+  "name": "Seamless chex",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.seamlesschex.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.seamlesschex.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Abrazo medical group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://abrazomedicalgroup.com/patient-resources/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://abrazomedicalgroup.com/patient-resources/terms-of-use/",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://abrazomedicalgroup.com/notice-of-privacy-practices/",
+      "select": null
+    }
+  }
+}

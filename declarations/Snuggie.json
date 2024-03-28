@@ -1,0 +1,9 @@
+{
+  "name": "Snuggie",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://snuggiestore.com/pages/privacy-policy",
+      "select": "html > body > main > article > div"
+    }
+  }
+}

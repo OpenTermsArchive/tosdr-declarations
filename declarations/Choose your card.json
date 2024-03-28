@@ -1,0 +1,17 @@
+{
+  "name": "Choose your card",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://chooseyourcard.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://chooseyourcard.com/privacy-policy/",
+      "select": "body"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://chooseyourcard.com/cardholder-agreement",
+      "select": "body"
+    }
+  }
+}

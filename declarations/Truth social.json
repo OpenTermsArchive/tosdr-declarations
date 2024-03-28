@@ -1,0 +1,13 @@
+{
+  "name": "Truth social",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://truthsocial.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.truthsocial.com/legal/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

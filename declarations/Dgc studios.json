@@ -1,0 +1,9 @@
+{
+  "name": "Dgc studios",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://davidgameco.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

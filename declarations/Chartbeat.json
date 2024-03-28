@@ -1,0 +1,13 @@
+{
+  "name": "Chartbeat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://chartbeat.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://chartbeat.com/data-protection/",
+      "select": "body"
+    }
+  }
+}

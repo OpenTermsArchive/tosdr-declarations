@@ -1,0 +1,13 @@
+{
+  "name": "Netlify",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.netlify.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.netlify.com/legal/self-serve-subscription-agreement/",
+      "select": "body"
+    }
+  }
+}

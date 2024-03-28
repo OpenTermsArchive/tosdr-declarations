@@ -1,0 +1,13 @@
+{
+  "name": "Toucan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://jointoucan.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://jointoucan.com/privacy-legalese",
+      "select": "body"
+    }
+  }
+}

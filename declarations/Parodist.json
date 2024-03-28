@@ -1,0 +1,17 @@
+{
+  "name": "Parodist",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://parodist.ai/politics_eng",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://parodist.ai/rules_en",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://parodist.ai/legal_explanation",
+      "select": null
+    }
+  }
+}

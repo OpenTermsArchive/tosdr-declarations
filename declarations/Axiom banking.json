@@ -1,0 +1,13 @@
+{
+  "name": "Axiom banking",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://axiombank.wpengine.com/wp-content/uploads/2022/02/Axiom-Bank-Privacy-Policy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.axiombanking.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

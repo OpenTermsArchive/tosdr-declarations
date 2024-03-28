@@ -1,0 +1,17 @@
+{
+  "name": "Identrust",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.identrust.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.identrust.com/privacy.html",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.identrust.com/subject-access-request-sar",
+      "select": "body"
+    }
+  }
+}

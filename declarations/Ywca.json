@@ -1,0 +1,9 @@
+{
+  "name": "Ywca",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ywca.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

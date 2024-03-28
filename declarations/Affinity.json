@@ -1,0 +1,13 @@
+{
+  "name": "Affinity",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://affinity.serif.com/en-us/privacy/",
+      "select": " > div > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://affinity.serif.com/en-us/terms/",
+      "select": " > div > section > div"
+    }
+  }
+}

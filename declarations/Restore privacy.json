@@ -1,0 +1,13 @@
+{
+  "name": "Restore privacy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://restoreprivacy.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://restoreprivacy.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

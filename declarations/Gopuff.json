@@ -1,0 +1,13 @@
+{
+  "name": "Gopuff",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gopuff.com/go/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://gopuff.com/go/privacy-agreement",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > main > div"
+    }
+  }
+}

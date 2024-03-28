@@ -1,0 +1,9 @@
+{
+  "name": "Aacp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.aacfp.org/ams/legal-privacy.htm",
+      "select": "body"
+    }
+  }
+}

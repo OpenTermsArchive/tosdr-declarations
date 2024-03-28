@@ -1,0 +1,17 @@
+{
+  "name": "Heo blog",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://blog.zhheo.com/cc/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://blog.zhheo.com/cookies/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://blog.zhheo.com/privacy/",
+      "select": "body"
+    }
+  }
+}

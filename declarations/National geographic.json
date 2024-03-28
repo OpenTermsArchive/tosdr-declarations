@@ -1,0 +1,17 @@
+{
+  "name": "National geographic",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nationalgeographic.org/privacy-notice/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nationalgeographic.org/terms-of-service/",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.nationalgeographic.org/sustainability-policy/",
+      "select": null
+    }
+  }
+}

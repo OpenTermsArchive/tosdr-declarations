@@ -1,0 +1,13 @@
+{
+  "name": "Conjuguemos",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://conjuguemos.com/privacy",
+      "select": "html > body > div:nth-of-type(5)"
+    },
+    "Terms of Service": {
+      "fetch": "https://conjuguemos.com/terms",
+      "select": "html > body > div:nth-of-type(5)"
+    }
+  }
+}

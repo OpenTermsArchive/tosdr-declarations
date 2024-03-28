@@ -1,0 +1,9 @@
+{
+  "name": "Cougar mountain software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cougarmtn.com/terms-privacy",
+      "select": "body"
+    }
+  }
+}

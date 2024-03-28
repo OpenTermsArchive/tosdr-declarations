@@ -1,0 +1,17 @@
+{
+  "name": "Intercultural development inventory",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.idiinventory.com/policies-licensing/idi-llc-terms-of-services",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.idiinventory.com/policies-licensing/idi-llc-refund-policy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.idiinventory.com/policies-licensing/idi-llc-privacy-policy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div"
+    }
+  }
+}

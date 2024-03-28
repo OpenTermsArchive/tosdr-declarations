@@ -1,0 +1,17 @@
+{
+  "name": "Cozytv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cozy.tv/policies/?info=privacy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://cozy.tv/policies/?info=dmca",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cozy.tv/policies/?info=tos",
+      "select": "body"
+    }
+  }
+}

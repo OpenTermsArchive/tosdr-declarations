@@ -1,0 +1,9 @@
+{
+  "name": "Lockstock",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lockandstock.app/privacy-policy",
+      "select": "html > body > section > section > div > div"
+    }
+  }
+}

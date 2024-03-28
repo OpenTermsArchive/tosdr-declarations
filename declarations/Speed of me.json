@@ -1,0 +1,13 @@
+{
+  "name": "Speed of me",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://speedof.me/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://speedof.me/terms.html",
+      "select": "body"
+    }
+  }
+}

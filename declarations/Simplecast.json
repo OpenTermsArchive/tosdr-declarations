@@ -1,0 +1,13 @@
+{
+  "name": "Simplecast",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://simplecast.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://simplecast.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

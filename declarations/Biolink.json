@@ -1,0 +1,13 @@
+{
+  "name": "Biolink",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.bio.link/en/articles/5306279-bio-link-privacy-policy",
+      "select": "html > body > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.bio.link/en/articles/5340768-terms-and-conditions",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

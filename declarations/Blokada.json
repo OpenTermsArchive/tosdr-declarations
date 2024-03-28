@@ -1,0 +1,13 @@
+{
+  "name": "Blokada",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://community.blokada.org/t/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://community.blokada.org/t/privacy-policy",
+      "select": "body"
+    }
+  }
+}

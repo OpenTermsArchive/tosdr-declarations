@@ -1,0 +1,13 @@
+{
+  "name": "Enpass",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.enpass.io/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.enpass.io/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Too good to go",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://toogoodtogo.com/en-us/terms-and-conditions",
+      "select": "main > div > div > section > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://toogoodtogo.com/en-us/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > div > main > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://toogoodtogo.com/en-us/cookie-policy",
+      "select": "html > body > div:nth-of-type(2) > div > div > main > div"
+    }
+  }
+}

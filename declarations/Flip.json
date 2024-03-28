@@ -1,0 +1,13 @@
+{
+  "name": "Flip",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://info.flip.com/about/trust-and-safety/terms-of-use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://info.flip.com/about/trust-and-safety/privacy-policy.html",
+      "select": null
+    }
+  }
+}

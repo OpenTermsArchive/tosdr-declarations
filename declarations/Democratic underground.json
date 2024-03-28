@@ -1,0 +1,13 @@
+{
+  "name": "Democratic underground",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.democraticunderground.com/?com=privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.democraticunderground.com/?com=termsofservice",
+      "select": "body"
+    }
+  }
+}

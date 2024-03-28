@@ -1,0 +1,13 @@
+{
+  "name": "Nookazon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://nookazon.com/termsofservice",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://nookazon.com/privacypolicy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

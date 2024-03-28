@@ -1,0 +1,17 @@
+{
+  "name": "1105media",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://1105media.com/privacy.aspx",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://1105media.com/pages/terms-of-use.aspx",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://1105media.com/pages/cookie-policy.aspx",
+      "select": "body"
+    }
+  }
+}

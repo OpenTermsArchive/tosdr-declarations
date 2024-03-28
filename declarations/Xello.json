@@ -1,0 +1,13 @@
+{
+  "name": "Xello",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://xello.world/en-gb/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://xello.world/en/terms/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Craigslist",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.craigslist.org/about/terms.of.use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.craigslist.org/about/privacy.policy",
+      "select": null
+    }
+  }
+}

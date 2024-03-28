@@ -1,0 +1,9 @@
+{
+  "name": "Online uuid generator tool",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.uuidgenerator.net/privacy_policy",
+      "select": "body"
+    }
+  }
+}

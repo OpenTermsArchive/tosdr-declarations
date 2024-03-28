@@ -1,0 +1,9 @@
+{
+  "name": "Enrollvb",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.enrollvb.com/privacy.aspx",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Miniclip",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.miniclip.com/games/page/en/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.miniclip.com/games/page/en/terms-and-conditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.miniclip.com/cookie-policy",
+      "select": "html > body > div:first-of-type > div > div > div > article"
+    }
+  }
+}

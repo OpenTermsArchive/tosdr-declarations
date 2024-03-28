@@ -1,0 +1,17 @@
+{
+  "name": "Zendesk",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.zendesk.com/company/customers-partners/terms-of-use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.zendesk.com/company/customers-partners/privacy-policy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.zendesk.com/company/policies-procedures/cookie-policy/",
+      "select": null
+    }
+  }
+}

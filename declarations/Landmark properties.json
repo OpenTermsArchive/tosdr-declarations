@@ -1,0 +1,13 @@
+{
+  "name": "Landmark properties",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.landmarkproperties.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.landmarkproperties.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

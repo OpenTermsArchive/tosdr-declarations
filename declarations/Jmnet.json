@@ -1,0 +1,13 @@
+{
+  "name": "Jmnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jm26.net/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://jm26.net/tos",
+      "select": "body"
+    }
+  }
+}

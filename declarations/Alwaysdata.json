@@ -1,0 +1,9 @@
+{
+  "name": "Alwaysdata",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.alwaysdata.com//en/terms-and-legal",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Blitz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://blitz.gg/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://blitz.gg/privacy-policy",
+      "select": "body"
+    }
+  }
+}

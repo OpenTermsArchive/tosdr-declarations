@@ -1,0 +1,17 @@
+{
+  "name": "Pocket casts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://support.pocketcasts.com/article/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > section > div > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://support.pocketcasts.com/article/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > section > div > article > div"
+    },
+    "Other": {
+      "fetch": "https://consumerscompanion.com/",
+      "select": "body"
+    }
+  }
+}

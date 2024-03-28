@@ -1,0 +1,9 @@
+{
+  "name": "Driverge vehicle innovations",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.driverge.com/support/general-disclaimer/",
+      "select": null
+    }
+  }
+}

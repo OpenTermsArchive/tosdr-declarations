@@ -1,0 +1,9 @@
+{
+  "name": "Timeular",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://timeular.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

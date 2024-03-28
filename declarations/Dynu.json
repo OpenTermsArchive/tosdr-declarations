@@ -1,0 +1,13 @@
+{
+  "name": "Dynu",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.dynu.com/en-US/Legal/TermsOfUse",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dynu.com/en-US/Legal/PrivacyPolicy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Thetechieguycom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thetechieguy.com/about-thetechieguy/thetechieguy-privacy-policy/amp/",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://thetechieguy.com/about-thetechieguy/disclosure-policy/amp",
+      "select": "body"
+    }
+  }
+}

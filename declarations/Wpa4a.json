@@ -1,0 +1,17 @@
+{
+  "name": "Wpa4a",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://wpa4a.org/shipping-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wpa4a.org/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wpa4a.org/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

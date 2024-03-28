@@ -1,0 +1,13 @@
+{
+  "name": "Chilliapps  abandonment protector",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.chilliapps.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://unroll.chilliapps.com/followup/delete_information",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

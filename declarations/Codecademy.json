@@ -1,0 +1,13 @@
+{
+  "name": "Codecademy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.codecademy.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.codecademy.com/policy",
+      "select": "body"
+    }
+  }
+}

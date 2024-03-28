@@ -1,0 +1,9 @@
+{
+  "name": "Lew rockwells lrc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lewrockwell.com/privacy/",
+      "select": null
+    }
+  }
+}

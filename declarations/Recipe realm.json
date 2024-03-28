@@ -1,0 +1,13 @@
+{
+  "name": "Recipe realm",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://recipe-realm.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://recipe-realm.com/privacy",
+      "select": "body"
+    }
+  }
+}

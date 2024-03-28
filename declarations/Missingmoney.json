@@ -1,0 +1,13 @@
+{
+  "name": "Missingmoney",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.missingmoney.com/en/Home/Privacy",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.missingmoney.com/en/Home/TOS",
+      "select": "html > body > div:first-of-type > main > div"
+    }
+  }
+}

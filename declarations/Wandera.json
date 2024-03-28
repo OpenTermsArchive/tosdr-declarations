@@ -1,0 +1,9 @@
+{
+  "name": "Wandera",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wandera.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

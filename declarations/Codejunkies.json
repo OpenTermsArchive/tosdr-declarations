@@ -1,0 +1,21 @@
+{
+  "name": "Codejunkies",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.codejunkies.com/Cookies.aspx",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.codejunkies.com/Privacy.aspx",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.codejunkies.com/ReturnForm.aspx",
+      "select": "html > body > form > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.codejunkies.com/Terms.aspx",
+      "select": "html > body > form > div:nth-of-type(4)"
+    }
+  }
+}

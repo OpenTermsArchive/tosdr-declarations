@@ -1,0 +1,17 @@
+{
+  "name": "Prolific",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://prolific.notion.site/More-data-protection-information-c111bbbf46af49afb1e0196831b8da4b",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://prolific.notion.site/Legal-Terms-6d8778b5935642f5929a65f1221610d2",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://prolific.notion.site/Cookies-7c57db9bb9064cf78bc988ad364a0aac",
+      "select": "body"
+    }
+  }
+}

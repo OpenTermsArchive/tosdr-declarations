@@ -1,0 +1,13 @@
+{
+  "name": "Teaching channel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.teachingchannel.com/privacy-policy/",
+      "select": "html > body > main > div > div:first-of-type > div > div > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.teachingchannel.com/terms-of-use-and-copyright-terms/",
+      "select": "body"
+    }
+  }
+}

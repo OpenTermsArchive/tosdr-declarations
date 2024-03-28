@@ -1,0 +1,13 @@
+{
+  "name": "Money prodigy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.moneyprodigy.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.moneyprodigy.com/terms/",
+      "select": null
+    }
+  }
+}

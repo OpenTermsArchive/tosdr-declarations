@@ -1,0 +1,13 @@
+{
+  "name": "Vdxtv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vdx.tv/policies",
+      "select": "body"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://vdx.tv/safety-guidelines/",
+      "select": "body"
+    }
+  }
+}

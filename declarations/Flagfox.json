@@ -1,0 +1,13 @@
+{
+  "name": "Flagfox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flagfox.net/ucp.php?mode=privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://flagfox.net/ucp.php?mode=terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

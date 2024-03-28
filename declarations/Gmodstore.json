@@ -1,0 +1,13 @@
+{
+  "name": "Gmodstore",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gmodstore.com/legal/market",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gmodstore.com/legal/privacy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

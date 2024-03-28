@@ -1,0 +1,9 @@
+{
+  "name": "Randomorg",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.random.org/terms/2020-08-01/privacy",
+      "select": "body"
+    }
+  }
+}

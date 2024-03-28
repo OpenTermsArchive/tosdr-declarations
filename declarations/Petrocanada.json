@@ -1,0 +1,13 @@
+{
+  "name": "Petrocanada",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.petro-canada.ca/en/legal-privacy",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.petro-canada.ca/en/legal-privacy",
+      "select": " > section > div:nth-of-type(3) > div > div:nth-of-type(3)"
+    }
+  }
+}

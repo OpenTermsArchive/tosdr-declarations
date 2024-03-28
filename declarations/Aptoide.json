@@ -1,0 +1,17 @@
+{
+  "name": "Aptoide",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://en.aptoide.com/company/legal?section=privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://en.aptoide.com/company/legal?section=cookie",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://en.aptoide.com/company/legal?section=terms",
+      "select": "body"
+    }
+  }
+}

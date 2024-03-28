@@ -1,0 +1,13 @@
+{
+  "name": "Great wolf resorts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.greatwolf.com/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.greatwolf.com/cookie-policy",
+      "select": "body"
+    }
+  }
+}

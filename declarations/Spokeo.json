@@ -1,0 +1,13 @@
+{
+  "name": "Spokeo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.spokeo.com/terms-of-use-consumer",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spokeo.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

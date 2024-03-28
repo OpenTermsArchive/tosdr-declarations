@@ -1,0 +1,13 @@
+{
+  "name": "Lcpdfr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lcpdfr.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lcpdfr.com/privacy/",
+      "select": "body"
+    }
+  }
+}

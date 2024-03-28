@@ -1,0 +1,13 @@
+{
+  "name": "Anime music quiz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://animemusicquiz.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://animemusicquiz.com/legal/tos",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Topinvestingtips",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://topinvestingtips.com/privacy-policy.php?nm=topinvestingtips.com",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://topinvestingtips.com/terms-and-conditions.php?nm=topinvestingtips.com",
+      "select": "body"
+    }
+  }
+}

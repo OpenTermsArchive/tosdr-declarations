@@ -1,0 +1,13 @@
+{
+  "name": "Ej technologies",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ej-technologies.com/company/privacy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ej-technologies.com/company/terms.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Audioboom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://audioboom.com/about/cookies",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4) > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://audioboom.com/about/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://audioboom.com/about/terms/3",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4) > div > div > div > div"
+    }
+  }
+}

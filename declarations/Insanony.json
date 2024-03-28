@@ -1,0 +1,13 @@
+{
+  "name": "Insanony",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://insanony.com/privacy-policy",
+      "select": "html > body > div:first-of-type > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://insanony.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

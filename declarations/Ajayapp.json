@@ -1,0 +1,13 @@
+{
+  "name": "Ajayapp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gist.githubusercontent.com/ajayyy/9bfec83d57ea34f5182658ec8445aa9d/raw/0e67f776e6a126b45e5d6b0942082f2fd763c5bb/DeArrow%2520Privacy%2520Policy.md",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://gist.githubusercontent.com/ajayyy/9e8100f069348e0bc062641f34d6af12/raw/0607b2b819210c55198bcca1c5b2b227845f7441/SponsorBlock%2520Terms%2520of%2520Use.MD",
+      "select": "body"
+    }
+  }
+}

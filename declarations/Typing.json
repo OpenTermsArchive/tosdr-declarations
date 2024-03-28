@@ -1,0 +1,9 @@
+{
+  "name": "Typing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.typing.com/privacypolicy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Handycafe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.handycafe.com/policy.php",
+      "select": "body"
+    }
+  }
+}

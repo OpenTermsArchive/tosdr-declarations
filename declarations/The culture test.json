@@ -1,0 +1,13 @@
+{
+  "name": "The culture test",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://theculturetest.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://theculturetest.com/terms",
+      "select": "body"
+    }
+  }
+}

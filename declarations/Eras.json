@@ -1,0 +1,13 @@
+{
+  "name": "Eras",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.eras.co.uk/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.eras.co.uk/cookie-policy",
+      "select": "body"
+    }
+  }
+}

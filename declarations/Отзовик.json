@@ -1,0 +1,17 @@
+{
+  "name": "Отзовик",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://otzovik.com/termofuse.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://otzovik.com/term.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://otzovik.com/policy.php",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Okwow",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://okwow.com/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://okwow.com/privacy/",
+      "select": null
+    }
+  }
+}

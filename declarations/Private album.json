@@ -1,0 +1,13 @@
+{
+  "name": "Private album",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.photovault.cn/pv/privacy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.photovault.cn/pv/terms.pdf",
+      "select": "body"
+    }
+  }
+}

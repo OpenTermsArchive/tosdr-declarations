@@ -1,0 +1,9 @@
+{
+  "name": "Daymap",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://daymapguides.blob.core.windows.net/externalshared/Loop%20Software%20Daymap%20Privacy%20Policy.pdf?sp=r&st=2020-03-02T01:52:58Z&se=2025-03-02T09:52:58Z&spr=https&sv=2019-02-02&sr=b&sig=Tn1rALJDUtE%2F78Rv%2B%2FEGApZ0OLfNsFIPIsCaPN1SyZ0%3D",
+      "select": "body"
+    }
+  }
+}

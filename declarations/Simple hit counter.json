@@ -1,0 +1,9 @@
+{
+  "name": "Simple hit counter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://simplehitcounter.com/terms.php",
+      "select": "html > body > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2)"
+    }
+  }
+}

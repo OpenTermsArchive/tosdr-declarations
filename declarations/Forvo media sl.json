@@ -1,0 +1,13 @@
+{
+  "name": "Forvo media sl",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://forvo.com/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(5) > div > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://forvo.com/privacy/",
+      "select": null
+    }
+  }
+}

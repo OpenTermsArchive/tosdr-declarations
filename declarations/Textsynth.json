@@ -1,0 +1,13 @@
+{
+  "name": "Textsynth",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://textsynth.com/privacy.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://textsynth.com/tos.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

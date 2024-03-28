@@ -1,0 +1,13 @@
+{
+  "name": "Homewindowprices",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.homewindowprices.org/modals/terms/index.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.homewindowprices.org/modals/privacy/index.html",
+      "select": "body"
+    }
+  }
+}

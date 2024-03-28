@@ -1,0 +1,13 @@
+{
+  "name": "Weber",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.weber.com/US/en/legalnotice.html ",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.weber.com/US/en/privacypolicy.html",
+      "select": "body"
+    }
+  }
+}

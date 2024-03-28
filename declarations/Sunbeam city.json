@@ -1,0 +1,9 @@
+{
+  "name": "Sunbeam city",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sunbeam.city/terms",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    }
+  }
+}

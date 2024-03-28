@@ -1,0 +1,13 @@
+{
+  "name": "Geniee inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://geniee.co.jp/pdf/PMS_2_privacy_policy_20211118.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://geniee.co.jp/doc/terms_of_service_en.pdf",
+      "select": "body"
+    }
+  }
+}

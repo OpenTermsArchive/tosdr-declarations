@@ -1,0 +1,13 @@
+{
+  "name": "Abbvie",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.abbvie.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.abbvie.com/termsofuse.html",
+      "select": "body"
+    }
+  }
+}

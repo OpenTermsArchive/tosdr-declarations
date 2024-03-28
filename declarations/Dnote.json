@@ -1,0 +1,9 @@
+{
+  "name": "Dnote",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.getdnote.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

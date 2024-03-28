@@ -1,0 +1,9 @@
+{
+  "name": "Battle for the net",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.battleforthenet.com/privacy",
+      "select": "body"
+    }
+  }
+}

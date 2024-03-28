@@ -1,0 +1,9 @@
+{
+  "name": "Foxp1 foundation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.foxp1.org/_files/ugd/579f39_14497dc343bd4fdb80ed7c1503d25934.pdf?index=true",
+      "select": "body"
+    }
+  }
+}

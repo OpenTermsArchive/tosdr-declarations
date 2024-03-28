@@ -1,0 +1,17 @@
+{
+  "name": "Dreamville",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://thefalloffera.com/pages/returns-form",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://thefalloffera.com/policies/terms-of-service",
+      "select": "html > body > div:nth-of-type(2) > main > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://thefalloffera.com/policies/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > main > div > div:nth-of-type(2) > div"
+    }
+  }
+}

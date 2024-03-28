@@ -1,0 +1,9 @@
+{
+  "name": "Noisemeters",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.noisemeters.com/help/privacy/",
+      "select": "body"
+    }
+  }
+}

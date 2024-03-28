@@ -1,0 +1,9 @@
+{
+  "name": "Two square systems",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.twosquaresystems.com/",
+      "select": "body"
+    }
+  }
+}

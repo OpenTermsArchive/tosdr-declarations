@@ -1,0 +1,13 @@
+{
+  "name": "Seor dinero",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://senordinero.com/legal/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://senordinero.com/legal/tos/",
+      "select": "body"
+    }
+  }
+}

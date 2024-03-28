@@ -1,0 +1,13 @@
+{
+  "name": "Piwik pro",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://piwik.pro/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://piwik.pro/cloud-sla/",
+      "select": null
+    }
+  }
+}

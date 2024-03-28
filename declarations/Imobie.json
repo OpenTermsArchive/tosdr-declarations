@@ -1,0 +1,13 @@
+{
+  "name": "Imobie",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.imobie.com/company/privacy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.imobie.com/company/terms.htm",
+      "select": "body"
+    }
+  }
+}

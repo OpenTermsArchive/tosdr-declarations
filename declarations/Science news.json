@@ -1,0 +1,13 @@
+{
+  "name": "Science news",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sciencenews.org/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sciencenews.org/terms-of-service",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > article > div"
+    }
+  }
+}

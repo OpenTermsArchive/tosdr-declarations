@@ -1,0 +1,21 @@
+{
+  "name": "Hack n plan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hacknplan.com/terms-and-conditions-v2/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://hacknplan.com/cookie-policy-v2/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://hacknplan.com/privacy-policy-v3/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "http://hacknplan.com/legal-notice-v2/",
+      "select": "body"
+    }
+  }
+}

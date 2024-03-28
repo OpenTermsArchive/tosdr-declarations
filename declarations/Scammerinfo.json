@@ -1,0 +1,13 @@
+{
+  "name": "Scammerinfo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://scammer.info/tos",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://scammer.info/privacy",
+      "select": null
+    }
+  }
+}

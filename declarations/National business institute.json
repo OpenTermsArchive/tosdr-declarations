@@ -1,0 +1,17 @@
+{
+  "name": "National business institute",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nbi-sems.com/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.nbi-sems.com/cookie-policy",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nbi-sems.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

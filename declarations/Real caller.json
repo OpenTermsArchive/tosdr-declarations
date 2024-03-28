@@ -1,0 +1,9 @@
+{
+  "name": "Real caller",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://realcallerpublic.net/legal.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "0xxxws",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://0xxx.ws/dmca.php",
+      "select": "body"
+    }
+  }
+}

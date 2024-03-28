@@ -1,0 +1,13 @@
+{
+  "name": "Bloosurf",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bloosurf.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bloosurf.com/privacy-statement",
+      "select": null
+    }
+  }
+}

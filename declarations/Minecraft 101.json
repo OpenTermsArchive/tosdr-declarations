@@ -1,0 +1,9 @@
+{
+  "name": "Minecraft 101",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.minecraft101.net/index.html",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Preglife",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://preglife.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://preglife.com/user-agreement",
+      "select": "body"
+    }
+  }
+}

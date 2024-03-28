@@ -1,0 +1,9 @@
+{
+  "name": "Flatmates",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://flatmates.com.au/info/terms?search_source=footer",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(3) > div"
+    }
+  }
+}

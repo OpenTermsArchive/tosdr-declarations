@@ -1,0 +1,13 @@
+{
+  "name": "Ludwig",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ludwig.guru/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ludwig.guru/terms",
+      "select": "body"
+    }
+  }
+}

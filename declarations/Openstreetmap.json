@@ -1,0 +1,13 @@
+{
+  "name": "Openstreetmap",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wiki.osmfoundation.org/wiki/Privacy_Policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wiki.osmfoundation.org/wiki/Terms_of_Use",
+      "select": null
+    }
+  }
+}

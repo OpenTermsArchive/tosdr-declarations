@@ -1,0 +1,13 @@
+{
+  "name": "Islamfirst",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.islamfirst.ml/en-us/terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > section:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.islamfirst.ml/en-us/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > section:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div > div > div"
+    }
+  }
+}

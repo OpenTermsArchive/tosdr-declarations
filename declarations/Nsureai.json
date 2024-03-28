@@ -1,0 +1,13 @@
+{
+  "name": "Nsureai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nsure.ai/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nsure.ai/privacy-policy",
+      "select": "html > body > div:nth-of-type(5)"
+    }
+  }
+}

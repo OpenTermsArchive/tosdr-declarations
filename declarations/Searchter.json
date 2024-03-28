@@ -1,0 +1,13 @@
+{
+  "name": "Searchter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://searchter.com/terms.php ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://searchter.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

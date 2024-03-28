@@ -1,0 +1,9 @@
+{
+  "name": "Wikiwand",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wikiwand.com/privacy",
+      "select": " > section"
+    }
+  }
+}

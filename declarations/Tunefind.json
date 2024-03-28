@@ -1,0 +1,13 @@
+{
+  "name": "Tunefind",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tunefind.com/tos",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tunefind.com/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

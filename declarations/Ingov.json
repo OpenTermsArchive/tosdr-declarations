@@ -1,0 +1,13 @@
+{
+  "name": "Ingov",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.in.gov/core/terms_of_use.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.in.gov/core/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Applyme",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://apply.me/terms-of-use",
+      "select": "html > body > div:first-of-type > div > main > div > section:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "http://apply.me/privacy-policy",
+      "select": "body"
+    }
+  }
+}

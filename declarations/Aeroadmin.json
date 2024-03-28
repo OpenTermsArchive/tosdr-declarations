@@ -1,0 +1,13 @@
+{
+  "name": "Aeroadmin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.aeroadmin.com/en/privacy_policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.aeroadmin.com/en/eula.html",
+      "select": "body"
+    }
+  }
+}

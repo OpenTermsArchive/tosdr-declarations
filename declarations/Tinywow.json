@@ -1,0 +1,13 @@
+{
+  "name": "Tinywow",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tinywow.com/tos",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tinywow.com/privacy",
+      "select": "html > body > main"
+    }
+  }
+}

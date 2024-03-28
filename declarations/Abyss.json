@@ -1,0 +1,13 @@
+{
+  "name": "Abyss",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://abyss.to/copyright",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://abyss.to/terms",
+      "select": "body"
+    }
+  }
+}

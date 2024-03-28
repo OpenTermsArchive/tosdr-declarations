@@ -1,0 +1,13 @@
+{
+  "name": "Mcdonalds",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mcdonalds.com/us/en-us/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mcdonalds.com/us/en-us/terms-and-conditions.html",
+      "select": "html > body > main > div:first-of-type > div:first-of-type > div > div:first-of-type"
+    }
+  }
+}

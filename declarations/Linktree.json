@@ -1,0 +1,13 @@
+{
+  "name": "Linktree",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://linktr.ee/s/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://linktr.ee/s/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(3) > div > div:first-of-type > div > div"
+    }
+  }
+}

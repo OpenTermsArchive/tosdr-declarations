@@ -1,0 +1,17 @@
+{
+  "name": "Filen",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://filen.io/terms",
+      "select": " > section:nth-of-type(2) > div"
+    },
+    "Other": {
+      "fetch": "https://filen.io/warrant-canary",
+      "select": " > section:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://filen.io/privacy",
+      "select": " > section:nth-of-type(2) > div"
+    }
+  }
+}

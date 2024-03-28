@@ -1,0 +1,17 @@
+{
+  "name": "Academiaedu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.academia.edu/privacy",
+      "select": "div.static-page-padded-content.no-reset"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.academia.edu/terms",
+      "select": "div.static-page-padded-content.no-reset"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.academia.edu/copyright",
+      "select": null
+    }
+  }
+}

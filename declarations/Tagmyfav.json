@@ -1,0 +1,13 @@
+{
+  "name": "Tagmyfav",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tagmyfav.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > main > div > div > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tagmyfav.com/terms-conditions",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > main > div > div > section > div"
+    }
+  }
+}

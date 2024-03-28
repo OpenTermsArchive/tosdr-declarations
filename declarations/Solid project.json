@@ -1,0 +1,9 @@
+{
+  "name": "Solid project",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://solidproject.org/terms",
+      "select": "body"
+    }
+  }
+}

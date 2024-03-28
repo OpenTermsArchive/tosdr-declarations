@@ -1,0 +1,17 @@
+{
+  "name": "Cricket wireless",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cricketwireless.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cricketwireless.com/privacy",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    },
+    "Other": {
+      "fetch": "https://www.cricketwireless.com/legal-info/plan-terms.html",
+      "select": "body"
+    }
+  }
+}

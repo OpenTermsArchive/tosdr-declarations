@@ -1,0 +1,17 @@
+{
+  "name": "Nutrium",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://nutrium.com/terms_and_conditions",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://nutrium.com/hipaa_policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://nutrium.com/privacy_policy",
+      "select": "body"
+    }
+  }
+}

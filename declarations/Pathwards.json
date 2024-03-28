@@ -1,0 +1,13 @@
+{
+  "name": "Pathwards",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.pathward.com/content/dam/pathward/us/en/documents/pdfs/Privacy-Policy-Notice.pdf",
+      "select": "html > body > div:first-of-type > div > div > main > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pathward.com/terms-conditions/",
+      "select": "html > body > div:first-of-type > div > div > main > div > div > div > div > div"
+    }
+  }
+}

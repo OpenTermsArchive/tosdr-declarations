@@ -1,0 +1,25 @@
+{
+  "name": "4imprint",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://info.4imprint.com/legal-statement",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://investors.4imprint.com/terms-of-use/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.4imprint.com/info/privacy ",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://investors.4imprint.com/modern-slavery-statement",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://investors.4imprint.com/privacy-cookies-policy",
+      "select": "body"
+    }
+  }
+}

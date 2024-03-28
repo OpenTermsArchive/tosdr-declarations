@@ -1,0 +1,13 @@
+{
+  "name": "7 data recovery",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://7datarecovery.com/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://7datarecovery.com/terms-of-service.html",
+      "select": "body"
+    }
+  }
+}

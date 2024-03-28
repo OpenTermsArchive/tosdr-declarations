@@ -1,0 +1,17 @@
+{
+  "name": "Adwork media group",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://adworkmedia.com/terms-and-conditions.php",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://adworkmedia.com/DMCA.php",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://adworkmedia.com/privacy-policy.php",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    }
+  }
+}

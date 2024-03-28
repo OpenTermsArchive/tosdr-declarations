@@ -1,0 +1,13 @@
+{
+  "name": "Realvpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://realvpn.io/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://realvpn.io/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Rakuten",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.rakuten.com/help/article/exclusions-limitations-360002101368",
+      "select": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rakuten.com/help/article/what-data-rakuten-collects-and-why-360041231553",
+      "select": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rakuten.com/help/article/referral-program-terms-360002101348",
+      "select": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.rakuten.com/help/article/advertising-disclosure-360002117787",
+      "select": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

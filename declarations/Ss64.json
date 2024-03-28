@@ -1,0 +1,13 @@
+{
+  "name": "Ss64",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ss64.com/privacy.html",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://ss64.com/docs/copyright.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Poleemotion",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pole-emotion.ch/politique-de-confidentialite/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://app.pole-emotion.ch/conditions-generales-d-utilisation",
+      "select": "body"
+    }
+  }
+}

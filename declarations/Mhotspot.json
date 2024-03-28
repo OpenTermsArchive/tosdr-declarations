@@ -1,0 +1,9 @@
+{
+  "name": "Mhotspot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mhotspot.com/privacy-policy-tnc/",
+      "select": "body"
+    }
+  }
+}

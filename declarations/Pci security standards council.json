@@ -1,0 +1,13 @@
+{
+  "name": "Pci security standards council",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pcisecuritystandards.org/terms_and_conditions/",
+      "select": "html > body > main > div > div:first-of-type > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pcisecuritystandards.org/privacy",
+      "select": null
+    }
+  }
+}

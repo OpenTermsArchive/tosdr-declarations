@@ -1,0 +1,17 @@
+{
+  "name": "Sharetek",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wesharetek.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wesharetek.com/terms-of-use",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.wesharetek.com/store-policies",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

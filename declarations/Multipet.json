@@ -1,0 +1,9 @@
+{
+  "name": "Multipet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.multipet.com/terms-conditions/",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

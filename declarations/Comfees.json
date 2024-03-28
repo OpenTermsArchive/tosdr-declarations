@@ -1,0 +1,17 @@
+{
+  "name": "Comfees",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.mycomfees.com/managing-cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mycomfees.com/comfees-terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mycomfees.com/comfees-privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Fastly",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.fastly.com/cookies/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fastly.com/privacy/",
+      "select": null
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.fastly.com/acceptable-use/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fastly.com/terms/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Complete licensing",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://completelicensing.uk/terms-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://completelicensing.uk/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://completelicensing.uk/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

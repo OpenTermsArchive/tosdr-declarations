@@ -1,0 +1,9 @@
+{
+  "name": "Addtext",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://addtext.com/privacy",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

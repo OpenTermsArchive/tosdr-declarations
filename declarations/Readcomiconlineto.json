@@ -1,0 +1,13 @@
+{
+  "name": "Readcomiconlineto",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://readcomiconline.li/Message/DMCA",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://readcomiconline.li/Message/PrivacyPolicy",
+      "select": "body"
+    }
+  }
+}

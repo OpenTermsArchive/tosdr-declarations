@@ -1,0 +1,17 @@
+{
+  "name": "Urbanplanet",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.urbanplanet.org/forums/cookies/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.urbanplanet.org/forums/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.urbanplanet.org/forums/privacy/",
+      "select": "body"
+    }
+  }
+}

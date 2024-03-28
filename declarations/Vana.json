@@ -1,0 +1,13 @@
+{
+  "name": "Vana",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vana.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vana.com/legal/terms-of-service",
+      "select": "body"
+    }
+  }
+}

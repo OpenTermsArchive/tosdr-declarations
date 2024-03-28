@@ -1,0 +1,13 @@
+{
+  "name": "Cadences website",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tube.cadence.moe/privacy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://tube.cadence.moe/takedown",
+      "select": "body"
+    }
+  }
+}

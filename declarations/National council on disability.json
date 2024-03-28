@@ -1,0 +1,9 @@
+{
+  "name": "National council on disability",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ncd.gov/privacy",
+      "select": null
+    }
+  }
+}

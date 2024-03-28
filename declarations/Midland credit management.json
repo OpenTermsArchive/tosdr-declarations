@@ -1,0 +1,21 @@
+{
+  "name": "Midland credit management",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.midlandcredit.com/terms-of-use/",
+      "select": " > div > div"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://mcmpay.com/#/accessibility",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.midlandcredit.com/web-privacy-policy/",
+      "select": " > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.midlandcredit.com/privacy-policy-and-state-disclosures/",
+      "select": "body"
+    }
+  }
+}

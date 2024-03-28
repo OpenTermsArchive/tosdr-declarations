@@ -1,0 +1,17 @@
+{
+  "name": "Wwf france",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wwf.fr/politique-de-confidentialite",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wwf.fr/politique-cookies",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.wwf.fr/mentions-legales",
+      "select": "body"
+    }
+  }
+}

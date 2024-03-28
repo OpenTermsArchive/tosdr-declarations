@@ -1,0 +1,13 @@
+{
+  "name": "Loom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.loom.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.loom.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Splitwise",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.splitwise.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.splitwise.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Free software foundation europe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wiki.fsfe.org/TechDocs/DataProcessingTransparency",
+      "select": "body"
+    }
+  }
+}

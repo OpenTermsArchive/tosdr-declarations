@@ -1,0 +1,17 @@
+{
+  "name": "Glitch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://glitch.com/legal/dataprocessing",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://glitch.com/legal",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://glitch.com/legal/dmca",
+      "select": "body"
+    }
+  }
+}

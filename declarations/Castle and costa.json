@@ -1,0 +1,9 @@
+{
+  "name": "Castle and costa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://castleandcosta.co.uk/online/privacy_notice",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Beatstars",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.beatstars.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

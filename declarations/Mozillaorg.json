@@ -1,0 +1,17 @@
+{
+  "name": "Mozillaorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mozilla.org/en-US/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mozilla.org/en-US/about/legal/terms/mozilla/",
+      "select": "html > body > div:nth-of-type(3) > div > main > div > article"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://blog.mozilla.org/inclusion/mozilla-workplace-transition-policy-guidelines/?utm_medium=email&utm_source=email&utm_campaign=2019moznews-en&utm_content=042919",
+      "select": null
+    }
+  }
+}

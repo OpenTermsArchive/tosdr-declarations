@@ -1,0 +1,13 @@
+{
+  "name": "Duolingo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.duolingo.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.duolingo.com/privacy",
+      "select": "body"
+    }
+  }
+}

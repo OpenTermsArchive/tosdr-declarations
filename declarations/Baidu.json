@@ -1,0 +1,21 @@
+{
+  "name": "Baidu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://usa.baidu.com/privacy/",
+      "select": " > div"
+    },
+    "Legal Information": {
+      "fetch": "https://ir.baidu.com/disclaimer",
+      "select": " > article > div > div > div > div > div > div > div > div > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.baidu.com/duty/copyright.html",
+      "select": " > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://passport.baidu.com/static/passpc-account/html/protocal.html",
+      "select": null
+    }
+  }
+}

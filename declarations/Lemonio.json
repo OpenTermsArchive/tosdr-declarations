@@ -1,0 +1,13 @@
+{
+  "name": "Lemonio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://lemon.io/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://lemon.io/privacy-policy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "United way of king county",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.uwkc.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Owens corning",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.owenscorning.com/en-us/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.owenscorning.com/en-us/terms-of-use",
+      "select": null
+    }
+  }
+}

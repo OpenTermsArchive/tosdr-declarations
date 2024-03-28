@@ -1,0 +1,13 @@
+{
+  "name": "From zero",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fromzero.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fromzero.com/privacy",
+      "select": "body"
+    }
+  }
+}

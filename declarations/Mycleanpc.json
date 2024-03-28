@@ -1,0 +1,13 @@
+{
+  "name": "Mycleanpc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mycleanpc.com/privacy-policy.html",
+      "select": "html > body > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mycleanpc.com/terms-of-service.html",
+      "select": "html > body > main > div"
+    }
+  }
+}

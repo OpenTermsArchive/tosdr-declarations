@@ -1,0 +1,9 @@
+{
+  "name": "Jeopardy labs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jeopardylabs.com/legal",
+      "select": "body"
+    }
+  }
+}

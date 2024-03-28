@@ -1,0 +1,9 @@
+{
+  "name": "Thermaltake",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thermaltake.com/privacy-policy-cookie-restriction-mode",
+      "select": "body"
+    }
+  }
+}

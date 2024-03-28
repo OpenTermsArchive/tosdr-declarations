@@ -1,0 +1,13 @@
+{
+  "name": "Editor x",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.editorx.com/info/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.editorx.com/info/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Spotify",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.spotify.com/us/legal/voice-controls/",
+      "select": " > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.spotify.com/us/legal/end-user-agreement/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://raw.githubusercontent.com/OpenTermsArchive/pga-versions/main/Spotify/Privacy%20Policy.md",
+      "select": "body"
+    }
+  }
+}

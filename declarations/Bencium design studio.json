@@ -1,0 +1,13 @@
+{
+  "name": "Bencium design studio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bencium.co.uk/legal/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bencium.co.uk/legal/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

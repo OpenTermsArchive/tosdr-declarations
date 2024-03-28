@@ -1,0 +1,17 @@
+{
+  "name": "Vpn proxy master",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://download.vpnproxymaster.com/web/master/cookie_policy_2021021.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://download.vpnproxymaster.com/web/master/Master_Proxy_VPN_Private_Policy_V2.1_2020.9.21.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://vpnproxymaster.com/termsuse",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(4) > div:first-of-type > div"
+    }
+  }
+}

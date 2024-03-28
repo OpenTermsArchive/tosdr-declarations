@@ -1,0 +1,13 @@
+{
+  "name": "Requiz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://requiz.net/terms-of-service  ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://requiz.net/terms-of-service",
+      "select": "body"
+    }
+  }
+}

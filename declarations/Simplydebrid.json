@@ -1,0 +1,17 @@
+{
+  "name": "Simplydebrid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://simply-debrid.com/privacy-policy",
+      "select": "html > body > section:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://simply-debrid.com/tos",
+      "select": "html > body > section:nth-of-type(2) > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://simply-debrid.com/dmca",
+      "select": "html > body > section:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Cleanfox",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cleanfox.io/en/fox/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cleanfox.io/en/fox/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.cleanfox.io/en/fox/cookies-policy",
+      "select": "body"
+    }
+  }
+}

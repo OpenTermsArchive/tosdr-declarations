@@ -1,0 +1,17 @@
+{
+  "name": "Tucows domains",
+  "documents": {
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.tucowsdomains.com/help/legal-policies/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:first-of-type > ul > li:first-of-type"
+    },
+    "Legal Information": {
+      "fetch": "https://www.tucowsdomains.com/help/legal-policies/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:first-of-type > ul > li:nth-of-type(3)"
+    },
+    "Policy": {
+      "fetch": "https://www.tucowsdomains.com/help/legal-policies/",
+      "select": "body"
+    }
+  }
+}

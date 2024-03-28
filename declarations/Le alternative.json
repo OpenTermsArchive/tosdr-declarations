@@ -1,0 +1,9 @@
+{
+  "name": "Le alternative",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lealternative.net/privacy-policy-completa/",
+      "select": null
+    }
+  }
+}

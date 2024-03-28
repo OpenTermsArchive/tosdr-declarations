@@ -1,0 +1,13 @@
+{
+  "name": "Autism forums",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.autismforums.com/help/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.autismforums.com/help/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Emoodtracker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://emoodtracker.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://emoodtracker.com/emoods-insights-software-as-a-service-agreement",
+      "select": "body"
+    }
+  }
+}

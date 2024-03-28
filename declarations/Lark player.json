@@ -1,0 +1,13 @@
+{
+  "name": "Lark player",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://larkplayer.com/htm/en/terms-of-service-20210205.html ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://larkplayer.com/htm/en/privacy-policy-20210205.html",
+      "select": "body"
+    }
+  }
+}

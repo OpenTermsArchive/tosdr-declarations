@@ -1,0 +1,13 @@
+{
+  "name": "Toonily",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://toonily.com/terms/",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://toonily.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    }
+  }
+}

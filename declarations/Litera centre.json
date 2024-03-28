@@ -1,0 +1,17 @@
+{
+  "name": "Litera centre",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.literacentre.com/referral-terms-of-use/",
+      "select": "html > body > div:first-of-type > section"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.literacentre.com/refund-policy/",
+      "select": "html > body > main > div > div:first-of-type > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.literacentre.com/privacy-policy/",
+      "select": "html > body > main > div > div:first-of-type > section"
+    }
+  }
+}

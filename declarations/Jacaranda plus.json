@@ -1,0 +1,13 @@
+{
+  "name": "Jacaranda plus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jacplus.com.au/jsp/general-nav/copyright/privacy_policy.jsp",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > article > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jacplus.com.au/jsp/general-nav/terms/terms.jsp",
+      "select": null
+    }
+  }
+}

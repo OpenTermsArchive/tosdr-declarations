@@ -1,0 +1,9 @@
+{
+  "name": "Bhabhixxxpro",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://bhabhixxx.pro/dmca/",
+      "select": "html > body > section"
+    }
+  }
+}

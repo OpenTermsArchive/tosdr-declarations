@@ -1,0 +1,13 @@
+{
+  "name": "Fox sports",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.foxsports.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.foxsports.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Ghostery",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ghostery.com/about-ghostery/ghostery-subscription-products-end-user-license-agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ghostery.com/about-ghostery/ghostery-lite-browser-extension-privacy-policy/",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.ghostery.com/about-ghostery/chrome-web-store-limited-use-disclosure/",
+      "select": "body"
+    }
+  }
+}

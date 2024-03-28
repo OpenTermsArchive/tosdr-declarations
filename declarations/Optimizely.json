@@ -1,0 +1,17 @@
+{
+  "name": "Optimizely",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.optimizely.com/terms/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.optimizely.com/legal/cookie-policy/",
+      "select": "html > body > main > section:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.optimizely.com/privacy/",
+      "select": "html > body > main > section:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

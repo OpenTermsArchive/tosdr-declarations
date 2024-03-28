@@ -1,0 +1,13 @@
+{
+  "name": "Ritual",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ritual.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ritual.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

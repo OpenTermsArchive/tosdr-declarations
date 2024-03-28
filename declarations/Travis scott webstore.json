@@ -1,0 +1,13 @@
+{
+  "name": "Travis scott webstore",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://shop.travisscott.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://shop.travisscott.com/pages/terms",
+      "select": "body"
+    }
+  }
+}

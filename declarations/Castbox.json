@@ -1,0 +1,17 @@
+{
+  "name": "Castbox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://castbox.fm/policy.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://castbox.fm/policy/cookies.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://castbox.fm/termsofservice.html",
+      "select": "body"
+    }
+  }
+}

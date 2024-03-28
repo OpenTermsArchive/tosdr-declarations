@@ -1,0 +1,13 @@
+{
+  "name": "Mozaweb",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mozaweb.com/en/eula",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mozaweb.com/privacy",
+      "select": null
+    }
+  }
+}

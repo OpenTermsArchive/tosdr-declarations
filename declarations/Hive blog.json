@@ -1,0 +1,13 @@
+{
+  "name": "Hive blog",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hive.blog/tos.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hive.blog/privacy.html",
+      "select": "body"
+    }
+  }
+}

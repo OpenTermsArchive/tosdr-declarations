@@ -1,0 +1,17 @@
+{
+  "name": "Primal health",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://primallabs.com/privacy-policy.html",
+      "select": "html > body > div:first-of-type > section > div > div:nth-of-type(2) > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://primallabs.com/refund-policy.html",
+      "select": "html > body > div:first-of-type > section > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://primallabs.com/terms-of-service.html",
+      "select": "html > body > div:first-of-type > section > div > div:nth-of-type(2) > div"
+    }
+  }
+}

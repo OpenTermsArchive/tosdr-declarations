@@ -1,0 +1,13 @@
+{
+  "name": "Trovo live",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://trovo.live/trovo-policy/privacy-notice.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://trovo.live/trovo-policy/terms-of-service.html",
+      "select": "body"
+    }
+  }
+}

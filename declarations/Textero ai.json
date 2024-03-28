@@ -1,0 +1,17 @@
+{
+  "name": "Textero ai",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://ylpllmtfjfrxkrpojixz.supabase.co/storage/v1/object/public/policies/Textero.ai_Privacy_Policy.pdf",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://ylpllmtfjfrxkrpojixz.supabase.co/storage/v1/object/public/policies/Textero.ai_Cancellation%20Policy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ylpllmtfjfrxkrpojixz.supabase.co/storage/v1/object/public/policies/Textero.ai_Terms%20of%20services.pdf",
+      "select": "body"
+    }
+  }
+}

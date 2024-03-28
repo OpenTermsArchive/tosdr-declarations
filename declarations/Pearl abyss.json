@@ -1,0 +1,13 @@
+{
+  "name": "Pearl abyss",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://account.pearlabyss.com/en-US/Policy/policy/index/?_policyNo=3",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://account.pearlabyss.com/en-US/Policy/policy/index?_policyNo=2",
+      "select": "body"
+    }
+  }
+}

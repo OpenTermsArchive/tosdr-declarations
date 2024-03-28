@@ -1,0 +1,13 @@
+{
+  "name": "Aquafina",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.aquafina.com/en-US/terms-en-US.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://policy.aquafina.com/privacy.htm",
+      "select": "body"
+    }
+  }
+}

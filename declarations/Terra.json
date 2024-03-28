@@ -1,0 +1,13 @@
+{
+  "name": "Terra",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.terrastaffinggroup.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.terrastaffinggroup.com/terms-conditions/",
+      "select": null
+    }
+  }
+}

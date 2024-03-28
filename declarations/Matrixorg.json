@@ -1,0 +1,17 @@
+{
+  "name": "Matrixorg",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://matrix.org/legal/privacy-notice",
+      "select": "body div"
+    },
+    "Terms of Service": {
+      "fetch": "https://matrix.org/legal/terms-and-conditions",
+      "select": " > div:first-of-type > div > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://matrix.org/legal/code-of-conduct",
+      "select": "body div"
+    }
+  }
+}

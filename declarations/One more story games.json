@@ -1,0 +1,9 @@
+{
+  "name": "One more story games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://onemorestorygames.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

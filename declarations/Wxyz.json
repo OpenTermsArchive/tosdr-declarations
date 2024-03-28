@@ -1,0 +1,13 @@
+{
+  "name": "Wxyz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wxyz.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wxyz.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

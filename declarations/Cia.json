@@ -1,0 +1,13 @@
+{
+  "name": "Cia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cia.gov/privacy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.cia.gov/site-policies/",
+      "select": "body"
+    }
+  }
+}

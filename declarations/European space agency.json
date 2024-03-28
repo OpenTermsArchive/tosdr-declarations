@@ -1,0 +1,9 @@
+{
+  "name": "European space agency",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.esa.int/Services/Terms_and_conditions",
+      "select": "body"
+    }
+  }
+}

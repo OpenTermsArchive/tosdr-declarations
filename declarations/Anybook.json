@@ -1,0 +1,13 @@
+{
+  "name": "Anybook",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.anybook.ai/terms-en.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.anybook.ai/privacy-en.html",
+      "select": "body"
+    }
+  }
+}

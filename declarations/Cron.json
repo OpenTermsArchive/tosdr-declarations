@@ -1,0 +1,13 @@
+{
+  "name": "Cron",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.notion.so/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.notion.so/Terms-and-Privacy-28ffdd083dc3473e9c2da6ec011b58ac",
+      "select": "body"
+    }
+  }
+}

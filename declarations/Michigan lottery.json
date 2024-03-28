@@ -1,0 +1,13 @@
+{
+  "name": "Michigan lottery",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.michiganlottery.com/terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.michiganlottery.com/privacy-policy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Classroomspy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://classroomspy.com/terms.htm",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Chatovod",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://chatovod.com/privacy/",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://chatovod.com/terms/",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

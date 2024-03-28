@@ -1,0 +1,9 @@
+{
+  "name": "Nautilus nonprofit assoc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nautilus-nonprofit.org/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Wehkampnl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wehkamp.nl/specials/privacyverklaring/",
+      "select": "body"
+    }
+  }
+}

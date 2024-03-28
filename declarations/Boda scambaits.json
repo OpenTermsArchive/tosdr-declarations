@@ -1,0 +1,13 @@
+{
+  "name": "Boda scambaits",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bodascambaits.net/terms-of-service/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://bodascambaits.net/privacy/",
+      "select": null
+    }
+  }
+}

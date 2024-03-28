@@ -1,0 +1,13 @@
+{
+  "name": "Piholenet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://discourse.pi-hole.net/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://discourse.pi-hole.net/tos",
+      "select": "body"
+    }
+  }
+}

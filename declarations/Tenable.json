@@ -1,0 +1,13 @@
+{
+  "name": "Tenable",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tenable.com/privacy-policy",
+      "select": "html > body > div:first-of-type > section"
+    },
+    "Legal Information": {
+      "fetch": "https://www.tenable.com/legal",
+      "select": "html > body > div:first-of-type > section > div:nth-of-type(2) > div > div > div > div > div:first-of-type"
+    }
+  }
+}

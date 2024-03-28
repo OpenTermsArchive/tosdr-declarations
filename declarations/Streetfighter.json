@@ -1,0 +1,9 @@
+{
+  "name": "Streetfighter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.streetfighter.com/6/buckler/en",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(5) > div > div"
+    }
+  }
+}

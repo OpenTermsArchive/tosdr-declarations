@@ -1,0 +1,9 @@
+{
+  "name": "Chevereto",
+  "documents": {
+    "Policy": {
+      "fetch": "https://chevereto.com/policies",
+      "select": "div#page"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Art of manliness",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.artofmanliness.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

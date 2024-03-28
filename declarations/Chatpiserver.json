@@ -1,0 +1,9 @@
+{
+  "name": "Chatpiserver",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://chatpiserver.mynetgear.com/Privacy.html",
+      "select": "body"
+    }
+  }
+}

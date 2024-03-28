@@ -1,0 +1,13 @@
+{
+  "name": "Speedwrite",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://speedwrite.com/terms_of_service",
+      "select": "html > body > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://speedwrite.com/privacy_policy",
+      "select": "html > body > section"
+    }
+  }
+}

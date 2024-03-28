@@ -1,0 +1,13 @@
+{
+  "name": "Monefy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://monefy.me/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://monefy.me/monefy-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

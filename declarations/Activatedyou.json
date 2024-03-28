@@ -1,0 +1,13 @@
+{
+  "name": "Activatedyou",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://activatedyou.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www2.energeticallday.com/PrivacyPolicy/?sessionid=1350802031931&uid=mc_plstart_210623&dsid=a0v3w00000J5KUBAA3&step=2",
+      "select": "body"
+    }
+  }
+}

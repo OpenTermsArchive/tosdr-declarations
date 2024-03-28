@@ -1,0 +1,13 @@
+{
+  "name": "Switch4schools",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.switch4schools.com.au/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.switch4schools.com.au/terms-of-service",
+      "select": "body"
+    }
+  }
+}

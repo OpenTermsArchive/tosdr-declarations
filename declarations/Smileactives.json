@@ -1,0 +1,13 @@
+{
+  "name": "Smileactives",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.smileactives.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.smileactives.com/terms-and-conditions.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Loopholecloud",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://loophole.cloud/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://loophole.cloud/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > section"
+    }
+  }
+}

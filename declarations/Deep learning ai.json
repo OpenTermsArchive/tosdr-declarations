@@ -1,0 +1,13 @@
+{
+  "name": "Deep learning ai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.deeplearning.ai/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.deeplearning.ai/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

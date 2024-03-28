@@ -1,0 +1,9 @@
+{
+  "name": "United way of southwestern indiana",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://unitedwayswi.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

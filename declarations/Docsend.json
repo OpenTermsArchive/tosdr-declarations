@@ -1,0 +1,21 @@
+{
+  "name": "Docsend",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.docsend.com/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.docsend.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.docsend.com/privacy-policy/",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.docsend.com/copyright-and-ip-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Blufvpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://blufvpn.com/data-usage-regulations",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://blufvpn.com/addendum",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://blufvpn.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

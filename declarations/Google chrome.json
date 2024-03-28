@@ -1,0 +1,9 @@
+{
+  "name": "Google chrome",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.google.com/intl/en/chrome/privacy/whitepaper.html",
+      "select": "body"
+    }
+  }
+}

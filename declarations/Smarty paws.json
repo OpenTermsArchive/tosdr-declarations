@@ -1,0 +1,13 @@
+{
+  "name": "Smarty paws",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://smartypaws.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://smartypaws.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Serverpro",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.hardwaregenius.in/",
+      "select": "body"
+    }
+  }
+}

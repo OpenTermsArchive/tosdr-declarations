@@ -1,0 +1,17 @@
+{
+  "name": "P2pb2b",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://p2pb2b.zendesk.com/hc/en-us/articles/360010969898-TERMS-OF-SERVICES",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://p2pb2b.zendesk.com/hc/en-us/articles/360010845477-Delisting-Policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://p2pb2b.zendesk.com/hc/en-us/articles/360010946078-Privacy-Policy",
+      "select": "html > body > main"
+    }
+  }
+}

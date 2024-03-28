@@ -1,0 +1,13 @@
+{
+  "name": "Tefter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tefter.io/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tefter.io/privacy-policy",
+      "select": "body"
+    }
+  }
+}

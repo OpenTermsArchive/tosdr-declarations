@@ -1,0 +1,9 @@
+{
+  "name": "Vpnuk",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.vpnuk.net/terms/",
+      "select": "body"
+    }
+  }
+}

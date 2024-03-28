@@ -1,0 +1,13 @@
+{
+  "name": "Livechart",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.livechart.me/pages/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.livechart.me/pages/terms",
+      "select": null
+    }
+  }
+}

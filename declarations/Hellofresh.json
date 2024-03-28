@@ -1,0 +1,13 @@
+{
+  "name": "Hellofresh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://assets.ctfassets.net/irplh84t0tdt/5i0peu1JgprpWG9h9TQHWO/96e603a63bb4b3a55d58c069c4eb21a4/HelloFresh_SE_Privacy_Policy_EN.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hellofresh.com/about/termsandconditions/",
+      "select": "body"
+    }
+  }
+}

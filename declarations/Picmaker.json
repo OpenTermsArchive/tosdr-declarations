@@ -1,0 +1,17 @@
+{
+  "name": "Picmaker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.picmaker.com/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.picmaker.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.picmaker.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Inkling",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://store.inkling.com/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://store.inkling.com/privacy/",
+      "select": null
+    }
+  }
+}

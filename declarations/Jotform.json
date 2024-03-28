@@ -1,0 +1,13 @@
+{
+  "name": "Jotform",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.jotform.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.jotform.com/privacy/",
+      "select": "body"
+    }
+  }
+}

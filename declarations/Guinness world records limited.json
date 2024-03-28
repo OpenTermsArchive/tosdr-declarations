@@ -1,0 +1,17 @@
+{
+  "name": "Guinness world records limited",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.guinnessworldrecords.com/using-this-website/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.guinnessworldrecords.com/using-this-website/terms-and-conditions",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.guinnessworldrecords.com/using-this-website/cookie-policy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div"
+    }
+  }
+}

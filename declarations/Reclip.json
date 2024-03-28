@@ -1,0 +1,9 @@
+{
+  "name": "Reclip",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://reclip.app/privacy-policy",
+      "select": "body"
+    }
+  }
+}

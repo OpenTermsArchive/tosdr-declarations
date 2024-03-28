@@ -1,0 +1,17 @@
+{
+  "name": "Client portal",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://client-portal.io/terms-of-service/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://client-portal.io/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://client-portal.io/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

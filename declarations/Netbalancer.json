@@ -1,0 +1,13 @@
+{
+  "name": "Netbalancer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://netbalancer.com/privacypolicy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://netbalancer.com/termsofservices",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Dispenserdesign",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dispenser.design/privacy/",
+      "select": "body"
+    }
+  }
+}

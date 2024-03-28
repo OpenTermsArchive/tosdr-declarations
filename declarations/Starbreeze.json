@@ -1,0 +1,13 @@
+{
+  "name": "Starbreeze",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.starbreeze.com/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.starbreeze.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

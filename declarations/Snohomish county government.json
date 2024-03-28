@@ -1,0 +1,9 @@
+{
+  "name": "Snohomish county government",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://snohomishcountywa.gov/privacy",
+      "select": null
+    }
+  }
+}

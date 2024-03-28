@@ -1,0 +1,9 @@
+{
+  "name": "Afrinic",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://afrinic.net/privacy",
+      "select": "body"
+    }
+  }
+}

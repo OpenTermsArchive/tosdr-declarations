@@ -1,0 +1,13 @@
+{
+  "name": "Usb memory direct",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.usbmemorydirect.com/privacy.htm",
+      "select": "html > body > div:first-of-type > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.usbmemorydirect.com/terms.htm",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

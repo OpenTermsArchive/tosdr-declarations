@@ -1,0 +1,13 @@
+{
+  "name": "3p learning",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.3plearning.com/terms/",
+      "select": "html > body > main > section > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.3plearning.com/privacy",
+      "select": "body"
+    }
+  }
+}

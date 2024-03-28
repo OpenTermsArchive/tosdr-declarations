@@ -1,0 +1,13 @@
+{
+  "name": "Salem area mass transit district",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cherriots.org/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cherriots.org/privacy",
+      "select": "body"
+    }
+  }
+}

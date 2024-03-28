@@ -1,0 +1,13 @@
+{
+  "name": "Consumeraffairs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.consumeraffairs.com/about/privacy_policy/",
+      "select": "html > body > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.consumeraffairs.com/about/terms_of_use/",
+      "select": "html > body > main > div"
+    }
+  }
+}

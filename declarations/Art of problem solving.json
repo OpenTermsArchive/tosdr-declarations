@@ -1,0 +1,13 @@
+{
+  "name": "Art of problem solving",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://artofproblemsolving.com/company/tos",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://artofproblemsolving.com/company/privacy",
+      "select": null
+    }
+  }
+}

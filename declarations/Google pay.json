@@ -1,0 +1,9 @@
+{
+  "name": "Google pay",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en",
+      "select": "body"
+    }
+  }
+}

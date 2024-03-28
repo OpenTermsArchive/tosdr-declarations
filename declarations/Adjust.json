@@ -1,0 +1,9 @@
+{
+  "name": "Adjust",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.adjust.com/terms/privacy-policy",
+      "select": "body"
+    }
+  }
+}

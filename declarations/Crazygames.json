@@ -1,0 +1,13 @@
+{
+  "name": "Crazygames",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.crazygames.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.crazygames.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > div:nth-of-type(2) > div > div:nth-of-type(3)"
+    }
+  }
+}

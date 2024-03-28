@@ -1,0 +1,17 @@
+{
+  "name": "Squadhelp",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.squadhelp.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.squadhelp.com/Terms&Conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.squadhelp.com/privacy-policy",
+      "select": "html > body > section:first-of-type > div"
+    }
+  }
+}

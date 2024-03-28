@@ -1,0 +1,9 @@
+{
+  "name": "Fireball",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fireball.de/privacy",
+      "select": "html > body > div:nth-of-type(3) > div"
+    }
+  }
+}

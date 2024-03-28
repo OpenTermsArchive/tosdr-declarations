@@ -1,0 +1,13 @@
+{
+  "name": "Varsity tutors",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.varsitytutors.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.varsitytutors.com/privacy",
+      "select": "body"
+    }
+  }
+}

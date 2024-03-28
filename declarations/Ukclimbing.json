@@ -1,0 +1,17 @@
+{
+  "name": "Ukclimbing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ukclimbing.com/general/personal_data_policy.php",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ukclimbing.com/general/terms.php",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ukclimbing.com/general/cookies.php",
+      "select": null
+    }
+  }
+}

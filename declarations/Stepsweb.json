@@ -1,0 +1,13 @@
+{
+  "name": "Stepsweb",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.stepsweb.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.stepsweb.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

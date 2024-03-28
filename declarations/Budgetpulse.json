@@ -1,0 +1,13 @@
+{
+  "name": "Budgetpulse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.budgetpulse.com/pages/privacy_policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://budgetpulse.com/pages/terms_of_use",
+      "select": null
+    }
+  }
+}

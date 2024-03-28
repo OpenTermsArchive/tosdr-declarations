@@ -1,0 +1,13 @@
+{
+  "name": "Gateway festival orchestra",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gatewayfestivalorchestra.org/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gatewayfestivalorchestra.org/terms-of-use/",
+      "select": null
+    }
+  }
+}

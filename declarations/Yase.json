@@ -1,0 +1,13 @@
+{
+  "name": "Yase",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://legal.yase.pw/",
+      "select": "body"
+    },
+    "About": {
+      "fetch": "https://about.yase.pw",
+      "select": "body"
+    }
+  }
+}

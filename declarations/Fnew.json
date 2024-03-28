@@ -1,0 +1,9 @@
+{
+  "name": "Fnew",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://marnix0810.github.io/FNew/Privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tailscale",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tailscale.com/terms",
+      "select": "html > body > div:first-of-type > div > article > ol"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tailscale.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > article"
+    }
+  }
+}

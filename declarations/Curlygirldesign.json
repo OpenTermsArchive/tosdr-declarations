@@ -1,0 +1,9 @@
+{
+  "name": "Curlygirldesign",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.curlygirldesign.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

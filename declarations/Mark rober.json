@@ -1,0 +1,17 @@
+{
+  "name": "Mark rober",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://markrober.store/pages/free-returns",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://markrober.store/policies/privacy-policy",
+      "select": "html > body > main > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://markrober.store/policies/terms-of-service",
+      "select": null
+    }
+  }
+}

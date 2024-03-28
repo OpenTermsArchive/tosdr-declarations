@@ -1,0 +1,13 @@
+{
+  "name": "Yiban",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.yiban.cn/privacy.html",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "http://www.yiban.cn/service_treaty.php",
+      "select": "body"
+    }
+  }
+}

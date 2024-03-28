@@ -1,0 +1,17 @@
+{
+  "name": "Wizards of the coast",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://company.wizards.com/legal/wizards-coasts-privacy-policy",
+      "select": " > article > section section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://company.wizards.com/en/legal/cookie",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://company.wizards.com/en/legal/terms",
+      "select": "body"
+    }
+  }
+}

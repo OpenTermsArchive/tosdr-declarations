@@ -1,0 +1,13 @@
+{
+  "name": "Picuki",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.picuki.com/page/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.picuki.com/page/privacy",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

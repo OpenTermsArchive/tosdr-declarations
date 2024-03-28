@@ -1,0 +1,9 @@
+{
+  "name": "10minutemail",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://10minutemail.com/privacy.html",
+      "select": " > div"
+    }
+  }
+}

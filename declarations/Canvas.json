@@ -1,0 +1,17 @@
+{
+  "name": "Canvas",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.canvas.com/privacy-policy",
+      "select": "html > body > main > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.canvas.com/company-terms-of-use",
+      "select": "html > body > main > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.canvas.com/cookie-policy",
+      "select": "html > body > main > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Team sds",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://teamsds.net/privacy",
+      "select": "html > body > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://teamsds.net/terms",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Down for everyone or just me",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://downforeveryoneorjustme.com/about/privacy-policy",
+      "select": "body"
+    }
+  }
+}

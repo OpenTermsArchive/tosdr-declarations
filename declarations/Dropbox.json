@@ -1,0 +1,25 @@
+{
+  "name": "Dropbox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.dropbox.com/accounts-billing/security/privacy-policy-faq",
+      "select": "body"
+    },
+    "Merged": {
+      "fetch": "https://www.dropbox.com/privacy",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.dropbox.com/acceptable_use",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dropbox.com/terms",
+      "select": " > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.dropbox.com/security/cookies",
+      "select": "html > body > div:nth-of-type(4) > div > div > div:nth-of-type(4) > div > div > div:first-of-type > div"
+    }
+  }
+}

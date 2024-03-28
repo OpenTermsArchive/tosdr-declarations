@@ -1,0 +1,9 @@
+{
+  "name": "Cyber security management",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cybersecuritymanagement.com/en/privacy-settings",
+      "select": "body"
+    }
+  }
+}

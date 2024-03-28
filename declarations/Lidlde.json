@@ -1,0 +1,13 @@
+{
+  "name": "Lidlde",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lidl.de/de/datenschutz/s21",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lidl.de/de/allgemeine-geschaeftsbedingungen-onlineshop/s6",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tvmaze",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tvmaze.com/site/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tvmaze.com/site/tos",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sportspotters",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sportspotters.com/terms-conditions/",
+      "select": "html > body > div:first-of-type > div > main > div:first-of-type > article > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sportspotters.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > main > div:first-of-type > article > div"
+    }
+  }
+}

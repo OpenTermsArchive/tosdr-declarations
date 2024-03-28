@@ -1,0 +1,13 @@
+{
+  "name": "Student edge",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://studentedge.org/privacy-policy",
+      "select": " > mat-card > mat-card-content"
+    },
+    "Terms of Service": {
+      "fetch": "https://studentedge.org/terms-conditions",
+      "select": " > mat-card > mat-card-content > section"
+    }
+  }
+}

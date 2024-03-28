@@ -1,0 +1,13 @@
+{
+  "name": "Verizon communications",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.verizonwireless.com/legal/notices/customer-agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.verizon.com/about/privacy/full-privacy-policy",
+      "select": "body"
+    }
+  }
+}

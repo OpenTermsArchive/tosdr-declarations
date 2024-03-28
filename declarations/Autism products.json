@@ -1,0 +1,17 @@
+{
+  "name": "Autism products",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.autism-products.com/privacy-policy/",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.autism-products.com/refund_returns/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.autism-products.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

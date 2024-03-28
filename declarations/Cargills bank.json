@@ -1,0 +1,13 @@
+{
+  "name": "Cargills bank",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cargillsbank.com/wp-content/uploads/2019/05/Corporate-Internet-Banking-Trade-TC-E.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cargillsbank.com/privacy-policy/",
+      "select": "html > body > section:nth-of-type(2)"
+    }
+  }
+}

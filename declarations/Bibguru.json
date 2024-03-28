@@ -1,0 +1,13 @@
+{
+  "name": "Bibguru",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bibguru.com/tos/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bibguru.com/privacy/",
+      "select": "body"
+    }
+  }
+}

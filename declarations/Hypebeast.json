@@ -1,0 +1,13 @@
+{
+  "name": "Hypebeast",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hypebeast.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://hypebeast.com/terms",
+      "select": "body"
+    }
+  }
+}

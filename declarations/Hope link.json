@@ -1,0 +1,9 @@
+{
+  "name": "Hope link",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hopelink.org/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > section > div > div > section:nth-of-type(2)"
+    }
+  }
+}

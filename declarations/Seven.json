@@ -1,0 +1,13 @@
+{
+  "name": "Seven",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://seven.app/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://perigee.se/privacy-policy-for-seven/",
+      "select": "body"
+    }
+  }
+}

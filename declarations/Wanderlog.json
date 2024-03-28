@@ -1,0 +1,13 @@
+{
+  "name": "Wanderlog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wanderlog.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wanderlog.com/terms",
+      "select": "body"
+    }
+  }
+}

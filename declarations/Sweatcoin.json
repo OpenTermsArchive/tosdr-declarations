@@ -1,0 +1,13 @@
+{
+  "name": "Sweatcoin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sweatco.in/privacy",
+      "select": "html > body > section > section > div > section > div:first-of-type > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://sweatco.in/tnc",
+      "select": "html > body > section > section > div > section > div:first-of-type > section"
+    }
+  }
+}

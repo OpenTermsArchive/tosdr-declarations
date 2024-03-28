@@ -1,0 +1,17 @@
+{
+  "name": "Hidemyass",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hidemyass.com/en-us/legal/privacy#vpn-policy",
+      "select": "html > body > main > section > div > div > div:nth-of-type(2) > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hidemyass.com/en-us/legal/vpn-terms",
+      "select": "html > body > main > section > div > div > div:nth-of-type(2) > section > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.hidemyass.com/en-us/legal/privacy#cookies-policy",
+      "select": "html > body > main > section > div > div > div:nth-of-type(2) > article > div"
+    }
+  }
+}

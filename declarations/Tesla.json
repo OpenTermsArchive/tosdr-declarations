@@ -1,0 +1,9 @@
+{
+  "name": "Tesla",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.tesla.com/about/legal",
+      "select": "body"
+    }
+  }
+}

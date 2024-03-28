@@ -1,0 +1,13 @@
+{
+  "name": "Lean library",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.leanlibrary.com/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.leanlibrary.com/cookie-policy-eu/",
+      "select": "body"
+    }
+  }
+}

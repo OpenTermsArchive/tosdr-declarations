@@ -1,0 +1,9 @@
+{
+  "name": "Ip logger",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://iplogger.ru/privacy/",
+      "select": null
+    }
+  }
+}

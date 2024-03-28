@@ -1,0 +1,13 @@
+{
+  "name": "Mailru",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.mail.ru/legal/terms/common/privacy?signupid=kk93p4pp7tm",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.mail.ru/legal/terms/common/ua?signupid=kk93p4pp7tm",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Eparents",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.eparentsonline.com/ep-terms.php",
+      "select": "html > body > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.eparentsonline.com/privacy.php",
+      "select": "html > body > section:nth-of-type(2)"
+    }
+  }
+}

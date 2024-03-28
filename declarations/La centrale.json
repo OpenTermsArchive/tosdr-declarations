@@ -1,0 +1,25 @@
+{
+  "name": "La centrale",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lacentrale.fr/conditions_generales.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lacentrale.fr/politiqueconfidentialite.php",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.lacentrale.fr/mentions_legales.php",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.lacentrale.fr/static/fragment-layout/charte_redactionnelle-0effccfe.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.lacentrale.fr/warningcookies.php",
+      "select": "body"
+    }
+  }
+}

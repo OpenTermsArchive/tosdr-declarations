@@ -1,0 +1,21 @@
+{
+  "name": "Organic information services pvt ltd",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.organicfacts.net/terms-and-conditions",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.organicfacts.net/cookie-policy-organic-facts",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.organicfacts.net/privacy-policy",
+      "select": null
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.organicfacts.net/affiliate-disclosure",
+      "select": "body"
+    }
+  }
+}

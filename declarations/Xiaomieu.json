@@ -1,0 +1,17 @@
+{
+  "name": "Xiaomieu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://xiaomi.eu/community/help/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://xiaomi.eu/community/help/cookies/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://xiaomi.eu/community/help/terms/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

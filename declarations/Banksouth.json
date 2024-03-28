@@ -1,0 +1,9 @@
+{
+  "name": "Banksouth",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://banksouth.com/help/privacy-and-security/",
+      "select": "html > body > div:nth-of-type(5) > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Framework",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/28927739/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.iubenda.com/terms-and-conditions/28927739",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/28927739",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Code combat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://codecombat.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://codecombat.com/legal",
+      "select": "body"
+    }
+  }
+}

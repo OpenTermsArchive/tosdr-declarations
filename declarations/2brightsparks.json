@@ -1,0 +1,13 @@
+{
+  "name": "2brightsparks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.2brightsparks.com/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.2brightsparks.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

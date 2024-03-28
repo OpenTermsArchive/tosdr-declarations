@@ -1,0 +1,13 @@
+{
+  "name": "Omax health",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://omaxhealth.com/pages/terms ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://omaxhealth.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

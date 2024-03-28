@@ -1,0 +1,9 @@
+{
+  "name": "United states census",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.census.gov/about/policies/privacy.html",
+      "select": "body"
+    }
+  }
+}

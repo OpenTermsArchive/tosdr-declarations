@@ -1,0 +1,9 @@
+{
+  "name": "Bandirun",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://bandirun.com/index.php?view=privacypolicy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

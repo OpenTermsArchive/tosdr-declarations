@@ -1,0 +1,9 @@
+{
+  "name": "Mastodon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mastodon.cloud/terms",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    }
+  }
+}

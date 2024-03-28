@@ -1,0 +1,13 @@
+{
+  "name": "Mydramalist",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mydramalist.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://mydramalist.com/terms",
+      "select": null
+    }
+  }
+}

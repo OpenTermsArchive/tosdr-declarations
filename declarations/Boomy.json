@@ -1,0 +1,13 @@
+{
+  "name": "Boomy",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://boomy.com/privacy",
+      "select": " > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://boomy.com/terms",
+      "select": " > div > div"
+    }
+  }
+}

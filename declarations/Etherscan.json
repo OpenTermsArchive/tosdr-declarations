@@ -1,0 +1,9 @@
+{
+  "name": "Etherscan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://etherscan.io/terms",
+      "select": "html > body > main > div > div"
+    }
+  }
+}

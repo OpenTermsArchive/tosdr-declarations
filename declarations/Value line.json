@@ -1,0 +1,17 @@
+{
+  "name": "Value line",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.valueline.com/privacy.aspx",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.valueline.com/copyright-trademark",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.valueline.com/terms-conditions",
+      "select": null
+    }
+  }
+}

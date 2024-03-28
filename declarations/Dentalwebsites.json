@@ -1,0 +1,13 @@
+{
+  "name": "Dentalwebsites",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dentalwebsites.com/Privacy-Policy.asp",
+      "select": "html > body > section:first-of-type > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.dentalwebsites.com/Cookie-Policy.asp",
+      "select": "html > body > section:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Projectcounterorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.projectcounter.org/terms-and-conditions/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.projectcounter.org/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3)"
+    }
+  }
+}

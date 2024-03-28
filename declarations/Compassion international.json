@@ -1,0 +1,13 @@
+{
+  "name": "Compassion international",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.compassion.com/privacy-policy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.compassion.com/conditions-of-use.htm",
+      "select": "body"
+    }
+  }
+}

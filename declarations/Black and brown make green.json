@@ -1,0 +1,9 @@
+{
+  "name": "Black and brown make green",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://blackandbrownmakegreen.com/privacy/",
+      "select": "body"
+    }
+  }
+}

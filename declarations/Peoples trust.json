@@ -1,0 +1,13 @@
+{
+  "name": "Peoples trust",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.peoplestrust.com/en/legal/privacy-security/privacy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.peoplestrust.com/en/legal/website-use/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > main > div:nth-of-type(2)"
+    }
+  }
+}

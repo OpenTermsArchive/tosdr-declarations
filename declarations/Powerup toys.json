@@ -1,0 +1,17 @@
+{
+  "name": "Powerup toys",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.poweruptoys.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.poweruptoys.com/pages/shipping-and-return-policies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.poweruptoys.com/pages/copyright-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Keyspace",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://keyspace.cloud/privacy",
+      "select": "body"
+    }
+  }
+}

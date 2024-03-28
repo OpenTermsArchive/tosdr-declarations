@@ -1,0 +1,13 @@
+{
+  "name": "North sky capital",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://northskycapital.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://northskycapital.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

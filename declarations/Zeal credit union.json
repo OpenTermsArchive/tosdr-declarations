@@ -1,0 +1,13 @@
+{
+  "name": "Zeal credit union",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zealcu.org/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.zealcreditunionhb.org/bridge/disclosures/ib/disclose.html",
+      "select": "body"
+    }
+  }
+}

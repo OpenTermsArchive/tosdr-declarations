@@ -1,0 +1,13 @@
+{
+  "name": "Usphonebook",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.usphonebook.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.usphonebook.com/terms",
+      "select": "body"
+    }
+  }
+}

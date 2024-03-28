@@ -1,0 +1,13 @@
+{
+  "name": "Ftx",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.ftx.com/hc/en-us/articles/360031035671-Privacy-Policy",
+      "select": "html > body > main > div:nth-of-type(2) > div > article > section:first-of-type > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.ftx.com/hc/en-us/articles/360024788391-FTX-Terms-of-Service",
+      "select": "html > body > main > div:nth-of-type(2) > div > article > section:first-of-type > div > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Alluder",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.alluder.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.alluder.com/tos",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Up2sms",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://up2sms.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://up2sms.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://up2sms.com/refund-policy/",
+      "select": "body"
+    }
+  }
+}

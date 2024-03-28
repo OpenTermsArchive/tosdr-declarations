@@ -1,0 +1,13 @@
+{
+  "name": "Bcgame",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bcgame.sk/help/terms-service? ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bcgame.sk/help/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(5) > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

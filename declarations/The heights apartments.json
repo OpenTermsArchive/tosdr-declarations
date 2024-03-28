@@ -1,0 +1,13 @@
+{
+  "name": "The heights apartments",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.theheightscs.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.theheightscs.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

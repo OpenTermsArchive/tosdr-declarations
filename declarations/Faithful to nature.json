@@ -1,0 +1,13 @@
+{
+  "name": "Faithful to nature",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.faithful-to-nature.co.za/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.faithful-to-nature.co.za/terms-conditions/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

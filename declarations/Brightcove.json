@@ -1,0 +1,13 @@
+{
+  "name": "Brightcove",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.brightcove.com/en/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > section > div > div > ol"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.brightcove.com/en/legal/privacy",
+      "select": "html > body > section > div > main > div > div:nth-of-type(2)"
+    }
+  }
+}

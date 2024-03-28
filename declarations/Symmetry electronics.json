@@ -1,0 +1,17 @@
+{
+  "name": "Symmetry electronics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.symmetryelectronics.com/about/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div > div:first-of-type"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.symmetryelectronics.com/about/return-policy/",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.symmetryelectronics.com/about/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div > div:first-of-type"
+    }
+  }
+}

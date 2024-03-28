@@ -1,0 +1,17 @@
+{
+  "name": "Boardgame arena",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://boardgamearena.com/legal?section=tos",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://boardgamearena.com/legal?section=legal",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://boardgamearena.com/legal?section=ppac",
+      "select": "body"
+    }
+  }
+}

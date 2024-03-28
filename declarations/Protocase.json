@@ -1,0 +1,9 @@
+{
+  "name": "Protocase",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.protocase.com/about/terms.php",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4)"
+    }
+  }
+}

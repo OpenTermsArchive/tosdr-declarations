@@ -1,0 +1,13 @@
+{
+  "name": "Archivetoday",
+  "documents": {
+    "Frequently Asked Questions": {
+      "fetch": "https://archive.is/faq",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://addons.mozilla.org/en-US/firefox/addon/archive-page/privacy/",
+      "select": "html > body > div:first-of-type > div > div > div > div:nth-of-type(2) > section:nth-of-type(2) > div"
+    }
+  }
+}

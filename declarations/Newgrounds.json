@@ -1,0 +1,13 @@
+{
+  "name": "Newgrounds",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.newgrounds.com/wiki/help-information/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.newgrounds.com/wiki/help-information/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Baczekme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://invidious.baczek.me/privacy",
+      "select": "body"
+    }
+  }
+}

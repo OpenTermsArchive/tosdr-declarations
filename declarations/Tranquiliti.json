@@ -1,0 +1,9 @@
+{
+  "name": "Tranquiliti",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tranquiliti.co/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Via character",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.viacharacter.org/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.viacharacter.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

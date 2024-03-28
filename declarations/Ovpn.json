@@ -1,0 +1,13 @@
+{
+  "name": "Ovpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ovpn.com/en/privacypolicy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ovpn.com/en/tos",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

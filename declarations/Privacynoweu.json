@@ -1,0 +1,9 @@
+{
+  "name": "Privacynoweu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacynow.eu/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > main > article > div"
+    }
+  }
+}

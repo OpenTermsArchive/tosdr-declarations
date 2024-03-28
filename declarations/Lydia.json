@@ -1,0 +1,17 @@
+{
+  "name": "Lydia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yourlifeyourdata.com/privacy-shield",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://yourlifeyourdata.com/code-of-conduct",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://yourlifeyourdata.com/lydia-end-user-license-agreement",
+      "select": "body"
+    }
+  }
+}

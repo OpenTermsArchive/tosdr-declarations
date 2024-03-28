@@ -1,0 +1,17 @@
+{
+  "name": "Signal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.signal.org/legal/",
+      "select": "body"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://signal.org/bigbrother/eastern-virginia-grand-jury/",
+      "select": null
+    },
+    "Other": {
+      "fetch": "https://signal.org/docs/",
+      "select": "body"
+    }
+  }
+}

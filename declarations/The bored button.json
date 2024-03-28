@@ -1,0 +1,13 @@
+{
+  "name": "The bored button",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.boredbutton.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.boredbutton.com/privacy",
+      "select": "body"
+    }
+  }
+}

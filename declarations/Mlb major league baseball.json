@@ -1,0 +1,13 @@
+{
+  "name": "Mlb major league baseball",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mlb.com/official-information/terms-of-use",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mlb.com/official-information/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div:first-of-type"
+    }
+  }
+}

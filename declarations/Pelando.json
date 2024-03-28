@@ -1,0 +1,13 @@
+{
+  "name": "Pelando",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pelando.com.br/sobre/politica-de-privacidade",
+      "select": "html > body > div:first-of-type > div > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pelando.com.br/sobre/termos-de-uso",
+      "select": "html > body > div:first-of-type > div > main > div"
+    }
+  }
+}

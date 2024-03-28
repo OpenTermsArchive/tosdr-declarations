@@ -1,0 +1,17 @@
+{
+  "name": "Total by verizon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.totalbyverizon.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tracfonewirelessinc.com/en/Privacy%2BPolicy/",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.tfwunlockpolicy.com/wps/portal/home/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOK9LV0tDC0NDL39zX1NDBxDHb2dnLy9DAwMzPXD9aPASgxwAEcD_eDUPP2C7LxyAP8WlbU!/",
+      "select": "body"
+    }
+  }
+}

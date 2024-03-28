@@ -1,0 +1,13 @@
+{
+  "name": "Freedomain",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://freedomain.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://freedomain.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

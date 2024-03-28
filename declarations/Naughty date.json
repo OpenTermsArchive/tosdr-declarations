@@ -1,0 +1,13 @@
+{
+  "name": "Naughty date",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.naughtydate.com/c3RhdGljUGFnZS90ZXJtc25hdWdodHlkYXRlLmNvbQ==",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.naughtydate.com/c3RhdGljUGFnZS9wcml2YWN5cG9saWN5bmF1Z2h0eWRhdGUuY29t",
+      "select": "body"
+    }
+  }
+}

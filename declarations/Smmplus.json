@@ -1,0 +1,9 @@
+{
+  "name": "Smmplus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://smmplus.shop/terms",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type > div > div"
+    }
+  }
+}

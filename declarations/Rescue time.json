@@ -1,0 +1,13 @@
+{
+  "name": "Rescue time",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rescuetime.com/rtx/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rescuetime.com/rtx/privacy",
+      "select": "body"
+    }
+  }
+}

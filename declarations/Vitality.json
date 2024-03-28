@@ -1,0 +1,13 @@
+{
+  "name": "Vitality",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.powerofvitality.com/vitality/login/cookie_notice",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.powerofvitality.com/vitality/login/privacy_statement",
+      "select": "body"
+    }
+  }
+}

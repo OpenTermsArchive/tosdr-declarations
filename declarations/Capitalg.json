@@ -1,0 +1,9 @@
+{
+  "name": "Capitalg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://capitalg.com/privacy-policy/",
+      "select": "html > body > app-root > app-scroller > main > privacy-policy"
+    }
+  }
+}

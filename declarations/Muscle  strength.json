@@ -1,0 +1,13 @@
+{
+  "name": "Muscle  strength",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.iubenda.com/terms-and-conditions/27031375",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/27031375",
+      "select": "body"
+    }
+  }
+}

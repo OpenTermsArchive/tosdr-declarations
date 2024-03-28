@@ -1,0 +1,17 @@
+{
+  "name": "Red pocket",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.redpocket.com/terms_and_conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.redpocket.com/privacy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.redpocket.com/return-policy",
+      "select": "body"
+    }
+  }
+}

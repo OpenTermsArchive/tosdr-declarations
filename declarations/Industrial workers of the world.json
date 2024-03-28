@@ -1,0 +1,9 @@
+{
+  "name": "Industrial workers of the world",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iww.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

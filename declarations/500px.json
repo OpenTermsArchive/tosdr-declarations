@@ -1,0 +1,13 @@
+{
+  "name": "500px",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://500px.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://500px.com/privacy",
+      "select": "body"
+    }
+  }
+}

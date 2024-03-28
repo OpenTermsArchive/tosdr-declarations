@@ -1,0 +1,13 @@
+{
+  "name": "Splunk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.splunk.com/en_us/legal/privacy/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.splunk.com/en_us/legal/terms/terms-of-use.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Scratch",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://scratch.mit.edu/terms_of_use",
+      "select": " > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://scratch.mit.edu/privacy_policy",
+      "select": ".inner.info-inner"
+    },
+    "Community Guidelines": {
+      "fetch": "https://scratch.mit.edu:443/community_guidelines",
+      "select": "div.inner.guidelines"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://scratch.mit.edu/DMCA",
+      "select": " > div > div:nth-of-type(2) > div"
+    }
+  }
+}

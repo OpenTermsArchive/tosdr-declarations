@@ -1,0 +1,13 @@
+{
+  "name": "Quizizz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://quizizz.com/tos?lng=en",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://quizizz.com/privacy?lng=en",
+      "select": "body"
+    }
+  }
+}

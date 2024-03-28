@@ -1,0 +1,13 @@
+{
+  "name": "Chapril",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.chapril.org/cgu.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.chapril.org/Mentions-legales.html",
+      "select": "body"
+    }
+  }
+}

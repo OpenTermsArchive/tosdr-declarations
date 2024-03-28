@@ -1,0 +1,13 @@
+{
+  "name": "Project dna apps",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.projectdnaapps.com/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.projectdnaapps.com/terms-of-service.html",
+      "select": "body"
+    }
+  }
+}

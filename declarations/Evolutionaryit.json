@@ -1,0 +1,13 @@
+{
+  "name": "Evolutionaryit",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.evolutionaryit.com/cookie-policy/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.evolutionaryit.com/privacy-policy",
+      "select": null
+    }
+  }
+}

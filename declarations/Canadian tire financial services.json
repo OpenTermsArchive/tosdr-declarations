@@ -1,0 +1,13 @@
+{
+  "name": "Canadian tire financial services",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ctfs.com/content/ctfs/en/legal/bank_agreements.html",
+      "select": "html > body > main > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ctfs.com/content/ctfs/en/privacy_security.html",
+      "select": "html > body > main > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

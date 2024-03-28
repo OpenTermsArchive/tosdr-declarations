@@ -1,0 +1,13 @@
+{
+  "name": "Hasbro",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.hasbro.com/en-us/legal/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.hasbro.com/en-us/legal/privacy",
+      "select": "body"
+    }
+  }
+}

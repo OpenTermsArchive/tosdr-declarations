@@ -1,0 +1,13 @@
+{
+  "name": "Zalando",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mosaic01.ztat.net/cnt/privacy-page/pdf/Zalando_Privacy_Notice_nl-NL_0d8dbc4816311bea87ada721e9aa8ce6.pdf",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.zalando.nl/zalando-algemene-voorwaarden/",
+      "select": "body"
+    }
+  }
+}

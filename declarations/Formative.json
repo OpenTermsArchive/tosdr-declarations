@@ -1,0 +1,17 @@
+{
+  "name": "Formative",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.formative.com/legal/dpa",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.formative.com/legal/terms",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2)"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.formative.com/legal/rdp",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2)"
+    }
+  }
+}

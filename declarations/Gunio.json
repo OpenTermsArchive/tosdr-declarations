@@ -1,0 +1,13 @@
+{
+  "name": "Gunio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gun.io/user-agreement/",
+      "select": "html > body > main > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://gun.io/privacy-policy/",
+      "select": "html > body > main > article"
+    }
+  }
+}

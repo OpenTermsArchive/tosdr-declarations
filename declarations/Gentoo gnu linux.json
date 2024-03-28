@@ -1,0 +1,9 @@
+{
+  "name": "Gentoo gnu linux",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wiki.gentoo.org/wiki/Foundation:Privacy_Policy",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    }
+  }
+}

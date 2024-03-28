@@ -1,0 +1,13 @@
+{
+  "name": "Savvas learning company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.savvasrealize.com/privacy/corporate/privacy/learning-services-privacy-policy.html",
+      "select": "html > body > main > div > section > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.savvasrealize.com/userAgreement.html",
+      "select": "html > body > div > div:nth-of-type(3) > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Pupil labs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pupil-labs.com/legal/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://pupil-labs.com/legal/invisible-companion-terms-of-use/",
+      "select": "body"
+    }
+  }
+}

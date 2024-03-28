@@ -1,0 +1,9 @@
+{
+  "name": "Insurads",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.insurads.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Uniswap",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://uniswap.org/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

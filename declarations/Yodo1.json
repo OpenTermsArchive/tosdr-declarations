@@ -1,0 +1,13 @@
+{
+  "name": "Yodo1",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://home.yodo1.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://home.yodo1.com/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

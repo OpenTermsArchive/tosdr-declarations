@@ -1,0 +1,21 @@
+{
+  "name": "Plarium global",
+  "documents": {
+    "Law Enforcement Guidelines": {
+      "fetch": "https://plarium.com/en/legal/arbitration-agreement/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://plarium.com/en/legal/privacy-and-cookie-policy/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://plarium.com/en/legal/refund-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://plarium.com/en/legal/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

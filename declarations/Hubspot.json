@@ -1,0 +1,21 @@
+{
+  "name": "Hubspot",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://legal.hubspot.com/acceptable-use",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://legal.hubspot.com/cookie-policy",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://legal.hubspot.com/dpa",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://legal.hubspot.com/jurisdiction-specific-terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Nokia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nokia.com/en_int/phones/privacyportal",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nokia.com/en_int/phones/user-agreement",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.nokia.com/cookies",
+      "select": "body"
+    }
+  }
+}

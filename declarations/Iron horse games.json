@@ -1,0 +1,13 @@
+{
+  "name": "Iron horse games",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ironhorsegames.org/eula",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ironhorsegames.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

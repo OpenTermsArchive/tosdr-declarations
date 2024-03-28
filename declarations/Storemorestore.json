@@ -1,0 +1,13 @@
+{
+  "name": "Storemorestore",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.storemorestore.com/terms_privacy.asp",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.storemorestore.com/terms.asp",
+      "select": "body"
+    }
+  }
+}

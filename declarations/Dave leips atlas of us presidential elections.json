@@ -1,0 +1,17 @@
+{
+  "name": "Dave leips atlas of us presidential elections",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://uselectionatlas.org/BOTTOM/tos.php",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://uselectionatlas.org/BOTTOM/dmca.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://uselectionatlas.org/BOTTOM/privacypolicy.php",
+      "select": "body"
+    }
+  }
+}

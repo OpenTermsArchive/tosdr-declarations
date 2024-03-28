@@ -1,0 +1,9 @@
+{
+  "name": "Religionfacts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://religionfacts.com/privacy",
+      "select": null
+    }
+  }
+}

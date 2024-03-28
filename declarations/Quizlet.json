@@ -1,0 +1,21 @@
+{
+  "name": "Quizlet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://quizlet.com/privacy",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://quizlet.com/dmca",
+      "select": " > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://quizlet.com/tos",
+      "select": " > section > hgroup"
+    },
+    "Trackers Policy": {
+      "fetch": "https://quizlet.com/cookies",
+      "select": " > section"
+    }
+  }
+}

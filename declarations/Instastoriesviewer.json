@@ -1,0 +1,13 @@
+{
+  "name": "Instastoriesviewer",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://insta-stories-viewer.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://insta-stories-viewer.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

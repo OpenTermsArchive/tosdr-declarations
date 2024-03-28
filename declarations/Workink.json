@@ -1,0 +1,13 @@
+{
+  "name": "Workink",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://work.ink/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://work.ink/privacy",
+      "select": "body"
+    }
+  }
+}

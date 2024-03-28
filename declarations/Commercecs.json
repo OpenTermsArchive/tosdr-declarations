@@ -1,0 +1,13 @@
+{
+  "name": "Commercecs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://commercecs.com/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://commercecs.com/terms.php",
+      "select": "body"
+    }
+  }
+}

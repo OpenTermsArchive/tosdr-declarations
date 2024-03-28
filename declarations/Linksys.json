@@ -1,0 +1,17 @@
+{
+  "name": "Linksys",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.linksys.com/us/privacy-policy/",
+      "select": "html > body > main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.linksys.com/us/cookie-policy/",
+      "select": "html > body > main > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.linksys.com/us/end-user-license-agreement/",
+      "select": "html > body > main > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

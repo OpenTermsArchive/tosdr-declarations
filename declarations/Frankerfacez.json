@@ -1,0 +1,13 @@
+{
+  "name": "Frankerfacez",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.frankerfacez.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.frankerfacez.com/terms",
+      "select": "body"
+    }
+  }
+}

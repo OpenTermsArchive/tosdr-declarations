@@ -1,0 +1,25 @@
+{
+  "name": "Tube view ranker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tubeviewranker.com/assets/files/privacypolicy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tubeviewranker.com/assets/files/termsofuse.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://tubeviewranker.com/assets/files/dmcanotice.html",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://tubeviewranker.com/assets/files/antispampolicy.html",
+      "select": "body"
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://tubeviewranker.com/assets/files/externallinkspolicy.html",
+      "select": "body"
+    }
+  }
+}

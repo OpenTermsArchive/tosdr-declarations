@@ -1,0 +1,13 @@
+{
+  "name": "Coronaschnellteststationen sdewestpfalz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://corona-swp.de/datenschutz",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://corona-swp.de/uploads/system/609390291baa8024375899.pdf",
+      "select": "body"
+    }
+  }
+}

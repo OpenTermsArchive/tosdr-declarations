@@ -1,0 +1,9 @@
+{
+  "name": "Vr distribution",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vrdistribution.com.au/privacy",
+      "select": "body"
+    }
+  }
+}

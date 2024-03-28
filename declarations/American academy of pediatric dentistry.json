@@ -1,0 +1,13 @@
+{
+  "name": "American academy of pediatric dentistry",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.aapd.org/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.aapd.org/terms-of-use/",
+      "select": null
+    }
+  }
+}

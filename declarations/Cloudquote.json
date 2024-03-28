@@ -1,0 +1,13 @@
+{
+  "name": "Cloudquote",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cloudquote.io/article/6",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cloudquote.io/article/5",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Trustroots",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://team.trustroots.org/Privacy-Policy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.trustroots.org/rules",
+      "select": "html > body > div:first-of-type > article > section > rules > section:nth-of-type(2) > div > div > div"
+    }
+  }
+}

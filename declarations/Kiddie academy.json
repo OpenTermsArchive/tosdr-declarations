@@ -1,0 +1,13 @@
+{
+  "name": "Kiddie academy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kiddieacademy.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://kiddieacademy.com/terms-conditions/",
+      "select": null
+    }
+  }
+}

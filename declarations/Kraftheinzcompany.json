@@ -1,0 +1,13 @@
+{
+  "name": "Kraftheinzcompany",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kraftheinzcompany.com/NewPrivacyPolicy.html",
+      "select": "html > body > section:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kraftheinzcompany.com/terms.html",
+      "select": "html > body > section:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    }
+  }
+}

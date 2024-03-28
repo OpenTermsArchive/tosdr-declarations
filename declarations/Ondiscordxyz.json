@@ -1,0 +1,9 @@
+{
+  "name": "Ondiscordxyz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bots.ondiscord.xyz/info/tos",
+      "select": "body"
+    }
+  }
+}

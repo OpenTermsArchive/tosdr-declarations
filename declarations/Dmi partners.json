@@ -1,0 +1,9 @@
+{
+  "name": "Dmi partners",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://app.secureprivacy.ai/ext/#/policies/privacy-and-cookie-policy/1ecf02990be949e89aa1c97d83821a36b267dcc45ab44e07a3c769f11f8a6e963e660b31d5fa4ca297fe87c8c846ced0/5e44313d7df5d23cbcad39bc/CCPA/0",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Wtubeorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wtube.org/termsofservice",
+      "select": "body"
+    }
+  }
+}

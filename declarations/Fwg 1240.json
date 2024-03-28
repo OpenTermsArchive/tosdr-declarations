@@ -1,0 +1,13 @@
+{
+  "name": "Fwg 1240",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fwg1240.de/datenschutz",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://fwg1240.de/impressum",
+      "select": "body"
+    }
+  }
+}

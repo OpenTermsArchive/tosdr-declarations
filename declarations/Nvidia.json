@@ -1,0 +1,17 @@
+{
+  "name": "Nvidia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nvidia.com/en-us/about-nvidia/privacy-policy-children/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.nvidia.co.uk/object/cookie-policy-uk.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.nvidia.com/en-us/about-nvidia/legal-info/",
+      "select": "html > body"
+    }
+  }
+}

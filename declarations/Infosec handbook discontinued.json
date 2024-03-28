@@ -1,0 +1,13 @@
+{
+  "name": "Infosec handbook discontinued",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://infosec-handbook.eu/privacy-policy/",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://infosec-handbook.eu/security/",
+      "select": "body"
+    }
+  }
+}

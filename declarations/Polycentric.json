@@ -1,0 +1,9 @@
+{
+  "name": "Polycentric",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.polycentric.io/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div > div:first-of-type"
+    }
+  }
+}

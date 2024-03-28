@@ -1,0 +1,17 @@
+{
+  "name": "Springpod",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://legal.springpod.com/competition-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.springpod.co.uk/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://springpod.co.uk/cookie-policy",
+      "select": "body"
+    }
+  }
+}

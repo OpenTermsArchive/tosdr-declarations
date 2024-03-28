@@ -1,0 +1,17 @@
+{
+  "name": "Bytemark",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bytemark.co.uk/terms/",
+      "select": "html > body > div:first-of-type > main > section > article > div > section:nth-of-type(4) > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bytemark.co.uk/privacy-statement/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.bytemark.co.uk/cookies-policy/",
+      "select": "html > body > div:first-of-type > main > section > article > div > section"
+    }
+  }
+}

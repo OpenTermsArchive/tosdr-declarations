@@ -1,0 +1,17 @@
+{
+  "name": "Herbalife",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.herbalife.com/terms-of-use",
+      "select": "html > body > form > table > tbody > tr > td"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.herbalife.com/privacy-policy",
+      "select": "body"
+    },
+    "Spam": {
+      "fetch": "http://www.publicpills.com/malegra-100-mg.html",
+      "select": "www > malegra-100-mg > a > Pill"
+    }
+  }
+}

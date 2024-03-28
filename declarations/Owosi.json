@@ -1,0 +1,13 @@
+{
+  "name": "Owosi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yt.owo.si/privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://gh.owo.si/",
+      "select": "body"
+    }
+  }
+}

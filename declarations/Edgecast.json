@@ -1,0 +1,21 @@
+{
+  "name": "Edgecast",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.edgecast.com/policies/privacy/",
+      "select": "html > body > div:nth-of-type(5) > div"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://www.edgecast.com/policies/verizon-digital-media-services-trial-agreement/",
+      "select": "html > body > div:nth-of-type(5) > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.edgecast.com/policies/aup/",
+      "select": "html > body > div:nth-of-type(5) > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.edgecast.com/policies/copyright/",
+      "select": "html > body > div:nth-of-type(5) > div"
+    }
+  }
+}

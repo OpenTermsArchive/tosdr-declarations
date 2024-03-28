@@ -1,0 +1,25 @@
+{
+  "name": "Likee",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://likee.video/copyright",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://likee.video/young_privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://likee.video/cookie_policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div:nth-of-type(2) > div"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://likee.video/law_enforcement",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://likee.video/agreement",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div:nth-of-type(2) > div"
+    }
+  }
+}

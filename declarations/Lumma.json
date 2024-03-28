@@ -1,0 +1,17 @@
+{
+  "name": "Lumma",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mylumma.com/policies/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mylumma.com/pages/terms-of-use-menstrual-disc ",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://mylumma.com/policies/refund-policy",
+      "select": "body"
+    }
+  }
+}

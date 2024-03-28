@@ -1,0 +1,13 @@
+{
+  "name": "Myperfectcolor",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.myperfectcolor.com/terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.myperfectcolor.com/privacy-policy",
+      "select": null
+    }
+  }
+}

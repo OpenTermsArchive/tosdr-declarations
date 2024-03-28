@@ -1,0 +1,9 @@
+{
+  "name": "Virgin media",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.virginmedia.com/shop/the-legal-stuff",
+      "select": "body"
+    }
+  }
+}

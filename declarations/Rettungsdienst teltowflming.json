@@ -1,0 +1,9 @@
+{
+  "name": "Rettungsdienst teltowflming",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rettungsdienst-tf.de/datenschutz/",
+      "select": "body"
+    }
+  }
+}

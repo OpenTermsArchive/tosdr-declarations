@@ -1,0 +1,9 @@
+{
+  "name": "Assemble nationale",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.assemblee-nationale.fr/dyn/info-site",
+      "select": " > section > div > div:nth-of-type(2)"
+    }
+  }
+}

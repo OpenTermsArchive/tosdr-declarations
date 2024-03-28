@@ -1,0 +1,13 @@
+{
+  "name": "Cardi health",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cardi.health/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cardi.health/terms-of-services",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Garuda linux",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://teddit.garudalinux.org/privacy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://forum.garudalinux.org/tos",
+      "select": null
+    }
+  }
+}

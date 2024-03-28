@@ -1,0 +1,13 @@
+{
+  "name": "Realbyte",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://realbyteapps.com/policy/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://realbyteapps.com/policy/terms.html",
+      "select": "body"
+    }
+  }
+}

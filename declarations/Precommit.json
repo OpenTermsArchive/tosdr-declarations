@@ -1,0 +1,13 @@
+{
+  "name": "Precommit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pre-commit.ci/privacy_policy.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://pre-commit.ci/cookie_notice.html",
+      "select": "body"
+    }
+  }
+}

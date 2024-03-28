@@ -1,0 +1,13 @@
+{
+  "name": "Lunar client",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lunarclient.com/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lunarclient.com/privacy/",
+      "select": null
+    }
+  }
+}

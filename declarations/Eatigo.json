@@ -1,0 +1,13 @@
+{
+  "name": "Eatigo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://eatigo.com/sg/singapore/en/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://eatigo.com/sg/singapore/en/terms-of-use",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2)"
+    }
+  }
+}

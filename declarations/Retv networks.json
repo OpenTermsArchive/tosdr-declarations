@@ -1,0 +1,13 @@
+{
+  "name": "Retv networks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://re-tvnetworks.com/terms-of-use/index.html",
+      "select": "html > body > div:first-of-type > div > div > div > div > article > div > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://re-tvnetworks.com/privacy-policy/index.html",
+      "select": "html > body > div:first-of-type > div > div > div > div > article > div > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > div > div > div > div"
+    }
+  }
+}

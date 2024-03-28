@@ -1,0 +1,13 @@
+{
+  "name": "Psychology today",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.psychologytoday.com/us/docs/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.psychologytoday.com/us/docs/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

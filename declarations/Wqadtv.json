@@ -1,0 +1,13 @@
+{
+  "name": "Wqadtv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wqad.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wqad.com/privacy",
+      "select": "html > body > div:first-of-type > main > div"
+    }
+  }
+}

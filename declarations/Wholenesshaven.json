@@ -1,0 +1,9 @@
+{
+  "name": "Wholenesshaven",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wholenesshaven.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

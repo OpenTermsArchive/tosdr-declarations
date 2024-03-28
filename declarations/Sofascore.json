@@ -1,0 +1,9 @@
+{
+  "name": "Sofascore",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.sofascore.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

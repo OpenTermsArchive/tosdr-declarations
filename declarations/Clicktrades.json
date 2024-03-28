@@ -1,0 +1,13 @@
+{
+  "name": "Clicktrades",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://documents.clicktrades.com/CT_Privacy_Policy_Version_1.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://documents.clicktrades.com/Clicktrades_SC_Terms-and-Conditions_Version-11_Oct_2023.pdf",
+      "select": "body"
+    }
+  }
+}

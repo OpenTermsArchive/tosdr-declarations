@@ -1,0 +1,13 @@
+{
+  "name": "St joseph communications",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.stjoseph.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.todaysparent.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

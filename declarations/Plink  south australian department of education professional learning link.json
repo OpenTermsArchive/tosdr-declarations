@@ -1,0 +1,9 @@
+{
+  "name": "Plink  south australian department of education professional learning link",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.plink.sa.edu.au/pages/termsofservice.jsf",
+      "select": "body"
+    }
+  }
+}

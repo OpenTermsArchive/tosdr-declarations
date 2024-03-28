@@ -1,0 +1,9 @@
+{
+  "name": "Aman ahuja",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://amanahuja.me/privacy-policy/",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

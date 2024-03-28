@@ -1,0 +1,9 @@
+{
+  "name": "Chris glass",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://chrisglass.com/privacy/",
+      "select": "body"
+    }
+  }
+}

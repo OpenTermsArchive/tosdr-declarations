@@ -1,0 +1,13 @@
+{
+  "name": "Tracker software products",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tracker-software.com/privacy-policy",
+      "select": "html > body > div:first-of-type > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.tracker-software.com/cookies",
+      "select": "html > body > div:first-of-type > section"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Idrive",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.idrive.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

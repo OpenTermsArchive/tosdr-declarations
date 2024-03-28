@@ -1,0 +1,33 @@
+{
+  "name": "Knack",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.knack.com/cookies",
+      "select": " > p"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.knack.com/sla",
+      "select": " > p"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.knack.com/privacy-shield",
+      "select": " > p"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.knack.com/acceptable-use-policy",
+      "select": " > p"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.knack.com/copyright-policy",
+      "select": " > p"
+    },
+    "Legal Information": {
+      "fetch": "https://www.knack.com/gdpr",
+      "select": " > p"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.knack.com/policies/refunds",
+      "select": " p"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Dr rubisco web",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thedocruby.net/policy",
+      "select": "div#policy"
+    }
+  }
+}

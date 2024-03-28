@@ -1,0 +1,13 @@
+{
+  "name": "Smoner",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://smoner.com/pages/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://smoner.com/pages/privacy",
+      "select": "body"
+    }
+  }
+}

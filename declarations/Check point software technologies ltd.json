@@ -1,0 +1,9 @@
+{
+  "name": "Check point software technologies ltd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.checkpoint.com/privacy/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Inquisitr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.inquisitr.com/terms-of-services",
+      "select": "body"
+    }
+  }
+}

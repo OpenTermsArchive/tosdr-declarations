@@ -1,0 +1,9 @@
+{
+  "name": "Breezin thru theory",
+  "documents": {
+    "Other": {
+      "fetch": "http://breezinthrutheory.com:80/binder2016/",
+      "select": "body"
+    }
+  }
+}

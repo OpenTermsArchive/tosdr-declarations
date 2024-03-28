@@ -1,0 +1,13 @@
+{
+  "name": "Legalzoom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.legalzoom.com/legal/general-terms/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.legalzoom.com/legal/general-terms/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

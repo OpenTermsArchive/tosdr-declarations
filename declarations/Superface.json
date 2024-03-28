@@ -1,0 +1,13 @@
+{
+  "name": "Superface",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://superface.ai/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://superface.ai/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Call blocker",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.call-blocker.info/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.call-blocker.info/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

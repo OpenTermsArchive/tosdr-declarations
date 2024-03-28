@@ -1,0 +1,13 @@
+{
+  "name": "Airsense analytics",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://airsense.com/en/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://airsense.com/en/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tweeksforgeeks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tweaksforgeeks.com/terms/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tweaksforgeeks.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > article > div > div > div > div > div:first-of-type"
+    }
+  }
+}

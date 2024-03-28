@@ -1,0 +1,13 @@
+{
+  "name": "Betterment",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.betterment.com/legal/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.betterment.com/legal/terms",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

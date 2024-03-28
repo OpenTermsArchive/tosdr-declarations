@@ -1,0 +1,33 @@
+{
+  "name": "Albertsons companiessubsidiaries",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.albertsonscompanies.com/about-us/our-policies/notice-of-non-discrimination.html",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div"
+    },
+    "Other": {
+      "fetch": "https://www.albertsonscompanies.com/content/dam/minisite/pdfs/Language-Assistance-Services.pdf",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.theunitedfamily.com/coupon-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > main > article > div > div > div > div > section:nth-of-type(2) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.albertsonscompanies.com/about-us/our-policies/terms-of-use.html",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.luckysupermarkets.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > main > article > div > div > div"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.luckysupermarkets.com/supply-chain-transparency",
+      "select": "html > body > div:nth-of-type(3) > main > article > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.luckysupermarkets.com/cookies-and-ads-policy",
+      "select": "html > body > div:nth-of-type(3) > main > article > div > div > div"
+    }
+  }
+}

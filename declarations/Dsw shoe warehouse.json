@@ -1,0 +1,13 @@
+{
+  "name": "Dsw shoe warehouse",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.dsw.com/en/us/legal/web-terms",
+      "select": "html > body > div:first-of-type > app-root > div > div > app-legal > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dsw.com/en/us/legal/privacy-policy",
+      "select": "html > body > div:first-of-type > app-root > div > div > app-legal > div > div"
+    }
+  }
+}

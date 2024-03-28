@@ -1,0 +1,21 @@
+{
+  "name": "Fullcontact",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fullcontact.com/privacy-center-2/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fullcontact.com/privacy/services-agreement/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.fullcontact.com/privacy/privacy-notice/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.fullcontact.com/privacy/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

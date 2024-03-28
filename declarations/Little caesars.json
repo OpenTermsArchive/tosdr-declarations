@@ -1,0 +1,13 @@
+{
+  "name": "Little caesars",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://littlecaesars.com/en-us/legal/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://littlecaesars.com/en-us/legal/terms-of-service",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div > section"
+    }
+  }
+}

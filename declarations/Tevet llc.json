@@ -1,0 +1,9 @@
+{
+  "name": "Tevet llc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tevet.com/privacy",
+      "select": "html > body > div:nth-of-type(2) > main > div:first-of-type > div > div > div > div"
+    }
+  }
+}

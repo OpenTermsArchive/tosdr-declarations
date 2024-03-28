@@ -1,0 +1,17 @@
+{
+  "name": "Agechecked",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.agechecked.com/privacypolicy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.agechecked.com/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.agechecked.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

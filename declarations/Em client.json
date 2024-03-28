@@ -1,0 +1,17 @@
+{
+  "name": "Em client",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://store.emclient.com/order/privacy.php?CART_ID=53d0801ffb7810aecb7913e61604a156",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://store.emclient.com/order/refund_policy.php?CART_ID=53d0801ffb7810aecb7913e61604a156",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://store.emclient.com/order/terms_conditions.php?CART_ID=53d0801ffb7810aecb7913e61604a156",
+      "select": "body"
+    }
+  }
+}

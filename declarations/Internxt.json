@@ -1,0 +1,9 @@
+{
+  "name": "Internxt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://internxt.com/en/legal",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Social creator",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.socialcreator.com/terms.html",
+      "select": "body"
+    }
+  }
+}

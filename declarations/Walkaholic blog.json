@@ -1,0 +1,9 @@
+{
+  "name": "Walkaholic blog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://blog.walkaholic.me/es/politica-de-privacidad/",
+      "select": "body"
+    }
+  }
+}

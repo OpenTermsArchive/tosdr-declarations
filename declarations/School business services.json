@@ -1,0 +1,17 @@
+{
+  "name": "School business services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.schoolbusinessservices.co.uk/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.schoolbusinessservices.co.uk/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.schoolbusinessservices.co.uk/terms-conditions",
+      "select": "body"
+    }
+  }
+}

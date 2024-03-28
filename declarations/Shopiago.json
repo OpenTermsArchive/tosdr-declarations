@@ -1,0 +1,17 @@
+{
+  "name": "Shopiago",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.shopiago.com/privacypolicy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.shopiago.com/cookiepolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.shopiago.com/termsofuse",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Javascriptinfo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://javascript.info/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://javascript.info/privacy",
+      "select": "body"
+    }
+  }
+}

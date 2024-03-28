@@ -1,0 +1,13 @@
+{
+  "name": "European commission",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://ec.europa.eu/info/legal-notice_en",
+      "select": "body section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ec.europa.eu/info/privacy-policy_en",
+      "select": "body section"
+    }
+  }
+}

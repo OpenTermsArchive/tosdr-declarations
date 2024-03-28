@@ -1,0 +1,13 @@
+{
+  "name": "Cirrantic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cirrantic.com/agb/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cirrantic.com/datenschutz/",
+      "select": "body"
+    }
+  }
+}

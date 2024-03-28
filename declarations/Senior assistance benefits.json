@@ -1,0 +1,13 @@
+{
+  "name": "Senior assistance benefits",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://seniorassistancebenefits.org/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://seniorassistancebenefits.org/tc/",
+      "select": "body"
+    }
+  }
+}

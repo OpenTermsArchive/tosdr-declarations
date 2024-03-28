@@ -1,0 +1,9 @@
+{
+  "name": "Anonfiles",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://anonfile.com/terms",
+      "select": "body"
+    }
+  }
+}

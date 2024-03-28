@@ -1,0 +1,9 @@
+{
+  "name": "Billpay",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.billpay.de/en/privacy-de/",
+      "select": "html > body > div:nth-of-type(6) > div:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

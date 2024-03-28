@@ -1,0 +1,13 @@
+{
+  "name": "Invideo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://invideo.io/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://invideo.io/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

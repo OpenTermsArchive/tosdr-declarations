@@ -1,0 +1,13 @@
+{
+  "name": "Open collective",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://opencollective.com/tos",
+      "select": "html > body > div:first-of-type > div > main > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://opencollective.com/privacypolicy",
+      "select": "html > body > div:first-of-type > div > main > div:first-of-type > div"
+    }
+  }
+}

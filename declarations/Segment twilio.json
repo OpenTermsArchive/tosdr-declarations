@@ -1,0 +1,13 @@
+{
+  "name": "Segment twilio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://segment.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://segment.com/legal/terms/",
+      "select": "body"
+    }
+  }
+}

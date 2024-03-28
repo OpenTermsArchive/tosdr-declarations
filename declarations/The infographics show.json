@@ -1,0 +1,13 @@
+{
+  "name": "The infographics show",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.theinfographicsshow.com/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > main > div > section > div > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.theinfographicsshow.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > main > div > section > div > div:first-of-type > div"
+    }
+  }
+}

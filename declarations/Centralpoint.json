@@ -1,0 +1,9 @@
+{
+  "name": "Centralpoint",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.centralpoint.nl/gdpr/",
+      "select": "body"
+    }
+  }
+}

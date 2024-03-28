@@ -1,0 +1,13 @@
+{
+  "name": "Cluster",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cluster.co/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cluster.co/privacy/",
+      "select": "body"
+    }
+  }
+}

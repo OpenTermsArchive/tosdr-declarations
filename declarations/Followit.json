@@ -1,0 +1,13 @@
+{
+  "name": "Followit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://follow.it/info/terms",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://follow.it/info/privacy",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(3)"
+    }
+  }
+}

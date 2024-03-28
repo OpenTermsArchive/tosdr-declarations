@@ -1,0 +1,9 @@
+{
+  "name": "Zdf mediathek",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zdf.de/dsgvo",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Chaty",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://chaty.app/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://chaty.app/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

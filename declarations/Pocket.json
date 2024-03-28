@@ -1,0 +1,13 @@
+{
+  "name": "Pocket",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://getpocket.com/en/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://getpocket.com/en/tos/",
+      "select": "body"
+    }
+  }
+}

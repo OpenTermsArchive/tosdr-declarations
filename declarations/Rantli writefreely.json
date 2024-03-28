@@ -1,0 +1,9 @@
+{
+  "name": "Rantli writefreely",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rant.li/privacy",
+      "select": "body"
+    }
+  }
+}

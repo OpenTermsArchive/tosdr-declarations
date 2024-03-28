@@ -1,0 +1,13 @@
+{
+  "name": "Tantan",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tantanapp.com/en/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://tantanapp.com/en/terms_us",
+      "select": "body"
+    }
+  }
+}

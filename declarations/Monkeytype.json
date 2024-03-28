@@ -1,0 +1,13 @@
+{
+  "name": "Monkeytype",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://monkeytype.com/security-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://monkeytype.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

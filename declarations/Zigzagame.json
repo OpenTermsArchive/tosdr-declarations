@@ -1,0 +1,9 @@
+{
+  "name": "Zigzagame",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.zigzagame.com/Privacy-Policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Kalriabzis",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kaloriabazis.hu/oldal/felhasznalasi_feltet",
+      "select": " div.container"
+    },
+    "Trackers Policy": {
+      "fetch": "https://kaloriabazis.hu/oldal/cookie_info",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kaloriabazis.hu/oldal/adatvedelem",
+      "select": "body"
+    }
+  }
+}

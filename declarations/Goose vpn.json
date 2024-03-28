@@ -1,0 +1,17 @@
+{
+  "name": "Goose vpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://goosevpn.com/privacy-policy",
+      "select": " > section:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://goosevpn.com/terms-of-service",
+      "select": " > section:nth-of-type(2) > div > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://goosevpn.com/refund-policy",
+      "select": " > section:nth-of-type(2) > div > div"
+    }
+  }
+}

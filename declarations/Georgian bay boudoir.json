@@ -1,0 +1,9 @@
+{
+  "name": "Georgian bay boudoir",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://georgianbayboudoir.com/our-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

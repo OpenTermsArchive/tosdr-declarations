@@ -1,0 +1,13 @@
+{
+  "name": "Parkmobileio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://parkmobile.io/privacy-policy/",
+      "select": " > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://parkmobile.io/terms-of-use/",
+      "select": " > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Digital",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://digital.com/about/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

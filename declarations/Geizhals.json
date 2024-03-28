@@ -1,0 +1,9 @@
+{
+  "name": "Geizhals",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://unternehmen.geizhals.at/en-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

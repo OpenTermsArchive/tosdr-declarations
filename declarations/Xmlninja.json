@@ -1,0 +1,9 @@
+{
+  "name": "Xmlninja",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.xmlninja.com/site/privacypolicy",
+      "select": "body"
+    }
+  }
+}

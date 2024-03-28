@@ -1,0 +1,17 @@
+{
+  "name": "Nudevista",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nudevista.com/TOS/",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.nudevista.com/DMCA/",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nudevista.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

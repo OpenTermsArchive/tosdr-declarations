@@ -1,0 +1,13 @@
+{
+  "name": "Fluid truck",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fluidtruck.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fluidtruck.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

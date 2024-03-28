@@ -1,0 +1,13 @@
+{
+  "name": "Notesnook",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://notesnook.com/tos/",
+      "select": "html > body > div:first-of-type > div > div > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://notesnook.com/privacy",
+      "select": "body"
+    }
+  }
+}

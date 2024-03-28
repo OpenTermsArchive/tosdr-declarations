@@ -1,0 +1,13 @@
+{
+  "name": "Getupside",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.getupside.com/terms/",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.getupside.com/privacy/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ifixit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ifixit.com/Info/Terms_of_Use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ifixit.com/Info/Privacy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Ulule",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ulule.com/about/terms/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ulule.com/about/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ulule.com/about/privacy/",
+      "select": "body"
+    }
+  }
+}

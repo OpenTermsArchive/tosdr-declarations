@@ -1,0 +1,13 @@
+{
+  "name": "Makeleaps",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.makeleaps.jp/%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.makeleaps.jp/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Stool analyzer",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.stoolanalyzer.com/terms",
+      "select": "html > body > div:nth-of-type(4) > div > div:first-of-type > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.stoolanalyzer.com/privacy",
+      "select": "html > body > div:nth-of-type(4) > div > div:first-of-type > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

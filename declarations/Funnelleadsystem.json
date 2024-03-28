@@ -1,0 +1,13 @@
+{
+  "name": "Funnelleadsystem",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.funnelleadsystem.com/site/index.asp?DL=749581&page=166392",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.funnelleadsystem.com/Privacy.asp",
+      "select": "body"
+    }
+  }
+}

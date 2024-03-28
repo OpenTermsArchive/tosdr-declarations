@@ -1,0 +1,13 @@
+{
+  "name": "Washington trails association",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wta.org/our-work/about/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wta.org/our-work/about/privacy",
+      "select": "body"
+    }
+  }
+}

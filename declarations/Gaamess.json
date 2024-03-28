@@ -1,0 +1,9 @@
+{
+  "name": "Gaamess",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gaamess.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

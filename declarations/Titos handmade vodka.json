@@ -1,0 +1,9 @@
+{
+  "name": "Titos handmade vodka",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.titosvodka.com/privacy/",
+      "select": null
+    }
+  }
+}

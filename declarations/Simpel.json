@@ -1,0 +1,9 @@
+{
+  "name": "Simpel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://simpel.cc/privacy",
+      "select": "body"
+    }
+  }
+}

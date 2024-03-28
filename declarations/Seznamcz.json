@@ -1,0 +1,9 @@
+{
+  "name": "Seznamcz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://o.seznam.cz/ochrana-udaju/",
+      "select": "body"
+    }
+  }
+}

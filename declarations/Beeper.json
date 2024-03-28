@@ -1,0 +1,13 @@
+{
+  "name": "Beeper",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.beeper.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.beeper.com/terms",
+      "select": "body"
+    }
+  }
+}

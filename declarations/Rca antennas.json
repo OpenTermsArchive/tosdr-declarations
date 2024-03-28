@@ -1,0 +1,13 @@
+{
+  "name": "Rca antennas",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rcaantennas.net/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rcaantennas.net/privacy/",
+      "select": null
+    }
+  }
+}

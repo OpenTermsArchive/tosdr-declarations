@@ -1,0 +1,13 @@
+{
+  "name": "Tipard",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tipard.com/terms.html",
+      "select": "html > body > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tipard.com/policy.html",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

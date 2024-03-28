@@ -1,0 +1,21 @@
+{
+  "name": "Redgifs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.redgifs.com/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    },
+    "Records Keeping Policy": {
+      "fetch": "https://www.redgifs.com/notice2257",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.redgifs.com/dmca",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.redgifs.com/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    }
+  }
+}

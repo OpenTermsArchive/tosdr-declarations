@@ -1,0 +1,17 @@
+{
+  "name": "Lifestreet",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://lifestreet.com/dmca/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://lifestreet.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://lifestreet.com/privacy/",
+      "select": "body"
+    }
+  }
+}

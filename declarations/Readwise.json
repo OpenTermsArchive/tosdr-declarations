@@ -1,0 +1,13 @@
+{
+  "name": "Readwise",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://readwise.io/privacy",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://readwise.io/tos",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    }
+  }
+}

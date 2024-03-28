@@ -1,0 +1,13 @@
+{
+  "name": "Wonder how to",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wonderhowto.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wonderhowto.com/terms/",
+      "select": "body"
+    }
+  }
+}

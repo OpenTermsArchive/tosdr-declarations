@@ -1,0 +1,17 @@
+{
+  "name": "Wetransfer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wetransfer.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wetransfer.com/legal/terms",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://wetransfer.com/legal/takedown",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

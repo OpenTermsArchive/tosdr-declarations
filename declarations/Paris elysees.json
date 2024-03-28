@@ -1,0 +1,21 @@
+{
+  "name": "Paris elysees",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://paris-elysees.com/homepage/legal-notice/privacy-policy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://paris-elysees.com/homepage/legal-notice/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://paris-elysees.com/homepage/legal-notice/terms-and-conditions/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://paris-elysees.com/homepage/legal-notice/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Autismdate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.autismdate.com/privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.autismdate.com/page?id=20",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Draw of the month",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.premierdrawoftheweek.com/page-terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.premierdrawoftheweek.com/page-privacy.php",
+      "select": "body"
+    }
+  }
+}

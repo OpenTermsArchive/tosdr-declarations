@@ -1,0 +1,17 @@
+{
+  "name": "Netcup",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.netcup.eu/kontakt/impressum.php",
+      "select": " > main > div:nth-of-type(5)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.netcup.eu/kontakt/datenschutzerklaerung.php",
+      "select": " > main > div:nth-of-type(5)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.netcup.eu/bestellen/agb.php",
+      "select": " > main > div:nth-of-type(4)"
+    }
+  }
+}

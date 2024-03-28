@@ -1,0 +1,13 @@
+{
+  "name": "Amnesty international limited uk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.amnesty.org/en/about-us/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.amnesty.org/en/about-us/cookie-statement/",
+      "select": "body"
+    }
+  }
+}

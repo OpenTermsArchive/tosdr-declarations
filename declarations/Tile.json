@@ -1,0 +1,21 @@
+{
+  "name": "Tile",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thetileapp.com/en-us/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://uk.tile.com/docs/privacy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://support.thetileapp.com/hc/en-us/articles/228014088-Warranty-and-Refund-Policy-U-S-CA-AU-NZ",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://legal.tile.com/en/us/reseller/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "The trade desk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thetradedesk.com/us/website-privacy-policy",
+      "select": "html > body > div:first-of-type > main > div > div > div > div > div:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

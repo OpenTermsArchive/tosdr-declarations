@@ -1,0 +1,17 @@
+{
+  "name": "Heygo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.heygo.com/privacy",
+      "select": " > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.heygo.com/terms",
+      "select": " > div > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.heygo.com/cookie-policy",
+      "select": " > div > div:nth-of-type(2) > div"
+    }
+  }
+}

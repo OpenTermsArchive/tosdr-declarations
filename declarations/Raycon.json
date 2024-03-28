@@ -1,0 +1,17 @@
+{
+  "name": "Raycon",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://rayconglobal.com/24040041/policies/refund-policy.html?locale=en",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://rayconglobal.com/24040041/policies/terms-of-service.html?locale=en",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://rayconglobal.com/24040041/policies/privacy-policy.html?locale=en",
+      "select": "html > body > main > section"
+    }
+  }
+}

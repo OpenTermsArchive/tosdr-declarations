@@ -1,0 +1,13 @@
+{
+  "name": "Careerbuilder",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.careerbuilder.com/privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.careerbuilder.com/terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > main"
+    }
+  }
+}

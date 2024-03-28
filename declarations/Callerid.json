@@ -1,0 +1,13 @@
+{
+  "name": "Callerid",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://callapps.studio/acr_user_agreement.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://callapps.studio/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Dailymotion",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://www.dailymotion.com/legal/prohibited",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.dailymotion.com/legal/cookiemanagement",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dailymotion.com/legal",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dailymotion.com/legal/privacy",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.dailymotion.com/legal/copyright",
+      "select": null
+    }
+  }
+}

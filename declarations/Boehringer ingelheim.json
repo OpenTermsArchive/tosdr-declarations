@@ -1,0 +1,13 @@
+{
+  "name": "Boehringer ingelheim",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.boehringer-ingelheim.com/Privacy%20Statements/BIPI%20Online%20Privacy%20Policy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.boehringer-ingelheim.com/Terms%20and%20Conditions/Website%20Terms%20and%20Conditions",
+      "select": "body"
+    }
+  }
+}

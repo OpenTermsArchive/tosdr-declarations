@@ -1,0 +1,25 @@
+{
+  "name": "Prosper marketplace",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.prosper.com/plp/legal/terms-of-use-data/",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.prosper.com/plp/investor-credit-report-authorization/",
+      "select": "body"
+    },
+    "Developer Terms": {
+      "fetch": "https://www.prosper.com/plp/legal/terms-of-use-api/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.prosper.com/plp/legal/compliance/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.prosper.com/plp/legal/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

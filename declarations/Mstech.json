@@ -1,0 +1,13 @@
+{
+  "name": "Mstech",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mstech-co.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://mstech-co.com/refund-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div"
+    }
+  }
+}

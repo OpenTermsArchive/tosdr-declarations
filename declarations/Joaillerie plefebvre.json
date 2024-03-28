@@ -1,0 +1,13 @@
+{
+  "name": "Joaillerie plefebvre",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://plefebvrebjo.com/en/content/8-privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://plefebvrebjo.com/en/content/7-terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

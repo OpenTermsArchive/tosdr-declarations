@@ -1,0 +1,9 @@
+{
+  "name": "Sport compact warehouse",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://sportcompactwarehouse.com/privacy",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

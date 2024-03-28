@@ -1,0 +1,17 @@
+{
+  "name": "Glarysoft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.glarysoft.com/inf/privacy-policy/",
+      "select": "html > body > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.glarysoft.com/inf/eula/",
+      "select": "html > body > div:nth-of-type(4)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.glarysoft.com/inf/refund-policy/",
+      "select": "html > body > div:nth-of-type(4)"
+    }
+  }
+}

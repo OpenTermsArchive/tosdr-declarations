@@ -1,0 +1,9 @@
+{
+  "name": "Mnemonemo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.freeprivacypolicy.com/live/6ef0b8fc-272d-4800-99d2-fdb5dc1f3d5b",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Naturespa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.naturespashowerpurifier.com/en/policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.naturespashowerpurifier.com/en/terms-trial.html",
+      "select": "body"
+    }
+  }
+}

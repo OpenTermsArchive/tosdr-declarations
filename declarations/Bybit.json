@@ -1,0 +1,13 @@
+{
+  "name": "Bybit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bybit.com/app/terms-service/information",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bybit.com/app/terms-service/privacyPolicy",
+      "select": "body"
+    }
+  }
+}

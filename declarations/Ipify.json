@@ -1,0 +1,13 @@
+{
+  "name": "Ipify",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://geo.ipify.org/terms-of-service",
+      "select": "html > body > div:first-of-type > section > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://geo.ipify.org/payment-security-and-policy",
+      "select": "html > body > div:first-of-type > section > section"
+    }
+  }
+}

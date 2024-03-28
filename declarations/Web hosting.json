@@ -1,0 +1,13 @@
+{
+  "name": "Web hosting",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://webo.hosting/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://webo.hosting/general-terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

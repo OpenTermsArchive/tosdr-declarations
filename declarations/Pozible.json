@@ -1,0 +1,13 @@
+{
+  "name": "Pozible",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pozible.com/base-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pozible.com/base-privacy",
+      "select": "body"
+    }
+  }
+}

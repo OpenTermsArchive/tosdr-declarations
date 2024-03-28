@@ -1,0 +1,9 @@
+{
+  "name": "Userscriptzone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.userscript.zone/privacy",
+      "select": "body"
+    }
+  }
+}

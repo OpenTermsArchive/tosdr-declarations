@@ -1,0 +1,9 @@
+{
+  "name": "Sayyes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sayyes.com/privacy",
+      "select": "body"
+    }
+  }
+}

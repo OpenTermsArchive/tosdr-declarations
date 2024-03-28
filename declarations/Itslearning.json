@@ -1,0 +1,17 @@
+{
+  "name": "Itslearning",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://itslearning.com/global/your-data-matters/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://itslearning.com/global/wp-content/uploads/sites/20/2020/10/itslearning-terms-conditions-oct-2020.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://itslearning.com/global/your-data-matters/data-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

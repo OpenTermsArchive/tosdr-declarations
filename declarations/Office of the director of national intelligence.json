@@ -1,0 +1,9 @@
+{
+  "name": "Office of the director of national intelligence",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.intelligence.gov/information/privacy-policy",
+      "select": null
+    }
+  }
+}

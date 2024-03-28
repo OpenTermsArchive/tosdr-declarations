@@ -1,0 +1,13 @@
+{
+  "name": "Ornikar",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ornikar.com/a-propos/conditions-generales-de-vente",
+      "select": " > div > div > main > article > div:nth-of-type(2) > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ornikar.com/a-propos/charte-de-confidentialite",
+      "select": " > div > div > main > article > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Sceneinsider",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sceneinsider.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sceneinsider.com/privacy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.sceneinsider.com/dmca/",
+      "select": "body"
+    }
+  }
+}

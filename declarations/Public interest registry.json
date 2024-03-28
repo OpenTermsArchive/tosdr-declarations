@@ -1,0 +1,9 @@
+{
+  "name": "Public interest registry",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://thenew.org/org-people/about-pir/policies/pir-privacy-notice/",
+      "select": "body"
+    }
+  }
+}

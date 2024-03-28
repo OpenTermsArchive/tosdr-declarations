@@ -1,0 +1,17 @@
+{
+  "name": "Firsthand",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://firsthand.co/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://firsthand.co/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://firsthand.co/privacy-policy",
+      "select": "body"
+    }
+  }
+}

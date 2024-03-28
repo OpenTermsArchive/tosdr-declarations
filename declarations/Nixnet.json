@@ -1,0 +1,13 @@
+{
+  "name": "Nixnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.nixnet.services/NixNet_Docs:Privacy_policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.nixnet.services/Mastodon/Terms_of_Service",
+      "select": null
+    }
+  }
+}

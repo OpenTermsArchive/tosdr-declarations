@@ -1,0 +1,17 @@
+{
+  "name": "Racingcom",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.racing.com/about-us/responsible-wagering",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.racing.com/about-us/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.racing.com/about-us/privacy-policy",
+      "select": "body"
+    }
+  }
+}

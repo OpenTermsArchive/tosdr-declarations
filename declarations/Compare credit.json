@@ -1,0 +1,13 @@
+{
+  "name": "Compare credit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.comparecredit.com/privacy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(3) > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.comparecredit.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

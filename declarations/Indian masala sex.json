@@ -1,0 +1,13 @@
+{
+  "name": "Indian masala sex",
+  "documents": {
+    "Legal Information": {
+      "fetch": "http://www.indianmasalasex.net/legal/dmca",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://www.indianmasalasex.net/legal/tos",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(2) > div > div > p:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Alliance for creativity and entertainment",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.alliance4creativity.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > main > article > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.alliance4creativity.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > div > main > article > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.alliance4creativity.com/cookie-notice/",
+      "select": "html > body > div:nth-of-type(2) > div > main > article > div:first-of-type"
+    }
+  }
+}

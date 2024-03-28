@@ -1,0 +1,13 @@
+{
+  "name": "Citysearch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.citysearch.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.citysearch.com/terms",
+      "select": "body"
+    }
+  }
+}

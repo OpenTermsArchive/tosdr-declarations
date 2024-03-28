@@ -1,0 +1,9 @@
+{
+  "name": "Snikket community interest company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://snikket.org/about/privacy/",
+      "select": "html > body > div:first-of-type > section > div > div:nth-of-type(2)"
+    }
+  }
+}

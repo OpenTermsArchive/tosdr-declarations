@@ -1,0 +1,13 @@
+{
+  "name": "Simple",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://simple.io/eula",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://simple.io/privacy-policy",
+      "select": "body"
+    }
+  }
+}

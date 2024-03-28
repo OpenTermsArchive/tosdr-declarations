@@ -1,0 +1,9 @@
+{
+  "name": "Mv transportation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mvtransit.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

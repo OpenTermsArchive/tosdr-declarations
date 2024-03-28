@@ -1,0 +1,13 @@
+{
+  "name": "Rebuy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rebuyengine.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rebuyengine.com/terms",
+      "select": "body"
+    }
+  }
+}

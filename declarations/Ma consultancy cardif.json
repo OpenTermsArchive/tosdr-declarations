@@ -1,0 +1,9 @@
+{
+  "name": "Ma consultancy cardif",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://maconsultancycardiff.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

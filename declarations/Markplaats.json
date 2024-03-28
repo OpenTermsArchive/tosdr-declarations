@@ -1,0 +1,13 @@
+{
+  "name": "Markplaats",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.marktplaats.nl/i/help/over-marktplaats/voorwaarden-en-privacybeleid/algemene-gebruiksvoorwaarden.dot.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.marktplaats.nl/i/help/over-marktplaats/voorwaarden-en-privacybeleid/privacyverklaring/",
+      "select": "body"
+    }
+  }
+}

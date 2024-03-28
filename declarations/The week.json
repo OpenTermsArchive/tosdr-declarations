@@ -1,0 +1,13 @@
+{
+  "name": "The week",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.theweek.in/privacy-an-settlement.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > section > div:first-of-type > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.theweek.in/terms-and-conditions.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > section > div:first-of-type > div > section"
+    }
+  }
+}

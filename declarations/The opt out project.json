@@ -1,0 +1,9 @@
+{
+  "name": "The opt out project",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.optoutproject.net/my-privacy-policy",
+      "select": "html > body > main > div"
+    }
+  }
+}

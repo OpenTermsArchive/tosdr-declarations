@@ -1,0 +1,9 @@
+{
+  "name": "Seth for privacy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://teddit.sethforprivacy.com/privacy",
+      "select": "body"
+    }
+  }
+}

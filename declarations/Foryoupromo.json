@@ -1,0 +1,13 @@
+{
+  "name": "Foryoupromo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://foryoupromo.com/us/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://foryoupromo.com/us/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

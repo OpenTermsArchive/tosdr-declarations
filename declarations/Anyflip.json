@@ -1,0 +1,17 @@
+{
+  "name": "Anyflip",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://anyflip.com/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://anyflip.com/termsofservice/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://anyflip.com/dmca/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

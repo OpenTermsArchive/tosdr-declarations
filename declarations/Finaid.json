@@ -1,0 +1,13 @@
+{
+  "name": "Finaid",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://finaid.org/about/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://finaid.org/about/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    }
+  }
+}

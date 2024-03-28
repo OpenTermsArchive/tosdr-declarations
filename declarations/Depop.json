@@ -1,0 +1,17 @@
+{
+  "name": "Depop",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://depophelp.zendesk.com/hc/en-gb/articles/360026370634-Community-Guidelines-",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://depophelp.zendesk.com/hc/en-gb/articles/360001792147-Privacy-Policy-",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://depophelp.zendesk.com/hc/en-gb/articles/360001773148-Terms-of-Service",
+      "select": "body"
+    }
+  }
+}

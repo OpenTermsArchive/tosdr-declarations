@@ -1,0 +1,13 @@
+{
+  "name": "Young americans liberty",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yaliberty.org/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://yaliberty.org/terms-and-conditions/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3) > div"
+    }
+  }
+}

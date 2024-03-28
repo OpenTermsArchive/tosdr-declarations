@@ -1,0 +1,9 @@
+{
+  "name": "Cisa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cisa.gov/privacy-policy",
+      "select": "body"
+    }
+  }
+}

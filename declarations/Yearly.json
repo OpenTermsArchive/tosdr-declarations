@@ -1,0 +1,9 @@
+{
+  "name": "Yearly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://yearly.report/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

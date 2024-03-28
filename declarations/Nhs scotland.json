@@ -1,0 +1,9 @@
+{
+  "name": "Nhs scotland",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nhsinform.scot/privacy-and-cookies-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Unifiedlayers",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.unifiedlayers.com/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(5)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.unifiedlayers.com/refund-policy.html",
+      "select": "html > body > div:nth-of-type(4) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.unifiedlayers.com/tos.html",
+      "select": "html > body > div:nth-of-type(5)"
+    }
+  }
+}

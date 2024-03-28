@@ -1,0 +1,13 @@
+{
+  "name": "Magic earth",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.magicearth.com/privacy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.magicearth.com/disclaimer/",
+      "select": "body"
+    }
+  }
+}

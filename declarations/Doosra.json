@@ -1,0 +1,13 @@
+{
+  "name": "Doosra",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.doosra.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.doosra.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

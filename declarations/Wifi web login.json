@@ -1,0 +1,9 @@
+{
+  "name": "Wifi web login",
+  "documents": {
+    "Legal Information": {
+      "fetch": "http://www.wifiweblogin.com/policy/policy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Mixpanel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mixpanel.com/legal/security-overview/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://mixpanel.com/legal/dmca-copyright-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mixpanel.com/legal/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Realbooru",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://realbooru.com/index.php?page=forum&s=view&id=6749#264530",
+      "select": "body"
+    }
+  }
+}

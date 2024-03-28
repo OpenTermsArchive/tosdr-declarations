@@ -1,0 +1,13 @@
+{
+  "name": "Top minecraft servers",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://topminecraftservers.org/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://topminecraftservers.org/privacy.php",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "1happykiddo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://1happykiddo.com/privacy/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > main > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://1happykiddo.com/terms/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > main > article > div"
+    }
+  }
+}

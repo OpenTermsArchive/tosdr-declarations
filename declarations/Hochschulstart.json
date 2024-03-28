@@ -1,0 +1,9 @@
+{
+  "name": "Hochschulstart",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hochschulstart.de/datenschutz",
+      "select": "body"
+    }
+  }
+}

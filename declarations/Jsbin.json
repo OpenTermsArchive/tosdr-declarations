@@ -1,0 +1,13 @@
+{
+  "name": "Jsbin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jsbin.com/legals/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://jsbin.com/legals",
+      "select": "body"
+    }
+  }
+}

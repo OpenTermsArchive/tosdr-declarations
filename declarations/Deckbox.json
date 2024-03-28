@@ -1,0 +1,13 @@
+{
+  "name": "Deckbox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://deckbox.org/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://deckbox.org/legal",
+      "select": null
+    }
+  }
+}

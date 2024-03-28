@@ -1,0 +1,9 @@
+{
+  "name": "Fleur",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fleurbudget.com/privacy_terms.html",
+      "select": "body"
+    }
+  }
+}

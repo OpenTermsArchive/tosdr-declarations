@@ -1,0 +1,9 @@
+{
+  "name": "Roland zoss",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rolandzoss.com/app/index.html",
+      "select": "body"
+    }
+  }
+}

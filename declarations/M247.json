@@ -1,0 +1,13 @@
+{
+  "name": "M247",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://m247.com/terms-of-use/",
+      "select": "html > body > main > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://m247.com/privacy-policy/",
+      "select": "html > body > main > section"
+    }
+  }
+}

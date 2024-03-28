@@ -1,0 +1,13 @@
+{
+  "name": "Latercom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://later.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://later.com/terms/",
+      "select": "body"
+    }
+  }
+}

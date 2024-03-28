@@ -1,0 +1,13 @@
+{
+  "name": "Rust",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://foundation.rust-lang.org/policies/privacy-policy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://foundation.rust-lang.org/policies/copyright-policy/",
+      "select": "body"
+    }
+  }
+}

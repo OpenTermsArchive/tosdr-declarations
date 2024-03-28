@@ -1,0 +1,13 @@
+{
+  "name": "Z league",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.zleague.gg/apex/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div > section > main > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.zleague.gg/apex/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div > section > main > section"
+    }
+  }
+}

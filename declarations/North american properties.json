@@ -1,0 +1,13 @@
+{
+  "name": "North american properties",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.naproperties.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.naproperties.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

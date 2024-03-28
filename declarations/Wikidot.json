@@ -1,0 +1,13 @@
+{
+  "name": "Wikidot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wikidot.com/legal:privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wikidot.com/legal:terms-of-service",
+      "select": "body"
+    }
+  }
+}

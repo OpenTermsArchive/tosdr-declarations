@@ -1,0 +1,13 @@
+{
+  "name": "Autocode",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://autocode.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://autocode.com/dpa/",
+      "select": "body"
+    }
+  }
+}

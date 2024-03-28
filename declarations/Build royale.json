@@ -1,0 +1,9 @@
+{
+  "name": "Build royale",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://buildroyale.io/changelog.html",
+      "select": "body"
+    }
+  }
+}

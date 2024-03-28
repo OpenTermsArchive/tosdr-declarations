@@ -1,0 +1,13 @@
+{
+  "name": "Oclc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policies.oclc.org/en/privacy/privacy-statement.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://policies.oclc.org/en/privacy/cookie-statement.html",
+      "select": "body"
+    }
+  }
+}

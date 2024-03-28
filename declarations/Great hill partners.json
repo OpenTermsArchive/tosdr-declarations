@@ -1,0 +1,13 @@
+{
+  "name": "Great hill partners",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.greathillpartners.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.greathillpartners.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Sec",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sec.gov/privacy",
+      "select": "html > body > div:first-of-type > div > div > div > div:nth-of-type(3)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Understood",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.understood.org/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.understood.org/terms-of-use",
+      "select": "body"
+    }
+  }
+}

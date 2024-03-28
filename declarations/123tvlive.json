@@ -1,0 +1,13 @@
+{
+  "name": "123tvlive",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://123tv.live/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div:first-of-type > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://123tv.live/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div:first-of-type > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Moscow information cluster",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://i.moscow/media/download/11878",
+      "select": "body"
+    }
+  }
+}

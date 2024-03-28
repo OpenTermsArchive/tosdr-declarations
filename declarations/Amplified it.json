@@ -1,0 +1,9 @@
+{
+  "name": "Amplified it",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.amplifiedit.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

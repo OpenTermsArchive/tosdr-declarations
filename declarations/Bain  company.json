@@ -1,0 +1,17 @@
+{
+  "name": "Bain  company",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.bain.com/about/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bain.com/about/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bain.com/about/terms/",
+      "select": "body"
+    }
+  }
+}

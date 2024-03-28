@@ -1,0 +1,13 @@
+{
+  "name": "Chanceco",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cdn.chance.co/terms-and-conditions/conditions_generales_utilisation.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cdn.chance.co/terms-and-conditions/charte_de_protection_des_donnees.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "My compass classroom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mycompassclassroom.com/terms-of-service/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://mycompassclassroom.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

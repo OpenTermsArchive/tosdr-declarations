@@ -1,0 +1,13 @@
+{
+  "name": "Platformsh",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://platform.sh/tos",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://platform.sh/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div"
+    }
+  }
+}

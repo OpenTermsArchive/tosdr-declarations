@@ -1,0 +1,9 @@
+{
+  "name": "Vectorizer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vectorizer.com/terms",
+      "select": "body"
+    }
+  }
+}

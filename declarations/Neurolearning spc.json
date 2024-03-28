@@ -1,0 +1,9 @@
+{
+  "name": "Neurolearning spc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://portal.neurolearning.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

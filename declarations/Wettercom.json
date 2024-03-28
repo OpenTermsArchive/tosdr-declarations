@@ -1,0 +1,9 @@
+{
+  "name": "Wettercom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wetter.com/datenschutz/adsb/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Andar software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://andarsoftware.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > section > div"
+    }
+  }
+}

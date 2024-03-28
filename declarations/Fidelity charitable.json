@@ -1,0 +1,13 @@
+{
+  "name": "Fidelity charitable",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fidelitycharitable.org/legal/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(2) > div > section > article"
+    },
+    "Legal Information": {
+      "fetch": "https://www.fidelitycharitable.org/legal/legal-note.html",
+      "select": "body"
+    }
+  }
+}

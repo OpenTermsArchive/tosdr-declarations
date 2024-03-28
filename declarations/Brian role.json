@@ -1,0 +1,13 @@
+{
+  "name": "Brian role",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://brianrole.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://brianrole.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > main > div > div"
+    }
+  }
+}

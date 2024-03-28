@@ -1,0 +1,13 @@
+{
+  "name": "Hybrid hosting",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hybridhosting.co/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hybridhosting.co/privacy",
+      "select": "body"
+    }
+  }
+}

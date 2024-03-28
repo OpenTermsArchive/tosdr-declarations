@@ -1,0 +1,13 @@
+{
+  "name": "Surface owl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.surfaceowl.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://surfaceowl.com/user-agreement",
+      "select": "body"
+    }
+  }
+}

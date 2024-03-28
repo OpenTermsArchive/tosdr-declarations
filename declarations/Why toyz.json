@@ -1,0 +1,17 @@
+{
+  "name": "Why toyz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://whytoyz.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://whytoyz.com/returns-and-refund-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://whytoyz.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

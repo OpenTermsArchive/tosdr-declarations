@@ -1,0 +1,13 @@
+{
+  "name": "Boursorama",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.boursorama.com/aide/politique-cookies",
+      "select": " > div > div > div:nth-of-type(4) > div:first-of-type"
+    },
+    "Legal Information": {
+      "fetch": "https://www.boursorama.com/aide/avertissement-legal",
+      "select": " > div > div > div:nth-of-type(4) > div:first-of-type"
+    }
+  }
+}

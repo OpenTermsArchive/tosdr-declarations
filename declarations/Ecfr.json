@@ -1,0 +1,9 @@
+{
+  "name": "Ecfr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ecfr.gov/reader-aids/government-policy-and-ofr-procedures/privacy",
+      "select": "body"
+    }
+  }
+}

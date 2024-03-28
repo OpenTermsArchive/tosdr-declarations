@@ -1,0 +1,13 @@
+{
+  "name": "Community first credit union",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.communityfirstfl.org/website-terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.communityfirstfl.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

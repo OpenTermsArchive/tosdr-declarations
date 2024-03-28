@@ -1,0 +1,17 @@
+{
+  "name": "Autoevolution",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.autoevolution.com/static/cookies.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.autoevolution.com/static/privacy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.autoevolution.com/static/terms.html",
+      "select": null
+    }
+  }
+}

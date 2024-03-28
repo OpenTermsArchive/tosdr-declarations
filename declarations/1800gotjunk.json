@@ -1,0 +1,9 @@
+{
+  "name": "1800gotjunk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.1800gotjunk.com/us_en/privacy-legal",
+      "select": "html > body > div:nth-of-type(2) > main > div > div > div"
+    }
+  }
+}

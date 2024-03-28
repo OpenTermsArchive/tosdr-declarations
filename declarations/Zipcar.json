@@ -1,0 +1,9 @@
+{
+  "name": "Zipcar",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.zipcar.com/member-agreement-2-4-2020",
+      "select": null
+    }
+  }
+}

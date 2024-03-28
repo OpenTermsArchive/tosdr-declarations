@@ -1,0 +1,17 @@
+{
+  "name": "Promosurveytop",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://promosurvey.top/privacy.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://promosurvey.top/cookie.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://promosurvey.top/terms.html",
+      "select": "body"
+    }
+  }
+}

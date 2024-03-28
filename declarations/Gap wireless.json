@@ -1,0 +1,13 @@
+{
+  "name": "Gap wireless",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gapwireless.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gapwireless.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div > section > div:nth-of-type(2) > div > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Pirate party australia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pirateparty.org.au/privacy/",
+      "select": null
+    }
+  }
+}

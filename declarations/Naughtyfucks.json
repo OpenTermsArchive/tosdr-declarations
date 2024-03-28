@@ -1,0 +1,17 @@
+{
+  "name": "Naughtyfucks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.naughtyfucks.com/tos.html",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "http://www.naughtyfucks.com/dmca.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.naughtyfucks.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

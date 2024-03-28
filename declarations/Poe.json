@@ -1,0 +1,13 @@
+{
+  "name": "Poe",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://poe.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://poe.com/privacy",
+      "select": "body"
+    }
+  }
+}

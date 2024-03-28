@@ -1,0 +1,13 @@
+{
+  "name": "Ez shred keto",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ez-shred-keto.com/gaketov2/terms ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ez-shred-keto.com/gaketov2/privacy ",
+      "select": "body"
+    }
+  }
+}

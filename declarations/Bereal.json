@@ -1,0 +1,13 @@
+{
+  "name": "Bereal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bereal.com/en/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://bereal.com/en/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

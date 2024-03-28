@@ -1,0 +1,13 @@
+{
+  "name": "Itprotv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.itpro.tv/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.itpro.tv/terms/",
+      "select": "body"
+    }
+  }
+}

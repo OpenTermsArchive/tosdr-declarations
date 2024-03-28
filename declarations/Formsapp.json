@@ -1,0 +1,13 @@
+{
+  "name": "Formsapp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://forms.app/en/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://forms.app/en/terms",
+      "select": "body"
+    }
+  }
+}

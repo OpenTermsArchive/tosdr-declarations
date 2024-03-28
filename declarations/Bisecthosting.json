@@ -1,0 +1,13 @@
+{
+  "name": "Bisecthosting",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bisecthosting.com/tos.php",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > pre"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bisecthosting.com/privacy.php",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > pre > span"
+    }
+  }
+}

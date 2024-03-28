@@ -1,0 +1,13 @@
+{
+  "name": "Turbosquid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://support.turbosquid.com/hc/en-us/articles/230094807-Our-Privacy-Policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://support.turbosquid.com/entries/28715967-Terms-of-Use?locale=1",
+      "select": "body"
+    }
+  }
+}

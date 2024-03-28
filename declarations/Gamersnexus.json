@@ -1,0 +1,13 @@
+{
+  "name": "Gamersnexus",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://store.gamersnexus.net/store-info ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://store.gamersnexus.net/privacy",
+      "select": "body"
+    }
+  }
+}

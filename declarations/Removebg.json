@@ -1,0 +1,13 @@
+{
+  "name": "Removebg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.remove.bg/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.remove.bg/tos",
+      "select": "body"
+    }
+  }
+}

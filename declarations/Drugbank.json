@@ -1,0 +1,13 @@
+{
+  "name": "Drugbank",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://go.drugbank.com/legal/privacy_policy",
+      "select": "html > body > main > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://go.drugbank.com/legal/terms_of_use",
+      "select": "html > body > main > div > div:nth-of-type(2)"
+    }
+  }
+}

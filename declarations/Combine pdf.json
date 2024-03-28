@@ -1,0 +1,9 @@
+{
+  "name": "Combine pdf",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://combinepdf.com/terms",
+      "select": "body"
+    }
+  }
+}

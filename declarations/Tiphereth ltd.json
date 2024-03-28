@@ -1,0 +1,13 @@
+{
+  "name": "Tiphereth ltd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tiphereth.org.uk/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tiphereth.org.uk/terms-of-service",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Myvidster",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.myvidster.com/docs/tos",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.myvidster.com/docs/privacy",
+      "select": "html > body > table > tbody > tr:nth-of-type(2) > td > div > table > tbody > tr:nth-of-type(2) > td"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.myvidster.com/docs/copyright",
+      "select": "html > body > table > tbody > tr:nth-of-type(2) > td > div > table > tbody > tr:nth-of-type(2) > td"
+    }
+  }
+}

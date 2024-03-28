@@ -1,0 +1,17 @@
+{
+  "name": "Newsguard",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.newsguardtech.com/cookie-notice/",
+      "select": " > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.newsguardtech.com/privacy-policy/",
+      "select": " > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.newsguardtech.com/terms-of-service/",
+      "select": " > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Safeco insurance company of america",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.safeco.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.libertymutualgroup.com/about-lm/corporate-information/privacy-policy",
+      "select": "body"
+    }
+  }
+}

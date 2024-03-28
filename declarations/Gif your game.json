@@ -1,0 +1,9 @@
+{
+  "name": "Gif your game",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gifyourgame.com/privacypolicy",
+      "select": "body"
+    }
+  }
+}

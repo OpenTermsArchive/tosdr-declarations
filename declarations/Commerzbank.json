@@ -1,0 +1,17 @@
+{
+  "name": "Commerzbank",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.commerzbank.us/portal/en/cb/us/footer/recht-2/disclaimer_18.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.commerzbank.de/portal/media/efw-dokumente/agb_eng.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.commerzbank.de/portal/de/footer1/recht/rechtliche_hinweise.html",
+      "select": null
+    }
+  }
+}

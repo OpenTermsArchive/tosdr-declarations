@@ -1,0 +1,13 @@
+{
+  "name": "Philip morris usa",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.philipmorrisusa.com/terms-of-use",
+      "select": "html > body > div:first-of-type > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.philipmorrisusa.com/privacy",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

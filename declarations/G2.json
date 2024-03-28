@@ -1,0 +1,17 @@
+{
+  "name": "G2",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.g2.com/static/privacy",
+      "select": "html > body > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://legal.g2.com/cookie-policy",
+      "select": "html > body > span:nth-of-type(3) > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://legal.g2.com/terms-of-use",
+      "select": "html > body > span:nth-of-type(3) > div > section"
+    }
+  }
+}

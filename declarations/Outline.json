@@ -1,0 +1,13 @@
+{
+  "name": "Outline",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://support.getoutline.org/s/article/Data-collection?language=en_US",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://s3.amazonaws.com/outline-vpn/static_downloads/Outline-Terms-of-Service.html",
+      "select": "body"
+    }
+  }
+}

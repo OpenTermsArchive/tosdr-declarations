@@ -1,0 +1,21 @@
+{
+  "name": "Authy twilio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.twilio.com/legal/privacy",
+      "select": "html > body > main > div > div > div > div:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://www.twilio.com/legal/privacy/authy",
+      "select": "html > body > main > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.twilio.com/legal/pay-terms",
+      "select": "html > body > main > div > div > div > div:nth-of-type(2) > div:nth-of-type(4) > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.twilio.com/legal/privacy/cookies",
+      "select": "html > body > main > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(2)"
+    }
+  }
+}

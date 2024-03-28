@@ -1,0 +1,17 @@
+{
+  "name": "Encyclopedia dramatica",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://encyclopediadramatica.wiki/index.php/Encyclopedia_Dramatica:General_Disclaimer",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://encyclopediadramatica.wiki/index.php/Encyclopedia_Dramatica:Privacy_policy",
+      "select": " > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://encyclopediadramatica.wiki/index.php/Encyclopedia_Dramatica:Basic_Rules",
+      "select": null
+    }
+  }
+}

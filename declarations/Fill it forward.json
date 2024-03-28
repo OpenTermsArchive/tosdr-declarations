@@ -1,0 +1,13 @@
+{
+  "name": "Fill it forward",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fillitforward.com/app/app-privacy-policy/",
+      "select": "div[data-elementor-type=\"wp-page\"]"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fillitforward.com/fill-it-forward-app-terms-of-use/",
+      "select": "div[data-elementor-type=\"wp-page\"]"
+    }
+  }
+}

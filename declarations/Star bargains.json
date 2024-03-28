@@ -1,0 +1,17 @@
+{
+  "name": "Star bargains",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.starbargains.co.uk/page/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.starbargains.co.uk/page/terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4) > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.starbargains.co.uk/page/cookies",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4) > div > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Barack obama foundation",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://www.obama.org/terms-conditions/submission-terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.obama.org/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.obama.org/terms-conditions",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Carfax",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.carfax.com/company/privacy-statement",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.carfax.com/company/terms-of-use",
+      "select": "body"
+    }
+  }
+}

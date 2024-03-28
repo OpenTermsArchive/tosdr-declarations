@@ -1,0 +1,9 @@
+{
+  "name": "Paybiscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://paybis.com/policies/privacy/",
+      "select": "body"
+    }
+  }
+}

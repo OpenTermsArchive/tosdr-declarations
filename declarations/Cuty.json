@@ -1,0 +1,13 @@
+{
+  "name": "Cuty",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cuty.io/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cuty.io/privacy",
+      "select": "body"
+    }
+  }
+}

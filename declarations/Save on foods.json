@@ -1,0 +1,13 @@
+{
+  "name": "Save on foods",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.saveonfoods.com/sm/pickup/rsid/1982/terms-conditions",
+      "select": "html > body > div:first-of-type > span > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.saveonfoods.com/sm/pickup/rsid/1982/privacy-policy",
+      "select": "html > body > div:first-of-type > span > main > div"
+    }
+  }
+}

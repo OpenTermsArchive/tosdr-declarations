@@ -1,0 +1,13 @@
+{
+  "name": "Onegreenplanet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.onegreenplanet.org/terms-of-service/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.onegreenplanet.org/privacy-policy/",
+      "select": null
+    }
+  }
+}

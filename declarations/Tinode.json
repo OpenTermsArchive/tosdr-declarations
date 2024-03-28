@@ -1,0 +1,13 @@
+{
+  "name": "Tinode",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tinode.co/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tinode.co/terms.html",
+      "select": "body"
+    }
+  }
+}

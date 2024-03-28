@@ -1,0 +1,17 @@
+{
+  "name": "Cleetus mcfarland",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.cleetusmcfarland.com/policies/refund-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cleetusmcfarland.com/policies/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cleetusmcfarland.com/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

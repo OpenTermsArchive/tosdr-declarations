@@ -1,0 +1,17 @@
+{
+  "name": "Unclaimed money search",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.unclaimed-moneysearch.com/tc.php",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.unclaimed-moneysearch.com/privacy-notice.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.unclaimed-moneysearch.com/pp.php",
+      "select": "body"
+    }
+  }
+}

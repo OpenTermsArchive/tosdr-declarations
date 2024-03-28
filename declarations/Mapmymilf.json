@@ -1,0 +1,13 @@
+{
+  "name": "Mapmymilf",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mapmymilf.com/terms_and_conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mapmymilf.com/privacy_policy",
+      "select": "body"
+    }
+  }
+}

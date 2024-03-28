@@ -1,0 +1,25 @@
+{
+  "name": "Traffic authority",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.trafficauthority.net/legal/refund.php",
+      "select": " > div > div:first-of-type > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.trafficauthority.net/legal/compliance.php",
+      "select": " > div > div:nth-of-type(5)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.trafficauthority.net/legal/privacy.php",
+      "select": " > div > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.trafficauthority.net/legal/terms.php",
+      "select": " > div > div:first-of-type > div"
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://www.trafficauthority.net/legal/affiliate.php",
+      "select": "html > body > div > div:nth-of-type(3) > div > div:first-of-type > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ilovesamples",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.flatironmedia.com/terms_of_service_text.php?es=1&p=www",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ilovesamples.com/policy.php",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Foursquare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fr.foursquare.com/legal/ccpa-consumer",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://foursquare.com/legal/terms",
+      "select": "div#blankPage"
+    },
+    "Trackers Policy": {
+      "fetch": "https://foursquare.com/legal/cookiepolicy/",
+      "select": "body"
+    }
+  }
+}

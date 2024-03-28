@@ -1,0 +1,13 @@
+{
+  "name": "Medical id",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://medicalid.app/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://medicalid.app/eula",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

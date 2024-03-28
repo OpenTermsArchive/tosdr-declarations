@@ -1,0 +1,13 @@
+{
+  "name": "Dwave",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dwavesys.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dwavesys.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

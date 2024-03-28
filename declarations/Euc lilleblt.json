@@ -1,0 +1,13 @@
+{
+  "name": "Euc lilleblt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.eucl.dk/om-os/privatlivspolitik/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.eucl.dk/om-os/cookiepolitik/",
+      "select": "body"
+    }
+  }
+}

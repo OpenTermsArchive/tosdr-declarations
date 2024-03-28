@@ -1,0 +1,9 @@
+{
+  "name": "Bitkongcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bitkong.com/en/legal?p=a-ads&d=62848_1615237",
+      "select": "body"
+    }
+  }
+}

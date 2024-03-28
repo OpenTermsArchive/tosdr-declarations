@@ -1,0 +1,9 @@
+{
+  "name": "Addictivetips",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.addictivetips.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

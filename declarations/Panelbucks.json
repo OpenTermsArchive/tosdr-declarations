@@ -1,0 +1,13 @@
+{
+  "name": "Panelbucks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://panelbucks.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://panelbucks.com/terms",
+      "select": "body"
+    }
+  }
+}

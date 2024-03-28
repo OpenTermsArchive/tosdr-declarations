@@ -1,0 +1,9 @@
+{
+  "name": "Flash toons",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flash-toons.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

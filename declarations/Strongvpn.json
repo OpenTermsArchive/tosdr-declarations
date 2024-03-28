@@ -1,0 +1,21 @@
+{
+  "name": "Strongvpn",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://strongvpn.com/subpoenas/",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://strongvpn.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://strongvpn.com/tos/",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://strongvpn.com/dmca/",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

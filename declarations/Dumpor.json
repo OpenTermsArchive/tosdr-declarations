@@ -1,0 +1,9 @@
+{
+  "name": "Dumpor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dumpoir.com/page/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Subscribestar",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.subscribestar.com/tos",
+      "select": "div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.subscribestar.com/refund",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.subscribestar.com/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

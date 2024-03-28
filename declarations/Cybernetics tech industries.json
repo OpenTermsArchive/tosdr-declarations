@@ -1,0 +1,9 @@
+{
+  "name": "Cybernetics tech industries",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cyb-tec.com/privacy.htm",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

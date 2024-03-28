@@ -1,0 +1,17 @@
+{
+  "name": "Netgear",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.netgear.com/about/privacy-policy",
+      "select": "html > body > main > section > div > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.netgear.com/about/terms-and-conditions/",
+      "select": "html > body > main > section > div > div > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.netgear.com/about/ad-cookie-policy",
+      "select": "html > body > main > section > div > div > section"
+    }
+  }
+}

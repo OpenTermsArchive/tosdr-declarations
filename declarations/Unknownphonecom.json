@@ -1,0 +1,13 @@
+{
+  "name": "Unknownphonecom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.unknownphone.com/terms-of-service",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.unknownphone.com/privacy-policy",
+      "select": null
+    }
+  }
+}

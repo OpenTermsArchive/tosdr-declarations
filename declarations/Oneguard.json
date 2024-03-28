@@ -1,0 +1,13 @@
+{
+  "name": "Oneguard",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.oneguardhomewarranty.com/terms-of-service/",
+      "select": "html > body > div:nth-of-type(2) > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.oneguardhomewarranty.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > section"
+    }
+  }
+}

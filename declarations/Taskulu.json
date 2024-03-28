@@ -1,0 +1,13 @@
+{
+  "name": "Taskulu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://taskulu.com/privacy/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > section > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://taskulu.com/terms/",
+      "select": "body"
+    }
+  }
+}

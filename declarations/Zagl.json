@@ -1,0 +1,13 @@
+{
+  "name": "Zagl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://za.gl/pages/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://za.gl/pages/terms",
+      "select": null
+    }
+  }
+}

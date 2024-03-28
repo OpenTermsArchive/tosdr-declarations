@@ -1,0 +1,9 @@
+{
+  "name": "Qqqporn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://qqqporn.com/",
+      "select": "html > body > section:nth-of-type(3)"
+    }
+  }
+}

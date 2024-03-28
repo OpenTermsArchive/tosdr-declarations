@@ -1,0 +1,13 @@
+{
+  "name": "The canine code",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www2.thecaninecode.com/terms/?sessionid=785048777261",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www2.thecaninecode.com/policy/?sessionid=619654899606",
+      "select": "body"
+    }
+  }
+}

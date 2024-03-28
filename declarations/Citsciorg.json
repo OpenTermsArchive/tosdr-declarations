@@ -1,0 +1,9 @@
+{
+  "name": "Citsciorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.citsci.org/CWIS438/Websites/CitSci/DataUsePolicy.php?WebSiteID=7",
+      "select": "body"
+    }
+  }
+}

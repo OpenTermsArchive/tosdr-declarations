@@ -1,0 +1,13 @@
+{
+  "name": "Green gorilla",
+  "documents": {
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://ilovegreengorilla.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ilovegreengorilla.com/tos/",
+      "select": "body"
+    }
+  }
+}

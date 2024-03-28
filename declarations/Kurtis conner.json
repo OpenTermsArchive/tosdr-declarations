@@ -1,0 +1,13 @@
+{
+  "name": "Kurtis conner",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://shop.kurtisconner.com/pages/gdpr-privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://shop.kurtisconner.com/pages/terms-conditions",
+      "select": "body"
+    }
+  }
+}

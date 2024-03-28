@@ -1,0 +1,13 @@
+{
+  "name": "Weatherbug",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://policies.weatherbug.net/documents/policies/TermsOfUse/us-en/TOU-US-EN-20180523-00.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://policies.weatherbug.net/documents/policies/PrivacyPolicy/us-en/PP-US-EN-20180523-00.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Travellunatic",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://travellunatic.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > div:first-of-type > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://travellunatic.com/terms-conditions",
+      "select": "html > body > div:first-of-type > div > main > div:first-of-type > article > div"
+    }
+  }
+}

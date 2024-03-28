@@ -1,0 +1,13 @@
+{
+  "name": "Codecogs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://codecogs.com/pages/agreements/termsofuse.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://codecogs.com/pages/agreements/privacy_policy.php",
+      "select": "body"
+    }
+  }
+}

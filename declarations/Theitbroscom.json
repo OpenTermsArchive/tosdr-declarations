@@ -1,0 +1,9 @@
+{
+  "name": "Theitbroscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://theitbros.com/privacy-policy",
+      "select": null
+    }
+  }
+}

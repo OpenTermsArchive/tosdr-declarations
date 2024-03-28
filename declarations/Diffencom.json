@@ -1,0 +1,13 @@
+{
+  "name": "Diffencom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://static.diffen.com/Diffen-Terms-of-Use.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.diffen.com/difference/Diffen:Privacy_policy",
+      "select": "body"
+    }
+  }
+}

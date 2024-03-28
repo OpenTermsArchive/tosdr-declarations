@@ -1,0 +1,9 @@
+{
+  "name": "Showmax",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://showmax.akamaized.net/f/legal/doc/ShowmaxTermsConditions-za-05-03-2021.pdf",
+      "select": "body"
+    }
+  }
+}

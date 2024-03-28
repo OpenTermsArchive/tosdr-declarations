@@ -1,0 +1,9 @@
+{
+  "name": "Itsme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.itsme.be/en/legal/app-privacy-policy",
+      "select": "body"
+    }
+  }
+}

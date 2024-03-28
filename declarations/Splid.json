@@ -1,0 +1,9 @@
+{
+  "name": "Splid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://splid.app/german/privacypolicy",
+      "select": " > div"
+    }
+  }
+}

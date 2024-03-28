@@ -1,0 +1,9 @@
+{
+  "name": "Sharethis",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sharethis.com/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Not the bee",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://notthebee.com/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://notthebee.com/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fha rate guide",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fharateguide.com/urf_privacy.article",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fharateguide.com/urf_terms_conditions_mortgage.article",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Curious cat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://curiouscat.live/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://curiouscat.live/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://curiouscat.live/terms",
+      "select": "body"
+    }
+  }
+}

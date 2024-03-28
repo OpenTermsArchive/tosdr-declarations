@@ -1,0 +1,13 @@
+{
+  "name": "Perlego",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.perlego.com/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.perlego.com/tac",
+      "select": null
+    }
+  }
+}

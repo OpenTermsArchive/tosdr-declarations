@@ -1,0 +1,13 @@
+{
+  "name": "Britebox",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.britebox.io/terms.aspx",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.britebox.io/Privacy.aspx",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Papermc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://papermc.io/forums/privacy",
+      "select": "html > body > section > div > div:nth-of-type(2) > section > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://papermc.io/forums/tos",
+      "select": null
+    }
+  }
+}

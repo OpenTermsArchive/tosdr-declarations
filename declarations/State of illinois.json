@@ -1,0 +1,9 @@
+{
+  "name": "State of illinois",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.illinois.gov/about/privacy.html",
+      "select": "html > body > main > div > div > div > div:nth-of-type(3) > div > div > div"
+    }
+  }
+}

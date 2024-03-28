@@ -1,0 +1,13 @@
+{
+  "name": "Worldprofit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://worldprofit.com/terms.cfm",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://worldprofit.com/privacy.cfm",
+      "select": "body"
+    }
+  }
+}

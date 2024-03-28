@@ -1,0 +1,13 @@
+{
+  "name": "Buysellads",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.buysellads.com/about/privacy",
+      "select": "html > body > div:first-of-type > main > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.buysellads.com/about/terms",
+      "select": "html > body > div:first-of-type > main > div > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

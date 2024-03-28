@@ -1,0 +1,13 @@
+{
+  "name": "Tubedu",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://tubedu.org/about/instance",
+      "select": "html > body > my-app > div:nth-of-type(2) > div:nth-of-type(2) > div > div > my-about > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tubedu.org/about/peertube",
+      "select": "body"
+    }
+  }
+}

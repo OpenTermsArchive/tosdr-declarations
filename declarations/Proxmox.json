@@ -1,0 +1,9 @@
+{
+  "name": "Proxmox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.proxmox.com/en/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > section:nth-of-type(2) > div:nth-of-type(2) > article > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Loop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.intheloop.io/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.intheloop.io/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

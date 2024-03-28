@@ -1,0 +1,13 @@
+{
+  "name": "Duplichecker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.duplichecker.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(5) > div > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.duplichecker.com/refund-policy",
+      "select": "html > body > div:nth-of-type(4) > div > div"
+    }
+  }
+}

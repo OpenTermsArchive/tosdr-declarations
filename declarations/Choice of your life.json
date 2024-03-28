@@ -1,0 +1,9 @@
+{
+  "name": "Choice of your life",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.choiceofyourlife.com/privacy-policy",
+      "select": "html > body > main > article > div:first-of-type"
+    }
+  }
+}

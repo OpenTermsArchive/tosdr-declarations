@@ -1,0 +1,13 @@
+{
+  "name": "Audius",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://audius.co/documents/PrivacyPolicy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://audius.co/documents/TermsOfUse.pdf",
+      "select": "body"
+    }
+  }
+}

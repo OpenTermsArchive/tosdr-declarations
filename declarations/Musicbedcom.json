@@ -1,0 +1,13 @@
+{
+  "name": "Musicbedcom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.musicbed.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.musicbed.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

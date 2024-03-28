@@ -1,0 +1,13 @@
+{
+  "name": "Juniper networks",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.juniper.net/us/en/privacy-policy.html",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.juniper.net/us/en/legal-notices/dmca-policy.html",
+      "select": "body"
+    }
+  }
+}

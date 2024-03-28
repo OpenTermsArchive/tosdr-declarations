@@ -1,0 +1,13 @@
+{
+  "name": "Ip find",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ipfind.com/privacy/",
+      "select": "html > body > section:first-of-type > div > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://ipfind.com/terms/",
+      "select": "html > body > section:first-of-type > div > article > div"
+    }
+  }
+}

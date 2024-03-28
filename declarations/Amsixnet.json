@@ -1,0 +1,17 @@
+{
+  "name": "Amsixnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ams-ix.net/ams/documentation/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ams-ix.net/ams/cookie-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ams-ix.net/ams/documentation/general-terms-and-conditions",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:first-of-type > section:nth-of-type(2)"
+    }
+  }
+}

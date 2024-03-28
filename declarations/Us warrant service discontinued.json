@@ -1,0 +1,9 @@
+{
+  "name": "Us warrant service discontinued",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.uswarrantservice.org/login.php",
+      "select": "code"
+    }
+  }
+}

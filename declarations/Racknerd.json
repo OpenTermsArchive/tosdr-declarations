@@ -1,0 +1,13 @@
+{
+  "name": "Racknerd",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://racknerd.com/service-level-agreement",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.racknerd.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

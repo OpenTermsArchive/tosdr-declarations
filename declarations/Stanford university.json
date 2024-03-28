@@ -1,0 +1,13 @@
+{
+  "name": "Stanford university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.stanford.edu/site/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.stanford.edu/site/terms",
+      "select": "body"
+    }
+  }
+}

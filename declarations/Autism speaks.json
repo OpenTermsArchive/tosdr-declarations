@@ -1,0 +1,13 @@
+{
+  "name": "Autism speaks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.autismspeaks.org/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://guide.autismspeaks.org/terms",
+      "select": "body"
+    }
+  }
+}

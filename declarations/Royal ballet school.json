@@ -1,0 +1,17 @@
+{
+  "name": "Royal ballet school",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.royalballetschool.org.uk/privacy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.royalballetschool.org.uk/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.royalballetschool.org.uk/information/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

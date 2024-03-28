@@ -1,0 +1,13 @@
+{
+  "name": "Discz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://disczmusic.com/PrivacyPolicy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://disczmusic.com/TOS.pdf",
+      "select": "body"
+    }
+  }
+}

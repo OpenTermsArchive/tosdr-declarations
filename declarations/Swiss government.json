@@ -1,0 +1,13 @@
+{
+  "name": "Swiss government",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.admin.ch/gov/en/start/terms-and-conditions.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3)"
+    },
+    "Legal Information": {
+      "fetch": "https://www.admin.ch/gov/de/start/rechtliches.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3)"
+    }
+  }
+}

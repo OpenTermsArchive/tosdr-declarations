@@ -1,0 +1,13 @@
+{
+  "name": "2dollarwave",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.2dollarwave.com/privacy.php",
+      "select": "html > body > section"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.2dollarwave.com/refund.php",
+      "select": "html > body > section > center"
+    }
+  }
+}

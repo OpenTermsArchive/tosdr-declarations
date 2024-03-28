@@ -1,0 +1,9 @@
+{
+  "name": "Pad26",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pad26.com/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Alphaedge",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://new.getalphaedge.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://new.getalphaedge.com/privacy",
+      "select": "body"
+    }
+  }
+}

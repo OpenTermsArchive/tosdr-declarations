@@ -1,0 +1,13 @@
+{
+  "name": "Webinarnet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.webinar.net/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.webinar.net/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

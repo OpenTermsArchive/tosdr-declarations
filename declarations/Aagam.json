@@ -1,0 +1,13 @@
+{
+  "name": "Aagam",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aagamedu.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://aagamedu.com/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

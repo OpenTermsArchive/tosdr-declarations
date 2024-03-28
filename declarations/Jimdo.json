@@ -1,0 +1,21 @@
+{
+  "name": "Jimdo",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.jimdo.com/info/cookies/policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.jimdo.com/info/privacy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div > div > div > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.jimdo.com/info/cancellation/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jimdo.com/info/terms-of-service/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

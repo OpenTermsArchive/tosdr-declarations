@@ -1,0 +1,13 @@
+{
+  "name": "Moqups",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://moqups.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://moqups.com/privacy/",
+      "select": "body"
+    }
+  }
+}

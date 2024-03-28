@@ -1,0 +1,9 @@
+{
+  "name": "Olympic national park",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.olympicnationalparks.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(8) > div > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

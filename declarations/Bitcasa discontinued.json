@@ -1,0 +1,9 @@
+{
+  "name": "Bitcasa discontinued",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "http://www.bitcasa.com/legal/",
+      "select": "div#acceptableUse"
+    }
+  }
+}

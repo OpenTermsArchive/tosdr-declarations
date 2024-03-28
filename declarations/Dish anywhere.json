@@ -1,0 +1,13 @@
+{
+  "name": "Dish anywhere",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.dishanywhere.com/terms",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.dishanywhere.com/privacy",
+      "select": "body"
+    }
+  }
+}

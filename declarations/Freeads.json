@@ -1,0 +1,17 @@
+{
+  "name": "Freeads",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.freeads.co.uk/support/solutions/articles/47001195719-petsafe-deposit-scheme-terms-and-conditions",
+      "select": "html > body > main > section:nth-of-type(3)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.freeads.co.uk/support/solutions/articles/47000874377-privacy-cookie-data-policy",
+      "select": "html > body > main > section:nth-of-type(3)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://help.freeads.co.uk/support/solutions/articles/47001128557-refund-policy",
+      "select": "html > body > main > section:nth-of-type(3)"
+    }
+  }
+}

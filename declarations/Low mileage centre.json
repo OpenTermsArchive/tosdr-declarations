@@ -1,0 +1,9 @@
+{
+  "name": "Low mileage centre",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lowmileagecentre.co.uk/privacy-policy",
+      "select": "body"
+    }
+  }
+}

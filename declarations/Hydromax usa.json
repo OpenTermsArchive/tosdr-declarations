@@ -1,0 +1,9 @@
+{
+  "name": "Hydromax usa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hydromaxusa.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

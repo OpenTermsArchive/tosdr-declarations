@@ -1,0 +1,13 @@
+{
+  "name": "Escrowcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.escrow.com/escrow-101/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.escrow.com/escrow-101/privacy-policy",
+      "select": "body"
+    }
+  }
+}

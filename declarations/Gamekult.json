@@ -1,0 +1,13 @@
+{
+  "name": "Gamekult",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gamekult.com/conditions-generales-utilisation.html",
+      "select": "html > body > div:first-of-type > main > div:first-of-type > section > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gamekult.com/faq-cookies.html",
+      "select": "html > body > div:first-of-type > main > div:first-of-type > section > div > section"
+    }
+  }
+}

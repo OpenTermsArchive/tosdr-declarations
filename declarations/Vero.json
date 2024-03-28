@@ -1,0 +1,13 @@
+{
+  "name": "Vero",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vero.co/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vero.co/privacy-policy",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div > main > section > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

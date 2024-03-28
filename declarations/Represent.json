@@ -1,0 +1,17 @@
+{
+  "name": "Represent",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://represent.com/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://represent.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://represent.com/dmca",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

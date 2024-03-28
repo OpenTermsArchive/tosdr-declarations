@@ -1,0 +1,13 @@
+{
+  "name": "Perimeter 81",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.perimeter81.com/legal/terms",
+      "select": "html > body > div:first-of-type > div > main > article > div > div:nth-of-type(3) > div > div > div:nth-of-type(4) > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.perimeter81.com/legal/privacy",
+      "select": "html > body > div:first-of-type > div > main > article > div > div:nth-of-type(3) > div > div > div:nth-of-type(4) > div:first-of-type"
+    }
+  }
+}

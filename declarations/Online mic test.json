@@ -1,0 +1,9 @@
+{
+  "name": "Online mic test",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.onlinemictest.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

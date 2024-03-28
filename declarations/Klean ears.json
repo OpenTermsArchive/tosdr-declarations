@@ -1,0 +1,13 @@
+{
+  "name": "Klean ears",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://article.kleanears.com/terms-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://article.kleanears.com/privacy-policy",
+      "select": null
+    }
+  }
+}

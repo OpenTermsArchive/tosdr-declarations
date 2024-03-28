@@ -1,0 +1,9 @@
+{
+  "name": "Myandroin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://myandro.in/post/privacy-policy-6014d9ec417a5f242e256393",
+      "select": "body"
+    }
+  }
+}

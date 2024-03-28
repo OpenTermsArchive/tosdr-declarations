@@ -1,0 +1,13 @@
+{
+  "name": "The sheridan press",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thesheridanpress.com/site/terms.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thesheridanpress.com/site/privacy.html",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Stem crew",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.stemcrew.org/terms-conditions/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.stemcrew.org/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.stemcrew.org/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

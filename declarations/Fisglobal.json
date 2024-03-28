@@ -1,0 +1,17 @@
+{
+  "name": "Fisglobal",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fisglobal.com/en/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div > div > div > div > div > div > div:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.fisglobal.com/en/cookies",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div > div > div > div > div > div > div:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fisglobal.com/en/privacy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div > div > div > div > div > div > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

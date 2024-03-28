@@ -1,0 +1,17 @@
+{
+  "name": "Gb news",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gbnews.uk/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gbnews.uk/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.gbnews.uk/cookies",
+      "select": "body"
+    }
+  }
+}

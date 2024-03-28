@@ -1,0 +1,13 @@
+{
+  "name": "Cd baby",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cdbaby.com/terms.aspx",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://cdbaby.com/privacy.aspx",
+      "select": null
+    }
+  }
+}

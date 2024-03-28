@@ -1,0 +1,21 @@
+{
+  "name": "Changeorg",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://www.change.org/policies/community",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(3)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.change.org/policies/cookies",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.change.org/policies/privacy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.change.org/policies/terms-of-service",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(3) > ol > li:nth-of-type(10) > div"
+    }
+  }
+}

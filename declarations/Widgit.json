@@ -1,0 +1,13 @@
+{
+  "name": "Widgit",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.widgit.com/privacy.htm",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.widgit.com/terms.htm",
+      "select": "html > body > main"
+    }
+  }
+}

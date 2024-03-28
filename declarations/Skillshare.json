@@ -1,0 +1,13 @@
+{
+  "name": "Skillshare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.skillshare.com/privacy",
+      "select": " > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.skillshare.com/terms",
+      "select": " > div > div > div"
+    }
+  }
+}

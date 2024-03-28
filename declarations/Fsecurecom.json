@@ -1,0 +1,13 @@
+{
+  "name": "Fsecurecom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.f-secure.com/website-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.f-secure.com/en/legal/privacy/websites",
+      "select": "body"
+    }
+  }
+}

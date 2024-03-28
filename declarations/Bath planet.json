@@ -1,0 +1,9 @@
+{
+  "name": "Bath planet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bathplanet.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

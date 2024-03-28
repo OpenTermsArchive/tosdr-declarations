@@ -1,0 +1,21 @@
+{
+  "name": "Hushlove",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hushlove.com/terms",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://hushlove.com/dmca",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hushlove.com/privacy",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://hushlove.com/cookie-policy",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Instabug",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://instabug.com/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://instabug.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://instabug.com/privacy",
+      "select": "body"
+    }
+  }
+}

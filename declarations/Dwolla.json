@@ -1,0 +1,13 @@
+{
+  "name": "Dwolla",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dwolla.com/legal/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dwolla.com/legal/tos",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tiekoetter",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.tiekoetter.com/en/legal-notice/",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://invidious.tiekoetter.com/privacy",
+      "select": "body"
+    }
+  }
+}

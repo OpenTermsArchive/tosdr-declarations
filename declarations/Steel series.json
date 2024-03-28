@@ -1,0 +1,13 @@
+{
+  "name": "Steel series",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://steelseries.com/policies/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://steelseries.com/policies/rewards-program",
+      "select": "body"
+    }
+  }
+}

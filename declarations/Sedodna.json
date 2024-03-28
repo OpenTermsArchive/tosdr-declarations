@@ -1,0 +1,9 @@
+{
+  "name": "Sedodna",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sedodna.com/privacy",
+      "select": null
+    }
+  }
+}

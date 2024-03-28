@@ -1,0 +1,9 @@
+{
+  "name": "Webcull",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://webcull.com/policy/privacy",
+      "select": "body"
+    }
+  }
+}

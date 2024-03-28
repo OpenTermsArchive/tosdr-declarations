@@ -1,0 +1,13 @@
+{
+  "name": "Supremacy1914",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.supremacy1914.com/index.php?id=274",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.supremacy1914.com/index.php?id=276",
+      "select": "body"
+    }
+  }
+}

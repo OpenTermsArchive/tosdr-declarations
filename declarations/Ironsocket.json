@@ -1,0 +1,21 @@
+{
+  "name": "Ironsocket",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ironsocket.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://ironsocket.com/refund-policy",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://ironsocket.com/acceptable-use",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ironsocket.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

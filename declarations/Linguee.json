@@ -1,0 +1,13 @@
+{
+  "name": "Linguee",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.linguee.com/page/privacy.php",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.linguee.com/page/termsAndConditions.php",
+      "select": null
+    }
+  }
+}

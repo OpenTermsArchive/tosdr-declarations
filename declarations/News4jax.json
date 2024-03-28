@@ -1,0 +1,13 @@
+{
+  "name": "News4jax",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.news4jax.com/station/2019/11/14/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > section > main > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.news4jax.com/station/2022/12/29/graham-media-group-privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > section > main > section:nth-of-type(2) > article > div:nth-of-type(3)"
+    }
+  }
+}

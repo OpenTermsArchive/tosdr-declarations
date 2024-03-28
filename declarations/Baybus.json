@@ -1,0 +1,9 @@
+{
+  "name": "Baybus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.baybus.co.nz/legal/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

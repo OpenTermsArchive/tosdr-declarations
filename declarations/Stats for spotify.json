@@ -1,0 +1,9 @@
+{
+  "name": "Stats for spotify",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.statsforspotify.com/privacy-notice",
+      "select": "body"
+    }
+  }
+}

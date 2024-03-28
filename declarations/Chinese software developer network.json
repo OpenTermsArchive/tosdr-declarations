@@ -1,0 +1,9 @@
+{
+  "name": "Chinese software developer network",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://passport.csdn.net/service",
+      "select": " > div"
+    }
+  }
+}

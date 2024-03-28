@@ -1,0 +1,13 @@
+{
+  "name": "Profilic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.prolific.co/assets/docs/Participant_Terms.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.prolific.co/assets/docs/Prolific_privacy-policy.pdf ",
+      "select": "body"
+    }
+  }
+}

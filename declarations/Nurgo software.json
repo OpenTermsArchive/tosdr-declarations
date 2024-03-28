@@ -1,0 +1,13 @@
+{
+  "name": "Nurgo software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nurgo-software.com/company/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nurgo-software.com/company/terms",
+      "select": "body"
+    }
+  }
+}

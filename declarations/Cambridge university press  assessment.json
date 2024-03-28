@@ -1,0 +1,9 @@
+{
+  "name": "Cambridge university press  assessment",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.cambridge.org/legal/privacy",
+      "select": "body"
+    }
+  }
+}

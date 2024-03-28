@@ -1,0 +1,9 @@
+{
+  "name": "Okay type",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://okaytype.com/account/policies",
+      "select": "html > body > main > article:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Emsisoft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.emsisoft.com/en/company/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.emsisoft.com/en/company/terms/",
+      "select": "body"
+    }
+  }
+}

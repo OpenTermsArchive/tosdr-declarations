@@ -1,0 +1,13 @@
+{
+  "name": "Universal music group",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://privacy.umusic.com/store-terms-umg.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.umusic.com/ ",
+      "select": "body"
+    }
+  }
+}

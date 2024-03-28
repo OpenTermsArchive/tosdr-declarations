@@ -1,0 +1,9 @@
+{
+  "name": "Bellevue arts museum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bellevuearts.org/privacy-policy",
+      "select": "html > body > main > section > div"
+    }
+  }
+}

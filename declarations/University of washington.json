@@ -1,0 +1,13 @@
+{
+  "name": "University of washington",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.washington.edu/online/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.washington.edu/online/terms/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3)"
+    }
+  }
+}

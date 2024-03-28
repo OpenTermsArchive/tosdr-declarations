@@ -1,0 +1,13 @@
+{
+  "name": "Live good tour",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.livegoodtour.com/privacyPolicy?enroller=blessedone24",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://livegood.com/htdocs/policies/terms-and-conditions.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Rapid vpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rapidvpn.app/ios_terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://rapidvpn.app/ios_privacy",
+      "select": "body"
+    }
+  }
+}

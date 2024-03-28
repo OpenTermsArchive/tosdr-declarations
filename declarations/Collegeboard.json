@@ -1,0 +1,25 @@
+{
+  "name": "Collegeboard",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://privacy.collegeboard.org/site-terms?navId=gf-terms",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://privacy.collegeboard.org/privacy-statement/california-privacy-rights",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://privacy.collegeboard.org/privacy-statement/cookies-do-not-track-signals",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.collegeboard.org/privacy-statement/info-access-data-retention",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://privacy.collegeboard.org/privacy-statement/info-use-disclosure",
+      "select": "body"
+    }
+  }
+}

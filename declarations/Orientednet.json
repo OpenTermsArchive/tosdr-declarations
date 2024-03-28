@@ -1,0 +1,13 @@
+{
+  "name": "Orientednet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://oriented.net/company/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://oriented.net/company/terms-of-service",
+      "select": "body"
+    }
+  }
+}

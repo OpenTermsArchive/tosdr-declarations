@@ -1,0 +1,21 @@
+{
+  "name": "Hotdoc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://practices.hotdoc.com.au/privacy-policy/",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://practices.hotdoc.com.au/fair-use-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://practices.hotdoc.com.au/terms-of-services-clinics/",
+      "select": "body"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://practices.hotdoc.com.au/hotdoc-kiosk-agreement/",
+      "select": "body"
+    }
+  }
+}

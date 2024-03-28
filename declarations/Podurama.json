@@ -1,0 +1,17 @@
+{
+  "name": "Podurama",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://podurama.com/explore/terms-and-conditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://podurama.com/explore/cookies-details",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://podurama.com/explore/privacy-policy",
+      "select": "body"
+    }
+  }
+}

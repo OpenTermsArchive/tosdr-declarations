@@ -1,0 +1,9 @@
+{
+  "name": "Shovl",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://shovl.io/tos.html",
+      "select": "body"
+    }
+  }
+}

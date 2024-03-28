@@ -1,0 +1,9 @@
+{
+  "name": "Deleteme",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://joindeleteme.com/legal/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > main > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

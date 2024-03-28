@@ -1,0 +1,9 @@
+{
+  "name": "Nest home",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.google.com/intl/en/privacy.html",
+      "select": "body"
+    }
+  }
+}

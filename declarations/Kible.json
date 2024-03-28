@@ -1,0 +1,13 @@
+{
+  "name": "Kible",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kible.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kible.com/privacy/",
+      "select": "body"
+    }
+  }
+}

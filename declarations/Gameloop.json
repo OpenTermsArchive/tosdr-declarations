@@ -1,0 +1,13 @@
+{
+  "name": "Gameloop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://static.gameloop.com/syzs/gameloop/terms-of-service.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://static.gameloop.com/syzs/gameloop/privacypolicy.html",
+      "select": "body"
+    }
+  }
+}

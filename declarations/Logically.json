@@ -1,0 +1,13 @@
+{
+  "name": "Logically",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.logically.ai/terms-and-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.logically.ai/privacy-policy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Dynseo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dynseo.com/en/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dynseo.com/en/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div > div"
+    }
+  }
+}

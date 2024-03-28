@@ -1,0 +1,9 @@
+{
+  "name": "Smsrobot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.smsrobot.com/privacypolicy.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3)"
+    }
+  }
+}

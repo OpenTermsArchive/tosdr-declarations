@@ -1,0 +1,9 @@
+{
+  "name": "Workplace",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.workplace.com/legal/FB_Work_Privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "The omni group",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://www.omnigroup.com/legal/unsolicited-idea-submission-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.omnigroup.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.omnigroup.com/legal/EULA",
+      "select": "body"
+    }
+  }
+}

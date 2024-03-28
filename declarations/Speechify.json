@@ -1,0 +1,9 @@
+{
+  "name": "Speechify",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://speechify.com/privacy?",
+      "select": "body"
+    }
+  }
+}

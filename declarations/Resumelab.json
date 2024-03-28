@@ -1,0 +1,13 @@
+{
+  "name": "Resumelab",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://resumelab.com/terms-of-service",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://resumelab.com/privacy-policy",
+      "select": "html > body > main"
+    }
+  }
+}

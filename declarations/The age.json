@@ -1,0 +1,13 @@
+{
+  "name": "The age",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.theage.com.au/privacy",
+      "select": " > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.theage.com.au/conditions-of-use",
+      "select": "body"
+    }
+  }
+}

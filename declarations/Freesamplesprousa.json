@@ -1,0 +1,13 @@
+{
+  "name": "Freesamplesprousa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://freesamplesprousa.com/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://freesamplesprousa.com/terms-and-conditions.html",
+      "select": "body"
+    }
+  }
+}

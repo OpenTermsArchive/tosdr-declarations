@@ -1,0 +1,9 @@
+{
+  "name": "Happify inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://happify.com/public/legal/",
+      "select": "body"
+    }
+  }
+}

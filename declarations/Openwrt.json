@@ -1,0 +1,13 @@
+{
+  "name": "Openwrt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://forum.openwrt.org/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://forum.openwrt.org/tos",
+      "select": "body"
+    }
+  }
+}

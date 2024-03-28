@@ -1,0 +1,13 @@
+{
+  "name": "Cytube",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://raw.githubusercontent.com/CyTube/cytu.be-policies/master/privacy.md",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://raw.githubusercontent.com/CyTube/cytu.be-policies/master/terms-of-use.md",
+      "select": "body"
+    }
+  }
+}

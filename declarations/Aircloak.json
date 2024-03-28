@@ -1,0 +1,9 @@
+{
+  "name": "Aircloak",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aircloak.com/company/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ninja kiwi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://static-api.nkstatic.com/appdocs/4/appdocs/privacy_iframe.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://static-api.nkstatic.com/appdocs/4/appdocs/terms.html",
+      "select": "body"
+    }
+  }
+}

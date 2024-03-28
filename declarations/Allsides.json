@@ -1,0 +1,17 @@
+{
+  "name": "Allsides",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.allsides.com/cookie-policy",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.allsides.com/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.allsides.com/terms-of-use",
+      "select": null
+    }
+  }
+}

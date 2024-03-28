@@ -1,0 +1,9 @@
+{
+  "name": "Syracuse university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.syracuse.edu/about/site/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div > main > article > div > div"
+    }
+  }
+}

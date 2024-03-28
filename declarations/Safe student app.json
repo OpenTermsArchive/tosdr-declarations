@@ -1,0 +1,13 @@
+{
+  "name": "Safe student app",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://safestudentapp.com/assets/Safe_Student_App-_T&C_-_V1.pdf ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://safestudentapp.com/assets/ISA_Privacy_Policy.pdf",
+      "select": "body"
+    }
+  }
+}

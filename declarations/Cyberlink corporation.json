@@ -1,0 +1,13 @@
+{
+  "name": "Cyberlink corporation",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cyberlink.com/stat/company/enu/tos.jsp",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://privacy.cyberlink.com/enu/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Boomerhost",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://boomer.host/tos.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://boomer.host/privacy.html",
+      "select": "body"
+    }
+  }
+}

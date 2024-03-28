@@ -1,0 +1,17 @@
+{
+  "name": "Arcade museum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.arcade-museum.com/accounts/privacy-policy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.arcade-museum.com/accounts/terms-of-use.php",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.arcade-museum.com/accounts/copyright-claims.php",
+      "select": "body"
+    }
+  }
+}

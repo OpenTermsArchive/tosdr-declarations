@@ -1,0 +1,21 @@
+{
+  "name": "Distrokid",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://distrokid.com/terms/",
+      "select": "html > body > div:nth-of-type(7) > div > div:first-of-type > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://distrokid.com/cookies/",
+      "select": "html > body > div:nth-of-type(7) > div > div:first-of-type > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://distrokid.com/privacy",
+      "select": "html > body > div:nth-of-type(7) > div > div:first-of-type > div > div > div > div"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://distrokid.com/agreement/",
+      "select": "html > body > div:nth-of-type(7) > div > center"
+    }
+  }
+}

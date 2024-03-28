@@ -1,0 +1,13 @@
+{
+  "name": "Viewerstorm",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://viewerstorm.com/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://viewerstorm.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

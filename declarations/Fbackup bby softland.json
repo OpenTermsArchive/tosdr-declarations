@@ -1,0 +1,9 @@
+{
+  "name": "Fbackup bby softland",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fbackup.com/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

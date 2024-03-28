@@ -1,0 +1,17 @@
+{
+  "name": "Formassembly",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.formassembly.com/compliance/agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.formassembly.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.formassembly.com/terms-of-service/formassembly-master-subscription-agreement/",
+      "select": "body"
+    }
+  }
+}

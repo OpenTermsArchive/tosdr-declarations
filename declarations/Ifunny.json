@@ -1,0 +1,13 @@
+{
+  "name": "Ifunny",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ifunny.co/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://ifunny.co/app/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Hinterland camping",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hinterland.camp/datenschutz",
+      "select": "html > body > div:first-of-type > div > div > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hinterland.camp/agb",
+      "select": "html > body > div:first-of-type > div > div > div > main"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Falixnodes limited",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://falixnodes.net/user-agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://falixnodes.net/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

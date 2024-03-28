@@ -1,0 +1,17 @@
+{
+  "name": "Onlyoffice",
+  "documents": {
+    "Service Level Agreement": {
+      "fetch": "https://help.onlyoffice.co/Products/Files/doceditor.aspx?fileid=6615734&doc=cy9XcGc5TXNONjVTMkNrR2NZUEVTT2E1Y1FDZGVRQ1YvOTJYTnpkZ3JEWT0_IjY2MTU3MzQi0",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=4373122&doc=cVFJN0ZlaHowSTg0aWQ5YWNwWHQyamRrbFY2M0tNOXRkSkhUVVJWeTlhZz0_IjQzNzMxMjIi0",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=6208415&doc=UVM1dnFBUHFOZnhZdW1kQ0M3MHBXaDdib1AvVlZPeXlLOFpLOE9XOGllWT0_IjYyMDg0MTUi0",
+      "select": "body"
+    }
+  }
+}

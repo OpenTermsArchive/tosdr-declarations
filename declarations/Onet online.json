@@ -1,0 +1,9 @@
+{
+  "name": "Onet online",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.onetonline.org/help/privacy/",
+      "select": "body"
+    }
+  }
+}

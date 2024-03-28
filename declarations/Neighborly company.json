@@ -1,0 +1,13 @@
+{
+  "name": "Neighborly company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.neighborly.com/privacy-policy",
+      "select": "html > body > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.neighborly.com/terms-of-use",
+      "select": "html > body > main > div"
+    }
+  }
+}

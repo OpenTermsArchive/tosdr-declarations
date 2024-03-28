@@ -1,0 +1,13 @@
+{
+  "name": "Jewish social services agency",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jssa.org/privacy-policy/",
+      "select": "html > body > main > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jssa.org/terms-conditions/",
+      "select": "html > body > main > article > div"
+    }
+  }
+}

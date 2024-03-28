@@ -1,0 +1,17 @@
+{
+  "name": "Belka vpn",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://drive.google.com/file/d/1EyZfmSnupY3myzR04WKiJylzQfWHcjM4/view",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://drive.google.com/file/d/19VOX5Nczn5lWlF5f3I99PUcmCIRZQcxH/view?usp=sharing",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://drive.google.com/file/u/1/d/17Q2EBGAVlHvBY3hf7PysYhp0H-Cuc4HR",
+      "select": "body"
+    }
+  }
+}

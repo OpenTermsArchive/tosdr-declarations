@@ -1,0 +1,13 @@
+{
+  "name": "Flirthits4youcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.flirt-hits-4-you.com/assets/tplegal/united_privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.flirt-hits-4-you.com/assets/tplegal/united_tc.html",
+      "select": "body"
+    }
+  }
+}

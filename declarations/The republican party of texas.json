@@ -1,0 +1,13 @@
+{
+  "name": "The republican party of texas",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://texasgop.org/terms-and-conditions/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://texasgop.org/privacy-policy/",
+      "select": null
+    }
+  }
+}

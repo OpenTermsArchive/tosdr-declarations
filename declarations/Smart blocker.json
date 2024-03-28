@@ -1,0 +1,13 @@
+{
+  "name": "Smart blocker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://smartblocker.org/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://smartblocker.org/terms",
+      "select": "body"
+    }
+  }
+}

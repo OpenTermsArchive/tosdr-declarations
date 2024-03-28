@@ -1,0 +1,9 @@
+{
+  "name": "Savingadvice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.savingadvice.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div"
+    }
+  }
+}

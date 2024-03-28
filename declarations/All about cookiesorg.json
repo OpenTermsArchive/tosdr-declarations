@@ -1,0 +1,9 @@
+{
+  "name": "All about cookiesorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.allaboutcookies.org/privacy-policy.htm",
+      "select": " > div"
+    }
+  }
+}

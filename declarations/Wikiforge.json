@@ -1,0 +1,13 @@
+{
+  "name": "Wikiforge",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://meta.wikiforge.net/wiki/Privacy_Policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://meta.wikitide.com/wiki/Terms_of_Use",
+      "select": "body"
+    }
+  }
+}

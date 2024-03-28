@@ -1,0 +1,13 @@
+{
+  "name": "Backblaze",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.backblaze.com/company/dpa.html",
+      "select": "html > body > section:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.backblaze.com/company/terms.html",
+      "select": "html > body > section:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

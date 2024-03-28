@@ -1,0 +1,17 @@
+{
+  "name": "Sketchfab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sketchfab.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://sketchfab.com/terms",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://help.sketchfab.com/hc/en-us/articles/115004259123-Refund-Policy?utm_source=website&utm_campaign=footer",
+      "select": "body"
+    }
+  }
+}

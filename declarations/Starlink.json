@@ -1,0 +1,25 @@
+{
+  "name": "Starlink",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.starlink.com/legal/privacy-policy",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.starlink.com/legal/specifications-public-beta",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.starlink.com/legal/terms-of-service-deposit",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.starlink.com/legal/acceptable-use-policy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.starlink.com/legal/privacy-policy",
+      "select": "html > body > app-root > div:nth-of-type(2) > app-privacy-policy > div"
+    }
+  }
+}

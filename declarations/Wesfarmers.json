@@ -1,0 +1,13 @@
+{
+  "name": "Wesfarmers",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wesfarmers.com.au/terms-of-use",
+      "select": "html > body > div:first-of-type > div > section:nth-of-type(2) > div > div:nth-of-type(2) > div > article > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wesfarmers.com.au/security-privacy",
+      "select": "html > body > div:first-of-type > div > section:nth-of-type(2) > div > div:nth-of-type(2) > div > article > div"
+    }
+  }
+}

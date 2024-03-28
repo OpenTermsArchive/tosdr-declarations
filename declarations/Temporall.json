@@ -1,0 +1,17 @@
+{
+  "name": "Temporall",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://temporall.com/platform-privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.temporall.com/eula/",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.temporall.com/vulnerabilities-policy/",
+      "select": "body"
+    }
+  }
+}

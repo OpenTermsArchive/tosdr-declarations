@@ -1,0 +1,9 @@
+{
+  "name": "Signal stickers",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://signalstickers.com/about",
+      "select": null
+    }
+  }
+}

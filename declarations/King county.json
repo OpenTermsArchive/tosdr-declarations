@@ -1,0 +1,13 @@
+{
+  "name": "King county",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kingcounty.gov/about/website/termsOfUse.aspx",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kingcounty.gov/about/website/privacy.aspx",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Wikisimpsons",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://simpsonswiki.com/wiki/Wikisimpsons:Privacy_policy",
+      "select": null
+    }
+  }
+}

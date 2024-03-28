@@ -1,0 +1,9 @@
+{
+  "name": "Plenti",
+  "documents": {
+    "Spam": {
+      "fetch": "https://fatburnerthatwork.com/leptitox-review-for-dummies-on-2020/",
+      "select": "body"
+    }
+  }
+}

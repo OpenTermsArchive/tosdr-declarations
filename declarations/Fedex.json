@@ -1,0 +1,21 @@
+{
+  "name": "Fedex",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fedex.com/en-us/trust-center/global-privacy-policy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.fedex.com/en-us/trust-center/privacy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fedex.com/en-us/terms-of-use.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.fedex.com/content/dam/fedex-com/legal/FedEx_Cookie_Notice.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Browsec inc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://browsec.com/en/terms_of_service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://browsec.com/en/privacypolicy",
+      "select": "body"
+    }
+  }
+}

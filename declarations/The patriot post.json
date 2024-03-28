@@ -1,0 +1,13 @@
+{
+  "name": "The patriot post",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://patriotpost.us/about/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://patriotpost.us/about/privacy",
+      "select": "body"
+    }
+  }
+}

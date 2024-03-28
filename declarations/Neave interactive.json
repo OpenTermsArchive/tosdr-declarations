@@ -1,0 +1,13 @@
+{
+  "name": "Neave interactive",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://webcamtoy.com/legal/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://neave.com/legal/terms/",
+      "select": "body"
+    }
+  }
+}

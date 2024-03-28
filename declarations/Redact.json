@@ -1,0 +1,13 @@
+{
+  "name": "Redact",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://redact.dev/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://redact.dev/terms",
+      "select": "body"
+    }
+  }
+}

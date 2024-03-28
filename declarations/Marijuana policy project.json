@@ -1,0 +1,9 @@
+{
+  "name": "Marijuana policy project",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mpp.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

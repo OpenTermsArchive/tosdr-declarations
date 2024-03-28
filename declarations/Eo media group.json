@@ -1,0 +1,13 @@
+{
+  "name": "Eo media group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.eomediagroup.com/site/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.eomediagroup.com/site/terms.html",
+      "select": "body"
+    }
+  }
+}

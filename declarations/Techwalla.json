@@ -1,0 +1,17 @@
+{
+  "name": "Techwalla",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.techwalla.com/copyright-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.techwalla.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.techwalla.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "The hershey company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thehersheycompany.com/en_us/home/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.thehersheycompany.com/en_us/home/terms-and-conditions.html",
+      "select": "body"
+    }
+  }
+}

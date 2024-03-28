@@ -1,0 +1,13 @@
+{
+  "name": "Controlccom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://controlc.com/terms/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://controlc.com/contact/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    }
+  }
+}

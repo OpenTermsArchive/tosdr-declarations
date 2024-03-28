@@ -1,0 +1,17 @@
+{
+  "name": "I love pdf",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ilovepdf.com/help/security",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/331973/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ilovepdf.com/help/terms",
+      "select": "body"
+    }
+  }
+}

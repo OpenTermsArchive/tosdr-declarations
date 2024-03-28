@@ -1,0 +1,13 @@
+{
+  "name": "Caringbridge",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.caringbridge.org/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.caringbridge.org/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Romspure",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://romspure.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://romspure.com/terms-of-use/",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://romspure.com/disclaimer/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > main > div"
+    }
+  }
+}

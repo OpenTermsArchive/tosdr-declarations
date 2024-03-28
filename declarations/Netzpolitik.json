@@ -1,0 +1,13 @@
+{
+  "name": "Netzpolitik",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://netzpolitik.org/datenschutz/",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://netzpolitik.org/kommentare/",
+      "select": null
+    }
+  }
+}

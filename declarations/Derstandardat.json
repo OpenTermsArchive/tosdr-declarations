@@ -1,0 +1,9 @@
+{
+  "name": "Derstandardat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.derstandard.at/datenschutz",
+      "select": "body"
+    }
+  }
+}

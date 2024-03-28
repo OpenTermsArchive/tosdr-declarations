@@ -1,0 +1,13 @@
+{
+  "name": "Guntraderuk",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.guntrader.uk/About/privacy",
+      "select": "html > body > div:nth-of-type(2) > div > section:first-of-type > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.guntrader.uk/About/terms",
+      "select": "html > body > div:nth-of-type(2) > div > section:first-of-type > article"
+    }
+  }
+}

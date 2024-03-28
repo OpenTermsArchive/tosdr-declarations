@@ -1,0 +1,9 @@
+{
+  "name": "Size healthy fitness",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sizehealthyfitness.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

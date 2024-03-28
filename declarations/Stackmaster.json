@@ -1,0 +1,21 @@
+{
+  "name": "Stackmaster",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://buystackmaster.com/pages/return-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://buystackmaster.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://buystackmaster.com/pages/arbitration-agreement",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://buystackmaster.com/pages/terms-and-conditions-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Techlore",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://discuss.techlore.tech/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://discuss.techlore.tech/tos",
+      "select": null
+    }
+  }
+}

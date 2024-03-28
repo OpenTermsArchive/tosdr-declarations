@@ -1,0 +1,13 @@
+{
+  "name": "Heaven hr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.heavenhr.com/web/DE/de/datenschutz",
+      "select": " > div:nth-of-type(3)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.heavenhr.com/web/DE/de/agb-firma",
+      "select": " > div:nth-of-type(3)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "The daily wire",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.dailywire.com/terms",
+      "select": "html > body > div:first-of-type > div > main > article > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dailywire.com/privacy",
+      "select": "html > body > div:first-of-type > div > main > article > div > div"
+    }
+  }
+}

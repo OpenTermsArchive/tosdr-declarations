@@ -1,0 +1,21 @@
+{
+  "name": "Java2home",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://java2home.com/returnpolicy",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://java2home.com/supportpolicy",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://java2home.com/terms",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://java2home.com/privacypolicy",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    }
+  }
+}

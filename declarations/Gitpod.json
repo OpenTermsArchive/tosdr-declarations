@@ -1,0 +1,17 @@
+{
+  "name": "Gitpod",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gitpod.io/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.gitpod.io/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gitpod.io/privacy",
+      "select": "body"
+    }
+  }
+}

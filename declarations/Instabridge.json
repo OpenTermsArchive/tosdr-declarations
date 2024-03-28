@@ -1,0 +1,17 @@
+{
+  "name": "Instabridge",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://instabridge.com/terms-of-service/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://instabridge.com/cookie-policy/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://instabridge.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

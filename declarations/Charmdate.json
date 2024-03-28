@@ -1,0 +1,13 @@
+{
+  "name": "Charmdate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.charmdate.com/help/client_protection_policy.php",
+      "select": "html > body > div:first-of-type > div:nth-of-type(5) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.charmdate.com/help/term.php",
+      "select": "html > body > div:first-of-type > div:nth-of-type(5) > div:nth-of-type(2)"
+    }
+  }
+}

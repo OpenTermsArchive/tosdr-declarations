@@ -1,0 +1,13 @@
+{
+  "name": "Wally",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wally.me/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www-wally-me.filesusr.com/html/731094_7ff78a773055c07f4e91ff97a12f85d4.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sbabes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://members.sbabes.com/docs/terms-and-conditions",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://members.sbabes.com/docs/dmca-copyright",
+      "select": "body"
+    }
+  }
+}

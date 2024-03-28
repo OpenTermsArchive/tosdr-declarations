@@ -1,0 +1,9 @@
+{
+  "name": "Herald publishing association",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.reviewandherald.com/copy-of-contact",
+      "select": "body"
+    }
+  }
+}

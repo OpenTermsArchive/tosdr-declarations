@@ -1,0 +1,17 @@
+{
+  "name": "Vercel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vercel.com/legal/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://vercel.com/legal/terms",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(5)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://vercel.com/legal/dmca-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(5)"
+    }
+  }
+}

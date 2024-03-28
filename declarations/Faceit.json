@@ -1,0 +1,13 @@
+{
+  "name": "Faceit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://corporate.faceit.com/terms-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://corporate.faceit.com/privacy/",
+      "select": "body"
+    }
+  }
+}

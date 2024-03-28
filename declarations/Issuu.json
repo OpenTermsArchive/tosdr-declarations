@@ -1,0 +1,21 @@
+{
+  "name": "Issuu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://issuu.com/legal/privacy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://issuu.com/legal/copyright",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://issuu.com/legal/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://issuu.com/legal/terms",
+      "select": null
+    }
+  }
+}

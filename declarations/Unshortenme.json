@@ -1,0 +1,9 @@
+{
+  "name": "Unshortenme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://unshorten.me/privacy-policy",
+      "select": "body"
+    }
+  }
+}

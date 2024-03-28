@@ -1,0 +1,13 @@
+{
+  "name": "Insta360",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.insta360.com/support/supportcourse?post_id=9148",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.insta360.com/support/supportcourse?post_id=9142",
+      "select": "body"
+    }
+  }
+}

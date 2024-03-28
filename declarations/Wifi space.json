@@ -1,0 +1,13 @@
+{
+  "name": "Wifi space",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wifispc.com/privacy-policy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://wifispc.com/terms.html",
+      "select": null
+    }
+  }
+}

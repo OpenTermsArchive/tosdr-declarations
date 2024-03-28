@@ -1,0 +1,17 @@
+{
+  "name": "Porton private cloudstorage",
+  "documents": {
+    "Other": {
+      "fetch": "https://porton.nl/odr",
+      "select": "html > body > span:nth-of-type(2) > div:nth-of-type(2) > div > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.porton.nl/porton/#section-2",
+      "select": " > div:nth-of-type(2) > div:nth-of-type(2) > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.porton.nl/porton/#section-3",
+      "select": " > div:nth-of-type(3) > div:nth-of-type(2) > section"
+    }
+  }
+}

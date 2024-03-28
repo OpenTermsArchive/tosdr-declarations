@@ -1,0 +1,13 @@
+{
+  "name": "Jimpl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jimpl.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://jimpl.com/terms",
+      "select": "body"
+    }
+  }
+}

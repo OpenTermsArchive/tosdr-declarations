@@ -1,0 +1,17 @@
+{
+  "name": "Tuttle twins store",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tuttletwins.store/policies/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tuttletwins.store/policies/privacy-policy",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://tuttletwins.store/policies/refund-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Tweakers",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://tweakers.net/info/algemene-voorwaarden/cookies/",
+      "select": " > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tweakers.net/info/algemene-voorwaarden/privacy/",
+      "select": " > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://tweakers.net/info/algemene-voorwaarden/",
+      "select": " > div > div:nth-of-type(2) > div > div:first-of-type"
+    }
+  }
+}

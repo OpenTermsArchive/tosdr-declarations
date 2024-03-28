@@ -1,0 +1,13 @@
+{
+  "name": "Shasta college",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.shastacollege.edu/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.shastacollege.edu/terms-of-use/",
+      "select": "html > body > div:first-of-type > main > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Instagram",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.instagram.com/581066165581870",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.instagram.com/519522125107875",
+      "select": null
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://help.instagram.com/494561080557017",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.instagram.com/1896641480634370",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://help.instagram.com/477434105621119",
+      "select": null
+    }
+  }
+}

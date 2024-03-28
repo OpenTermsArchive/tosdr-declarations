@@ -1,0 +1,13 @@
+{
+  "name": "Custom search tool",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://legal.customsearchtool.com/Home/Terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://legal.customsearchtool.com/Home/Privacy",
+      "select": "body"
+    }
+  }
+}

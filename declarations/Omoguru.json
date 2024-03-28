@@ -1,0 +1,13 @@
+{
+  "name": "Omoguru",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.omoguru.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.omoguru.com/end-user-licence-agreement-omoguru-reader-eula/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Pixton",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pixton.com/terms-of-use/educators",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pixton.com/data-processing-addendum",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tellonym",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.tellonym.me/hc/de/articles/360003228980-Terms-of-Use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.tellonym.me/hc/de/articles/360003062380-Privacy-Explanation",
+      "select": "body"
+    }
+  }
+}

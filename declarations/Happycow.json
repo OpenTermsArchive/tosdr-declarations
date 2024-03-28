@@ -1,0 +1,13 @@
+{
+  "name": "Happycow",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.happycow.net/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.happycow.net/terms-of-use",
+      "select": "body"
+    }
+  }
+}

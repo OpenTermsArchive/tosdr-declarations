@@ -1,0 +1,17 @@
+{
+  "name": "Bygabyardigo",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://bygabyardigo.com/policies/refund-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bygabyardigo.com/policies/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://bygabyardigo.com/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

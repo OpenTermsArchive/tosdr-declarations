@@ -1,0 +1,17 @@
+{
+  "name": "Itop inc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.itopvpn.com/eula",
+      "select": "html > body > div:first-of-type"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.itopvpn.com/refundpolicy",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.itopvpn.com/privacy",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

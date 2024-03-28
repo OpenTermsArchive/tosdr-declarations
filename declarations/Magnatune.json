@@ -1,0 +1,9 @@
+{
+  "name": "Magnatune",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://magnatune.com/terms_of_use",
+      "select": "html > body > center > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2) > table > tbody > tr > td"
+    }
+  }
+}

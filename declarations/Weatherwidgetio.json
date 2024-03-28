@@ -1,0 +1,13 @@
+{
+  "name": "Weatherwidgetio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://weatherwidget.io/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://weatherwidget.io/terms/",
+      "select": null
+    }
+  }
+}

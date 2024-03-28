@@ -1,0 +1,13 @@
+{
+  "name": "Lg ads",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://lgads.com/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://lgads.com/site-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

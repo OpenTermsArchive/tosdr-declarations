@@ -1,0 +1,17 @@
+{
+  "name": "Meet the locals",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://meetthelocals.se/en/cookies/",
+      "select": "div.page-body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://meetthelocals.se/en/privacy-notice/",
+      "select": "div.page-body"
+    },
+    "Terms of Service": {
+      "fetch": "https://meetthelocals.se/en/terms/",
+      "select": "div.page-body"
+    }
+  }
+}

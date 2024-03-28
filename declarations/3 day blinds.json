@@ -1,0 +1,13 @@
+{
+  "name": "3 day blinds",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.3dayblinds.com/terms-of-use",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.3dayblinds.com/privacy-policy",
+      "select": "html > body > main"
+    }
+  }
+}

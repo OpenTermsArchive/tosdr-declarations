@@ -1,0 +1,13 @@
+{
+  "name": "Hurdlr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hurdlr.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hurdlr.com/terms",
+      "select": "body"
+    }
+  }
+}

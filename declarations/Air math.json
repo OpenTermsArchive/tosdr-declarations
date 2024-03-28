@@ -1,0 +1,13 @@
+{
+  "name": "Air math",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vQL7CfYkW0XujFJG-n6uFHAQQf32EbdsMcW6PVrBcd-4NOtIcoK27Qo0z85tL4Y8tbi4kSgjorEsW1M/pub",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vQvC5ObSfrk2jhtAFMdsABEiPy6zP-Eez2QDZ3tPnk8YZdw2iO1sc01bLtkrjDghsCxFnxp9kA9Dnh1/pub",
+      "select": "body"
+    }
+  }
+}

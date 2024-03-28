@@ -1,0 +1,9 @@
+{
+  "name": "Ejournalpress",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ejpress.com/eJournalPress_Privacy_Policy.pdf",
+      "select": "body"
+    }
+  }
+}

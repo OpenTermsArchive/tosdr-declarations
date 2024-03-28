@@ -1,0 +1,21 @@
+{
+  "name": "Killerroi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://killerroi.asia/terms/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://killerroi.asia/refund-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://killerroi.asia/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://killerroi.asia/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

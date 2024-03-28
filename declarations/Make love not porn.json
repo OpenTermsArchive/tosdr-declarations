@@ -1,0 +1,9 @@
+{
+  "name": "Make love not porn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://makelovenotporn.tv/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > div:nth-of-type(3) > div > div > div:nth-of-type(2)"
+    }
+  }
+}

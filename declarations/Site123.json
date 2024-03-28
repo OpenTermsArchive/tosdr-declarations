@@ -1,0 +1,13 @@
+{
+  "name": "Site123",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.site123.com/privacy",
+      "select": "html > body > section:first-of-type > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.site123.com/terms",
+      "select": "html > body > section:first-of-type > div > div > div > div"
+    }
+  }
+}

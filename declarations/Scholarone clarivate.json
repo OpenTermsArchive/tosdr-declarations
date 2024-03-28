@@ -1,0 +1,17 @@
+{
+  "name": "Scholarone clarivate",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://clarivate.com/legal/scholarone-privacy-notice/scholarone-privacy-notice-en/",
+      "select": "html > body > section:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://clarivate.com/privacy-center/notices-policies/cookie-notice/",
+      "select": "html > body > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://clarivate.com/wp-content/uploads/dlm_uploads/2019/08/Terms-of-Use_v5_Jan-2022.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Werk32net discontinued",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://werk32.net/?page_id=478",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://werk32.net/?page_id=475",
+      "select": "body"
+    }
+  }
+}

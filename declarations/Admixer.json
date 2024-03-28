@@ -1,0 +1,13 @@
+{
+  "name": "Admixer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://admixer.com/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > section:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://admixer.com/cookies/",
+      "select": "body"
+    }
+  }
+}

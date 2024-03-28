@@ -1,0 +1,13 @@
+{
+  "name": "Parrot tv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://parrottv.github.io/TOS/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://parrottv.github.io/Privacy%20Policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Simpliservers",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://simpliservers.com/policies/pp",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://simpliservers.com/policies/tos",
+      "select": "body"
+    }
+  }
+}

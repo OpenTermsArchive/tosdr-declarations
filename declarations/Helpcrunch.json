@@ -1,0 +1,13 @@
+{
+  "name": "Helpcrunch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://helpcrunch.com/privacy-policy.html",
+      "select": "html > body > main > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://helpcrunch.com/terms-of-service.html",
+      "select": "html > body > main > div:nth-of-type(2) > div > div"
+    }
+  }
+}

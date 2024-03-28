@@ -1,0 +1,13 @@
+{
+  "name": "104",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.104.com.tw/info/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.104.com.tw/info/terms",
+      "select": "body"
+    }
+  }
+}

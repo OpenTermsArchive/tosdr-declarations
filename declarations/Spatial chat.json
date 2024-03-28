@@ -1,0 +1,13 @@
+{
+  "name": "Spatial chat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://spatial.chat/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://spatial.chat/privacy",
+      "select": "body"
+    }
+  }
+}

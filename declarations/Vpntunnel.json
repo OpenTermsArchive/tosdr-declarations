@@ -1,0 +1,13 @@
+{
+  "name": "Vpntunnel",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vpntunnel.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vpntunnel.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

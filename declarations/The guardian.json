@@ -1,0 +1,17 @@
+{
+  "name": "The guardian",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.theguardian.com/help/privacy-policy",
+      "select": "div.content__article-body.from-content-api.js-article__body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.theguardian.com/help/terms-of-service",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.theguardian.com/info/cookies",
+      "select": "html > body > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div:first-of-type > div"
+    }
+  }
+}

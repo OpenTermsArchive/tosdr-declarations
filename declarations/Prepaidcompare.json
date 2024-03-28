@@ -1,0 +1,9 @@
+{
+  "name": "Prepaidcompare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://prepaidcompare.net/privacy.html",
+      "select": null
+    }
+  }
+}

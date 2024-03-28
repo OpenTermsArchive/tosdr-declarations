@@ -1,0 +1,13 @@
+{
+  "name": "Salem",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://salemmedia.com/salem-church-products-privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://salemmedia.com/terms-of-use/",
+      "select": null
+    }
+  }
+}

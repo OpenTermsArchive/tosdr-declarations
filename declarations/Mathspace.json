@@ -1,0 +1,13 @@
+{
+  "name": "Mathspace",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mathspace.co/us/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mathspace.co/us/privacy-policy",
+      "select": "body"
+    }
+  }
+}

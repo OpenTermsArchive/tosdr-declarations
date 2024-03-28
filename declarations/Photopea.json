@@ -1,0 +1,9 @@
+{
+  "name": "Photopea",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.photopea.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

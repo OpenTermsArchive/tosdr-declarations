@@ -1,0 +1,13 @@
+{
+  "name": "Rocketcdn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rocketcdn.me/terms/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://rocketcdn.me/legal/",
+      "select": "body"
+    }
+  }
+}

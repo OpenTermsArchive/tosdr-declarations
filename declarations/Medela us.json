@@ -1,0 +1,13 @@
+{
+  "name": "Medela us",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.medela.us/medela-us/breastfeeding/medela-us-policies ",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.medela.us/breastfeeding/privacy-policy",
+      "select": "body"
+    }
+  }
+}

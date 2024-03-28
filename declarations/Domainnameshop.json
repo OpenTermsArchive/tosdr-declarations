@@ -1,0 +1,9 @@
+{
+  "name": "Domainnameshop",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://domainname.shop/terms",
+      "select": "body"
+    }
+  }
+}

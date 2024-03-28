@@ -1,0 +1,9 @@
+{
+  "name": "Washington multifamily housing association",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wmfha.org/legal",
+      "select": null
+    }
+  }
+}

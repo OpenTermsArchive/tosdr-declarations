@@ -1,0 +1,13 @@
+{
+  "name": "Consumer health alliance",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.consumerhealthalliance.org/cha-privacy-policy/",
+      "select": " > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.consumerhealthalliance.org/disclaimers/",
+      "select": " > div > div:first-of-type > div:first-of-type > div > div:first-of-type > div"
+    }
+  }
+}

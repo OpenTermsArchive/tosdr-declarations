@@ -1,0 +1,9 @@
+{
+  "name": "Alternet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.alternet.org/2020/09/privacy-policy-2647452896/",
+      "select": "body"
+    }
+  }
+}

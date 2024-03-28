@@ -1,0 +1,21 @@
+{
+  "name": "Onstar",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.onstar.com/content/dam/onstar/na/us/en/index/legal/legal-privacy-statement-jan012011/02-pdfs/Privacy-Statement-for-Application-Services.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.onstar.com/legal/infinity-tune-user-terms",
+      "select": "html > body > main > gb-adv-grid:nth-of-type(3)"
+    },
+    "Telephone Communication Guidelines": {
+      "fetch": "https://www.onstar.com/legal/onstar-text-messaging-terms-and-conditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.onstar.com/legal/third-party-terms",
+      "select": "html > body > main > gb-adv-grid:nth-of-type(3)"
+    }
+  }
+}

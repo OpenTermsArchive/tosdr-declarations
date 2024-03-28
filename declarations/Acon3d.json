@@ -1,0 +1,13 @@
+{
+  "name": "Acon3d",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.acon3d.com/en/toon/policy/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.acon3d.com/en/toon/policy/terms-of-use",
+      "select": "body"
+    }
+  }
+}

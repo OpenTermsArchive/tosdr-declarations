@@ -1,0 +1,9 @@
+{
+  "name": "Ktechsystems",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://k-tech-systems.com/PrivacyPolicy",
+      "select": "body"
+    }
+  }
+}

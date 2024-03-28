@@ -1,0 +1,9 @@
+{
+  "name": "Addoncloud",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://addoncloud.org/disclaimer",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Steepster",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://steepster.com/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://steepster.com/privacy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Free conference call",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.freeconferencecall.com/phone/acceptableuse",
+      "select": "html > body > div:nth-of-type(6)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.freeconferencecall.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(6) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.freeconferencecall.com/terms-of-service",
+      "select": "html > body > div:nth-of-type(6) > div > div"
+    }
+  }
+}

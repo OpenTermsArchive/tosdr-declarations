@@ -1,0 +1,9 @@
+{
+  "name": "Chiqr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://chiqr.com/privacy",
+      "select": "body"
+    }
+  }
+}

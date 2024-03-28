@@ -1,0 +1,13 @@
+{
+  "name": "Bibleminute",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bibleminute.co/terms.php ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bibleminute.co/privacy-policy.php ",
+      "select": "body"
+    }
+  }
+}

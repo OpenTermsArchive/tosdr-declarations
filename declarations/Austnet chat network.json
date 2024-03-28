@@ -1,0 +1,9 @@
+{
+  "name": "Austnet chat network",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.austnet.org/aup.php",
+      "select": "body"
+    }
+  }
+}

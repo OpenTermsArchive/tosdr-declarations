@@ -1,0 +1,9 @@
+{
+  "name": "Jami",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jami.net/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > section > div"
+    }
+  }
+}

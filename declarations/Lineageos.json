@@ -1,0 +1,9 @@
+{
+  "name": "Lineageos",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://lineageos.org/legal/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Compresse chaude ou froide thermocompresse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thermocompresse.ca/neural/politique_de_confidentialite.asp?v=2",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://thermocompresse.ca/neural/termes_et_conditions.asp?v=2",
+      "select": "body"
+    }
+  }
+}

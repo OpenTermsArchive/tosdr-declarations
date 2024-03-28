@@ -1,0 +1,13 @@
+{
+  "name": "Stimfinancial",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://stimfinancial.com/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://stimfinancial.com/privacy_policy.html",
+      "select": "body"
+    }
+  }
+}

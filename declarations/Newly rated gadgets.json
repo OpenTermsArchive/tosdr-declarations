@@ -1,0 +1,13 @@
+{
+  "name": "Newly rated gadgets",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.newlyratedgadgets.com/savvyshopper/v1/page-privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.newlyratedgadgets.com/savvyshopper/v1/page-terms.php",
+      "select": "body"
+    }
+  }
+}

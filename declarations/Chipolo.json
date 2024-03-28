@@ -1,0 +1,17 @@
+{
+  "name": "Chipolo",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://chipolo.net/en-us/pages/cookie-policy",
+      "select": "html > body > div:nth-of-type(2) > section > div > section"
+    },
+    "Legal Information": {
+      "fetch": "https://chipolo.net/en-us/pages/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://chipolo.net/en-us/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

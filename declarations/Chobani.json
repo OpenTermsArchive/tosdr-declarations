@@ -1,0 +1,13 @@
+{
+  "name": "Chobani",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.chobani.com/website-terms ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.chobani.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

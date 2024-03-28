@@ -1,0 +1,9 @@
+{
+  "name": "Devsoap",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://devsoap.com/privacy",
+      "select": ".post-full-content"
+    }
+  }
+}

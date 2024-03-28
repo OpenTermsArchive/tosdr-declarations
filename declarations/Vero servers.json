@@ -1,0 +1,13 @@
+{
+  "name": "Vero servers",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.veroservers.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.veroservers.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

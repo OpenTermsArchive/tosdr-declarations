@@ -1,0 +1,13 @@
+{
+  "name": "Stackshare",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://stackshare.io/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://stackshare.io/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

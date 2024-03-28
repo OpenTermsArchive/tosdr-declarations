@@ -1,0 +1,13 @@
+{
+  "name": "Projectionlab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://projectionlab.com/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://projectionlab.com/terms.html",
+      "select": "body"
+    }
+  }
+}

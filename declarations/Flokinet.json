@@ -1,0 +1,9 @@
+{
+  "name": "Flokinet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://invidious.flokinet.to/privacy",
+      "select": "body"
+    }
+  }
+}

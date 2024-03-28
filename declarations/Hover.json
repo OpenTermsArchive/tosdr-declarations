@@ -1,0 +1,17 @@
+{
+  "name": "Hover",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hover.com/privacy",
+      "select": "html > body > main"
+    },
+    "Policy": {
+      "fetch": "https://www.hover.com/aup",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hover.com/tos",
+      "select": "html > body > main"
+    }
+  }
+}

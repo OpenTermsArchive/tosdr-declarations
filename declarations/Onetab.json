@@ -1,0 +1,9 @@
+{
+  "name": "Onetab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.one-tab.com/privacy",
+      "select": "body"
+    }
+  }
+}

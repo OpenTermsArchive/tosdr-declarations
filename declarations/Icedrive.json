@@ -1,0 +1,17 @@
+{
+  "name": "Icedrive",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://icedrive.net/legal/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://icedrive.net/legal/terms-of-service",
+      "select": "html > body > div:nth-of-type(3) > div > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://icedrive.net/legal/dmca-policy",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

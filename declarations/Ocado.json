@@ -1,0 +1,13 @@
+{
+  "name": "Ocado",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ocado.com/webshop/scontent/purchasetermsandconditions?ad=79384%7C1273437%7C%7C&ad=79384%7C1646591%7C%7C",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ocado.com/webshop/scontent/securityPolicy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Lake washington institute of technology",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lwtech.edu/about/policies-and-procedures/website-privacy-policy",
+      "select": "html > body > div:nth-of-type(9) > div > div > div:first-of-type"
+    }
+  }
+}

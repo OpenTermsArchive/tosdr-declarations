@@ -1,0 +1,13 @@
+{
+  "name": "Fragment media group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fragmnt.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://fragmnt.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

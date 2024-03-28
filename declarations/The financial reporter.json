@@ -1,0 +1,13 @@
+{
+  "name": "The financial reporter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://thefinancial-reporter.com/?page_id=1023",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://thefinancial-reporter.com/?page_id=749",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

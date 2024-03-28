@@ -1,0 +1,13 @@
+{
+  "name": "Nib",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nib.com.au/docs/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nib.com.au/docs/online-terms",
+      "select": "body"
+    }
+  }
+}

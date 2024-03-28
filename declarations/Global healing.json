@@ -1,0 +1,13 @@
+{
+  "name": "Global healing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://globalhealing.com/pages/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > main > div > div:first-of-type > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://globalhealing.com/pages/terms-of-use",
+      "select": "body"
+    }
+  }
+}

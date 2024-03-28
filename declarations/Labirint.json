@@ -1,0 +1,9 @@
+{
+  "name": "Labirint",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.labirint.ru/agreement/",
+      "select": "div.mnhelp-innertext div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Appsheet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.appsheet.com/Home/Terms",
+      "select": "body"
+    }
+  }
+}

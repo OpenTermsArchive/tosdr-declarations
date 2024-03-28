@@ -1,0 +1,9 @@
+{
+  "name": "Prosper it",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.prosperits.com/agreements/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > section:first-of-type"
+    }
+  }
+}

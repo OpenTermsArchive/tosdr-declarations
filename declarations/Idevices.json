@@ -1,0 +1,13 @@
+{
+  "name": "Idevices",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://idevicesinc.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://idevicesinc.com/terms/",
+      "select": "body"
+    }
+  }
+}

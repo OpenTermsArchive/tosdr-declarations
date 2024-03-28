@@ -1,0 +1,9 @@
+{
+  "name": "Online html editor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://html-online.com/privacy-terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

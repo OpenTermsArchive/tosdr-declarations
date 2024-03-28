@@ -1,0 +1,13 @@
+{
+  "name": "Homematic ip",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://homematic-ip.com/de/datenschutz-app",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://homematic-ip.com/de/eula",
+      "select": "body"
+    }
+  }
+}

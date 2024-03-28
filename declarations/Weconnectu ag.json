@@ -1,0 +1,13 @@
+{
+  "name": "Weconnectu ag",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://weconnectu.io/wp-content/uploads/2022/08/WeConnectU-AG_Privacy-Policy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://weconnectu.io/wp-content/uploads/2022/08/WeConnectU-AG_Website-Terms-of-Use.pdf",
+      "select": "body"
+    }
+  }
+}

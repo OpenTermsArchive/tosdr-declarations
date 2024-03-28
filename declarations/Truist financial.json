@@ -1,0 +1,17 @@
+{
+  "name": "Truist financial",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.truist.com/content/dam/truist-bank/us/en/documents/footer/privacy-policy-truist-english.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.truist.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.truist.com/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div:nth-of-type(3) > main > div > div > div:first-of-type > div > div > div"
+    }
+  }
+}

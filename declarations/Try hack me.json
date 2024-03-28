@@ -1,0 +1,9 @@
+{
+  "name": "Try hack me",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tryhackme.com/terms",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Emalm",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://emalm.com/EULA/",
+      "select": "html > body > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Schudio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.schudio.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.schudio.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

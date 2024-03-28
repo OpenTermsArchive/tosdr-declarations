@@ -1,0 +1,13 @@
+{
+  "name": "Tassomai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://static1.squarespace.com/static/5a8c285bd74cffc5e0171c34/t/642d975fd7a1c3111edba425/1680709471470/School+Terms+%26+Conditions+-+Version+3.1.0%2C+Mar+2023.docx.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tassomai.com/privacy",
+      "select": null
+    }
+  }
+}

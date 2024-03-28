@@ -1,0 +1,17 @@
+{
+  "name": "Pineapplesupportorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pineapplesupport.org/terms-conditions",
+      "select": "html > body > div:first-of-type > div > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://pineapplesupport.org/cookie-policy/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pineapplesupport.org/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type"
+    }
+  }
+}

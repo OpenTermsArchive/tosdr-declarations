@@ -1,0 +1,13 @@
+{
+  "name": "Classmates",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.classmates.com/about/privacy",
+      "select": "html > body > main > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.classmates.com/about/terms",
+      "select": "html > body > main > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

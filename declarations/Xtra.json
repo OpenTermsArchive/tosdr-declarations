@@ -1,0 +1,13 @@
+{
+  "name": "Xtra",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://xtramagazine.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://xtramagazine.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Microcosm publishing  distribution",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://microcosmpublishing.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

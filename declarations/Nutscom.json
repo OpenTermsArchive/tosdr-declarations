@@ -1,0 +1,13 @@
+{
+  "name": "Nutscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nuts.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://nuts.com/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

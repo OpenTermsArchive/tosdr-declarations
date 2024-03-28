@@ -1,0 +1,13 @@
+{
+  "name": "Rssapp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rss.app/privacy",
+      "select": "html > body > div:first-of-type > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://rss.app/terms",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

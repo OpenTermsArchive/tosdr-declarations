@@ -1,0 +1,9 @@
+{
+  "name": "Gcore labs",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://gcorelabs.com/legal/",
+      "select": "body"
+    }
+  }
+}

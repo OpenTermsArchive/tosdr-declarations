@@ -1,0 +1,29 @@
+{
+  "name": "Resilio",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.resilio.com/legal/copyright/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.resilio.com/legal/eula-subscription/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.resilio.com/legal/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.resilio.com/legal/cookie-policy/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.resilio.com/legal/terms-of-sale/",
+      "select": "body"
+    },
+    "Developer Terms": {
+      "fetch": "https://www.resilio.com/legal/terms-sync-api/",
+      "select": "body"
+    }
+  }
+}

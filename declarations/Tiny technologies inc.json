@@ -1,0 +1,13 @@
+{
+  "name": "Tiny technologies inc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tiny.cloud/legal/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tiny.cloud/legal/privacy/",
+      "select": "body"
+    }
+  }
+}

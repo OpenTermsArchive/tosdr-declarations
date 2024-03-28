@@ -1,0 +1,17 @@
+{
+  "name": "Myspace",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://myspace.com/pages/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://myspace.com/pages/terms",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://myspace.com/pages/privacy?page=do-not-sell",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > article > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Macupdate",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.macupdate.com/privacy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.macupdate.com/terms-of-service",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div"
+    }
+  }
+}

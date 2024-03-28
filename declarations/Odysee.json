@@ -1,0 +1,17 @@
+{
+  "name": "Odysee",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://odysee.com/$/privacypolicy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(5) > div:nth-of-type(2) > main > section > div > div:nth-of-type(2) > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://help.odysee.tv/communityguidelines/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > main > div > div > div:first-of-type > div > article > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://odysee.com/$/tos",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(5) > div:nth-of-type(2) > main > section > div > div:nth-of-type(2) > div"
+    }
+  }
+}

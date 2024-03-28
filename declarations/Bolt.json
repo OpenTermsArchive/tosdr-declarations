@@ -1,0 +1,21 @@
+{
+  "name": "Bolt",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bolt.eu/en/legal/?category=boltDrive",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bolt.eu/en/legal/privacy-for-riders/",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > article"
+    },
+    "Trackers Policy": {
+      "fetch": "https://bolt.eu/en/cookie-declaration/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://bolt.eu/en/legal/?category=delivery",
+      "select": "body"
+    }
+  }
+}

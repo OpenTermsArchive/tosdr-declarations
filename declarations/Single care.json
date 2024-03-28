@@ -1,0 +1,13 @@
+{
+  "name": "Single care",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.singlecare.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.singlecare.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

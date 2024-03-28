@@ -1,0 +1,9 @@
+{
+  "name": "Nebisoft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nebisoftware.com/privacy.html",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

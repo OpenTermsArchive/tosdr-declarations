@@ -1,0 +1,13 @@
+{
+  "name": "Vgm quiz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vgm-quiz.com/policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vgm-quiz.com/tos",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Gage crib",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gagecrib.com/about/privacy",
+      "select": "body"
+    }
+  }
+}

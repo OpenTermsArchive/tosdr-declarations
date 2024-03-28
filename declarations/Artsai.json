@@ -1,0 +1,9 @@
+{
+  "name": "Artsai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://artsai.com/privacy/",
+      "select": "body"
+    }
+  }
+}

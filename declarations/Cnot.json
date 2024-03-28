@@ -1,0 +1,9 @@
+{
+  "name": "Cnot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cnot.io/about/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

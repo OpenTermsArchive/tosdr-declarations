@@ -1,0 +1,13 @@
+{
+  "name": "Tellmi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tellmi.help/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tellmi.help/terms-of-use",
+      "select": "body"
+    }
+  }
+}

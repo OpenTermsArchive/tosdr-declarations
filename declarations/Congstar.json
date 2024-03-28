@@ -1,0 +1,17 @@
+{
+  "name": "Congstar",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.congstar.de/datenschutz",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.congstar.de/cookies/",
+      "select": "html > body > div > div"
+    },
+    "Other": {
+      "fetch": "https://www.congstar.de/verbraucherinformation/",
+      "select": "body"
+    }
+  }
+}

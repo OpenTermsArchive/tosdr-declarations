@@ -1,0 +1,17 @@
+{
+  "name": "Sejda",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sejda.com/security",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sejda.com/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sejda.com/terms",
+      "select": "body"
+    }
+  }
+}

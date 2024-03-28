@@ -1,0 +1,9 @@
+{
+  "name": "The church factory",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thechurchfactory.com/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Nutaku",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nutaku.net/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nutaku.net/age/terms/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div"
+    }
+  }
+}

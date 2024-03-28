@@ -1,0 +1,17 @@
+{
+  "name": "Methodist college kuala lumpur",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://mckl.edu.my/wp-content/uploads/2022/10/Sept2022-MCKL-PDP-Notice-English.pdf",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://mckl.edu.my/wp-content/uploads/2022/10/Anti-Corruption-Policy-V1.1-Website-Upload.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mckl.edu.my/website-terms-and-conditions/",
+      "select": null
+    }
+  }
+}

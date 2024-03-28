@@ -1,0 +1,13 @@
+{
+  "name": "Simplepdf",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://simplepdf.eu/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://simplepdf.eu/terms-of-service",
+      "select": "body"
+    }
+  }
+}

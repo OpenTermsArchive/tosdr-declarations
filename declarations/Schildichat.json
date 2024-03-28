@@ -1,0 +1,9 @@
+{
+  "name": "Schildichat",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://schildi.chat/privacy",
+      "select": "body"
+    }
+  }
+}

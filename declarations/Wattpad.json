@@ -1,0 +1,17 @@
+{
+  "name": "Wattpad",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policies.wattpad.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://policies.wattpad.com/terms",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://policies.wattpad.com/content",
+      "select": "body"
+    }
+  }
+}

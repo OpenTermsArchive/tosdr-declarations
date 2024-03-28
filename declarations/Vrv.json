@@ -1,0 +1,13 @@
+{
+  "name": "Vrv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vrv.co/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vrv.co/privacy",
+      "select": "body"
+    }
+  }
+}

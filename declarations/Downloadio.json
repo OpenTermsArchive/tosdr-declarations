@@ -1,0 +1,9 @@
+{
+  "name": "Downloadio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.download.io/about/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Home services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://homeservicescompliance.com/",
+      "select": "body"
+    }
+  }
+}

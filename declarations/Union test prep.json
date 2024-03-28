@@ -1,0 +1,21 @@
+{
+  "name": "Union test prep",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://uniontestprep.com/legal/terms",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://uniontestprep.com/legal/dmca",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://uniontestprep.com/legal/refunds",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://uniontestprep.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

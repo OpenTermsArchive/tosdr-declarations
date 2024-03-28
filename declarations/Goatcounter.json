@@ -1,0 +1,9 @@
+{
+  "name": "Goatcounter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.goatcounter.com/terms",
+      "select": "body"
+    }
+  }
+}

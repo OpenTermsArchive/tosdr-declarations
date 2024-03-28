@@ -1,0 +1,17 @@
+{
+  "name": "Freakden",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.freakden.com/pin/dmca-and-copyright-infringement/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.freakden.com/pin/whats-too-freaky/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.freakden.com/pin/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

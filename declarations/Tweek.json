@@ -1,0 +1,13 @@
+{
+  "name": "Tweek",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tweek.so/s/privacy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tweek.so/s/terms.pdf",
+      "select": "body"
+    }
+  }
+}

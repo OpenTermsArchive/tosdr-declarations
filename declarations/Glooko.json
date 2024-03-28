@@ -1,0 +1,17 @@
+{
+  "name": "Glooko",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://glooko.com/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://glooko.com/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://glooko.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

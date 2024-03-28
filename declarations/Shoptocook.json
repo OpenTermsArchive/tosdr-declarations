@@ -1,0 +1,13 @@
+{
+  "name": "Shoptocook",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www2.shoptocook.com/privacypolicy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://uploads-ssl.webflow.com/610ab6a3edabd72e2b87f97a/63b5f68532765c41b9eaa571_STC-Retailer-Program-Terms-and-Conditions-2023-01-04.pdf",
+      "select": "body"
+    }
+  }
+}

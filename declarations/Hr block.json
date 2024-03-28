@@ -1,0 +1,13 @@
+{
+  "name": "Hr block",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hrblock.com/universal/terms/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.hrblock.com/universal/digital-online-mobile-privacy-principles/",
+      "select": "body"
+    }
+  }
+}

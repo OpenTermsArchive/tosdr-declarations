@@ -1,0 +1,9 @@
+{
+  "name": "House of representatives",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.house.gov/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > section"
+    }
+  }
+}

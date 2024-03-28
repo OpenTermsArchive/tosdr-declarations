@@ -1,0 +1,13 @@
+{
+  "name": "Tickets plus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tickets-plus.techttgames.dev/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tickets-plus.techttgames.dev/privacy",
+      "select": "body"
+    }
+  }
+}

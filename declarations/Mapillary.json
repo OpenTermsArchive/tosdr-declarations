@@ -1,0 +1,29 @@
+{
+  "name": "Mapillary",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://mapillary.com/legal",
+      "select": "html > body > div > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://mapillary.com/commercialterms",
+      "select": "html > body > div > div:nth-of-type(4)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mapillary.com/privacy",
+      "select": "html > body > div > div:nth-of-type(4)"
+    },
+    "Developer Terms": {
+      "fetch": "https://mapillary.com/developerpolicy",
+      "select": "html > body > div > div:nth-of-type(4)"
+    },
+    "Other": {
+      "fetch": "https://mapillary.com/credits",
+      "select": "html > body > div:first-of-type > div:first-of-type > p"
+    },
+    "Trackers Policy": {
+      "fetch": "https://mapillary.com/cookies",
+      "select": "html > body > div > div:nth-of-type(4)"
+    }
+  }
+}

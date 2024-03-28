@@ -1,0 +1,13 @@
+{
+  "name": "Psono",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://psono.com/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://psono.com/terms-and-conditions",
+      "select": null
+    }
+  }
+}

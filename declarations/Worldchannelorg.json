@@ -1,0 +1,13 @@
+{
+  "name": "Worldchannelorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://worldchannel.org/about/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://worldchannel.org/about/terms-use",
+      "select": "body"
+    }
+  }
+}

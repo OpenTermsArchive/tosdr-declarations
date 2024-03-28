@@ -1,0 +1,17 @@
+{
+  "name": "Cloudinary",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cloudinary.com/privacy",
+      "select": " > div > section > div > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://cloudinary.com/dmca#gsc.tab=0",
+      "select": " > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://cloudinary.com/tos",
+      "select": " > div > section > div > div > div > div > div"
+    }
+  }
+}

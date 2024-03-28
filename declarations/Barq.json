@@ -1,0 +1,13 @@
+{
+  "name": "Barq",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://barq.social/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://barq.social/privacy",
+      "select": "body"
+    }
+  }
+}

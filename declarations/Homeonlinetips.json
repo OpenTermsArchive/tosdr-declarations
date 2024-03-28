@@ -1,0 +1,13 @@
+{
+  "name": "Homeonlinetips",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://homeonlinetips.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://homeonlinetips.com/terms-and-conditions/",
+      "select": null
+    }
+  }
+}

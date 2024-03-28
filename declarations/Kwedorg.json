@@ -1,0 +1,13 @@
+{
+  "name": "Kwedorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://remix.kwed.org/termsofservice.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://remix.kwed.org/privacypolicy.php",
+      "select": "body"
+    }
+  }
+}

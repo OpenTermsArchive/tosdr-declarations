@@ -1,0 +1,13 @@
+{
+  "name": "Loopsessions",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.loopsessions.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.loopsessions.com/terms/",
+      "select": "body"
+    }
+  }
+}

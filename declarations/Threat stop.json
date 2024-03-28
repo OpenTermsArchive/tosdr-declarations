@@ -1,0 +1,13 @@
+{
+  "name": "Threat stop",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.threatstop.com/privacy",
+      "select": "html > body > main > div > div > div > div > div:nth-of-type(2) > div > div > div > div > div > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.threatstop.com/tos",
+      "select": "html > body > main > div > div > div > div > div:nth-of-type(2) > div > div > div > div > div > div > section"
+    }
+  }
+}

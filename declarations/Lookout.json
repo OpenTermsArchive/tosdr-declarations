@@ -1,0 +1,17 @@
+{
+  "name": "Lookout",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://legaldocs.lookout.com/en/consumer-privacy-policy.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://security.lookout.com/legal/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://legaldocs.lookout.com/en/consumer-terms.pdf",
+      "select": "body"
+    }
+  }
+}

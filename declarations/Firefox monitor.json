@@ -1,0 +1,17 @@
+{
+  "name": "Firefox monitor",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.mozilla.org/en-US/privacy/websites/",
+      "select": "html > body > div:nth-of-type(3) > div > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mozilla.org/en-US/privacy/firefox-monitor/",
+      "select": "html > body > div:nth-of-type(3) > div > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mozilla.org/en-US/about/legal/terms/services/",
+      "select": null
+    }
+  }
+}

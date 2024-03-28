@@ -1,0 +1,9 @@
+{
+  "name": "Sky",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sky.com/shop/terms-conditions/new/",
+      "select": "body"
+    }
+  }
+}

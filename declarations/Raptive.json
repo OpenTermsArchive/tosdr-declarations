@@ -1,0 +1,13 @@
+{
+  "name": "Raptive",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://raptive.com/creator-advertising-privacy-statement/",
+      "select": "html > body > div:first-of-type > main > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://raptive.com/terms-conditions/",
+      "select": "html > body > div:first-of-type > main > div > section"
+    }
+  }
+}

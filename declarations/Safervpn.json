@@ -1,0 +1,9 @@
+{
+  "name": "Safervpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.safervpn.com/legal/terms",
+      "select": "html > body > div > section > div"
+    }
+  }
+}

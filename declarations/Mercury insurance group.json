@@ -1,0 +1,13 @@
+{
+  "name": "Mercury insurance group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mercuryinsurance.com/about/privacy-statement.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mercuryinsurance.com/about/terms-of-use.html",
+      "select": "body"
+    }
+  }
+}

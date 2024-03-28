@@ -1,0 +1,17 @@
+{
+  "name": "Call me kevin",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.callmekev.in/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.callmekev.in/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.callmekev.in/privacy-policy",
+      "select": "body"
+    }
+  }
+}

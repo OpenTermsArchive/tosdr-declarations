@@ -1,0 +1,21 @@
+{
+  "name": "Webmd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.webmd.com/about-webmd-policies/about-privacy-policy",
+      "select": "html > body > main > div:nth-of-type(2) > div:nth-of-type(2) > article"
+    },
+    "Quality Guidelines": {
+      "fetch": "https://www.webmd.com/about-webmd-policies/webmd-corrections-policies",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.webmd.com/about-webmd-policies/about-editorial-policy",
+      "select": "html > body > main > div:nth-of-type(2) > div:nth-of-type(2) > article > div > div:nth-of-type(5)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.webmd.com/about-webmd-policies/cookie-policy",
+      "select": null
+    }
+  }
+}

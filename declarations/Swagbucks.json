@@ -1,0 +1,13 @@
+{
+  "name": "Swagbucks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.swagbucks.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.swagbucks.com/terms-of-use-intl",
+      "select": "body"
+    }
+  }
+}

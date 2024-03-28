@@ -1,0 +1,21 @@
+{
+  "name": "Nitroflarecom",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://nitroflare.com/refundPolicy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://nitroflare.com/DMCA",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://nitroflare.com/privacyPolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://nitroflare.com/tos",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tangerine",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.tangerine.ca/en/privacy/cookies",
+      "select": "html > body > div:first-of-type > section:nth-of-type(3) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tangerine.ca/en/privacy/privacy-code",
+      "select": "html > body > div:first-of-type > section:nth-of-type(3) > div > div"
+    }
+  }
+}

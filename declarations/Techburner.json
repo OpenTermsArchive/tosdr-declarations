@@ -1,0 +1,9 @@
+{
+  "name": "Techburner",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://techburner.in/burnerguard-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

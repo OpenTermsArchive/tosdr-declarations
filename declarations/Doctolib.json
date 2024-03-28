@@ -1,0 +1,17 @@
+{
+  "name": "Doctolib",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.doctolib.fr/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.doctolib.fr/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.doctolib.fr/terms/agreement",
+      "select": "body"
+    }
+  }
+}

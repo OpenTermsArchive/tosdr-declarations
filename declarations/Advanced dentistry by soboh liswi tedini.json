@@ -1,0 +1,9 @@
+{
+  "name": "Advanced dentistry by soboh liswi tedini",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sobohliswidental.com/privacy_policy/",
+      "select": "body"
+    }
+  }
+}

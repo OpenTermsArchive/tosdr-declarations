@@ -1,0 +1,9 @@
+{
+  "name": "Voro motors",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.voromotors.com/pages/privacy",
+      "select": "body"
+    }
+  }
+}

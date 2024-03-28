@@ -1,0 +1,17 @@
+{
+  "name": "Guardline security",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.guardlinesecurity.com/pages/return-policies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.guardlinesecurity.com/pages/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.guardlinesecurity.com/policies/privacy-policy",
+      "select": null
+    }
+  }
+}

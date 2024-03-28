@@ -1,0 +1,17 @@
+{
+  "name": "Osano",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.osano.com/legal/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.osano.com/legal/dpa",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.osano.com/legal/cookies",
+      "select": "body"
+    }
+  }
+}

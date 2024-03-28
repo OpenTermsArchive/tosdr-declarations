@@ -1,0 +1,13 @@
+{
+  "name": "The coca cola company",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://us.coca-cola.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://us.coca-cola.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

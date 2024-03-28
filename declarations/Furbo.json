@@ -1,0 +1,13 @@
+{
+  "name": "Furbo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dh1mqkcjivi9n.cloudfront.net/policy/us/TermsConditions.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dh1mqkcjivi9n.cloudfront.net/policy/us/PrivacyPolicy.html",
+      "select": "body"
+    }
+  }
+}

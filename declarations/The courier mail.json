@@ -1,0 +1,17 @@
+{
+  "name": "The courier mail",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://preferences.news.com.au/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://preferences.news.com.au/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.couriermail.com.au/more-information/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

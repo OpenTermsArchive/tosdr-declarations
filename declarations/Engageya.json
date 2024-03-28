@@ -1,0 +1,17 @@
+{
+  "name": "Engageya",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.engageya.com/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.engageya.com/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.engageya.com/privacy",
+      "select": "body"
+    }
+  }
+}

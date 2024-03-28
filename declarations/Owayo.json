@@ -1,0 +1,13 @@
+{
+  "name": "Owayo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.owayo.com/soccer/conditions-us.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.owayo.com/soccer/terms-us.htm",
+      "select": "body"
+    }
+  }
+}

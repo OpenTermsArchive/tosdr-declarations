@@ -1,0 +1,13 @@
+{
+  "name": "Uploadcare",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://uploadcare.com/about/terms/#10-copyright-infringement-and-dmca-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://uploadcare.com/about/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:first-of-type > div:first-of-type"
+    }
+  }
+}

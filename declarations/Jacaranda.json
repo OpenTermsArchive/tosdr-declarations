@@ -1,0 +1,9 @@
+{
+  "name": "Jacaranda",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wiley.com/en-au/privacy",
+      "select": "body"
+    }
+  }
+}

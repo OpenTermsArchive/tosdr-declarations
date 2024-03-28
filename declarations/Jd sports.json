@@ -1,0 +1,13 @@
+{
+  "name": "Jd sports",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jdsports.com/store/corporate/privacyPolicy.jsp",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(9) > div > div:nth-of-type(9) > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jdsports.com/store/corporate/terms.jsp",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(9) > div > div:nth-of-type(9) > div > div"
+    }
+  }
+}

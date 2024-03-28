@@ -1,0 +1,13 @@
+{
+  "name": "Rawg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rawg.io/privacy_policy",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://rawg.io/terms",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tricount",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tricount.com/en/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tricount.com/en/privacy-policy",
+      "select": "body"
+    }
+  }
+}

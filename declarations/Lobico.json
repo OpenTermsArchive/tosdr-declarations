@@ -1,0 +1,13 @@
+{
+  "name": "Lobico",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://lobi.co/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://lobi.co/privacy",
+      "select": "body"
+    }
+  }
+}

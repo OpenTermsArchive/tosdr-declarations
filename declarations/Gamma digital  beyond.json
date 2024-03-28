@@ -1,0 +1,9 @@
+{
+  "name": "Gamma digital  beyond",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gammabeyond.com/en/privacy-policy",
+      "select": "html > body > div:nth-of-type(5) > div:first-of-type > div:nth-of-type(2) > div > article > div > div > div > div"
+    }
+  }
+}

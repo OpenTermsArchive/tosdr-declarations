@@ -1,0 +1,9 @@
+{
+  "name": "Money saving expert",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.moneysavingexpert.com/site/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

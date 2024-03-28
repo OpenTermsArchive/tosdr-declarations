@@ -1,0 +1,9 @@
+{
+  "name": "Kiddle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kiddle.co/privacy.php",
+      "select": "html > body > div:nth-of-type(2) > div > center > div:first-of-type"
+    }
+  }
+}

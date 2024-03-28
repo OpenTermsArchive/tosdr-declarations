@@ -1,0 +1,9 @@
+{
+  "name": "Timac",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://blog.timac.org/privacy/",
+      "select": "body"
+    }
+  }
+}

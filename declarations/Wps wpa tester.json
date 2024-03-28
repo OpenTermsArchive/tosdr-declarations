@@ -1,0 +1,9 @@
+{
+  "name": "Wps wpa tester",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/32909567/legal",
+      "select": "body"
+    }
+  }
+}

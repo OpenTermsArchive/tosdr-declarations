@@ -1,0 +1,13 @@
+{
+  "name": "Ratesforinsurance",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://auto.ratesforinsurance.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://auto.ratesforinsurance.com/privacy",
+      "select": "body"
+    }
+  }
+}

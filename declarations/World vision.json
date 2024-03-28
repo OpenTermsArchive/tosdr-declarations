@@ -1,0 +1,13 @@
+{
+  "name": "World vision",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.worldvision.org/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.worldvision.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

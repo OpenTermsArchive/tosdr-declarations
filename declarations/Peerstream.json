@@ -1,0 +1,13 @@
+{
+  "name": "Peerstream",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://peer-stream.com/rules",
+      "select": "html > body > div:first-of-type > main > div > ol"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://peer-stream.com/dmca",
+      "select": "html > body > div:first-of-type > main > div"
+    }
+  }
+}

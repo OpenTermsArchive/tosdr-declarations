@@ -1,0 +1,9 @@
+{
+  "name": "Banger merch",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://bangermerch.com/pages/return-shipping-policy",
+      "select": null
+    }
+  }
+}

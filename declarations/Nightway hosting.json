@@ -1,0 +1,17 @@
+{
+  "name": "Nightway hosting",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cdn.nightwayhosting.com/terms-of-service.pdf",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://cdn.nightwayhosting.com/acceptable-usage-policy.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cdn.nightwayhosting.com/privacy-policy.pdf",
+      "select": "body"
+    }
+  }
+}

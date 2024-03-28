@@ -1,0 +1,13 @@
+{
+  "name": "Steganos software gmbh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.steganos.com/en/privacy-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.steganos.com/en/general-terms-of-use-for-the-steganos-website",
+      "select": "body"
+    }
+  }
+}

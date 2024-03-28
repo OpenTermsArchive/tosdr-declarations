@@ -1,0 +1,9 @@
+{
+  "name": "Termbin",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://termbin.com/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(6)"
+    }
+  }
+}

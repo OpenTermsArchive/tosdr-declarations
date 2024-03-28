@@ -1,0 +1,13 @@
+{
+  "name": "3dhype",
+  "documents": {
+    "Other": {
+      "fetch": "https://casihelper.com",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.3dhype.com/index/privacy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

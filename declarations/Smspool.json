@@ -1,0 +1,13 @@
+{
+  "name": "Smspool",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.smspool.net/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.smspool.net/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type > div:first-of-type > div > div"
+    }
+  }
+}

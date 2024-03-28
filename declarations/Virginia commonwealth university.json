@@ -1,0 +1,9 @@
+{
+  "name": "Virginia commonwealth university",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.vcu.edu/privacy-statement/",
+      "select": "body"
+    }
+  }
+}

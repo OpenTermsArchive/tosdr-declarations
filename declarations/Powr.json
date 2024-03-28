@@ -1,0 +1,13 @@
+{
+  "name": "Powr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.powr.io/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.powr.io/terms",
+      "select": "body"
+    }
+  }
+}

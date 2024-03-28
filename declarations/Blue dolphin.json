@@ -1,0 +1,13 @@
+{
+  "name": "Blue dolphin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bluedolphin-magazines.com/popup.php?popup=privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bluedolphin-magazines.com/popup.php?popup=terms_of_use",
+      "select": "body"
+    }
+  }
+}

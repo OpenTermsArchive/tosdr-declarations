@@ -1,0 +1,9 @@
+{
+  "name": "Clark college",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.clark.edu/about/governance/policies-procedures/privacy_policy.php",
+      "select": "body"
+    }
+  }
+}

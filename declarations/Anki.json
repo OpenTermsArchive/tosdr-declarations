@@ -1,0 +1,13 @@
+{
+  "name": "Anki",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.anki.com/en-us/company/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.anki.com/en-us/company/cookie-policy",
+      "select": "body"
+    }
+  }
+}

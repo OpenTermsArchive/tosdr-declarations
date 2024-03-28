@@ -1,0 +1,9 @@
+{
+  "name": "Pilcherforevergreencom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pilcherforevergreen.com/privacy-policy",
+      "select": null
+    }
+  }
+}

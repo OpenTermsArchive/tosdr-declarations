@@ -1,0 +1,21 @@
+{
+  "name": "World economic forum",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.weforum.org/about/terms-of-use",
+      "select": "html > body > div:first-of-type > div > section > div > div > article > div > div > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.weforum.org/about/privacy-and-terms-of-use",
+      "select": "html > body > div:first-of-type > div > section > div > div > article > div > div > div:nth-of-type(3)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.weforum.org/about/cookie-declaration",
+      "select": "html > body > div:first-of-type > div > section > div > div > article > div > div > div:nth-of-type(3)"
+    },
+    "Other": {
+      "fetch": "https://www.weforum.org/about/alert-on-fictitious-forum-e-mails",
+      "select": "html > body > div:first-of-type > div > section > div > div > article > div > div > div:nth-of-type(3)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Craiyon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.craiyon.com/privacy",
+      "select": "main div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.craiyon.com/terms",
+      "select": "main div"
+    }
+  }
+}

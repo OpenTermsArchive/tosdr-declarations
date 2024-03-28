@@ -1,0 +1,13 @@
+{
+  "name": "Epsom college",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.epsomcollege.org.uk/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.epsomcollege.org.uk/cookies/",
+      "select": "body"
+    }
+  }
+}

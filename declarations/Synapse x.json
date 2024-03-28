@@ -1,0 +1,9 @@
+{
+  "name": "Synapse x",
+  "documents": {
+    "Other": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vRaYQ4Aru274AFrJ2uXm0AraqEXt_8jGzcrm7_58g7gn6b1DWi3QKHRABYDtR6aFFZbDb6-K1szb1Mc/pub",
+      "select": "body"
+    }
+  }
+}

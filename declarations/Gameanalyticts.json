@@ -1,0 +1,17 @@
+{
+  "name": "Gameanalyticts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gameanalytics.com/privacy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://gameanalytics.com/cookie-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://gameanalytics.com/terms/",
+      "select": null
+    }
+  }
+}

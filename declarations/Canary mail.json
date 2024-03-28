@@ -1,0 +1,13 @@
+{
+  "name": "Canary mail",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://canarymail.io/terms.html",
+      "select": "html > body > section:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://canarymail.io/privacy.html",
+      "select": "html > body > section:first-of-type > div"
+    }
+  }
+}

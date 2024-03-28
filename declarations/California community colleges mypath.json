@@ -1,0 +1,9 @@
+{
+  "name": "California community colleges mypath",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cccmypath.org/uPortal/p/terms-use.ctf1/max/render.uP",
+      "select": "body"
+    }
+  }
+}

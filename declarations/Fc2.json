@@ -1,0 +1,17 @@
+{
+  "name": "Fc2",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.fc2.com/common/tos/en/",
+      "select": "html > body > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://help.fc2.com/copyrights/tos/en",
+      "select": "html > body > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://fc2.com/en/privacy.html",
+      "select": null
+    }
+  }
+}

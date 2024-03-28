@@ -1,0 +1,13 @@
+{
+  "name": "Tadata",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tadata-france.fr/docs/Tadata-Politique_de_Protection_des_Donnees",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tadata-france.fr/docs/TADATA-conditions-generales-d-utilisation",
+      "select": "body"
+    }
+  }
+}

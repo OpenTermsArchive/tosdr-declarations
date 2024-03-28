@@ -1,0 +1,17 @@
+{
+  "name": "Pickerwheelcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pickerwheel.com/privacy-policy/",
+      "select": " > div > div > div:nth-of-type(3) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://pickerwheel.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://pickerwheel.com/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Venmo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://venmo.com/legal/us-user-agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://venmo.com/legal/us-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

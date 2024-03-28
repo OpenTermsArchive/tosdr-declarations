@@ -1,0 +1,13 @@
+{
+  "name": "Ocean cleanup group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ocg.org/privacy",
+      "select": "html > body > div:first-of-type > div > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://ocg.org/terms-of-service",
+      "select": "html > body > div:first-of-type > div > div > section"
+    }
+  }
+}

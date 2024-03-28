@@ -1,0 +1,13 @@
+{
+  "name": "Charitynavigatororg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.charitynavigator.org/about-us/financials-and-policies/terms-of-use/?bay=content.view&cpid=37",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.charitynavigator.org/about-us/financials-and-policies/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

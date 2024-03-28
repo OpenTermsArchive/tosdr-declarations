@@ -1,0 +1,9 @@
+{
+  "name": "Overpeorcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://overpeor.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

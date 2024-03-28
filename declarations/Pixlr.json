@@ -1,0 +1,17 @@
+{
+  "name": "Pixlr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pixlr.com/privacy-policy/",
+      "select": "html > body > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://pixlr.com/terms-of-use/",
+      "select": "html > body > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://pixlr.com/cookie-policy/",
+      "select": "html > body > section"
+    }
+  }
+}

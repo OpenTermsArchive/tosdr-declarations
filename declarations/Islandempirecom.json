@@ -1,0 +1,9 @@
+{
+  "name": "Islandempirecom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.island-empire.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

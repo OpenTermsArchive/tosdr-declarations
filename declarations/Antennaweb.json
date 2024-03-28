@@ -1,0 +1,13 @@
+{
+  "name": "Antennaweb",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.antennaweb.org/policies/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.antennaweb.org/policies/terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

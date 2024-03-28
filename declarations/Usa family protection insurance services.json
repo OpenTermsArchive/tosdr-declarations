@@ -1,0 +1,13 @@
+{
+  "name": "Usa family protection insurance services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://image.email.usafamilyprotection.com/lib/fe3011717164057d701279/m/1/c78c1753-e344-4caf-b61e-c3bffa38d2f5.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://usafamilyprotection.com/terms",
+      "select": "body"
+    }
+  }
+}

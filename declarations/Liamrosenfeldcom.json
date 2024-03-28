@@ -1,0 +1,9 @@
+{
+  "name": "Liamrosenfeldcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.liamrosenfeld.com/privacy.html",
+      "select": "p.policy"
+    }
+  }
+}

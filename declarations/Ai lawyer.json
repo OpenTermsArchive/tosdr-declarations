@@ -1,0 +1,13 @@
+{
+  "name": "Ai lawyer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ailawyer.pro/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ailawyer.pro/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Linuxbuz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://linuxbuz.com/terms-and-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://linuxbuz.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div > main > article > div"
+    }
+  }
+}

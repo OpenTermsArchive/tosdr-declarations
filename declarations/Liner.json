@@ -1,0 +1,9 @@
+{
+  "name": "Liner",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.notion.so/liner21/LINER-Terms-and-Privacy-9e2e5246ec9d4aba96f8ee5d26324f1f",
+      "select": "body"
+    }
+  }
+}

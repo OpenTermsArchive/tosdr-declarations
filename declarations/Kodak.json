@@ -1,0 +1,13 @@
+{
+  "name": "Kodak",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kodak.com/en/company/page/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kodak.com/en/company/page/site-terms",
+      "select": "body"
+    }
+  }
+}

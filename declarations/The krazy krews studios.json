@@ -1,0 +1,9 @@
+{
+  "name": "The krazy krews studios",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://tkksofficial.com/privacypolicy.txt",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Browserleaks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://browserleaks.com/",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > p:nth-of-type(4)"
+    }
+  }
+}

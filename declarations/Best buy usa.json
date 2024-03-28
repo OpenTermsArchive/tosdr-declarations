@@ -1,0 +1,13 @@
+{
+  "name": "Best buy usa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bestbuy.com/site/help-topics/privacy-policy/pcmcat204400050062.c",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bestbuy.com/site/help-topics/terms-and-conditions/pcmcat204400050067.c",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Vh hess",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vhhess.com/policies/terms-of-service",
+      "select": "html > body > main > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vhhess.com/policies/privacy-policy",
+      "select": "html > body > main > div > div"
+    }
+  }
+}

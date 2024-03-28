@@ -1,0 +1,13 @@
+{
+  "name": "Rac of western australia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rac.com.au/about-rac/site-info/security",
+      "select": "html > body > main > div:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://rac.com.au/about-rac/site-info/disclaimer",
+      "select": "html > body > main > div:nth-of-type(2)"
+    }
+  }
+}

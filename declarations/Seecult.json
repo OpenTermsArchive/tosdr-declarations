@@ -1,0 +1,9 @@
+{
+  "name": "Seecult",
+  "documents": {
+    "Other": {
+      "fetch": "http://seecult.org/o-udruzenju-gradana-seecultorg",
+      "select": " > div"
+    }
+  }
+}

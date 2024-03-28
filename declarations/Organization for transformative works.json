@@ -1,0 +1,9 @@
+{
+  "name": "Organization for transformative works",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.transformativeworks.org/otw_tos/",
+      "select": "body"
+    }
+  }
+}

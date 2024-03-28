@@ -1,0 +1,9 @@
+{
+  "name": "Garmin connect",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.garmin.com/en-US/privacy/connect/",
+      "select": "body"
+    }
+  }
+}

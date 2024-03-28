@@ -1,0 +1,9 @@
+{
+  "name": "Us department of state",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.state.gov/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > article > div:nth-of-type(2)"
+    }
+  }
+}

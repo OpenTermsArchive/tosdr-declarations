@@ -1,0 +1,13 @@
+{
+  "name": "Valley medical center",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.valleymed.org/privacy-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.valleymed.org/legal-notice",
+      "select": "body"
+    }
+  }
+}

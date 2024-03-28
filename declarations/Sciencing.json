@@ -1,0 +1,17 @@
+{
+  "name": "Sciencing",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sciencing.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sciencing.com/privacy-policy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://sciencing.com/copyright-policy",
+      "select": "body"
+    }
+  }
+}

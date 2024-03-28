@@ -1,0 +1,9 @@
+{
+  "name": "Findex",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://findex.rf.gd/privacy/",
+      "select": "body"
+    }
+  }
+}

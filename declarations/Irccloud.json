@@ -1,0 +1,17 @@
+{
+  "name": "Irccloud",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.irccloud.com/terms",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.irccloud.com/abuse",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.irccloud.com/privacy",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Mindpass",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mindpass.io/Mindpass%20Privacy%20Policy%200.0.0.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mindpass.io/Mindpass%20Terms%20of%20Service%200.0.0.pdf",
+      "select": "body"
+    }
+  }
+}

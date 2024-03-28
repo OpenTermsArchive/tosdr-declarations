@@ -1,0 +1,13 @@
+{
+  "name": "Bayer corporation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bayer.com/en/privacy-statement",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bayer.com/en/conditions-of-use",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type"
+    }
+  }
+}

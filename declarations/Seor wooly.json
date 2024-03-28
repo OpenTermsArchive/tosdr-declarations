@@ -1,0 +1,13 @@
+{
+  "name": "Seor wooly",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.senorwooly.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.senorwooly.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Alviy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://alviy.com/en/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://alviy.com/en/legal",
+      "select": "body"
+    }
+  }
+}

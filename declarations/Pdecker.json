@@ -1,0 +1,9 @@
+{
+  "name": "Pdecker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.termsfeed.com/privacy-policy/b6dd06973ebc94fd9e42c8db88957cb9",
+      "select": "body"
+    }
+  }
+}

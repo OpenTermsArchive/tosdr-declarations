@@ -1,0 +1,9 @@
+{
+  "name": "Cataz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cataz.net/terms",
+      "select": "body"
+    }
+  }
+}

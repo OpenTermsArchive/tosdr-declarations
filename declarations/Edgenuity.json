@@ -1,0 +1,9 @@
+{
+  "name": "Edgenuity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.edgenuity.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

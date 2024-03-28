@@ -1,0 +1,17 @@
+{
+  "name": "Accuweather",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.accuweather.com/en/privacy",
+      "select": "html > body > div > div:nth-of-type(4) > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.accuweather.com/en/cookiepolicy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.accuweather.com/en/legal",
+      "select": "html > body > div > div:nth-of-type(4)"
+    }
+  }
+}

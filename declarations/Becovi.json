@@ -1,0 +1,13 @@
+{
+  "name": "Becovi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.becovi.com/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.becovi.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

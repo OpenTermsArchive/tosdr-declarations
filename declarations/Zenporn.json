@@ -1,0 +1,17 @@
+{
+  "name": "Zenporn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://zenporn.com/static/terms-of-service/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://zenporn.com/static/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://zenporn.com/static/dmca/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

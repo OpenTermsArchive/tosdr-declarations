@@ -1,0 +1,13 @@
+{
+  "name": "Kolab now",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kolabnow.com/content/page/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kolabnow.com/privacy",
+      "select": "body"
+    }
+  }
+}

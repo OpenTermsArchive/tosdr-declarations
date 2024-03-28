@@ -1,0 +1,13 @@
+{
+  "name": "21st mortgage corporation",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.21stmortgage.com/web/21stSite.nsf/terms-conditions.html",
+      "select": "html > body > form > section:nth-of-type(2) > div > div > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.21stmortgage.com/web/21stSite.nsf/files/privacy_notice.pdf",
+      "select": "body"
+    }
+  }
+}

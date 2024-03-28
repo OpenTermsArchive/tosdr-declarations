@@ -1,0 +1,17 @@
+{
+  "name": "Studiosity",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://studiosity.com/connect/policy_agreements/4/privacy",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://studiosity.com/connect/policy_agreements/4/acceptable_use",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://studiosity.com/connect/policy_agreements/4/terms_of_use",
+      "select": "body"
+    }
+  }
+}

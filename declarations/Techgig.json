@@ -1,0 +1,13 @@
+{
+  "name": "Techgig",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.techgig.com/user/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.techgig.com/user/privacy",
+      "select": null
+    }
+  }
+}

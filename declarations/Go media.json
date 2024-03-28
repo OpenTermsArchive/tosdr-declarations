@@ -1,0 +1,13 @@
+{
+  "name": "Go media",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://g-omedia.com/terms-of-service/",
+      "select": " > div > div > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://g-omedia.com/privacy-policy/",
+      "select": "html > body > div > div > div > div > main > article > div > div > section:nth-of-type(2) > div > div > div"
+    }
+  }
+}

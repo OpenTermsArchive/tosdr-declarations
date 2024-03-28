@@ -1,0 +1,13 @@
+{
+  "name": "Ionos",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ionos.com/terms-gtc/general-terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ionos.com/terms-gtc/terms-privacy/",
+      "select": "body"
+    }
+  }
+}

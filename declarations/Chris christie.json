@@ -1,0 +1,13 @@
+{
+  "name": "Chris christie",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://chrischristie.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://chrischristie.com/terms",
+      "select": "body"
+    }
+  }
+}

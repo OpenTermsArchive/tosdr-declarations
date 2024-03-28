@@ -1,0 +1,13 @@
+{
+  "name": "Hebrew pod 101",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hebrewpod101.com/#terms_of_use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hebrewpod101.com/#privacy_policy",
+      "select": "body"
+    }
+  }
+}

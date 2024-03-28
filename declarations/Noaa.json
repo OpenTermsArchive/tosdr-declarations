@@ -1,0 +1,9 @@
+{
+  "name": "Noaa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.noaa.gov/protecting-your-privacy",
+      "select": "body"
+    }
+  }
+}

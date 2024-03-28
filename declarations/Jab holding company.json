@@ -1,0 +1,9 @@
+{
+  "name": "Jab holding company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jabholco.com/legal-privacy-policy",
+      "select": "body"
+    }
+  }
+}

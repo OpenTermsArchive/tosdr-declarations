@@ -1,0 +1,9 @@
+{
+  "name": "Reverse mortage advisors of america",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://reverseloanadvice.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Serovital",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.serovital.com/pages/returns-information",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.serovital.com/pages/privacy-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.serovital.com/pages/mobile-terms",
+      "select": "body"
+    }
+  }
+}

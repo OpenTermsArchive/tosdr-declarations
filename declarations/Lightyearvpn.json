@@ -1,0 +1,17 @@
+{
+  "name": "Lightyearvpn",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://app.termly.io/document/disclaimer/af09bec8-e643-4697-a33d-916fd93f9d53",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://app.termly.io/document/return-policy/c6217c81-7972-4fa2-8d4d-226469e76a3e",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://app.termly.io/document/terms-of-use-for-website/6d5d3982-3978-4650-a945-1e74138154db",
+      "select": "body"
+    }
+  }
+}

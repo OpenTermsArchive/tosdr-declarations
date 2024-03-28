@@ -1,0 +1,13 @@
+{
+  "name": "Share text online",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sharetext.me/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://sharetext.me/pages/terms",
+      "select": "body"
+    }
+  }
+}

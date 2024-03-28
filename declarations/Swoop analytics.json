@@ -1,0 +1,13 @@
+{
+  "name": "Swoop analytics",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.swoopanalytics.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.swoopanalytics.com/privacy",
+      "select": "body"
+    }
+  }
+}

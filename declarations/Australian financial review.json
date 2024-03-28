@@ -1,0 +1,13 @@
+{
+  "name": "Australian financial review",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.afr.com/subscription-terms-and-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.afr.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

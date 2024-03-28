@@ -1,0 +1,13 @@
+{
+  "name": "Best company",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bestcompany.com/terms-conditions",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bestcompany.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Crunchyroll",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://intl.sonypictures.com/en/privacy-policy",
+      "select": " > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.crunchyroll.com/tos",
+      "select": " > div:nth-of-type(3)"
+    }
+  }
+}

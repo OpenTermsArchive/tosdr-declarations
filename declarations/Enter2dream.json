@@ -1,0 +1,13 @@
+{
+  "name": "Enter2dream",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://enter2dream.com/terms-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://enter2dream.com/privacy",
+      "select": "body"
+    }
+  }
+}

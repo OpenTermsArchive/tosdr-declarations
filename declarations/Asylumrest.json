@@ -1,0 +1,13 @@
+{
+  "name": "Asylumrest",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pics.asylum.rest/privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://git.asylum.rest/",
+      "select": "body"
+    }
+  }
+}

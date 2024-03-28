@@ -1,0 +1,17 @@
+{
+  "name": "Designmodo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://designmodo.com/privacy-statement/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://designmodo.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://designmodo.com/cookies-policy/",
+      "select": "body"
+    }
+  }
+}

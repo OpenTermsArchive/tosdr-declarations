@@ -1,0 +1,17 @@
+{
+  "name": "Ytmp3cc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ytmp3.cc/terms-of-use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://ytmp3.cc/privacy-policy/",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://ytmp3.cc/copyright-claims/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Capture",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.capture.com/pages/shipping-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.capture.com/pages/terms-of-service ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.capture.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

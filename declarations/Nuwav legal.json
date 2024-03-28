@@ -1,0 +1,9 @@
+{
+  "name": "Nuwav legal",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://nuwavlegaldocuments.com/tos/",
+      "select": "body"
+    }
+  }
+}

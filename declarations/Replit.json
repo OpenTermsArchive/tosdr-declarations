@@ -1,0 +1,13 @@
+{
+  "name": "Replit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://repl.it/site/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://replit.com/site/dpa",
+      "select": "body"
+    }
+  }
+}

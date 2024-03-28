@@ -1,0 +1,17 @@
+{
+  "name": "Powerfit elite",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.powerfitelite.com/COOKIE-POLICY",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > section > div > div > div > div > div:nth-of-type(2) > div > div > div > div > p:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.powerfitelite.com/PRIVACY-POLICY",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > section:first-of-type > div > div > div > div > div:nth-of-type(3) > div > div > div > div > p:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.powerfitelite.com/TERMS-AND-CONDITIONS",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > section:first-of-type > div > div > div > div > div:nth-of-type(3) > div > div > div > div"
+    }
+  }
+}

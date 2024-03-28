@@ -1,0 +1,13 @@
+{
+  "name": "Sling",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://getsling.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://getsling.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

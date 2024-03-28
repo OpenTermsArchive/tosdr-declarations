@@ -1,0 +1,13 @@
+{
+  "name": "Time",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://time.com/privacy/privacy_terms_service.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://time.com/privacy/generic_privacy_new.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Committee to defeat the president",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.stopjoe.com/privacy",
+      "select": "body"
+    }
+  }
+}

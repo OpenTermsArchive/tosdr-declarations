@@ -1,0 +1,13 @@
+{
+  "name": "Dreamwidth",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.dreamwidth.org/legal/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dreamwidth.org/legal/privacy",
+      "select": "body"
+    }
+  }
+}

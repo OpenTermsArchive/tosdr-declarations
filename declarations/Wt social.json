@@ -1,0 +1,25 @@
+{
+  "name": "Wt social",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wt.social/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wt.social/terms-and-conditions",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://wt.social/data-transparency",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://wt.social/conduct",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://wt.social/cookie-policy",
+      "select": "body"
+    }
+  }
+}

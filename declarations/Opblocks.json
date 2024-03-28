@@ -1,0 +1,13 @@
+{
+  "name": "Opblocks",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://opblocks.com/help/cookies/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://opblocks.com/help/terms/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div > div > div:nth-of-type(2)"
+    }
+  }
+}

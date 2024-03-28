@@ -1,0 +1,13 @@
+{
+  "name": "Browsing safety",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://terms.thesafersearch.com/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://terms.thesafersearch.com/privacy",
+      "select": "body"
+    }
+  }
+}

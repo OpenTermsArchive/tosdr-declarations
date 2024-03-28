@@ -1,0 +1,13 @@
+{
+  "name": "Scaleway",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.scaleway.com/en/terms/cookies/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.scaleway.com/en/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

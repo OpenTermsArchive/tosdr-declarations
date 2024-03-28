@@ -1,0 +1,13 @@
+{
+  "name": "Eastside home medical supply",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.eastsidehomemedicalsupply.com/privacypolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.eastsidehomemedicalsupply.com/termsandconditions",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Betfair",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.betfair.com/en/aboutUs/Privacy.Policy/#",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.betfair.com/aboutUs/Cookie.Policy/#",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.betfair.com/en/aboutUs/Terms.and.Conditions/#",
+      "select": "body"
+    }
+  }
+}

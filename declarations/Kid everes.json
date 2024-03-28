@@ -1,0 +1,13 @@
+{
+  "name": "Kid everes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kideverest.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://kideverest.com/terms-and-conditions/",
+      "select": null
+    }
+  }
+}

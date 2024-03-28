@@ -1,0 +1,13 @@
+{
+  "name": "Create a forum",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.createaforum.com/terms.php",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.createaforum.com/privacy-policy.php",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

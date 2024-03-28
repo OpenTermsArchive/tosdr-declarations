@@ -1,0 +1,9 @@
+{
+  "name": "Ubee interactive corporation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.ubeeinteractive.com/?page_id=21183",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > section > div > div > div > div > div > div"
+    }
+  }
+}

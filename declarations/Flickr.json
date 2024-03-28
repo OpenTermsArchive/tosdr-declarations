@@ -1,0 +1,21 @@
+{
+  "name": "Flickr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.flickr.com/help/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4)"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.flickr.com/help/guidelines",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.flickr.com/help/terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.flickr.com/help/cookies",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(4)"
+    }
+  }
+}

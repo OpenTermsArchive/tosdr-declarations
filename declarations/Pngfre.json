@@ -1,0 +1,9 @@
+{
+  "name": "Pngfre",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pngfre.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

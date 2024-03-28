@@ -1,0 +1,17 @@
+{
+  "name": "Amateurtv",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://en.amateur.tv/web/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://en.amateur.tv/web/conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://en.amateur.tv/web/privacy-summary",
+      "select": "body"
+    }
+  }
+}

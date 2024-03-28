@@ -1,0 +1,9 @@
+{
+  "name": "Children  teen dental of florida",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://childrenandteendentalfl.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

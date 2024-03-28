@@ -1,0 +1,9 @@
+{
+  "name": "Onsip",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.onsip.com/terms",
+      "select": "body"
+    }
+  }
+}

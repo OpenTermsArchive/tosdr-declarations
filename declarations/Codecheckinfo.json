@@ -1,0 +1,13 @@
+{
+  "name": "Codecheckinfo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.codecheck.info/ueber-uns/nutzungsbedingungen",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(5)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.codecheck.info/ueber-uns/datenschutz",
+      "select": "body"
+    }
+  }
+}

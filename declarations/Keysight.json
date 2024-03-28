@@ -1,0 +1,13 @@
+{
+  "name": "Keysight",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.keysight.com/us/en/contact/privacy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.keysight.com/us/en/contact/terms-of-use.html",
+      "select": null
+    }
+  }
+}

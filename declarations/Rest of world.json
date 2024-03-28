@@ -1,0 +1,9 @@
+{
+  "name": "Rest of world",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://restofworld.org/about/privacy-policy/",
+      "select": null
+    }
+  }
+}

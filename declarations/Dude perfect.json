@@ -1,0 +1,17 @@
+{
+  "name": "Dude perfect",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dudeperfect.store/10260635/policies/6690820.html",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://dudeperfect.store/pages/free-returns",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://dudeperfect.store/policies/terms-of-service",
+      "select": "html > body > main > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

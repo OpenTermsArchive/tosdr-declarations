@@ -1,0 +1,9 @@
+{
+  "name": "Iziram",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://iziram.fr/Mentions-Legales.html",
+      "select": null
+    }
+  }
+}

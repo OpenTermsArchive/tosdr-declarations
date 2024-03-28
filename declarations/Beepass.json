@@ -1,0 +1,13 @@
+{
+  "name": "Beepass",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://beepassvpn.com/en/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://beepassvpn.com/en/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

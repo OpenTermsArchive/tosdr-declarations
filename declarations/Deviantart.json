@@ -1,0 +1,21 @@
+{
+  "name": "Deviantart",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "http://about.deviantart.com/policy/etiquette/",
+      "select": "div#policy-etiquette"
+    },
+    "Terms of Service": {
+      "fetch": "http://about.deviantart.com/policy/service/",
+      "select": "div#policy-service"
+    },
+    "Privacy Policy": {
+      "fetch": "http://about.deviantart.com/policy/privacy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "http://about.deviantart.com/policy/copyright/",
+      "select": "div#policy-copyright"
+    }
+  }
+}

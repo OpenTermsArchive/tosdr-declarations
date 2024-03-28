@@ -1,0 +1,17 @@
+{
+  "name": "Simply conserve",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://simplyconserve.com/shipping-returns/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://simplyconserve.com/website-privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://simplyconserve.amconservationgroup.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

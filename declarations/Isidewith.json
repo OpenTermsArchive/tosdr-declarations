@@ -1,0 +1,13 @@
+{
+  "name": "Isidewith",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.isidewith.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.isidewith.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

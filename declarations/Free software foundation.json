@@ -1,0 +1,13 @@
+{
+  "name": "Free software foundation",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.fsf.org/about/dmca-notice",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fsf.org/about/free-software-foundation-privacy-policy",
+      "select": null
+    }
+  }
+}

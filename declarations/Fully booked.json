@@ -1,0 +1,9 @@
+{
+  "name": "Fully booked",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.fullybookedonline.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > main > div > div"
+    }
+  }
+}

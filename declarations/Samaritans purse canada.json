@@ -1,0 +1,13 @@
+{
+  "name": "Samaritans purse canada",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.samaritanspurse.ca/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.samaritanspurse.ca/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

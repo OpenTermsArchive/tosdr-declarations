@@ -1,0 +1,13 @@
+{
+  "name": "Neopets",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.neopets.com/privacy.phtml",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.neopets.com/terms.phtml",
+      "select": "body"
+    }
+  }
+}

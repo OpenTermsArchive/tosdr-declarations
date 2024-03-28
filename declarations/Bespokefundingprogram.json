@@ -1,0 +1,13 @@
+{
+  "name": "Bespokefundingprogram",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dashboard.bespokefundingprogram.com/agreements/13",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bespokefundingprogram.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

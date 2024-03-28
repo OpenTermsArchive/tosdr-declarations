@@ -1,0 +1,13 @@
+{
+  "name": "Openshot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.openshot.org/privacy/",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.openshot.org/terms/",
+      "select": "body"
+    }
+  }
+}

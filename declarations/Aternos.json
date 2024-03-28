@@ -1,0 +1,13 @@
+{
+  "name": "Aternos",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aternos.gmbh/en/aternos/privacy",
+      "select": "html > body > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://aternos.gmbh/en/aternos/terms",
+      "select": "body"
+    }
+  }
+}

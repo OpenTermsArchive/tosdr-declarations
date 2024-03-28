@@ -1,0 +1,9 @@
+{
+  "name": "Yumiest",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yumiest.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

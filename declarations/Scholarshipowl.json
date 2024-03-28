@@ -1,0 +1,13 @@
+{
+  "name": "Scholarshipowl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://scholarshipowl.com/privacy",
+      "select": " > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://scholarshipowl.com/terms",
+      "select": " > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

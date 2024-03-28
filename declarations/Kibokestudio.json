@@ -1,0 +1,9 @@
+{
+  "name": "Kibokestudio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kiboke-studio.hr/browser-extensions/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Broadcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.broadcom.com/company/legal/licensing",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div > div:first-of-type > div > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.broadcom.com/company/legal/privacy/policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.broadcom.com/company/legal/privacy/cookie-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

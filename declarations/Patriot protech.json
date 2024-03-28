@@ -1,0 +1,13 @@
+{
+  "name": "Patriot protech",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://patriotpro.tech/tos.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://patriotpro.tech/privacy.html",
+      "select": "body"
+    }
+  }
+}

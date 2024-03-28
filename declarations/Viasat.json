@@ -1,0 +1,13 @@
+{
+  "name": "Viasat",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.viasat.com/content/dam/us-site/legal/documents/viasat-mobile-app-privacy-notice.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.viasat.com/content/dam/us-site/legal/documents/FINAL%20-%20Viasat%20InFlight%20WiFi%20Privacy%20Policy%20GLOBAL%20-%20v06-30-20.pdf",
+      "select": "body"
+    }
+  }
+}

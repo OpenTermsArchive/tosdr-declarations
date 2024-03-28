@@ -1,0 +1,9 @@
+{
+  "name": "Html dog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://htmldog.com/terms/",
+      "select": "body"
+    }
+  }
+}

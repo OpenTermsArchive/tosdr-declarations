@@ -1,0 +1,13 @@
+{
+  "name": "Readtheory",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://readtheory.org/terms-and-conditions/",
+      "select": "html > body > main > div > div > article > div:first-of-type > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://readtheory.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

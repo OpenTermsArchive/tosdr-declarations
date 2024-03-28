@@ -1,0 +1,13 @@
+{
+  "name": "Rationalwiki",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://rationalwiki.org/wiki/RationalWiki:General_disclaimer",
+      "select": "div#mw-content-text"
+    },
+    "Privacy Policy": {
+      "fetch": "https://rationalwiki.org/wiki/RationalWiki:Privacy_policy",
+      "select": "div#mw-content-text"
+    }
+  }
+}

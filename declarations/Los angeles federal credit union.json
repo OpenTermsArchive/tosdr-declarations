@@ -1,0 +1,9 @@
+{
+  "name": "Los angeles federal credit union",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lafcu.org/privacypolicies/privacy-policy",
+      "select": null
+    }
+  }
+}

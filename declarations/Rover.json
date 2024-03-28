@@ -1,0 +1,17 @@
+{
+  "name": "Rover",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rover.com/terms/tos/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rover.com/terms/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.rover.com/terms/cookies/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Iptracker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ip-tracker.org/privacy-policy.php",
+      "select": "body"
+    }
+  }
+}

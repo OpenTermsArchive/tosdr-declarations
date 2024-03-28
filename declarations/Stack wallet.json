@@ -1,0 +1,13 @@
+{
+  "name": "Stack wallet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://stackwallet.com/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://stackwallet.com/terms-of-service.html",
+      "select": "body"
+    }
+  }
+}

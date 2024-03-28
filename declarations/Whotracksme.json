@@ -1,0 +1,9 @@
+{
+  "name": "Whotracksme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://whotracks.me/privacy-policy.html",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

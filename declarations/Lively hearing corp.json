@@ -1,0 +1,13 @@
+{
+  "name": "Lively hearing corp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.listenlively.com/?bk=1#privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.listenlively.com/?bk=1#terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

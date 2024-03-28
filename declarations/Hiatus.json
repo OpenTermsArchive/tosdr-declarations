@@ -1,0 +1,13 @@
+{
+  "name": "Hiatus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hiatus.delivery/pages/terms-of-use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hiatus.delivery/pages/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

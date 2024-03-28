@@ -1,0 +1,13 @@
+{
+  "name": "Gather town",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gather.town/docs/terms-of-service.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gather.town/data-processing-agreement",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

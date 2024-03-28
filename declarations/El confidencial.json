@@ -1,0 +1,13 @@
+{
+  "name": "El confidencial",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.elconfidencial.com/politicas-de-privacidad/privacidad/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.elconfidencial.com/politicas-de-privacidad/condiciones/",
+      "select": "body"
+    }
+  }
+}

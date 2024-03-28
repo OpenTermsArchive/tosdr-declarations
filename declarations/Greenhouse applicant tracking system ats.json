@@ -1,0 +1,25 @@
+{
+  "name": "Greenhouse applicant tracking system ats",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.greenhouse.com/data-processing-addendum",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.greenhouse.com/cookie-notice",
+      "select": null
+    },
+    "Other": {
+      "fetch": "https://www.greenhouse.com/professional-services-addendum",
+      "select": null
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://www.greenhouse.com/subprocessors-in-use",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.greenhouse.com/service-level-agreement",
+      "select": null
+    }
+  }
+}

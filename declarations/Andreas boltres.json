@@ -1,0 +1,9 @@
+{
+  "name": "Andreas boltres",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flunzmas.com/seasoncalendar-privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "The register",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.theregister.com/Profile/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.theregister.com/Profile/terms_and_conditions_of_use/",
+      "select": "html > body > div:first-of-type > article"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.theregister.com/Profile/cookies/",
+      "select": "body"
+    }
+  }
+}

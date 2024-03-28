@@ -1,0 +1,21 @@
+{
+  "name": "Helena express",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://helena.express/privacy",
+      "select": "body section#main div.inner"
+    },
+    "Terms of Service": {
+      "fetch": "https://helena.express/das/terms",
+      "select": "body section#main div.inner"
+    },
+    "Other": {
+      "fetch": "https://helena.express/app",
+      "select": "body section#main div.inner"
+    },
+    "Spam": {
+      "fetch": "https://helena.express/articles/can-i-buy-with-bitcoin",
+      "select": "section#main div.inner"
+    }
+  }
+}

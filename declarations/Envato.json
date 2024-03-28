@@ -1,0 +1,17 @@
+{
+  "name": "Envato",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://envato.com/privacy/",
+      "select": " > div > div:nth-of-type(2) > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://envato.com/cookies/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://author.envato.com/hub/update-to-elements-author-agreement-and-market-author-terms/",
+      "select": "html > body > div > div > article"
+    }
+  }
+}

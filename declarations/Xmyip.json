@@ -1,0 +1,13 @@
+{
+  "name": "Xmyip",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.xmyip.com/terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.xmyip.com/privacy-policy",
+      "select": null
+    }
+  }
+}

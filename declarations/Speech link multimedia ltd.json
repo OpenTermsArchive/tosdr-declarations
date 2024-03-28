@@ -1,0 +1,13 @@
+{
+  "name": "Speech link multimedia ltd",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://speechandlanguage.info/resources/perch/pdf/infositeprivacynoticev1-9-07112023-1.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://speechandlanguage.info/resources/perch/pdf/infowebsitetermsofusev1-1270618.pdf",
+      "select": "body"
+    }
+  }
+}

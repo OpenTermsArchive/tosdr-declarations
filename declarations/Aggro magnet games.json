@@ -1,0 +1,9 @@
+{
+  "name": "Aggro magnet games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aggromagnetgames.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

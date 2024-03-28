@@ -1,0 +1,9 @@
+{
+  "name": "Elidon website",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://elidon.net/privacy",
+      "select": "body"
+    }
+  }
+}

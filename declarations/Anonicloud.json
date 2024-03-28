@@ -1,0 +1,9 @@
+{
+  "name": "Anonicloud",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.anonicloud.ch/it/privacy",
+      "select": "body"
+    }
+  }
+}

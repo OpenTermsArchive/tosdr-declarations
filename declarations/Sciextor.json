@@ -1,0 +1,9 @@
+{
+  "name": "Sciextor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sciextor.space/policy",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div > div:first-of-type > div > div > div > div > div > div"
+    }
+  }
+}

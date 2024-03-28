@@ -1,0 +1,9 @@
+{
+  "name": "Codename stormolow",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://codename-stormolow.zanoski.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

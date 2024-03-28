@@ -1,0 +1,17 @@
+{
+  "name": "Deliveroo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://deliveroo.nl/en/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://deliveroo.nl/en/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://deliveroo.nl/en/legal",
+      "select": "body"
+    }
+  }
+}

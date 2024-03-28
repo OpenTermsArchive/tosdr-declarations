@@ -1,0 +1,17 @@
+{
+  "name": "Hoyoverse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://genshin.hoyoverse.com/launcher/10/en-us/agreementPrivacy?api_url=https%3A%2F%2Fhk4e-launcher.hoyoverse.com%2Fhk4e_global&key=gcStgarh&prev=false",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://genshin.hoyoverse.com/launcher/10/en-us/agreement?api_url=https%3A%2F%2Fhk4e-launcher.hoyoverse.com%2Fhk4e_global&key=gcStgarh&prev=false",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.hoyoverse.com/en-us/legal/cookies",
+      "select": "body"
+    }
+  }
+}

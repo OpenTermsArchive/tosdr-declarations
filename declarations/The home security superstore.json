@@ -1,0 +1,13 @@
+{
+  "name": "The home security superstore",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thehomesecuritysuperstore.com/pages/company-policies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thehomesecuritysuperstore.com/pages/policy",
+      "select": "body"
+    }
+  }
+}

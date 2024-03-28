@@ -1,0 +1,9 @@
+{
+  "name": "Dr danmarks radio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dr.dk/service/drs-persondatapolitik",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "60up",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://60up.com/pages/privacy",
+      "select": "html > body > div:nth-of-type(6) > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://60up.com/pages/terms-of-service",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Леонардо, интернет-магазин товаров для рукоделия и творчества",
+  "documents": {
+    "Spam": {
+      "fetch": "https://leonardohobby.ru/offer/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://leonardohobby.ru/offer/",
+      "select": "html > body > div:nth-of-type(6)"
+    }
+  }
+}

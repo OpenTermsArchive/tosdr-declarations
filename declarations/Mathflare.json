@@ -1,0 +1,9 @@
+{
+  "name": "Mathflare",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mathflare.xyz/tos",
+      "select": "body"
+    }
+  }
+}

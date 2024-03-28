@@ -1,0 +1,13 @@
+{
+  "name": "World wildlife fund",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.worldwildlife.org/pages/site-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.worldwildlife.org/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

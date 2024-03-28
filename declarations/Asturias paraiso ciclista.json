@@ -1,0 +1,17 @@
+{
+  "name": "Asturias paraiso ciclista",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://asturiasparaisociclista.com/privacidad/politica-de-cookies/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://asturiasparaisociclista.com/privacidad/aviso-legal/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://asturiasparaisociclista.com/privacidad/politica-de-privacidad/",
+      "select": "body"
+    }
+  }
+}

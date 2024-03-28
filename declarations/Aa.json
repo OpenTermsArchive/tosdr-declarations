@@ -1,0 +1,13 @@
+{
+  "name": "Aa",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.theaa.com/privacy-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.theaa.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

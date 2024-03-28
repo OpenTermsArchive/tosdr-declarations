@@ -1,0 +1,9 @@
+{
+  "name": "Thumbtackshopcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://ww25.thumbtackshop.com/privacy",
+      "select": "body"
+    }
+  }
+}

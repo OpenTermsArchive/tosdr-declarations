@@ -1,0 +1,9 @@
+{
+  "name": "Besedo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://besedo.com/company/about/privacy-cookies-legal/",
+      "select": "body"
+    }
+  }
+}

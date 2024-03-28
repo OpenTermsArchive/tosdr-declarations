@@ -1,0 +1,21 @@
+{
+  "name": "Streamelements",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://streamelements.com/cookies",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://streamelements.com/copyright",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://streamelements.com/privacy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://streamelements.com/terms",
+      "select": "body"
+    }
+  }
+}

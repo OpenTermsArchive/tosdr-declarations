@@ -1,0 +1,13 @@
+{
+  "name": "Viz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.viz.com/privacy",
+      "select": "html > body > section:first-of-type > div > section > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.viz.com/terms",
+      "select": "body"
+    }
+  }
+}

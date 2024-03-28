@@ -1,0 +1,13 @@
+{
+  "name": "Lidl",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.lidl.co.uk/c/customer-cookie-notice/s10022939",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.lidl.co.uk/c/customer-privacy-notice/s10022952",
+      "select": "body"
+    }
+  }
+}

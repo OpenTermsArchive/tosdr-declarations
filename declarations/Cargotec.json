@@ -1,0 +1,9 @@
+{
+  "name": "Cargotec",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.cargotec.com/en/legal-notice",
+      "select": "html > body > div:nth-of-type(2) > article"
+    }
+  }
+}

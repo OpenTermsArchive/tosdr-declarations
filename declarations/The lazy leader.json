@@ -1,0 +1,13 @@
+{
+  "name": "The lazy leader",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thelazyleader.co/privacy-policy/",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://thelazyleader.co/terms-of-service/",
+      "select": "html > body > main"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Covered california",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.coveredca.com/privacy/terms/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.coveredca.com/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

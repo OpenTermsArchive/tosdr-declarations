@@ -1,0 +1,13 @@
+{
+  "name": "The mugen archive",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mugenarchive.com/eu-cookie/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mugenarchive.com/forums/announcement.php?a=1",
+      "select": "body"
+    }
+  }
+}

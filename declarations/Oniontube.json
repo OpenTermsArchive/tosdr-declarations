@@ -1,0 +1,9 @@
+{
+  "name": "Oniontube",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://onion.tube/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Colonial penn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://colonialpenn.com/website-privacy-notice",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://colonialpenn.com/insurance-privacy-notice ",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://colonialpenn.com/privacy-bclic ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://colonialpenn.com/",
+      "select": "html > body > footer > div:nth-of-type(8) > div > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

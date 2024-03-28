@@ -1,0 +1,9 @@
+{
+  "name": "Tampermonkey",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tampermonkey.net/privacy.php",
+      "select": "body"
+    }
+  }
+}

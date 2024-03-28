@@ -1,0 +1,17 @@
+{
+  "name": "Tds",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hellotds.com/terms-of-service.html",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://hellotds.com/acceptable-use-policy.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hellotds.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

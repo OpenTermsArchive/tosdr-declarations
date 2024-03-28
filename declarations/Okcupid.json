@@ -1,0 +1,9 @@
+{
+  "name": "Okcupid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.okcupid.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

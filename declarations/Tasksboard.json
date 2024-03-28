@@ -1,0 +1,13 @@
+{
+  "name": "Tasksboard",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vRmU4OVlapXiYqsM3O9zy9v0JaVYEuYtbK3aq70c6ey5ere8xv5rNQzp-iHc3LNdjJeKR1JnzTQS8AB/pub",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vSNwp_4o2nWhNKdQHEc7tfp-py6FstV1MTt8msDomdwPOsaEXfoJZkZsUcfdkzrqrbOqNfRs1mnLbZK/pub",
+      "select": "body"
+    }
+  }
+}

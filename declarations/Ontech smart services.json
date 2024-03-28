@@ -1,0 +1,13 @@
+{
+  "name": "Ontech smart services",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ontechsmartservices.com/pages/terms-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ontechsmartservices.com/pages/privacy",
+      "select": "body"
+    }
+  }
+}

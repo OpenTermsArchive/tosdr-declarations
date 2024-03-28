@@ -1,0 +1,17 @@
+{
+  "name": "Nitrome",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nitrome.com/privacy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.nitrome.com/dmca/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nitrome.com/eula/",
+      "select": "body"
+    }
+  }
+}

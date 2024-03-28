@@ -1,0 +1,9 @@
+{
+  "name": "Rawbitninja",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vids.rawbit.ninja/privacy",
+      "select": "body"
+    }
+  }
+}

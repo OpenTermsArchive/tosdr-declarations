@@ -1,0 +1,13 @@
+{
+  "name": "Arlo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.arlo.com/en-us/terms-and-conditions.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.arlo.com/en-us/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

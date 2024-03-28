@@ -1,0 +1,13 @@
+{
+  "name": "Projectssoftware",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.projects-software.com/data-protection",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.projects-software.com/general-terms-and-conditions",
+      "select": null
+    }
+  }
+}

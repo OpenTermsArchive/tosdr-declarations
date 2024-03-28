@@ -1,0 +1,13 @@
+{
+  "name": "Oportun",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://digit.co/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://digit.co/privacy",
+      "select": "body"
+    }
+  }
+}

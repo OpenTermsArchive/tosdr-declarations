@@ -1,0 +1,13 @@
+{
+  "name": "First injury help",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.firstinjuryhelp.com/includes/privacy-policy.php ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.firstinjuryhelp.com/includes/terms-and-conditions.php",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Keep and bear arms",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://keepandbeararms.com/about/privacy_policy.asp",
+      "select": "body"
+    }
+  }
+}

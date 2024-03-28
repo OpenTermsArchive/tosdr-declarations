@@ -1,0 +1,13 @@
+{
+  "name": "Consensus cloud solutions",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.consensus.com/terms-of-service/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.consensus.com/privacy-policy",
+      "select": null
+    }
+  }
+}

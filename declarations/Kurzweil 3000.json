@@ -1,0 +1,13 @@
+{
+  "name": "Kurzweil 3000",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kurzweil3000.com/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kurzweil3000.com/terms.php",
+      "select": "body"
+    }
+  }
+}

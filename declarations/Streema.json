@@ -1,0 +1,17 @@
+{
+  "name": "Streema",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://streema.com/about/copyright/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://streema.com/about/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://streema.com/about/terms/",
+      "select": "body"
+    }
+  }
+}

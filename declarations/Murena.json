@@ -1,0 +1,17 @@
+{
+  "name": "Murena",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://murena.com/legal-notice/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://murena.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://murena.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

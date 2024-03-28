@@ -1,0 +1,13 @@
+{
+  "name": "Indiatimes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.indiatimes.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.indiatimes.com/termsandcondition",
+      "select": "body"
+    }
+  }
+}

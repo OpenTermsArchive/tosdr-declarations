@@ -1,0 +1,9 @@
+{
+  "name": "Ferme brocart  gite du gland",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.gite-bouvines.fr/mentions-legales/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Juanperfect",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://forum.juanperfect.club/privacy/",
+      "select": "body"
+    }
+  }
+}

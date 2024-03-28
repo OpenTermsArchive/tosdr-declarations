@@ -1,0 +1,25 @@
+{
+  "name": "Pearson",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pearson.com/en-us/legal-information/terms-of-use.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.pearson.com/en-us/legal-information/cookie-policy.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.pearson.com/en-gb/privacy-center/privacy-notices/full-privacy-notice.html#2",
+      "select": "html > body > main > div:first-of-type > div > section"
+    },
+    "Other": {
+      "fetch": "https://www.pearson.com/content/dam/global-store/global/privacy-center/pearson-Internal-data-transfers-tia-united-states-of-america.pdf",
+      "select": "body"
+    },
+    "Records Keeping Policy": {
+      "fetch": "https://www.pearson.com/en-gb/privacy-center/international-data-transfers.html",
+      "select": "html > body > main > div:first-of-type > div > section:nth-of-type(2)"
+    }
+  }
+}

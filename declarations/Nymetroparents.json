@@ -1,0 +1,9 @@
+{
+  "name": "Nymetroparents",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nymetroparents.com/privacy.cfm",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tv time",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tvtime.com/privacy/",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tvtime.com/terms/",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

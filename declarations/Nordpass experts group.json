@@ -1,0 +1,13 @@
+{
+  "name": "Nordpass experts group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://expertsnordpasss.blogspot.com/2019/11/privacy-policy.html?m=1",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://expertsnordpasss.blogspot.com/2019/11/terms-and-conditions-of-your-service.html?m=1",
+      "select": "body"
+    }
+  }
+}

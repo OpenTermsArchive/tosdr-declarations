@@ -1,0 +1,13 @@
+{
+  "name": "Lifeline",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lifeline.com/terms-of-use/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lifeline.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Euronews",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.euronews.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.euronews.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

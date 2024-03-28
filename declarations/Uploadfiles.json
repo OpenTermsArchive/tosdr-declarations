@@ -1,0 +1,17 @@
+{
+  "name": "Uploadfiles",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ufile.io/privacy",
+      "select": "html > body > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://ufile.io/terms",
+      "select": "html > body > section:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://ufile.io/dmca",
+      "select": "html > body > section:nth-of-type(2)"
+    }
+  }
+}

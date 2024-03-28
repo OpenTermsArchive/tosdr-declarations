@@ -1,0 +1,13 @@
+{
+  "name": "Gamersafer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gamersafer.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://gamersafer.com/tos/",
+      "select": "body"
+    }
+  }
+}

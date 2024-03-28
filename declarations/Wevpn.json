@@ -1,0 +1,17 @@
+{
+  "name": "Wevpn",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://wevpn.com/dmca",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://wevpn.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://wevpn.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

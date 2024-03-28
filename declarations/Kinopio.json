@@ -1,0 +1,17 @@
+{
+  "name": "Kinopio",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://help.kinopio.club/posts/use-restrictions-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.kinopio.club/posts/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.kinopio.club/posts/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

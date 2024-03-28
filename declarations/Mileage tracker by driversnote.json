@@ -1,0 +1,13 @@
+{
+  "name": "Mileage tracker by driversnote",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.driversnote.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.driversnote.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

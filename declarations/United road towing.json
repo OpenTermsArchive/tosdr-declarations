@@ -1,0 +1,9 @@
+{
+  "name": "United road towing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mobile.unitedroadtowing.com/privacy_policy.php",
+      "select": "body"
+    }
+  }
+}

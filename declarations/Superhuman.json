@@ -1,0 +1,13 @@
+{
+  "name": "Superhuman",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://superhuman.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://superhuman.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Linkt",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.linkt.com.au/legal/policies/direct-debit-request-service-agreement/brisbane",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.linkt.com.au/legal/policies/transurban-hardship-policy/brisbane",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.linkt.com.au/legal/policies/europcar-offer-privacy-statement/brisbane",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.linkt.com.au/legal/policies/transurban-credit-reporting-policy/brisbane",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.linkt.com.au/legal/policies/transurban-statement-of-notifiable-matters/brisbane",
+      "select": "body"
+    }
+  }
+}

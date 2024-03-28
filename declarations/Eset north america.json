@@ -1,0 +1,9 @@
+{
+  "name": "Eset north america",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.eset.com/us/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Nitrokey",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nitrokey.com/general-terms-and-conditions",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > article > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nitrokey.com/data-privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > article > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.nitrokey.com/legal-information",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > article > div"
+    }
+  }
+}

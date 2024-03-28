@@ -1,0 +1,9 @@
+{
+  "name": "Blurdle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://blurdle.uk/PrivacyPolicy.aspx",
+      "select": "body"
+    }
+  }
+}

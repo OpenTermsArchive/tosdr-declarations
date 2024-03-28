@@ -1,0 +1,13 @@
+{
+  "name": "Flight rising",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www1.flightrising.com/site/privacy-policy",
+      "select": " > div > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://flightrising.com/main.php?p=wiki&article=81",
+      "select": null
+    }
+  }
+}

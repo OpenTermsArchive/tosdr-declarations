@@ -1,0 +1,13 @@
+{
+  "name": "Techpp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://techpp.com/about/privacy-policy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://techpp.com/about/disclaimer/",
+      "select": null
+    }
+  }
+}

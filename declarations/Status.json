@@ -1,0 +1,13 @@
+{
+  "name": "Status",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://status.im/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > section:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://status.im/terms-of-use/",
+      "select": "html > body > div:first-of-type > main > section:nth-of-type(2) > div"
+    }
+  }
+}

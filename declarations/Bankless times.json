@@ -1,0 +1,13 @@
+{
+  "name": "Bankless times",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.banklesstimes.com/our-editorial-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.banklesstimes.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

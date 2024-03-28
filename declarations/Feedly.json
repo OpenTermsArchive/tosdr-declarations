@@ -1,0 +1,13 @@
+{
+  "name": "Feedly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://feedly.com/i/legal",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://feedly.com/i/legal/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Nordictrack",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nordictrack.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

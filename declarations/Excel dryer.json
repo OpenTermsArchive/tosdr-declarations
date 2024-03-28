@@ -1,0 +1,9 @@
+{
+  "name": "Excel dryer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.exceldryer.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

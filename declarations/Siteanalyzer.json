@@ -1,0 +1,13 @@
+{
+  "name": "Siteanalyzer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://site-analyzer.pro/confidence/",
+      "select": "html > body > div:nth-of-type(5)"
+    },
+    "Terms of Service": {
+      "fetch": "https://site-analyzer.pro/user-agreement/",
+      "select": "html > body > div:nth-of-type(5)"
+    }
+  }
+}

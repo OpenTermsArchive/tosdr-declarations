@@ -1,0 +1,13 @@
+{
+  "name": "Inoreader",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.inoreader.com/privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.inoreader.com/tos",
+      "select": "body"
+    }
+  }
+}

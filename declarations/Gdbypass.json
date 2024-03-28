@@ -1,0 +1,13 @@
+{
+  "name": "Gdbypass",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gdbypass.host/privacy",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://gdbypass.host/terms",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    }
+  }
+}

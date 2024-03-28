@@ -1,0 +1,13 @@
+{
+  "name": "Lumitos",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lumitos.com/de/datenschutz/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lumitos.com/de/agb/",
+      "select": "body"
+    }
+  }
+}

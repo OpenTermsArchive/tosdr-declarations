@@ -1,0 +1,13 @@
+{
+  "name": "Mysterium vpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mysteriumvpn.com/privacy-policy-dark",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mysteriumvpn.com/terms-and-conditions-dark",
+      "select": "body"
+    }
+  }
+}

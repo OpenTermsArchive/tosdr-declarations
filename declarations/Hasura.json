@@ -1,0 +1,13 @@
+{
+  "name": "Hasura",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hasura.io/legal/hasura-privacy-policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div:nth-of-type(2) > div:first-of-type > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://hasura.io/legal/website-terms-of-use/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div:nth-of-type(2) > div:first-of-type > section > div"
+    }
+  }
+}

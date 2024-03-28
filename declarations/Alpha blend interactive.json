@@ -1,0 +1,13 @@
+{
+  "name": "Alpha blend interactive",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://documentation.abinteractive.net/official/legal/tos/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://documentation.abinteractive.net/official/legal/privacy-policy/",
+      "select": null
+    }
+  }
+}

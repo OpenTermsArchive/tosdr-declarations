@@ -1,0 +1,13 @@
+{
+  "name": "Aetna inc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.aetna.com/legal-notices/disclaimer.html",
+      "select": "html > body > main > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Legal Information": {
+      "fetch": "http://www.aetna.com/legal-notices/documents/health-notice-of-privacy-practices.pdf",
+      "select": "body"
+    }
+  }
+}

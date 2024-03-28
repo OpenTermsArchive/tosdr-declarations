@@ -1,0 +1,13 @@
+{
+  "name": "Ad council",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.adcouncil.org/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.adcouncil.org/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Rewardslockercom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rewards-locker.com/tc.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rewards-locker.com/pp.php",
+      "select": "body"
+    }
+  }
+}

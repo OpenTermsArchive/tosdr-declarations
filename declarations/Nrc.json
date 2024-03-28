@@ -1,0 +1,17 @@
+{
+  "name": "Nrc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nrc.nl/privacy/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.nrc.nl/leveringsvoorwaarden/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.nrc.nl/cookies/",
+      "select": "html > body > main > div:nth-of-type(2) > div > article > div > div"
+    }
+  }
+}

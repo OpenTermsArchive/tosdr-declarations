@@ -1,0 +1,9 @@
+{
+  "name": "The furry forums",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thefurryforum.com/forums/index.php?action=agreement",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Klangpatenschaftde",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.klangpatenschaft.de/",
+      "select": "body"
+    }
+  }
+}

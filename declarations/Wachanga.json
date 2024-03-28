@@ -1,0 +1,13 @@
+{
+  "name": "Wachanga",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wachanga.com/en/privacy",
+      "select": "html > body > main > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://wachanga.com/en/terms",
+      "select": "html > body > main > section"
+    }
+  }
+}

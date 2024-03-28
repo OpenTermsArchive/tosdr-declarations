@@ -1,0 +1,17 @@
+{
+  "name": "Imperva",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.imperva.com/legal/website-terms-of-use/",
+      "select": "html > body > div:first-of-type > div > section > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.imperva.com/trust-center/privacy-statement/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.imperva.com/trust-center/cookie-notice/",
+      "select": "html > body > div:first-of-type > div > section > div > div"
+    }
+  }
+}

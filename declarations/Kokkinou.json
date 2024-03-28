@@ -1,0 +1,9 @@
+{
+  "name": "Kokkinou",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kokkinosmileclinic.com/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div > div > div > div > article > div"
+    }
+  }
+}

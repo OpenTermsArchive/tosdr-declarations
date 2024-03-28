@@ -1,0 +1,9 @@
+{
+  "name": "Freerice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://assets.freerice.com/privacy/policy.html",
+      "select": "body"
+    }
+  }
+}

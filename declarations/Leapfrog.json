@@ -1,0 +1,17 @@
+{
+  "name": "Leapfrog",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.leapfrog.com/en-us/legal/software-license-agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.leapfrog.com/en-us/legal/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.leapfrog.com/en-us/legal/cookie-policy",
+      "select": "body"
+    }
+  }
+}

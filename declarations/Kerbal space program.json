@@ -1,0 +1,17 @@
+{
+  "name": "Kerbal space program",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.take2games.com/legal/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.take2games.com/cookiepolicy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.take2games.com/privacy/",
+      "select": "body"
+    }
+  }
+}

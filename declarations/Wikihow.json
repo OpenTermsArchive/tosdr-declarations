@@ -1,0 +1,17 @@
+{
+  "name": "Wikihow",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wikihow.com/wikiHow:Privacy-Policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wikihow.com/wikiHow:Cookie-Policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wikihow.com/wikiHow:Terms-of-Use",
+      "select": null
+    }
+  }
+}

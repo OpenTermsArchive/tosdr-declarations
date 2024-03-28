@@ -1,0 +1,13 @@
+{
+  "name": "Unclaimed money info",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://unclaimedmoneyinfo.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://unclaimedmoneyinfo.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

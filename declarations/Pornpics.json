@@ -1,0 +1,25 @@
+{
+  "name": "Pornpics",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pornpics.com/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pornpics.com/privacy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.pornpics.com/cookie/",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.pornpics.com/dmca/",
+      "select": null
+    },
+    "Records Keeping Policy": {
+      "fetch": "https://www.pornpics.com/2257/",
+      "select": null
+    }
+  }
+}

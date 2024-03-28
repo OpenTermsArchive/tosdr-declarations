@@ -1,0 +1,13 @@
+{
+  "name": "Personality cafe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.personalitycafe.com/help/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.personalitycafe.com/help/terms/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    }
+  }
+}

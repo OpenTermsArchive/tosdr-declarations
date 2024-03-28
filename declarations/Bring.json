@@ -1,0 +1,13 @@
+{
+  "name": "Bring",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.getbring.com/en/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.getbring.com/en/terms-of-use",
+      "select": "html > body > div:nth-of-type(3) > div > div > div"
+    }
+  }
+}

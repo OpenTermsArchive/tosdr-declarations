@@ -1,0 +1,13 @@
+{
+  "name": "Advance local media",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.advancelocal.com/advancelocalUserAgreement/user-agreement.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.advancelocal.com/advancelocalUserAgreement/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

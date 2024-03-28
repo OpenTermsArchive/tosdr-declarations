@@ -1,0 +1,13 @@
+{
+  "name": "Varagesale",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.varagesale.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.varagesale.com/privacy",
+      "select": "body"
+    }
+  }
+}

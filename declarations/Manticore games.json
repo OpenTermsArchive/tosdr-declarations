@@ -1,0 +1,13 @@
+{
+  "name": "Manticore games",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.coregames.com/legal/ManticoreTermsOfService.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.coregames.com/legal/ManticorePrivacyPolicy.html",
+      "select": "body"
+    }
+  }
+}

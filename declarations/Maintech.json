@@ -1,0 +1,9 @@
+{
+  "name": "Maintech",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.maintech.com/terms-of-use-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

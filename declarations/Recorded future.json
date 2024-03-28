@@ -1,0 +1,17 @@
+{
+  "name": "Recorded future",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.recordedfuture.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.recordedfuture.com/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.recordedfuture.com/privacy-policy/3-0/cookies",
+      "select": "body"
+    }
+  }
+}

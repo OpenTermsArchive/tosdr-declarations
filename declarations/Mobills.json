@@ -1,0 +1,13 @@
+{
+  "name": "Mobills",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mobills.com.br/privacidade-e-termos/termos-de-uso/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mobills.com.br/privacidade-e-termos/aviso-de-privacidade/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Sky zone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.skyzone.com/terms",
+      "select": "html > body > section"
+    }
+  }
+}

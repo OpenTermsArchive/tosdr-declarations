@@ -1,0 +1,9 @@
+{
+  "name": "Mixcloud",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mixcloud.com/terms/",
+      "select": "body"
+    }
+  }
+}

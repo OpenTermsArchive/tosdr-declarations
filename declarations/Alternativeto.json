@@ -1,0 +1,17 @@
+{
+  "name": "Alternativeto",
+  "documents": {
+    "Developer Terms": {
+      "fetch": "https://alternativeto.net/about/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://alternativeto.net/about/cookie-policy/",
+      "select": "html > body > div:first-of-type > div > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://alternativeto.net/about/privacy/",
+      "select": "html > body > div:first-of-type > div > main > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

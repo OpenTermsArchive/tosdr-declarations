@@ -1,0 +1,13 @@
+{
+  "name": "Shariq the coach",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://shariqthecoach.com.au/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://shariqthecoach.com.au/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Chegg",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.chegg.com/cookienotice/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.chegg.com/privacypolicy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.chegg.com/termsofuse/",
+      "select": "body"
+    }
+  }
+}

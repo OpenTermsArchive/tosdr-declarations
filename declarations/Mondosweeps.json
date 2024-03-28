@@ -1,0 +1,13 @@
+{
+  "name": "Mondosweeps",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mondosweeps.com/Site/TermsAndConditions",
+      "select": "html > body > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mondosweeps.com/Site/PrivacyPolicy",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Buycott",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.buycott.com/privacy",
+      "select": "html > body > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.buycott.com/terms",
+      "select": "html > body > section > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Current",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://currentmusic.us/terms/",
+      "select": "body"
+    }
+  }
+}

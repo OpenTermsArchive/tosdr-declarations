@@ -1,0 +1,13 @@
+{
+  "name": "Wifi magic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wifimagic.com/termsandconditions_en/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wifimagic.com/privacypolicy_en/",
+      "select": "body"
+    }
+  }
+}

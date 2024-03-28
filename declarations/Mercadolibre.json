@@ -1,0 +1,13 @@
+{
+  "name": "Mercadolibre",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mercadolibre.com.ar/ayuda/terminos-y-condiciones-de-uso_991",
+      "select": " > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mercadolibre.com.ar/privacidad/declaracion-privacidad",
+      "select": " > div > div > div:first-of-type > div > div"
+    }
+  }
+}

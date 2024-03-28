@@ -1,0 +1,17 @@
+{
+  "name": "My foldaway fan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://myfoldawayfan.com/TermsConditions",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://myfoldawayfan.com/Return-Policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://myfoldawayfan.com/Privacy-Policy",
+      "select": "body"
+    }
+  }
+}

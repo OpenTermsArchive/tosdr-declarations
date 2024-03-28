@@ -1,0 +1,17 @@
+{
+  "name": "Digital river",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.digitalriver.com/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://store.digitalriver.com/DRHM/store?Action=DisplayDRCookiesPolicyPage&SiteID=defaults&Locale=en_EN",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.digitalriver.com/legal/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

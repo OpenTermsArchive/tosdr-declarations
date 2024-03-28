@@ -1,0 +1,9 @@
+{
+  "name": "Voice to text",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://voicetotext.org/privacy",
+      "select": "body"
+    }
+  }
+}

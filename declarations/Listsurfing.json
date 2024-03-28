@@ -1,0 +1,13 @@
+{
+  "name": "Listsurfing",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.listsurfing.com/terms.html?rid=14359",
+      "select": "html"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.listsurfing.com/privacy.html?rid=14359",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Self privacy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://selfprivacy.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Xentardopsuknet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://xentardops.uk.net/privacy.php",
+      "select": "body"
+    }
+  }
+}

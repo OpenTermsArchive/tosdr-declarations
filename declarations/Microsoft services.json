@@ -1,0 +1,17 @@
+{
+  "name": "Microsoft services",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.microsoft.com/ca-es/servicesagreement/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.skype.com/en/legal/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.microsoft.com/en-us/privacystatement",
+      "select": "html > body > div > div:nth-of-type(2)"
+    }
+  }
+}

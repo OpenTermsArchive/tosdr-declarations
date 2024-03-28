@@ -1,0 +1,13 @@
+{
+  "name": "Serversminecraftnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://servers-minecraft.net/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://servers-minecraft.net/terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Apple services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.apple.com/legal/privacy/en-ww/",
+      "select": "main.main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.shazam.com/terms",
+      "select": null
+    }
+  }
+}

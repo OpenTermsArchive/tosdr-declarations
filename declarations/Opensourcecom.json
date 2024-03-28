@@ -1,0 +1,13 @@
+{
+  "name": "Opensourcecom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://opensource.com/legal",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://opensource.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Mobile citizen",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mobilecitizen.org/privacy-policy-website-terms-of-use/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mobilecitizen.org/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Kinokuniya",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://malaysia.kinokuniya.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://malaysia.kinokuniya.com/terms",
+      "select": null
+    }
+  }
+}

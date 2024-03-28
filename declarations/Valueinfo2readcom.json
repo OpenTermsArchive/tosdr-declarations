@@ -1,0 +1,13 @@
+{
+  "name": "Valueinfo2readcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.value-info2read.com/wpautoterms/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.value-info2read.com/wpautoterms/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

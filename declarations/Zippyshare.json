@@ -1,0 +1,13 @@
+{
+  "name": "Zippyshare",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.zippyshare.com/sites/terms_and_conditions_of_use.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div > table > tbody > tr > td > div > table"
+    },
+    "Legal Information": {
+      "fetch": "https://www.zippyshare.com/sites/dmca.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div > table > tbody > tr > td > div > table"
+    }
+  }
+}

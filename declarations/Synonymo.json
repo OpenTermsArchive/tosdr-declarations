@@ -1,0 +1,13 @@
+{
+  "name": "Synonymo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.synonymo.fr/conditions_generales_utilisation",
+      "select": " > div:nth-of-type(3)"
+    },
+    "Trackers Policy": {
+      "fetch": "http://www.synonymo.fr/politique-de-cookies",
+      "select": " > div:nth-of-type(3)"
+    }
+  }
+}

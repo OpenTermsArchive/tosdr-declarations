@@ -1,0 +1,13 @@
+{
+  "name": "Gas",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gasapp.co/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://gasapp.co/terms/",
+      "select": "body"
+    }
+  }
+}

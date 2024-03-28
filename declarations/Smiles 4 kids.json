@@ -1,0 +1,9 @@
+{
+  "name": "Smiles 4 kids",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.smiles4kids4corners.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > article > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

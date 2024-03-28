@@ -1,0 +1,9 @@
+{
+  "name": "Roaming zone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.roamingzone.com/zone/#Privacy",
+      "select": "html > body > center > table > tbody > tr:first-of-type > td > table:nth-of-type(2) > tbody > tr:nth-of-type(3) > td > font:nth-of-type(6)"
+    }
+  }
+}

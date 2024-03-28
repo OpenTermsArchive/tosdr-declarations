@@ -1,0 +1,13 @@
+{
+  "name": "Auto loan express",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://autoloanexpress.co/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://autoloanexpress.co/terms.php",
+      "select": "body"
+    }
+  }
+}

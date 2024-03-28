@@ -1,0 +1,21 @@
+{
+  "name": "4k video downloader",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.4kdownload.com/agreement/terms-of-use",
+      "select": "body"
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://www.4kdownload.com/agreement/affiliate",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.4kdownload.com/refund",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.4kdownload.com/privacy",
+      "select": "body"
+    }
+  }
+}

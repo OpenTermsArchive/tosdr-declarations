@@ -1,0 +1,17 @@
+{
+  "name": "Vidcloud9",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vidcloud9.org/privacy ",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://vidcloud9.org/dmca ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://vidcloud9.org/tos",
+      "select": "body"
+    }
+  }
+}

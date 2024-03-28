@@ -1,0 +1,13 @@
+{
+  "name": "Hearst",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.hearst.com/newsroom/tv-privacy-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hearst.com/newsroom/tv-terms-of-use",
+      "select": "body"
+    }
+  }
+}

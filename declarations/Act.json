@@ -1,0 +1,13 @@
+{
+  "name": "Act",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.act.org/content/act/en/terms-of-use.html",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div > div:first-of-type > div > div > div > div > div:first-of-type > div > ol"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.act.org/content/act/en/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div > div:first-of-type > div > div > div > div > div:first-of-type > div"
+    }
+  }
+}

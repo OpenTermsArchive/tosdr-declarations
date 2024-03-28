@@ -1,0 +1,9 @@
+{
+  "name": "Steam database",
+  "documents": {
+    "Frequently Asked Questions": {
+      "fetch": "https://steamdb.info/faq/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(3)"
+    }
+  }
+}

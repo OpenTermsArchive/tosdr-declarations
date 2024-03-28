@@ -1,0 +1,13 @@
+{
+  "name": "Subsplash",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.subsplash.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.subsplash.com/legal/terms-of-use",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Kags tv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kagstv.com/terms",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kagstv.com/privacy",
+      "select": "body"
+    }
+  }
+}

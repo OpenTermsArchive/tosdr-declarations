@@ -1,0 +1,9 @@
+{
+  "name": "Edgewell",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://edgewell.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

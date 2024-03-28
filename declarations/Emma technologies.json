@@ -1,0 +1,13 @@
+{
+  "name": "Emma technologies",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://emma-app.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://emma-app.com/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

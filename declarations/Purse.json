@@ -1,0 +1,13 @@
+{
+  "name": "Purse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://purse.io/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://purse.io/terms",
+      "select": "body"
+    }
+  }
+}

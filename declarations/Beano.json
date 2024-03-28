@@ -1,0 +1,17 @@
+{
+  "name": "Beano",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.beano.com/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.beano.com/terms-and-conditions",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.beano.com/cookie-policy",
+      "select": null
+    }
+  }
+}

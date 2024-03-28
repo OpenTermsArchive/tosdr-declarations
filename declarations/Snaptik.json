@@ -1,0 +1,13 @@
+{
+  "name": "Snaptik",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://snaptik.app/landing/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://snaptik.app/landing/terms-of-service",
+      "select": "body"
+    }
+  }
+}

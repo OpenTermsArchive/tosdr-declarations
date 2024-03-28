@@ -1,0 +1,9 @@
+{
+  "name": "Misskey",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://service.misskey.io/ja/tos",
+      "select": "body"
+    }
+  }
+}

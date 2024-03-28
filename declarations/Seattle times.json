@@ -1,0 +1,17 @@
+{
+  "name": "Seattle times",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.seattletimes.com/notices/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.seattletimes.com/notices/terms.html",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.seattletimes.com/notices/copyright.html",
+      "select": "body"
+    }
+  }
+}

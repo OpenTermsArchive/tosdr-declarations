@@ -1,0 +1,17 @@
+{
+  "name": "Wsecu",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://wsecu.org/Documents/PDFS/Privacy%20Notice.pdf",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://wsecu.org/resources/cookie-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://wsecu.org/resources/terms-and-conditions",
+      "select": null
+    }
+  }
+}

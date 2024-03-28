@@ -1,0 +1,13 @@
+{
+  "name": "Sesame workshop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sesameworkshop.org/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div > section:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sesameworkshop.org/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > section:nth-of-type(2) > div"
+    }
+  }
+}

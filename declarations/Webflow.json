@@ -1,0 +1,21 @@
+{
+  "name": "Webflow",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://webflow.com/legal/cookie-policy",
+      "select": "html > body > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://webflow.com/legal/privacy",
+      "select": "html > body > div:nth-of-type(3) > div"
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://webflow.com/legal/subprocessors",
+      "select": "html > body > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://webflow.com/legal/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Voidpet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://voidpet.notion.site/Voidpet-Privacy-Policy-6792e582414b43ed8d79b84c0f333906",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://voidpet.notion.site/Voidpet-Terms-of-Service-6a52dff6cdc44751b7d76beafb72af43",
+      "select": "body"
+    }
+  }
+}

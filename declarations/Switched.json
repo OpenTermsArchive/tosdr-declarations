@@ -1,0 +1,13 @@
+{
+  "name": "Switched",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://switchedapp.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://switchedapp.com/privacy",
+      "select": "body"
+    }
+  }
+}

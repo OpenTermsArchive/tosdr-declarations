@@ -1,0 +1,13 @@
+{
+  "name": "Arista networks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.arista.com/en/terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.arista.com/en/privacy-policy",
+      "select": null
+    }
+  }
+}

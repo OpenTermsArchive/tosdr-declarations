@@ -1,0 +1,29 @@
+{
+  "name": "Klaviyo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://community.klaviyo.com/site/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.klaviyo.com/legal/data-processing-agreement",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.klaviyo.com/legal/acceptable-use-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.klaviyo.com/legal/dmca",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.klaviyo.com/legal/privacy/cookie-notice",
+      "select": "body"
+    },
+    "Developer Terms": {
+      "fetch": "https://www.klaviyo.com/legal/api-terms",
+      "select": "body"
+    }
+  }
+}

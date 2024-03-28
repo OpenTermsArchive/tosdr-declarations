@@ -1,0 +1,13 @@
+{
+  "name": "Iceboxcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.icebox.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.icebox.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Office of the comptroller of the currency",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.occ.gov/about/policies/web-privacy-policy.html",
+      "select": null
+    }
+  }
+}

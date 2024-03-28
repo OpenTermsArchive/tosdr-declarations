@@ -1,0 +1,13 @@
+{
+  "name": "Telstra",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.telstra.com.au/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.telstra.com.au/privacy",
+      "select": "body"
+    }
+  }
+}

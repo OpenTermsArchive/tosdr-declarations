@@ -1,0 +1,13 @@
+{
+  "name": "Oscar insurance",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hioscar.com/legal/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hioscar.com/legal/terms/",
+      "select": "body"
+    }
+  }
+}

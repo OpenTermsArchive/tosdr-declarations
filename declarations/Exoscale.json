@@ -1,0 +1,13 @@
+{
+  "name": "Exoscale",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.exoscale.com/terms/",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.exoscale.com/privacy/",
+      "select": "html > body > main"
+    }
+  }
+}

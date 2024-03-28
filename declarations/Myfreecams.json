@@ -1,0 +1,21 @@
+{
+  "name": "Myfreecams",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wiki.myfreecams.com/wiki/Terms_and_Conditions",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://wiki.myfreecams.com/wiki/DMCA_Information",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wiki.myfreecams.com/wiki/Privacy_Policy",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://wiki.myfreecams.com/wiki/Abuse_Warning",
+      "select": "body"
+    }
+  }
+}

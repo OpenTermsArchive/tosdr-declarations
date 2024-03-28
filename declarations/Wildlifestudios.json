@@ -1,0 +1,13 @@
+{
+  "name": "Wildlifestudios",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wildlifestudios.com/terms-of-service/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wildlifestudios.com/policy-center/privacy-policy/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    }
+  }
+}

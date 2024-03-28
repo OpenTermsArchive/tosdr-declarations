@@ -1,0 +1,21 @@
+{
+  "name": "Sofi",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.sofi.com/login/policy/esign",
+      "select": null
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.sofi.com/login/policy/arbitration",
+      "select": "html > body > div:first-of-type > div:first-of-type > footer > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sofi.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > section > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sofi.com/online-privacy-policy/",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > section > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Email privacy tester",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.emailprivacytester.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Pinkerton",
+  "documents": {
+    "Safety Guidelines": {
+      "fetch": "https://pinkerton.com/antipiracy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pinkerton.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://pinkerton.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Foxtel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.foxtel.com.au/about/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.foxtel.com.au/content/dam/foxtel/shared/pdf/terms-of-use.pdf",
+      "select": "body"
+    }
+  }
+}

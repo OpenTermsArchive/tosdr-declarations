@@ -1,0 +1,13 @@
+{
+  "name": "Weather extension",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://weatherextension.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://weatherextension.com/privacy",
+      "select": "body"
+    }
+  }
+}

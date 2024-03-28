@@ -1,0 +1,17 @@
+{
+  "name": "Jsorg",
+  "documents": {
+    "Other": {
+      "fetch": "https://js.org/imprint.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://js.org/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://js.org/privacy.html",
+      "select": "body"
+    }
+  }
+}

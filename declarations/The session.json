@@ -1,0 +1,21 @@
+{
+  "name": "The session",
+  "documents": {
+    "Developer Terms": {
+      "fetch": "https://thesession.org/api",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://thesession.org/privacy",
+      "select": "body"
+    },
+    "About": {
+      "fetch": "https://thesession.org/about",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://thesession.org/help",
+      "select": "body"
+    }
+  }
+}

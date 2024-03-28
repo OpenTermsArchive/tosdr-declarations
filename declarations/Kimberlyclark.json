@@ -1,0 +1,13 @@
+{
+  "name": "Kimberlyclark",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kimberly-clark.com/en-us/PrivacyPolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kimberly-clark.com/en-us/terms-and-conditions-en-us",
+      "select": "body"
+    }
+  }
+}

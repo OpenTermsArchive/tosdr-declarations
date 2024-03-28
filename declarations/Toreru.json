@@ -1,0 +1,13 @@
+{
+  "name": "Toreru",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://toreru.jp/kiyaku/trademark_registration",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://toreru.jp/privacypolicy",
+      "select": "body"
+    }
+  }
+}

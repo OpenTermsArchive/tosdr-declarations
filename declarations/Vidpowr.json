@@ -1,0 +1,9 @@
+{
+  "name": "Vidpowr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vidpowr.net/terms",
+      "select": "body"
+    }
+  }
+}

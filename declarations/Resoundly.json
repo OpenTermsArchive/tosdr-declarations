@@ -1,0 +1,13 @@
+{
+  "name": "Resoundly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://resound.ly/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://resound.ly/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

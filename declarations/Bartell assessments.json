@@ -1,0 +1,13 @@
+{
+  "name": "Bartell assessments",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bartellbartell.com/privacy/",
+      "select": " > div > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://bartellbartell.com/cookie-declaration/",
+      "select": " > div > div > div:nth-of-type(2)"
+    }
+  }
+}

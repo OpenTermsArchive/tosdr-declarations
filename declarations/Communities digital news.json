@@ -1,0 +1,13 @@
+{
+  "name": "Communities digital news",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.commdiginews.com/cookie-policy/",
+      "select": "html > body > section > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.commdiginews.com/privacy-policy/",
+      "select": "html > body > section > div > div > div > div"
+    }
+  }
+}

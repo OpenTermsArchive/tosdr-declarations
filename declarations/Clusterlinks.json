@@ -1,0 +1,9 @@
+{
+  "name": "Clusterlinks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.clusterlinks.com/privacy",
+      "select": null
+    }
+  }
+}

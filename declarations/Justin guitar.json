@@ -1,0 +1,9 @@
+{
+  "name": "Justin guitar",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.justinguitar.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

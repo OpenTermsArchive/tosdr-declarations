@@ -1,0 +1,21 @@
+{
+  "name": "Monzo",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://monzo.com/legal/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div:first-of-type > section > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://monzo.com/legal/cookie-notice/",
+      "select": "section.content-module__content___3UcB2"
+    },
+    "Terms of Service": {
+      "fetch": "https://webviews.monzo.com/usa/terms-of-service/version-1-2/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://webviews.monzo.com/assets/files/usa/Monzo-US-Privacy-Notice-v1.1.pdf",
+      "select": "body"
+    }
+  }
+}

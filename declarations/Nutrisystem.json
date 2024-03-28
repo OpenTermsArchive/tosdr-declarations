@@ -1,0 +1,13 @@
+{
+  "name": "Nutrisystem",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nutrisystem.com/about/terms-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nutrisystem.com/about/privacy",
+      "select": "body"
+    }
+  }
+}

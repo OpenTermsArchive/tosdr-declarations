@@ -1,0 +1,13 @@
+{
+  "name": "Doublelist",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://doublelist.com/about/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://doublelist.com/about/privacy_policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Credit karma",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.creditkarma.com/about/privacy-ca-20200101",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.creditkarma.com/about/rules",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.creditkarma.com/about/terms",
+      "select": null
+    }
+  }
+}

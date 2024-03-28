@@ -1,0 +1,17 @@
+{
+  "name": "Olx",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.olx.in/hc/en-us/articles/360002087359-Privacy-Policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.olx.in/hc/en-us/articles/360002296639-Policy-on-Cookies-and-Similar-Technologies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.olx.in/hc/en-us/articles/360002087339-Terms-of-Use",
+      "select": "body"
+    }
+  }
+}

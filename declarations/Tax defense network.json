@@ -1,0 +1,13 @@
+{
+  "name": "Tax defense network",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.taxdefensenetwork.com/privacy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.taxdefensenetwork.com/cookies",
+      "select": null
+    }
+  }
+}

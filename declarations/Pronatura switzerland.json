@@ -1,0 +1,13 @@
+{
+  "name": "Pronatura switzerland",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pronatura.ch/fr/protection-des-donnees",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pronatura.ch/de/allgemeine-geschaeftsbedingungen",
+      "select": "body"
+    }
+  }
+}

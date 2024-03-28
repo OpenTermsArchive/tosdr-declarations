@@ -1,0 +1,13 @@
+{
+  "name": "Global payments",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.globalpaymentsintegrated.com/en-us/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.globalpaymentsintegrated.com/en-us/terms-of-service",
+      "select": "body"
+    }
+  }
+}

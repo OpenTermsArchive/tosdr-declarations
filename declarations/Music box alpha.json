@@ -1,0 +1,13 @@
+{
+  "name": "Music box alpha",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.musicboxalpha.com/Resources/Documents/musicboxalpha-privacy-policy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://forums.musicboxalpha.com/terms/",
+      "select": "body"
+    }
+  }
+}

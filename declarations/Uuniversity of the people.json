@@ -1,0 +1,13 @@
+{
+  "name": "Uuniversity of the people",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.uopeople.edu/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.uopeople.edu/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

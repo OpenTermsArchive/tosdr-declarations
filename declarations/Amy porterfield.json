@@ -1,0 +1,13 @@
+{
+  "name": "Amy porterfield",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.amyporterfield.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.amyporterfield.com/terms-and-conditions/",
+      "select": null
+    }
+  }
+}

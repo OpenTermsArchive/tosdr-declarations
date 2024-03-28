@@ -1,0 +1,9 @@
+{
+  "name": "Panda pflege",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://panda-pflege.de/datenschutzerklaerung/",
+      "select": "body"
+    }
+  }
+}

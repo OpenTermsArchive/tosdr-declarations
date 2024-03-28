@@ -1,0 +1,13 @@
+{
+  "name": "Zbigz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://zbigz.com/page/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://zbigz.com/page/policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Ovo energy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ovoenergy.com.au/terms/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div:nth-of-type(4)"
+    }
+  }
+}

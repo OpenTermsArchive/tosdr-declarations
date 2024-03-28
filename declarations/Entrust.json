@@ -1,0 +1,17 @@
+{
+  "name": "Entrust",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.entrust.com/legal-compliance/terms-of-use",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.entrust.com/legal-compliance/policies/cookie-policy",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.entrust.com/legal-compliance/data-privacy/privacy-statement",
+      "select": "body"
+    }
+  }
+}

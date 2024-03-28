@@ -1,0 +1,9 @@
+{
+  "name": "Nirsoft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nirsoft.net/about_nirsoft_freeware.html",
+      "select": "body"
+    }
+  }
+}

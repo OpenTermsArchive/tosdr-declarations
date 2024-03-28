@@ -1,0 +1,17 @@
+{
+  "name": "Adlock media",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.adlockmedia.com/terms",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.adlockmedia.com/dmca",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.adlockmedia.com/privacy",
+      "select": "body"
+    }
+  }
+}

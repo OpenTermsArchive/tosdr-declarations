@@ -1,0 +1,13 @@
+{
+  "name": "Pmam",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pmam-copsource.com/Privacy-Statement.aspx",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://2.pmam.com/MobilePWA/vedpuranprasar.html ",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Trans european policy studies association",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tepsa.eu/privacy-policy",
+      "select": "body"
+    }
+  }
+}

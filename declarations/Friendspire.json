@@ -1,0 +1,13 @@
+{
+  "name": "Friendspire",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.friendspire.com/termsandconditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.friendspire.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

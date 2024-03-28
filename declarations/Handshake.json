@@ -1,0 +1,13 @@
+{
+  "name": "Handshake",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://joinhandshake.com/privacy-policy/",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://joinhandshake.com/tos/",
+      "select": "html > body > main"
+    }
+  }
+}

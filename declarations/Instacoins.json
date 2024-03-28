@@ -1,0 +1,17 @@
+{
+  "name": "Instacoins",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.instacoins.com/terms-conditions/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.instacoins.com/delivery-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.instacoins.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

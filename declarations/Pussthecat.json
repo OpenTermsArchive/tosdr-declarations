@@ -1,0 +1,13 @@
+{
+  "name": "Pussthecat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pussthecat.org/tos/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pussthecat.org/privacy/",
+      "select": "body"
+    }
+  }
+}

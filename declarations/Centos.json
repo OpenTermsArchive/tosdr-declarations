@@ -1,0 +1,9 @@
+{
+  "name": "Centos",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.centos.org/legal/privacy/",
+      "select": "body"
+    }
+  }
+}

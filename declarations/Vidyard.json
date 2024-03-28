@@ -1,0 +1,17 @@
+{
+  "name": "Vidyard",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.vidyard.com/cookies/",
+      "select": "html > body > section > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vidyard.com/privacy/",
+      "select": "html > body > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vidyard.com/wp-content/themes/vidyard-website/assets/tos-govideo.pdf",
+      "select": "body"
+    }
+  }
+}

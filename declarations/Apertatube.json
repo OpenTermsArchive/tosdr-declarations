@@ -1,0 +1,13 @@
+{
+  "name": "Apertatube",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://apertatube.net/about",
+      "select": "html > body > my-app > div > div:nth-of-type(2) > div > div > my-about > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://apertatube.net/about/peertube",
+      "select": "html > body > my-app > div > div:nth-of-type(2) > div > div > my-about > div > div:nth-of-type(2) > my-about-peertube > div > div:nth-of-type(3)"
+    }
+  }
+}

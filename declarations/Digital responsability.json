@@ -1,0 +1,9 @@
+{
+  "name": "Digital responsability",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://respons-ability.net/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

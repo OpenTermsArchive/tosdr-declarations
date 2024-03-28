@@ -1,0 +1,17 @@
+{
+  "name": "Viagogo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.viagogo.com/secure/help/termsandconditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.viagogo.com/secure/help/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.viagogo.com/help/cookies",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Dealmachine",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.dealmachine.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dealmachine.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

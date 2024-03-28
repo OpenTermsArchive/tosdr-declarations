@@ -1,0 +1,17 @@
+{
+  "name": "Vxl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vxl.net/legal-notices/privacy",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.vxl.net/support/terms-and-warranty",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.vxl.net/legal-notices/cookies",
+      "select": null
+    }
+  }
+}

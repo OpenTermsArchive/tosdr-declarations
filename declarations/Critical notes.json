@@ -1,0 +1,9 @@
+{
+  "name": "Critical notes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.critical-notes.com/privacy",
+      "select": "body"
+    }
+  }
+}

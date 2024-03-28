@@ -1,0 +1,13 @@
+{
+  "name": "Gamingforgoodnet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gamingforgood.net/c/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://gamingforgood.net/c/privacy",
+      "select": "body"
+    }
+  }
+}

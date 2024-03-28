@@ -1,0 +1,13 @@
+{
+  "name": "Kuli  kulturlandimpulse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kulturlandimpulse.at/datenschutz/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://fairkom.net/nextcloud/index.php/s/GqJM4PGDFmc89Ge",
+      "select": "body"
+    }
+  }
+}

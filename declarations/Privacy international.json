@@ -1,0 +1,9 @@
+{
+  "name": "Privacy international",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacyinternational.org/basic-page/618/how-we-use-and-protect-your-data",
+      "select": "body"
+    }
+  }
+}

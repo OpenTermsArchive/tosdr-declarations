@@ -1,0 +1,13 @@
+{
+  "name": "Joyn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.joyn.de/datenschutz",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.joyn.de/agb",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > main > div"
+    }
+  }
+}

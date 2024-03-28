@@ -1,0 +1,13 @@
+{
+  "name": "Open code technologies",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.opcotech.com/terms-and-conditions/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.opcotech.com/privacy-policy",
+      "select": "html > body > div > main > section > div > div > div"
+    }
+  }
+}

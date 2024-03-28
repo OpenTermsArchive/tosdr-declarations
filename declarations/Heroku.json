@@ -1,0 +1,17 @@
+{
+  "name": "Heroku",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.heroku.com/policy/aup",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.salesforce.com/company/privacy/",
+      "select": " "
+    },
+    "Terms of Service": {
+      "fetch": "https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/legal/salesforce_MSA.pdf",
+      "select": "body"
+    }
+  }
+}

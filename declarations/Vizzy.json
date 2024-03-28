@@ -1,0 +1,13 @@
+{
+  "name": "Vizzy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vizzy.io/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://vizzy.io/terms-of-service",
+      "select": "body"
+    }
+  }
+}

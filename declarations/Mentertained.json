@@ -1,0 +1,13 @@
+{
+  "name": "Mentertained",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://mentertained.com/copyright/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > p"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mentertained.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

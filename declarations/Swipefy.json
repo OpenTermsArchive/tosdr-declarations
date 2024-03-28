@@ -1,0 +1,13 @@
+{
+  "name": "Swipefy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://swipefy.app/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://swipefy.app/privacy/",
+      "select": "body"
+    }
+  }
+}

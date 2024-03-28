@@ -1,0 +1,13 @@
+{
+  "name": "Platesmart",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.platesmart.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.platesmart.com/eula/",
+      "select": "body"
+    }
+  }
+}

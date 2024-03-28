@@ -1,0 +1,13 @@
+{
+  "name": "Propertyboss solutions",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://propertyboss.com/legal-information/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://propertyboss.com/privacy/",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Astronomer",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.astronomer.io/terms",
+      "select": "body article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.astronomer.io/privacy",
+      "select": "body article"
+    }
+  }
+}

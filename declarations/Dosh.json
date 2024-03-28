@@ -1,0 +1,13 @@
+{
+  "name": "Dosh",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.dosh.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dosh.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

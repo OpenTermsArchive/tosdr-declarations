@@ -1,0 +1,13 @@
+{
+  "name": "Publishers clearing house",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://privacy.pch.com/pchdotcom-tou",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.pch.com/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > main > div:nth-of-type(2) > div"
+    }
+  }
+}

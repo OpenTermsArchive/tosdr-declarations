@@ -1,0 +1,17 @@
+{
+  "name": "Geekboots",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.geekboots.com/cookie-policy",
+      "select": "html > body > div:first-of-type > main > section:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.geekboots.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.geekboots.com/privacy",
+      "select": "html > body > div:first-of-type > main > section:first-of-type"
+    }
+  }
+}

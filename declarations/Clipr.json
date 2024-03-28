@@ -1,0 +1,13 @@
+{
+  "name": "Clipr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.clipr.co/terms-conditions ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.clipr.co/privacy-terms ",
+      "select": "body"
+    }
+  }
+}

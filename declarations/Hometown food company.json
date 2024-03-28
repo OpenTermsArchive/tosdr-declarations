@@ -1,0 +1,13 @@
+{
+  "name": "Hometown food company",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hometownfoodcompany.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hometownfoodcompany.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

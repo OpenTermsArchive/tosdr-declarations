@@ -1,0 +1,17 @@
+{
+  "name": "Hirez studios",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://webcdn.hirezstudios.com/hirezstudios/cdn/Hi-Rez_Studios_Privacy_Policy_April_20_2021.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://webcdn.hirezstudios.com/hirezstudios/cdn/Hi-Rez%20Cookie%20Policy%20(April%2020,%202021).pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://webcdn.hirezstudios.com/hirez-studios/wp-content/uploads/2015/11/Hi-Rez-Studios-Terms-of-Service-and-Use-Agreement-7-12-2018.pdf",
+      "select": "body"
+    }
+  }
+}

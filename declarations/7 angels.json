@@ -1,0 +1,9 @@
+{
+  "name": "7 angels",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://7angelsofficial.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

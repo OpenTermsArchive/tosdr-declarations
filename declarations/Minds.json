@@ -1,0 +1,13 @@
+{
+  "name": "Minds",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.minds.com/p/terms",
+      "select": "html > body > m-app > m-page > m-body > div > div > m-aux > m-marketing > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.minds.com/p/privacy",
+      "select": "html > body > m-app > m-page > m-body > div > div > m-aux > m-marketing > div > div:first-of-type"
+    }
+  }
+}

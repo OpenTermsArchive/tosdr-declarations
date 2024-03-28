@@ -1,0 +1,13 @@
+{
+  "name": "Thumbzilla",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thumbzilla.com/information#privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.thumbzilla.com/information#terms",
+      "select": null
+    }
+  }
+}

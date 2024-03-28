@@ -1,0 +1,13 @@
+{
+  "name": "Drawception",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://drawception.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://drawception.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

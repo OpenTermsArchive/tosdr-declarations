@@ -1,0 +1,9 @@
+{
+  "name": "National credit union administration",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ncua.gov/privacy/website-privacy-policy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Alienvault",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.alienvault.com/legal/gdpr",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.alienvault.com/terms/website-terms-of-use07may2018",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.alienvault.com/legal/cookie-policy",
+      "select": "body"
+    }
+  }
+}

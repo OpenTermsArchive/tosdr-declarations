@@ -1,0 +1,17 @@
+{
+  "name": "J5creat",
+  "documents": {
+    "Other": {
+      "fetch": "https://en.j5create.com/pages/attribution-statements",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://en.j5create.com/pages/end-user-license-agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://en.j5create.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

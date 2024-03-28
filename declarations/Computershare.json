@@ -1,0 +1,13 @@
+{
+  "name": "Computershare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.computershare.com/us/privacy",
+      "select": "html > body > div:first-of-type > div > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.computershare.com/us/online-service-terms-conditions",
+      "select": "body > html > body > div:first-of-type > div > main > div:first-of-type"
+    }
+  }
+}

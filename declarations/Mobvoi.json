@@ -1,0 +1,13 @@
+{
+  "name": "Mobvoi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mobvoi.com/nl/pages/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mobvoi.com/asia/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

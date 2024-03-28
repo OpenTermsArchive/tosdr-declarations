@@ -1,0 +1,13 @@
+{
+  "name": "Dji",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dji.com/policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dji.com/terms?site=brandsite&from=footer",
+      "select": "body"
+    }
+  }
+}

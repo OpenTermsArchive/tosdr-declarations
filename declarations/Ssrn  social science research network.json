@@ -1,0 +1,21 @@
+{
+  "name": "Ssrn  social science research network",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.elsevier.com/legal/cookienotice",
+      "select": " > div:nth-of-type(3) > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.ssrn.com/index.cfm/en/dmca-notice-policy/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.elsevier.com/legal/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ssrn.com/index.cfm/en/terms-of-use/",
+      "select": null
+    }
+  }
+}

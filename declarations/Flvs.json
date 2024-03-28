@@ -1,0 +1,9 @@
+{
+  "name": "Flvs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.flvs.net/privacy-policy",
+      "select": "html > body > form:first-of-type > section"
+    }
+  }
+}

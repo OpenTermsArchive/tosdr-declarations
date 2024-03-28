@@ -1,0 +1,9 @@
+{
+  "name": "Veneanet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.venea.net/web/terms_of_use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Coinzilla",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://coinzilla.com/refund-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://coinzilla.com/user-agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://coinzilla.com/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://coinzilla.com/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Novelai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://novelai.net/terms/",
+      "select": " > div"
+    }
+  }
+}

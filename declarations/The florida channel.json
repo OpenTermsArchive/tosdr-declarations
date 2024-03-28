@@ -1,0 +1,17 @@
+{
+  "name": "The florida channel",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://thefloridachannel.org/termsofuse/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://thefloridachannel.org/privacy-policy/",
+      "select": "html > body > main > div > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://thefloridachannel.org/about-tfc/cookie-policy/",
+      "select": "html > body > main > div > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Maxio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://max.io/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://max.io/terms.html",
+      "select": "body"
+    }
+  }
+}

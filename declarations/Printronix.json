@@ -1,0 +1,13 @@
+{
+  "name": "Printronix",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.printronix.com/emea/legal-compliance/online-privacy-policy/",
+      "select": "html > body > div:first-of-type > div > main > section > div > div > div:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://printronix.com/emea/legal-compliance/",
+      "select": "html > body > div:first-of-type > div > main > section > div > div > div:nth-of-type(2)"
+    }
+  }
+}

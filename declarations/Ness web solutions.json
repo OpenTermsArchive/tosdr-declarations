@@ -1,0 +1,13 @@
+{
+  "name": "Ness web solutions",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nesswebsolutions.com/privacy-policy",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://nesswebsolutions.com/policies/cookie-policy-us",
+      "select": "body"
+    }
+  }
+}

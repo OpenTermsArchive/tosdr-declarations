@@ -1,0 +1,13 @@
+{
+  "name": "Esprit holdings",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.esprit.com/en/company/legal/privacy",
+      "select": "html > body > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.esprit.com/en/company/legal/terms-of-use",
+      "select": "html > body > main > div > div"
+    }
+  }
+}

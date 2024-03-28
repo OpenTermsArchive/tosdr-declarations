@@ -1,0 +1,13 @@
+{
+  "name": "Jsdelivr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-com",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.jsdelivr.com/terms/acceptable-use-policy-jsdelivr-net",
+      "select": "body"
+    }
+  }
+}

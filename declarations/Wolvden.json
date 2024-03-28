@@ -1,0 +1,13 @@
+{
+  "name": "Wolvden",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wolvden.com/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wolvden.com/privacy",
+      "select": null
+    }
+  }
+}

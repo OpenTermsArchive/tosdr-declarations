@@ -1,0 +1,17 @@
+{
+  "name": "Don pablo coffee",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://donpablocoffee.com/policies/shipping-policy ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.donpablocoffee.com/privacy-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://donpablocoffee.com/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

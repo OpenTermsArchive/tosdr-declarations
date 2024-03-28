@@ -1,0 +1,17 @@
+{
+  "name": "Tilia llc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tilia.io/legal/terms-of-service",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.tilia.io/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tilia.io/legal/privacy-policy",
+      "select": "body"
+    }
+  }
+}

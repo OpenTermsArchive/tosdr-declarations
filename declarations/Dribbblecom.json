@@ -1,0 +1,17 @@
+{
+  "name": "Dribbblecom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dribbble.com/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://dribbble.com/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dribbble.com/privacy",
+      "select": "body"
+    }
+  }
+}

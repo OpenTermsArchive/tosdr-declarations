@@ -1,0 +1,13 @@
+{
+  "name": "Bentkey",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bentkey.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bentkey.com/terms/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Beebom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://beebom.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > main > article > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Myir mobile",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://app.myirmobile.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://app.myirmobile.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

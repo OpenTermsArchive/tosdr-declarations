@@ -1,0 +1,13 @@
+{
+  "name": "Wordpressorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wordpress.org/about/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://wordpress.org/about/privacy/cookies/",
+      "select": "body"
+    }
+  }
+}

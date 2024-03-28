@@ -1,0 +1,17 @@
+{
+  "name": "Ben and holly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.benandholly.tv/terms-and-conditions/",
+      "select": "html > body > main > section > article > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.benandholly.tv/privacy-policy/",
+      "select": "html > body > main > section > article > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.benandholly.tv/cookie-policy/",
+      "select": "html > body > main > section > article > div > div > div"
+    }
+  }
+}

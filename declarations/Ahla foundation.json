@@ -1,0 +1,13 @@
+{
+  "name": "Ahla foundation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ahlafoundation.org/sites/default/files/2018-09/AHLEF%20Privacy%20Policy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ahlafoundation.org/sites/default/files/2018-09/AHLEF%20Terms%20of%20Use.pdf",
+      "select": "body"
+    }
+  }
+}

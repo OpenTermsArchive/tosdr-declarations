@@ -1,0 +1,13 @@
+{
+  "name": "Weekly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://weeklybudgeting.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.privacypolicies.com/privacy/view/6c2c1200579f8307c4080c7f9cd94723",
+      "select": "body"
+    }
+  }
+}

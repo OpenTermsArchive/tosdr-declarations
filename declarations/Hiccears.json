@@ -1,0 +1,17 @@
+{
+  "name": "Hiccears",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.hiccears.com/dmca.php",
+      "select": "html"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hiccears.com/terms-of-use.php",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hinow.tv/tos-link.html",
+      "select": "body"
+    }
+  }
+}

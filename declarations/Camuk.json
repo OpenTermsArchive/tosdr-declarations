@@ -1,0 +1,17 @@
+{
+  "name": "Camuk",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cam.ac.uk/about-this-site/terms-and-conditions?ucam-ref=global-footer",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cam.ac.uk/about-this-site/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.cam.ac.uk/about-this-site/cookies",
+      "select": null
+    }
+  }
+}

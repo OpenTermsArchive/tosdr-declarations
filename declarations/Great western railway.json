@@ -1,0 +1,13 @@
+{
+  "name": "Great western railway",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.gwr.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gwr.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

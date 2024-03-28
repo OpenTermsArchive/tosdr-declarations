@@ -1,0 +1,13 @@
+{
+  "name": "Visiplex",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.visiplex.com/terms-of-sale/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.visiplex.com/privacy/",
+      "select": "body"
+    }
+  }
+}

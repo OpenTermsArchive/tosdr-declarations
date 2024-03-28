@@ -1,0 +1,21 @@
+{
+  "name": "Historicone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://historic.one/privacy-policy",
+      "select": "html > body > main > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://historic.one/copyright",
+      "select": "html > body > main > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://historic.one/cookie-policy",
+      "select": "html > body > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://historic.one/tou ",
+      "select": "html > body > main > div"
+    }
+  }
+}

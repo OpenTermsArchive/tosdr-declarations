@@ -1,0 +1,13 @@
+{
+  "name": "Vitapurecbd",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vitapuredeals.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vitapuredeals.com/privacy",
+      "select": "body"
+    }
+  }
+}

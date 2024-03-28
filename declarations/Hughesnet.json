@@ -1,0 +1,13 @@
+{
+  "name": "Hughesnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://legal.hughesnet.com/PublicWebsitePrivacyPolicy.cfm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://legal.hughesnet.com/TermsOfUse.cfm",
+      "select": " > div > div > div > div:nth-of-type(2) > div > div > div > div > div"
+    }
+  }
+}

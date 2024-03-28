@@ -1,0 +1,13 @@
+{
+  "name": "Sharenow",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.share-now.com/share-now-terms-and-conditions-31-december-2023-austria-new%20version.pdf",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.share-now.com/de/en/legal/#privacy",
+      "select": "body"
+    }
+  }
+}

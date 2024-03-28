@@ -1,0 +1,13 @@
+{
+  "name": "Usko",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://uskoprivacy.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://uskoprivacy.com/privacy",
+      "select": "body"
+    }
+  }
+}

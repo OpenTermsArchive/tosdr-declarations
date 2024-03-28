@@ -1,0 +1,33 @@
+{
+  "name": "Sailpoint",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.sailpoint.com/wp-content/uploads/Software-as-a-Service-Agreement-EMEA-On-line-Version-20210212.pdf ",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sailpoint.com/legal/cookie-notice",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.sailpoint.com/pdf/?file=https://docs.sailpoint.com/wp-content/uploads/SaaS-Data-Security-Program-20190801.pdf",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://docs.sailpoint.com/pdf/?file=https://docs.sailpoint.com/wp-content/uploads/SailPoint-Mutual-Nondisclosure-Agreement-APAC-v02-05-2021.pdf",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://docs.sailpoint.com/pdf/?file=https://docs.sailpoint.com/wp-content/uploads/Platinum-Plus-Support-Supplement-10-23-2020.pdf",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://docs.sailpoint.com/pdf/?file=https://docs.sailpoint.com/wp-content/uploads/SailPoint-Support-and-Maintenance-Policy-for-SaaS-SW-v20200819.pdf",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.sailpoint.com/legal/modern-slavery-statement",
+      "select": "body"
+    }
+  }
+}

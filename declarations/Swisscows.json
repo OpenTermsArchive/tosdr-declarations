@@ -1,0 +1,9 @@
+{
+  "name": "Swisscows",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://swisscows.com/en/privacy",
+      "select": "body"
+    }
+  }
+}

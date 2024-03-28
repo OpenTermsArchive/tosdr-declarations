@@ -1,0 +1,9 @@
+{
+  "name": "Second baptist church",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.second.org/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > article > div > div > div:nth-of-type(4)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Spikeapp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.spikenow.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > main > article > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.spikenow.com/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div > main > article > section"
+    }
+  }
+}

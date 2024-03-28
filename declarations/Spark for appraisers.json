@@ -1,0 +1,13 @@
+{
+  "name": "Spark for appraisers",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://app.sparkforappraisers.com/termsandprivacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://app.sparkforappraisers.com/TermsOfService.pdf",
+      "select": "body"
+    }
+  }
+}

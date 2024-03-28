@@ -1,0 +1,13 @@
+{
+  "name": "Firedrum",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://firedrumemailmarketing.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div > article > div > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://firedrumemailmarketing.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Zhihu",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.zhihu.com/term/zhihu-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.zhihu.com/term/privacy",
+      "select": "body"
+    }
+  }
+}

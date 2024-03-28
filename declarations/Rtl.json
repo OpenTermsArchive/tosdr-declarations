@@ -1,0 +1,13 @@
+{
+  "name": "Rtl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rtlplay.be/politique-de-confidentialite/mes-informations-personnelles",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.rtlbelgium.be/politique-en-matiere-de-cookies/",
+      "select": "body"
+    }
+  }
+}

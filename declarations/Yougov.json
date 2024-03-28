@@ -1,0 +1,13 @@
+{
+  "name": "Yougov",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://account.yougov.com/gb-en/account/privacy-policy",
+      "select": "html > body > yg-root > main > yg-privacy-policy-con > section > div > yg-remote-document > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://account.yougov.com/gb-en/account/terms-and-conditions",
+      "select": "html > body > yg-root > main > yg-terms-and-conditio > section > div > yg-remote-document > div:nth-of-type(2)"
+    }
+  }
+}

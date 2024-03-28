@@ -1,0 +1,17 @@
+{
+  "name": "National theatre",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.nationaltheatre.org.uk/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nationaltheatre.org.uk/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nationaltheatre.org.uk/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Optimum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.optimum.net/pages/financial-privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.optimum.net/pages/Terms/WebDVR.html",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.optimum.net/pages/Paperless-Billing-Terms-and-Conditions.html",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.optimum.net/pages/Privacy/AUP.html",
+      "select": "body"
+    }
+  }
+}

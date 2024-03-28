@@ -1,0 +1,13 @@
+{
+  "name": "Medicareregistrationorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.medicare-registration.org/terms-of-use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.medicare-registration.org/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

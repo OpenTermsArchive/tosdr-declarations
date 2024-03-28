@@ -1,0 +1,9 @@
+{
+  "name": "Yieldlift",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://yieldlift.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

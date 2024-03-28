@@ -1,0 +1,17 @@
+{
+  "name": "Ebaums world",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.ebaumsworld.com/pages/dmca/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ebaumsworld.com/pages/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ebaumsworld.com/pages/privacy/",
+      "select": "body"
+    }
+  }
+}

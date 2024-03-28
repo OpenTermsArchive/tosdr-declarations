@@ -1,0 +1,13 @@
+{
+  "name": "Danish design center",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ddc.dk/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > div > section:first-of-type > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://ddc.dk/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

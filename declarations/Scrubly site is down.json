@@ -1,0 +1,13 @@
+{
+  "name": "Scrubly site is down",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.scrubly.com/info/terms",
+      "select": "div.features"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.scrubly.com/info/privacy",
+      "select": "div.features"
+    }
+  }
+}

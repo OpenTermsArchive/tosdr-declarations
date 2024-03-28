@@ -1,0 +1,9 @@
+{
+  "name": "Spinonline",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://spinonline.se/?s=14",
+      "select": "body"
+    }
+  }
+}

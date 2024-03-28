@@ -1,0 +1,13 @@
+{
+  "name": "Protonvpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://protonvpn.com/support/no-logs-vpn/",
+      "select": "html > body > div:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://protonvpn.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

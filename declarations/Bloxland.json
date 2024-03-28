@@ -1,0 +1,17 @@
+{
+  "name": "Bloxland",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://blox.land/return-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://blox.land/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://blox.land/privacy-policy",
+      "select": "body"
+    }
+  }
+}

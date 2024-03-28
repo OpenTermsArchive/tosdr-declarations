@@ -1,0 +1,13 @@
+{
+  "name": "Rick steves europe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ricksteves.com/about-us/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ricksteves.com/about-us/terms-of-service",
+      "select": "body"
+    }
+  }
+}

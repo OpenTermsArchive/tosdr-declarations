@@ -1,0 +1,9 @@
+{
+  "name": "Webnode",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.webnode.co.uk/privacy-policy/?manualLanguageChange=1",
+      "select": "body"
+    }
+  }
+}

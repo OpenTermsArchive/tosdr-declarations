@@ -1,0 +1,13 @@
+{
+  "name": "Playitgg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://playit.gg/privacy-policy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://playit.gg/dmca-policy",
+      "select": "body"
+    }
+  }
+}

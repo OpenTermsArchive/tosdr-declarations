@@ -1,0 +1,9 @@
+{
+  "name": "Qurancom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://quran.com/privacy",
+      "select": "html > body > main > div"
+    }
+  }
+}

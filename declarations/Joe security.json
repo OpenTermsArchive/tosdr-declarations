@@ -1,0 +1,13 @@
+{
+  "name": "Joe security",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.joesandbox.com/tandc",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.joesandbox.com/pdpp",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Hbo max",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hbomax.com/privacy",
+      "select": "html > body > div:first-of-type > article > section:nth-of-type(15) > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hbomax.com/terms-of-use",
+      "select": "html > body > div:first-of-type > article > section:nth-of-type(2) > div > div > div > div > div"
+    }
+  }
+}

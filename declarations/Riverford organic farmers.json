@@ -1,0 +1,17 @@
+{
+  "name": "Riverford organic farmers",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.riverford.co.uk/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://media.riverford.co.uk/downloads/Cookie+Policy+2021-10-05.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.riverford.co.uk/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

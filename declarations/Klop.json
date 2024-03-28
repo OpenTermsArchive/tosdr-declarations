@@ -1,0 +1,13 @@
+{
+  "name": "Klop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://drive.klop.me/page/tos.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://drive.klop.me/page/privacy.php",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Workupload",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://workupload.com/legal/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://workupload.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

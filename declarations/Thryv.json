@@ -1,0 +1,13 @@
+{
+  "name": "Thryv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thryv.com/thryv-terms/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.thryv.com/privacy/",
+      "select": "body"
+    }
+  }
+}

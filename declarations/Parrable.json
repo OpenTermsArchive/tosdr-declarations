@@ -1,0 +1,9 @@
+{
+  "name": "Parrable",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.parrable.com/privacy-policy/general/",
+      "select": "html > body > div:first-of-type > div > div > section:nth-of-type(4)"
+    }
+  }
+}

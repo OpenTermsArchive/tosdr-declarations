@@ -1,0 +1,13 @@
+{
+  "name": "Bricklink",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bricklink.com/v3/terms_of_service.page",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bricklink.com/v3/privacy_policy.page",
+      "select": "body"
+    }
+  }
+}

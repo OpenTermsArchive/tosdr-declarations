@@ -1,0 +1,9 @@
+{
+  "name": "Contentkeeper",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.contentkeeper.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

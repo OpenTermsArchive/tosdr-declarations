@@ -1,0 +1,13 @@
+{
+  "name": "Feishu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.feishu.cn/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.feishu.cn/terms",
+      "select": "body"
+    }
+  }
+}

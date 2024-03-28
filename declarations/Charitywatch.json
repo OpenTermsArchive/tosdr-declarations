@@ -1,0 +1,9 @@
+{
+  "name": "Charitywatch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.charitywatch.org/privacy-tos#Privacy_Policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4) > main > div:first-of-type > div:nth-of-type(2) > section > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "All the internet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.alltheinternet.com/?area=privacy",
+      "select": "html > body > div:nth-of-type(7)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.alltheinternet.com/?area=terms",
+      "select": "html > body > div:nth-of-type(7)"
+    }
+  }
+}

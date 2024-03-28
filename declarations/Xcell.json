@@ -1,0 +1,17 @@
+{
+  "name": "Xcell",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.xcellme.com/shipping-and-returns/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.xcellme.com/the-privacy-policy/ ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.xcellme.com/terms-and-conditions/",
+      "select": null
+    }
+  }
+}

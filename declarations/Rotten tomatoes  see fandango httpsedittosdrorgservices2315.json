@@ -1,0 +1,9 @@
+{
+  "name": "Rotten tomatoes  see fandango httpsedittosdrorgservices2315",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fandango.com/policies/terms-and-policies",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Steam gifts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.steamgifts.com/legal/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.steamgifts.com/legal/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.steamgifts.com/legal/terms-of-service",
+      "select": "body"
+    }
+  }
+}

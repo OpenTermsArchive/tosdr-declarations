@@ -1,0 +1,9 @@
+{
+  "name": "Rimol greenhouse systems",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rimolgreenhouses.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

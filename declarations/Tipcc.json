@@ -1,0 +1,13 @@
+{
+  "name": "Tipcc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tip.cc/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tip.cc/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > div:first-of-type > section"
+    }
+  }
+}

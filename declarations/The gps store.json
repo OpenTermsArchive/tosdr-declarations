@@ -1,0 +1,9 @@
+{
+  "name": "The gps store",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thegpsstore.com/help/privacy-security.aspx",
+      "select": "body"
+    }
+  }
+}

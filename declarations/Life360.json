@@ -1,0 +1,13 @@
+{
+  "name": "Life360",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://life360-legal.zendesk.com/hc/en-us/articles/16124856472471-Terms-of-Use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://life360-legal.zendesk.com/hc/en-us/articles/16038777217175-Life360-Privacy-Cookie-Policy",
+      "select": null
+    }
+  }
+}

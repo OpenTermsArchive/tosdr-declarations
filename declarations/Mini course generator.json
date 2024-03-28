@@ -1,0 +1,21 @@
+{
+  "name": "Mini course generator",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://share.minicoursegenerator.com/87FZmqQTKUSwvrkjA32vgQ/1",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://share.minicoursegenerator.com/moW-8ExnpU6OpijWBwFIww/1",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://share.minicoursegenerator.com/GY8hJvUO4UGp3QIYQL1hVQ/1",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://share.minicoursegenerator.com/65wQiJLNuU-eX2Ki_wNkhg/1",
+      "select": "body"
+    }
+  }
+}

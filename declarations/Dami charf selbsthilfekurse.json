@@ -1,0 +1,9 @@
+{
+  "name": "Dami charf selbsthilfekurse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://damicharf.com/datenschutzerklaerung/",
+      "select": "body"
+    }
+  }
+}

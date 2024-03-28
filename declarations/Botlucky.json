@@ -1,0 +1,17 @@
+{
+  "name": "Botlucky",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://botlucky.com/community/help/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://botlucky.com/community/help/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://botlucky.com/community/help/cookies/",
+      "select": "body"
+    }
+  }
+}

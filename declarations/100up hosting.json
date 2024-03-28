@@ -1,0 +1,13 @@
+{
+  "name": "100up hosting",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://100up.org/privacypolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://100up.org/tos",
+      "select": "body"
+    }
+  }
+}

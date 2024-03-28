@@ -1,0 +1,13 @@
+{
+  "name": "Swisspass",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.swisspass.ch/dataprotection",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.swisspass.ch/legalnotice",
+      "select": "body"
+    }
+  }
+}

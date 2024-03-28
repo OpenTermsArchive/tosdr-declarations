@@ -1,0 +1,9 @@
+{
+  "name": "Sip2sip",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sip2sip.info/privacy/",
+      "select": "body"
+    }
+  }
+}

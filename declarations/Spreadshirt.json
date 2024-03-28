@@ -1,0 +1,13 @@
+{
+  "name": "Spreadshirt",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://service.spreadshirt.com/hc/en-us/articles/115000991325",
+      "select": "html > body > main > article > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://service.spreadshirt.com/hc/en-us/articles/115000978409/?shop_name=techmanpat&shop_id=100590805&platform=na",
+      "select": null
+    }
+  }
+}

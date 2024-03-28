@@ -1,0 +1,13 @@
+{
+  "name": "Imasse",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.imasse.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.Imasse.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Nasco education",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.nascoeducation.com/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nascoeducation.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nascoeducation.com/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

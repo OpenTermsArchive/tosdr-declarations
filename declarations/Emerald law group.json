@@ -1,0 +1,9 @@
+{
+  "name": "Emerald law group",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://emeraldlawgroup.com/legal-terms/",
+      "select": "html > body > section:nth-of-type(3) > div > div > div:first-of-type"
+    }
+  }
+}

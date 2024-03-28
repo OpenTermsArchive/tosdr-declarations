@@ -1,0 +1,13 @@
+{
+  "name": "Befunky",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.befunky.com/terms/",
+      "select": "html > body > div:nth-of-type(4) > main > section > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.befunky.com/privacy/",
+      "select": "html > body > div:nth-of-type(4) > main > section > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Quality behavioral solutions to complex behavior problems",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://qbs.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > article > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://qbs.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > article > div > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Navy federal credit union",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.navyfederal.org/policy/privacy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.navyfederal.org/content/dam/nfculibs/pdfs/membership/nfcu_652a_nfo.pdf",
+      "select": "body"
+    }
+  }
+}

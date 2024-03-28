@@ -1,0 +1,17 @@
+{
+  "name": "Schoolcare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.schoolcare.co.uk/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.schoolcare.co.uk/terms-and-conditions/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > section"
+    },
+    "Legal Information": {
+      "fetch": "https://www.schoolcare.co.uk/newsletter-terms-and-conditions/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > section"
+    }
+  }
+}

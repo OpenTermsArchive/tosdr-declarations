@@ -1,0 +1,21 @@
+{
+  "name": "Gen mobile",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.genmobile.com/pages/terms",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.genmobile.com/pages/limitations-on-911-emergency-services",
+      "select": "body"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.genmobile.com/pages/law-enforcement",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.genmobile.com/pages/consumer-policies",
+      "select": "html > body > div:nth-of-type(4) > div"
+    }
+  }
+}

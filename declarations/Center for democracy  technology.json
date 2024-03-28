@@ -1,0 +1,9 @@
+{
+  "name": "Center for democracy  technology",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cdt.org/privacypolicy/",
+      "select": "body"
+    }
+  }
+}

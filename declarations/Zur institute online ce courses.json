@@ -1,0 +1,9 @@
+{
+  "name": "Zur institute online ce courses",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.zurinstitute.com/privacy-disclaimer-terms-of-use-dmca/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Rate house",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rate.house/legal",
+      "select": "body"
+    }
+  }
+}

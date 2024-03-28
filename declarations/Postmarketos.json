@@ -1,0 +1,17 @@
+{
+  "name": "Postmarketos",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://postmarketos.org/coc/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wiki.postmarketos.org/wiki/PostmarketOS:Terms_of_Service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://postmarketos.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

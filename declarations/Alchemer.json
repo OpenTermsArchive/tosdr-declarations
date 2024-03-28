@@ -1,0 +1,13 @@
+{
+  "name": "Alchemer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.alchemer.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.alchemer.com/terms/",
+      "select": "body"
+    }
+  }
+}

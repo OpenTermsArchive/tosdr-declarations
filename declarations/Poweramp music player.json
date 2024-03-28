@@ -1,0 +1,9 @@
+{
+  "name": "Poweramp music player",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/8016901/full-legal",
+      "select": "body"
+    }
+  }
+}

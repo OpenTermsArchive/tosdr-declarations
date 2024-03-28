@@ -1,0 +1,13 @@
+{
+  "name": "Flexbooker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.flexbooker.com/privacy-policy/",
+      "select": "html > body > main > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.flexbooker.com/terms-of-use/",
+      "select": "html > body > main > section"
+    }
+  }
+}

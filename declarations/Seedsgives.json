@@ -1,0 +1,9 @@
+{
+  "name": "Seedsgives",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.seedsgives.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

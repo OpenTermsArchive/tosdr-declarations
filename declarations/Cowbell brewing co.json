@@ -1,0 +1,9 @@
+{
+  "name": "Cowbell brewing co",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://cowbellbrewing.com/pages/faq",
+      "select": "body"
+    }
+  }
+}

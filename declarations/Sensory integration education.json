@@ -1,0 +1,13 @@
+{
+  "name": "Sensory integration education",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sensoryintegrationeducation.com/pages/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sensoryintegrationeducation.com/pages/terms",
+      "select": "body"
+    }
+  }
+}

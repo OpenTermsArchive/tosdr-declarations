@@ -1,0 +1,13 @@
+{
+  "name": "Okeio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://oke.io/pages/privacy",
+      "select": "html > body > section:nth-of-type(3) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://oke.io/pages/terms",
+      "select": "html > body > section:nth-of-type(3) > div > div > div > div"
+    }
+  }
+}

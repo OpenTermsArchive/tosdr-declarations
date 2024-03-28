@@ -1,0 +1,9 @@
+{
+  "name": "Swedish committee against antisemitism",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://skma.se/om/var-personuppgiftspolicy-gdpr/",
+      "select": "body"
+    }
+  }
+}

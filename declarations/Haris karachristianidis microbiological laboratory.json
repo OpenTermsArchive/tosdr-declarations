@@ -1,0 +1,9 @@
+{
+  "name": "Haris karachristianidis microbiological laboratory",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mikroviologos.gr/politiki-aporritou",
+      "select": null
+    }
+  }
+}

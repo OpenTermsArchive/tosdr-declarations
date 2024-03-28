@@ -1,0 +1,17 @@
+{
+  "name": "Lagardere travel retail",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lagardere-tr.com/en/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.lagardere-tr.com/en/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lagardere-tr.com/en/terms-of-use",
+      "select": "body"
+    }
+  }
+}

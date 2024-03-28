@@ -1,0 +1,9 @@
+{
+  "name": "Mcjoe21",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mcjoe21.com/privacy",
+      "select": "body"
+    }
+  }
+}

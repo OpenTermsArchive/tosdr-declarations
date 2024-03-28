@@ -1,0 +1,17 @@
+{
+  "name": "Multilogin software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://multilogin.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > main > div:nth-of-type(2)"
+    },
+    "Policy": {
+      "fetch": "https://multilogin.com/kyc-policy",
+      "select": "html > body > div:nth-of-type(2) > div > main > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://multilogin.com/terms-of-service",
+      "select": "html > body > div:nth-of-type(2) > div > main > div:nth-of-type(2)"
+    }
+  }
+}

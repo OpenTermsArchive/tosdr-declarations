@@ -1,0 +1,17 @@
+{
+  "name": "Seekingcrushcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://seekingcrush.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://seekingcrush.com/agreement",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://seekingcrush.com/cookie",
+      "select": "body"
+    }
+  }
+}

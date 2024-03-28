@@ -1,0 +1,9 @@
+{
+  "name": "Klc consulting cybersecurity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://klcconsulting.net/contact/privacy-security-statement/",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div > div"
+    }
+  }
+}

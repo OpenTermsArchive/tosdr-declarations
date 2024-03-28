@@ -1,0 +1,9 @@
+{
+  "name": "Red hat",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.redhat.com/en/about/red-hat-training-policies",
+      "select": "body"
+    }
+  }
+}

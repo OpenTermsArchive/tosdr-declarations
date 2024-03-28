@@ -1,0 +1,17 @@
+{
+  "name": "Path of exile",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pathofexile.com/legal/terms-of-use-and-privacy-policy",
+      "select": ".content div.terms-of-use > ol:first-of-type"
+    },
+    "Legal Information": {
+      "fetch": "https://www.pathofexile.com/legal/terms-of-use-and-privacy-policy",
+      "select": ".content div.terms-of-use > ol:nth-of-type(3)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.pathofexile.com/legal/terms-of-use-and-privacy-policy",
+      "select": ".content div.terms-of-use > ol:nth-of-type(4)"
+    }
+  }
+}

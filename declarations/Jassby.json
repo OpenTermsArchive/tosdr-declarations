@@ -1,0 +1,13 @@
+{
+  "name": "Jassby",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://documents.jassby.com/docs/terms.pdf#toolbar=0&navpanes=0&scrollbar=0",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://documents.jassby.com/docs/web_privacy.pdf#toolbar=0&navpanes=0&scrollbar=0",
+      "select": "body"
+    }
+  }
+}

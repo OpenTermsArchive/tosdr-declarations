@@ -1,0 +1,9 @@
+{
+  "name": "Authorea",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://authorea.com/terms",
+      "select": null
+    }
+  }
+}

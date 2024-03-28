@@ -1,0 +1,13 @@
+{
+  "name": "Metro richelieu inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.metro.ca/en/protection-of-personal-information",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.metro.ca/en/conditions-of-use",
+      "select": "body"
+    }
+  }
+}

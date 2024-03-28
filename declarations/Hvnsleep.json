@@ -1,0 +1,13 @@
+{
+  "name": "Hvnsleep",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.buyhvnsleep.com/snoreclip/en/terms-trial.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.buyhvnsleep.com/snoreclip/en/policy.html",
+      "select": null
+    }
+  }
+}

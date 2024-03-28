@@ -1,0 +1,9 @@
+{
+  "name": "Equalitie",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://equalit.ie/privacy-policy",
+      "select": null
+    }
+  }
+}

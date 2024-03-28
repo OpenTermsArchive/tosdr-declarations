@@ -1,0 +1,13 @@
+{
+  "name": "Dealdash",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.dealdash.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.dealdash.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

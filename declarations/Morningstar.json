@@ -1,0 +1,17 @@
+{
+  "name": "Morningstar",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.morningstar.com/company/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.morningstar.com/company/privacy-policy/cookie",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.morningstar.com/user-agreement",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Marco polo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.marcopolo.me/privacy-policy/",
+      "select": " > div > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.marcopolo.me/terms/",
+      "select": "html > body > div:first-of-type > div > main > div"
+    }
+  }
+}

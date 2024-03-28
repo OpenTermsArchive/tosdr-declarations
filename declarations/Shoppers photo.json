@@ -1,0 +1,13 @@
+{
+  "name": "Shoppers photo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.shoppersphoto.ca/en-CA/Home/Terms",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.loblaw.ca/en/privacy-policy/",
+      "select": "html > body > div > main > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

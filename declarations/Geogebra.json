@@ -1,0 +1,13 @@
+{
+  "name": "Geogebra",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.geogebra.org/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.geogebra.org/tos",
+      "select": "body"
+    }
+  }
+}

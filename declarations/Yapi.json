@@ -1,0 +1,13 @@
+{
+  "name": "Yapi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yapiapp.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://yapiapp.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

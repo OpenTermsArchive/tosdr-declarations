@@ -1,0 +1,13 @@
+{
+  "name": "Designrr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://designrr.io/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://designrr.io/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    }
+  }
+}

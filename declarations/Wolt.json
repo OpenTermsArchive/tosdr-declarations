@@ -1,0 +1,13 @@
+{
+  "name": "Wolt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://explore.wolt.com/en/fin/privacy",
+      "select": " > div:nth-of-type(2) > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://explore.wolt.com/en/fin/terms",
+      "select": "html > body > div > div:nth-of-type(2) > div > main > section:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Artcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.art.com/help/terms-and-conditions.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.art.com/help/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

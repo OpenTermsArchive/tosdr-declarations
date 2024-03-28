@@ -1,0 +1,13 @@
+{
+  "name": "Deflect",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://deflect.ca/tos/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://deflect.ca/privacy-notice/",
+      "select": "body"
+    }
+  }
+}

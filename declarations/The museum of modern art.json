@@ -1,0 +1,9 @@
+{
+  "name": "The museum of modern art",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.moma.org/about/about-this-site/",
+      "select": "html > body > main > section:nth-of-type(3) > div:nth-of-type(2) > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Jontv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jontv.me/legal/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://jontv.me/legal/rules.html",
+      "select": "body"
+    }
+  }
+}

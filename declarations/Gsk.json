@@ -1,0 +1,17 @@
+{
+  "name": "Gsk",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://us.gsk.com/en-us/legal-notices/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.gsk.com/en-gb/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gsk.com/en-gb/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

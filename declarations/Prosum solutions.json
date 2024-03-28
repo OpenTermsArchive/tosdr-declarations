@@ -1,0 +1,9 @@
+{
+  "name": "Prosum solutions",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://prosum-solutions.store/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

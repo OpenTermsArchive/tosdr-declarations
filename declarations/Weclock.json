@@ -1,0 +1,9 @@
+{
+  "name": "Weclock",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://weclock.it/data-privacy/",
+      "select": "body"
+    }
+  }
+}

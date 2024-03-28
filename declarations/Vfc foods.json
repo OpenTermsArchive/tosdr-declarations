@@ -1,0 +1,13 @@
+{
+  "name": "Vfc foods",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vfcfoods.com/en-us/legal-information/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vfcfoods.com/privacy/",
+      "select": "body"
+    }
+  }
+}

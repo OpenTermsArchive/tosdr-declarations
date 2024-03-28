@@ -1,0 +1,13 @@
+{
+  "name": "Codecheck",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://codecheck-app.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://codecheck-app.com/terms-of-use/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Templatesearchorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://templatesearch.org/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://templatesearch.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Cleanshot cloud",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cleanshot.cloud/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cleanshot.cloud/privacy",
+      "select": "body"
+    }
+  }
+}

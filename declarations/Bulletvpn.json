@@ -1,0 +1,17 @@
+{
+  "name": "Bulletvpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bulletvpn.net/bulletvpn-terms-of-use/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://bulletvpn.net/bulletvpn-cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bulletvpn.net/bulletvpn-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

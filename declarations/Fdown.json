@@ -1,0 +1,13 @@
+{
+  "name": "Fdown",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fdown.net/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fdown.net/privacy.php",
+      "select": "body"
+    }
+  }
+}

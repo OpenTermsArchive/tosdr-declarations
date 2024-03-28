@@ -1,0 +1,9 @@
+{
+  "name": "Gousa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.gousa.tw/info/privacy-policy",
+      "select": " > article > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

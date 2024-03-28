@@ -1,0 +1,25 @@
+{
+  "name": "Compass education",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sites.google.com/compass.education/policies/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:first-of-type > section:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Policy": {
+      "fetch": "https://policies.compass.education/transitions-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:first-of-type > section:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://sites.google.com/compass.education/policies/cookie-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:first-of-type > section:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://policies.compass.education/copyright-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:first-of-type > section:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sites.google.com/compass.education/policies/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div:first-of-type > section:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

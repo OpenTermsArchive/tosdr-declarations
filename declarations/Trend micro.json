@@ -1,0 +1,17 @@
+{
+  "name": "Trend micro",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.trendmicro.com/en_us/about/legal.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.trendmicro.com/content/dam/trendmicro/global/en/about/legal/cookie-notice/en-english-multicountry-cookie-notice.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.trendmicro.com/content/dam/trendmicro/global/en/about/legal/license-agreements/nabu-c/en-english-mulitcountry-consumer-eula.pdf",
+      "select": "body"
+    }
+  }
+}

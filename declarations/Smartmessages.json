@@ -1,0 +1,13 @@
+{
+  "name": "Smartmessages",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://info.smartmessages.net/terms-conditions/",
+      "select": "html > body > div:first-of-type > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.smartmessages.net/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Xesto",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.xesto.io/privacy",
+      "select": "body"
+    }
+  }
+}

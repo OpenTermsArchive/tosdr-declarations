@@ -1,0 +1,13 @@
+{
+  "name": "Study website by vedantu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vedantu.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vedantu.com/tnc",
+      "select": "body"
+    }
+  }
+}

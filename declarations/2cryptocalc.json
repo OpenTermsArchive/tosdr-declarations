@@ -1,0 +1,13 @@
+{
+  "name": "2cryptocalc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://2cryptocalc.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://2cryptocalc.com/policy",
+      "select": "body"
+    }
+  }
+}

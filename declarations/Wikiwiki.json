@@ -1,0 +1,9 @@
+{
+  "name": "Wikiwiki",
+  "documents": {
+    "Policy": {
+      "fetch": "https://wikiwiki.jp/pp/policies",
+      "select": "html > body > div > div > div > div > main > article > div"
+    }
+  }
+}

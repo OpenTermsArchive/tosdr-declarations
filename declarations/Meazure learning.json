@@ -1,0 +1,13 @@
+{
+  "name": "Meazure learning",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.meazurelearning.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.meazurelearning.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

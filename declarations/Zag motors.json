@@ -1,0 +1,9 @@
+{
+  "name": "Zag motors",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zagmotors.com/privacy-policy",
+      "select": "html > body > form > main > div > div"
+    }
+  }
+}

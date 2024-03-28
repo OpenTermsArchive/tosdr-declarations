@@ -1,0 +1,9 @@
+{
+  "name": "Petco",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.petco.com/content/petco/PetcoStore/en_US/pet-services/terms-of-use.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Securewifiworks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.securewifiworks.com/policies/privacy-policy.asp",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.securewifiworks.com/policies/legal.asp",
+      "select": "body"
+    }
+  }
+}

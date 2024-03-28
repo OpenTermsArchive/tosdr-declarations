@@ -1,0 +1,17 @@
+{
+  "name": "Privatemail",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://privatemail.com/terms.php",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privatemail.com/privacy.php",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://privatemail.com/dmca.php",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

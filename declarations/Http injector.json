@@ -1,0 +1,13 @@
+{
+  "name": "Http injector",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://httpinjector.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://httpinjector.com/terms",
+      "select": "body"
+    }
+  }
+}

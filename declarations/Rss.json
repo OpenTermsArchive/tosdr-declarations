@@ -1,0 +1,17 @@
+{
+  "name": "Rss",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rss.com/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://rss.com/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://rss.com/terms-of-service/",
+      "select": "rss > terms-of-service"
+    }
+  }
+}

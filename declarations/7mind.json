@@ -1,0 +1,13 @@
+{
+  "name": "7mind",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.7mind.de/agb",
+      "select": "html > body > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.7mind.de/datenschutz",
+      "select": "body"
+    }
+  }
+}

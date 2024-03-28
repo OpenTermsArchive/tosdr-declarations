@@ -1,0 +1,13 @@
+{
+  "name": "Solarimpulse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://solarimpulse.com/pdf/Solar_Impulse_Foundation_Website_Privacy_Policy_10.2017.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://solarimpulse.com/pdf/Solar_Impulse_Foundation_Website_Terms_and_Conditions_10.2017.pdf",
+      "select": "body"
+    }
+  }
+}

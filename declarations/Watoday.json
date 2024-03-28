@@ -1,0 +1,13 @@
+{
+  "name": "Watoday",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.watoday.com.au/conditions-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.watoday.com.au/privacy",
+      "select": "body"
+    }
+  }
+}

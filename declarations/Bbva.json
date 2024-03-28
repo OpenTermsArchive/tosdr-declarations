@@ -1,0 +1,17 @@
+{
+  "name": "Bbva",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.bbva.com/en/cookies-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bbva.com/en/personal-data-protection-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bbva.com/en/legal-notice/",
+      "select": "body"
+    }
+  }
+}

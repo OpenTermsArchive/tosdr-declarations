@@ -1,0 +1,21 @@
+{
+  "name": "Slickvpn",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.slickvpn.com/export-control-policy/",
+      "select": "html > body > div > main > div:first-of-type"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.slickvpn.com/refund-policy/",
+      "select": "html > body > div > main > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.slickvpn.com/privacy-policy/",
+      "select": "html > body > div > main > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.slickvpn.com/terms-and-conditions/",
+      "select": "html > body > div > main > div:first-of-type"
+    }
+  }
+}

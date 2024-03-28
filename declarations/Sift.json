@@ -1,0 +1,21 @@
+{
+  "name": "Sift",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://sift.com/cookie-policy",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://sift.com/aup",
+      "select": "html > body > div:first-of-type > main > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://sift.com/site-privacy",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://sift.com/tos",
+      "select": "html > body > div:first-of-type > main > div > div:first-of-type"
+    }
+  }
+}

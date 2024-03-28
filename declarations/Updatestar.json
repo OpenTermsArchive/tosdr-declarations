@@ -1,0 +1,9 @@
+{
+  "name": "Updatestar",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://client.updatestar.com/en/privacy",
+      "select": "html > body > center > table > tbody > tr:nth-of-type(4) > td > div > table > tbody > tr > td:nth-of-type(2) > div"
+    }
+  }
+}

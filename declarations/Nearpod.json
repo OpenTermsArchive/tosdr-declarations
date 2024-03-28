@@ -1,0 +1,13 @@
+{
+  "name": "Nearpod",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nearpod.zendesk.com/hc/en-us/articles/360049188592",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.google.com/document/d/11yLpYfsVW7f2Iwsf1ziLyTSt0qohMBrXM-2rHPYbI8c/edit#",
+      "select": "body"
+    }
+  }
+}

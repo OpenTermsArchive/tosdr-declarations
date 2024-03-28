@@ -1,0 +1,17 @@
+{
+  "name": "Ifastnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ifastnet.com/privacy.php",
+      "select": "html > body > div:first-of-type > div > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://ifastnet.com/terms.php",
+      "select": "html > body > div:first-of-type > div > section:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://ifastnet.com/cancellation-refund.php",
+      "select": "body"
+    }
+  }
+}

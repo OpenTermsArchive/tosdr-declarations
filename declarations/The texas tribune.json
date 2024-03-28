@@ -1,0 +1,13 @@
+{
+  "name": "The texas tribune",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.texastribune.org/about/privacy-policy/",
+      "select": "html > body > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.texastribune.org/about/terms-of-service/",
+      "select": "html > body > div:nth-of-type(4)"
+    }
+  }
+}

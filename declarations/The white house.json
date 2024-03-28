@@ -1,0 +1,13 @@
+{
+  "name": "The white house",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.whitehouse.gov/privacy/",
+      "select": "html > body > div:nth-of-type(3) > main > article"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.whitehouse.gov/copyright/",
+      "select": "html > body > div:nth-of-type(3) > main > article"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Altria",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.altria.com/terms-of-use",
+      "select": "html > body > div:first-of-type > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.altria.com/privacy",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Knowledgeowl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.knowledgeowl.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.knowledgeowl.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.knowledgeowl.com/cookie-declaration/",
+      "select": "body"
+    }
+  }
+}

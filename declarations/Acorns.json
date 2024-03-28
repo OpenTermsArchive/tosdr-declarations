@@ -1,0 +1,21 @@
+{
+  "name": "Acorns",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.acorns.com/privacy",
+      "select": "body"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://www.acorns.com/documents-plain/programagreement04122023/",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.acorns.com/documents-plain/eft-agreement-05022018/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.acorns.com/terms",
+      "select": "body"
+    }
+  }
+}

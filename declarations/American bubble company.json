@@ -1,0 +1,17 @@
+{
+  "name": "American bubble company",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://bubbletreeusa.com/pages/returns",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://bubbletreeusa.com/pages/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bubbletreeusa.com/pages/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    }
+  }
+}

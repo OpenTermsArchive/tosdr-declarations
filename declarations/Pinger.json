@@ -1,0 +1,13 @@
+{
+  "name": "Pinger",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pinger.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pinger.com/privacy-policy/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

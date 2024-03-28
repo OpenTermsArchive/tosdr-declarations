@@ -1,0 +1,9 @@
+{
+  "name": "Fairwinds",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fairwinds.org/inside-fairwinds/fraud-protection-center/privacy/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    }
+  }
+}

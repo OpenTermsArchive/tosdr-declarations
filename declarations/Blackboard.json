@@ -1,0 +1,21 @@
+{
+  "name": "Blackboard",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://help.blackboard.com/CA_Privacy_Notice",
+      "select": "html > body > div:first-of-type > div > main > div > div:first-of-type > div:nth-of-type(19) > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.blackboard.com/Privacy_Statement/Whats_New",
+      "select": "html > body > div:first-of-type > div > main > div > div:first-of-type > div:nth-of-type(19) > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.blackboard.com/Terms_of_Use",
+      "select": "html > body > div:first-of-type > div > main > div > div:first-of-type > div:nth-of-type(19) > article > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.blackboard.com/Cookie_Statement",
+      "select": "html > body > div:first-of-type > div > main > div > div:first-of-type > div:nth-of-type(19) > article > div > div > div"
+    }
+  }
+}

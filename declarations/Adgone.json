@@ -1,0 +1,13 @@
+{
+  "name": "Adgone",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://adgone.org/adblocker/refundpolicy",
+      "select": "html > body > div:first-of-type > main > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://adgone.org/adblocker/privacy",
+      "select": "body"
+    }
+  }
+}

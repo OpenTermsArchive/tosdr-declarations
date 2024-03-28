@@ -1,0 +1,13 @@
+{
+  "name": "Myappfree",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://universal.myappfree.it/pages/terms.htm",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.myappfree.com/en/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(2) > div > div"
+    }
+  }
+}

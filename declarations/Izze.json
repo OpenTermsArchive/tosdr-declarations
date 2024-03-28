@@ -1,0 +1,13 @@
+{
+  "name": "Izze",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policy.izze.com/privacy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.izze.com/pages/terms-conditions",
+      "select": "body"
+    }
+  }
+}

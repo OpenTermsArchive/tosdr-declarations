@@ -1,0 +1,9 @@
+{
+  "name": "Boggins",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://boggins.org/privacy-policy",
+      "select": null
+    }
+  }
+}

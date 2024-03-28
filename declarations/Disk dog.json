@@ -1,0 +1,13 @@
+{
+  "name": "Disk dog",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.disk.dog/legal/tos",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.disk.dog/legal/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div > div:first-of-type"
+    }
+  }
+}

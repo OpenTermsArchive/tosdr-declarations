@@ -1,0 +1,17 @@
+{
+  "name": "Prager university",
+  "documents": {
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.prageru.com/state-disclosures/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.prageru.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.prageru.com/terms/",
+      "select": "body"
+    }
+  }
+}

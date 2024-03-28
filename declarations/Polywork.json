@@ -1,0 +1,13 @@
+{
+  "name": "Polywork",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.polywork.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.polywork.com/terms",
+      "select": "body"
+    }
+  }
+}

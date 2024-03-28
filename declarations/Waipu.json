@@ -1,0 +1,13 @@
+{
+  "name": "Waipu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://customer-registration.waipu.tv/ui/dse",
+      "select": "html > body > div:first-of-type > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://customer-registration.waipu.tv/ui/agb",
+      "select": "body"
+    }
+  }
+}

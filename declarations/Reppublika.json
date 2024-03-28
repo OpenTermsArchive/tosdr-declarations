@@ -1,0 +1,9 @@
+{
+  "name": "Reppublika",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.reppublika.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

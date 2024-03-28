@@ -1,0 +1,9 @@
+{
+  "name": "City university of hong kong",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cityu.edu.hk/lib/pps.htm",
+      "select": null
+    }
+  }
+}

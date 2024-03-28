@@ -1,0 +1,9 @@
+{
+  "name": "Delete history free",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.deletehistoryfree.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

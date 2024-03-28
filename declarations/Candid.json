@@ -1,0 +1,13 @@
+{
+  "name": "Candid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://candid.org/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://candid.org/terms",
+      "select": "body"
+    }
+  }
+}

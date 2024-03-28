@@ -1,0 +1,9 @@
+{
+  "name": "Bundesagentur fr arbeit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.arbeitsagentur.de/datenschutz/",
+      "select": "body"
+    }
+  }
+}

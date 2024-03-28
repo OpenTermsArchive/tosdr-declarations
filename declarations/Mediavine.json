@@ -1,0 +1,13 @@
+{
+  "name": "Mediavine",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mediavine.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mediavine.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

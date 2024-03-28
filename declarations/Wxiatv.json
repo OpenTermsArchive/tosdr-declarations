@@ -1,0 +1,13 @@
+{
+  "name": "Wxiatv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.11alive.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.11alive.com/privacy",
+      "select": "body"
+    }
+  }
+}

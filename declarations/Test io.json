@@ -1,0 +1,13 @@
+{
+  "name": "Test io",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://test.io/policies-testers/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://test.io/dataprivacy",
+      "select": "html > body > div:nth-of-type(2) > main > div > div:nth-of-type(2) > section > div:first-of-type"
+    }
+  }
+}

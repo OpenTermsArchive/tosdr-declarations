@@ -1,0 +1,9 @@
+{
+  "name": "Something awful",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.somethingawful.com/feature-articles/website-privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Encamera",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.encrypted.camera/privacy",
+      "select": "body"
+    }
+  }
+}

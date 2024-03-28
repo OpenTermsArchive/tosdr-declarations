@@ -1,0 +1,9 @@
+{
+  "name": "Urldecoder",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.urldecoder.io/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

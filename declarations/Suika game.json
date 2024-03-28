@@ -1,0 +1,17 @@
+{
+  "name": "Suika game",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://suikagame2.io/dmca",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://suikagame2.io/term-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://suikagame2.io/privacy-policy",
+      "select": "body"
+    }
+  }
+}

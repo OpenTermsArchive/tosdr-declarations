@@ -1,0 +1,13 @@
+{
+  "name": "Hormel foods",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hormelfoods.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hormelfoods.com/terms-conditions",
+      "select": "html > body > div:first-of-type > main > article"
+    }
+  }
+}

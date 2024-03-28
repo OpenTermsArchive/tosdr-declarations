@@ -1,0 +1,9 @@
+{
+  "name": "The dynamic catholic institute",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.dynamiccatholic.com/privacy-policy.html#cookies",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div > div > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

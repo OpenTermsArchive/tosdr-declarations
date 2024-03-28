@@ -1,0 +1,13 @@
+{
+  "name": "Titanprojects",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://titanprojects.co/privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://titanprojects.co/terms_of_use",
+      "select": "body"
+    }
+  }
+}

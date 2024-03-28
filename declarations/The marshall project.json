@@ -1,0 +1,9 @@
+{
+  "name": "The marshall project",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.themarshallproject.org/about/privacy",
+      "select": "body"
+    }
+  }
+}

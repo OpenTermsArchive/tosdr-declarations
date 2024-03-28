@@ -1,0 +1,13 @@
+{
+  "name": "Cidi labs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cidilabs.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cidilabs.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

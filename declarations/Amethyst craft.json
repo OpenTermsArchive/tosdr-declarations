@@ -1,0 +1,17 @@
+{
+  "name": "Amethyst craft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://amethystcraft.com/privacy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://forum.amethystcraft.com/tos",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://forum.amethystcraft.com/faq",
+      "select": null
+    }
+  }
+}

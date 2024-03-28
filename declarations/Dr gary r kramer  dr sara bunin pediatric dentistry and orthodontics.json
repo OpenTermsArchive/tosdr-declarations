@@ -1,0 +1,9 @@
+{
+  "name": "Dr gary r kramer  dr sara bunin pediatric dentistry and orthodontics",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.kbpediatricsmiles.com/assets/uploads/docs/privacy-policy.pdf",
+      "select": "body"
+    }
+  }
+}

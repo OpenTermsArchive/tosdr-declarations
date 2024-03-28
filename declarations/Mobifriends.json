@@ -1,0 +1,9 @@
+{
+  "name": "Mobifriends",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mobifriends.com/web/legalext/privacy",
+      "select": "body"
+    }
+  }
+}

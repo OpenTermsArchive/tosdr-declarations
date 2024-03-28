@@ -1,0 +1,9 @@
+{
+  "name": "Startpage",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.startpage.com/en/search/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

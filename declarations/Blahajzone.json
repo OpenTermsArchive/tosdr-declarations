@@ -1,0 +1,17 @@
+{
+  "name": "Blahajzone",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://blahaj.zone/@blahaj/pages/rules",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div > main > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://blahaj.zone/@blahaj/pages/1683119155731",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div > main > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://blahaj.zone/@blahaj/pages/PrivacyPolicy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Drgnzclub",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://video.drgnz.club/about/peertube",
+      "select": "html > body > my-app > div > div:nth-of-type(2) > div > div > my-about > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://video.drgnz.club/about/instance",
+      "select": "html > body > my-app > div > div:nth-of-type(2) > div > div > my-about > div"
+    }
+  }
+}

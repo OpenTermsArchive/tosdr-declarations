@@ -1,0 +1,13 @@
+{
+  "name": "A24films",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://a24films.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://a24films.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

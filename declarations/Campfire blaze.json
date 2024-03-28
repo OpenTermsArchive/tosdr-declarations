@@ -1,0 +1,13 @@
+{
+  "name": "Campfire blaze",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.campfiretechnology.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > section > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.campfiretechnology.com/tos",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > section > div > div"
+    }
+  }
+}

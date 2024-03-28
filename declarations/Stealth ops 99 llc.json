@@ -1,0 +1,13 @@
+{
+  "name": "Stealth ops 99 llc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tactical.stealthops99.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tactical.stealthops99.com/privacy",
+      "select": "body"
+    }
+  }
+}

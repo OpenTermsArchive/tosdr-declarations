@@ -1,0 +1,13 @@
+{
+  "name": "Whispersh",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://whisper.sh/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://whisper.sh/privacy",
+      "select": "body"
+    }
+  }
+}

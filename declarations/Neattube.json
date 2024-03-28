@@ -1,0 +1,13 @@
+{
+  "name": "Neattube",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://neat.tube/about/instance",
+      "select": "html > body > my-app > div:nth-of-type(2) > div:nth-of-type(2) > div > div > my-about > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://neat.tube/about/peertube",
+      "select": "html > body > my-app > div:nth-of-type(2) > div:nth-of-type(2) > div > div > my-about > div > div:nth-of-type(2) > my-about-peertube > div > div:nth-of-type(3)"
+    }
+  }
+}

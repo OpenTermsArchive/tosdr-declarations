@@ -1,0 +1,13 @@
+{
+  "name": "Canny",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://canny.io/security",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://canny.io/terms",
+      "select": "body"
+    }
+  }
+}

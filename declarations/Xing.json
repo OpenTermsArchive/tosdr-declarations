@@ -1,0 +1,13 @@
+{
+  "name": "Xing",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.xing.com/terms/xing",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.xing.com/en/privacy-policy/printable-version",
+      "select": "body"
+    }
+  }
+}

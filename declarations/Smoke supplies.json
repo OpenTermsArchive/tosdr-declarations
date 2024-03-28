@@ -1,0 +1,13 @@
+{
+  "name": "Smoke supplies",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://smokesupplies.nl/shipping-returns-and-terms-and-conditions/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://smokesupplies.nl/important-docs/",
+      "select": null
+    }
+  }
+}

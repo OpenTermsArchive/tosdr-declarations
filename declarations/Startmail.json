@@ -1,0 +1,9 @@
+{
+  "name": "Startmail",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.startmail.com/en/privacy/",
+      "select": "body"
+    }
+  }
+}

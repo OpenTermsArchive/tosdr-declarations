@@ -1,0 +1,13 @@
+{
+  "name": "Doctor web",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://estore.drweb.com/subscribe/aj/?mode=load_contract",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://company.drweb.com/policy/?lng=en",
+      "select": "body"
+    }
+  }
+}

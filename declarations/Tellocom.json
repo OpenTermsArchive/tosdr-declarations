@@ -1,0 +1,13 @@
+{
+  "name": "Tellocom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tello.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tello.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Widan fauzy blog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wildanfauzy.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

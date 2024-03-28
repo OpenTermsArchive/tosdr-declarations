@@ -1,0 +1,13 @@
+{
+  "name": "Daylio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://faq.daylio.net/article/15-privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://faq.daylio.net/article/32-terms-of-use",
+      "select": null
+    }
+  }
+}

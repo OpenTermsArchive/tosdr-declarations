@@ -1,0 +1,13 @@
+{
+  "name": "Ipv64",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ipv64.net/datenschutz.php",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://ipv64.net/agb.php",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    }
+  }
+}

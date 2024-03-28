@@ -1,0 +1,17 @@
+{
+  "name": "Loppanstore",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://return-and-refund.officialssg.com/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tos.officialssg.com/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.officialssg.com/",
+      "select": "body"
+    }
+  }
+}

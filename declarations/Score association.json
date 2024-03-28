@@ -1,0 +1,9 @@
+{
+  "name": "Score association",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.score.org/content/website-policy",
+      "select": "body"
+    }
+  }
+}

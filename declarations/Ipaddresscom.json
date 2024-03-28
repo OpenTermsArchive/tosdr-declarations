@@ -1,0 +1,9 @@
+{
+  "name": "Ipaddresscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ipaddress.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

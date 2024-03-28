@@ -1,0 +1,9 @@
+{
+  "name": "Childrens miracle network hospitals",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://childrensmiraclenetworkhospitals.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

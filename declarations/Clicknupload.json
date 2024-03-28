@@ -1,0 +1,9 @@
+{
+  "name": "Clicknupload",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://clicknupload.co/tos.html",
+      "select": "body"
+    }
+  }
+}

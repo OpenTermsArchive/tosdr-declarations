@@ -1,0 +1,25 @@
+{
+  "name": "Wasabi technologies",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wasabi.com/legal/terms-of-use/#top",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://wasabi.com/legal/acceptable-use-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://wasabi.com/legal/privacy-policy/",
+      "select": "html > body > main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Service Level Agreement": {
+      "fetch": "https://wasabi.com/legal/sla/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wasabi.com/legal/data-processing-addendum/",
+      "select": "body"
+    }
+  }
+}

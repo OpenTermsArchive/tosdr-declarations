@@ -1,0 +1,17 @@
+{
+  "name": "Adroid police",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.androidpolice.com/page/privacy-policy/",
+      "select": "html > body > main > section > article > section > header"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.androidpolice.com/page/dmca-take-down-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.androidpolice.com/page/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

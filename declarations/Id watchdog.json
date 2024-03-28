@@ -1,0 +1,13 @@
+{
+  "name": "Id watchdog",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.idwatchdog.com/terms ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.idwatchdog.com/privacy",
+      "select": null
+    }
+  }
+}

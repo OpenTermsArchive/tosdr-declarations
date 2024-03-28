@@ -1,0 +1,13 @@
+{
+  "name": "Meow social mastodon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://meow.social/terms",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://meow.social/about/more",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

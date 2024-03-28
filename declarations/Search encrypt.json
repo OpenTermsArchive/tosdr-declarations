@@ -1,0 +1,17 @@
+{
+  "name": "Search encrypt",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.searchencrypt.com/about/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.searchencrypt.com/about/privacy-policy",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://choosetoencrypt.com",
+      "select": "body"
+    }
+  }
+}

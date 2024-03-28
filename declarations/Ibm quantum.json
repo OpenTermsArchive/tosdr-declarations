@@ -1,0 +1,13 @@
+{
+  "name": "Ibm quantum",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://quantum-computing.ibm.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://quantum-computing.ibm.com/terms/privacy",
+      "select": "body"
+    }
+  }
+}

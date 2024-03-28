@@ -1,0 +1,13 @@
+{
+  "name": "Peak river craft beers",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://peakriver.ch/agb/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://peakriver.ch/data-protection/?lang=en",
+      "select": "body"
+    }
+  }
+}

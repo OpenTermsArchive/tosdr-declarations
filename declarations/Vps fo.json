@@ -1,0 +1,13 @@
+{
+  "name": "Vps fo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vps.fo/tos",
+      "select": "html > body > section > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vps.fo/privacy.html",
+      "select": "html > body > section > div"
+    }
+  }
+}

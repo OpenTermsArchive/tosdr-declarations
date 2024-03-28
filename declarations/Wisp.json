@@ -1,0 +1,13 @@
+{
+  "name": "Wisp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hellowisp.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://hellowisp.com/terms",
+      "select": "body"
+    }
+  }
+}

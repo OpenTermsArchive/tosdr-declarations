@@ -1,0 +1,13 @@
+{
+  "name": "Gentleherd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gentleherd.com/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div > div > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://gentleherd.com/terms-of-service/",
+      "select": "html > body > div:first-of-type > main > div > div > div > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

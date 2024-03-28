@@ -1,0 +1,9 @@
+{
+  "name": "Custom countdown",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://customcountdown.io/wizard/",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

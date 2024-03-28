@@ -1,0 +1,13 @@
+{
+  "name": "Freenettv",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.freenet.tv/datenschutzhinweise",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.freenet.tv/agb",
+      "select": "body"
+    }
+  }
+}

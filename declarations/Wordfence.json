@@ -1,0 +1,13 @@
+{
+  "name": "Wordfence",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wordfence.com/terms-of-service/",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.wordfence.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

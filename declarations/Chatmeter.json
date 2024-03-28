@@ -1,0 +1,9 @@
+{
+  "name": "Chatmeter",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.chatmeter.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Intimate merger",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://corp.intimatemerger.com/privacypolicy-en/",
+      "select": "body"
+    }
+  }
+}

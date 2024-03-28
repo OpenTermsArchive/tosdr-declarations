@@ -1,0 +1,9 @@
+{
+  "name": "Associao de defesa da privacidade digital",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://adpd.ong.br/politica-de-privacidade/",
+      "select": "body"
+    }
+  }
+}

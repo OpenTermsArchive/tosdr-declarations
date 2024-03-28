@@ -1,0 +1,13 @@
+{
+  "name": "Metromile",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.metromile.com/terms/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.metromile.com/ privacy/",
+      "select": "body"
+    }
+  }
+}

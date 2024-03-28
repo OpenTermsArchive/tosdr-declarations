@@ -1,0 +1,17 @@
+{
+  "name": "Flightsimto",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flightsim.to/legal/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://flightsim.to/legal/terms",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://flightsim.to/legal/dmca",
+      "select": "body"
+    }
+  }
+}

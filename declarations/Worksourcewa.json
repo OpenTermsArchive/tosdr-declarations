@@ -1,0 +1,13 @@
+{
+  "name": "Worksourcewa",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.worksourcewa.com/Terms.aspx",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.worksourcewa.com/Privacy.aspx",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Thisapp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thisapp.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://thisapp.com/terms",
+      "select": "body"
+    }
+  }
+}

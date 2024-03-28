@@ -1,0 +1,13 @@
+{
+  "name": "Shimmy scrub",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.shimmyscrub.com/Return-Policy.dtm",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.shimmyscrub.com/Security-Policy.dtm",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Siemenscom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://new.siemens.com/global/en/general/cookie-notice.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div > section"
+    },
+    "Legal Information": {
+      "fetch": "https://new.siemens.com/global/en/general/privacy-notice.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://new.siemens.com/global/en/general/terms-of-use.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div > section"
+    }
+  }
+}

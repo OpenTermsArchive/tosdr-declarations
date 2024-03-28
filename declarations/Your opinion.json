@@ -1,0 +1,13 @@
+{
+  "name": "Your opinion",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.youropinion.com.au/docs/privacy.aspx",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.youropinion.com.au/docs/terms.aspx",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tribel",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.m.tribel.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.m.tribel.com/privacy",
+      "select": "body"
+    }
+  }
+}

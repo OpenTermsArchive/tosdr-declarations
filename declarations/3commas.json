@@ -1,0 +1,21 @@
+{
+  "name": "3commas",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://3commas.io/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://3commas.io/terms-and-conditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://3commas.io/cookie-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://3commas.io/refund",
+      "select": "body"
+    }
+  }
+}

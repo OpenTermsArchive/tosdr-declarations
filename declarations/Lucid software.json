@@ -1,0 +1,17 @@
+{
+  "name": "Lucid software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lucid.co/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://lucid.co/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://lucid.co/tos",
+      "select": "body"
+    }
+  }
+}

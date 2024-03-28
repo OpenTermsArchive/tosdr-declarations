@@ -1,0 +1,13 @@
+{
+  "name": "Awesomescreenshot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.awesomescreenshot.com/privacy/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.awesomescreenshot.com/privacy",
+      "select": "body"
+    }
+  }
+}

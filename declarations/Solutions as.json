@@ -1,0 +1,9 @@
+{
+  "name": "Solutions as",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.skidsolutions.eu/en/repository/data-protection/",
+      "select": "body"
+    }
+  }
+}

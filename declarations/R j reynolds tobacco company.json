@@ -1,0 +1,13 @@
+{
+  "name": "R j reynolds tobacco company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rjrt.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://rjrt.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

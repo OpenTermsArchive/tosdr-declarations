@@ -1,0 +1,13 @@
+{
+  "name": "Poplin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://poplin.co/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://poplin.co/terms-of-service",
+      "select": "body"
+    }
+  }
+}

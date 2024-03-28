@@ -1,0 +1,13 @@
+{
+  "name": "Luitpold apotheke",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.medikamente-per-klick.de/renderFContent?attachmentId=313",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.medikamente-per-klick.de/renderFContent?attachmentId=317",
+      "select": null
+    }
+  }
+}

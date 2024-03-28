@@ -1,0 +1,9 @@
+{
+  "name": "Shape technologies group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.shapetechnologies.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

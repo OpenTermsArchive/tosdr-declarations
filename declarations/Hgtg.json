@@ -1,0 +1,9 @@
+{
+  "name": "Hgtg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hgtg.ch/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "The daily caller",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dailycaller.com/footer/privacy-policy/",
+      "select": "html > body > main > div > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://dailycaller.com/footer/terms-of-use/",
+      "select": "html > body > main > div > article"
+    }
+  }
+}

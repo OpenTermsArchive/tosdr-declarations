@@ -1,0 +1,13 @@
+{
+  "name": "Solarwinds",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.solarwinds.com/legal/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.solarwinds.com/legal/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    }
+  }
+}

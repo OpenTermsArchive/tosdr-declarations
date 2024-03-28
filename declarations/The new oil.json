@@ -1,0 +1,9 @@
+{
+  "name": "The new oil",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thenewoil.org/en/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Florr io",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://static.florr.io/d7906e0965d4209b4a8e37bea8e957c1d81383bb/pp.txt",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://static.florr.io/d7906e0965d4209b4a8e37bea8e957c1d81383bb/tos.txt",
+      "select": "body"
+    }
+  }
+}

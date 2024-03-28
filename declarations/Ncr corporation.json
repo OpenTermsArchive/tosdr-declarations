@@ -1,0 +1,17 @@
+{
+  "name": "Ncr corporation",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ncr.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.ncr.com/legal-notice",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ncr.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Windowslogic productions",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.windowslogic.co.uk/termsofservice.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://windowslogic.co.uk/privacy-policy.php",
+      "select": "body"
+    }
+  }
+}

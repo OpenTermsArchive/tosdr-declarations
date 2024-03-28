@@ -1,0 +1,13 @@
+{
+  "name": "Iot assistant",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.iotprivacy.io/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iotprivacy.io/privacy-policy",
+      "select": "body"
+    }
+  }
+}

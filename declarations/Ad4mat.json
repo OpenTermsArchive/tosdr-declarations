@@ -1,0 +1,13 @@
+{
+  "name": "Ad4mat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ad4mat.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ad4mat.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

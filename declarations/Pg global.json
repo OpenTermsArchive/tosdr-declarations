@@ -1,0 +1,13 @@
+{
+  "name": "Pg global",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pg.com/en_US/terms_conditions/index.shtml#use ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pg.com/privacy/english/privacy_statement.shtml ",
+      "select": "body"
+    }
+  }
+}

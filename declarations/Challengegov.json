@@ -1,0 +1,13 @@
+{
+  "name": "Challengegov",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.challenge.gov/terms/",
+      "select": "html > body > main > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.challenge.gov/privacy-policy/",
+      "select": "html > body > main > div > div"
+    }
+  }
+}

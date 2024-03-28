@@ -1,0 +1,9 @@
+{
+  "name": "Monarch games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://monarchgames.net/privacy.html",
+      "select": "body"
+    }
+  }
+}

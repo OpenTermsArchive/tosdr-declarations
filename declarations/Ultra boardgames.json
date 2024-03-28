@@ -1,0 +1,9 @@
+{
+  "name": "Ultra boardgames",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.ultraboardgames.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Balance of nature",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.balanceofnature.com/terms-of-service",
+      "select": "html > body > div:first-of-type > div > div > div > article > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.balanceofnature.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div > article > section"
+    }
+  }
+}

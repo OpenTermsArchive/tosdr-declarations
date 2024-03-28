@@ -1,0 +1,13 @@
+{
+  "name": "Kalibrr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kalibrr.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kalibrr.com/terms",
+      "select": "body"
+    }
+  }
+}

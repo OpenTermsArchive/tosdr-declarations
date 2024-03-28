@@ -1,0 +1,13 @@
+{
+  "name": "Baker hughes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bakerhughes.com/terms",
+      "select": "html > body > div:first-of-type > div > main"
+    },
+    "Legal Information": {
+      "fetch": "https://www.bakerhughes.com/privacy",
+      "select": "html > body > div:first-of-type > div > main"
+    }
+  }
+}

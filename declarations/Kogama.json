@@ -1,0 +1,13 @@
+{
+  "name": "Kogama",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kogama.com/help/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kogama.com/help/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

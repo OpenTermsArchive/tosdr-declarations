@@ -1,0 +1,13 @@
+{
+  "name": "Wolters kluwer",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wolterskluwer.com/en/terms-of-use",
+      "select": "html > body > div:nth-of-type(3) > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wolterskluwer.com/en/privacy-cookies.html",
+      "select": "html > body > div:nth-of-type(3) > main"
+    }
+  }
+}

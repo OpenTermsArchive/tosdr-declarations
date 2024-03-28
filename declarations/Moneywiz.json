@@ -1,0 +1,17 @@
+{
+  "name": "Moneywiz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wiz.money/support/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wiz.money/support/privacy-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.wiz.money/support/refunds-policy",
+      "select": "body"
+    }
+  }
+}

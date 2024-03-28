@@ -1,0 +1,13 @@
+{
+  "name": "Arcademics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.arcademics.com/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.arcademics.com/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Isc2",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.isc2.org/Policies-Procedures/Privacy-Policy",
+      "select": "body"
+    }
+  }
+}

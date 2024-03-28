@@ -1,0 +1,9 @@
+{
+  "name": "Liveramp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://liveramp.uk/privacy/",
+      "select": "body"
+    }
+  }
+}

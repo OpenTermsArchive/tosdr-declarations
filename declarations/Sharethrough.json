@@ -1,0 +1,25 @@
+{
+  "name": "Sharethrough",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.sharethrough.com/sharethrough-supply-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.sharethrough.com/privacy-center/consumer-privacy-notice",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sharethrough.com/privacy-center/advertising-platform-privacy-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sharethrough.com/privacy-center/publisher-platform-terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy-center.sharethrough.com/en/candidate-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

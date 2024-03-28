@@ -1,0 +1,13 @@
+{
+  "name": "Chloe ting",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://chloeting.com/term-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://chloeting.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

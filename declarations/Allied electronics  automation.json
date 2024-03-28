@@ -1,0 +1,13 @@
+{
+  "name": "Allied electronics  automation",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.alliedelec.com/view/legalterms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.alliedelec.com/view/legalprivacy",
+      "select": "body"
+    }
+  }
+}

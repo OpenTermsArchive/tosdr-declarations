@@ -1,0 +1,17 @@
+{
+  "name": "Nextdoor neighborhoods",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.nextdoor.com/s/article/Nextdoor-Member-Agreement?language=en_US",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.nextdoor.com/s/article/Privacy-Policy?language=en_US",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.nextdoor.com/s/article/Advertising-and-Cookie-Policy?language=en_US",
+      "select": null
+    }
+  }
+}

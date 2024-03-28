@@ -1,0 +1,13 @@
+{
+  "name": "Lexia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://legal.lexialearning.com/legal/website-privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lexialearning.com/lexia-website-properties-terms-of-use",
+      "select": "body"
+    }
+  }
+}

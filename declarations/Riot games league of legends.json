@@ -1,0 +1,17 @@
+{
+  "name": "Riot games league of legends",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://euw.leagueoflegends.com/en/legal/cookie-policy",
+      "select": "html > body > div:nth-of-type(6) > div:nth-of-type(2) > div > div > div > div > div > div:first-of-type > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.riotgames.com/en/privacy-notice",
+      "select": "html > body > main > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.riotgames.com/en/terms-of-service",
+      "select": "html > body > main > div > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

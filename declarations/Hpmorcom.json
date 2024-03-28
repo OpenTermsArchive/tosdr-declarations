@@ -1,0 +1,9 @@
+{
+  "name": "Hpmorcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hpmor.com/terms",
+      "select": "body"
+    }
+  }
+}

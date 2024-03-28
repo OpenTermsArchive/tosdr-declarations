@@ -1,0 +1,13 @@
+{
+  "name": "Thomas liquets website",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thomasliquet.com/wpautoterms/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://thomasliquet.com/wpautoterms/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

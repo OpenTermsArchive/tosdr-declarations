@@ -1,0 +1,9 @@
+{
+  "name": "Hadzy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hadzy.com/#",
+      "select": "body"
+    }
+  }
+}

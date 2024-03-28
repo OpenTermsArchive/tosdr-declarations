@@ -1,0 +1,9 @@
+{
+  "name": "1 like no other",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.1likenoother.co.uk/privacy-policy",
+      "select": "body"
+    }
+  }
+}

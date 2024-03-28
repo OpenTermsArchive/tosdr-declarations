@@ -1,0 +1,9 @@
+{
+  "name": "Rancho coastal humane society",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rchumanesociety.org/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

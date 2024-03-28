@@ -1,0 +1,9 @@
+{
+  "name": "Grysti",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://grysti.com/community/app.php/rules",
+      "select": "body"
+    }
+  }
+}

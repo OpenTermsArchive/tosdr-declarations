@@ -1,0 +1,17 @@
+{
+  "name": "Mobile legends bang bang",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mobilelegends.com/en/info/3?policy=1",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.mobilelegends.com/en/info/1?policy=1",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mobilelegends.com/en/info/2?policy=1",
+      "select": "body"
+    }
+  }
+}

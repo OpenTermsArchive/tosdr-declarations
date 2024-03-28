@@ -1,0 +1,13 @@
+{
+  "name": "Sc johnson",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://terms.scjbrands.com/en-us ",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://privacy.scjbrands.com/en-us",
+      "select": " > article"
+    }
+  }
+}

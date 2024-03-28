@@ -1,0 +1,13 @@
+{
+  "name": "Terracycle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.terracycle.com/en-US/pages/privacy-policy",
+      "select": "html > body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.terracycle.com/en-US/pages/terms-of-use",
+      "select": "html > body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Station mto de briord",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flying38.net/politique-de-confidentialite/",
+      "select": null
+    }
+  }
+}

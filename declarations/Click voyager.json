@@ -1,0 +1,13 @@
+{
+  "name": "Click voyager",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.clickvoyager.com/terms.php",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.clickvoyager.com/privacy.php",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div"
+    }
+  }
+}

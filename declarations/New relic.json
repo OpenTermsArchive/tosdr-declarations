@@ -1,0 +1,21 @@
+{
+  "name": "New relic",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://newrelic.com/termsandconditions/privacy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://newrelic.com/termsandconditions/dmca",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://newrelic.com/termsandconditions/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://newrelic.com/termsandconditions/terms",
+      "select": "body"
+    }
+  }
+}

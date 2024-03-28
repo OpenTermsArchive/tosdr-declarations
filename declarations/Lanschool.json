@@ -1,0 +1,17 @@
+{
+  "name": "Lanschool",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://files.lenovosoftware.com/privacy/LanSchool-Air-DPA-FAQs.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://files.lenovosoftware.com/legal/eula/LanSchool-Air-Terms-of-Service.pdf",
+      "select": "body"
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://files.lenovosoftware.com/privacy/LanSchool-Air-Data-Processor-Agreement.pdf",
+      "select": "body"
+    }
+  }
+}

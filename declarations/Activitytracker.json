@@ -1,0 +1,13 @@
+{
+  "name": "Activitytracker",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://activitytrackerapp.com/terms-of-service.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://activitytrackerapp.com/privacy-policy.html",
+      "select": null
+    }
+  }
+}

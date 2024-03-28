@@ -1,0 +1,21 @@
+{
+  "name": "Hetzner",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hetzner.com/rechtliches/agb?country=OT",
+      "select": "html > body > main > section:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hetzner.com/rechtliches/datenschutz?country=OT",
+      "select": "html > body > main > section:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Policy": {
+      "fetch": "https://www.hetzner.com/rechtliches/system-policies?country=OT",
+      "select": "html > body > main > section:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://www.hetzner.com/rechtliches/impressum?country=OT",
+      "select": "html > body > main > section:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

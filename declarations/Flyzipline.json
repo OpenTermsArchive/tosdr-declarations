@@ -1,0 +1,13 @@
+{
+  "name": "Flyzipline",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.flyzipline.com/cookie-notice",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.flyzipline.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

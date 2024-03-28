@@ -1,0 +1,13 @@
+{
+  "name": "Quadient",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.quadient.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.quadient.com/quadient-website-privacy-statement",
+      "select": "body"
+    }
+  }
+}

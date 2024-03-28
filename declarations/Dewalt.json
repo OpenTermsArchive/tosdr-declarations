@@ -1,0 +1,9 @@
+{
+  "name": "Dewalt",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.dewalt.com/legal/terms-of-use",
+      "select": "body"
+    }
+  }
+}

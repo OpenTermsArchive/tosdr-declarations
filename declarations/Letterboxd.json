@@ -1,0 +1,17 @@
+{
+  "name": "Letterboxd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://letterboxd.com/legal/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://letterboxd.com/legal/terms-of-use/",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://letterboxd.com/legal/community-policy/",
+      "select": "body"
+    }
+  }
+}

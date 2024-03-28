@@ -1,0 +1,9 @@
+{
+  "name": "None of your business",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://noyb.eu/en/legal",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div > div > div > section:nth-of-type(2) > article > div:nth-of-type(2) > section > div:nth-of-type(2)"
+    }
+  }
+}

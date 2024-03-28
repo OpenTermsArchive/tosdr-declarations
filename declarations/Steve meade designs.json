@@ -1,0 +1,9 @@
+{
+  "name": "Steve meade designs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.stevemeadedesigns.com/board/terms/",
+      "select": "body"
+    }
+  }
+}

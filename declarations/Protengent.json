@@ -1,0 +1,21 @@
+{
+  "name": "Protengent",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.protegent360.com/cookies.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.protegent360.com/pdf/end-user-license-agreement-protegent.pdf",
+      "select": "body"
+    },
+    "About": {
+      "fetch": "https://www.protegent360.com/about-us.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.protegent360.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

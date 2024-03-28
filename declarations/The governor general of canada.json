@@ -1,0 +1,13 @@
+{
+  "name": "The governor general of canada",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gg.ca/en/the-office/privacy",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > main > div > section > div > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gg.ca/en/the-office/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > main > div > section > div > div > div > div > div > div"
+    }
+  }
+}

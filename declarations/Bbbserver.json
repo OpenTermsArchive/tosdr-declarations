@@ -1,0 +1,9 @@
+{
+  "name": "Bbbserver",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bbbserver.de/datenschutz/",
+      "select": "html > body > main > div:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "123ie",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.123.ie/compliance/cookie_policy.pdf",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.123.ie/compliance/data_protection_statement.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.123.ie/downloads/termsofuse.v3.0_0.pdf",
+      "select": "body"
+    }
+  }
+}

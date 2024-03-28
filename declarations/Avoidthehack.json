@@ -1,0 +1,17 @@
+{
+  "name": "Avoidthehack",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://avoidthehack.com/privacy-policy",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://avoidthehack.com/cookies",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://avoidthehack.com/tos",
+      "select": "body"
+    }
+  }
+}

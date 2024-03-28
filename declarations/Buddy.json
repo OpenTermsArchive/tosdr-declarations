@@ -1,0 +1,17 @@
+{
+  "name": "Buddy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://buddy.download/termsandconditions/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://buddy.download/privacypolicy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://nattkod.tech/privacy_policy_terms_conditions",
+      "select": "body"
+    }
+  }
+}

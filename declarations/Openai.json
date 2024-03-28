@@ -1,0 +1,17 @@
+{
+  "name": "Openai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://openai.com/policies/terms-of-use",
+      "select": " > div:nth-of-type(3)"
+    },
+    "Policy": {
+      "fetch": "https://openai.com/api/policies/sharing-publication/",
+      "select": "html > body > article > div > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://openai.com/policies/privacy-policy",
+      "select": null
+    }
+  }
+}

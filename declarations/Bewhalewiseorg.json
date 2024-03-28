@@ -1,0 +1,9 @@
+{
+  "name": "Bewhalewiseorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bewhalewise.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

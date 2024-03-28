@@ -1,0 +1,9 @@
+{
+  "name": "Jumex",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://jumex.com/international/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

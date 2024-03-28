@@ -1,0 +1,9 @@
+{
+  "name": "Highlands currnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/25776182/legal",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Natixis intertitres",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.intertitres.natixis.com/jcms/lnit_6196/fr/mentions-legales",
+      "select": "body"
+    }
+  }
+}

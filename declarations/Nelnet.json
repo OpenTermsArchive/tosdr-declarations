@@ -1,0 +1,17 @@
+{
+  "name": "Nelnet",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://nelnet.com/documents/marketing/pdf/Privacy-Notice-Nelnet.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://nelnet.com/privacy-and-security",
+      "select": "html > body > div:first-of-type > section:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://nelnet.com/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > section:first-of-type"
+    }
+  }
+}

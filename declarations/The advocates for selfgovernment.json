@@ -1,0 +1,13 @@
+{
+  "name": "The advocates for selfgovernment",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.theadvocates.org/terms-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.theadvocates.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Adtit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://adt-it.de/datenschutz/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Ebsco",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://more.ebsco.com/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ebsco.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ebsco.com/website-terms-of-use",
+      "select": "body"
+    }
+  }
+}

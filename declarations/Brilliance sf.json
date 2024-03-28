@@ -1,0 +1,17 @@
+{
+  "name": "Brilliance sf",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://brilliance-sf.com/static/components/modal/brilliance/en/popup-terms.html",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://brilliance-sf.com/static/components/modal/brilliance/en/popup-shipping.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://brilliance-sf.com/static/components/modal/brilliance/en/popup-privacy.html",
+      "select": "body"
+    }
+  }
+}

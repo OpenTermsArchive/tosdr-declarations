@@ -1,0 +1,17 @@
+{
+  "name": "Rumble",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rumble.com/s/terms",
+      "select": "html > body > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://rumble.com/s/privacy",
+      "select": "html > body > main > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://rumble.com/s/dmca",
+      "select": "html > body > main > div"
+    }
+  }
+}

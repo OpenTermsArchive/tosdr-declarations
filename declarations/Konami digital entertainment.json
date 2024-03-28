@@ -1,0 +1,13 @@
+{
+  "name": "Konami digital entertainment",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://legal.konami.com/games/privacy/view/en/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://legal.konami.com/games/yugioh_masterduel/terms/tou/ygmd_cs_other_en.html",
+      "select": "body"
+    }
+  }
+}

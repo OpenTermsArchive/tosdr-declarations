@@ -1,0 +1,13 @@
+{
+  "name": "The virtual casino",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thevirtualcasino.com/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thevirtualcasino.com/privacy.php",
+      "select": null
+    }
+  }
+}

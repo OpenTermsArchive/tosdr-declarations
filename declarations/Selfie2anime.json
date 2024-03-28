@@ -1,0 +1,13 @@
+{
+  "name": "Selfie2anime",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://selfie2anime.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://selfie2anime.com/privacy/ ",
+      "select": "body"
+    }
+  }
+}

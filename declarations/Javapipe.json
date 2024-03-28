@@ -1,0 +1,13 @@
+{
+  "name": "Javapipe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://javapipe.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://javapipe.com/terms-of-service/",
+      "select": null
+    }
+  }
+}

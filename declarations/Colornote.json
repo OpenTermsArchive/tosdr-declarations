@@ -1,0 +1,13 @@
+{
+  "name": "Colornote",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.colornote.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.colornote.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

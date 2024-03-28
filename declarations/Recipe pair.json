@@ -1,0 +1,13 @@
+{
+  "name": "Recipe pair",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.recipepair.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > article > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.recipepair.com/terms-conditions/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > article > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Share the sub",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sharethesub.com/about/terms/",
+      "select": "body"
+    }
+  }
+}

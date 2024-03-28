@@ -1,0 +1,13 @@
+{
+  "name": "The linux foundation",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.linuxfoundation.org/legal/terms",
+      "select": "html > body > main > main > div > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.linuxfoundation.org/legal/privacy-policy",
+      "select": "html > body > main > main > div > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > section"
+    }
+  }
+}

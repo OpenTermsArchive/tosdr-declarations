@@ -1,0 +1,21 @@
+{
+  "name": "Mercury",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mercury.com/legal/terms",
+      "select": "body"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://mercury.com/legal/io-charge-card-agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mercury.com/legal/privacy",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://mercury.com/legal/payment",
+      "select": "body"
+    }
+  }
+}

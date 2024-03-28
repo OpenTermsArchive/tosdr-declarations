@@ -1,0 +1,13 @@
+{
+  "name": "Mccormick",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mccormick.parkingguide.com/sp-plus-automated-license-plate-recognition-alpr-usage-and-privacy-policy/?doing_wp_cron=1687996419.3500540256500244140625",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mccormick.parkingguide.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

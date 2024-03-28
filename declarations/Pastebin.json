@@ -1,0 +1,17 @@
+{
+  "name": "Pastebin",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://pastebin.com/doc_cookies_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://pastebin.com/doc_terms_of_service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pastebin.com/doc_privacy_statement",
+      "select": "body"
+    }
+  }
+}

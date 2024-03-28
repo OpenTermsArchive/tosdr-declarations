@@ -1,0 +1,13 @@
+{
+  "name": "Captivoice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.captivoice.com/capti-site/public/entry/privacy_policy",
+      "select": "html > body > div:nth-of-type(2) > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.captivoice.com/capti-site/public/entry/terms_of_service",
+      "select": "html > body > div:nth-of-type(2) > section"
+    }
+  }
+}

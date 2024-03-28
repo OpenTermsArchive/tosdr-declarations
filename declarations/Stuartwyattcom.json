@@ -1,0 +1,9 @@
+{
+  "name": "Stuartwyattcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://stuartwyatt.com/page7.html",
+      "select": null
+    }
+  }
+}

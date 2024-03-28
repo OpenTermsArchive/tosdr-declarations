@@ -1,0 +1,17 @@
+{
+  "name": "Morgen",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.morgen.so/privacy",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.morgen.so/terms",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.morgen.so/refund",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

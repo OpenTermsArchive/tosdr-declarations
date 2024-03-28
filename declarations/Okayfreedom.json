@@ -1,0 +1,13 @@
+{
+  "name": "Okayfreedom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.okayfreedom.com/en/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.okayfreedom.com/en/tos",
+      "select": "body"
+    }
+  }
+}

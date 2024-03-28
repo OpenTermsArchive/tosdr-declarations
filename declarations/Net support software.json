@@ -1,0 +1,9 @@
+{
+  "name": "Net support software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://resources.netsupportsoftware.com/resources/gdpr/NetSupport%20DNA%20Education%20GDPR.pdf",
+      "select": "body"
+    }
+  }
+}

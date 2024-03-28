@@ -1,0 +1,9 @@
+{
+  "name": "Opt intelligence",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.opt-intelligence.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > main > article > div > div:nth-of-type(3)"
+    }
+  }
+}

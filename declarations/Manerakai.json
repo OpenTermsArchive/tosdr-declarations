@@ -1,0 +1,9 @@
+{
+  "name": "Manerakai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://invidious.manerakai.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sureint",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sureint.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://sureint.com/terms",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Searchcouk",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.search.co.uk/terms-and-conditions",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.search.co.uk/legal_documents/privacy_policy",
+      "select": "body"
+    }
+  }
+}

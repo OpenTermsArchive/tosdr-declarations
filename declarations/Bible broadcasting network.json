@@ -1,0 +1,9 @@
+{
+  "name": "Bible broadcasting network",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bbn1.bbnradio.org/english/about-bbn/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

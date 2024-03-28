@@ -1,0 +1,17 @@
+{
+  "name": "Dba dr power equipment",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.drpower.com/pages/content/company/privacy",
+      "select": "html > body > main > div > div:nth-of-type(3)"
+    },
+    "Legal Information": {
+      "fetch": "https://www.drpower.com/pages/content/company/legal",
+      "select": "html > body > main > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.drpower.com/pages/content/customer-support/shopping-resources/returns",
+      "select": "html > body > main > div > div:nth-of-type(3)"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Vpnac",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vpn.ac/tos",
+      "select": " > main > article:nth-of-type(2) > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://vpn.ac/aup",
+      "select": " > main > article:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vpn.ac/privacy-policy",
+      "select": " > main > article:nth-of-type(2) > div"
+    }
+  }
+}

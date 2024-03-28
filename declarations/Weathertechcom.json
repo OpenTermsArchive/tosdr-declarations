@@ -1,0 +1,13 @@
+{
+  "name": "Weathertechcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.weathertech.com/service/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.weathertech.com/service/terms/",
+      "select": "body"
+    }
+  }
+}

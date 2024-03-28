@@ -1,0 +1,17 @@
+{
+  "name": "Blockcerts blockchain",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://blockcerts.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://blockcerts.com/privacy-policy/",
+      "select": "html > body > section:nth-of-type(2) > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://blockcerts.com/cookies-policy/",
+      "select": "body"
+    }
+  }
+}

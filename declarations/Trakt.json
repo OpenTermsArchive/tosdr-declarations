@@ -1,0 +1,13 @@
+{
+  "name": "Trakt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://trakt.tv/privacy",
+      "select": "html > body > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://trakt.tv/terms",
+      "select": "html > body > section:nth-of-type(2)"
+    }
+  }
+}

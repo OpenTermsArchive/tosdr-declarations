@@ -1,0 +1,21 @@
+{
+  "name": "One hour smart home",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.onehoursmarthome.com/cookie-policy ",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.onehoursmarthome.com/dmca-policy ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.onehoursmarthome.com/privacy-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.onehoursmarthome.com/terms-conditions",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Legocom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lego.com/en-us/legal/notices-and-policies/privacy-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.lego.com/en-us/legal/notices-and-policies/legal-notice",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.lego.com/en-us/legal/cookies/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

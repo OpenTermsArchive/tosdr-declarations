@@ -1,0 +1,13 @@
+{
+  "name": "Have freedom hosting",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hfhosting.us/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://hfhosting.us/tos",
+      "select": "body"
+    }
+  }
+}

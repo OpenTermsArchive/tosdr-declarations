@@ -1,0 +1,13 @@
+{
+  "name": "Drivertoolkit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.drivertoolkit.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://www.drivertoolkit.com/terms",
+      "select": "body"
+    }
+  }
+}

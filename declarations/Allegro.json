@@ -1,0 +1,17 @@
+{
+  "name": "Allegro",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://allegro.pl/regulamin/zalacznik/5",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://allegro.pl/regulaminy/polityka-plikow-cookies-lDzYv9wn8Tn",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://allegro.pl/regulamin",
+      "select": "body"
+    }
+  }
+}

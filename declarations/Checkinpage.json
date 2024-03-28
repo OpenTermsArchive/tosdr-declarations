@@ -1,0 +1,17 @@
+{
+  "name": "Checkinpage",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www-stage.checkinpage.com/legal/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www-stage.checkinpage.com/legal/user-terms-of-service.html",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www-stage.checkinpage.com/legal/acceptable-use-policy.html",
+      "select": "body"
+    }
+  }
+}

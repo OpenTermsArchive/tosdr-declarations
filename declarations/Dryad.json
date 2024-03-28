@@ -1,0 +1,9 @@
+{
+  "name": "Dryad",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://datadryad.org/stash/terms",
+      "select": "body"
+    }
+  }
+}

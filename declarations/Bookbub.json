@@ -1,0 +1,13 @@
+{
+  "name": "Bookbub",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bookbub.com/home/privacy.php",
+      "select": "html > body > div:nth-of-type(6) > div > div:first-of-type > div:nth-of-type(3) > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bookbub.com/home/terms.php",
+      "select": "html > body > div:nth-of-type(6) > div > div:first-of-type > div:nth-of-type(3) > div > div > div > div > div"
+    }
+  }
+}

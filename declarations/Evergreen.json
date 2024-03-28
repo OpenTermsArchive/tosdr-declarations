@@ -1,0 +1,9 @@
+{
+  "name": "Evergreen",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://evergreen.ca/legal",
+      "select": "body"
+    }
+  }
+}

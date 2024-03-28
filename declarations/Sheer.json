@@ -1,0 +1,17 @@
+{
+  "name": "Sheer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sheer.com/privacy-statement",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sheer.com/cookie-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sheer.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

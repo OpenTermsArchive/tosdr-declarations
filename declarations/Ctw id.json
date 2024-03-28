@@ -1,0 +1,13 @@
+{
+  "name": "Ctw id",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://g123.jp/privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://g123.jp/terms",
+      "select": "body"
+    }
+  }
+}

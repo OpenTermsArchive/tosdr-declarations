@@ -1,0 +1,17 @@
+{
+  "name": "Apkvision",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://apkvision.com/terms-of-service/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://apkvision.com/dmca/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://apkvision.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

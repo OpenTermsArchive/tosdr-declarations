@@ -1,0 +1,13 @@
+{
+  "name": "Discourse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.discourse.org/privacy",
+      "select": "html > body > main"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.discourse.org/copyright",
+      "select": "html > body > main"
+    }
+  }
+}

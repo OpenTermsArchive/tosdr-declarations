@@ -1,0 +1,17 @@
+{
+  "name": "Bitcoin project",
+  "documents": {
+    "Other": {
+      "fetch": "https://bitcoin.org/en/scams",
+      "select": " > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bitcoin.org/en/privacy",
+      "select": "html > body > div:nth-of-type(6)"
+    },
+    "Legal Information": {
+      "fetch": "https://bitcoin.org/en/legal",
+      "select": "html > body > div:nth-of-type(6)"
+    }
+  }
+}

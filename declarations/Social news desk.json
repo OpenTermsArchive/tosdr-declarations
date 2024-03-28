@@ -1,0 +1,13 @@
+{
+  "name": "Social news desk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.socialnewsdesk.com/privacy-policy/ ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.socialnewsdesk.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

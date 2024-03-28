@@ -1,0 +1,9 @@
+{
+  "name": "Thomann",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thomann.de/intl/compinfo_privacy.html",
+      "select": "body"
+    }
+  }
+}

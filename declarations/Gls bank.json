@@ -1,0 +1,13 @@
+{
+  "name": "Gls bank",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gls.de/privatkunden/datenschutz/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gls.de/privatkunden/agb/",
+      "select": "body"
+    }
+  }
+}

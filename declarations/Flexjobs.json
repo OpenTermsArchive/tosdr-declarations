@@ -1,0 +1,13 @@
+{
+  "name": "Flexjobs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.flexjobs.com/termsOfUse.aspx",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.flexjobs.com/PrivacyPolicy.aspx",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

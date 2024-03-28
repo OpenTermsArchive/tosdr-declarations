@@ -1,0 +1,17 @@
+{
+  "name": "Clever",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://clever.com/trust/privacy/policy",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://clever.com/trust/terms/schools",
+      "select": "html > body > main"
+    },
+    "Developer Terms": {
+      "fetch": "https://clever.com/trust/terms/developers",
+      "select": "html > body > main"
+    }
+  }
+}

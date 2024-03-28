@@ -1,0 +1,13 @@
+{
+  "name": "Utunnel vpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.utunnel.io/privacy-policy.html",
+      "select": "html > body > section > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.utunnel.io/terms-and-conditions.html",
+      "select": "html > body > section > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

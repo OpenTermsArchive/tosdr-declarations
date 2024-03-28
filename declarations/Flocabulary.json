@@ -1,0 +1,13 @@
+{
+  "name": "Flocabulary",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.flocabulary.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.flocabulary.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

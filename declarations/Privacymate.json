@@ -1,0 +1,13 @@
+{
+  "name": "Privacymate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacymate.com/privacy-policy",
+      "select": " > div:nth-of-type(3) > main > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://privacymate.com/terms-and-conditions",
+      "select": " > div:nth-of-type(3) > main > section > div"
+    }
+  }
+}

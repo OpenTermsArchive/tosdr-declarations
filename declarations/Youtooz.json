@@ -1,0 +1,13 @@
+{
+  "name": "Youtooz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://youtooz.com/pages/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://youtooz.com/pages/terms-of-use",
+      "select": null
+    }
+  }
+}

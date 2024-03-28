@@ -1,0 +1,9 @@
+{
+  "name": "Af  home page",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://adrianofarina.it/privacy",
+      "select": "body"
+    }
+  }
+}

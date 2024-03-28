@@ -1,0 +1,13 @@
+{
+  "name": "Dataforseo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dataforseo.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dataforseo.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

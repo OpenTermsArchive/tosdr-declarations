@@ -1,0 +1,21 @@
+{
+  "name": "Orcid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://info.orcid.org/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://info.orcid.org/terms-of-use/",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://info.orcid.org/accessibility-statement/",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://info.orcid.org/dispute-procedures/",
+      "select": "body"
+    }
+  }
+}

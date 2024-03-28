@@ -1,0 +1,13 @@
+{
+  "name": "3abn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://3abn.org/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(5) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://3abn.org/terms.html",
+      "select": "html > body > div:nth-of-type(5) > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sobertool",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bitbucket.org/SoberTool/sobertool-privacy-policy/raw/1298142c6405f15fd4340d8ac935bc47bf227a17/SoberTool%20Android%20Privacy%20Policy.md",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sobertool.com/forum/disclaimer/",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

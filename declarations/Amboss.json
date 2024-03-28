@@ -1,0 +1,13 @@
+{
+  "name": "Amboss",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.amboss.com/us/terms",
+      "select": "html > body > div:first-of-type > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.amboss.com/us/privacy",
+      "select": "html > body > div:first-of-type > div > div > div > div > div"
+    }
+  }
+}

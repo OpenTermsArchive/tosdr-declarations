@@ -1,0 +1,17 @@
+{
+  "name": "Cookieyes",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.cookieyes.com/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cookieyes.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cookieyes.com/dpa/",
+      "select": "body"
+    }
+  }
+}

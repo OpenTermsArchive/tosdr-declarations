@@ -1,0 +1,13 @@
+{
+  "name": "Funglr games",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://funglr.games/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://funglr.games/privacy/",
+      "select": null
+    }
+  }
+}

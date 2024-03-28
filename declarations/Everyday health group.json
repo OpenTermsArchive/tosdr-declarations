@@ -1,0 +1,9 @@
+{
+  "name": "Everyday health group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.everydayhealth.com/privacyterms/#everyday_health_privacy_policy",
+      "select": "body"
+    }
+  }
+}

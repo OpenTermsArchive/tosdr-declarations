@@ -1,0 +1,13 @@
+{
+  "name": "Drug policy alliance",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://drugpolicy.org/privacy-policy",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://drugpolicy.org/terms-conditions",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

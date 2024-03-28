@@ -1,0 +1,9 @@
+{
+  "name": "Maxwell software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.maxwellapps.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

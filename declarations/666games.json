@@ -1,0 +1,9 @@
+{
+  "name": "666games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://666games.net/Terms/#terms",
+      "select": "body"
+    }
+  }
+}

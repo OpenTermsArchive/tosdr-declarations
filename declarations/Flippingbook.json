@@ -1,0 +1,9 @@
+{
+  "name": "Flippingbook",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flippingbook.com/help/common/privacy-policy-and-disclaimer?from=cookie-banner",
+      "select": "html > body > main > div > div:nth-of-type(3)"
+    }
+  }
+}

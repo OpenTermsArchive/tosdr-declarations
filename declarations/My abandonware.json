@@ -1,0 +1,9 @@
+{
+  "name": "My abandonware",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.myabandonware.com/terms/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Netsmart technologies",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ntst.com/privacy-policy",
+      "select": "html > body > main > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ntst.com/terms-of-use",
+      "select": "html > body > main > section"
+    }
+  }
+}

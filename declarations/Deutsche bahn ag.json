@@ -1,0 +1,9 @@
+{
+  "name": "Deutsche bahn ag",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://karriere.deutschebahn.com/karriere-de/pflichtfooter/datenschutzpersonal-2653678",
+      "select": "body"
+    }
+  }
+}

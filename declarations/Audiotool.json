@@ -1,0 +1,9 @@
+{
+  "name": "Audiotool",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.audiotool.com/terms",
+      "select": null
+    }
+  }
+}

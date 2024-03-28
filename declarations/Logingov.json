@@ -1,0 +1,9 @@
+{
+  "name": "Logingov",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://login.gov/policy/",
+      "select": "html > body > main > div"
+    }
+  }
+}

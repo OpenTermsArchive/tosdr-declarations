@@ -1,0 +1,13 @@
+{
+  "name": "Kinkcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kink.zendesk.com/hc/en-us/articles/360004660374-Kink-com-Privacy-Policy",
+      "select": "html > body > main > div:first-of-type > div > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://kink.zendesk.com/hc/en-us/articles/360004660854-Kink-com-Terms-of-Use",
+      "select": "body"
+    }
+  }
+}

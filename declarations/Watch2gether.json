@@ -1,0 +1,13 @@
+{
+  "name": "Watch2gether",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://w2g.tv/pages/privacy_en",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://community.w2g.tv/t/terms-of-service-english/597",
+      "select": "body"
+    }
+  }
+}

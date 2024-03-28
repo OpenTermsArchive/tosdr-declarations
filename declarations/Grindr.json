@@ -1,0 +1,13 @@
+{
+  "name": "Grindr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.grindr.com/privacy-policy/?lang=en-US",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.grindr.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

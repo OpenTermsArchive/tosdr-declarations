@@ -1,0 +1,9 @@
+{
+  "name": "Dr mcdougalls health  medical center",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.drmcdougall.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

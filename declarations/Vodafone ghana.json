@@ -1,0 +1,13 @@
+{
+  "name": "Vodafone ghana",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vodafone.com.gh/terms-and-conditions/",
+      "select": " > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vodafone.com.gh/personal/privacy-portal/",
+      "select": " > div > div > div"
+    }
+  }
+}

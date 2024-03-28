@@ -1,0 +1,13 @@
+{
+  "name": "Upbeatnews",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://upbeatnews.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://upbeatnews.com/terms-conditions",
+      "select": "body"
+    }
+  }
+}

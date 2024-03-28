@@ -1,0 +1,9 @@
+{
+  "name": "Orbital",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://orbitalsupportsystems.com/terms-conditions-of-sale/",
+      "select": "body"
+    }
+  }
+}

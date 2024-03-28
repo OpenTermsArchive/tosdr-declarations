@@ -1,0 +1,13 @@
+{
+  "name": "Cake wallet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://raw.githubusercontent.com/cake-tech/cake_wallet/main/assets/text/Terms_of_Use.txt",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://raw.githubusercontent.com/cake-tech/cake_wallet/main/PRIVACY.md",
+      "select": "body"
+    }
+  }
+}

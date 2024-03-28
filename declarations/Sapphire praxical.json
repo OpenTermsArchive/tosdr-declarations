@@ -1,0 +1,13 @@
+{
+  "name": "Sapphire praxical",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sapphire.moe/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://sapphire.moe/tos",
+      "select": "body"
+    }
+  }
+}

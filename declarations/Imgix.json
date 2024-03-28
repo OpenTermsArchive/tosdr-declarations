@@ -1,0 +1,21 @@
+{
+  "name": "Imgix",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.imgix.com/privacy",
+      "select": "html > body > main > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.imgix.com/terms",
+      "select": "html > body > main > section > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.imgix.com/ip",
+      "select": "html > body > main > section > div"
+    },
+    "Policy": {
+      "fetch": "https://www.imgix.com/payments",
+      "select": "html > body > main > section > div"
+    }
+  }
+}

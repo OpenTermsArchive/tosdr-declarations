@@ -1,0 +1,13 @@
+{
+  "name": "Coolhunting",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://coolhunting.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://coolhunting.com/terms-of-use/",
+      "select": null
+    }
+  }
+}

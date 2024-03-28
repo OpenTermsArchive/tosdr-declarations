@@ -1,0 +1,13 @@
+{
+  "name": "Amz autopilot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.amzdfy.com/automation-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.amzdfy.com/privacy",
+      "select": "body"
+    }
+  }
+}

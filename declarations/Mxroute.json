@@ -1,0 +1,9 @@
+{
+  "name": "Mxroute",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mxroute.com/policy/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div"
+    }
+  }
+}

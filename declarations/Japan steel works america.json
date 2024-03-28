@@ -1,0 +1,9 @@
+{
+  "name": "Japan steel works america",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jswamerica.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

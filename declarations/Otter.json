@@ -1,0 +1,13 @@
+{
+  "name": "Otter",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://otter.ai/privacy",
+      "select": "html > body > div:nth-of-type(6)"
+    },
+    "Terms of Service": {
+      "fetch": "https://otter.ai/terms",
+      "select": "html > body > div:nth-of-type(6)"
+    }
+  }
+}

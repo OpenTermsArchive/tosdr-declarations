@@ -1,0 +1,13 @@
+{
+  "name": "Experian",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.experian.com/privacy/index",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.experian.com/corporate/legalterms",
+      "select": "body"
+    }
+  }
+}

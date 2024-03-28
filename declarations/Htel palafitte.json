@@ -1,0 +1,9 @@
+{
+  "name": "Htel palafitte",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.palafitte.ch/fileadmin/documents/palafitte.ch/pdf/Admin/Privacy_Policy_SFH.pdf",
+      "select": "body"
+    }
+  }
+}

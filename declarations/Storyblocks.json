@@ -1,0 +1,13 @@
+{
+  "name": "Storyblocks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.storyblocks.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.storyblocks.com/privacy",
+      "select": "body"
+    }
+  }
+}

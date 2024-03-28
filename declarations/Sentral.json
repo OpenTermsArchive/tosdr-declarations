@@ -1,0 +1,13 @@
+{
+  "name": "Sentral",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sentral.com.au/licence-agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sentral.com.au/privacy-policy",
+      "select": "body"
+    }
+  }
+}

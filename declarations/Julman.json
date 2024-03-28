@@ -1,0 +1,9 @@
+{
+  "name": "Julman",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://julman.fr/privacy/",
+      "select": "body"
+    }
+  }
+}

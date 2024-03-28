@@ -1,0 +1,17 @@
+{
+  "name": "Zappos",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.zappos.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.zappos.com/c/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.zappos.com/c/interest-based-ads-policy",
+      "select": "body"
+    }
+  }
+}

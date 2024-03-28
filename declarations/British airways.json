@@ -1,0 +1,17 @@
+{
+  "name": "British airways",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.britishairways.com/en-ca/information/legal/website-security",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.britishairways.com/en-ca/information/legal/website-terms-conditions",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.britishairways.com/en-ca/information/legal/cookies",
+      "select": null
+    }
+  }
+}

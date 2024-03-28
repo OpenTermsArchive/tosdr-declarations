@@ -1,0 +1,13 @@
+{
+  "name": "Fishhook",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fishhook.us/tos",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fishhook.us/privacy-policy",
+      "select": null
+    }
+  }
+}

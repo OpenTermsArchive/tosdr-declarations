@@ -1,0 +1,13 @@
+{
+  "name": "Lawsuitwinningcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lawsuit-winning.com/privacypolicy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://lawsuit-winning.com/terms.php",
+      "select": "body"
+    }
+  }
+}

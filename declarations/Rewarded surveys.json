@@ -1,0 +1,13 @@
+{
+  "name": "Rewarded surveys",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rewarded-surveys.co.uk/index.php?option=com_content&view=article&id=513&Itemid=619",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rewarded-surveys.co.uk/privacy-charter",
+      "select": "body"
+    }
+  }
+}

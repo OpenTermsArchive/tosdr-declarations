@@ -1,0 +1,9 @@
+{
+  "name": "Creston dental",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.crestondental.com/privacy-policy/",
+      "select": "html > body > main > div"
+    }
+  }
+}

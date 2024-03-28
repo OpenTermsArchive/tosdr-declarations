@@ -1,0 +1,9 @@
+{
+  "name": "Chargepoint",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://na.chargepoint.com/privacy_policy",
+      "select": "body"
+    }
+  }
+}

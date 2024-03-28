@@ -1,0 +1,9 @@
+{
+  "name": "Aerux broadband",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.aerux.com/terms-conditions",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > main > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

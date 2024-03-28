@@ -1,0 +1,17 @@
+{
+  "name": "Nintendo life",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nintendolife.com/terms",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.nintendolife.com/advertising",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nintendolife.com/privacy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Nindo gmbh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nindo.de/datenschutz",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    },
+    "Other": {
+      "fetch": "https://nindo.de/impressum",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    }
+  }
+}

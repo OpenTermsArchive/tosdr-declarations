@@ -1,0 +1,13 @@
+{
+  "name": "Devopsish",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://devopsish.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://devopsish.com/terms/",
+      "select": "body"
+    }
+  }
+}

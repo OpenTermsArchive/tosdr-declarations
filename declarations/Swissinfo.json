@@ -1,0 +1,13 @@
+{
+  "name": "Swissinfo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.swissinfo.ch/eng/terms-of-use/44141966",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.swissinfo.ch/eng/data-privacy-statement/133174",
+      "select": "body"
+    }
+  }
+}

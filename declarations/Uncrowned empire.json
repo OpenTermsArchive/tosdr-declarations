@@ -1,0 +1,13 @@
+{
+  "name": "Uncrowned empire",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://uncrownedempire.com/index.php?/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://uncrownedempire.com/index.php?/terms/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Rizzgpt",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rizzgpt.app/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rizzgpt.app/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Duden",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.duden.de/service/datenschutz",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > main > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.duden.de/service/agb",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > main"
+    }
+  }
+}

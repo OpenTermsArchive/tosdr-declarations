@@ -1,0 +1,21 @@
+{
+  "name": "Esafety commisioner",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.esafety.gov.au/about-us/corporate-documents/freedom-of-information",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.esafety.gov.au/about-us/corporate-documents/website-accessibility",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.esafety.gov.au/about-us/corporate-documents/privacy",
+      "select": "html > body > main > div > div > div > div > div:nth-of-type(3) > article > div:nth-of-type(3)"
+    },
+    "Legal Information": {
+      "fetch": "https://www.esafety.gov.au/about-us/corporate-documents/disclaimer-copyright",
+      "select": "body"
+    }
+  }
+}

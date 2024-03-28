@@ -1,0 +1,17 @@
+{
+  "name": "Fox sports australia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.foxsports.com.au/about-us/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.foxsports.com.au/about-us/terms-and-conditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.foxsports.com.au/about-us/cookies",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Houston independent school district",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.houstonisd.org/_termsConditions",
+      "select": "body"
+    }
+  }
+}

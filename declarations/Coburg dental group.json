@@ -1,0 +1,9 @@
+{
+  "name": "Coburg dental group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.coburgdentalgroup.com.au/wp-content/uploads/2021/09/Coburg-Dental-Group-Notice-to-patients-1-converted.pdf",
+      "select": "body"
+    }
+  }
+}

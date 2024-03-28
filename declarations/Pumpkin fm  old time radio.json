@@ -1,0 +1,17 @@
+{
+  "name": "Pumpkin fm  old time radio",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://pumpkinfm.com/dmca-policy/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://pumpkinfm.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://pumpkinfm.com/terms-of-use/",
+      "select": null
+    }
+  }
+}

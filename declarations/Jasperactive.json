@@ -1,0 +1,13 @@
+{
+  "name": "Jasperactive",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://jasperactive.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://jasperactive.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

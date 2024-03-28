@@ -1,0 +1,13 @@
+{
+  "name": "Nginx",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.f5.com/company/policies/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.f5.com/company/policies/privacy-notice",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > div:first-of-type"
+    }
+  }
+}

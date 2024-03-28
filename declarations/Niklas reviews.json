@@ -1,0 +1,9 @@
+{
+  "name": "Niklas reviews",
+  "documents": {
+    "About": {
+      "fetch": "https://niklas.reviews/about/",
+      "select": "html > body > main > div > article > div"
+    }
+  }
+}

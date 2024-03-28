@@ -1,0 +1,17 @@
+{
+  "name": "Esea",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://play.esea.net/content/terms_of_use",
+      "select": " > main > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://play.esea.net/content/privacy_policy",
+      "select": " > main > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://play.esea.net/content/dmca",
+      "select": " > main > div > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

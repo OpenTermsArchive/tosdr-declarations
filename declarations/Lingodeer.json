@@ -1,0 +1,13 @@
+{
+  "name": "Lingodeer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lingodeer.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lingodeer.com/terms-conditions-html",
+      "select": "body"
+    }
+  }
+}

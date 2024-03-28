@@ -1,0 +1,13 @@
+{
+  "name": "Syphon app",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://syphon.org/privacy",
+      "select": "html > body > div:first-of-type > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://syphon.org/terms",
+      "select": "html > body > div:first-of-type > div > section"
+    }
+  }
+}

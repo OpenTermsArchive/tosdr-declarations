@@ -1,0 +1,13 @@
+{
+  "name": "Giant eagle",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://account.gianteagle.com/TermsOfUse",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://account.gianteagle.com/PrivacyPolicy",
+      "select": "body"
+    }
+  }
+}

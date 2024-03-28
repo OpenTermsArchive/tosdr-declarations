@@ -1,0 +1,13 @@
+{
+  "name": "Tildacc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tilda.cc/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tilda.cc/terms/",
+      "select": "body"
+    }
+  }
+}

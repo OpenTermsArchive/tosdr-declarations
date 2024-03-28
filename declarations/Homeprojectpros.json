@@ -1,0 +1,13 @@
+{
+  "name": "Homeprojectpros",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://homeprojectpros.org/terms",
+      "select": "html > body > div:first-of-type > main > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://homeprojectpros.org/privacy",
+      "select": "html > body > div:first-of-type > main > section"
+    }
+  }
+}

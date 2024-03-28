@@ -1,0 +1,9 @@
+{
+  "name": "Sporthd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://1.livesoccer.sx/privacy.html",
+      "select": "body"
+    }
+  }
+}

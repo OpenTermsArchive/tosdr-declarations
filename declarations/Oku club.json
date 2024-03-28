@@ -1,0 +1,13 @@
+{
+  "name": "Oku club",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://oku.club/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://oku.club/terms",
+      "select": "body"
+    }
+  }
+}

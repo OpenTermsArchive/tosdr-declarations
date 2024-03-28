@@ -1,0 +1,13 @@
+{
+  "name": "Isthereanydeal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://isthereanydeal.com/legal/privacy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://isthereanydeal.com/legal/cookies/",
+      "select": null
+    }
+  }
+}

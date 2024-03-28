@@ -1,0 +1,13 @@
+{
+  "name": "Found money guide",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://foundmoneyguide.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > article > div > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://foundmoneyguide.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

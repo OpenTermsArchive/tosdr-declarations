@@ -1,0 +1,9 @@
+{
+  "name": "Osmhydrant",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.osmhydrant.org/en/privacy-policy",
+      "select": "body"
+    }
+  }
+}

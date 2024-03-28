@@ -1,0 +1,13 @@
+{
+  "name": "Jornaya",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jornaya.com/website-privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jornaya.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

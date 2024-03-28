@@ -1,0 +1,13 @@
+{
+  "name": "Retailersavings",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.retailer-savings.com/terms.cgi?config=9597&qid=",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.retailer-savings.com/privacy.cgi?config=9597",
+      "select": "body"
+    }
+  }
+}

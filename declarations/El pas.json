@@ -1,0 +1,17 @@
+{
+  "name": "El pas",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://elpais.com/estaticos/politica-privacidad/",
+      "select": "html > body > div:nth-of-type(2) > main > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://elpais.com/estaticos/aviso-legal/",
+      "select": "html > body > div:nth-of-type(4) > main > div:nth-of-type(2) > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://elpais.com/politica-de-cookies/",
+      "select": null
+    }
+  }
+}

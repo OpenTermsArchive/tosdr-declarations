@@ -1,0 +1,17 @@
+{
+  "name": "Lumosity",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.lumosity.com/en/legal/payment_policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lumosity.com/en/legal/privacy_policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lumosity.com/en/legal/terms_of_service/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

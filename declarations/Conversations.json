@@ -1,0 +1,9 @@
+{
+  "name": "Conversations",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://account.conversations.im/privacy/",
+      "select": "body"
+    }
+  }
+}

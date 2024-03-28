@@ -1,0 +1,9 @@
+{
+  "name": "Liberty fund",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.libertyfund.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

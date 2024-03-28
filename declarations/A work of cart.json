@@ -1,0 +1,9 @@
+{
+  "name": "A work of cart",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.aworkofcart.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

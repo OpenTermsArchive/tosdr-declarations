@@ -1,0 +1,13 @@
+{
+  "name": "Alibaba",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rule.alibaba.com/rule/detail/2034.htm?spm=a2700.8293689.0.0.2ce267afFZ93cT",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://rule.alibaba.com/rule/detail/2042.htm",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2)"
+    }
+  }
+}

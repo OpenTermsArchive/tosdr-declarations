@@ -1,0 +1,17 @@
+{
+  "name": "Walmartpetrx",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.walmartpetrx.com/t-return-policy.aspx",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.walmartpetrx.com/t-terms-and-conditions.aspx",
+      "select": "html > body > div:nth-of-type(4)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Living your best life",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.livingyourbestlife.co/cbd/oil/02a-trunature/tos.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.livingyourbestlife.co/cbd/oil/02a-trunature/privacy.php",
+      "select": "body"
+    }
+  }
+}

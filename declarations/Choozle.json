@@ -1,0 +1,13 @@
+{
+  "name": "Choozle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://choozle.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://choozle.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

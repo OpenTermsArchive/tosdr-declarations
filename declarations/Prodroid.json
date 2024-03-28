@@ -1,0 +1,9 @@
+{
+  "name": "Prodroid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://prodroid.org/privacy.html",
+      "select": "body"
+    }
+  }
+}

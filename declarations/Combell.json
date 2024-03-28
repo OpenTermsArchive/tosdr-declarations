@@ -1,0 +1,9 @@
+{
+  "name": "Combell",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.combell.com/en/about-combell/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

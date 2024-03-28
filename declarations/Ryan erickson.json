@@ -1,0 +1,9 @@
+{
+  "name": "Ryan erickson",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ryanerickson.com/ryanericksons-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

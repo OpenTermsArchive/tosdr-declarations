@@ -1,0 +1,9 @@
+{
+  "name": "Tuff growth",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tuffgrowth.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type"
+    }
+  }
+}

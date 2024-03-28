@@ -1,0 +1,13 @@
+{
+  "name": "Gap creek media",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gapcreekmedia.com/website-information/terms-of-service/",
+      "select": " > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://gapcreekmedia.com/website-information/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > main > article"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Matters",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://matters.town/tos",
+      "select": "body"
+    }
+  }
+}

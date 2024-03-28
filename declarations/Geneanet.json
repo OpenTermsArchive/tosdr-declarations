@@ -1,0 +1,17 @@
+{
+  "name": "Geneanet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://en.geneanet.org/legal/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://en.geneanet.org/legal/cgu/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://en.geneanet.org/legal/cookies",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Squaretrade",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.squaretrade.com/privacypolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.squaretrade.com/terms/",
+      "select": "body"
+    }
+  }
+}

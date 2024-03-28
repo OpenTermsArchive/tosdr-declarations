@@ -1,0 +1,9 @@
+{
+  "name": "Livearchivist blog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://livearchivist.com/privacy",
+      "select": "body"
+    }
+  }
+}

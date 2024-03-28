@@ -1,0 +1,13 @@
+{
+  "name": "Get miles",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.getmiles.com/privacy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.getmiles.com/tos",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

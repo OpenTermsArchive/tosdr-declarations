@@ -1,0 +1,17 @@
+{
+  "name": "Clicksco",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.clicksco.com:443/terms/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://clicksco.com/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://clicksco.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Valid number",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://validnumber.com/doc/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://validnumber.com/doc/privacy/",
+      "select": "body"
+    }
+  }
+}

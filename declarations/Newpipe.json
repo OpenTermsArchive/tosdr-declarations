@@ -1,0 +1,13 @@
+{
+  "name": "Newpipe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://newpipe.net/legal/privacy/",
+      "select": "html > body > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://newpipe.net/legal/license/",
+      "select": "html > body"
+    }
+  }
+}

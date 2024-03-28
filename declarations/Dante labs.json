@@ -1,0 +1,17 @@
+{
+  "name": "Dante labs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dantelabs.com/pages/terms-of-use-for-the-genome-manager",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://us.dantelabs.com/pages/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://us.dantelabs.com/pages/cookie-policy",
+      "select": "body"
+    }
+  }
+}

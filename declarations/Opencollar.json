@@ -1,0 +1,9 @@
+{
+  "name": "Opencollar",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.opencollar.at/privacy.html",
+      "select": "body"
+    }
+  }
+}

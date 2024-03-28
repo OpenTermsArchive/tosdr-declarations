@@ -1,0 +1,13 @@
+{
+  "name": "Emojigg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://emoji.gg/privacy",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://emoji.gg/content",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

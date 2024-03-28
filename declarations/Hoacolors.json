@@ -1,0 +1,13 @@
+{
+  "name": "Hoacolors",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hoa-colors.com/privacy_policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://hoa-colors.com/terms",
+      "select": null
+    }
+  }
+}

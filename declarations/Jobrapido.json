@@ -1,0 +1,13 @@
+{
+  "name": "Jobrapido",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://au.jobrapido.com/info/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://au.jobrapido.com/info/general-terms",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div"
+    }
+  }
+}

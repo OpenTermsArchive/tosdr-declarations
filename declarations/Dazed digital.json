@@ -1,0 +1,13 @@
+{
+  "name": "Dazed digital",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dazeddigital.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dazeddigital.com/info/article/825/1/terms-conditions",
+      "select": "body"
+    }
+  }
+}

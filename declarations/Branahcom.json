@@ -1,0 +1,13 @@
+{
+  "name": "Branahcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.branah.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.branah.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

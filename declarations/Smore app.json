@@ -1,0 +1,13 @@
+{
+  "name": "Smore app",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://smoreapp.co/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://smoreapp.co/privacy/",
+      "select": "body"
+    }
+  }
+}

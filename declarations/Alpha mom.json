@@ -1,0 +1,13 @@
+{
+  "name": "Alpha mom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://alphamom.com/legal/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://alphamom.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

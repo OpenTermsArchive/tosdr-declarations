@@ -1,0 +1,13 @@
+{
+  "name": "Jetbrains",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.jetbrains.com/company/useterms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.jetbrains.com/company/privacy.html",
+      "select": "body"
+    }
+  }
+}

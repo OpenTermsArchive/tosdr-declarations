@@ -1,0 +1,9 @@
+{
+  "name": "Nibble",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cdn.nibble.it/legal/Web_Privacy.pdf",
+      "select": "body"
+    }
+  }
+}

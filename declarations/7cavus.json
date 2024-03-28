@@ -1,0 +1,17 @@
+{
+  "name": "7cavus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://7cav.us/help/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://7cav.us/help/cookies/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://7cav.us/help/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Noyaltitude",
+  "documents": {
+    "Other": {
+      "fetch": "https://noyaltitude.fr/wp-content/uploads/complianz/snapshots/Noyaltitude-eu-proof-of-consent-07042021.pdf",
+      "select": "body"
+    }
+  }
+}

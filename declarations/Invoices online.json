@@ -1,0 +1,13 @@
+{
+  "name": "Invoices online",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.invoicesonline.co.za/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(4) > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.invoicesonline.co.za/privacy-policy",
+      "select": "html > body > div:nth-of-type(4) > div > div:first-of-type"
+    }
+  }
+}

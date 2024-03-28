@@ -1,0 +1,13 @@
+{
+  "name": "Public storage",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.publicstorage.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.publicstorage.com/terms-and-conditions.html",
+      "select": "body"
+    }
+  }
+}

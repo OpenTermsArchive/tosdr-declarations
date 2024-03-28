@@ -1,0 +1,13 @@
+{
+  "name": "Honorlock",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://honorlock.com/wp-content/uploads/2021/05/May2021_TermsofService_ExamTakers.docx.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://honorlock.com/wp-content/uploads/2021/05/May2021_Honorlock_App_Privacy_Policy.docx.pdf",
+      "select": "body"
+    }
+  }
+}

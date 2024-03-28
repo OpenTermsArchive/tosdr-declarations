@@ -1,0 +1,25 @@
+{
+  "name": "A+e networks",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.aenetworks.com/cookie-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.aenetworks.com/terms",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.aenetworks.com/copyright",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.aenetworks.tv/privacy-notice",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.aenetworks.com/community-guidelines",
+      "select": "body"
+    }
+  }
+}

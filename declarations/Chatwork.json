@@ -1,0 +1,13 @@
+{
+  "name": "Chatwork",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://go.chatwork.com/en/privacy.html",
+      "select": "html > body > section:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://go.chatwork.com/en/terms.html",
+      "select": "html > body > section:nth-of-type(3)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tinyurl",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://tinyurl.com/#terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tinyurl.com/app/privaicy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Holacode",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/12I-Hvei4-Usn1r0fOHuqCG81mrk_6AP7LAfVvYzHiXw/edit#",
+      "select": "body"
+    }
+  }
+}

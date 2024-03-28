@@ -1,0 +1,9 @@
+{
+  "name": "Heidelberg institute for geoinformation technology at heidelberg university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://heigit.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

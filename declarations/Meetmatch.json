@@ -1,0 +1,13 @@
+{
+  "name": "Meetmatch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://reg.meetmatch.biz/files/MeetMatch_Privacy_Policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.meetmatch.biz/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

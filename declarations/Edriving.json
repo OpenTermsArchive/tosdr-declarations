@@ -1,0 +1,13 @@
+{
+  "name": "Edriving",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.edriving.com/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.edriving.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div:first-of-type"
+    }
+  }
+}

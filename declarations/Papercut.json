@@ -1,0 +1,9 @@
+{
+  "name": "Papercut",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.papercut.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

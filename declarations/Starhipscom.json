@@ -1,0 +1,13 @@
+{
+  "name": "Starhipscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://starships.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://starships.com/terms-conditions/",
+      "select": null
+    }
+  }
+}

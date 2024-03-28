@@ -1,0 +1,9 @@
+{
+  "name": "Hostedscan",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hostedscan.com/terms-and-policies",
+      "select": "body"
+    }
+  }
+}

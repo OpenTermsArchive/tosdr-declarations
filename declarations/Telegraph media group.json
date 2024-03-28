@@ -1,0 +1,13 @@
+{
+  "name": "Telegraph media group",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.telegraph.co.uk/about-us/terms-and-conditions/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.telegraph.co.uk/about-us/privacy-and-cookie-policy/",
+      "select": "html > body > main > article"
+    }
+  }
+}

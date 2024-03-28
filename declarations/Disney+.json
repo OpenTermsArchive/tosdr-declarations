@@ -1,0 +1,17 @@
+{
+  "name": "Disney+",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.disneyplus.com/en-gb/legal/uk-&-eu-privacy-rights",
+      "select": " > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.disneyplus.com/en-gb/legal/subscriber-agreement",
+      "select": " > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.disneyplus.com/en-gb/legal/cookies-policy",
+      "select": "body"
+    }
+  }
+}

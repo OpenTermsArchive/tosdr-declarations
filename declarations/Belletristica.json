@@ -1,0 +1,13 @@
+{
+  "name": "Belletristica",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://belletristica.com/en/privacy",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://belletristica.com/en/about",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Pluto tv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://corporate.pluto.tv/privacy-policy/",
+      "select": "html > body > section:nth-of-type(2) > div > div > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://corporate.pluto.tv/terms-of-use/",
+      "select": "html > body > section:nth-of-type(2) > div > div > article"
+    },
+    "Trackers Policy": {
+      "fetch": "https://corporate.pluto.tv/cookie-policy/",
+      "select": "html > body > section:nth-of-type(2) > div > div > article"
+    }
+  }
+}

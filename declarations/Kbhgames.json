@@ -1,0 +1,13 @@
+{
+  "name": "Kbhgames",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kbhgames.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://kbhgames.com/terms-of-use",
+      "select": null
+    }
+  }
+}

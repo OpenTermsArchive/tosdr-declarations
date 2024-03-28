@@ -1,0 +1,13 @@
+{
+  "name": "Youtubemp3free",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://youtubemp3free.com/policy.php",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://youtubemp3free.com/dcma.php",
+      "select": "body"
+    }
+  }
+}

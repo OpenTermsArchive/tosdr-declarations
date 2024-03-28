@@ -1,0 +1,9 @@
+{
+  "name": "Moneyspire",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.moneyspire.com/privacy/",
+      "select": "body"
+    }
+  }
+}

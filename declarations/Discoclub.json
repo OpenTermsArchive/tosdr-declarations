@@ -1,0 +1,9 @@
+{
+  "name": "Discoclub",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.discoclub.eu/privacy_policy.txt",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Gitlab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://about.gitlab.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://about.gitlab.com/handbook/legal/policies/website-terms-of-use/",
+      "select": "html > body > div:nth-of-type(5) > div"
+    }
+  }
+}

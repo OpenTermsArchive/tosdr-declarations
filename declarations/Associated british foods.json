@@ -1,0 +1,17 @@
+{
+  "name": "Associated british foods",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.abf.co.uk/t-cs",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.abf.co.uk/privacy-notice",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.abf.co.uk/cookies-policy",
+      "select": "body"
+    }
+  }
+}

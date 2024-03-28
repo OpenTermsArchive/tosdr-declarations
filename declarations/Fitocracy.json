@@ -1,0 +1,17 @@
+{
+  "name": "Fitocracy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.fitocracy.com/privacy_policy/",
+      "select": "div.main-content-column"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fitocracy.com/tos/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(8) > div:nth-of-type(3) > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.fitocracy.com/code-of-conduct/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(8) > div:nth-of-type(3) > div"
+    }
+  }
+}

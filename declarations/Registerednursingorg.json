@@ -1,0 +1,13 @@
+{
+  "name": "Registerednursingorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.registerednursing.org/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.registerednursing.org/website-terms-of-use/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div"
+    }
+  }
+}

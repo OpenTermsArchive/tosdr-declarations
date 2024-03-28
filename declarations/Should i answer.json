@@ -1,0 +1,13 @@
+{
+  "name": "Should i answer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.shouldianswer.net/mobile-app/terms-and-privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.shouldianswer.net/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Redes",
+  "documents": {
+    "Legal Information": {
+      "fetch": "http://red.es/redes/es/aviso-legal",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > section > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://red.es/redes/es/quienes-somos/protecci%C3%B3n-de-datos-de-car%C3%A1cter-personal",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > section:nth-of-type(3) > div > div > div:first-of-type > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div > div > div > div > div > div:first-of-type > div > div:nth-of-type(2) > div"
+    }
+  }
+}

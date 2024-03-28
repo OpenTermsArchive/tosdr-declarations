@@ -1,0 +1,17 @@
+{
+  "name": "Textnow",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.textnow.com/privacy",
+      "select": "html > body > main > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.textnow.com/terms",
+      "select": "html > body > div:first-of-type"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.textnow.com/fairUse",
+      "select": "html > body > main > section > div"
+    }
+  }
+}

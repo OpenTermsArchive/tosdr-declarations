@@ -1,0 +1,9 @@
+{
+  "name": "Dlar hoje",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://dolarhoje.com/politicas/",
+      "select": "body"
+    }
+  }
+}

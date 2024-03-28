@@ -1,0 +1,17 @@
+{
+  "name": "Confusedcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.confused.com/privacy-and-security/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.confused.com/about-us/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.confused.com/privacy-and-security/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

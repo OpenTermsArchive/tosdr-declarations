@@ -1,0 +1,9 @@
+{
+  "name": "Privacy4cars",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacy4cars.com/privacy-policy-2/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "National hockey league nhlcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nhl.com/info/terms-of-service",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.nhl.com/info/copyright-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nhl.com/info/privacy-policy",
+      "select": "body"
+    }
+  }
+}

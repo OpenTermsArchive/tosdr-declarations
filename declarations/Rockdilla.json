@@ -1,0 +1,9 @@
+{
+  "name": "Rockdilla",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://rockdilla.com/",
+      "select": "html > body > div:nth-of-type(4)"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Patpat",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://eur.patpat.com/dmca-notice",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://eur.patpat.com/privacy",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/30985831/cookie-policy?an=no&s_ck=false&newmarkup=yes&ifr=true&height=469",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://eur.patpat.com/terms ",
+      "select": "body"
+    }
+  }
+}

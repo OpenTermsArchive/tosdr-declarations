@@ -1,0 +1,13 @@
+{
+  "name": "Cuttly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cutt.ly/terms",
+      "select": "html > body > main > section > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cutt.ly/privacy",
+      "select": "html > body > main > section > div > div > div"
+    }
+  }
+}

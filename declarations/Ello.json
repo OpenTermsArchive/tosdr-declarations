@@ -1,0 +1,25 @@
+{
+  "name": "Ello",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ello.co/wtf/policies/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ello.co/wtf/policies/data-policy/",
+      "select": "html > body > div > div:nth-of-type(2) > section > article"
+    },
+    "Policy": {
+      "fetch": "https://ello.co/wtf/policies/invite-rules/",
+      "select": "html > body > div > div:nth-of-type(2) > section > article"
+    },
+    "Other": {
+      "fetch": "https://ello.co/wtf/policies/reporting/",
+      "select": "html > body > div > div:nth-of-type(2) > section > article"
+    },
+    "Community Guidelines": {
+      "fetch": "https://ello.co/wtf/policies/community-guidelines/",
+      "select": "html > body > div > div:nth-of-type(2) > section > article"
+    }
+  }
+}

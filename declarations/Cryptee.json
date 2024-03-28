@@ -1,0 +1,13 @@
+{
+  "name": "Cryptee",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://crypt.ee/terms",
+      "select": "html > body > article:nth-of-type(3) > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://crypt.ee/privacy",
+      "select": "html > body > article:nth-of-type(3) > section"
+    }
+  }
+}

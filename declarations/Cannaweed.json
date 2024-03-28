@@ -1,0 +1,9 @@
+{
+  "name": "Cannaweed",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cannaweed.com/privacy/",
+      "select": null
+    }
+  }
+}

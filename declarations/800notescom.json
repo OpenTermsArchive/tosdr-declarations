@@ -1,0 +1,17 @@
+{
+  "name": "800notescom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://800notes.com/nb/privacyPolicy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://800notes.com/nb/tos",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://800notes.com/nb/legal",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > div:nth-of-type(2) > div"
+    }
+  }
+}

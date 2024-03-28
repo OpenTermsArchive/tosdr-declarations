@@ -1,0 +1,13 @@
+{
+  "name": "Naturalnewscom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.naturalnews.com/Terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.naturalnews.com/PrivacyPolicy.html",
+      "select": null
+    }
+  }
+}

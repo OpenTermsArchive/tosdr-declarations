@@ -1,0 +1,13 @@
+{
+  "name": "1fichier",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://img.1fichier.com/2018-06-19-CGU.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://img.1fichier.com/2021-01-12-GDPR.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Ihyperg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ihyperg.com/p/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > main > div > div > div > article"
+    }
+  }
+}

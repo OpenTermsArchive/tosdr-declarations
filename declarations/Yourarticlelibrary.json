@@ -1,0 +1,13 @@
+{
+  "name": "Yourarticlelibrary",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.yourarticlelibrary.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div > section > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.yourarticlelibrary.com/terms-of-service",
+      "select": "html > body > div:first-of-type > div > div > div > section > article"
+    }
+  }
+}

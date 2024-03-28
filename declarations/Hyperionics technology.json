@@ -1,0 +1,9 @@
+{
+  "name": "Hyperionics technology",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hyperionics.com/www/Privacy.asp",
+      "select": "body"
+    }
+  }
+}

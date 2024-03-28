@@ -1,0 +1,13 @@
+{
+  "name": "Betternet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aura.com/legal/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.betternet.co/terms/",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

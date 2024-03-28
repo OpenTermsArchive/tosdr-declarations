@@ -1,0 +1,13 @@
+{
+  "name": "Adalo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://app.adalo.com/signup/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.adalo.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

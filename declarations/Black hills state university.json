@@ -1,0 +1,13 @@
+{
+  "name": "Black hills state university",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bhsu.edu/About-BHSU/Terms-of-Use",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bhsu.edu/About-BHSU/Privacy-Statement",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    }
+  }
+}

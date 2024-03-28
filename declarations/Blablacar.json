@@ -1,0 +1,17 @@
+{
+  "name": "Blablacar",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://blog.blablacar.co.uk/about-us/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div > main > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.blablacar.co.uk/about-us/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://blog.blablacar.co.uk/about-us/cookies-policy",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div > main > div > div"
+    }
+  }
+}

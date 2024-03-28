@@ -1,0 +1,13 @@
+{
+  "name": "Quadranet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://quadranet.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://quadranet.com/service-level-agreement/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Mpik",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mpi-hd.mpg.de/mpi/en/datenschutzhinweis/",
+      "select": "body"
+    }
+  }
+}

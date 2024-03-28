@@ -1,0 +1,13 @@
+{
+  "name": "Frost giant studios stormgate",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://playstormgate.com/legal/eula",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://playstormgate.com/legal/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

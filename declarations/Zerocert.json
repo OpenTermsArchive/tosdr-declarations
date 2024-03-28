@@ -1,0 +1,9 @@
+{
+  "name": "Zerocert",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://zerocert.org/?act=privacy",
+      "select": null
+    }
+  }
+}

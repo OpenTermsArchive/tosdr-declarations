@@ -1,0 +1,13 @@
+{
+  "name": "Blockthiscom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://block-this.com/terms_and_conditions.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://block-this.com/privacy_policy.html",
+      "select": "body"
+    }
+  }
+}

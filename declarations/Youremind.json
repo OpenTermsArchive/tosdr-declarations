@@ -1,0 +1,9 @@
+{
+  "name": "Youremind",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://youremind.net/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

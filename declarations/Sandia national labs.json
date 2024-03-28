@@ -1,0 +1,9 @@
+{
+  "name": "Sandia national labs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sandialabs.recsolu.com/external/events/DIPdL4cCq1ZjSEyRcvIx8A/sign_up",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > main > div > div > div > div:nth-of-type(2) > form > div:nth-of-type(25) > div"
+    }
+  }
+}

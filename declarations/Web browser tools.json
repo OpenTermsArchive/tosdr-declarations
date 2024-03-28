@@ -1,0 +1,13 @@
+{
+  "name": "Web browser tools",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://webbrowsertools.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://webbrowsertools.com/terms.html",
+      "select": "body"
+    }
+  }
+}

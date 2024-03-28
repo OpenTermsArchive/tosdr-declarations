@@ -1,0 +1,13 @@
+{
+  "name": "Expressvpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.expressvpn.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.expressvpn.com/tos",
+      "select": "html > body > div:first-of-type > section > div > div"
+    }
+  }
+}

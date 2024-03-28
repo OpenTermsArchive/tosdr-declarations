@@ -1,0 +1,13 @@
+{
+  "name": "Scanguard",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.scanguard.com/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.scanguard.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Poopourri",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.poopourri.com/pages/stink-free-guarantee",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.poopourri.com/pages/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.poopourri.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

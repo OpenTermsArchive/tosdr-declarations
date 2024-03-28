@@ -1,0 +1,17 @@
+{
+  "name": "Byjus future school",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.byjusfutureschool.com/fulfillment-refund-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://code.byjusfutureschool.com/terms-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://code.byjusfutureschool.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Svenska kyrkan",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.svenskakyrkan.se/om-oss/kakor",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.svenskakyrkan.se/om-oss/personuppgifter",
+      "select": "body"
+    }
+  }
+}

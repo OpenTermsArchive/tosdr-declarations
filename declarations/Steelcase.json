@@ -1,0 +1,13 @@
+{
+  "name": "Steelcase",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.steelcase.com/terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.steelcase.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

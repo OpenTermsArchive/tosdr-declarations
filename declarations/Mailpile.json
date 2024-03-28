@@ -1,0 +1,9 @@
+{
+  "name": "Mailpile",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mailpile.is/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Spectrum",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.spectrum.com/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

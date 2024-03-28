@@ -1,0 +1,9 @@
+{
+  "name": "Privacytools forum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://forum.privacytools.io/tos",
+      "select": "body"
+    }
+  }
+}

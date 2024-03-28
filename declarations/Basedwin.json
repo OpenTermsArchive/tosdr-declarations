@@ -1,0 +1,9 @@
+{
+  "name": "Basedwin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://based.win/privacy-policy-2/",
+      "select": "body"
+    }
+  }
+}

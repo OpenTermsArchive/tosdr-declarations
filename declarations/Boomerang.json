@@ -1,0 +1,13 @@
+{
+  "name": "Boomerang",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.boomerangrentals.co.uk/privacy.php",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > div > div:nth-of-type(5) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.boomerangrentals.co.uk/terms_conditions.php",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > div > div:nth-of-type(5) > div"
+    }
+  }
+}

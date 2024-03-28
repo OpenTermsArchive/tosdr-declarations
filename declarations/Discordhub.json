@@ -1,0 +1,13 @@
+{
+  "name": "Discordhub",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://discordhub.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://discordhub.com/privacy",
+      "select": "body"
+    }
+  }
+}

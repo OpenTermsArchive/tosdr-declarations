@@ -1,0 +1,9 @@
+{
+  "name": "Hepsiburada",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.hepsiburada.com/gizlilik-politikasi",
+      "select": "body"
+    }
+  }
+}

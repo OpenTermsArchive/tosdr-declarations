@@ -1,0 +1,9 @@
+{
+  "name": "Ing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ing.com.au/privacy.html",
+      "select": "html > body > div:nth-of-type(2) > div > section > article"
+    }
+  }
+}

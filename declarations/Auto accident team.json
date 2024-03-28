@@ -1,0 +1,13 @@
+{
+  "name": "Auto accident team",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://autoaccidentteam.com/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://autoaccidentteam.com/terms-of-use",
+      "select": null
+    }
+  }
+}

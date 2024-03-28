@@ -1,0 +1,9 @@
+{
+  "name": "Nerdist",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nerdist.com/privacy/",
+      "select": " > div:first-of-type > div:nth-of-type(2) > section"
+    }
+  }
+}

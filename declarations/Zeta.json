@@ -1,0 +1,13 @@
+{
+  "name": "Zeta",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.askzeta.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(3) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.askzeta.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(3) > div > div > div > div"
+    }
+  }
+}

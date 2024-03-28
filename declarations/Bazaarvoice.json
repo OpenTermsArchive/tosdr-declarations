@@ -1,0 +1,13 @@
+{
+  "name": "Bazaarvoice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bazaarvoice.com/legal/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bazaarvoice.com/legal/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

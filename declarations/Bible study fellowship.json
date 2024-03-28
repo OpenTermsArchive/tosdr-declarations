@@ -1,0 +1,13 @@
+{
+  "name": "Bible study fellowship",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bsfinternational.org/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bsfinternational.org/terms-of-use ",
+      "select": "body"
+    }
+  }
+}

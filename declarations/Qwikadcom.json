@@ -1,0 +1,13 @@
+{
+  "name": "Qwikadcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://qwikad.com/0?view=page&pagename=privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://qwikad.com/0?view=page&pagename=terms",
+      "select": null
+    }
+  }
+}

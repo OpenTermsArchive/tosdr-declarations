@@ -1,0 +1,13 @@
+{
+  "name": "Shoutwiki",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.shoutwiki.com/wiki/Terms_of_use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.shoutwiki.com/wiki/ShoutWiki_Hub:Privacy_Policy",
+      "select": "body"
+    }
+  }
+}

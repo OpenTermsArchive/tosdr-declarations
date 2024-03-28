@@ -1,0 +1,9 @@
+{
+  "name": "Army national guard",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nationalguard.com/privacy",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2) > div:first-of-type > div:first-of-type"
+    }
+  }
+}

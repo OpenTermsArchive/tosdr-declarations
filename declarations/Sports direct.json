@@ -1,0 +1,13 @@
+{
+  "name": "Sports direct",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.sportsdirect.com/support/solutions/articles/80000495578-security-privacy-and-cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.sportsdirect.com/support/solutions/articles/80000495592-terms-conditions-current-promotions",
+      "select": " > li > div:nth-of-type(2)"
+    }
+  }
+}

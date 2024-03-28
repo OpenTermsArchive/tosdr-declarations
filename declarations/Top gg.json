@@ -1,0 +1,13 @@
+{
+  "name": "Top gg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://top.gg/tos",
+      "select": "html > body > section > article > div > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://top.gg/privacy",
+      "select": " > div > div > div:first-of-type"
+    }
+  }
+}

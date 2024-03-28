@@ -1,0 +1,9 @@
+{
+  "name": "Pronoundb",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pronoundb.org/privacy/",
+      "select": "body"
+    }
+  }
+}

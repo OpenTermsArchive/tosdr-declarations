@@ -1,0 +1,13 @@
+{
+  "name": "Oscobo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.oscobo.com/ctnt.php?c=privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.oscobo.com/ctnt.php?c=terms",
+      "select": "body"
+    }
+  }
+}

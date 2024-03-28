@@ -1,0 +1,13 @@
+{
+  "name": "Shushutech",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.shushu.tech/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.shushu.tech/privacy-policy-1",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

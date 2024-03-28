@@ -1,0 +1,13 @@
+{
+  "name": "Streamsb",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://support.streamsb.com/dmca/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://sblongvu.com/tos",
+      "select": "body"
+    }
+  }
+}

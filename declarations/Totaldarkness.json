@@ -1,0 +1,9 @@
+{
+  "name": "Totaldarkness",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rimgo.totaldarkness.net/privacy",
+      "select": "body"
+    }
+  }
+}

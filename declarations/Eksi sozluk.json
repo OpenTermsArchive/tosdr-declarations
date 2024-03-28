@@ -1,0 +1,17 @@
+{
+  "name": "Eksi sozluk",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://eksisozluk.com/entry/65310835",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://eksisozluk.com/entry/66470645",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://eksisozluk.com/entry/19784395",
+      "select": null
+    }
+  }
+}

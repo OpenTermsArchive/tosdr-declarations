@@ -1,0 +1,9 @@
+{
+  "name": "Web  seo designers",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.webseodesigners.com/",
+      "select": "body"
+    }
+  }
+}

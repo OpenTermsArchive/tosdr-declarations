@@ -1,0 +1,13 @@
+{
+  "name": "Cash app",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://squareup.com/gb/en/legal/general",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cash.app/legal/us/en-us/legal/us/en-us/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Kuwait finance house",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.kfh.com/en/home/Personal/aboutus/Privacy-Notice.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.kfh.com/en/home/Personal/Cookies-and-Data-Privacy-Notice.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > section > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kfh.com/dam/jcr:a4891669-5c20-4b6e-9195-5f86ba27db9a/Prvate%20Policy%20English.pdf",
+      "select": "body"
+    }
+  }
+}

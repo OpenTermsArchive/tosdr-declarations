@@ -1,0 +1,13 @@
+{
+  "name": "Zonar",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.zonarsystems.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.zonarsystems.com/privacy/",
+      "select": "body"
+    }
+  }
+}

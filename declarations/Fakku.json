@@ -1,0 +1,13 @@
+{
+  "name": "Fakku",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fakku.net/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fakku.net/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Independent political report",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://independentpoliticalreport.com/about/privacy-policy/",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://independentpoliticalreport.com/community-guidelines/",
+      "select": "html > body > div:first-of-type > div > div > div > section > div > div > article"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://independentpoliticalreport.com/dmca/",
+      "select": null
+    }
+  }
+}

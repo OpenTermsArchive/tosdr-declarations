@@ -1,0 +1,9 @@
+{
+  "name": "Via hostels",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.viahostels.com/amsterdam/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div > div > div > div > div > div"
+    }
+  }
+}

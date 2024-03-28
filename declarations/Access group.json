@@ -1,0 +1,13 @@
+{
+  "name": "Access group",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.theaccessgroup.com/en-gb/privacy-notice/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.theaccessgroup.com/en-gb/cookies/",
+      "select": "body"
+    }
+  }
+}

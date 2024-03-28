@@ -1,0 +1,13 @@
+{
+  "name": "Rapididentity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.identityautomation.com/privacy-policy/",
+      "select": "html > body > main > div > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.identityautomation.com/terms-of-use/",
+      "select": "html > body > main > div > section > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Lendkey technologies",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lendkey.com/terms-of-use/?sk=organic",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lendkey.com/privacy-policy/?sk=organic",
+      "select": "body"
+    }
+  }
+}

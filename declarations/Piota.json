@@ -1,0 +1,13 @@
+{
+  "name": "Piota",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.piota.co.uk/data-protection-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.piota.co.uk/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Pluginamerica",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pluginamerica.org/privacy-policy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Cengage",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cengage.com/privacy",
+      "select": "html > body > main"
+    },
+    "Legal Information": {
+      "fetch": "https://www.cengage.com/privacy/statement",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cengage.com/legal/#terms",
+      "select": "html > body > main"
+    }
+  }
+}

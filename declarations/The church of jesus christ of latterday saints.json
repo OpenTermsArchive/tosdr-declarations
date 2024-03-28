@@ -1,0 +1,13 @@
+{
+  "name": "The church of jesus christ of latterday saints",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.churchofjesuschrist.org/legal/privacy-notice?lang=eng&country=go",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.churchofjesuschrist.org/legal/terms-of-use?lang=eng&country=go",
+      "select": "body"
+    }
+  }
+}

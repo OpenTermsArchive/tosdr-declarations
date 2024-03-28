@@ -1,0 +1,13 @@
+{
+  "name": "Aliexpress",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rule.alibaba.com/rule/detail/2041.htm?spm=a271m.8038972.1999288231.4.1d906d82xAj7nI",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress201909171350_82407.html",
+      "select": "body"
+    }
+  }
+}

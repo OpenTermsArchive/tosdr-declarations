@@ -1,0 +1,13 @@
+{
+  "name": "Private phone shop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://privatephoneshop.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://privatephoneshop.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

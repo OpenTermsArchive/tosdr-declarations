@@ -1,0 +1,9 @@
+{
+  "name": "Dtg recycle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dtgrecycle.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

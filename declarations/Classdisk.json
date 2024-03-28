@@ -1,0 +1,13 @@
+{
+  "name": "Classdisk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.classdisk.com/portal/en/kb/articles/privacy-policy",
+      "select": "html > body > div:first-of-type > div > portal > div:nth-of-type(4) > div:first-of-type > div > div:first-of-type > div:nth-of-type(2) > div:first-of-type > p > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.classdisk.com/portal/en/kb/articles/terms-of-use",
+      "select": "html > body > div:first-of-type > div > portal > div:nth-of-type(4) > div:first-of-type > div > div:first-of-type"
+    }
+  }
+}

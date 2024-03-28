@@ -1,0 +1,9 @@
+{
+  "name": "Throwawaymail",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.throwawaymail.com/privacy-policy.pdf",
+      "select": "body"
+    }
+  }
+}

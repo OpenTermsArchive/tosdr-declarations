@@ -1,0 +1,13 @@
+{
+  "name": "Coolmathgames",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.coolmathgames.com/privacyp",
+      "select": "html > body > div:first-of-type > div > main > div > div > div:nth-of-type(2) > div:first-of-type > div > div:nth-of-type(4) > div > div > article > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.coolmathgames.com/terms-use",
+      "select": "html > body > div:first-of-type > div > main > div > div > div:nth-of-type(2) > div:first-of-type > div > div:nth-of-type(4) > div > div > article > div > div"
+    }
+  }
+}

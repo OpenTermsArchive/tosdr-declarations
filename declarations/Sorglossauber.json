@@ -1,0 +1,9 @@
+{
+  "name": "Sorglossauber",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sorglossauber.ch/unternehmen/datenschutz",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Open assistant",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://open-assistant.io/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://open-assistant.io/terms-of-service",
+      "select": "html > body > div:first-of-type > div > div > div"
+    }
+  }
+}

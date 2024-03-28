@@ -1,0 +1,13 @@
+{
+  "name": "The casual sex project",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://casualsexproject.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://casualsexproject.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

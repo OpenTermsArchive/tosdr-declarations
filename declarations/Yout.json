@@ -1,0 +1,13 @@
+{
+  "name": "Yout",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://yout.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://yout.com/privacy/",
+      "select": "body"
+    }
+  }
+}

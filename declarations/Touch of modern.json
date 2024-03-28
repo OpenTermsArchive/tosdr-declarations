@@ -1,0 +1,13 @@
+{
+  "name": "Touch of modern",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.touchofmodern.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.touchofmodern.com/terms",
+      "select": "body"
+    }
+  }
+}

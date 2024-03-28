@@ -1,0 +1,17 @@
+{
+  "name": "Shopadvisors",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://shopadvisors.net/terms",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://shopadvisors.net/privacy",
+      "select": "html > body > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://shopadvisors.net/cookies",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Quillbot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://quillbot.com/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://quillbot.com/cookie-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(3) > section:first-of-type > div > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://quillbot.com/copyright-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(3) > section:first-of-type > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://quillbot.com/privacy",
+      "select": "body"
+    }
+  }
+}

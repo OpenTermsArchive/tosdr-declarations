@@ -1,0 +1,13 @@
+{
+  "name": "Internet download manager",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.internetdownloadmanager.com/support/terms-and-conditions.html",
+      "select": "html > body > blockquote:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.internetdownloadmanager.com/support/privacy.html",
+      "select": "html > body > blockquote:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Rabbits reviews",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rabbitsreviews.com/legal#privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > section"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.rabbitsreviews.com/legal#DMCA",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.rabbitsreviews.com/legal#Cookie",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rabbitsreviews.com/legal#TOS",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > section"
+    },
+    "Records Keeping Policy": {
+      "fetch": "https://www.rabbitsreviews.com/legal#USC18",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > section"
+    }
+  }
+}

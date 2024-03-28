@@ -1,0 +1,9 @@
+{
+  "name": "Yoc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yoc.com/privacy/",
+      "select": "body"
+    }
+  }
+}

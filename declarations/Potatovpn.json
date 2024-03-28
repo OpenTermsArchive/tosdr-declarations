@@ -1,0 +1,13 @@
+{
+  "name": "Potatovpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://potatovpn.io/?n=potato.vpn.PrivacyPolicy",
+      "select": "html > body > div:nth-of-type(4) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://potatovpn.io/?n=potato.vpn.TermsOfService",
+      "select": "html > body > div:nth-of-type(4)"
+    }
+  }
+}

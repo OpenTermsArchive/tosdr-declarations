@@ -1,0 +1,13 @@
+{
+  "name": "Indiantube",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.indiantube.porn/dmca/",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.indiantube.porn/terms/",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    }
+  }
+}

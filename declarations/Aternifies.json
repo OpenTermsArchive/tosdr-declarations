@@ -1,0 +1,9 @@
+{
+  "name": "Aternifies",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://aternifies.cf/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

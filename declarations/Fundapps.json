@@ -1,0 +1,9 @@
+{
+  "name": "Fundapps",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fundapps.co/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Powercord",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://powercord.dev/legal/privacy",
+      "select": "html > body > div:first-of-type > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://powercord.dev/legal/tos",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

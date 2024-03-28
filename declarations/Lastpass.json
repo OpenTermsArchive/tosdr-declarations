@@ -1,0 +1,13 @@
+{
+  "name": "Lastpass",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.logmeininc.com/legal/terms-and-conditions",
+      "select": "div.text-block"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.logmeininc.com/legal/privacy/international",
+      "select": "div.text-block"
+    }
+  }
+}

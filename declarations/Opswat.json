@@ -1,0 +1,13 @@
+{
+  "name": "Opswat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.opswat.com/policies/privacy-policy/opswat-privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.opswat.com/policies/terms-of-service/opswat--inc--terms-of-service",
+      "select": "body"
+    }
+  }
+}

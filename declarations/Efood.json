@@ -1,0 +1,25 @@
+{
+  "name": "Efood",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.e-food.gr/page/payments",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.e-food.gr/page/privacy",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.e-food.gr/page/rider_privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.e-food.gr/page/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.e-food.gr/page/tos",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Esmail el bob",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://libremdb.esmailelbob.xyz/privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://gothub.esmailelbob.xyz/",
+      "select": "body"
+    }
+  }
+}

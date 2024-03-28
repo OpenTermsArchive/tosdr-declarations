@@ -1,0 +1,13 @@
+{
+  "name": "Quotelab",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.quotelab.com/terms-of-use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.quotelab.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

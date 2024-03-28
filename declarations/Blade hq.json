@@ -1,0 +1,13 @@
+{
+  "name": "Blade hq",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bladehq.com/cat--Terms-Conditions--96",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bladehq.com/cat--Privacy-Policy--1621",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

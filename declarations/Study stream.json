@@ -1,0 +1,13 @@
+{
+  "name": "Study stream",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.studystream.live/policies/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.studystream.live/policies/privacy",
+      "select": "body"
+    }
+  }
+}

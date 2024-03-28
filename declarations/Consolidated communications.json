@@ -1,0 +1,13 @@
+{
+  "name": "Consolidated communications",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.consolidated.com/support/terms-policies/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.consolidated.com/support/terms-policies/website-terms-of-use",
+      "select": null
+    }
+  }
+}

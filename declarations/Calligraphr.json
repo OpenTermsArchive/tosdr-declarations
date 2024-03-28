@@ -1,0 +1,13 @@
+{
+  "name": "Calligraphr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.calligraphr.com/en/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.calligraphr.com/en/tos/",
+      "select": "body"
+    }
+  }
+}

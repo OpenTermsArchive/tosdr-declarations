@@ -1,0 +1,13 @@
+{
+  "name": "Wusatv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wusa9.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wusa9.com/privacy",
+      "select": "body"
+    }
+  }
+}

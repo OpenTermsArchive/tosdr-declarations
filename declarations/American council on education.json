@@ -1,0 +1,13 @@
+{
+  "name": "American council on education",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.acenet.edu/Pages/privacy.aspx",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.acenet.edu/Pages/Terms-of-Use.aspx",
+      "select": null
+    }
+  }
+}

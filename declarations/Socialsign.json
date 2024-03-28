@@ -1,0 +1,13 @@
+{
+  "name": "Socialsign",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://socialsign.in/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://socialsign.in/terms",
+      "select": "body"
+    }
+  }
+}

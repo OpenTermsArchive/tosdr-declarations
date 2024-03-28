@@ -1,0 +1,9 @@
+{
+  "name": "Moxie hair studio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://moxiehairstudio.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

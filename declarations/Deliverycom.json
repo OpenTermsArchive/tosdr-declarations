@@ -1,0 +1,13 @@
+{
+  "name": "Deliverycom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.delivery.com/info/legal/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.delivery.com/info/legal/privacy",
+      "select": " > div"
+    }
+  }
+}

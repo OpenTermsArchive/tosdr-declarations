@@ -1,0 +1,9 @@
+{
+  "name": "The blue book building and construction",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thebluebook.com/company/privacy-policy.html",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div > div:first-of-type > div > div > div"
+    }
+  }
+}

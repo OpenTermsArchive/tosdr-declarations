@@ -1,0 +1,13 @@
+{
+  "name": "Fort awesome",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fortawesome.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://fortawesome.com/tos",
+      "select": "body"
+    }
+  }
+}

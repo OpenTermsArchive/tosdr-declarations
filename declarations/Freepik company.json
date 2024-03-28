@@ -1,0 +1,9 @@
+{
+  "name": "Freepik company",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.freepikcompany.com/legal",
+      "select": "body"
+    }
+  }
+}

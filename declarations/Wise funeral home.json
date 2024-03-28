@@ -1,0 +1,13 @@
+{
+  "name": "Wise funeral home",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wisefuneralhome.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wisefuneralhome.com/conditions",
+      "select": "body"
+    }
+  }
+}

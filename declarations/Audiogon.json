@@ -1,0 +1,21 @@
+{
+  "name": "Audiogon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://support.audiogon.com/hc/en-us/articles/360017516092-Terms-of-Use",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://support.audiogon.com/hc/en-us/articles/360017516112-DMCA-Contact",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://support.audiogon.com/hc/en-us/articles/360017799711",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://support.audiogon.com/hc/en-us/articles/360017799751-Flagging-Policy",
+      "select": null
+    }
+  }
+}

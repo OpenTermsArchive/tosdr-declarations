@@ -1,0 +1,13 @@
+{
+  "name": "Signalrgb",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://signalrgb.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://signalrgb.com/terms/",
+      "select": "body"
+    }
+  }
+}

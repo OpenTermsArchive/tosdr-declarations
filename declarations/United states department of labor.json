@@ -1,0 +1,9 @@
+{
+  "name": "United states department of labor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dol.gov/general/privacynotice",
+      "select": "html > body > div:first-of-type > div > main"
+    }
+  }
+}

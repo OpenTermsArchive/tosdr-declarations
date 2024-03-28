@@ -1,0 +1,17 @@
+{
+  "name": "Fanfiction",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fanfiction.net/privacy/",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fanfiction.net/tos/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.fanfiction.net/cookies/",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div"
+    }
+  }
+}

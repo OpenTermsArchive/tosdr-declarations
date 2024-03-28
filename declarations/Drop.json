@@ -1,0 +1,13 @@
+{
+  "name": "Drop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://drop.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://drop.com/privacy",
+      "select": "body"
+    }
+  }
+}

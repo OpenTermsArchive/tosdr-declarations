@@ -1,0 +1,17 @@
+{
+  "name": "Pricecharting",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pricecharting.com/page/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pricecharting.com/page/terms-of-service",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.pricecharting.com/return-policy",
+      "select": null
+    }
+  }
+}

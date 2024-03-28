@@ -1,0 +1,17 @@
+{
+  "name": "Airbnb",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.airbnb.com/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.airbnb.com/terms/cookie_policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.airbnb.com/terms/privacy_policy",
+      "select": "body"
+    }
+  }
+}

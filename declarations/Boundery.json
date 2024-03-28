@@ -1,0 +1,13 @@
+{
+  "name": "Boundery",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://deals.boundery.com/legal/tc/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://deals.boundery.com/legal/pp/",
+      "select": "body"
+    }
+  }
+}

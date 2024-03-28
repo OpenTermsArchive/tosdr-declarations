@@ -1,0 +1,13 @@
+{
+  "name": "Autodesk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement",
+      "select": " > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.autodesk.com/company/legal-notices-trademarks/access-use/website-terms-of-use",
+      "select": " > div"
+    }
+  }
+}

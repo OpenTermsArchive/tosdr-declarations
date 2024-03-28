@@ -1,0 +1,9 @@
+{
+  "name": "Usl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.usl.website/tospage.php",
+      "select": "body"
+    }
+  }
+}

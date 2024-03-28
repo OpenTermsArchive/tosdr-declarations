@@ -1,0 +1,17 @@
+{
+  "name": "Chatbot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.chatbot.com/legal/security/",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.chatbot.com/legal/cookies-policy/",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.chatbot.com/legal/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

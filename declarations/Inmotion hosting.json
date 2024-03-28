@@ -1,0 +1,17 @@
+{
+  "name": "Inmotion hosting",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.inmotionhosting.com/privacy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.inmotionhosting.com/privacy/cookie-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.inmotionhosting.com/legal/",
+      "select": null
+    }
+  }
+}

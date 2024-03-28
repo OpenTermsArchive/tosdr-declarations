@@ -1,0 +1,21 @@
+{
+  "name": "Canadian broadcasting corporation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cbc.radio-canada.ca/en/vision/governance/corporate-policies/secretariat/protection",
+      "select": "html > body > my-app > div > div > div > ng-component > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://cbc.radio-canada.ca/en/vision/governance/terms-of-use-digital-services",
+      "select": "html > body > my-app > div > div > div > ng-component > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.cbc.ca/aboutcbc/discover/submissions.html",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.cbc.ca/mycbc/viewcookies",
+      "select": "html > body > div:first-of-type > div > main > div > div > div:nth-of-type(2) > div:nth-of-type(3)"
+    }
+  }
+}

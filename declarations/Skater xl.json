@@ -1,0 +1,9 @@
+{
+  "name": "Skater xl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://skaterxl.com/privacy-2/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > article > div > div > div > div:first-of-type"
+    }
+  }
+}

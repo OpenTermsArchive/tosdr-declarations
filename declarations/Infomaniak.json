@@ -1,0 +1,13 @@
+{
+  "name": "Infomaniak",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.infomaniak.com/en/legal/policy-use-cookies",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > section:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.infomaniak.com/en/legal/general-data-protection-regulation",
+      "select": "html > body > div > div:first-of-type > div"
+    }
+  }
+}

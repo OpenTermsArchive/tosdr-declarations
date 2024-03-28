@@ -1,0 +1,13 @@
+{
+  "name": "Banknorth",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ibanknorth.com/wp-content/uploads/2018/07/privacy_policy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ibanknorth.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

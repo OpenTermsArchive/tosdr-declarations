@@ -1,0 +1,13 @@
+{
+  "name": "Yotpo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.yotpo.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.yotpo.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

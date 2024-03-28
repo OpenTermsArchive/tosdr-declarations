@@ -1,0 +1,13 @@
+{
+  "name": "Veracity",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://id.veracity.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://services.veracity.com/PrivacyStatement",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type"
+    }
+  }
+}

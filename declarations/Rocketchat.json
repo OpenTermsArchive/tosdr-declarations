@@ -1,0 +1,13 @@
+{
+  "name": "Rocketchat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.rocket.chat/legal/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.rocket.chat/legal/privacy",
+      "select": "body"
+    }
+  }
+}

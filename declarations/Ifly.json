@@ -1,0 +1,13 @@
+{
+  "name": "Ifly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://app.termly.io/embed/terms-of-use/8684acb3-ca65-48d3-9e81-98cb323f2e9f",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://app.termly.io/embed/terms-of-use/b701699b-1d9b-4565-acc6-2a7a96693b0e",
+      "select": "body"
+    }
+  }
+}

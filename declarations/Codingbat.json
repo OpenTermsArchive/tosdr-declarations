@@ -1,0 +1,9 @@
+{
+  "name": "Codingbat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://codingbat.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "The national lottery community fund",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.tnlcommunityfund.org.uk/about/customer-service/cookies ",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.tnlcommunityfund.org.uk/about/customer-service/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tnlcommunityfund.org.uk/about/customer-service/terms-of-use",
+      "select": "body"
+    }
+  }
+}

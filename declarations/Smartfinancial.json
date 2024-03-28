@@ -1,0 +1,13 @@
+{
+  "name": "Smartfinancial",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://smartfinancial.com/terms-of-use",
+      "select": "html > body > app-root > app-app-layout > div > app-terms-of-use > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://smartfinancial.com/privacy-policy",
+      "select": "html > body > app-root > app-app-layout > div > app-privacy-policy > div:nth-of-type(2)"
+    }
+  }
+}

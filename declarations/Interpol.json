@@ -1,0 +1,17 @@
+{
+  "name": "Interpol",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.interpol.int/Who-we-are/Cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.interpol.int/Who-we-are/Terms-of-use",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(5) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.interpol.int/Who-we-are/Privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(5) > div"
+    }
+  }
+}

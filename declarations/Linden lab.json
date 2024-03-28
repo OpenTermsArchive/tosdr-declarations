@@ -1,0 +1,21 @@
+{
+  "name": "Linden lab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lindenlab.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://lindenlab.com/tos",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://lindenlab.com/legal/intellectual-property-infringement-notification-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://secondlife.com/cookies",
+      "select": "body"
+    }
+  }
+}

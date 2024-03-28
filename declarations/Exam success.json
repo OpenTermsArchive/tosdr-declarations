@@ -1,0 +1,21 @@
+{
+  "name": "Exam success",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.examsuccess.com.au/info/editorial",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.examsuccess.com.au/info/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.examsuccess.com.au/info/cookie_policy",
+      "select": "body"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://www.examsuccess.com.au/info/child_safe_policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Dreamstorm studios",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dreamstormstudios.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

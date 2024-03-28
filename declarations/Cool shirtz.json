@@ -1,0 +1,9 @@
+{
+  "name": "Cool shirtz",
+  "documents": {
+    "Policy": {
+      "fetch": "https://shirtz.cool/pages/store-policies",
+      "select": "html > body > div:nth-of-type(3) > main > div > div:nth-of-type(2) > div"
+    }
+  }
+}

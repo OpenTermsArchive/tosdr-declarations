@@ -1,0 +1,13 @@
+{
+  "name": "Nerdwallet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nerdwallet.com/blog/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nerdwallet.com/blog/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Kurzgesagt",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://kurzgesagt.org/cookies/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > main > div > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kurzgesagt.org/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > main > div > section"
+    }
+  }
+}

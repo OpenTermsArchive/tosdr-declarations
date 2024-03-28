@@ -1,0 +1,13 @@
+{
+  "name": "Recrypt",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://recrypt.app/end-user-license-agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://recrypt.app/privacy-policy",
+      "select": "body"
+    }
+  }
+}

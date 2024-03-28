@@ -1,0 +1,9 @@
+{
+  "name": "Himynameishonzacom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://himynameishonza.com/privacy",
+      "select": "body"
+    }
+  }
+}

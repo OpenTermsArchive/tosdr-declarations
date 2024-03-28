@@ -1,0 +1,13 @@
+{
+  "name": "Myfritz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.myfritz.net/terms?language=de",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://service.avm.de/help/en/dse/current/hilfe_datenschutzerklaerung",
+      "select": "body"
+    }
+  }
+}

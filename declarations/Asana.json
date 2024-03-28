@@ -1,0 +1,17 @@
+{
+  "name": "Asana",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://asana.com/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://asana.com/terms#privacy-policy",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://asana.com/terms#cookies-notice",
+      "select": null
+    }
+  }
+}

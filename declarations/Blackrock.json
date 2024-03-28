@@ -1,0 +1,13 @@
+{
+  "name": "Blackrock",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.blackrock.com/ch/individual/en/compliance/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.blackrock.com/corporate/compliance/privacy-policy",
+      "select": "body"
+    }
+  }
+}

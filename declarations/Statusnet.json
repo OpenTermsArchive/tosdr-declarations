@@ -1,0 +1,9 @@
+{
+  "name": "Statusnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://status.net/articles/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sketchcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sketch.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sketch.com/tos/",
+      "select": "body"
+    }
+  }
+}

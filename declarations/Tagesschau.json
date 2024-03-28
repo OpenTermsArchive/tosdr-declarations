@@ -1,0 +1,9 @@
+{
+  "name": "Tagesschau",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tagesschau.de/datenschutzerklaerung-100.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Survey junkie",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.surveyjunkie.com/privacy",
+      "select": "body"
+    }
+  }
+}

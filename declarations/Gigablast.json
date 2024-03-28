@@ -1,0 +1,13 @@
+{
+  "name": "Gigablast",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gigablast.com/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gigablast.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

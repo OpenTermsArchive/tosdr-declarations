@@ -1,0 +1,13 @@
+{
+  "name": "Wellcare health plans",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wellcare.com/en/Corporate/Legal",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://wellcare.com/en/Corporate/SMS-Texting-Terms-and-Conditions",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

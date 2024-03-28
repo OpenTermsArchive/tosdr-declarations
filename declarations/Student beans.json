@@ -1,0 +1,13 @@
+{
+  "name": "Student beans",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://accounts.studentbeans.com/us/info/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://accounts.studentbeans.com/us/info/privacy",
+      "select": "body"
+    }
+  }
+}

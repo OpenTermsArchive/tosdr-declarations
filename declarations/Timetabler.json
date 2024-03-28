@@ -1,0 +1,9 @@
+{
+  "name": "Timetabler",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.timetabler.com/PDFs/TimeTabler-Licence.pdf",
+      "select": "body"
+    }
+  }
+}

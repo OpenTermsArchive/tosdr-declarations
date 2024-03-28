@@ -1,0 +1,13 @@
+{
+  "name": "Creator ink",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://creatorink.com/pages/terms-conditions",
+      "select": "html > body > div:first-of-type > div > main > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://creatorink.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

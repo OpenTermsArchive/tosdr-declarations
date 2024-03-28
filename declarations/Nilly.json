@@ -1,0 +1,13 @@
+{
+  "name": "Nilly",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nilly.io/page/privacy",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://nilly.io/page/terms",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

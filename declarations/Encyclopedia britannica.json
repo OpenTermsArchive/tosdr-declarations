@@ -1,0 +1,13 @@
+{
+  "name": "Encyclopedia britannica",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://corporate.britannica.com/privacy-policy/ ",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://corporate.britannica.com/termsofuse.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Remember the milk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rememberthemilk.com/help/privacy.rtm",
+      "select": "html > body > main > section"
+    },
+    "Developer Terms": {
+      "fetch": "https://www.rememberthemilk.com/services/api/terms.rtm",
+      "select": "html > body > main > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rememberthemilk.com/help/proterms.rtm",
+      "select": "html > body > main > section"
+    }
+  }
+}

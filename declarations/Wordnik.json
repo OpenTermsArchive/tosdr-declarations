@@ -1,0 +1,13 @@
+{
+  "name": "Wordnik",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wordnik.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wordnik.com/privacy",
+      "select": "body"
+    }
+  }
+}

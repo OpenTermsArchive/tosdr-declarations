@@ -1,0 +1,17 @@
+{
+  "name": "Omgsweeps",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://omgsweeps.com/terms-conditions/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://omgsweeps.com/privacy-notice",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://omgsweeps.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

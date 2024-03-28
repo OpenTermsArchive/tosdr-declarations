@@ -1,0 +1,13 @@
+{
+  "name": "Granicus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://granicus.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://subscriberhelp.granicus.com/s/article/Privacy",
+      "select": "body"
+    }
+  }
+}

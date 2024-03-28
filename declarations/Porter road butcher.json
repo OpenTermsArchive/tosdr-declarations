@@ -1,0 +1,13 @@
+{
+  "name": "Porter road butcher",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://porterroad.com/pages/privacy-policy",
+      "select": "html > body > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://porterroad.com/pages/terms-of-use",
+      "select": "html > body > main > div > div"
+    }
+  }
+}

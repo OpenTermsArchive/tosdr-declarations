@@ -1,0 +1,13 @@
+{
+  "name": "Answerstoall",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://answerstoall.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://answerstoall.com/terms-and-conditions/",
+      "select": null
+    }
+  }
+}

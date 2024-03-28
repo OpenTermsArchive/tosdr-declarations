@@ -1,0 +1,9 @@
+{
+  "name": "Tootfinder",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tootfinder.ch/privacy.php",
+      "select": "body"
+    }
+  }
+}

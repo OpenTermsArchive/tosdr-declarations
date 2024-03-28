@@ -1,0 +1,17 @@
+{
+  "name": "Cellular news",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://cellularnews.com/dmca/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://cellularnews.com/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://cellularnews.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

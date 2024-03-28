@@ -1,0 +1,13 @@
+{
+  "name": "Wall street oasis",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wallstreetoasis.com/legal",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type > div:nth-of-type(3) > div > div > div:first-of-type > div > article > div > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wallstreetoasis.com/privacy-policy-wall-street-oasis",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type > div:nth-of-type(3) > div > div > div:first-of-type > div > article"
+    }
+  }
+}

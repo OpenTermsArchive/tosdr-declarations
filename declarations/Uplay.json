@@ -1,0 +1,9 @@
+{
+  "name": "Uplay",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://legal.ubi.com/termsofuse/en-US",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Morning brew",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.morningbrew.com/privacy",
+      "select": "html > body > div:first-of-type > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.morningbrew.com/terms-service",
+      "select": "body"
+    }
+  }
+}

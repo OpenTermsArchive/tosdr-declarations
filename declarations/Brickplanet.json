@@ -1,0 +1,13 @@
+{
+  "name": "Brickplanet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.brickplanet.com/about/privacy-policy",
+      "select": "html > body > main > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.brickplanet.com/about/terms-and-conditions",
+      "select": "html > body > main > main"
+    }
+  }
+}

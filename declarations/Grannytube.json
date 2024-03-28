@@ -1,0 +1,17 @@
+{
+  "name": "Grannytube",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.grannytube.net/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "http://www.grannytube.net/cookie-policy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "http://www.grannytube.net/dmca/",
+      "select": "body"
+    }
+  }
+}

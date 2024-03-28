@@ -1,0 +1,13 @@
+{
+  "name": "Shane co",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.shaneco.com/about/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.shaneco.com/about/privacy-policy",
+      "select": "body"
+    }
+  }
+}

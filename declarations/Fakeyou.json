@@ -1,0 +1,13 @@
+{
+  "name": "Fakeyou",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://fakeyou.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://fakeyou.com/privacy",
+      "select": "body"
+    }
+  }
+}

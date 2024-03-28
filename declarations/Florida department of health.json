@@ -1,0 +1,9 @@
+{
+  "name": "Florida department of health",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.floridahealth.gov/privacy-policy.html",
+      "select": null
+    }
+  }
+}

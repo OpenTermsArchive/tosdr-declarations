@@ -1,0 +1,13 @@
+{
+  "name": "State street corporation",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.statestreet.com/utility/cookie-disclosure.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.statestreet.com/utility/privacy-notice.html",
+      "select": "body"
+    }
+  }
+}

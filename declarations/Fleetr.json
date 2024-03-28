@@ -1,0 +1,9 @@
+{
+  "name": "Fleetr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fleetr.com/privacy-policy-2/",
+      "select": "html > body > div:nth-of-type(5) > div:first-of-type"
+    }
+  }
+}

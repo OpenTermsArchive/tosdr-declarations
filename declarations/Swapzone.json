@@ -1,0 +1,13 @@
+{
+  "name": "Swapzone",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://swapzone.io/docs/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://swapzone.io/docs/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

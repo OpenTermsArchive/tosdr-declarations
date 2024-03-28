@@ -1,0 +1,13 @@
+{
+  "name": "Mytoysde",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mirapodo.de/c/datenschutz.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mirapodo.de/c/agb.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Uden ai federated network",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://social.uden.ai/about/tos",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://social.uden.ai/about/dmca",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://social.uden.ai/about/privacy",
+      "select": "body"
+    }
+  }
+}

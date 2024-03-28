@@ -1,0 +1,17 @@
+{
+  "name": "Writing legends",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://readingeggs.com/refund/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.writinglegends.com.au/privacy",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.writinglegends.com.au/terms",
+      "select": "body"
+    }
+  }
+}

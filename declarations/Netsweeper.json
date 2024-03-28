@@ -1,0 +1,13 @@
+{
+  "name": "Netsweeper",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.netsweeper.com/policies-terms/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.netsweeper.com/policies-terms/terms-of-use",
+      "select": "body"
+    }
+  }
+}

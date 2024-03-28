@@ -1,0 +1,13 @@
+{
+  "name": "Iscreamshopcom",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.iscream-shop.com/privacy-notice",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.iscream-shop.com/shipping-returns",
+      "select": "body"
+    }
+  }
+}

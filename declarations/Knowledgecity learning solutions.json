@@ -1,0 +1,13 @@
+{
+  "name": "Knowledgecity learning solutions",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.knowledgecity.com/en/privacy",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.knowledgecity.com/en/terms-of-services/",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > section"
+    }
+  }
+}

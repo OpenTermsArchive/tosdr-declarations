@@ -1,0 +1,13 @@
+{
+  "name": "Verkada",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.verkada.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.verkada.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Pcworld",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.pcworld.com/about/cookie-policy",
+      "select": null
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://www.pcworld.com/about/affiliate-link-policy",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pcworld.com/about/privacy",
+      "select": null
+    }
+  }
+}

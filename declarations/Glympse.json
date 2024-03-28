@@ -1,0 +1,13 @@
+{
+  "name": "Glympse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://glympse.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://glympse.com/terms/",
+      "select": "body"
+    }
+  }
+}

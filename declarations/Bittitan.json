@@ -1,0 +1,17 @@
+{
+  "name": "Bittitan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bittitan.com/legal/terms-of-use",
+      "select": "html > body > main > section:nth-of-type(2) > div > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bittitan.com/legal/privacy-policy",
+      "select": "html > body > main > section:nth-of-type(2) > div > div > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.bittitan.com/legal/cookie-policy/",
+      "select": "html > body > main > section:nth-of-type(2) > div > div > div:first-of-type"
+    }
+  }
+}

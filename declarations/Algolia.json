@@ -1,0 +1,21 @@
+{
+  "name": "Algolia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.algolia.com/policies/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.algolia.com/policies/sla/",
+      "select": "html > body > div:first-of-type > div > main > section"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.algolia.com/policies/acceptable-use/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.algolia.com/policies/cookies/",
+      "select": "html > body > div:first-of-type > div > main > section"
+    }
+  }
+}

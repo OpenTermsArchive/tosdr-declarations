@@ -1,0 +1,13 @@
+{
+  "name": "Toastmasters",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.toastmasters.org/footer/conditions-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.toastmasters.org/footer/privacy-policy",
+      "select": "body"
+    }
+  }
+}

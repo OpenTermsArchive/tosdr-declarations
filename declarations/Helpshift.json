@@ -1,0 +1,13 @@
+{
+  "name": "Helpshift",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.helpshift.com/legal/privacy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.helpshift.com/legal/terms/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Qube money",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dashboard.qubemoney.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dashboard.qubemoney.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Roccat",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.roccat.com/pages/privacy",
+      "select": " > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.roccat.com/pages/terms-conditions",
+      "select": "body"
+    }
+  }
+}

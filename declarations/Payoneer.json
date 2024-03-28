@@ -1,0 +1,25 @@
+{
+  "name": "Payoneer",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.payoneer.com/legal/infringement-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.payoneer.com/legal/cookies-policy/",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.payoneer.com/legal/electronic-disclosure-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.payoneer.com/legal/payoneers-multi-jurisdictional-licenses/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.payoneer.com/legal/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

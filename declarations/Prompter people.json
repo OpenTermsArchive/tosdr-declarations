@@ -1,0 +1,9 @@
+{
+  "name": "Prompter people",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://prompterpeople.com/Privacy-Policy/",
+      "select": "body"
+    }
+  }
+}

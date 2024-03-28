@@ -1,0 +1,17 @@
+{
+  "name": "Terraria shop",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://terraria.shop/policies/refund-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://terraria.shop/policies/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://terraria.shop/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

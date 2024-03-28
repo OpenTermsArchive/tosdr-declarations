@@ -1,0 +1,13 @@
+{
+  "name": "Realdebrid",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://real-debrid.com/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://real-debrid.com/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(3) > div"
+    }
+  }
+}

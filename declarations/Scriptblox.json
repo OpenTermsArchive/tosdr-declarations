@@ -1,0 +1,13 @@
+{
+  "name": "Scriptblox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://scriptblox.com/privacy",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://scriptblox.com/terms",
+      "select": "body"
+    }
+  }
+}

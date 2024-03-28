@@ -1,0 +1,13 @@
+{
+  "name": "Add0n",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://add0n.com/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://add0n.com/policies/inb.cor.txt",
+      "select": "body"
+    }
+  }
+}

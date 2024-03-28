@@ -1,0 +1,13 @@
+{
+  "name": "R  j tool rental",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rjtoolrental.com/terms-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://rjtoolrental.com/privacy-policy",
+      "select": null
+    }
+  }
+}

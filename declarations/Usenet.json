@@ -1,0 +1,21 @@
+{
+  "name": "Usenet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://en.usenet.nl/unf/shop/misc/miscShowTerms.cfm",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://en.usenet.nl/privacy/",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://en.usenet.nl/unf/shop/misc/miscShowCancellationRight.cfm",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://en.usenet.nl/unf/shop/misc/miscShowDMCA.cfm",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2)"
+    }
+  }
+}

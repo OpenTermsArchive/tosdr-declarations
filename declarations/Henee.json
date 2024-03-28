@@ -1,0 +1,9 @@
+{
+  "name": "Henee",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ted.hen.ee/privacy",
+      "select": "body"
+    }
+  }
+}

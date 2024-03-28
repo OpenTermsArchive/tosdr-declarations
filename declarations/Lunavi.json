@@ -1,0 +1,13 @@
+{
+  "name": "Lunavi",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.lunavi.com/acceptable-use-policy",
+      "select": "html > body > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lunavi.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > div"
+    }
+  }
+}

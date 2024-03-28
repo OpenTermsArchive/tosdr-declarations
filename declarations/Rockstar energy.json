@@ -1,0 +1,13 @@
+{
+  "name": "Rockstar energy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://2077.rockstarenergy.com/en-US/terms/",
+      "select": " > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://2077.rockstarenergy.com/en-US/privacy/",
+      "select": " > main > div"
+    }
+  }
+}

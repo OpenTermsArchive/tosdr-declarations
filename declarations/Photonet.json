@@ -1,0 +1,13 @@
+{
+  "name": "Photonet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.photo.net/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.photo.net/privacy/",
+      "select": "body"
+    }
+  }
+}

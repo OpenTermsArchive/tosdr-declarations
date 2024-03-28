@@ -1,0 +1,13 @@
+{
+  "name": "Jam city",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jamcity.com/privacyandterms/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jamcity.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

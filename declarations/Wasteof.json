@@ -1,0 +1,9 @@
+{
+  "name": "Wasteof",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wasteof.money/privacy",
+      "select": "body"
+    }
+  }
+}

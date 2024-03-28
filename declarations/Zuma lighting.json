@@ -1,0 +1,9 @@
+{
+  "name": "Zuma lighting",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.zumalighting.com/terms",
+      "select": "body"
+    }
+  }
+}

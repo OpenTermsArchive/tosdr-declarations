@@ -1,0 +1,9 @@
+{
+  "name": "Sololearn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sololearn.com/Terms-of-Use/",
+      "select": "body"
+    }
+  }
+}

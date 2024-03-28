@@ -1,0 +1,21 @@
+{
+  "name": "Affengeilebilder24de",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://affengeilebilder24.de/pages/datenschutzerklarung",
+      "select": "html > body > div:nth-of-type(5) > div:first-of-type > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://affengeilebilder24.de/pages/allgemeine-geschaftsbedingungen",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://affengeilebilder24.de/pages/versandinformation",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://affengeilebilder24.de/pages/widerrufsbelehrung",
+      "select": "body"
+    }
+  }
+}

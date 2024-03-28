@@ -1,0 +1,13 @@
+{
+  "name": "Xayn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.xayn.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.xayn.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

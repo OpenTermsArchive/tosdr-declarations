@@ -1,0 +1,9 @@
+{
+  "name": "Blockonomics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.blockonomics.co/views/privacy.html",
+      "select": "html > body > section:nth-of-type(2) > div > div > div"
+    }
+  }
+}

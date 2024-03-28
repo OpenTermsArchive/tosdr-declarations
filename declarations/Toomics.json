@@ -1,0 +1,13 @@
+{
+  "name": "Toomics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://toomics.com/en/help/private_terms",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://toomics.com/en/help/access_terms",
+      "select": "body"
+    }
+  }
+}

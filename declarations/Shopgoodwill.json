@@ -1,0 +1,13 @@
+{
+  "name": "Shopgoodwill",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://shopgoodwill.com/about/privacy-policy",
+      "select": "html > body > app-root > app-layout > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://shopgoodwill.com/about/terms-of-use",
+      "select": "html > body > app-root > app-layout > main > div"
+    }
+  }
+}

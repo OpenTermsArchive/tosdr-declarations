@@ -1,0 +1,9 @@
+{
+  "name": "Washburn university school of law",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.washburnlaw.edu/policies/websiteprivacy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

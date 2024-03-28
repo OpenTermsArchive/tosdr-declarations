@@ -1,0 +1,9 @@
+{
+  "name": "Satoshi coffee co",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sats.coffee/privacy-policy",
+      "select": "body"
+    }
+  }
+}

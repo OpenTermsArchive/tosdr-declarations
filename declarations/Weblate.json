@@ -1,0 +1,13 @@
+{
+  "name": "Weblate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://weblate.org/es/terms/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.weblate.org/en/latest/contributing/license.html",
+      "select": "body"
+    }
+  }
+}

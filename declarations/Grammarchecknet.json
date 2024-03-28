@@ -1,0 +1,9 @@
+{
+  "name": "Grammarchecknet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.grammarcheck.net/privacy-policy",
+      "select": "body"
+    }
+  }
+}

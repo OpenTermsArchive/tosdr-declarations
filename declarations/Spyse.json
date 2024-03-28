@@ -1,0 +1,17 @@
+{
+  "name": "Spyse",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://spyse.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div > div > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://spyse.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div > div > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://spyse.com/cookie-policy",
+      "select": "body"
+    }
+  }
+}

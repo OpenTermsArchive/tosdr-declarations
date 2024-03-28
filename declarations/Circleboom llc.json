@@ -1,0 +1,13 @@
+{
+  "name": "Circleboom llc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://circleboom.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://circleboom.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

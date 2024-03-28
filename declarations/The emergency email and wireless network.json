@@ -1,0 +1,13 @@
+{
+  "name": "The emergency email and wireless network",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.emergencyemail.org/terms.asp",
+      "select": "html > body > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.emergencyemail.org/privacy.asp",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Specialwants",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.specialwants.org/Home/Privacy",
+      "select": "body"
+    }
+  }
+}

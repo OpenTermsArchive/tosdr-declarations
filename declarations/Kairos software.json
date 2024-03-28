@@ -1,0 +1,13 @@
+{
+  "name": "Kairos software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kairos-software.net/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > main > article > div > div > div > div > div > div > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kairos.com/terms",
+      "select": "body"
+    }
+  }
+}

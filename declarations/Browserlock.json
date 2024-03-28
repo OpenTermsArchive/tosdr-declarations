@@ -1,0 +1,13 @@
+{
+  "name": "Browserlock",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://browserlock.net/privacy/",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://browserlock.net/terms/",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(2)"
+    }
+  }
+}

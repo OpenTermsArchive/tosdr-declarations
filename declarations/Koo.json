@@ -1,0 +1,49 @@
+{
+  "name": "Koo",
+  "documents": {
+    "Policy": {
+      "fetch": "https://info.kooapp.com/chat-room-policy/",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://info.kooapp.com/influencer-guidelines/",
+      "select": "body"
+    },
+    "Review Guidelines": {
+      "fetch": "https://info.kooapp.com/content-moderation/",
+      "select": "body"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://info.kooapp.com/protocol-for-compromised-accounts/",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://info.kooapp.com/transparency-report/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://info.kooapp.com/compliance-statement/",
+      "select": "body"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://info.kooapp.com/guidelines-for-law-enforcement-agencies/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://info.kooapp.com/annual-returns/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://info.kooapp.com/koo-coins-tc/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://info.kooapp.com/b2b-privacy-policy/",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://info.kooapp.com/koo-accounts-of-eminence/",
+      "select": "body"
+    }
+  }
+}

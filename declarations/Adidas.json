@@ -1,0 +1,13 @@
+{
+  "name": "Adidas",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.adidas-group.com/en/service/legal-notice/",
+      "select": "html > body > div:nth-of-type(2) > article > section:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.adidas.ie/help-topics-privacy_policy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(5) > div:nth-of-type(3) > div > div"
+    }
+  }
+}

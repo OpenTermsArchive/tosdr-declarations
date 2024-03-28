@@ -1,0 +1,9 @@
+{
+  "name": "Ispsystem",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ispsystem.com/privacy-policy",
+      "select": "html > body > div > div"
+    }
+  }
+}

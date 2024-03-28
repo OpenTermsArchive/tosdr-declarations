@@ -1,0 +1,17 @@
+{
+  "name": "Gtfo",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://gtfothegame.com/Cookie/Cookie_Policy_Global_EN.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://gtfothegame.com/EULA/EULA_US.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://gtfothegame.com/Privacy/Privacy_Policy_Global_EN.pdf",
+      "select": "body"
+    }
+  }
+}

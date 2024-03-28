@@ -1,0 +1,13 @@
+{
+  "name": "Nicepng",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.nicepng.com/todmca/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nicepng.com/ourterm/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Playform ai generated art platform",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.playform.io/t-c",
+      "select": "body"
+    }
+  }
+}

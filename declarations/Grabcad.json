@@ -1,0 +1,13 @@
+{
+  "name": "Grabcad",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://grabcad.com/software_terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://grabcad.com/privacy_policy",
+      "select": null
+    }
+  }
+}

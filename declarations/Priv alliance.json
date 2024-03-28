@@ -1,0 +1,17 @@
+{
+  "name": "Priv alliance",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://privealliance.com/pages/return-policy ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privealliance.com/pages/privacy-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://privealliance.com/pages/terms-of-use",
+      "select": "body"
+    }
+  }
+}

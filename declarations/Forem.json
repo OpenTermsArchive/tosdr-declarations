@@ -1,0 +1,9 @@
+{
+  "name": "Forem",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.forem.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

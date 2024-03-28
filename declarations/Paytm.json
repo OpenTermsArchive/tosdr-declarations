@@ -1,0 +1,13 @@
+{
+  "name": "Paytm",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://paytm.com/about-us/our-policies/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://paytm.com/about-us/our-policies/",
+      "select": null
+    }
+  }
+}

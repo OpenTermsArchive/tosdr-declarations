@@ -1,0 +1,13 @@
+{
+  "name": "Feedad",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://feedad.com/tos/",
+      "select": "html > body > section > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://feedad.com/privacy/",
+      "select": "html > body > section > div > div > div > div"
+    }
+  }
+}

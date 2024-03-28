@@ -1,0 +1,13 @@
+{
+  "name": "Shortio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://short.io/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://short.io/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div"
+    }
+  }
+}

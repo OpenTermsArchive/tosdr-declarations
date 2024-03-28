@@ -1,0 +1,9 @@
+{
+  "name": "Sloth software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://slothsoftware.com/privacy.html",
+      "select": "html > body > div > div > div:first-of-type > p"
+    }
+  }
+}

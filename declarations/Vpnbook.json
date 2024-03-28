@@ -1,0 +1,9 @@
+{
+  "name": "Vpnbook",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vpnbook.com/contact",
+      "select": null
+    }
+  }
+}

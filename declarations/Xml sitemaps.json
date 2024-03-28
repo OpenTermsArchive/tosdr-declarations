@@ -1,0 +1,9 @@
+{
+  "name": "Xml sitemaps",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.xml-sitemaps.com/privacy-policy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div > div > div > div > div"
+    }
+  }
+}

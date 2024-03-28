@@ -1,0 +1,13 @@
+{
+  "name": "Budgetbakers",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://budgetbakers.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://budgetbakers.com/privacy",
+      "select": "body"
+    }
+  }
+}

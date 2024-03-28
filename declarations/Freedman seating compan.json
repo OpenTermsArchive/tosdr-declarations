@@ -1,0 +1,9 @@
+{
+  "name": "Freedman seating compan",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.freedmanseating.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

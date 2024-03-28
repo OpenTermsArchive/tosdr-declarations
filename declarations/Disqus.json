@@ -1,0 +1,25 @@
+{
+  "name": "Disqus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.disqus.com/terms-and-policies/basic-rules-for-disqus",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.disqus.com/terms-and-policies/data-processing-agreement-for-publishers",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.disqus.com/terms-and-policies/third-party-advertising-partners",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://help.disqus.com/terms-and-policies/trademark-policy",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(2)"
+    },
+    "Community Guidelines": {
+      "fetch": "https://help.disqus.com/terms-and-policies/parody-accounts",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(2)"
+    }
+  }
+}

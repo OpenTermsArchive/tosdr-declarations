@@ -1,0 +1,17 @@
+{
+  "name": "Banbye",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://banbye.pl/polityka-prywatnosci",
+      "select": "html > body > div:first-of-type > div > div > div > main > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://banbye.pl/regulamin",
+      "select": "html > body > div:first-of-type > div > div > div > main > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://banbye.pl/polityka-cookies",
+      "select": "html > body > div:first-of-type > div > div > div > main > div > div"
+    }
+  }
+}

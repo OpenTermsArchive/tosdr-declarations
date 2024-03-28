@@ -1,0 +1,9 @@
+{
+  "name": "The social dilemma",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thesocialdilemma.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div > main > article > div"
+    }
+  }
+}

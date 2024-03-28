@@ -1,0 +1,13 @@
+{
+  "name": "Bestdeal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.best-deal.com/service/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.best-deal.com/service/terms/",
+      "select": "body"
+    }
+  }
+}

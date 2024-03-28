@@ -1,0 +1,9 @@
+{
+  "name": "Science sparks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.science-sparks.com/privacy-policy-and-data-protection",
+      "select": "body"
+    }
+  }
+}

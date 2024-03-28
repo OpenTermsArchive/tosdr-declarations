@@ -1,0 +1,13 @@
+{
+  "name": "Resume worded",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://resumeworded.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://resumeworded.com/privacy",
+      "select": "body"
+    }
+  }
+}

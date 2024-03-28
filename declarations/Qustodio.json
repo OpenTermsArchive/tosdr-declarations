@@ -1,0 +1,21 @@
+{
+  "name": "Qustodio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.qustodio.com/en/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.qustodio.com/en/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.qustodio.com/en/family/terms/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.qustodio.com/en/legal-notice/",
+      "select": "body"
+    }
+  }
+}

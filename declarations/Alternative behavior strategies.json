@@ -1,0 +1,13 @@
+{
+  "name": "Alternative behavior strategies",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.abskids.com/privacy-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.abskids.com/notice-of-privacy-practices/",
+      "select": "body"
+    }
+  }
+}

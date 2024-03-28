@@ -1,0 +1,9 @@
+{
+  "name": "Patatap",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.patatap.com/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(5) > div > div > div:nth-of-type(7) > div > div:first-of-type > div:first-of-type > div > div > div"
+    }
+  }
+}

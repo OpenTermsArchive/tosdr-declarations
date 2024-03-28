@@ -1,0 +1,9 @@
+{
+  "name": "Ruhrtalradwegde",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ruhrtalradweg.de/de/Datenschutz",
+      "select": "body"
+    }
+  }
+}

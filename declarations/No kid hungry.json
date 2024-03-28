@@ -1,0 +1,9 @@
+{
+  "name": "No kid hungry",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nokidhungry.org/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > div > article > div:nth-of-type(3) > div"
+    }
+  }
+}

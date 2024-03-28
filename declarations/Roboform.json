@@ -1,0 +1,13 @@
+{
+  "name": "Roboform",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.roboform.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > p"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.roboform.com/license",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > p:nth-of-type(2)"
+    }
+  }
+}

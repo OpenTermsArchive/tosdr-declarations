@@ -1,0 +1,13 @@
+{
+  "name": "Stiftung warentest",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.test.de/datenschutz/",
+      "select": "div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.test.de/hilfe/AGB-5313968-0/",
+      "select": "div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Coolors",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://coolors.co/terms-of-service",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://coolors.co/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://coolors.co/privacy-policy",
+      "select": "body"
+    }
+  }
+}

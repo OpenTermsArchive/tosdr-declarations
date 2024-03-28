@@ -1,0 +1,9 @@
+{
+  "name": "12306 discontinued",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kyfw.12306.cn/otn/gonggao/privacyPolicy_web.html",
+      "select": "body"
+    }
+  }
+}

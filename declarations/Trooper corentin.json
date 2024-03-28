@@ -1,0 +1,21 @@
+{
+  "name": "Trooper corentin",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://troopercorentin.com/policies/shipping-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://troopercorentin.com/policies/privacy-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://troopercorentin.com/policies/legal-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://troopercorentin.com/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

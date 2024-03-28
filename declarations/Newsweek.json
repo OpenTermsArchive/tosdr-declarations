@@ -1,0 +1,17 @@
+{
+  "name": "Newsweek",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.newsweek.com/terms-sale",
+      "select": "html > body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.newsweek.com/privacy-policy",
+      "select": "html > body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.newsweek.com/cookie-policy",
+      "select": "html > body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Rule34",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rule34.xxx/tos.php",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Fox news",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.foxnews.com/terms-use.html",
+      "select": "section.terms-of-use"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.foxnews.com/donotsell",
+      "select": "body"
+    },
+    "Closed Captioning Policy": {
+      "fetch": "http://www.foxnews.com/closed-captioning-policy.html",
+      "select": "html > body > div > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

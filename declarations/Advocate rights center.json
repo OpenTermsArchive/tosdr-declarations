@@ -1,0 +1,13 @@
+{
+  "name": "Advocate rights center",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.advocaterightscenter.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.advocaterightscenter.com/privacy",
+      "select": "body"
+    }
+  }
+}

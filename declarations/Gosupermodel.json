@@ -1,0 +1,13 @@
+{
+  "name": "Gosupermodel",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://gosupermodel.com/support/page.jsp?id=124",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://gosupermodel.com/support/page.jsp?id=134",
+      "select": "body"
+    }
+  }
+}

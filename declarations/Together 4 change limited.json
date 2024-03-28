@@ -1,0 +1,13 @@
+{
+  "name": "Together 4 change limited",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.together4change.org/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.together4change.org/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

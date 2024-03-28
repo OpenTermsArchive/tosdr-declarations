@@ -1,0 +1,9 @@
+{
+  "name": "Wohlsoft community official site",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wohlsoft.ru/legal.php",
+      "select": "body"
+    }
+  }
+}

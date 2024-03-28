@@ -1,0 +1,13 @@
+{
+  "name": "Abdlfactory",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://abdlfactory.com/terms-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://abdlfactory.com/privacy ",
+      "select": "body"
+    }
+  }
+}

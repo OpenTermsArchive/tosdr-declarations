@@ -1,0 +1,17 @@
+{
+  "name": "Euractiv",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.euractiv.com/about-euractiv/euractiv-com-cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.euractiv.com/terms ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.euractiv.com/privacy",
+      "select": "body"
+    }
+  }
+}

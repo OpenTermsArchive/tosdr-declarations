@@ -1,0 +1,13 @@
+{
+  "name": "Quilgo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://quilgo.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://quilgo.com/terms",
+      "select": "body"
+    }
+  }
+}

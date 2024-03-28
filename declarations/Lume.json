@@ -1,0 +1,17 @@
+{
+  "name": "Lume",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/22018836/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://lumedeodorant.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://lumedeodorant.com/pages/terms-of-service",
+      "select": "body"
+    }
+  }
+}

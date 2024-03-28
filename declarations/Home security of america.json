@@ -1,0 +1,9 @@
+{
+  "name": "Home security of america",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.onlinehsa.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > main > article > div > div:first-of-type"
+    }
+  }
+}

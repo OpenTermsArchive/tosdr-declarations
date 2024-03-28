@@ -1,0 +1,17 @@
+{
+  "name": "F95zone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://f95zone.to/help/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://f95zone.to/help/terms/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://f95zone.to/help/cookies/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div"
+    }
+  }
+}

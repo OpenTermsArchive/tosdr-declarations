@@ -1,0 +1,9 @@
+{
+  "name": "Target",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.target.com/c/target-privacy-policy/-/N-4sr7p",
+      "select": "div#mainContainer"
+    }
+  }
+}

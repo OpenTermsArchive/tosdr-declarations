@@ -1,0 +1,17 @@
+{
+  "name": "Veno scorp",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://veno-scorp.co.uk/pages/return-policy ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://veno-scorp.co.uk/pages/privacy-security",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://veno-scorp.co.uk/pages/terms-conditions",
+      "select": "body"
+    }
+  }
+}

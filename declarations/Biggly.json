@@ -1,0 +1,9 @@
+{
+  "name": "Biggly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://home.bigg.ly/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div"
+    }
+  }
+}

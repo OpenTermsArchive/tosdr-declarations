@@ -1,0 +1,9 @@
+{
+  "name": "Institute for justice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ij.org/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > div"
+    }
+  }
+}

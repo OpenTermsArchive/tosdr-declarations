@@ -1,0 +1,13 @@
+{
+  "name": "Ayetstudios gmbh",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ayetstudios.com/publisher-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ayetstudios.com/PrivacyPolicy/",
+      "select": "body"
+    }
+  }
+}

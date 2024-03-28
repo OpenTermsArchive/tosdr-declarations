@@ -1,0 +1,17 @@
+{
+  "name": "Burning man project",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://burningman.org/year-round-terms-and-conditions/",
+      "select": null
+    },
+    "Developer Terms": {
+      "fetch": "https://innovate.burningman.org/terms-of-service-for-burning-man-apis-and-datasets/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://burningman.org/privacy-policy/",
+      "select": null
+    }
+  }
+}

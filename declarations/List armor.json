@@ -1,0 +1,13 @@
+{
+  "name": "List armor",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://listarmor.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://listarmor.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

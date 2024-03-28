@@ -1,0 +1,17 @@
+{
+  "name": "Barinsta",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://barinsta.austinhuang.me/en/latest/tos",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://austinhuang.me/legal ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://barinsta.austinhuang.me/en/latest/privacy",
+      "select": "body"
+    }
+  }
+}

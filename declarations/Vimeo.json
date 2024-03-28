@@ -1,0 +1,17 @@
+{
+  "name": "Vimeo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vimeo.com/terms",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://vimeo.com/cookie_policy",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://vimeo.com/privacy",
+      "select": null
+    }
+  }
+}

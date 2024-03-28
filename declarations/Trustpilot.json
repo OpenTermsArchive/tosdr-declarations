@@ -1,0 +1,9 @@
+{
+  "name": "Trustpilot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://legal.trustpilot.com/end-user-privacy-terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Jefferson county",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.jeffco.us/2845/Privacy-and-Site-Disclaimer",
+      "select": "body"
+    }
+  }
+}

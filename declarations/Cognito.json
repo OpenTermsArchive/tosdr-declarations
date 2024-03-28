@@ -1,0 +1,9 @@
+{
+  "name": "Cognito",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cognitoresources.org/terms",
+      "select": "body"
+    }
+  }
+}

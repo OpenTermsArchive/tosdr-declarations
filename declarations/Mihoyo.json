@@ -1,0 +1,13 @@
+{
+  "name": "Mihoyo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://account.mihoyo.com/?cb_url=https%3A%2F%2Fwww.hoyolab.com%2Fgenshin%2F&week=1#/about/userAgreement",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://account.mihoyo.com/?cb_url=https%3A%2F%2Fwww.hoyolab.com%2Fgenshin%2F&week=1#/about/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

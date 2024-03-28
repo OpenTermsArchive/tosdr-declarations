@@ -1,0 +1,13 @@
+{
+  "name": "Big chip network",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bigchipnet.com/terms.aspx",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bigchipnet.com/privacy.aspx",
+      "select": "body"
+    }
+  }
+}

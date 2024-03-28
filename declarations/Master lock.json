@@ -1,0 +1,13 @@
+{
+  "name": "Master lock",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.masterlock.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.masterlock.com/legal-statement",
+      "select": "body"
+    }
+  }
+}

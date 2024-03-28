@@ -1,0 +1,17 @@
+{
+  "name": "Panasonic",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.panasonic.com/global/cookie-policy.html",
+      "select": "html > body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.panasonic.com/global/privacy-policy.html",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div:nth-of-type(3) > div > div:first-of-type > section > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.panasonic.com/global/terms-of-use.html",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div:nth-of-type(3) > div > div > section > div > div:nth-of-type(3) > div > div"
+    }
+  }
+}

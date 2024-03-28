@@ -1,0 +1,13 @@
+{
+  "name": "Aimtell",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aimtell.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://aimtell.com/terms",
+      "select": "body"
+    }
+  }
+}

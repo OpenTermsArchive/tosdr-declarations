@@ -1,0 +1,17 @@
+{
+  "name": "Porkbun",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://porkbun.com/legal/agreement/domain_name_registration_agreement",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://porkbun.com/legal/agreement/buyers_auction_agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://porkbun.com/legal/agreement/privacy_policy",
+      "select": "body"
+    }
+  }
+}

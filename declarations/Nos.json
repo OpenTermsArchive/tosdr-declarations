@@ -1,0 +1,9 @@
+{
+  "name": "Nos",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://over.nos.nl/organisatie/privacy-reglement/",
+      "select": "body"
+    }
+  }
+}

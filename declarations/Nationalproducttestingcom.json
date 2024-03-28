@@ -1,0 +1,13 @@
+{
+  "name": "Nationalproducttestingcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.nationalproducttesting.com/terms.cgi?config=9095&qid=",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.nationalproducttesting.com/privacy.cgi?config=9095",
+      "select": "body"
+    }
+  }
+}

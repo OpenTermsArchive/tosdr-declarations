@@ -1,0 +1,25 @@
+{
+  "name": "Douban",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.douban.com/about/legal",
+      "select": "html > body > div:nth-of-type(3) > div:first-of-type > div > div:first-of-type"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.douban.com/about/guideline",
+      "select": "html > body > div:nth-of-type(3) > div:first-of-type > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.douban.com/about/agreement",
+      "select": "html > body > div:nth-of-type(3) > div:first-of-type > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.douban.com/about/privacy",
+      "select": "html > body > div:nth-of-type(3) > div:first-of-type > div > div:first-of-type"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.douban.com/about/copyright",
+      "select": "html > body > div:nth-of-type(3) > div:first-of-type > div > div:first-of-type"
+    }
+  }
+}

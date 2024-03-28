@@ -1,0 +1,17 @@
+{
+  "name": "Game jolt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gamejolt.com/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://gamejolt.com/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://gamejolt.com/terms",
+      "select": "body"
+    }
+  }
+}

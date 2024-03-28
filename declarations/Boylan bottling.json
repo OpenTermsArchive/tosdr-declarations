@@ -1,0 +1,13 @@
+{
+  "name": "Boylan bottling",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.boylanbottling.com/privacy-notice/",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > main > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.boylanbottling.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > main > article > div"
+    }
+  }
+}

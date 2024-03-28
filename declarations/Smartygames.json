@@ -1,0 +1,9 @@
+{
+  "name": "Smartygames",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.smartygames.com/privacy.htm",
+      "select": "body"
+    }
+  }
+}

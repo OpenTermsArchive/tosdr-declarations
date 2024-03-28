@@ -1,0 +1,9 @@
+{
+  "name": "People by name",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.peoplebyname.com/privacy.php",
+      "select": " > div"
+    }
+  }
+}

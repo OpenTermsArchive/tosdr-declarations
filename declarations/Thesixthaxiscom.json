@@ -1,0 +1,17 @@
+{
+  "name": "Thesixthaxiscom",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.thesixthaxis.com/review-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thesixthaxis.com/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.thesixthaxis.com/cookies-policy/",
+      "select": "body"
+    }
+  }
+}

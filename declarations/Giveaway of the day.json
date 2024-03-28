@@ -1,0 +1,9 @@
+{
+  "name": "Giveaway of the day",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.giveawayoftheday.com/terms.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Foxintelligence",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.foxintelligence.io/cgu/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.foxintelligence.io/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

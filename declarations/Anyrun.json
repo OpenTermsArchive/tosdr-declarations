@@ -1,0 +1,13 @@
+{
+  "name": "Anyrun",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://app.any.run/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://app.any.run/privacy.html",
+      "select": "body"
+    }
+  }
+}

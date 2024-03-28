@@ -1,0 +1,9 @@
+{
+  "name": "E mishan  sons",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://emsoninc.com/terms",
+      "select": "body"
+    }
+  }
+}

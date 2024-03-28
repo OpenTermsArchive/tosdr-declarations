@@ -1,0 +1,9 @@
+{
+  "name": "Fedditit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://feddit.it/legal",
+      "select": "body"
+    }
+  }
+}

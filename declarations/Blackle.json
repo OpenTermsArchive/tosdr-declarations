@@ -1,0 +1,9 @@
+{
+  "name": "Blackle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.blackle.com/privacy/",
+      "select": "body"
+    }
+  }
+}

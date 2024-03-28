@@ -1,0 +1,13 @@
+{
+  "name": "Computer lunch",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://games.computerlunch.com/terms-of-service",
+      "select": "html > body > div:nth-of-type(3) > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "http://games.computerlunch.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(3) > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Scamadviser",
+  "documents": {
+    "Review Guidelines": {
+      "fetch": "https://www.scamadviser.com/review-guidelines",
+      "select": "html > body > div:nth-of-type(2) > section:first-of-type > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.scamadviser.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > section:first-of-type > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.scamadviser.com/disclaimer",
+      "select": "html > body > div:nth-of-type(2) > section:first-of-type > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ecommercefoundation.org/terms-conditions",
+      "select": " > div > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

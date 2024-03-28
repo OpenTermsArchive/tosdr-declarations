@@ -1,0 +1,13 @@
+{
+  "name": "Coupa",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.coupa.com/cookie-policy",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(2) > main > div > div > div > article > div > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.coupa.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

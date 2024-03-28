@@ -1,0 +1,13 @@
+{
+  "name": "Finding focus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.findingfocus.app/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.findingfocus.app/terms/",
+      "select": "body"
+    }
+  }
+}

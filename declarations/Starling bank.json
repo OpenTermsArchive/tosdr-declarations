@@ -1,0 +1,9 @@
+{
+  "name": "Starling bank",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.starlingbank.com/legal/privacy-notice/",
+      "select": "body"
+    }
+  }
+}

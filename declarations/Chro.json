@@ -1,0 +1,13 @@
+{
+  "name": "Chro",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://chroseries.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://chroseries.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

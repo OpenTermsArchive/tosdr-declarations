@@ -1,0 +1,13 @@
+{
+  "name": "Toshl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://toshl.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://toshl.com/terms/",
+      "select": "body"
+    }
+  }
+}

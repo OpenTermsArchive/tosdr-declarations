@@ -1,0 +1,9 @@
+{
+  "name": "Jack in the box",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jackinthebox.com/privacy",
+      "select": "body"
+    }
+  }
+}

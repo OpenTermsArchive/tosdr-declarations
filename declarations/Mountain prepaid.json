@@ -1,0 +1,9 @@
+{
+  "name": "Mountain prepaid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mountainprepaid.com/advice/about_mp.shtml#Privacy",
+      "select": "html > body > center > table > tbody > tr:first-of-type > td > font:nth-of-type(12)"
+    }
+  }
+}

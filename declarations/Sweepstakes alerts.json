@@ -1,0 +1,13 @@
+{
+  "name": "Sweepstakes alerts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://play.sweepstakesalerts.com/privacy",
+      "select": "html > body > section > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://play.sweepstakesalerts.com/tou",
+      "select": "html > body > section > main > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Bux crypto",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://getbux.com/documents/BUX%20Crypto_Privacy%20Notice.pdf",
+      "select": "body"
+    }
+  }
+}

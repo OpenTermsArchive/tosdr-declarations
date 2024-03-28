@@ -1,0 +1,13 @@
+{
+  "name": "Best auto lenders 2020",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bestautolenders2020.com/terms.cfm",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bestautolenders2020.com/privacy.cfm",
+      "select": "html > body > main"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Guaranteed rate",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rate.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rate.com/privacy/privacy-policy",
+      "select": "html > body > div:first-of-type > span > div > section:nth-of-type(3)"
+    }
+  }
+}

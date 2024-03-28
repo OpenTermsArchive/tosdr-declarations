@@ -1,0 +1,17 @@
+{
+  "name": "Webcompat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://webcompat.com/terms",
+      "select": " > section > article > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://github.com/webcompat/webcompat.com/blob/72d563cb22e46351c7b068fa838d77ed08ee91ca/CODE_OF_CONDUCT.md",
+      "select": " > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://webcompat.com/privacy",
+      "select": "body"
+    }
+  }
+}

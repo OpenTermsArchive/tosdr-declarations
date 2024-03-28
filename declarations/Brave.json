@@ -1,0 +1,17 @@
+{
+  "name": "Brave",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://brave.com/privacy/browser/",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://basicattentiontoken.org/publisher-terms-of-service/",
+      "select": "html > body > main > section:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://store.brave.com/refunds-and-returns/",
+      "select": "html > body > div > main > article"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Rebel news",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rebelnews.com/terms_conditions",
+      "select": "html > body > div:first-of-type > main > div:first-of-type > div:nth-of-type(2) > div > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rebelnews.com/privacy",
+      "select": "html > body > div:first-of-type > main > div:first-of-type > div:nth-of-type(2) > div > div > div:first-of-type"
+    }
+  }
+}

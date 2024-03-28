@@ -1,0 +1,13 @@
+{
+  "name": "Survey2cash",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://surveys2cash.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://surveys2cash.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Femboyhu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yt.femboy.hu/privacy",
+      "select": "body"
+    }
+  }
+}

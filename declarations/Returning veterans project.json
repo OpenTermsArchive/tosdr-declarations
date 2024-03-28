@@ -1,0 +1,9 @@
+{
+  "name": "Returning veterans project",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://returningveterans.org/about/privacy-statement/",
+      "select": "body"
+    }
+  }
+}

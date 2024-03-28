@@ -1,0 +1,13 @@
+{
+  "name": "Pexels",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pexels.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pexels.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

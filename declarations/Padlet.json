@@ -1,0 +1,13 @@
+{
+  "name": "Padlet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://padlet.com/about/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://padlet.com/about/privacy",
+      "select": "body"
+    }
+  }
+}

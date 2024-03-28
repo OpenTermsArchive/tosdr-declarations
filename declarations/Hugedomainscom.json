@@ -1,0 +1,13 @@
+{
+  "name": "Hugedomainscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hugedomains.com/privacy_policy.cfm ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hugedomains.com/terms.cfm",
+      "select": "html > body > main > section > div"
+    }
+  }
+}

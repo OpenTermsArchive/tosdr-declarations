@@ -1,0 +1,13 @@
+{
+  "name": "Shortcutworldcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://shortcutworld.com/Posts/Terms",
+      "select": "html > body > section > div > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://shortcutworld.com/Posts/Privacy",
+      "select": "html > body > section > div > div > div:first-of-type"
+    }
+  }
+}

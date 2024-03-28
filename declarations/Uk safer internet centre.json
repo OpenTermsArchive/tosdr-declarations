@@ -1,0 +1,13 @@
+{
+  "name": "Uk safer internet centre",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://saferinternet.org.uk/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://saferinternet.org.uk/cookies",
+      "select": "body"
+    }
+  }
+}

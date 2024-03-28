@@ -1,0 +1,13 @@
+{
+  "name": "Everyday winner",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.flatironmedia.com/terms_of_service_text.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.everydaywinner.com/policy.php",
+      "select": "body"
+    }
+  }
+}

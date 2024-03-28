@@ -1,0 +1,13 @@
+{
+  "name": "Imgburn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.imgburn.com/index.php?act=terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.imgburn.com/index.php?act=privacy",
+      "select": "body"
+    }
+  }
+}

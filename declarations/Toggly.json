@@ -1,0 +1,9 @@
+{
+  "name": "Toggly",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://toggly.io/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

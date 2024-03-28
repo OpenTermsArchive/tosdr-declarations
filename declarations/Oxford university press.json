@@ -1,0 +1,17 @@
+{
+  "name": "Oxford university press",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://global.oup.com/privacy_info?cc=mt",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://global.oup.com/cookiepolicy/?cc=mt",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://global.oup.com/legal?cc=mt",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Parkingcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://parking.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://parking.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

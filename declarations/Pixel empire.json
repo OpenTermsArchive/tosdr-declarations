@@ -1,0 +1,13 @@
+{
+  "name": "Pixel empire",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pixelempire.com/policies/privacy-policy",
+      "select": "html > body > div:nth-of-type(7)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pixelempire.com/policies/terms-of-service",
+      "select": "html > body > div:nth-of-type(8)"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Nimo tv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://article.nimo.tv/p/1033/privacy_policy.html?_theme=2",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://article.nimo.tv/p/1054/userprotocol.html?_country=TH&_theme=2",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://article.nimo.tv/p/1033/cookie_policy.html?_theme=2",
+      "select": "body"
+    }
+  }
+}

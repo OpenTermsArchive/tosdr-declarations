@@ -1,0 +1,9 @@
+{
+  "name": "Jojoyou prieco",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jojoyou.org/legal/",
+      "select": "html > body > div > div > div > div > main > article > div > div > section:nth-of-type(2) > div > div > div"
+    }
+  }
+}

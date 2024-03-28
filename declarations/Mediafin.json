@@ -1,0 +1,13 @@
+{
+  "name": "Mediafin",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.mediafin.be/cookieverklaring/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mediafin.be/privacy/",
+      "select": "body"
+    }
+  }
+}

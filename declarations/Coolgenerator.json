@@ -1,0 +1,13 @@
+{
+  "name": "Coolgenerator",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.coolgenerator.com/Home/Index/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.coolgenerator.com/Home/Index/terms_and_conditions",
+      "select": "html > body > section:nth-of-type(2) > div > div > div:first-of-type"
+    }
+  }
+}

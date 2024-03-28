@@ -1,0 +1,13 @@
+{
+  "name": "Nookmarket",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://static.nook.market/tos.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://static.nook.market/privacy.html",
+      "select": "body"
+    }
+  }
+}

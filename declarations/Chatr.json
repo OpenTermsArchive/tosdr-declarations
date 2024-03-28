@@ -1,0 +1,21 @@
+{
+  "name": "Chatr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.chatrwireless.com/terms/privacy",
+      "select": "html > body > app-root > app-layout > section > app-static"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.chatrwireless.com/terms/arbitration-protocol",
+      "select": "html > body > app-root > app-layout > section > app-static"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.chatrwireless.com/terms/terms-of-use",
+      "select": "html > body > app-root > app-layout > section > app-static"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.chatrwireless.com/terms/acceptable-use-policy",
+      "select": "html > body > app-root > app-layout > section > app-static"
+    }
+  }
+}

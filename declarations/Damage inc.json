@@ -1,0 +1,9 @@
+{
+  "name": "Damage inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dmginc.gg/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Vocolinc",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.vocolinc.com/pages/shipping-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vocolinc.com/pages/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vocolinc.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

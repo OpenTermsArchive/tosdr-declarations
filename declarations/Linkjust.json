@@ -1,0 +1,13 @@
+{
+  "name": "Linkjust",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://linkjust.com/pages/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://linkjust.com/pages/privacy",
+      "select": null
+    }
+  }
+}

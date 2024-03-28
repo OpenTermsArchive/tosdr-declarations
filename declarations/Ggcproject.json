@@ -1,0 +1,9 @@
+{
+  "name": "Ggcproject",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ggc-project.de/datenschutz.html",
+      "select": "body"
+    }
+  }
+}

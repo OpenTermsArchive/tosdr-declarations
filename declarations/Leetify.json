@@ -1,0 +1,13 @@
+{
+  "name": "Leetify",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://leetify.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://leetify.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

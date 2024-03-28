@@ -1,0 +1,13 @@
+{
+  "name": "Alcpu",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.alcpu.com/CoreTemp/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.alcpu.com/CoreTemp/privacy.html",
+      "select": "body"
+    }
+  }
+}

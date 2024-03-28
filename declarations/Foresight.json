@@ -1,0 +1,13 @@
+{
+  "name": "Foresight",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://foresight.is/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://foresight.is/terms",
+      "select": "body"
+    }
+  }
+}

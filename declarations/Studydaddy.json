@@ -1,0 +1,13 @@
+{
+  "name": "Studydaddy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://studydaddy.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://studydaddy.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

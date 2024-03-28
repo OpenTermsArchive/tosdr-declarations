@@ -1,0 +1,13 @@
+{
+  "name": "Commonlit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.commonlit.org/en/privacy",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.commonlit.org/en/terms",
+      "select": "html > body > div:nth-of-type(2) > main > div:nth-of-type(2)"
+    }
+  }
+}

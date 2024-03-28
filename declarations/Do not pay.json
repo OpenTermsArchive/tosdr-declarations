@@ -1,0 +1,9 @@
+{
+  "name": "Do not pay",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://donotpay.com/learn/terms-of-service-and-privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > section:nth-of-type(2) > div > div:first-of-type"
+    }
+  }
+}

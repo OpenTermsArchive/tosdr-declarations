@@ -1,0 +1,13 @@
+{
+  "name": "Modern health",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.modernhealth.com/terms-of-use",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.modernhealth.com/privacy#en-us",
+      "select": "body"
+    }
+  }
+}

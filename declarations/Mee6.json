@@ -1,0 +1,13 @@
+{
+  "name": "Mee6",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/61412973/full-legal",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.iubenda.com/terms-and-conditions/61412973",
+      "select": "body"
+    }
+  }
+}

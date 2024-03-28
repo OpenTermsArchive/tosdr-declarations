@@ -1,0 +1,17 @@
+{
+  "name": "Plugshare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://company.plugshare.com/privacy.html",
+      "select": "html > body > div:first-of-type > div > section > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://company.plugshare.com/cookies.html",
+      "select": "html > body > div:first-of-type > div > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://company.plugshare.com/terms.html",
+      "select": "html > body > div:first-of-type > div > section > div"
+    }
+  }
+}

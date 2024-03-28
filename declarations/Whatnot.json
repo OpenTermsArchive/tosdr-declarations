@@ -1,0 +1,13 @@
+{
+  "name": "Whatnot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.whatnot.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.whatnot.com/terms",
+      "select": "body"
+    }
+  }
+}

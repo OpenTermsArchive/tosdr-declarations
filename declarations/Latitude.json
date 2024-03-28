@@ -1,0 +1,13 @@
+{
+  "name": "Latitude",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://latitude.io/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://latitude.io/tos",
+      "select": "body"
+    }
+  }
+}

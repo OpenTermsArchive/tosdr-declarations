@@ -1,0 +1,17 @@
+{
+  "name": "Xapo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://static.xapo.com/terms/xapo-inc.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://legal.xapo.com/xapo-privacy-policy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://legal.xapo.com/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

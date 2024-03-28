@@ -1,0 +1,9 @@
+{
+  "name": "Crumbl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://crumblcookies.com/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

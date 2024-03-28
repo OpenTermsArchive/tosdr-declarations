@@ -1,0 +1,13 @@
+{
+  "name": "Firstleaf",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.firstleaf.club/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.firstleaf.club/privacy",
+      "select": "body"
+    }
+  }
+}

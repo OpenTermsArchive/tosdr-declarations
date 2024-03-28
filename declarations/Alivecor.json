@@ -1,0 +1,13 @@
+{
+  "name": "Alivecor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kardia.com/privacy/en/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kardia.com/tos/en/",
+      "select": null
+    }
+  }
+}

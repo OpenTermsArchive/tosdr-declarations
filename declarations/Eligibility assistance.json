@@ -1,0 +1,13 @@
+{
+  "name": "Eligibility assistance",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://eligibilityassistance.org/tc/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://eligibilityassistance.org/privacy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Prettylitter",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.prettylitter.com/pretty-litter-refund-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.prettylitter.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.prettylitter.com/terms-conditions",
+      "select": "body"
+    }
+  }
+}

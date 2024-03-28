@@ -1,0 +1,17 @@
+{
+  "name": "Similar worlds",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://similarworlds.com/legal/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://similarworlds.com/legal/terms",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://similarworlds.com/legal/cookies",
+      "select": null
+    }
+  }
+}

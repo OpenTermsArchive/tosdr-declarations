@@ -1,0 +1,17 @@
+{
+  "name": "Syncme",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sync.me/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sync.me/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://sync.me/cookies-policy/",
+      "select": "body"
+    }
+  }
+}

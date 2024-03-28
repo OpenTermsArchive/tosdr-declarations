@@ -1,0 +1,9 @@
+{
+  "name": "Mopeio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mope.io/privacy/index.html",
+      "select": "body"
+    }
+  }
+}

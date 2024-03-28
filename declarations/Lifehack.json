@@ -1,0 +1,13 @@
+{
+  "name": "Lifehack",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lifehack.org/about/terms-and-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/86497548/legal",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Chrome webstore",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ssl.gstatic.com/chrome/webstore/intl/en-GB/gallery_tos.html",
+      "select": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://policies.google.com/privacy?hl=en-GB",
+      "select": "html > body > c-wiz > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3)"
+    }
+  }
+}

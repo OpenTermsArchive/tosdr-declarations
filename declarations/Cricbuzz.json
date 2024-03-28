@@ -1,0 +1,13 @@
+{
+  "name": "Cricbuzz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cricbuzz.com/info/termsofuse",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(4) > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cricbuzz.com/info/privacy",
+      "select": "body"
+    }
+  }
+}

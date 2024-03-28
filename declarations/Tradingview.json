@@ -1,0 +1,21 @@
+{
+  "name": "Tradingview",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.tradingview.com/disclaimer/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(6) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.tradingview.com/cookies-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tradingview.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tradingview.com/policies/",
+      "select": "body"
+    }
+  }
+}

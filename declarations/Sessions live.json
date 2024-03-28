@@ -1,0 +1,13 @@
+{
+  "name": "Sessions live",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://about.sessionslive.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://about.sessionslive.com/terms-conditions/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Softonic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hello.softonic.com/terms-of-use/",
+      "select": "html > body > section > div > div > div > article > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hello.softonic.com/privacy-policy/",
+      "select": "html > body > section > div > div > div > article > div > div:first-of-type > div > div > div > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://hello.softonic.com/cookies-policy/",
+      "select": "html > body > section > div > div > div > article > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Syngap research fund",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.termsfeed.com/live/5a609c02-058d-45e4-9652-7e9dce7cf9b8##googtrans(en|en)",
+      "select": "body"
+    }
+  }
+}

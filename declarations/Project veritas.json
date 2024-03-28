@@ -1,0 +1,9 @@
+{
+  "name": "Project veritas",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.projectveritas.com/privacy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > article"
+    }
+  }
+}

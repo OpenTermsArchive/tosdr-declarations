@@ -1,0 +1,17 @@
+{
+  "name": "Soapbox",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.soapboxsoaps.com/policies/refund-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.soapboxsoaps.com/policies/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.soapboxsoaps.com/policies/privacy-policy",
+      "select": null
+    }
+  }
+}

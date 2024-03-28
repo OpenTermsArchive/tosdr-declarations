@@ -1,0 +1,13 @@
+{
+  "name": "Florida state university",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.fsu.edu//misc/copyright.html",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fsu.edu//misc/policy.html",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

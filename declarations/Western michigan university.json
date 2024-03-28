@@ -1,0 +1,9 @@
+{
+  "name": "Western michigan university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wmich.edu/apply/privacy",
+      "select": "html > body > div:nth-of-type(2) > main"
+    }
+  }
+}

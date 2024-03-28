@@ -1,0 +1,17 @@
+{
+  "name": "Propertypal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://content.propertypal.com/wp-content/uploads/2022/11/PrivacyPolicy.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://content.propertypal.com/wp-content/uploads/2022/11/CookiePolicy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://content.propertypal.com/wp-content/uploads/2022/11/HostingTerms.pdf",
+      "select": "body"
+    }
+  }
+}

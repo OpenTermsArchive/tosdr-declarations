@@ -1,0 +1,25 @@
+{
+  "name": "Thinglink",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.thinglink.com/aup",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thinglink.com/architecture",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.thinglink.com/cookies",
+      "select": "body"
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://www.thinglink.com/subprocessors",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.thinglink.com/terms",
+      "select": "body"
+    }
+  }
+}

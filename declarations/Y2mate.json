@@ -1,0 +1,13 @@
+{
+  "name": "Y2mate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://y2mate.is/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://y2mate.is/tos.html",
+      "select": "body"
+    }
+  }
+}

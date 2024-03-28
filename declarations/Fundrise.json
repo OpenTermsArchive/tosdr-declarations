@@ -1,0 +1,17 @@
+{
+  "name": "Fundrise",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://s3.amazonaws.com/fundrise-content/website-documents/1fcd9282-5163-4d33-a812-d6edd2b04186/Fundrise%20-%20Terms%20of%20Service.pdf",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://fundrise.com/legal/disclosure",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://s3.amazonaws.com/fundrise-content/website-documents/f6c4ccf1-beee-43f1-bd8e-84c0cfa300d2/Fundrise%20Privacy%20Policy.pdf",
+      "select": "body"
+    }
+  }
+}

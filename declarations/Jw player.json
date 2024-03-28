@@ -1,0 +1,17 @@
+{
+  "name": "Jw player",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.jwplayer.com/dmca/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jwplayer.com/tos/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.jwplayer.com/privacy/",
+      "select": "body"
+    }
+  }
+}

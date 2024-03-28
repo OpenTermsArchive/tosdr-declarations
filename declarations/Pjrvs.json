@@ -1,0 +1,9 @@
+{
+  "name": "Pjrvs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pjrvs.com/privacy/",
+      "select": "body"
+    }
+  }
+}

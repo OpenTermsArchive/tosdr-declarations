@@ -1,0 +1,9 @@
+{
+  "name": "Skenzo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://skenzo.com/sk-privacy.php",
+      "select": "body"
+    }
+  }
+}

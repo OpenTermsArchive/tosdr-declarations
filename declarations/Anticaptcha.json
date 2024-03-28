@@ -1,0 +1,13 @@
+{
+  "name": "Anticaptcha",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://anti-captcha.com/tos_en.html",
+      "select": "html"
+    },
+    "Privacy Policy": {
+      "fetch": "https://anti-captcha.com/privacypolicy.html",
+      "select": "body"
+    }
+  }
+}

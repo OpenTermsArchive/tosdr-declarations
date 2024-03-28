@@ -1,0 +1,13 @@
+{
+  "name": "Fubar just giver",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fubar-themovie.com/policies/terms-of-service",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.fubar-themovie.com/policies/refund-policy",
+      "select": null
+    }
+  }
+}

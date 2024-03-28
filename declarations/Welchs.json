@@ -1,0 +1,9 @@
+{
+  "name": "Welchs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.welchs.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > main > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

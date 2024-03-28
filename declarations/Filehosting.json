@@ -1,0 +1,13 @@
+{
+  "name": "Filehosting",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.filehosting.org/privacy_terms",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(3) > section > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.filehosting.org/tos",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+    }
+  }
+}

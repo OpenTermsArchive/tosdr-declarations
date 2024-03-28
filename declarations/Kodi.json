@@ -1,0 +1,17 @@
+{
+  "name": "Kodi",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://kodi.tv/about/dmca/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kodi.tv/about/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://kodi.tv/about/terms-of-service/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div > div > div"
+    }
+  }
+}

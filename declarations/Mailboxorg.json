@@ -1,0 +1,13 @@
+{
+  "name": "Mailboxorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mailbox.org/en/data-protection-privacy-policy",
+      "select": " > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://mailbox.org/en/t-cs-cancellation-policy",
+      "select": null
+    }
+  }
+}

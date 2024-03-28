@@ -1,0 +1,13 @@
+{
+  "name": "Habitica",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://habitica.com/static/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://habitica.com/static/terms",
+      "select": "html > body > div > div > div:nth-of-type(2) > div:first-of-type > div"
+    }
+  }
+}

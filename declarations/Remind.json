@@ -1,0 +1,13 @@
+{
+  "name": "Remind",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.remind.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.remind.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

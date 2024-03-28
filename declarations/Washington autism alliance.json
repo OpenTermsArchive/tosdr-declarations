@@ -1,0 +1,9 @@
+{
+  "name": "Washington autism alliance",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://washingtonautismalliance.org/privacy-policy/",
+      "select": "html > body > section:nth-of-type(3) > div"
+    }
+  }
+}

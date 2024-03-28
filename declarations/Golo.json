@@ -1,0 +1,13 @@
+{
+  "name": "Golo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.golo.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.golo.com/pages/terms",
+      "select": "body"
+    }
+  }
+}

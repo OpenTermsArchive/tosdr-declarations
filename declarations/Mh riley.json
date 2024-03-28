@@ -1,0 +1,9 @@
+{
+  "name": "Mh riley",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "http://www.mhriley.com/spendingtracker/privacy.html",
+      "select": "body"
+    }
+  }
+}

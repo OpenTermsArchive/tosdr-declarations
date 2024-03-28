@@ -1,0 +1,25 @@
+{
+  "name": "Botlabsgg llc",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://botlabs.gg/copyright-dispute-policy",
+      "select": "html > body > div:first-of-type > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://yagpdb.xyz/terms-of-use",
+      "select": "html > body > div:first-of-type > div > section > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://botlabs.gg/cookie-policy/",
+      "select": "html > body > div:first-of-type > main > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://botlabs.gg/gdpr-privacy-notice",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://botlabs.gg/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Megaphonefm",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://megaphone.fm/terms/community-guidelines",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://megaphone.fm/terms/privacy",
+      "select": "body"
+    }
+  }
+}

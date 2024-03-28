@@ -1,0 +1,13 @@
+{
+  "name": "Fraud number",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fraudnumber.com/about/privacy-policy.html",
+      "select": "html > body > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fraudnumber.com/about/terms-of-service.html",
+      "select": "body"
+    }
+  }
+}

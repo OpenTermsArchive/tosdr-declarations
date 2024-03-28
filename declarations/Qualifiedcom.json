@@ -1,0 +1,17 @@
+{
+  "name": "Qualifiedcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.qualified.com/legal/dpa ",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.qualified.com/legal/acceptable-use",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.qualified.com/legal/terms-of-service",
+      "select": "body"
+    }
+  }
+}

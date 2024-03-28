@@ -1,0 +1,9 @@
+{
+  "name": "1blocker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://1blocker.com/privacy",
+      "select": "body"
+    }
+  }
+}

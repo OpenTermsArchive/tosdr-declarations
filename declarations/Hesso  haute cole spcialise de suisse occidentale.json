@@ -1,0 +1,9 @@
+{
+  "name": "Hesso  haute cole spcialise de suisse occidentale",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.hes-so.ch/mentions-legales",
+      "select": "body"
+    }
+  }
+}

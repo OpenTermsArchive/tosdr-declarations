@@ -1,0 +1,13 @@
+{
+  "name": "Psyonix",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.epicgames.com/site/en-US/privacypolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.psyonix.com/tou/",
+      "select": "body"
+    }
+  }
+}

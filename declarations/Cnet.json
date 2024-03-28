@@ -1,0 +1,13 @@
+{
+  "name": "Cnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://redventures.com/legal/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cbsinteractive.com/legal/cbsi/terms-of-use",
+      "select": "body"
+    }
+  }
+}

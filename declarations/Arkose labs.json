@@ -1,0 +1,13 @@
+{
+  "name": "Arkose labs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.arkoselabs.com/legal/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > main > div > div > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.arkoselabs.com/legal/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > main > div > div > div > section"
+    }
+  }
+}

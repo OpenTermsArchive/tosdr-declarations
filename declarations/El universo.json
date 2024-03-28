@@ -1,0 +1,9 @@
+{
+  "name": "El universo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.eluniverso.com/politicas-privacidad/",
+      "select": "body"
+    }
+  }
+}

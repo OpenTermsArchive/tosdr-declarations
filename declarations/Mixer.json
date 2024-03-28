@@ -1,0 +1,13 @@
+{
+  "name": "Mixer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mixer.com/about/privacy/",
+      "select": "html > body > b-app > div > b-about-page > bui-sidenav-container > div:nth-of-type(2) > div > div > b-privacy-page > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://mixer.com/about/tos",
+      "select": "html > body > b-app > div > b-about-page > bui-sidenav-container > div:nth-of-type(2) > div > div > b-tos-page"
+    }
+  }
+}

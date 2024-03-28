@@ -1,0 +1,21 @@
+{
+  "name": "Teads",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.teads.com/terms-of-use/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.teads.com/ad-policies/",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.teads.com/brand-safety-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.teads.com/teads-website-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

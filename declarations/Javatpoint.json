@@ -1,0 +1,9 @@
+{
+  "name": "Javatpoint",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.javatpoint.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(6) > div:nth-of-type(2)"
+    }
+  }
+}

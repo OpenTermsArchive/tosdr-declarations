@@ -1,0 +1,13 @@
+{
+  "name": "Cretia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cretia.app/privacy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://about.cretia.app/es/terms",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

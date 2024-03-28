@@ -1,0 +1,17 @@
+{
+  "name": "Hinge",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://hinge.co/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://hinge.co/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hinge.co/privacy/",
+      "select": "html > body > div:first-of-type > main > div > article"
+    }
+  }
+}

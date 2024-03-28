@@ -1,0 +1,9 @@
+{
+  "name": "Cdcgov",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.cdc.gov/Other/policies.html",
+      "select": "body"
+    }
+  }
+}

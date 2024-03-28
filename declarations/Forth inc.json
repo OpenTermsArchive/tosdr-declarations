@@ -1,0 +1,13 @@
+{
+  "name": "Forth inc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.forth.com/terms/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > main > article > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.forth.com/privacy",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > main > article > div > div"
+    }
+  }
+}

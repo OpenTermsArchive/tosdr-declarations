@@ -1,0 +1,17 @@
+{
+  "name": "Linkedin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://raw.githubusercontent.com/OpenTermsArchive/pga-versions/main/LinkedIn/Privacy%20Policy.md",
+      "select": "div.legal-content"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.linkedin.com/legal/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://raw.githubusercontent.com/OpenTermsArchive/pga-versions/main/LinkedIn/Terms%20of%20Service.md",
+      "select": " > div:nth-of-type(5) > ol"
+    }
+  }
+}

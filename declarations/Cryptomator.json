@@ -1,0 +1,9 @@
+{
+  "name": "Cryptomator",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cryptomator.org/privacy/",
+      "select": "html > body > div > div"
+    }
+  }
+}

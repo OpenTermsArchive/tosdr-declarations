@@ -1,0 +1,13 @@
+{
+  "name": "Structural",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.structural.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.structural.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Yumpu",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.yumpu.com/en/info/terms_of_service",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.yumpu.com/en/info/cookie_policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.yumpu.com/en/info/privacy_policy",
+      "select": "body"
+    }
+  }
+}

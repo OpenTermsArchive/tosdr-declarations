@@ -1,0 +1,21 @@
+{
+  "name": "Ncsoft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://us.ncsoft.com/en-us/legal/ncsoft/privacy-policy",
+      "select": "html > body > div:first-of-type > main > section:nth-of-type(2)"
+    },
+    "Community Guidelines": {
+      "fetch": "https://us.ncsoft.com/en-us/legal/ncsoft/code-of-conduct",
+      "select": "html > body > div:first-of-type > main > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://us.ncsoft.com/en-us/legal/contests/image-use-agreement",
+      "select": "html > body > div:first-of-type > main > section:nth-of-type(2)"
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://us.ncsoft.com/en-us/legal/contests/affiliate-program-policies",
+      "select": "body"
+    }
+  }
+}

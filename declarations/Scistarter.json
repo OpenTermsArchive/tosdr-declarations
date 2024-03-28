@@ -1,0 +1,17 @@
+{
+  "name": "Scistarter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://scistarter.org/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://scistarter.org/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://scistarter.org/cookies",
+      "select": "body"
+    }
+  }
+}

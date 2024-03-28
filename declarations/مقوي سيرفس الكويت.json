@@ -1,0 +1,13 @@
+{
+  "name": "مقوي سيرفس الكويت",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://mobilesignalboosterkuwait.com/returns-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mobilesignalboosterkuwait.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

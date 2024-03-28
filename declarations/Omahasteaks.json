@@ -1,0 +1,13 @@
+{
+  "name": "Omahasteaks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.omahasteaks.com/info/Terms-Of-Use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.omahasteaks.com/info/Privacy-Policy",
+      "select": "body"
+    }
+  }
+}

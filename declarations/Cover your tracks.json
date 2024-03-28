@@ -1,0 +1,9 @@
+{
+  "name": "Cover your tracks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://panopticlick.eff.org/privacy",
+      "select": "body"
+    }
+  }
+}

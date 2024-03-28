@@ -1,0 +1,13 @@
+{
+  "name": "Speaker deck",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://speakerdeck.com/privacy",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://speakerdeck.com/tos",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

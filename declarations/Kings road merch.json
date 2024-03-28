@@ -1,0 +1,9 @@
+{
+  "name": "Kings road merch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://eu.kingsroadmerch.com/privacy/",
+      "select": "body"
+    }
+  }
+}

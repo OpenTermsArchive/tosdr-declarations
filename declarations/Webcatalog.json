@@ -1,0 +1,13 @@
+{
+  "name": "Webcatalog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://webcatalog.io/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://about.webcatalog.io/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

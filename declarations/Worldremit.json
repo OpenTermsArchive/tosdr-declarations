@@ -1,0 +1,13 @@
+{
+  "name": "Worldremit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.worldremit.com/en/about-us/terms-and-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.worldremit.com/en/about-us/privacy-policy",
+      "select": null
+    }
+  }
+}

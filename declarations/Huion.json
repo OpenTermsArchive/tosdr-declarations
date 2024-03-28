@@ -1,0 +1,13 @@
+{
+  "name": "Huion",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://huion.com/privacy_policy.html",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://store.huion.com/pages/terms-of-use",
+      "select": "html > body > div:first-of-type > div > main > div > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

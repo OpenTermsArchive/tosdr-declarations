@@ -1,0 +1,21 @@
+{
+  "name": "E621e926",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://e621.net/wiki/show/e621:terms_of_service",
+      "select": "body"
+    },
+    "Review Guidelines": {
+      "fetch": "https://e621.net/static/takedown",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://e621.net/wiki/show/e621:rules",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://e621.net/wiki/show/avoid_posting",
+      "select": "body"
+    }
+  }
+}

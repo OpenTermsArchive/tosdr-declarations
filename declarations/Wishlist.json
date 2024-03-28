@@ -1,0 +1,17 @@
+{
+  "name": "Wishlist",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wishlist.com/termsofuse",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wishlist.com/privacyfull",
+      "select": " > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wishlist.com/cookies",
+      "select": "html > body > div:nth-of-type(2) > main > section > div > div > div > div > div > div:first-of-type"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Shodan",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://account.shodan.io/privacy",
+      "select": "html > body > div:nth-of-type(2) > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://account.shodan.io/terms",
+      "select": "html > body > div:nth-of-type(2) > main"
+    }
+  }
+}

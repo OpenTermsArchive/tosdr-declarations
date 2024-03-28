@@ -1,0 +1,13 @@
+{
+  "name": "Nxi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nxi.no/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://nxi.no/tos",
+      "select": "body"
+    }
+  }
+}

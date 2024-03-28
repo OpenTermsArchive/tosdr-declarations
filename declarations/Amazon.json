@@ -1,0 +1,25 @@
+{
+  "name": "Amazon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201124320",
+      "select": "div.cs-help-content"
+    },
+    "Frequently Asked Questions": {
+      "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201604140",
+      "select": "div.help-content"
+    },
+    "Legal Information": {
+      "fetch": "https://www.amazon.com.au/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy",
+      "select": "body > div.cs-help-v4 > div.cs-help-container > div.cs-help-content > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=202075050",
+      "select": "div.help-content"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=202135380",
+      "select": "body"
+    }
+  }
+}

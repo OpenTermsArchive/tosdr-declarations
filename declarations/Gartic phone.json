@@ -1,0 +1,13 @@
+{
+  "name": "Gartic phone",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://garticphone.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://garticphone.com/privacy",
+      "select": "body"
+    }
+  }
+}

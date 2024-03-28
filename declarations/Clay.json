@@ -1,0 +1,13 @@
+{
+  "name": "Clay",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://library.clay.earth/hc/en-us/articles/7485741581339-Security-and-Privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://library.clay.earth/hc/en-us/articles/7485653973275-Terms-of-Use",
+      "select": "body"
+    }
+  }
+}

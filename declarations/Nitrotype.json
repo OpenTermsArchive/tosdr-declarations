@@ -1,0 +1,13 @@
+{
+  "name": "Nitrotype",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nitrotype.com/support/tos",
+      "select": "html > body > div:first-of-type > div > main > section > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nitrotype.com/support/privacy",
+      "select": "body"
+    }
+  }
+}

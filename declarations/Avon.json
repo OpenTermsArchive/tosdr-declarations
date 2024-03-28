@@ -1,0 +1,13 @@
+{
+  "name": "Avon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.avon.com/information/conditions-of-use.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.avon.com/information/privacy-statement.html",
+      "select": "body"
+    }
+  }
+}

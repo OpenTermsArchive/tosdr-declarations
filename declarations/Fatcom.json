@@ -1,0 +1,9 @@
+{
+  "name": "Fatcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://fat.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

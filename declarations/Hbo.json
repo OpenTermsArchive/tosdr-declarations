@@ -1,0 +1,13 @@
+{
+  "name": "Hbo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hbo.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > main > div > section > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hbo.com/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > main > div > section > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

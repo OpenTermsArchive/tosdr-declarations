@@ -1,0 +1,9 @@
+{
+  "name": "Leanbody",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://leanbody.com/pages/privacy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4)"
+    }
+  }
+}

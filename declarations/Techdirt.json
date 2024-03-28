@@ -1,0 +1,9 @@
+{
+  "name": "Techdirt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.techdirt.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

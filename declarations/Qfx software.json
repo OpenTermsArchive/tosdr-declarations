@@ -1,0 +1,13 @@
+{
+  "name": "Qfx software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.qfxsoftware.com/about/privacy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.qfxsoftware.com/about/terms.htm",
+      "select": "body"
+    }
+  }
+}

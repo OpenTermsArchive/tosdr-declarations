@@ -1,0 +1,13 @@
+{
+  "name": "Tonightshookup",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tonightshookup.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tonightshookup.com/privacy",
+      "select": "body"
+    }
+  }
+}

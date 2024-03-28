@@ -1,0 +1,13 @@
+{
+  "name": "Bloop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bloop.ai/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bloop.ai/privacy",
+      "select": "body"
+    }
+  }
+}

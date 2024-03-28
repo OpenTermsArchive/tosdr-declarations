@@ -1,0 +1,9 @@
+{
+  "name": "Bungie",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bungie.net/en/Bungie/Terms",
+      "select": "body"
+    }
+  }
+}

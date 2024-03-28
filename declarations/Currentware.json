@@ -1,0 +1,13 @@
+{
+  "name": "Currentware",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.currentware.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.currentware.com/software-eula/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > main > div > section:first-of-type > div > div > div > div > div > div > div:first-of-type"
+    }
+  }
+}

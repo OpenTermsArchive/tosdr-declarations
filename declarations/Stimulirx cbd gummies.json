@@ -1,0 +1,13 @@
+{
+  "name": "Stimulirx cbd gummies",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://stimulirx.com/sx-bw-v1/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://stimulirx.com/sx-bw-v1/terms/",
+      "select": "body"
+    }
+  }
+}

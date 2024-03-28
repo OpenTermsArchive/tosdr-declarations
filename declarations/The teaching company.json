@@ -1,0 +1,13 @@
+{
+  "name": "The teaching company",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thegreatcourses.com/support/terms-conditions",
+      "select": "html > body > div:nth-of-type(2) > main > div > div > div > div > div > main > section:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thegreatcourses.com/support/privacy-policy",
+      "select": "body"
+    }
+  }
+}

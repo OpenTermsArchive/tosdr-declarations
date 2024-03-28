@@ -1,0 +1,9 @@
+{
+  "name": "Piratecraft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://piratemc.com/privacy-policy-tos/",
+      "select": "html > body > main > div:nth-of-type(2) > div > div:first-of-type"
+    }
+  }
+}

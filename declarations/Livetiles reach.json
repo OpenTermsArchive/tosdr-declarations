@@ -1,0 +1,13 @@
+{
+  "name": "Livetiles reach",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cycl.ch/en/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://cdn2.hubspot.net/hubfs/4098318/General%20Terms%20and%20Conditions%20CYCL%20AG.pdf",
+      "select": "body"
+    }
+  }
+}

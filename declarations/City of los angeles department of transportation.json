@@ -1,0 +1,9 @@
+{
+  "name": "City of los angeles department of transportation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ladottransit.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

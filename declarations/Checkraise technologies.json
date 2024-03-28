@@ -1,0 +1,17 @@
+{
+  "name": "Checkraise technologies",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "http://checkraisetech.com/anti-spam-policy/",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "http://checkraisetech.com/terms-of-use-agreement/",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "http://checkraisetech.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

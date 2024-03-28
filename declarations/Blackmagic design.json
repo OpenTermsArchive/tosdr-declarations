@@ -1,0 +1,9 @@
+{
+  "name": "Blackmagic design",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.blackmagicdesign.com/privacy",
+      "select": "body"
+    }
+  }
+}

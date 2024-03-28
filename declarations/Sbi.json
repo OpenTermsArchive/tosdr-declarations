@@ -1,0 +1,9 @@
+{
+  "name": "Sbi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.onlinesbi.com/sbijava/Privacy_Statement.html",
+      "select": "body"
+    }
+  }
+}

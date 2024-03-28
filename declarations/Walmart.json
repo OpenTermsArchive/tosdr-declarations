@@ -1,0 +1,13 @@
+{
+  "name": "Walmart",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://corporate.walmart.com/privacy-security/california-privacy-rights",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.walmart.com/help/article/walmart-com-terms-of-use/f25b207926d84d79b57e6ae2327bbf12",
+      "select": "body"
+    }
+  }
+}

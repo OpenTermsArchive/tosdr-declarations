@@ -1,0 +1,17 @@
+{
+  "name": "N26",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.n26.com/legal/06+EU/012+Insurance/en/02insurance-terms-and-conditions-en.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://docs.n26.com/legal/06+EU/03+Privacy+Policy/en/02cookie-policy-en.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.n26.com/legal/06+EU/03+Privacy%20Policy/en/01privacy-policy-en.pdf",
+      "select": "body"
+    }
+  }
+}

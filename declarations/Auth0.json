@@ -1,0 +1,13 @@
+{
+  "name": "Auth0",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://auth0.com/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://auth0.com/web-terms/",
+      "select": "html > body > div:nth-of-type(2) > div > section > div"
+    }
+  }
+}

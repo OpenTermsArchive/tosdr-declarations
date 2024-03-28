@@ -1,0 +1,13 @@
+{
+  "name": "Mietwagentalk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mietwagen-talk.de/datenschutzerklaerung/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mietwagen-talk.de/sc-terms-of-use/",
+      "select": null
+    }
+  }
+}

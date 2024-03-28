@@ -1,0 +1,13 @@
+{
+  "name": "Wsipc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wsipc.org/privacy-policy",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.wsipc.org/disclaimer-and-fair-use-statement",
+      "select": "body"
+    }
+  }
+}

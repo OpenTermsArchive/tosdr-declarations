@@ -1,0 +1,9 @@
+{
+  "name": "Geek graffiti",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.geekgraffiti.co.uk/privacy-policy",
+      "select": "body"
+    }
+  }
+}

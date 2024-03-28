@@ -1,0 +1,9 @@
+{
+  "name": "Businessinfoline",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://businessinfoline.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

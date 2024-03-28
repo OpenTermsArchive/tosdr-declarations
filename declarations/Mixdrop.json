@@ -1,0 +1,17 @@
+{
+  "name": "Mixdrop",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://mixdrop.co/copyright/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mixdrop.ag/privacy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://mixdrop.ag/terms/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

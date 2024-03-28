@@ -1,0 +1,17 @@
+{
+  "name": "Zenstudios",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://zenstudios.com/privacy-policy/",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://zenstudios.com/code-of-conduct/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://zenstudios.com/eula/",
+      "select": "body"
+    }
+  }
+}

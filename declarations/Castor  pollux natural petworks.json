@@ -1,0 +1,13 @@
+{
+  "name": "Castor  pollux natural petworks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.castorpolluxpet.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.castorpolluxpet.com/terms-conditions",
+      "select": "body"
+    }
+  }
+}

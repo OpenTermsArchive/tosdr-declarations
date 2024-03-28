@@ -1,0 +1,17 @@
+{
+  "name": "Tvsquared",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tvsquared.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(6)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.tvsquared.com/cookie-policy",
+      "select": "html > body > div:nth-of-type(6)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tvsquared.com/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(6)"
+    }
+  }
+}

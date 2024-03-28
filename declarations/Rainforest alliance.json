@@ -1,0 +1,13 @@
+{
+  "name": "Rainforest alliance",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rainforest-alliance.org/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.rainforest-alliance.org/privacy-policy/cookie-policy/",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

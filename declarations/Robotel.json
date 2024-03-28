@@ -1,0 +1,13 @@
+{
+  "name": "Robotel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.robotel.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.robotel.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

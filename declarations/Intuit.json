@@ -1,0 +1,9 @@
+{
+  "name": "Intuit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://accounts.intuit.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

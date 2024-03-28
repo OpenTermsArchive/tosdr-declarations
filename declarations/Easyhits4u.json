@@ -1,0 +1,13 @@
+{
+  "name": "Easyhits4u",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.easyhits4u.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.easyhits4u.com/terms.html",
+      "select": "body"
+    }
+  }
+}

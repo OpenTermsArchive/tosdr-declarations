@@ -1,0 +1,13 @@
+{
+  "name": "Aads",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://a-ads.com/privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://a-ads.com/terms_of_service",
+      "select": "body"
+    }
+  }
+}

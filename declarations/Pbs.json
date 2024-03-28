@@ -1,0 +1,13 @@
+{
+  "name": "Pbs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pbs.org/about/about-pbs/privacy-policy/",
+      "select": "html > body > main > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pbs.org/about/about-pbs/terms-of-use/",
+      "select": "html > body > main > div > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

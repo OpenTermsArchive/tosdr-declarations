@@ -1,0 +1,13 @@
+{
+  "name": "Twibbon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://twibbon.com/Privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://twibbon.com/Terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

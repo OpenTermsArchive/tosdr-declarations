@@ -1,0 +1,13 @@
+{
+  "name": "Electrify america",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.electrifyamerica.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.electrifyamerica.com/terms/",
+      "select": "body"
+    }
+  }
+}

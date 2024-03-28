@@ -1,0 +1,13 @@
+{
+  "name": "Community health network of washington",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cascadeselect.org/terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cascadeselect.org/terms-of-use/privacy-policy",
+      "select": null
+    }
+  }
+}

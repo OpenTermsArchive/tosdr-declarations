@@ -1,0 +1,17 @@
+{
+  "name": "Aaxcom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.aax.com/en-US/legal-privacy/cookies-notice/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.aax.com/en-US/legal-privacy/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.aax.com/en-US/legal-privacy/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

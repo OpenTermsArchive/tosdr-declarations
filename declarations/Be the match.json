@@ -1,0 +1,13 @@
+{
+  "name": "Be the match",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bethematch.org/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://bethematch.org/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(2) > section:nth-of-type(2)"
+    }
+  }
+}

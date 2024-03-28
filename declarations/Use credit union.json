@@ -1,0 +1,9 @@
+{
+  "name": "Use credit union",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.usecu.org/privacy-security/",
+      "select": null
+    }
+  }
+}

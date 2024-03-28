@@ -1,0 +1,13 @@
+{
+  "name": "Adventurers codex",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://adventurerscodex.com/privacy.html",
+      "select": "html > body > div:first-of-type > article > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://adventurerscodex.com/terms.html",
+      "select": "html > body > div:first-of-type > article > section"
+    }
+  }
+}

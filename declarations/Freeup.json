@@ -1,0 +1,17 @@
+{
+  "name": "Freeup",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://freeup.net/client-terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://freeup.net/privacy-policy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://freeup.net/dmca/",
+      "select": "body"
+    }
+  }
+}

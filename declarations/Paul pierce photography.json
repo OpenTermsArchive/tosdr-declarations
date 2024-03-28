@@ -1,0 +1,9 @@
+{
+  "name": "Paul pierce photography",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.paulpiercephotography.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

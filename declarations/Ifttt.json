@@ -1,0 +1,13 @@
+{
+  "name": "Ifttt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ifttt.com/privacy",
+      "select": "div.privacy-policy"
+    },
+    "Terms of Service": {
+      "fetch": "https://ifttt.com/terms",
+      "select": "div.terms-of-use"
+    }
+  }
+}

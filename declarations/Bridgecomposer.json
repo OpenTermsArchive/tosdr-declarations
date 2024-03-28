@@ -1,0 +1,13 @@
+{
+  "name": "Bridgecomposer",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bridgecomposer.com/tos.htm",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bridgecomposer.com/PrivacyPolicy.htm",
+      "select": "body"
+    }
+  }
+}

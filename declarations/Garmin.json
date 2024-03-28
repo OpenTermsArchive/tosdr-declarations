@@ -1,0 +1,13 @@
+{
+  "name": "Garmin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.garmin.com/nl-NL/privacy/global/policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.garmin.com/en-US/legal/terms-of-use/",
+      "select": " > main > div > div"
+    }
+  }
+}

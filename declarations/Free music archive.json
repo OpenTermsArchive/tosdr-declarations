@@ -1,0 +1,13 @@
+{
+  "name": "Free music archive",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://freemusicarchive.org/Terms_of_Use",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://freemusicarchive.org/Privacy_Policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Bertocchi law",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bertocchi.law/privacy-cookies/",
+      "select": "body"
+    }
+  }
+}

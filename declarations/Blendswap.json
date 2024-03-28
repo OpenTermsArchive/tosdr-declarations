@@ -1,0 +1,17 @@
+{
+  "name": "Blendswap",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "http://www.dev.blendswap.com/page/code-of-conduct",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.blendswap.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.blendswap.com/privacy",
+      "select": "body"
+    }
+  }
+}

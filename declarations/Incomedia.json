@@ -1,0 +1,13 @@
+{
+  "name": "Incomedia",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.incomedia.eu/policy/terms-general_en.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.incomedia.eu/policy/privacy_en.html",
+      "select": "body"
+    }
+  }
+}

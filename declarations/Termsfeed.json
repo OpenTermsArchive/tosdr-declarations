@@ -1,0 +1,17 @@
+{
+  "name": "Termsfeed",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.termsfeed.com/legal/terms-of-use/",
+      "select": " > div > main > div > article"
+    },
+    "Legal Information": {
+      "fetch": "https://www.termsfeed.com/legal/disclaimer/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.termsfeed.com/legal/privacy-policy/",
+      "select": " > div > main > div > article"
+    }
+  }
+}

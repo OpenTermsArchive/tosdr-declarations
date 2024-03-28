@@ -1,0 +1,13 @@
+{
+  "name": "Game kid game",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "http://www.gamekidgame.com/cookiepolicy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.gamekidgame.com/privacy_policy.html",
+      "select": "body"
+    }
+  }
+}

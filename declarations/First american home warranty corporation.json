@@ -1,0 +1,13 @@
+{
+  "name": "First american home warranty corporation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.firstam.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://homewarranty.firstam.com/legal",
+      "select": "body"
+    }
+  }
+}

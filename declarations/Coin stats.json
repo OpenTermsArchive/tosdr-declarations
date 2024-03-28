@@ -1,0 +1,17 @@
+{
+  "name": "Coin stats",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://coinstats.app/refund.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://coinstats.app/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://coinstats.app/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Dramacool",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ww2.dramacool9.ac/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Appbox",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.appbox.co/terms-of-service/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > main > article > div > div > div > div > section > div > div > div > div > div > div > div > div"
+    },
+    "Policy": {
+      "fetch": "https://www.appbox.co/policies/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > main > article > div > div > div > div > section > div > div > div > div > div > div > div > div"
+    }
+  }
+}

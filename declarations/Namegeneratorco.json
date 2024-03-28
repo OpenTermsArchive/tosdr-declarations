@@ -1,0 +1,9 @@
+{
+  "name": "Namegeneratorco",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.namegenerator.co/privacy_policy.html",
+      "select": "body"
+    }
+  }
+}

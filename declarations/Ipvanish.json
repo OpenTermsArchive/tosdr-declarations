@@ -1,0 +1,21 @@
+{
+  "name": "Ipvanish",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.ipvanish.com/dmca-policy/",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.ipvanish.com/accessibility/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ipvanish.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ipvanish.com/tos/",
+      "select": "body"
+    }
+  }
+}

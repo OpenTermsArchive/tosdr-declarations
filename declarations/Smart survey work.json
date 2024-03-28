@@ -1,0 +1,9 @@
+{
+  "name": "Smart survey work",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://smartsurveywork.com/authTerms.html",
+      "select": "body"
+    }
+  }
+}

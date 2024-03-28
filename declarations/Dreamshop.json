@@ -1,0 +1,17 @@
+{
+  "name": "Dreamshop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dream.shop/policies/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dream.shop/policies/privacy-policy",
+      "select": "html > body > section"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://dream.shop/policies/shipping-policy",
+      "select": "body"
+    }
+  }
+}

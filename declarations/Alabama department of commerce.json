@@ -1,0 +1,9 @@
+{
+  "name": "Alabama department of commerce",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.madeinalabama.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Hillshire farm",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hillshirefarm.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hillshirefarm.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Vupload",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vupload.com/tos",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://vupload.com/copyright",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vupload.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Keepass",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://keepass.info/help/base/terms.html",
+      "select": "body"
+    }
+  }
+}

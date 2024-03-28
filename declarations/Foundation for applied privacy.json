@@ -1,0 +1,9 @@
+{
+  "name": "Foundation for applied privacy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://applied-privacy.net/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

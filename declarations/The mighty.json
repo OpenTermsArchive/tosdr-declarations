@@ -1,0 +1,13 @@
+{
+  "name": "The mighty",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://themighty.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://themighty.com/privacy/",
+      "select": "body"
+    }
+  }
+}

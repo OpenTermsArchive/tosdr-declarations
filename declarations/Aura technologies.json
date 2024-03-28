@@ -1,0 +1,13 @@
+{
+  "name": "Aura technologies",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aura.company/privacy-policy/ ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://aura.company/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

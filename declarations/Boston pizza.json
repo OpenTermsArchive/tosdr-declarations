@@ -1,0 +1,13 @@
+{
+  "name": "Boston pizza",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bostonpizza.com/en/privacy-policy.html",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://bostonpizza.com/en/legal-disclaimer.html",
+      "select": null
+    }
+  }
+}

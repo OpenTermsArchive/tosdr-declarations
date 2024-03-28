@@ -1,0 +1,17 @@
+{
+  "name": "Maxon computer gmbh",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://s3.us-east-1.amazonaws.com/maxonsites/images/maxon/Learn/MAXON_EULA_EN_202103.pdf",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.maxon.net/en/legal/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.maxon.net/en/legal/privacy-policy/",
+      "select": " > div > div > section > div"
+    }
+  }
+}

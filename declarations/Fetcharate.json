@@ -1,0 +1,13 @@
+{
+  "name": "Fetcharate",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fetcharate.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fetcharate.com/privacy",
+      "select": "body"
+    }
+  }
+}

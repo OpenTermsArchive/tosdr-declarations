@@ -1,0 +1,9 @@
+{
+  "name": "None",
+  "documents": {
+    "Other": {
+      "fetch": "http://example.com/",
+      "select": "body"
+    }
+  }
+}

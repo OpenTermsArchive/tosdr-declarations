@@ -1,0 +1,13 @@
+{
+  "name": "Resources4me",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://resources4me.com/lp#/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://resources4me.com/lp#/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Pandora",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pandora.com/legal",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pandora.com/privacy",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.pandora.com/legal/community-content-policy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.pandora.com/legal/intellectual-property/",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.pandora.com/static/companypages/pdf/Pandora_Tax%20_Policy_FY2018.pdf",
+      "select": "body"
+    }
+  }
+}

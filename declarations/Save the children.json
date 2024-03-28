@@ -1,0 +1,13 @@
+{
+  "name": "Save the children",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.savethechildren.net/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.savethechildren.net/cookie-policy",
+      "select": "body"
+    }
+  }
+}

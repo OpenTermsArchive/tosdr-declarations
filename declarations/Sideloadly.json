@@ -1,0 +1,9 @@
+{
+  "name": "Sideloadly",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sideloadly.io/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Uizard",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://uizard.io/privacy/",
+      "select": "html > body > div > div:first-of-type > div:nth-of-type(2) > div > div > div > div > button"
+    },
+    "Terms of Service": {
+      "fetch": "Terms Of Service",
+      "select": null
+    }
+  }
+}

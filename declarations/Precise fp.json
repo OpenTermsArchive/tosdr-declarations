@@ -1,0 +1,13 @@
+{
+  "name": "Precise fp",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://precisefp.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://precisefp.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

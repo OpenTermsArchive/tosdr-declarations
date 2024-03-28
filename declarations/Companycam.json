@@ -1,0 +1,13 @@
+{
+  "name": "Companycam",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://companycam.com/terms ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://companycam.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

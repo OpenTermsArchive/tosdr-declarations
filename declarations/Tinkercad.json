@@ -1,0 +1,13 @@
+{
+  "name": "Tinkercad",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tinkercad.com/privacy",
+      "select": "html > body > div > div > app > div > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.autodesk.com/company/legal-notices-trademarks/terms-of-service-autodesk360-web-services/terms-of-service-for-tinkercad",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

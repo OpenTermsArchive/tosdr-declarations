@@ -1,0 +1,13 @@
+{
+  "name": "Ipromote",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ipromote.com/privacy-policy/",
+      "select": "html > body > section > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ipromote.com/terms/",
+      "select": "html > body > section > div > section"
+    }
+  }
+}

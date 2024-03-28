@@ -1,0 +1,13 @@
+{
+  "name": "Content spotlight",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.contentspotlight.org/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.contentspotlight.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

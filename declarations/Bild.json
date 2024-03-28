@@ -1,0 +1,9 @@
+{
+  "name": "Bild",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bild.de/corporate-site/agb/bild-de/artikel-agb-2952414.bild.html",
+      "select": "html > body > div:first-of-type > div > div > div > div > main > article"
+    }
+  }
+}

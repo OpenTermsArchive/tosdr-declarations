@@ -1,0 +1,13 @@
+{
+  "name": "Wildskymedia",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wildskymedia.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wildskymedia.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Kimai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kimai.org/en/privacy-policy.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.kimai.org/en/site-notice.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

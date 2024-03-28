@@ -1,0 +1,13 @@
+{
+  "name": "Mathcha",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mathcha.io/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mathcha.io/privacy-policy",
+      "select": "body"
+    }
+  }
+}

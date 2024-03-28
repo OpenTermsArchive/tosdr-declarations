@@ -1,0 +1,13 @@
+{
+  "name": "Behind the voice actors",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.behindthevoiceactors.com/terms-of-use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.behindthevoiceactors.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

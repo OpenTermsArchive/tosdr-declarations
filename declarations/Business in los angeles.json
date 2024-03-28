@@ -1,0 +1,13 @@
+{
+  "name": "Business in los angeles",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://businessinlosangeles.com/terms-of-use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://businessinlosangeles.com/gdpr-privacy-policy/",
+      "select": null
+    }
+  }
+}

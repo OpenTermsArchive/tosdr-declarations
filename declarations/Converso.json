@@ -1,0 +1,13 @@
+{
+  "name": "Converso",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://conversoapp.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://conversoapp.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

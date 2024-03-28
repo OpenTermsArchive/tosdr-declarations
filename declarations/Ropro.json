@@ -1,0 +1,13 @@
+{
+  "name": "Ropro",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ropro.io/terms/",
+      "select": "html > body > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ropro.io/privacy-policy/",
+      "select": "html > body > section"
+    }
+  }
+}

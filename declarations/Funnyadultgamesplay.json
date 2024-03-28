@@ -1,0 +1,13 @@
+{
+  "name": "Funnyadultgamesplay",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.funnyadultgamesplay.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.funnyadultgamesplay.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

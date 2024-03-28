@@ -1,0 +1,13 @@
+{
+  "name": "Wiris",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wiris.com/en/student-data-privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wiris.com/en/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

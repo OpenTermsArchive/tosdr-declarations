@@ -1,0 +1,13 @@
+{
+  "name": "1000bulbs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.1000bulbs.com/pages/terms_conditions.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.1000bulbs.com/pages/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

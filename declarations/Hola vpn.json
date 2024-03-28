@@ -1,0 +1,17 @@
+{
+  "name": "Hola vpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hola.org/legal/sla",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hola.org/legal/privacy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://hola.org/legal/dmca",
+      "select": "body"
+    }
+  }
+}

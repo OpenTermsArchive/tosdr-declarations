@@ -1,0 +1,9 @@
+{
+  "name": "Wiimmfi project",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wiimmfi.de/privacy",
+      "select": null
+    }
+  }
+}

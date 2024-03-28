@@ -1,0 +1,9 @@
+{
+  "name": "Aixeno",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aixeno.com/legal.html",
+      "select": "body"
+    }
+  }
+}

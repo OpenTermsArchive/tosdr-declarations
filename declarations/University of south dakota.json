@@ -1,0 +1,9 @@
+{
+  "name": "University of south dakota",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.usd.edu/Terms-of-Use",
+      "select": "body"
+    }
+  }
+}

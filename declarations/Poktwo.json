@@ -1,0 +1,13 @@
+{
+  "name": "Poktwo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://poketwo.net/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://poketwo.net/privacy",
+      "select": "body"
+    }
+  }
+}

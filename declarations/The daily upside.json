@@ -1,0 +1,9 @@
+{
+  "name": "The daily upside",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thedailyupside.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

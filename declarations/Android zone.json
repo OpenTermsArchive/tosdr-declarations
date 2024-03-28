@@ -1,0 +1,13 @@
+{
+  "name": "Android zone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://android-zone.ws/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://android-zone.ws/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Oli  bou",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://olibou.com/pages/privacy-and-terms",
+      "select": "html > body > main"
+    }
+  }
+}

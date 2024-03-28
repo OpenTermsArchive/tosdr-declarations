@@ -1,0 +1,13 @@
+{
+  "name": "Allclear",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.allclearid.com/terms-of-service/health-id/",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2) > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.allclearid.com/privacy-policy/identity-protection/ ",
+      "select": "body"
+    }
+  }
+}

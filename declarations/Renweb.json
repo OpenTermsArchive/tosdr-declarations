@@ -1,0 +1,21 @@
+{
+  "name": "Renweb",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://factsmgt.com/privacy-policy/",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://factsmgt.com/terms-of-use",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://factsmgt.com/terms-of-use",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://factsmgt.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

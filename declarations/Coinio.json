@@ -1,0 +1,13 @@
+{
+  "name": "Coinio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://coin.io/term-of-use",
+      "select": "html > body > div:first-of-type > article > div > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://coin.io/privacy-policy",
+      "select": "html > body > div:first-of-type > article > div > section"
+    }
+  }
+}

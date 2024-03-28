@@ -1,0 +1,13 @@
+{
+  "name": "Samsung knox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www2.samsungknox.com/en/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://eula.secb2b.com/EULA/CCPA/en_US.html",
+      "select": "body"
+    }
+  }
+}

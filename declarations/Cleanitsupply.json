@@ -1,0 +1,9 @@
+{
+  "name": "Cleanitsupply",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cleanitsupply.com/t/privacy.aspx",
+      "select": null
+    }
+  }
+}

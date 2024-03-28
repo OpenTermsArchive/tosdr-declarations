@@ -1,0 +1,17 @@
+{
+  "name": "Arduino",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.arduino.cc/en/privacy-policy",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.arduino.cc/en/security",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.arduino.cc/en/terms-conditions",
+      "select": "body"
+    }
+  }
+}

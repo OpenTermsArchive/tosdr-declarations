@@ -1,0 +1,9 @@
+{
+  "name": "Kader",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kaderapp.com/en/terms-and-conditions-of-use",
+      "select": "html > body > div:first-of-type > div > div:first-of-type"
+    }
+  }
+}

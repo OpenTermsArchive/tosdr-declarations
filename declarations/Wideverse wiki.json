@@ -1,0 +1,9 @@
+{
+  "name": "Wideverse wiki",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wideboys.org/WIDEVERSE_Wiki:Privacy_policy",
+      "select": null
+    }
+  }
+}

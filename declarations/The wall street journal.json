@@ -1,0 +1,25 @@
+{
+  "name": "The wall street journal",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.dowjones.com/cookie-notice/?mod=WSJ",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://www.dowjones.com/notice-ca-residents/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wsj.com/policy/additional-terms-conditions",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wsj.com/policy/data-policy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.wsj.com/policy/copyright-policy",
+      "select": null
+    }
+  }
+}

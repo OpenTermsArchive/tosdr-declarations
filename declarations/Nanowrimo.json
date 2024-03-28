@@ -1,0 +1,17 @@
+{
+  "name": "Nanowrimo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nanowrimo.org/privacy-policy",
+      "select": "html > body > main > div > section > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://nanowrimo.org/terms-and-conditions",
+      "select": "html > body > main > div > section > div > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://nanowrimo.org/codes-of-conduct",
+      "select": "html > body > main > div > section > div > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Brubank",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.brubank.com/terms",
+      "select": " > div > main > div > section"
+    }
+  }
+}

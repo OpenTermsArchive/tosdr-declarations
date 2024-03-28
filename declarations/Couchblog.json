@@ -1,0 +1,9 @@
+{
+  "name": "Couchblog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://couch-blog.de/impressum/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Openphone",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.openphone.co/terms",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ol:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.openphone.co/privacy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

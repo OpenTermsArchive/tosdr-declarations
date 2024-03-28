@@ -1,0 +1,9 @@
+{
+  "name": "Senscritique",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://senscritique.notion.site/Conditions-G-n-rales-d-Utilisation-7299753eb9a7458dacf185bc2aecc16a",
+      "select": "body"
+    }
+  }
+}

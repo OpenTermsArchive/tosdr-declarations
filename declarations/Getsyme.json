@@ -1,0 +1,9 @@
+{
+  "name": "Getsyme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://getsyme.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

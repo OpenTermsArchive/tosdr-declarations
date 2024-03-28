@@ -1,0 +1,9 @@
+{
+  "name": "The duke endowment",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dukeendowment.org/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > section:first-of-type > div > div > div > div > div:nth-of-type(2) > div > div > article > div:nth-of-type(2) > div:nth-of-type(2) > div > div > p"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "La presse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://info.lapresse.ca/politique-de-confidentialite",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://info.lapresse.ca/conditions-d-utilisation",
+      "select": "body"
+    }
+  }
+}

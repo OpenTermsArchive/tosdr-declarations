@@ -1,0 +1,17 @@
+{
+  "name": "Setapp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://setapp.com/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://setapp.com/cookie-policy",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://setapp.com/terms-of-use",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2)"
+    }
+  }
+}

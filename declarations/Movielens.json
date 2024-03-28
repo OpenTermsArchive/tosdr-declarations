@@ -1,0 +1,13 @@
+{
+  "name": "Movielens",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://movielens.org/info/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://movielens.org/info/terms-of-use",
+      "select": "body"
+    }
+  }
+}

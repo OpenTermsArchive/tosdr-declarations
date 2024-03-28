@@ -1,0 +1,13 @@
+{
+  "name": "Adafruit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.adafruit.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://io.adafruit.com/terms",
+      "select": "html > body > div:first-of-type > div > div > main > div:first-of-type > div:first-of-type > div > div > div > div > div > div > div > div"
+    }
+  }
+}

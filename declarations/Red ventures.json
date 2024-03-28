@@ -1,0 +1,17 @@
+{
+  "name": "Red ventures",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.redventures.com/legal/privacy-policy",
+      "select": " > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.redventures.com/legal/cmg-terms-of-use.html",
+      "select": " > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.redventures.com/legal/cookie-policy",
+      "select": null
+    }
+  }
+}

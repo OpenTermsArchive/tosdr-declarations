@@ -1,0 +1,13 @@
+{
+  "name": "Oneadpack",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://oneadpack.com/terms.php",
+      "select": "html > body > div:nth-of-type(3) > section > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://oneadpack.com/privacy.php",
+      "select": "html > body > div:nth-of-type(3) > section > div > div > div:nth-of-type(2) > p"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Savefrom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://en.savefrom.net/139/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://en.savefrom.net/34/terms.html",
+      "select": "body"
+    }
+  }
+}

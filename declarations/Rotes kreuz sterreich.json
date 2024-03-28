@@ -1,0 +1,9 @@
+{
+  "name": "Rotes kreuz sterreich",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.roteskreuz.at/ich-will-mehr-wissen/datenschutzerklaerung",
+      "select": "body"
+    }
+  }
+}

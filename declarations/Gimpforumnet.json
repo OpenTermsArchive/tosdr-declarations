@@ -1,0 +1,9 @@
+{
+  "name": "Gimpforumnet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gimp-forum.net/misc.php?action=help&hid=10",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Krunkerio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://krunker.io/docs/terms.txt",
+      "select": "body"
+    }
+  }
+}

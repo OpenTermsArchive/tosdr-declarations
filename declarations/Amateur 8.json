@@ -1,0 +1,21 @@
+{
+  "name": "Amateur 8",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.amateur8.com/terms/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.amateur8.com/dmca/",
+      "select": "body"
+    },
+    "Records Keeping Policy": {
+      "fetch": "https://www.amateur8.com/2257/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.amateur8.com/privacy/",
+      "select": "body"
+    }
+  }
+}

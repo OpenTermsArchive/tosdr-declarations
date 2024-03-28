@@ -1,0 +1,13 @@
+{
+  "name": "Dice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dice.com/about/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dice.com/about/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

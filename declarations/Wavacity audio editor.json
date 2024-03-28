@@ -1,0 +1,9 @@
+{
+  "name": "Wavacity audio editor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wavacity.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Hostens",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.hostens.com/legal/refund-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hostens.com/legal/terms-of-service/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hostens.com/legal/privacy-policy",
+      "select": null
+    }
+  }
+}

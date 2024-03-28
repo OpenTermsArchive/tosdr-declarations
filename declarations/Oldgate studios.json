@@ -1,0 +1,13 @@
+{
+  "name": "Oldgate studios",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://oldgate.org/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://oldgate.org/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

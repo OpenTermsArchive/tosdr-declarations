@@ -1,0 +1,9 @@
+{
+  "name": "Translateru",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.translate.ru/about/privacy",
+      "select": "body"
+    }
+  }
+}

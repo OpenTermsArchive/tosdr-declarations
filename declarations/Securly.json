@@ -1,0 +1,13 @@
+{
+  "name": "Securly",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.securly.com/students-privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.securly.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

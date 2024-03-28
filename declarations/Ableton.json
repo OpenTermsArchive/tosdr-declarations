@@ -1,0 +1,13 @@
+{
+  "name": "Ableton",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ableton.com/en/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ableton.com/en/gtc/",
+      "select": "html > body > div:nth-of-type(2) > div > main > div"
+    }
+  }
+}

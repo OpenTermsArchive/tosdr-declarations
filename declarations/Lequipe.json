@@ -1,0 +1,17 @@
+{
+  "name": "Lequipe",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lequipe.fr/Tous-sports/Actualites/Conditions-generales-de-vente/1047232",
+      "select": " > article > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www6.lequipe.fr/Fonctions/politique-confidentialite.html",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.lequipe.fr/Tous-sports/Actualites/Politique-des-cookies-sur-lequipe-fr/1026073",
+      "select": " > article > div > div > div:nth-of-type(3) > div > div"
+    }
+  }
+}

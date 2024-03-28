@@ -1,0 +1,17 @@
+{
+  "name": "Azirevpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.azirevpn.com/terms-of-service",
+      "select": "html > body > main > section > article"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.azirevpn.com/cookies",
+      "select": "html > body > main > section > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.azirevpn.com/privacy",
+      "select": "html > body > main > section > article"
+    }
+  }
+}

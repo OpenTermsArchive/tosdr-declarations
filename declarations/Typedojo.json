@@ -1,0 +1,9 @@
+{
+  "name": "Typedojo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.typedojo.com/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div"
+    }
+  }
+}

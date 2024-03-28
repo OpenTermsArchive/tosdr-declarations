@@ -1,0 +1,13 @@
+{
+  "name": "Coupongreat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.coupongreat.com/termsandconditions.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.coupongreat.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

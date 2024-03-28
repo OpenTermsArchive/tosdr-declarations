@@ -1,0 +1,13 @@
+{
+  "name": "City journal by the manhattan institute",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.city-journal.org/privacy-policy",
+      "select": "html > body > main > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.city-journal.org/terms-of-use",
+      "select": "html > body > main > div > div > div"
+    }
+  }
+}

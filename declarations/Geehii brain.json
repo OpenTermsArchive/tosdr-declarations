@@ -1,0 +1,13 @@
+{
+  "name": "Geehii brain",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://get.geehii.com/UFWK/checkout/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://get.geehii.com/UFWK/checkout/terms.php",
+      "select": "body"
+    }
+  }
+}

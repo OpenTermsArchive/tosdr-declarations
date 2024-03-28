@@ -1,0 +1,25 @@
+{
+  "name": "Sonic",
+  "documents": {
+    "Policy": {
+      "fetch": "https://help.sonic.com/hc/en-us/articles/236030007-Equipment-Policy",
+      "select": "html > body > main"
+    },
+    "Legal Information": {
+      "fetch": "https://help.sonic.com/hc/en-us/article_attachments/360050675674",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://help.sonic.com/hc/en-us/articles/115000379308-Contract-Buyout",
+      "select": "html > body > main"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://help.sonic.com/hc/en-us/articles/236029887-Digital-Millennium-Copyright-Act-DMCA-policy",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sonic.com/business/terms",
+      "select": "html > body > main > div > section > div > div:nth-of-type(2) > section > article > div > div > div"
+    }
+  }
+}

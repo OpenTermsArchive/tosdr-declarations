@@ -1,0 +1,9 @@
+{
+  "name": "Amnesty international swizerland",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.amnesty.ch/fr/contacts/impressum/questions-legales/protection-des-donnees",
+      "select": "body"
+    }
+  }
+}

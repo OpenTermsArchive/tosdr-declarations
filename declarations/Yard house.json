@@ -1,0 +1,13 @@
+{
+  "name": "Yard house",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.yardhouse.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.yardhouse.com/legal-notices",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Spice box",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.spicebox.ca/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

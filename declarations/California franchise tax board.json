@@ -1,0 +1,13 @@
+{
+  "name": "California franchise tax board",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ftb.ca.gov/myftb/general-terms-and-conditions.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ftb.ca.gov/your-rights/privacy/index.html",
+      "select": "html > body > div:first-of-type > main > section"
+    }
+  }
+}

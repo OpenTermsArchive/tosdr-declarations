@@ -1,0 +1,13 @@
+{
+  "name": "Mailpanion",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mailpanion.com/eula/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mailpanion.com/privacy/",
+      "select": "body"
+    }
+  }
+}

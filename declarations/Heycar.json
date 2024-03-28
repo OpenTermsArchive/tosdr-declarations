@@ -1,0 +1,17 @@
+{
+  "name": "Heycar",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://hey.car/cookie-dashboard",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://hey.car/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hey.car/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Joinup",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://joinup.ec.europa.eu/sites/default/files/inline-files/Specific_Privacy_Statement_Joinup_v2.00.pdf",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://joinup.ec.europa.eu/joinup/legal-notice",
+      "select": "div"
+    }
+  }
+}

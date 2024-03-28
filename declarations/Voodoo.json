@@ -1,0 +1,13 @@
+{
+  "name": "Voodoo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.voodoo.io/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.voodoo.io/privacy",
+      "select": "body"
+    }
+  }
+}

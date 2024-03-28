@@ -1,0 +1,13 @@
+{
+  "name": "Todoist",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://todoist.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://todoist.com/terms",
+      "select": "article"
+    }
+  }
+}

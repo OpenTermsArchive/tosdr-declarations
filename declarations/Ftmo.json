@@ -1,0 +1,17 @@
+{
+  "name": "Ftmo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ftmo.com/en/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://ftmo.com/en/cookies/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ftmo.com/en/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

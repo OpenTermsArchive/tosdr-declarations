@@ -1,0 +1,13 @@
+{
+  "name": "Boobatv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://booba.tv/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://booba.tv/terms",
+      "select": "body"
+    }
+  }
+}

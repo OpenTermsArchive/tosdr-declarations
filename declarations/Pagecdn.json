@@ -1,0 +1,17 @@
+{
+  "name": "Pagecdn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pagecdn.com/legal/privacy",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://pagecdn.com/legal/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://pagecdn.com/legal/terms",
+      "select": "body"
+    }
+  }
+}

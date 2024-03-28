@@ -1,0 +1,13 @@
+{
+  "name": "B12",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.b12.io/static-assets/docs/terms-of-service-03-01-2021.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cdn.b12.io/client_media/dmdju/2a2cd5ca-4fd4-11e8-b1b5-0242ac110002-Privacy_Policy.pdf",
+      "select": "body"
+    }
+  }
+}

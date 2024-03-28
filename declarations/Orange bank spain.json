@@ -1,0 +1,17 @@
+{
+  "name": "Orange bank spain",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://orangebank.es/aviso-legal/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://orangebank.es/politica-privacidad/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://orangebank.es/politica-cookies/",
+      "select": "body"
+    }
+  }
+}

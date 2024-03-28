@@ -1,0 +1,21 @@
+{
+  "name": "Waze",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.waze.com/legal/privacy",
+      "select": " > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.waze.com/legal/copyright",
+      "select": " > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.waze.com/legal/tos",
+      "select": " > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.waze.com/legal/cookies",
+      "select": " > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

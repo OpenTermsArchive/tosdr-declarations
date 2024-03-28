@@ -1,0 +1,9 @@
+{
+  "name": "Thoughtco",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thoughtco.com/legal-4801761",
+      "select": null
+    }
+  }
+}

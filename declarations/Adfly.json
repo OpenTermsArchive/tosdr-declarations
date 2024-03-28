@@ -1,0 +1,17 @@
+{
+  "name": "Adfly",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://adf.ly/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://adf.ly/terms",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://adf.ly/dmca",
+      "select": "body"
+    }
+  }
+}

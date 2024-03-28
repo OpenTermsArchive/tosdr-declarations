@@ -1,0 +1,13 @@
+{
+  "name": "Humata",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://app.termly.io/document/terms-of-use-for-website/ae9f0e45-f0e3-4f60-b97b-531152d0e0d4",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://app.termly.io/document/privacy-policy/aafaae68-7966-4a23-bd58-ab4625195ac3",
+      "select": "body"
+    }
+  }
+}

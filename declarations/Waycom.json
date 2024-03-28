@@ -1,0 +1,9 @@
+{
+  "name": "Waycom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://way.com/aboutUs/userAgreement",
+      "select": "html > body > app-root > app-layout > section > static-pages > div:nth-of-type(2) > div > div:nth-of-type(2) > div > app-about-us > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Ucla",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ucla.edu/terms-of-use/",
+      "select": null
+    }
+  }
+}

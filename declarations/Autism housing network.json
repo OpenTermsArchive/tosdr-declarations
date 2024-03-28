@@ -1,0 +1,13 @@
+{
+  "name": "Autism housing network",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.autismhousingnetwork.org/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.autismhousingnetwork.org/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > article > section:nth-of-type(2)"
+    }
+  }
+}

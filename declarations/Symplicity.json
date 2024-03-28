@@ -1,0 +1,13 @@
+{
+  "name": "Symplicity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.symplicity.com/support/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.symplicity.com/support/terms-of-use",
+      "select": "body"
+    }
+  }
+}

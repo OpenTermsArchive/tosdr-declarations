@@ -1,0 +1,13 @@
+{
+  "name": "World4you",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.world4you.com/en/unternehmen/agb.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.world4you.com/en/unternehmen/datenschutzerklaerung.html",
+      "select": null
+    }
+  }
+}

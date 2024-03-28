@@ -1,0 +1,9 @@
+{
+  "name": "Adevarul",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://adevarul.ro/politica-cookies/",
+      "select": "body"
+    }
+  }
+}

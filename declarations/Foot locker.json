@@ -1,0 +1,17 @@
+{
+  "name": "Foot locker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.footlocker-emea.com/content/footlocker-corp-eu/eu/en/privacy/customer-privacy-statement-europe-.html",
+      "select": " > div > div > div > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.footlocker-emea.com/content/footlocker-corp-eu/eu/en/privacy/cookies-statement-europe.html",
+      "select": " > div > div > div > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.footlocker.co.uk/en/terms.html",
+      "select": " > div > div:nth-of-type(2) > div > section > section:first-of-type > div"
+    }
+  }
+}

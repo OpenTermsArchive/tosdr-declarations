@@ -1,0 +1,9 @@
+{
+  "name": "Ctrlaltdev",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ctrlalt.dev/privacy.txt",
+      "select": "body"
+    }
+  }
+}

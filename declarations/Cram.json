@@ -1,0 +1,13 @@
+{
+  "name": "Cram",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cram.com/about-us/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cram.com/about-us/privacy",
+      "select": "body"
+    }
+  }
+}

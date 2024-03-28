@@ -1,0 +1,9 @@
+{
+  "name": "Fairtec",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://fairtec.io/fr/privacy-cookie-policy/",
+      "select": "body"
+    }
+  }
+}

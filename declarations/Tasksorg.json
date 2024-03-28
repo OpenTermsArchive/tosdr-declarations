@@ -1,0 +1,9 @@
+{
+  "name": "Tasksorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tasks.org/docs/privacy/",
+      "select": "body"
+    }
+  }
+}

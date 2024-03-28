@@ -1,0 +1,17 @@
+{
+  "name": "Barnes and noble",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.barnesandnoble.com/h/help/privacy-policy-complete",
+      "select": "html > body > main > section > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.barnesandnoble.com/h/help/cookie-policy",
+      "select": "html > body > main > section > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.barnesandnoble.com/h/help/about/terms-of-use",
+      "select": "html > body > main > section > div:nth-of-type(2)"
+    }
+  }
+}

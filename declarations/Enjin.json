@@ -1,0 +1,9 @@
+{
+  "name": "Enjin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.enjin.com/privacy",
+      "select": "html > body > div > div:nth-of-type(2)"
+    }
+  }
+}

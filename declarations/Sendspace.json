@@ -1,0 +1,13 @@
+{
+  "name": "Sendspace",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sendspace.com/privacy_policy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sendspace.com/terms.html",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "0 ad",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://play0ad.com/about/legal-notices/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > article > div"
+    }
+  }
+}

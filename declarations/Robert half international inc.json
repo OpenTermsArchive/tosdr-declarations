@@ -1,0 +1,13 @@
+{
+  "name": "Robert half international inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.roberthalf.com/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.roberthalf.com/terms-of-use",
+      "select": null
+    }
+  }
+}

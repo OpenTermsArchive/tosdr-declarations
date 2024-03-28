@@ -1,0 +1,17 @@
+{
+  "name": "Gopro",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gopro.com/en/us/legal/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://gopro.com/en/us/legal/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://gopro.com/en/us/legal/terms",
+      "select": "body"
+    }
+  }
+}

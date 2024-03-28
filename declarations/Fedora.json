@@ -1,0 +1,13 @@
+{
+  "name": "Fedora",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.fedoraproject.org/en-US/legal/privacy/",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://docs.fedoraproject.org/en-US/project/code-of-conduct/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Ipusstv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ipuss.tv/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ipuss.tv/privacy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.ipuss.tv/dmca/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Balena",
+  "documents": {
+    "Miscellaneous Agreement": {
+      "fetch": "https://www.balena.io/master-agreement",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.balena.io/terms-of-service",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.balena.io/privacy-policy",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Corus entertainment",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://assets.corusent.com/wp-content/uploads/2021/01/29120658/SLS_Corus-Advertising-STCs.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.corusent.com/privacy-policy-kids/",
+      "select": "html > body > div:nth-of-type(4) > div > main > div > div"
+    }
+  }
+}

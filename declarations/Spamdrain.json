@@ -1,0 +1,13 @@
+{
+  "name": "Spamdrain",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://spamdrain.com/en/terms-conditions.html",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://spamdrain.com/en/privacy.html",
+      "select": "html > body > main"
+    }
+  }
+}

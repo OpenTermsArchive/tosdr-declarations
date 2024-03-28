@@ -1,0 +1,13 @@
+{
+  "name": "H2s media",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.how2shout.com/privacy-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.how2shout.com/disclaimer",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Paypro global",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.payproglobal.com/legal/privacyPolicy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.payproglobal.com/documents/legal/termsAndConditions.pdf",
+      "select": "body"
+    }
+  }
+}

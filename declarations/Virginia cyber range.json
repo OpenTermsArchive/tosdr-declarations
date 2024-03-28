@@ -1,0 +1,9 @@
+{
+  "name": "Virginia cyber range",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.virginiacyberrange.org/terms-of-use",
+      "select": "body"
+    }
+  }
+}

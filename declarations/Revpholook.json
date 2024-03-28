@@ -1,0 +1,9 @@
+{
+  "name": "Revpholook",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.revpholook.com/privacy-policy",
+      "select": "html > body > main > section"
+    }
+  }
+}

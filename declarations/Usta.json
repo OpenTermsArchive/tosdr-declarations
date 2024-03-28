@@ -1,0 +1,17 @@
+{
+  "name": "Usta",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-privacy-policy/usta-cookie-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-terms-of-use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-privacy-policy.html",
+      "select": "html > body > div:nth-of-type(4) > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

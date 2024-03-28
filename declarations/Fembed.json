@@ -1,0 +1,13 @@
+{
+  "name": "Fembed",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fembed.com/legal/terms",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.fembed.com/copyright",
+      "select": "body"
+    }
+  }
+}

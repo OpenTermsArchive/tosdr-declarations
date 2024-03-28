@@ -1,0 +1,13 @@
+{
+  "name": "Rnd host",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rndhost.pp.ua/privacy",
+      "select": "html > body > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rndhost.pp.ua/tos",
+      "select": "html > body > section:nth-of-type(2)"
+    }
+  }
+}

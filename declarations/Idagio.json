@@ -1,0 +1,13 @@
+{
+  "name": "Idagio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://about.idagio.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://about.idagio.com/terms",
+      "select": "body"
+    }
+  }
+}

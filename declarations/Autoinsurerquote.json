@@ -1,0 +1,13 @@
+{
+  "name": "Autoinsurerquote",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://autoinsurerquote.com/privacy-policy/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://autoinsurerquote.com/terms-conditions/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    }
+  }
+}

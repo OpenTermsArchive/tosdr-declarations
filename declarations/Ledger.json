@@ -1,0 +1,17 @@
+{
+  "name": "Ledger",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://shop.ledger.com/pages/cookie-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://shop.ledger.com/pages/ledger-live-terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://shop.ledger.com/pages/privacy-policy",
+      "select": " > div"
+    }
+  }
+}

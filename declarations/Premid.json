@@ -1,0 +1,17 @@
+{
+  "name": "Premid",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://premid.app/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://premid.app/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://premid.app/cookies",
+      "select": "body"
+    }
+  }
+}

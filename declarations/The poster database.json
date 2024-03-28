@@ -1,0 +1,13 @@
+{
+  "name": "The poster database",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://theposterdb.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://theposterdb.com/privacy",
+      "select": "body"
+    }
+  }
+}

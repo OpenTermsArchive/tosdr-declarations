@@ -1,0 +1,9 @@
+{
+  "name": "Dwcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dw.com/en/european-union-general-data-protection-regulationgdpr-valid-may-25-2018/a-18265246",
+      "select": " > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(3) > section:first-of-type > div > article > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Olark",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.olark.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.olark.com/tos",
+      "select": "html > body > div:nth-of-type(2) > section"
+    }
+  }
+}

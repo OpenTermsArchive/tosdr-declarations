@@ -1,0 +1,13 @@
+{
+  "name": "Vudu",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.vudu.com/content/termsofservice.html",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vudu.com/content/privacypolicy.html",
+      "select": null
+    }
+  }
+}

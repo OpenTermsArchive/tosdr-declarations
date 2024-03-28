@@ -1,0 +1,9 @@
+{
+  "name": "Askjeeves",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.askjeeves.net/privacy.html",
+      "select": "body"
+    }
+  }
+}

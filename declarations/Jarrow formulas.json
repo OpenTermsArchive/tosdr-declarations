@@ -1,0 +1,13 @@
+{
+  "name": "Jarrow formulas",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://jarrow.com/pages/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://jarrow.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

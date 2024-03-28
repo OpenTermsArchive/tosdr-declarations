@@ -1,0 +1,13 @@
+{
+  "name": "Qdance bv",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.q-dance.com/en/static/privacy-statement",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.q-dance.com/en/static/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

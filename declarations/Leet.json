@@ -1,0 +1,9 @@
+{
+  "name": "Leet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/19tv6TKUvJN-6YPfbvigWmM_PBHB0jsXsmZ6TzYqh1hk/edit",
+      "select": "body"
+    }
+  }
+}

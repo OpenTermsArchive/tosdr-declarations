@@ -1,0 +1,17 @@
+{
+  "name": "The safeguarding company",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thesafeguardingcompany.com/company/terms/",
+      "select": "html > body > main > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.thesafeguardingcompany.com/company/cookies/",
+      "select": "html > body > main > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thesafeguardingcompany.com/company/privacy/",
+      "select": "html > body > main > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Omni automation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://omni-automation.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

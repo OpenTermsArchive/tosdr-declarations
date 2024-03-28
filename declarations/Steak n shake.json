@@ -1,0 +1,13 @@
+{
+  "name": "Steak n shake",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.steaknshake.com/legal/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.steaknshake.com/privacy/",
+      "select": null
+    }
+  }
+}

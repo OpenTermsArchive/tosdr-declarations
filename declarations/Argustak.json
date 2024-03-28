@@ -1,0 +1,13 @@
+{
+  "name": "Argustak",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://argustak.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://argustak.com/termsofservice",
+      "select": "body"
+    }
+  }
+}

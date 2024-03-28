@@ -1,0 +1,13 @@
+{
+  "name": "Galaxy 4 games",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://galaxy4games.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://galaxy4games.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

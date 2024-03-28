@@ -1,0 +1,9 @@
+{
+  "name": "Academy of dental learning and osha training",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dentallearning.org/privacy-policy.cfm",
+      "select": "body"
+    }
+  }
+}

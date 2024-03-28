@@ -1,0 +1,9 @@
+{
+  "name": "The nation newspaper online  nigeria",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thenationonlineng.net/about/privacy",
+      "select": "body"
+    }
+  }
+}

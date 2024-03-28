@@ -1,0 +1,9 @@
+{
+  "name": "X world",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://xworld.org/privacy-policy/",
+      "select": "html > body > div:nth-of-type(3) > div > div > div:first-of-type > div > div > div"
+    }
+  }
+}

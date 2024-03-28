@@ -1,0 +1,13 @@
+{
+  "name": "G20",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.g20.org/legal-notes.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.g20.org/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

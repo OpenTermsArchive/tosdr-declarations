@@ -1,0 +1,13 @@
+{
+  "name": "Cameyo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cameyo.com/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div > div > article > div > div > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://cameyo.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > div > div > article > div > div > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

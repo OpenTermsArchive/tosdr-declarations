@@ -1,0 +1,17 @@
+{
+  "name": "Inflact",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://inflact.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://inflact.com/terms-of-service/",
+      "select": "html > body > div:first-of-type > main"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://inflact.com/refund-and-cancellation-policy/",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

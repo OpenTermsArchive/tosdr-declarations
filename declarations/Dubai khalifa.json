@@ -1,0 +1,13 @@
+{
+  "name": "Dubai khalifa",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cuitandokter.com/?arsae=https%3A%2F%2Fwww.dubaikhalifas.com%2Fterms-conditions%2F",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > div > div:first-of-type > div > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cuitandokter.com/?arsae=https%3A%2F%2Fwww.dubaikhalifas.com%2Fprivacy-policy-2%2F",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > div > div:first-of-type > div > article"
+    }
+  }
+}

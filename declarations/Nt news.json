@@ -1,0 +1,17 @@
+{
+  "name": "Nt news",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://preferences.news.com.au/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ntnews.com.au/help/termsconditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://preferences.news.com.au/cookies",
+      "select": "body"
+    }
+  }
+}

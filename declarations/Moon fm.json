@@ -1,0 +1,9 @@
+{
+  "name": "Moon fm",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://moon.fm/privacypolicy.html",
+      "select": "body"
+    }
+  }
+}

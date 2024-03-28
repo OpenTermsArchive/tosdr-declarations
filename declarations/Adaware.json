@@ -1,0 +1,17 @@
+{
+  "name": "Adaware",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.adaware.com/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.adaware.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.adaware.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

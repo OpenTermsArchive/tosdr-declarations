@@ -1,0 +1,9 @@
+{
+  "name": "Spielaffe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.spielaffe.de/Statisch/Datenschutz",
+      "select": "body"
+    }
+  }
+}

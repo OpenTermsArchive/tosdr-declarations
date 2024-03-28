@@ -1,0 +1,13 @@
+{
+  "name": "Responsible products",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://responsibleproducts.com/pages/privacy-security",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://responsibleproducts.com/pages/terms-of-service",
+      "select": "body"
+    }
+  }
+}

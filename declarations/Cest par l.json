@@ -1,0 +1,9 @@
+{
+  "name": "Cest par l",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cpar.la/politique-confidentialite",
+      "select": "body"
+    }
+  }
+}

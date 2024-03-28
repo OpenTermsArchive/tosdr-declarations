@@ -1,0 +1,9 @@
+{
+  "name": "Naturraum ruhrgebiet ev",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.naturraum-ruhrgebiet-ev.de/kontakt.html",
+      "select": "body"
+    }
+  }
+}

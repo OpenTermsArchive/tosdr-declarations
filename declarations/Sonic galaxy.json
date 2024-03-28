@@ -1,0 +1,9 @@
+{
+  "name": "Sonic galaxy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sonicgalaxy.net/privacy/",
+      "select": null
+    }
+  }
+}

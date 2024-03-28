@@ -1,0 +1,25 @@
+{
+  "name": "Shoprite",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.shoprite.com/sm/pickup/rsid/3000/coronavirus/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.shoprite.com/sm/pickup/rsid/3000/pharmacyprivacypolicy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.shoprite.com/sm/pickup/rsid/3000/privacy-policy/",
+      "select": "html > body > div:first-of-type > span > main > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.shoprite.com/sm/pickup/rsid/3000/refundpolicy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.shoprite.com/sm/pickup/rsid/3000/website-terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

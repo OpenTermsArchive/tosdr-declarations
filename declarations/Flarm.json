@@ -1,0 +1,9 @@
+{
+  "name": "Flarm",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flarm.com/about-us/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

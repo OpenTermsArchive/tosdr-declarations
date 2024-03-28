@@ -1,0 +1,17 @@
+{
+  "name": "Crayonco",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.crayon.co/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.crayon.co/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.crayon.co/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "The epoch times",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.theepochtimes.com/privacy-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.theepochtimes.com/terms-of-service",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.theepochtimes.com/copyright-infringement-notification",
+      "select": "body"
+    }
+  }
+}

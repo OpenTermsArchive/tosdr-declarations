@@ -1,0 +1,25 @@
+{
+  "name": "Sedo",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://sedoparking.com/privacy-policy/en/index.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://sedo.com/us/about-us/policies/updated-domain-parking-terms-and-conditions-sedocom/",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://sedo.com/us/about-us/policies/stolen-domain-policy/",
+      "select": "body"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://sedo.com/us/about-us/policies/domain-marketplace-agreement/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://sedo.com/us/about-us/policies/domain-transfer-agreement/",
+      "select": "body"
+    }
+  }
+}

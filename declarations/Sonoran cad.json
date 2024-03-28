@@ -1,0 +1,17 @@
+{
+  "name": "Sonoran cad",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://info.sonorancad.com/other/policy/refund-and-purchase-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://info.sonorancad.com/other/policy/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://info.sonorancad.com/other/policy/terms-of-service",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    }
+  }
+}

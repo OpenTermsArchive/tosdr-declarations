@@ -1,0 +1,13 @@
+{
+  "name": "Oo softwares",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.oo-software.com/en/eula-3",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.oo-software.com/en/company/privacy",
+      "select": "body"
+    }
+  }
+}

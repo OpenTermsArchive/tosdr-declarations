@@ -1,0 +1,13 @@
+{
+  "name": "Chive media group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vRVj7bo60LZtAkPo7QwJZbo1PsDUJHlKZWelxu2pOp7xMwV0l18Y_6DD75e4-BhgTNAKvBJSmQWE96Y/pub",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vRElyQc_yvJhZftReA0jVv7UnvC0HqopeSITNkne1yckZIWhqfhBjb26H_I55aovoykFPT15SE0CR_C/pub",
+      "select": "body"
+    }
+  }
+}

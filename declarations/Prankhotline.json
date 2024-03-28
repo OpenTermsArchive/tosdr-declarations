@@ -1,0 +1,9 @@
+{
+  "name": "Prankhotline",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://prankhotline.com/tos",
+      "select": "body"
+    }
+  }
+}

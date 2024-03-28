@@ -1,0 +1,17 @@
+{
+  "name": "Putio",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://put.io/dmca/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://put.io/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://put.io/privacy-policy",
+      "select": "body"
+    }
+  }
+}

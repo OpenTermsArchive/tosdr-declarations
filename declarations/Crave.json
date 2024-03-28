@@ -1,0 +1,9 @@
+{
+  "name": "Crave",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.crave.ca/en/terms-and-conditions-84360459",
+      "select": "body"
+    }
+  }
+}

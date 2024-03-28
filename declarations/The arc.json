@@ -1,0 +1,17 @@
+{
+  "name": "The arc",
+  "documents": {
+    "Corporate Social Responsibility": {
+      "fetch": "https://thearc.org/accessibility-statement/",
+      "select": " > div > main > div > div > div > section:nth-of-type(2) > div"
+    },
+    "Legal Information": {
+      "fetch": "https://thearc.org/privacy-notice/",
+      "select": " > div > div > div > div > section:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://thearc.org/terms-use/",
+      "select": " > div > div > div > div > section"
+    }
+  }
+}

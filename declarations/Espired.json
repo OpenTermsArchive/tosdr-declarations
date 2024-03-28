@@ -1,0 +1,13 @@
+{
+  "name": "Espired",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://espired.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://espired.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

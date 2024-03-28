@@ -1,0 +1,13 @@
+{
+  "name": "Hemorrhoids",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hemorrhoidcenter.org/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://hemorrhoidcenter.org/terms.php",
+      "select": "body"
+    }
+  }
+}

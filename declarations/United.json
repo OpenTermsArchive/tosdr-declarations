@@ -1,0 +1,13 @@
+{
+  "name": "United",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://united.net/wp-content/uploads/2023/08/UnitedComms_terms-and-conditions.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://united.net/wp-content/uploads/2023/08/UnitedComms_privacy-policy.pdf",
+      "select": "body"
+    }
+  }
+}

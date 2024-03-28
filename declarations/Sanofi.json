@@ -1,0 +1,13 @@
+{
+  "name": "Sanofi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sanofi.us/en/legal-notice",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sanofi.com/en/our-responsibility/sanofi-global-privacy-policy",
+      "select": "body"
+    }
+  }
+}

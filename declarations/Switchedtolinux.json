@@ -1,0 +1,13 @@
+{
+  "name": "Switchedtolinux",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://switchedtolinux.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://switchedtolinux.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type"
+    }
+  }
+}

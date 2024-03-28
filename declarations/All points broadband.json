@@ -1,0 +1,9 @@
+{
+  "name": "All points broadband",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://allpointsbroadband.com/legal/privacy/",
+      "select": "body"
+    }
+  }
+}

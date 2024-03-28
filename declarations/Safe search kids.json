@@ -1,0 +1,13 @@
+{
+  "name": "Safe search kids",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.safesearchkids.com/terms-of-service/",
+      "select": "html > body > div:nth-of-type(2) > main > div > div > div > div:first-of-type > article"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.safesearchkids.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > main > div > div > div > div:first-of-type > article"
+    }
+  }
+}

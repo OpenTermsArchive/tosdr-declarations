@@ -1,0 +1,9 @@
+{
+  "name": "Osable",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://osable.tech/privacy",
+      "select": "body"
+    }
+  }
+}

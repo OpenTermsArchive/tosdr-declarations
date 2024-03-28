@@ -1,0 +1,9 @@
+{
+  "name": "Ezgifcom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://ezgif.com/privacy",
+      "select": null
+    }
+  }
+}

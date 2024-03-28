@@ -1,0 +1,13 @@
+{
+  "name": "Jochenschweizerde",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.jochen-schweizer.de/Nutzungsbedingungen/JS_Nutzungsbedingungen/l/6gy7t",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.jochen-schweizer.de/datenschutz/JS_DATENSCHUTZ/l/enkq3",
+      "select": "body"
+    }
+  }
+}

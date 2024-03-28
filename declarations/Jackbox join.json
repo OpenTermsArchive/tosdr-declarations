@@ -1,0 +1,13 @@
+{
+  "name": "Jackbox join",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://jackjoin.vercel.app/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://jackjoin.vercel.app/privacy",
+      "select": "body"
+    }
+  }
+}

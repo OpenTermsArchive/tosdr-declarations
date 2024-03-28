@@ -1,0 +1,9 @@
+{
+  "name": "Wethunt",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://m.wethunt.com/termsofuse",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Guidefox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://guidefox.org/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://guidefox.org/terms-conditions",
+      "select": "body"
+    }
+  }
+}

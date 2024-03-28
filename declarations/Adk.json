@@ -1,0 +1,9 @@
+{
+  "name": "Adk",
+  "documents": {
+    "Other": {
+      "fetch": "https://newsmixer.us/",
+      "select": "body"
+    }
+  }
+}

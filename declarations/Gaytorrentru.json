@@ -1,0 +1,17 @@
+{
+  "name": "Gaytorrentru",
+  "documents": {
+    "Frequently Asked Questions": {
+      "fetch": "https://www.gaytorrent.ru/faq.php",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.gaytorrent.ru/dmca.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gaytorrent.ru/rules.php",
+      "select": "body"
+    }
+  }
+}

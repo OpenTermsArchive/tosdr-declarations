@@ -1,0 +1,9 @@
+{
+  "name": "National library of medicine",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nlm.nih.gov/web_policies.html",
+      "select": "body"
+    }
+  }
+}

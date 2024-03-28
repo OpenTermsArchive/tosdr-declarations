@@ -1,0 +1,13 @@
+{
+  "name": "Circuli",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://circu.li/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://circu.li/terms.html",
+      "select": "body"
+    }
+  }
+}

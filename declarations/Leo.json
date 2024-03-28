@@ -1,0 +1,17 @@
+{
+  "name": "Leo",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://dict.leo.org/pages/about/ende/impressum_en.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dict.leo.org/pages/about/ende/privacyPolicy_en.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://dict.leo.org/pages/about/ende/termsOfUsage_en.html",
+      "select": "body"
+    }
+  }
+}

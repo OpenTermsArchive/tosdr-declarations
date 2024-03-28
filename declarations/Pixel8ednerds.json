@@ -1,0 +1,9 @@
+{
+  "name": "Pixel8ednerds",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.pixel8ednerds.epizy.com/wpautoterms/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

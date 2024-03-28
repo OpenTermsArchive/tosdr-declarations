@@ -1,0 +1,13 @@
+{
+  "name": "Tours gone wild",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://toursgonewild.com/tgw-privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > main > article > div > div > div > div > section > div > div > div:first-of-type > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://toursgonewild.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

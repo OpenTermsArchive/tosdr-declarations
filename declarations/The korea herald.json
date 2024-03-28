@@ -1,0 +1,9 @@
+{
+  "name": "The korea herald",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://biz.heraldcorp.com/policy/privacy_kh_2019.html",
+      "select": "body"
+    }
+  }
+}

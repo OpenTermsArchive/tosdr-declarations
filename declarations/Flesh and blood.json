@@ -1,0 +1,13 @@
+{
+  "name": "Flesh and blood",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://fabtcg.com/resources/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://fabtcg.com/resources/privacy-policy/",
+      "select": "html > body > article"
+    }
+  }
+}

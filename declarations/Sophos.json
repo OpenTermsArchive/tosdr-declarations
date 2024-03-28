@@ -1,0 +1,17 @@
+{
+  "name": "Sophos",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sophos.com/en-us/legal/sophos-end-user-license-agreement.aspx",
+      "select": "html > body > form > div:nth-of-type(5) > div > div:first-of-type"
+    },
+    "Other": {
+      "fetch": "https://www.sophos.com/en-us/legal/sophos-end-user-license-agreement.aspx",
+      "select": "#Body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sophos.com/en-us/legal/sophos-group-privacy-notice",
+      "select": "body"
+    }
+  }
+}

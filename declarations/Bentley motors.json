@@ -1,0 +1,17 @@
+{
+  "name": "Bentley motors",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bentleymotors.com/en/pages/terms-and-conditions.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.bentleymotors.com/en/pages/cookie-policy.html ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bentleymotors.com/en/pages/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

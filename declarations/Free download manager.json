@@ -1,0 +1,9 @@
+{
+  "name": "Free download manager",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.freedownloadmanager.org/privacy.htm",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div:nth-of-type(2)"
+    }
+  }
+}

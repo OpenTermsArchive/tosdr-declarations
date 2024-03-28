@@ -1,0 +1,13 @@
+{
+  "name": "Ketch",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ketch.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ketch.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

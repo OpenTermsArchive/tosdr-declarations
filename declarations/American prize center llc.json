@@ -1,0 +1,13 @@
+{
+  "name": "American prize center llc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://contact.sweepstakesamonth.com/policies/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://contact.sweepstakesamonth.com/policies/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Artemislenaeu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://teddit.artemislena.eu/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://pad.artemislena.eu/code/#/2/code/view/CYlbPMXv3H8rgi-lUx14vNMVIcSRcV72JVvooM8igPE/present/",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://artemislena.eu/coc.html",
+      "select": "body"
+    }
+  }
+}

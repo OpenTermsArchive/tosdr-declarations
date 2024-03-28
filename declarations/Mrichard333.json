@@ -1,0 +1,13 @@
+{
+  "name": "Mrichard333",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mrichard333.com/ToS",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mrichard333.com/Privacy-policy",
+      "select": "body"
+    }
+  }
+}

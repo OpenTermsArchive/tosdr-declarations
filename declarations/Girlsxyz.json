@@ -1,0 +1,21 @@
+{
+  "name": "Girlsxyz",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://girls.xyz/cookies",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://girls.xyz/dmca",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://girls.xyz/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://girls.xyz/terms",
+      "select": "body"
+    }
+  }
+}

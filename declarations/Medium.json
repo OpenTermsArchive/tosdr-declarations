@@ -1,0 +1,21 @@
+{
+  "name": "Medium",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://medium.com/policy/medium-terms-of-service-9db0094a1e0f",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://medium.com/policy/medium-privacy-policy-f03bf92035c9",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://medium.com/policy/how-we-handle-do-not-track-requests-on-medium-f2b4b4fb7c5e",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://medium.com/policy/mediums-copyright-and-dmca-policy-d126f73695",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Sprint",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sprint.com/en/legal/terms-and-conditions.html?ECID=vanity:termsandconditions",
+      "select": "body"
+    }
+  }
+}

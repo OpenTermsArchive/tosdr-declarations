@@ -1,0 +1,9 @@
+{
+  "name": "Toyota",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://global.toyota/en/privacy-notice/",
+      "select": "body"
+    }
+  }
+}

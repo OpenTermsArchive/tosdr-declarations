@@ -1,0 +1,17 @@
+{
+  "name": "The advertiser",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://preferences.news.com.au/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.adelaidenow.com.au/more-information/terms-and-conditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://preferences.news.com.au/cookies",
+      "select": "body"
+    }
+  }
+}

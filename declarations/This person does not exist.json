@@ -1,0 +1,17 @@
+{
+  "name": "This person does not exist",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://this-person-does-not-exist.com/en/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://this-person-does-not-exist.com/privacy-policy/en",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://this-person-does-not-exist.com/en/refund-policy",
+      "select": "body"
+    }
+  }
+}

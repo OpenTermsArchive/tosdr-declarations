@@ -1,0 +1,13 @@
+{
+  "name": "Youknowde",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://you-know.de/wp-content/uploads/youknow-AGB.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://you-know.de/datenschutzerklaerung/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Davidwscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://davidws.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

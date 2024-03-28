@@ -1,0 +1,9 @@
+{
+  "name": "Izzo golf",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://izzo.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

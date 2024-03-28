@@ -1,0 +1,13 @@
+{
+  "name": "Future today inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://futuretodayinc.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://futuretodayinc.com/terms/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Decomytree",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.unboxers.team/en/decomytree/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.unboxers.team/en/decomytree/privacy-policy",
+      "select": "body"
+    }
+  }
+}

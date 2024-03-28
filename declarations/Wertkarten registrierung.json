@@ -1,0 +1,9 @@
+{
+  "name": "Wertkarten registrierung",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wertkartenregistrierung.at/privacy",
+      "select": "body"
+    }
+  }
+}

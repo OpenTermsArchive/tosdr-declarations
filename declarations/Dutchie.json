@@ -1,0 +1,13 @@
+{
+  "name": "Dutchie",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dutchie.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://dutchie.com/terms",
+      "select": "body"
+    }
+  }
+}

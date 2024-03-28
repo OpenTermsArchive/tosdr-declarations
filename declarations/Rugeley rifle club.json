@@ -1,0 +1,9 @@
+{
+  "name": "Rugeley rifle club",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rugeleyrifleclub.org.uk/website-privacy-policy",
+      "select": "body"
+    }
+  }
+}

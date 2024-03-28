@@ -1,0 +1,17 @@
+{
+  "name": "Switch internet domains",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.nic.ch/terms/aup/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nic.ch/terms/agb/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.nic.ch/about/disclaimer/",
+      "select": "body"
+    }
+  }
+}

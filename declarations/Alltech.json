@@ -1,0 +1,9 @@
+{
+  "name": "Alltech",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.alltech.com/privacy-policy-and-terms-use",
+      "select": null
+    }
+  }
+}

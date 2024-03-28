@@ -1,0 +1,13 @@
+{
+  "name": "Serverlife  tip tracker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/30944670",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.iubenda.com/terms-and-conditions/30944670",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Bible gateway",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.biblegateway.com/legal/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.biblegateway.com/legal/terms/",
+      "select": "body"
+    }
+  }
+}

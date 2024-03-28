@@ -1,0 +1,13 @@
+{
+  "name": "Shoutcast",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.shoutcast.com/Legal/TermsOfUse",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.shoutcast.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

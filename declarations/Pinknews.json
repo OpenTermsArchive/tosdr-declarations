@@ -1,0 +1,13 @@
+{
+  "name": "Pinknews",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pinknews.co.uk/terms-and-conditions/",
+      "select": "html > body > div:nth-of-type(4) > div:first-of-type > main > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pinknews.co.uk/privacy-policy/",
+      "select": "html > body > div:nth-of-type(4) > div:first-of-type > main > div:nth-of-type(2)"
+    }
+  }
+}

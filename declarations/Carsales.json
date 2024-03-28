@@ -1,0 +1,13 @@
+{
+  "name": "Carsales",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.carsales.com.au/info/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.carsales.com.au/info/terms-conditions/?ret=carsales-desktop-footer",
+      "select": "body"
+    }
+  }
+}

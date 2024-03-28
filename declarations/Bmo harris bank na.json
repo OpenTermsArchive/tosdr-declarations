@@ -1,0 +1,17 @@
+{
+  "name": "Bmo harris bank na",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.bmo.com/en-us/pdf/global/privacy-notice.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bmo.com/main/about-bmo/privacy-security/our-privacy-code/digital-privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bmo.com/main/personal/legal/",
+      "select": null
+    }
+  }
+}

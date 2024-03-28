@@ -1,0 +1,9 @@
+{
+  "name": "Copiri",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://amity.copiri.com/terms.html",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

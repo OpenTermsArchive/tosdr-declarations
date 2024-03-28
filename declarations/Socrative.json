@@ -1,0 +1,13 @@
+{
+  "name": "Socrative",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.socrative.com/privacy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.socrative.com/terms-of-use/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Vericast",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vericast.com/privacy-policy/?nab=0",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://vericast.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > div > section"
+    }
+  }
+}

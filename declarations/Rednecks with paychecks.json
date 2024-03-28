@@ -1,0 +1,13 @@
+{
+  "name": "Rednecks with paychecks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.redneckswithpaychecks.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.redneckswithpaychecks.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

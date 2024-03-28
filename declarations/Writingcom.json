@@ -1,0 +1,9 @@
+{
+  "name": "Writingcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.writing.com/main/agreement?pop=1",
+      "select": "body"
+    }
+  }
+}

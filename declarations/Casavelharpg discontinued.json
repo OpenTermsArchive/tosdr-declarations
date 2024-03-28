@@ -1,0 +1,9 @@
+{
+  "name": "Casavelharpg discontinued",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://casavelharpg.com.br/politica-de-privacidade/",
+      "select": "body"
+    }
+  }
+}

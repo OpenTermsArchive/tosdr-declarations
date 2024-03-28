@@ -1,0 +1,9 @@
+{
+  "name": "Mumble",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mumble.info/privacy/",
+      "select": "body"
+    }
+  }
+}

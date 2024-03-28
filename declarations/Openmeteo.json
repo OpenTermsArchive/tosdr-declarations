@@ -1,0 +1,9 @@
+{
+  "name": "Openmeteo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://open-meteo.com/en/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

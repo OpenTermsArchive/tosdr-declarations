@@ -1,0 +1,9 @@
+{
+  "name": "Pierce county",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.piercecountywa.gov/2706/Privacy-Policy",
+      "select": "body"
+    }
+  }
+}

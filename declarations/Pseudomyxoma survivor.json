@@ -1,0 +1,21 @@
+{
+  "name": "Pseudomyxoma survivor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pseudomyxomasurvivor.org/our-policies/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > article > div > div > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.pseudomyxomasurvivor.org/privacy-cookies/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > article > div > div > div > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.pseudomyxomasurvivor.org/our-policies/acceptable-usage/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > article > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pseudomyxomasurvivor.org/our-policies/terms-of-use/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > article > div > div > div > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

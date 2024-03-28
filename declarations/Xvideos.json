@@ -1,0 +1,21 @@
+{
+  "name": "Xvideos",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://info.xvideos.com/legal/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://info.xvideos.com/legal/tos",
+      "select": null
+    },
+    "Review Guidelines": {
+      "fetch": "https://info.xvideos.com/legal/repeat",
+      "select": "html > body > div:nth-of-type(3) > p"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://info.xvideos.com/legal/piracy",
+      "select": null
+    }
+  }
+}

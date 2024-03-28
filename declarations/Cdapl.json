@@ -1,0 +1,13 @@
+{
+  "name": "Cdapl",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cda.pl/prywatnosc",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://www.cda.pl/regulamin/telewizja",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Canculator",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://calculator.com/site/terms.php",
+      "select": "html > body > div:first-of-type > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://calculator.com/site/privacy.php",
+      "select": "html > body > div:first-of-type > div > div:first-of-type"
+    }
+  }
+}

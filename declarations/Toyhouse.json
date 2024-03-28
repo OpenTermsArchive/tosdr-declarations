@@ -1,0 +1,9 @@
+{
+  "name": "Toyhouse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://toyhou.se/~tos",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "This is school",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thisisschool.com/privacy",
+      "select": "html > body > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.thisisschool.com/usage",
+      "select": "html > body > main > div > div"
+    }
+  }
+}

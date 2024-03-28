@@ -1,0 +1,17 @@
+{
+  "name": "Noshirtnoservice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://noshirtnoservice.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://noshirtnoservice.com/pages/shipping-returns",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://noshirtnoservice.com/pages/term-of-use",
+      "select": null
+    }
+  }
+}

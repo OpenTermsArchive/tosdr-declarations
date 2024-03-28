@@ -1,0 +1,13 @@
+{
+  "name": "Sendmesamples",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sendmesamples.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://sendmesamples.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "My sunshine videos",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://my-sunshine.video/about/instance",
+      "select": "html > body > my-app > div > div:nth-of-type(2) > div > div > my-about > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://my-sunshine.video/about/peertube",
+      "select": "html > body > my-app > div > div:nth-of-type(2) > div > div > my-about > div"
+    }
+  }
+}

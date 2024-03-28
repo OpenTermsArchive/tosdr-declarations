@@ -1,0 +1,17 @@
+{
+  "name": "Color genomics",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.color.com/tos",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.color.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.color.com/notice-of-privacy-practices",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

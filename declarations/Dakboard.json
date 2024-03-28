@@ -1,0 +1,13 @@
+{
+  "name": "Dakboard",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dakboard.com/site/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dakboard.com/site/privacy",
+      "select": "body"
+    }
+  }
+}

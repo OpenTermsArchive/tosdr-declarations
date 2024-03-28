@@ -1,0 +1,9 @@
+{
+  "name": "Karl rock",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://karlrock.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

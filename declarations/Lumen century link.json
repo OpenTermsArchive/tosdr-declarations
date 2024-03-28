@@ -1,0 +1,37 @@
+{
+  "name": "Lumen century link",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.centurylink.com/aboutus/legal/website-user-agreement1.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > section > div > div > div > div:first-of-type"
+    },
+    "Policy": {
+      "fetch": "https://www.centurylink.com/aboutus/legal/peering-policy.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > section > div > div > div > div:first-of-type"
+    },
+    "Legal Information": {
+      "fetch": "https://www.centurylink.com/aboutus/legal/gdpr.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > section > div > div > div > div:first-of-type"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.centurylink.com/aboutus/legal/internet-service-disclosure/full-version.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > section > div > div > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.centurylink.com/aboutus/legal/online-security.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > section > div > div > div > div:first-of-type"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.centurylink.com/aboutus/legal/privacy-notice/law-enforcement-support.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > section > div > div > div > div:first-of-type"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.centurylink.com/aboutus/legal/acceptable-use-policy.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > section > div > div > div > div:first-of-type"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://www.centurylink.com/asset/aboutus/downloads/legal/CTL_ElectronicAndOnlinePaymentTermsAndConditions.pdf",
+      "select": "body"
+    }
+  }
+}

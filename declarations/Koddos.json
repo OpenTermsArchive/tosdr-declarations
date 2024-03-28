@@ -1,0 +1,17 @@
+{
+  "name": "Koddos",
+  "documents": {
+    "Other": {
+      "fetch": "https://koddos.net/payment-methods.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://koddos.net/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://koddos.net/tos.html",
+      "select": "body"
+    }
+  }
+}

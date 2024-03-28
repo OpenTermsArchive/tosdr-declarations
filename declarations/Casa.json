@@ -1,0 +1,13 @@
+{
+  "name": "Casa",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://keys.casa/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://keys.casa/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fragnebenan",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fragnebenan.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://fragnebenan.com/pages/terms-of-service",
+      "select": null
+    }
+  }
+}

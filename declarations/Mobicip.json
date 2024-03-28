@@ -1,0 +1,13 @@
+{
+  "name": "Mobicip",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mobicip.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mobicip.com/terms",
+      "select": "html > body > div:first-of-type > div > div > div > section:nth-of-type(2)"
+    }
+  }
+}

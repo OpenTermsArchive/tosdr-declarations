@@ -1,0 +1,17 @@
+{
+  "name": "The online arena",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://theonlinearena.com/PrivacyPolicy.aspx",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://theonlinearena.com/RefundCancellation.aspx",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://theonlinearena.com/TermsConditions.aspx",
+      "select": "body"
+    }
+  }
+}

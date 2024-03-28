@@ -1,0 +1,17 @@
+{
+  "name": "Iubenda",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.iubenda.com/en/user/tos/legal",
+      "select": "html > body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/94654098/legal",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/36700132/legal",
+      "select": "body"
+    }
+  }
+}

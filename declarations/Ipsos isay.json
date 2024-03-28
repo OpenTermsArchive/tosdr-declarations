@@ -1,0 +1,17 @@
+{
+  "name": "Ipsos isay",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ipsosisay.com/en-gb/terms-and-conditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ipsosisay.com/en-gb/cookies-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ipsosisay.com/en-gb/privacy-policy",
+      "select": "body"
+    }
+  }
+}

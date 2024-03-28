@@ -1,0 +1,13 @@
+{
+  "name": "Cronometer",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cronometer.com/terms/",
+      "select": "html > body > div:nth-of-type(2) > div > p"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cronometer.com/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div > p"
+    }
+  }
+}

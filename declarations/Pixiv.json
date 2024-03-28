@@ -1,0 +1,9 @@
+{
+  "name": "Pixiv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pixiv.net/terms/?page=term",
+      "select": "body"
+    }
+  }
+}

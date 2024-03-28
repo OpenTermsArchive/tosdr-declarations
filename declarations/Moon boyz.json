@@ -1,0 +1,9 @@
+{
+  "name": "Moon boyz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.moon-boyz.com/terms",
+      "select": "body"
+    }
+  }
+}

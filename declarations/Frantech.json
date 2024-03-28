@@ -1,0 +1,13 @@
+{
+  "name": "Frantech",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://buyvm.net/terms-of-service/",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://buyvm.net/acceptable-use-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Wurst client",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wurstclient.net/privacy/",
+      "select": "body"
+    }
+  }
+}

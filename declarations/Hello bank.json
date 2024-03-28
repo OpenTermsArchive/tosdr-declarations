@@ -1,0 +1,13 @@
+{
+  "name": "Hello bank",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.hellobank.fr/fr/mentions-legales/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div:first-of-type > div > div > div > div > div > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.hellobank.fr/fr/cookies/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > div > div > div > div > div:first-of-type > div > div > div > div > div > main"
+    }
+  }
+}

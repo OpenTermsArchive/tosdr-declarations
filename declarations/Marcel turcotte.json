@@ -1,0 +1,9 @@
+{
+  "name": "Marcel turcotte",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://turcotte.xyz/privacy.txt",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Clearbit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://clearbitjs.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://clearbitjs.com/legal",
+      "select": "body"
+    }
+  }
+}

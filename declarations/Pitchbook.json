@@ -1,0 +1,13 @@
+{
+  "name": "Pitchbook",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pitchbook.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pitchbook.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

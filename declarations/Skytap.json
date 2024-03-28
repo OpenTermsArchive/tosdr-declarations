@@ -1,0 +1,13 @@
+{
+  "name": "Skytap",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.skytap.com/terms/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.skytap.com/legal/privacy-policy",
+      "select": "body"
+    }
+  }
+}

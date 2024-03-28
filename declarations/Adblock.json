@@ -1,0 +1,9 @@
+{
+  "name": "Adblock",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://getadblock.com/en/privacy/",
+      "select": "html > body > main"
+    }
+  }
+}

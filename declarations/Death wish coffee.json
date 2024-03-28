@@ -1,0 +1,13 @@
+{
+  "name": "Death wish coffee",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.deathwishcoffee.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.deathwishcoffee.com/pages/terms-conditions-1",
+      "select": "html > body > main > div"
+    }
+  }
+}

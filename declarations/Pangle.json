@@ -1,0 +1,13 @@
+{
+  "name": "Pangle",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pangleglobal.com/zh/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pangleglobal.com/privacy",
+      "select": "body"
+    }
+  }
+}

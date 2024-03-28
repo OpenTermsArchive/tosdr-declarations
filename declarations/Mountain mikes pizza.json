@@ -1,0 +1,13 @@
+{
+  "name": "Mountain mikes pizza",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mountainmikespizza.com/terms-of-use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mountainmikespizza.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

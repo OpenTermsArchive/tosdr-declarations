@@ -1,0 +1,9 @@
+{
+  "name": "Commishes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ych.commishes.com/home/privacy",
+      "select": "body"
+    }
+  }
+}

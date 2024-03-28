@@ -1,0 +1,9 @@
+{
+  "name": "Fi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fi.money/privacy",
+      "select": "html > body > div > div > div:nth-of-type(3) > div:first-of-type > div"
+    }
+  }
+}

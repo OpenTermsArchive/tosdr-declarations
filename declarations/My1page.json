@@ -1,0 +1,13 @@
+{
+  "name": "My1page",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://my1page.site/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://my1page.site/privacy.html",
+      "select": "body"
+    }
+  }
+}

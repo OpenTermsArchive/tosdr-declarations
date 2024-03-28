@@ -1,0 +1,13 @@
+{
+  "name": "Mspfa",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mspfa.com/terms/",
+      "select": "html > body > div:first-of-type > table"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mspfa.com/privacy/",
+      "select": "html > body > div:first-of-type > table"
+    }
+  }
+}

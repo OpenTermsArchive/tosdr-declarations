@@ -1,0 +1,9 @@
+{
+  "name": "Lavatech",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gitlab.com/lavatech/servicesagreement/-/raw/master/README.md",
+      "select": "body"
+    }
+  }
+}

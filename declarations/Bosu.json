@@ -1,0 +1,17 @@
+{
+  "name": "Bosu",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.bosu.com/policies/refund-policy ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bosu.com/policies/privacy-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bosu.com/policies/terms-of-service",
+      "select": null
+    }
+  }
+}

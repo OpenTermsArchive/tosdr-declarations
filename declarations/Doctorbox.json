@@ -1,0 +1,13 @@
+{
+  "name": "Doctorbox",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.doctorbox.de/agb",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.doctorbox.de/datenschutz.jsp",
+      "select": "body"
+    }
+  }
+}

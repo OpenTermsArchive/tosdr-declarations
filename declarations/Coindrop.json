@@ -1,0 +1,13 @@
+{
+  "name": "Coindrop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://raw.githubusercontent.com/remjx/coindrop/master/TERMS_OF_SERVICE.md",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://raw.githubusercontent.com/remjx/coindrop/master/PRIVACY_POLICY.md",
+      "select": "body"
+    }
+  }
+}

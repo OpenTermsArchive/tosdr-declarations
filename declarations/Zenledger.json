@@ -1,0 +1,9 @@
+{
+  "name": "Zenledger",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://uploads-ssl.webflow.com/5f91d64db2735e1fdf82f155/5fe2fa2bf6805915f13bb1de_ZENLEDGER%20PRIVACY%20POLICY%20Dec%202020.pdf",
+      "select": "body"
+    }
+  }
+}

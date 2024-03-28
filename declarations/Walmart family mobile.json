@@ -1,0 +1,21 @@
+{
+  "name": "Walmart family mobile",
+  "documents": {
+    "Policy": {
+      "fetch": "http://www.tfwunlockpolicy.com/?lang=en",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tracfonewirelessinc.com/en/Privacy+Policy/",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.verizon.com/about/sites/default/files/Verizon-Code-of-Conduct.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.myfamilymobile.com/termsandconditions",
+      "select": "body"
+    }
+  }
+}

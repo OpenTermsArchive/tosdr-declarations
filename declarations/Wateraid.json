@@ -1,0 +1,13 @@
+{
+  "name": "Wateraid",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wateraid.org/us/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div > main > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wateraid.org/us/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > article"
+    }
+  }
+}

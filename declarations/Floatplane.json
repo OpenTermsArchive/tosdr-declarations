@@ -1,0 +1,13 @@
+{
+  "name": "Floatplane",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.floatplane.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.floatplane.com/legal/terms",
+      "select": "html"
+    }
+  }
+}

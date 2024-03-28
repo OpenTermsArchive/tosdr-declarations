@@ -1,0 +1,13 @@
+{
+  "name": "Alertone service",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.alert-1.com/terms/website-terms-and-conditions/336",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.alert-1.com/terms/privacy-policy/332",
+      "select": "body"
+    }
+  }
+}

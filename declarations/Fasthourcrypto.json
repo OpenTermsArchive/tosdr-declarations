@@ -1,0 +1,9 @@
+{
+  "name": "Fasthourcrypto",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://fasthourcrypto.com/?a=rules",
+      "select": "html > body > section > section:nth-of-type(2) > div > div > div"
+    }
+  }
+}

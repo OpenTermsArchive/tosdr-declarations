@@ -1,0 +1,21 @@
+{
+  "name": "Pokemoncom",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.pokemon.com/us/legal/",
+      "select": "html > body > div:nth-of-type(4) > section > div:nth-of-type(2) > div > article > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.pokemon.com/us/cookie-page/",
+      "select": "html > body > div:nth-of-type(4) > section > div:nth-of-type(2) > div > article > div"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.pokemon.com/us/vulnerability-disclosure-program/",
+      "select": "html > body > div:nth-of-type(4) > section > div:nth-of-type(2) > div > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pokemon.com/us/terms-of-use/",
+      "select": "html > body > div:nth-of-type(4) > section > div:nth-of-type(2) > div > article > div"
+    }
+  }
+}

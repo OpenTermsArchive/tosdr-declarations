@@ -1,0 +1,9 @@
+{
+  "name": "Georgia public broadcasting",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gpb.org/about/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div:nth-of-type(2)"
+    }
+  }
+}

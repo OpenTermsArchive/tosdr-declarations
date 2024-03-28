@@ -1,0 +1,13 @@
+{
+  "name": "Networkauthcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://meraki.cisco.com/meraki-support/policies/#privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cisco.com/c/dam/en_us/about/doing_business/legal/seula/meraki-seula.pdf",
+      "select": "body"
+    }
+  }
+}

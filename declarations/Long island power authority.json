@@ -1,0 +1,9 @@
+{
+  "name": "Long island power authority",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lipower.org/privacy/",
+      "select": null
+    }
+  }
+}

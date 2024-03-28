@@ -1,0 +1,9 @@
+{
+  "name": "The autism page",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.theautismpage.com/cookie-policy/",
+      "select": "html > body > div:nth-of-type(3) > div > div > div:first-of-type"
+    }
+  }
+}

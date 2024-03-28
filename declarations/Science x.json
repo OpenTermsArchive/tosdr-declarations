@@ -1,0 +1,13 @@
+{
+  "name": "Science x",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sciencex.com/help/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://sciencex.com/help/terms/",
+      "select": "html > body > main"
+    }
+  }
+}

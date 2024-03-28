@@ -1,0 +1,13 @@
+{
+  "name": "Community health plan of washington",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.chpw.org/terms-of-use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.chpw.org/privacy-policy/",
+      "select": null
+    }
+  }
+}

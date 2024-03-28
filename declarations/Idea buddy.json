@@ -1,0 +1,17 @@
+{
+  "name": "Idea buddy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ideabuddy.com/terms-of-service",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://ideabuddy.com/cookie-statement/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ideabuddy.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(3) > div"
+    }
+  }
+}

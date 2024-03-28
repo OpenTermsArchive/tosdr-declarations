@@ -1,0 +1,9 @@
+{
+  "name": "Thefreesite",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thefreesite.com/privacy.htm",
+      "select": "body"
+    }
+  }
+}

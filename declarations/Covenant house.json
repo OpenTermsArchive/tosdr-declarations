@@ -1,0 +1,9 @@
+{
+  "name": "Covenant house",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.covenanthouse.org/homeless-charity/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > div:first-of-type > div > div > div:nth-of-type(2) > article > div > div"
+    }
+  }
+}

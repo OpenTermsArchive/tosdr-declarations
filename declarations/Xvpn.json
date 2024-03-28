@@ -1,0 +1,17 @@
+{
+  "name": "Xvpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://xvpn.io/?n=best.free.xvpn.TermsOfServicePage",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://xvpn.io/?n=best.free.xvpn.PrivacyPolicyPage",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://xvpn.io/?n=best.free.xvpn.AbusePage",
+      "select": "html > body > div:nth-of-type(4) > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Australian digital health agency",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.digitalhealth.gov.au/about-us/policies-privacy-and-reporting/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div:nth-of-type(2) > div:nth-of-type(2) > article > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.digitalhealth.gov.au/about-us/policies-privacy-and-reporting/terms-of-use",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div:nth-of-type(2) > div:nth-of-type(2) > article > div > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Australian reptile park",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.reptilepark.com.au/wp-content/uploads/2021/11/ARP-Privacy-Policy-2021.pdf",
+      "select": "body"
+    }
+  }
+}

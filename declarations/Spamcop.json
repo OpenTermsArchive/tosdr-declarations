@@ -1,0 +1,9 @@
+{
+  "name": "Spamcop",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.spamcop.net/fom-serve/cache/168.html",
+      "select": "body"
+    }
+  }
+}

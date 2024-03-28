@@ -1,0 +1,13 @@
+{
+  "name": "Hilokal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hilokal.com/en/app/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hilokal.com/en/app/terms.html",
+      "select": "body"
+    }
+  }
+}

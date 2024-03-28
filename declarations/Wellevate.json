@@ -1,0 +1,13 @@
+{
+  "name": "Wellevate",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wellevate.me/page/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wellevate.me/page/privacy",
+      "select": "body"
+    }
+  }
+}

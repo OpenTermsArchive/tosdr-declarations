@@ -1,0 +1,21 @@
+{
+  "name": "Zoom video communications",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://zoom.us/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://zoom.us/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://zoom.us/terms",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://zoom.us/docs/en-us/dmca-policy.html",
+      "select": "body"
+    }
+  }
+}

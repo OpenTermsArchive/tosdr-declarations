@@ -1,0 +1,9 @@
+{
+  "name": "Operation nightwatch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.seattlenightwatch.org/privacy-policy/",
+      "select": null
+    }
+  }
+}

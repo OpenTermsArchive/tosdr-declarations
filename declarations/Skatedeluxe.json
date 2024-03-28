@@ -1,0 +1,13 @@
+{
+  "name": "Skatedeluxe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.skatedeluxe.com/en/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.skatedeluxe.com/en/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

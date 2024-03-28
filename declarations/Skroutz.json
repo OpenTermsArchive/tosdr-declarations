@@ -1,0 +1,17 @@
+{
+  "name": "Skroutz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.skroutz.gr/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.skroutz.gr/cookies",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.skroutz.gr/terms",
+      "select": null
+    }
+  }
+}

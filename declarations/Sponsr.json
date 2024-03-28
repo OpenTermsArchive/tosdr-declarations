@@ -1,0 +1,13 @@
+{
+  "name": "Sponsr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sponsr.ru/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://sponsr.ru/terms",
+      "select": "body"
+    }
+  }
+}

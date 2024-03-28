@@ -1,0 +1,9 @@
+{
+  "name": "Scenestealer",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://scenestealer.co.uk/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

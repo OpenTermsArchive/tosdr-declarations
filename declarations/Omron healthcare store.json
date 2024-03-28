@@ -1,0 +1,13 @@
+{
+  "name": "Omron healthcare store",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://store.omronhealthcare.com/store/defaults/en_US/DisplayDRPrivacyPolicyPage/eCommerceProvider.DR+globalTech+Inc.",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://store.omronhealthcare.com/store/defaults/en_US/DisplayDRTermsAndConditionsPage/eCommerceProvider.DR+globalTech+Inc.",
+      "select": "body"
+    }
+  }
+}

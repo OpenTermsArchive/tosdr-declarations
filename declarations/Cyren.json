@@ -1,0 +1,17 @@
+{
+  "name": "Cyren",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.cyren.com/cookies",
+      "select": "html > body > section > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cyren.com/privacy",
+      "select": "html > body > section > div > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cyren.com/terms-of-use",
+      "select": "html > body > section > div > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

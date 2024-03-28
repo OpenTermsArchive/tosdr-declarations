@@ -1,0 +1,9 @@
+{
+  "name": "Crazedlistorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://crazedlist.org/privacy.html",
+      "select": "body"
+    }
+  }
+}

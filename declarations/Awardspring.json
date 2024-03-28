@@ -1,0 +1,13 @@
+{
+  "name": "Awardspring",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.awardspring.com/service-description",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.awardspring.com/privacy",
+      "select": "body"
+    }
+  }
+}

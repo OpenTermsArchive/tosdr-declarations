@@ -1,0 +1,13 @@
+{
+  "name": "Webull",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.webull.com/protocol/webull_terms_of_service?hl=en",
+      "select": "html > body > div:first-of-type > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.webull.com/protocol/webull_privacy_policy?hl=en",
+      "select": "html > body > div:first-of-type > section"
+    }
+  }
+}

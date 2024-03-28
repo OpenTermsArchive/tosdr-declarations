@@ -1,0 +1,9 @@
+{
+  "name": "My town",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://my-town.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

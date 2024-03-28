@@ -1,0 +1,17 @@
+{
+  "name": "Onecom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.one.com/en/info/cookie-policy",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://www.one.com/static/info-privacy-notice.do",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.one.com/en/terms-and-conditions-usd",
+      "select": "body"
+    }
+  }
+}

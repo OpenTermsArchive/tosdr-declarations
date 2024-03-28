@@ -1,0 +1,13 @@
+{
+  "name": "Diaspora",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://discourse.diasporafoundation.org/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://discourse.diasporafoundation.org/privacy",
+      "select": "body"
+    }
+  }
+}

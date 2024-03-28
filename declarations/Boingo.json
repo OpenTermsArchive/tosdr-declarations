@@ -1,0 +1,17 @@
+{
+  "name": "Boingo",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.boingo.com/legal/website-terms-use-acceptable-use-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.boingo.com/legal/boingo-privacy-policy",
+      "select": "body"
+    },
+    "Spam": {
+      "fetch": "http://www.healthexcite.com",
+      "select": "body"
+    }
+  }
+}

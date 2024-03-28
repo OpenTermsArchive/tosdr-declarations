@@ -1,0 +1,9 @@
+{
+  "name": "Spacedesk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.spacedesk.net/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > section"
+    }
+  }
+}

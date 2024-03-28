@@ -1,0 +1,17 @@
+{
+  "name": "Ias",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.iasmembership.org/about/terms-of-use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iasmembership.org/about/privacy-notice.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.iasmembership.org/about/cookie-policy.html",
+      "select": "body"
+    }
+  }
+}

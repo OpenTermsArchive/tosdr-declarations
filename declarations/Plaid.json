@@ -1,0 +1,9 @@
+{
+  "name": "Plaid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://plaid.com/legal/",
+      "select": " > div"
+    }
+  }
+}

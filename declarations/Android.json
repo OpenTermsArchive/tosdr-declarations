@@ -1,0 +1,9 @@
+{
+  "name": "Android",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://androidwedakarayo.com/privacy/",
+      "select": "body"
+    }
+  }
+}

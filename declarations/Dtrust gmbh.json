@@ -1,0 +1,13 @@
+{
+  "name": "Dtrust gmbh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.d-trust.net/en/privacy-policy.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.d-trust.net/en/legal-notice.html",
+      "select": "body"
+    }
+  }
+}

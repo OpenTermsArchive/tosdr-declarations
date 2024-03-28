@@ -1,0 +1,13 @@
+{
+  "name": "Republic services",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.republicservices.com/terms-of-use",
+      "select": "html > body > app-root > rsx-site-layout > rsx-spinner-overlay > div > div:nth-of-type(2) > div > rsx-cms-page > div > rsx-dynamic-content-o > rsx-full-width-conten > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.republicservices.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

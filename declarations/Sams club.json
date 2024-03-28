@@ -1,0 +1,13 @@
+{
+  "name": "Sams club",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://corporate.samsclub.com/sams-club-privacy-policy?xid=ftr_privacy",
+      "select": "html > body > main > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.samsclub.com/termsandconditions",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Iteroni invidious instance",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://iteroni.com/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

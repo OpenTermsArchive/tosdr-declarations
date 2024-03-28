@@ -1,0 +1,13 @@
+{
+  "name": "Walkers",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://pepsicoprivacypolicy.com/en?domain=walkers.co.uk",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.walkers.co.uk/terms_and_conditions",
+      "select": "body"
+    }
+  }
+}

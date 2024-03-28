@@ -1,0 +1,13 @@
+{
+  "name": "Nike",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://agreementservice.svs.nike.com/us/en_us/rest/agreement?agreementType=termsOfUse&uxId=com.nike.commerce.nikedotcom.web&country=US&language=en&requestType=redirect",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://agreementservice.svs.nike.com/rest/agreement?agreementType=privacyPolicy&uxId=com.nike.commerce.nikedotcom.web&country=US&language=en&requestType=redirect",
+      "select": "body"
+    }
+  }
+}

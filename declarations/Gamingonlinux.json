@@ -1,0 +1,9 @@
+{
+  "name": "Gamingonlinux",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gamingonlinux.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

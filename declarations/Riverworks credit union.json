@@ -1,0 +1,9 @@
+{
+  "name": "Riverworks credit union",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rwcu.com/pdf/privacy-policy.pdf",
+      "select": "body"
+    }
+  }
+}

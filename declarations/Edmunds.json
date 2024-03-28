@@ -1,0 +1,17 @@
+{
+  "name": "Edmunds",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.edmunds.com/about/privacy.html",
+      "select": "html > body > div:first-of-type > div > main > div:nth-of-type(2) > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.edmunds.com/about/visitor-agreement.html",
+      "select": "html > body > div:first-of-type > div > main > div:nth-of-type(2) > div:first-of-type > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.edmunds.com/copyright-trademark-notices/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > main > div:nth-of-type(2) > div"
+    }
+  }
+}

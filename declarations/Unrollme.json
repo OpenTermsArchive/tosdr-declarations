@@ -1,0 +1,13 @@
+{
+  "name": "Unrollme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://unroll.me/legal/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://unroll.me/legal/terms/",
+      "select": "body"
+    }
+  }
+}

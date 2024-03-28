@@ -1,0 +1,13 @@
+{
+  "name": "Единая Россия",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://er.ru/upages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://er.ru/upages/custom-agreement",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(3)"
+    }
+  }
+}

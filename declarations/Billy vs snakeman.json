@@ -1,0 +1,9 @@
+{
+  "name": "Billy vs snakeman",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://animecubedgaming.com/billy/terms.shtml",
+      "select": "body"
+    }
+  }
+}

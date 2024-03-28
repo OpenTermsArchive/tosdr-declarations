@@ -1,0 +1,21 @@
+{
+  "name": "Mondosol",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://mondosol.moodlecloud.com/admin/tool/policy/view.php?versionid=2&returnurl=https%3A%2F%2Fmondosol.moodlecloud.com%2Flogin%2Findex.php",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://mondosol.moodlecloud.com/admin/tool/policy/view.php?versionid=1&returnurl=https%3A%2F%2Fmondosol.moodlecloud.com%2Flogin%2Findex.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mondosol.moodlecloud.com/admin/tool/dataprivacy/summary.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.travel.mondosol.com/en/585451/terms1",
+      "select": null
+    }
+  }
+}

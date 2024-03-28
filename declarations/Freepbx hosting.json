@@ -1,0 +1,17 @@
+{
+  "name": "Freepbx hosting",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.freepbxhosting.com/acceptable-use-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.freepbxhosting.com/terms-of-service/",
+      "select": "html > body > div:first-of-type > main > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.freepbxhosting.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Andreas varro art",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.andreasvarro.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.andreasvarro.com/terms-conditions",
+      "select": "body"
+    }
+  }
+}

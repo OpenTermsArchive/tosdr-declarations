@@ -1,0 +1,9 @@
+{
+  "name": "Krisp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://krisp.ai/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Domainglass",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://teddit.domain.glass/privacy",
+      "select": "body"
+    }
+  }
+}

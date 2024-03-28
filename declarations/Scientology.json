@@ -1,0 +1,17 @@
+{
+  "name": "Scientology",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.scientology.org/privacy-notice.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.scientology.org/terms.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.scientology.org/cookie-policy.html",
+      "select": "body"
+    }
+  }
+}

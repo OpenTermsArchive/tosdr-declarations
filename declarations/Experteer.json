@@ -1,0 +1,13 @@
+{
+  "name": "Experteer",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.experteer.co.uk/terms/terms_of_use",
+      "select": "html > body > div:first-of-type > main > article > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://us.experteer.com/terms/privacy_policy",
+      "select": "html > body > div:first-of-type > main > article > div > div"
+    }
+  }
+}

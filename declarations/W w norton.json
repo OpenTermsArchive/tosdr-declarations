@@ -1,0 +1,13 @@
+{
+  "name": "W w norton",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wwnorton.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wwnorton.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

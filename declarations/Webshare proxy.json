@@ -1,0 +1,13 @@
+{
+  "name": "Webshare proxy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.webshare.io/terms",
+      "select": "html > body > div:nth-of-type(2) > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.webshare.io/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

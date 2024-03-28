@@ -1,0 +1,13 @@
+{
+  "name": "Roll20",
+  "documents": {
+    "Other": {
+      "fetch": "https://wiki.roll20.net/Terms_of_Service_and_Privacy_Policy#English.2C_not_Legalese",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://wiki.roll20.net/Terms_of_Service_and_Privacy_Policy#English.2C_not_Legalese",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(4) > p:nth-of-type(29)"
+    }
+  }
+}

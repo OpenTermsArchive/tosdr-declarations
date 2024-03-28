@@ -1,0 +1,9 @@
+{
+  "name": "Crazyrdp",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://docs.crazyrdp.com/#",
+      "select": "body"
+    }
+  }
+}

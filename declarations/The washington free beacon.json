@@ -1,0 +1,13 @@
+{
+  "name": "The washington free beacon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://freebeacon.com/privacy-policy",
+      "select": "html > body > main > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://freebeacon.com/terms-of-use",
+      "select": "html > body > main > div > div:first-of-type"
+    }
+  }
+}

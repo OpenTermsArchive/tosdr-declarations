@@ -1,0 +1,13 @@
+{
+  "name": "Opensea",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://opensea.io/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://opensea.io/privacy",
+      "select": "body"
+    }
+  }
+}

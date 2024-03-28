@@ -1,0 +1,13 @@
+{
+  "name": "The post millennial",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thepostmillennial.com/page/privacy-policy",
+      "select": "html > body > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://thepostmillennial.com/page/term-of-service",
+      "select": "html > body > section"
+    }
+  }
+}

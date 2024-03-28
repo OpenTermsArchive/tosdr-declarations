@@ -1,0 +1,17 @@
+{
+  "name": "Plutus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://plutus.it/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://plutus.it/subscription-terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://plutus.it/cookie",
+      "select": "body"
+    }
+  }
+}

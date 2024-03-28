@@ -1,0 +1,13 @@
+{
+  "name": "Motorsporttv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://motorsport.tv/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://motorsport.tv/privacy-policy",
+      "select": "body"
+    }
+  }
+}

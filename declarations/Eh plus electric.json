@@ -1,0 +1,13 @@
+{
+  "name": "Eh plus electric",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ehpluselectric.com/about-us/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ehpluselectric.com/about-us/privacy-policy",
+      "select": "body"
+    }
+  }
+}

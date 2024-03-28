@@ -1,0 +1,13 @@
+{
+  "name": "Cryptonator",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cryptonator.com/agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cryptonator.com/privacy",
+      "select": "html > body > section > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Toddle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.toddleapp.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.toddleapp.com/termsofservice/",
+      "select": "body"
+    }
+  }
+}

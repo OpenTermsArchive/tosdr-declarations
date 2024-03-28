@@ -1,0 +1,9 @@
+{
+  "name": "Stylish",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://userstyles.org/d/login/policy",
+      "select": "html > body"
+    }
+  }
+}

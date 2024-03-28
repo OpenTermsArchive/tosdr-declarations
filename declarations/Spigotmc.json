@@ -1,0 +1,17 @@
+{
+  "name": "Spigotmc",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.spigotmc.org/help/cookies",
+      "select": "div.baseHtml"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spigotmc.org/wiki/spigot-privacy/",
+      "select": "div.primaryContent"
+    },
+    "Terms of Service": {
+      "fetch": "https://spigotmc.org/wiki/spigot-rules/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul:nth-of-type(3) > li:first-of-type > div > div"
+    }
+  }
+}

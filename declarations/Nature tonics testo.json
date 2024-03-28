@@ -1,0 +1,13 @@
+{
+  "name": "Nature tonics testo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://getnaturetonics.com/yepadsnts11/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://getnaturetonics.com/yepadsnts11/privacy",
+      "select": "body"
+    }
+  }
+}

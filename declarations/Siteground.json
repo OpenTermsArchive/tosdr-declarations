@@ -1,0 +1,9 @@
+{
+  "name": "Siteground",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.siteground.com/privacy.htm",
+      "select": "body"
+    }
+  }
+}

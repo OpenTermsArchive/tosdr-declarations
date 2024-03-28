@@ -1,0 +1,9 @@
+{
+  "name": "Podnews",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://podnews.net/about",
+      "select": "body"
+    }
+  }
+}

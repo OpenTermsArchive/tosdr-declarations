@@ -1,0 +1,17 @@
+{
+  "name": "Dropdownload",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://drop.download/tos.html",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://drop.download/pages/intellectpolicy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://drop.download/pages/privacy_policy/",
+      "select": "body"
+    }
+  }
+}

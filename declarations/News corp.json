@@ -1,0 +1,17 @@
+{
+  "name": "News corp",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://newscorp.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div > main > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://newscorp.com/cookie-notice",
+      "select": "html > body > div:first-of-type > div > div > main > div"
+    },
+    "Legal Information": {
+      "fetch": "https://newscorp.com/privacy-notice",
+      "select": "html > body > div:first-of-type > div > div > main > div"
+    }
+  }
+}

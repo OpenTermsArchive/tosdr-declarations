@@ -1,0 +1,13 @@
+{
+  "name": "Discount99",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://discount99.us/terms-of-service",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://discount99.us/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:first-of-type"
+    }
+  }
+}

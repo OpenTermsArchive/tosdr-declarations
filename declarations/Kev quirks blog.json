@@ -1,0 +1,13 @@
+{
+  "name": "Kev quirks blog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kevq.uk/privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://kevquirk.com/disclaimer/",
+      "select": "body"
+    }
+  }
+}

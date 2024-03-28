@@ -1,0 +1,9 @@
+{
+  "name": "Azerion",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://azerion.com/business/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "The hello world collection",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://helloworldcollection.de",
+      "select": "html > body > div:nth-of-type(2) > p:nth-of-type(50)"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Techcrunch",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.verizonmedia.com/policies/us/en/verizonmedia/terms/otos/index.html",
+      "select": "html > body > div:nth-of-type(2) > div > div > main > section > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.verizonmedia.com/policies/us/en/verizonmedia/privacy/index.html",
+      "select": "html > body > div:nth-of-type(2) > div > div > main > section > div > div > div > ol"
+    },
+    "Community Guidelines": {
+      "fetch": "https://techcrunch.com/pages/code-of-conduct/",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(3) > div > div > div > div"
+    }
+  }
+}

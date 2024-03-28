@@ -1,0 +1,9 @@
+{
+  "name": "Standard notes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://standardnotes.org/privacy",
+      "select": "html > body > div > div > section > div"
+    }
+  }
+}

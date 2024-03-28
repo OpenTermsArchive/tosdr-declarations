@@ -1,0 +1,9 @@
+{
+  "name": "Greenhouse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.greenhouse.io/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Classiccountrymusiccom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://classiccountrymusic.com/terms-of-use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://classiccountrymusic.com/privacy-policy",
+      "select": null
+    }
+  }
+}

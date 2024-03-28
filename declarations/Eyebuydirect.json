@@ -1,0 +1,13 @@
+{
+  "name": "Eyebuydirect",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.eyebuydirect.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.eyebuydirect.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Rio seo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rioseo.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

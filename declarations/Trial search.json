@@ -1,0 +1,13 @@
+{
+  "name": "Trial search",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.trialsearch.com/terms_of_use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.trialsearch.com/privacy_policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Sanesolution",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sanesolution.com/legal/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div > div > div"
+    }
+  }
+}

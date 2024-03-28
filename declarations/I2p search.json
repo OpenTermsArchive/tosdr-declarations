@@ -1,0 +1,13 @@
+{
+  "name": "I2p search",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://i2psearch.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://i2psearch.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

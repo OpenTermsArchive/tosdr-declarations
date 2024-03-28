@@ -1,0 +1,17 @@
+{
+  "name": "Digital control room limited",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.digitalcontrolroom.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.digitalcontrolroom.com/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.digitalcontrolroom.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Seed4me",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://seed4.me/pages/terms",
+      "select": " > div"
+    }
+  }
+}

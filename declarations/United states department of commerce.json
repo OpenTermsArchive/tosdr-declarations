@@ -1,0 +1,9 @@
+{
+  "name": "United states department of commerce",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.commerce.gov/about/policies/privacy",
+      "select": "html > body > div:nth-of-type(2) > main > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

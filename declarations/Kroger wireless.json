@@ -1,0 +1,17 @@
+{
+  "name": "Kroger wireless",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.krogerwireless.com/support/privacy-policy",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.krogerwireless.com/support/unlocking-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.krogerwireless.com/support/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

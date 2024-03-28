@@ -1,0 +1,9 @@
+{
+  "name": "Tootsuite games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://tootsuite.net/PrivacyPolicy.html",
+      "select": "body"
+    }
+  }
+}

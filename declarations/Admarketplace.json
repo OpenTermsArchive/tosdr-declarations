@@ -1,0 +1,13 @@
+{
+  "name": "Admarketplace",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.admarketplace.com/privacy-policy/",
+      "select": "html > body > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.admarketplace.com/terms-of-use/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

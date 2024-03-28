@@ -1,0 +1,17 @@
+{
+  "name": "Clips4sale",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.clips4sale.com/clips/page/privacypolicy",
+      "select": "html > body > div:first-of-type > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.clips4sale.com/clips/page/termsofservice",
+      "select": "html > body > div:first-of-type > section > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.clips4sale.com/clips/page/dmca",
+      "select": "html > body > div:first-of-type > section > article"
+    }
+  }
+}

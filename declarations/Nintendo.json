@@ -1,0 +1,25 @@
+{
+  "name": "Nintendo",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/50035",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/16696",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nintendo.com/privacy-policy/",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.nintendo.com/nintendoaccount/code-of-conduct/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.nintendo.com/interest-based-ads-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Gigabyte",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://profile.gigabyte.com/PrivacyPolicy.aspx?l=en-US",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://profile.gigabyte.com/TermsOfUse.aspx?l=en-US",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "The ups store",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.theupsstore.com/privacy-policy",
+      "select": "html > body > form > div:nth-of-type(7)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.theupsstore.com/terms-of-use",
+      "select": "html > body > form > div:nth-of-type(7)"
+    }
+  }
+}

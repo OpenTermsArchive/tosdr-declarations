@@ -1,0 +1,13 @@
+{
+  "name": "Northwest hardwoods",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://nwh.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://nwh.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

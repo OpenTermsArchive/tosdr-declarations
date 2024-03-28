@@ -1,0 +1,17 @@
+{
+  "name": "Hug sleep",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://hugsleep.com/pages/shipping-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://hugsleep.com/pages/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hugsleep.com/pages/privacy-policy",
+      "select": "html > body > main > section > div"
+    }
+  }
+}

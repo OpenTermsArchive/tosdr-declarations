@@ -1,0 +1,13 @@
+{
+  "name": "Toggl track",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://toggl.com/track/legal/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://toggl.com/track/legal/terms/",
+      "select": "body"
+    }
+  }
+}

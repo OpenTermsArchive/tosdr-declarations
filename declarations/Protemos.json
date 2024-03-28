@@ -1,0 +1,13 @@
+{
+  "name": "Protemos",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cloud.protemos.com/site/terms-of-service",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cloud.protemos.com/site/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

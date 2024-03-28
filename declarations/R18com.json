@@ -1,0 +1,17 @@
+{
+  "name": "R18com",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.r18.com/info/privacy/",
+      "select": "html > body > div:nth-of-type(6) > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.r18.com/info/terms/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.r18.com/info/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

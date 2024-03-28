@@ -1,0 +1,9 @@
+{
+  "name": "Grove collaborative",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.grove.co/privacy/",
+      "select": "body"
+    }
+  }
+}

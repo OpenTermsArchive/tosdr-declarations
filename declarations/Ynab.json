@@ -1,0 +1,13 @@
+{
+  "name": "Ynab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.youneedabudget.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.youneedabudget.com/terms/",
+      "select": "body"
+    }
+  }
+}

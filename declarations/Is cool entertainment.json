@@ -1,0 +1,9 @@
+{
+  "name": "Is cool entertainment",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iscoolentertainment.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

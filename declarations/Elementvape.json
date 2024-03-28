@@ -1,0 +1,13 @@
+{
+  "name": "Elementvape",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.elementvape.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.elementvape.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

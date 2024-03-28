@@ -1,0 +1,9 @@
+{
+  "name": "Opensource psychometrics project",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://openpsychometrics.org/privacy_policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Custom ink",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.customink.com/about/user_agreement",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.customink.com/about/content_guidelines",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.customink.com/about/privacy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Wave financial",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.waveapps.com/legal/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.waveapps.com/legal/security-and-privacy",
+      "select": "body"
+    }
+  }
+}

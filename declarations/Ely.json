@@ -1,0 +1,9 @@
+{
+  "name": "Ely",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://account.ely.by/rules",
+      "select": "body"
+    }
+  }
+}

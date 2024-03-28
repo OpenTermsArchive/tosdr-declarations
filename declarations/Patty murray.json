@@ -1,0 +1,9 @@
+{
+  "name": "Patty murray",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pattymurray.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > article > div:nth-of-type(2)"
+    }
+  }
+}

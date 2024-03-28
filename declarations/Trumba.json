@@ -1,0 +1,17 @@
+{
+  "name": "Trumba",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.trumba.com/connect/about/terms_of_use.aspx",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.trumba.com/connect/support/billing_faq.aspx",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.trumba.com/connect/about/privacy_policy.aspx",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Ahoxus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ahoxus.org/policy",
+      "select": "html > body > div > div > div"
+    }
+  }
+}

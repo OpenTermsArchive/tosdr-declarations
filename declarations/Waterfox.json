@@ -1,0 +1,17 @@
+{
+  "name": "Waterfox",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.waterfox.net/legal/",
+      "select": "html > body > div:first-of-type > main > section > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.waterfox.net/docs/policies/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > main > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.waterfox.net/docs/policies/terms/",
+      "select": "body"
+    }
+  }
+}

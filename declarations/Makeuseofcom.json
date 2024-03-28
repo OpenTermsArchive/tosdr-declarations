@@ -1,0 +1,25 @@
+{
+  "name": "Makeuseofcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.makeuseof.com/terms-of-use",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.makeuseof.com/ownership-funding-advertising-policy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.makeuseof.com/dmca-take-down-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.makeuseof.com/privacy-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.makeuseof.com/partnership-disclaimer/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4) > article > section"
+    }
+  }
+}

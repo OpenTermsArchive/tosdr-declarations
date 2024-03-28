@@ -1,0 +1,9 @@
+{
+  "name": "Dark reader",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://darkreader.org/privacy/",
+      "select": "body"
+    }
+  }
+}

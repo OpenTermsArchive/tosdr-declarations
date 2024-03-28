@@ -1,0 +1,17 @@
+{
+  "name": "Blue ocean law group",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/8249471/cookie-policy.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/8249471.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.iubenda.com/terms-and-conditions/8249471.pdf",
+      "select": "body"
+    }
+  }
+}

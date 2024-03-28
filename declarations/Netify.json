@@ -1,0 +1,13 @@
+{
+  "name": "Netify",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.netify.ai/terms-of-service",
+      "select": "html > body > div:nth-of-type(3) > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.netify.ai/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > section"
+    }
+  }
+}

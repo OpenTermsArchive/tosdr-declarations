@@ -1,0 +1,13 @@
+{
+  "name": "Interpublic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.interpublic.com/terms-of-use/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.interpublic.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

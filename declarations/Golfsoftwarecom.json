@@ -1,0 +1,13 @@
+{
+  "name": "Golfsoftwarecom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://golfsoftware.com/privacy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "http://golfsoftware.com/license.html",
+      "select": "body"
+    }
+  }
+}

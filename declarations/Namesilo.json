@@ -1,0 +1,13 @@
+{
+  "name": "Namesilo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.namesilo.com/terms.php",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.namesilo.com/Support/Privacy-Policy",
+      "select": null
+    }
+  }
+}

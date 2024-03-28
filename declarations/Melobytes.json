@@ -1,0 +1,9 @@
+{
+  "name": "Melobytes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://melobytes.com/en/tos",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Hma",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.hidemyass.com/en-eu/legal/dmca",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hidemyass.com/en-eu/legal/website-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hidemyass.com/en-eu/legal/privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.hidemyass.com/en-eu/legal/subscription",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.hidemyass.com/en-eu/legal/cancellation-refund-policy",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.hidemyass.com/en-eu/legal/acceptable-use-policy",
+      "select": "body"
+    }
+  }
+}

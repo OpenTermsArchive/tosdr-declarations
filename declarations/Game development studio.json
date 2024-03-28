@@ -1,0 +1,9 @@
+{
+  "name": "Game development studio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.openhorizongames.co.uk/policy/",
+      "select": "body"
+    }
+  }
+}

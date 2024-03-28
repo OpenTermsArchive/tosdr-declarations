@@ -1,0 +1,13 @@
+{
+  "name": "Crutchfield",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.crutchfield.com/support/privacy.aspx",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.crutchfield.com/support/termsofuse.aspx",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

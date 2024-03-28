@@ -1,0 +1,13 @@
+{
+  "name": "Cults3d",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cults3d.com/en/legal",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cults3d.com/en/privacy",
+      "select": "html > body > main"
+    }
+  }
+}

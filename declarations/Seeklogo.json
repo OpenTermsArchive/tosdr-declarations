@@ -1,0 +1,9 @@
+{
+  "name": "Seeklogo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://seeklogo.com/privacy",
+      "select": "body"
+    }
+  }
+}

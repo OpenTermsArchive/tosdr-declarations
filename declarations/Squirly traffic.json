@@ -1,0 +1,9 @@
+{
+  "name": "Squirly traffic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://squirlytraffic.com/terms.php",
+      "select": "html > body > div:first-of-type > table > tbody > tr > td:nth-of-type(2) > div > div > table > tbody > tr > td > table > tbody > tr > td > div"
+    }
+  }
+}

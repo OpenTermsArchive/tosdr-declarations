@@ -1,0 +1,13 @@
+{
+  "name": "Poscon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://forums.poscon.net/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://forums.poscon.net/terms/",
+      "select": "body"
+    }
+  }
+}

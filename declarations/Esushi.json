@@ -1,0 +1,9 @@
+{
+  "name": "Esushi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://e-sushi.net/",
+      "select": null
+    }
+  }
+}

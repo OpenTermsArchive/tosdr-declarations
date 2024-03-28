@@ -1,0 +1,13 @@
+{
+  "name": "Hotels combined",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hotelscombined.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hotelscombined.com/privacy",
+      "select": "body"
+    }
+  }
+}

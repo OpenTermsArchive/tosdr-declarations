@@ -1,0 +1,13 @@
+{
+  "name": "Hulen shop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hulenshop.com/siteterms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hulenshop.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

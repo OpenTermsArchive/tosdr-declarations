@@ -1,0 +1,13 @@
+{
+  "name": "News medical",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.news-medical.net/medical/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.news-medical.net/medical/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Youtube",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://support.google.com/youtube/answer/2801939?hl=en&ref_topic=2803176",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://policies.google.com/privacy",
+      "select": "div[role=\"article\"]"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://support.google.com/youtube/answer/2814000?p=c_strike_basics&hl=en",
+      "select": "body"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://support.google.com/youtube/answer/2801999?hl=en",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.youtube.com/t/terms",
+      "select": null
+    }
+  }
+}

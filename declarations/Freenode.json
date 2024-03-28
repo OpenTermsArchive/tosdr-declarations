@@ -1,0 +1,9 @@
+{
+  "name": "Freenode",
+  "documents": {
+    "Policy": {
+      "fetch": "https://freenode.net/policies",
+      "select": "body"
+    }
+  }
+}

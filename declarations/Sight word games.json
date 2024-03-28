@@ -1,0 +1,9 @@
+{
+  "name": "Sight word games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sightwordsgame.com/privacy-policy//",
+      "select": null
+    }
+  }
+}

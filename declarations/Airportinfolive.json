@@ -1,0 +1,13 @@
+{
+  "name": "Airportinfolive",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://airportinfo.live/tos",
+      "select": "html > body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://airportinfo.live/privacy",
+      "select": "html > body"
+    }
+  }
+}

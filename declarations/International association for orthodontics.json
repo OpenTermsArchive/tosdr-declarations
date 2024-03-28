@@ -1,0 +1,9 @@
+{
+  "name": "International association for orthodontics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iaortho.org/privacy-policy/",
+      "select": "html > body > main"
+    }
+  }
+}

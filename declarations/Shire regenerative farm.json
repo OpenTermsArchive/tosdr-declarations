@@ -1,0 +1,9 @@
+{
+  "name": "Shire regenerative farm",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://shireregenerative.farm/pages/policies-and-terms",
+      "select": "body"
+    }
+  }
+}

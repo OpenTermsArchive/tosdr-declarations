@@ -1,0 +1,13 @@
+{
+  "name": "Turo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://turo.com/us/en/policies/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://turo.com/us/en/policies/privacy",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

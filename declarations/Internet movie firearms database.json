@@ -1,0 +1,13 @@
+{
+  "name": "Internet movie firearms database",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.imfdb.org/wiki/Privacy_policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "http://www.imfdb.org/wiki/General_disclaimer",
+      "select": "body"
+    }
+  }
+}

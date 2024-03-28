@@ -1,0 +1,13 @@
+{
+  "name": "Cradle to cradle institute",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://api.c2ccertified.org/assets/pol_c2cpii_privacy_policy_2020-08-21_final.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://api.c2ccertified.org/assets/pol_c2cpii_website_tou_090517_final.pdf",
+      "select": "body"
+    }
+  }
+}

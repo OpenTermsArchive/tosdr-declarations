@@ -1,0 +1,13 @@
+{
+  "name": "Railway",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://railway.app/legal/privacy",
+      "select": "html > body > div:first-of-type > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://railway.app/legal/terms",
+      "select": "html > body > div:first-of-type > div > main"
+    }
+  }
+}

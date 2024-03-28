@@ -1,0 +1,13 @@
+{
+  "name": "Cim",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cimgroup.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cimgroup.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

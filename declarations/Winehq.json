@@ -1,0 +1,13 @@
+{
+  "name": "Winehq",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://forum.winehq.org/ucp.php?mode=privacy",
+      "select": "html > body > div:nth-of-type(5) > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://forum.winehq.org/ucp.php?mode=register",
+      "select": "html > body > div:nth-of-type(5) > div:nth-of-type(2) > form > div:first-of-type"
+    }
+  }
+}

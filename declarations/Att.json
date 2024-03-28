@@ -1,0 +1,17 @@
+{
+  "name": "Att",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.att.com/legal/terms.internetAttTermsOfService.html",
+      "select": "div#termsofservices"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.att.com/legal/terms.aup.html",
+      "select": "div#termsofservices"
+    },
+    "Privacy Policy": {
+      "fetch": "http://about.att.com/sites/privacy_policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Andisearch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://andisearch.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Silicone forum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.silicone-forum.com/yardim/gizlilik-politikasi/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div > div:nth-of-type(2) > div:nth-of-type(4) > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Teachable",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://teachable.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > section:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://teachable.com/cookies-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://teachable.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > section:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Privacy bee",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacybee.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://privacybee.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

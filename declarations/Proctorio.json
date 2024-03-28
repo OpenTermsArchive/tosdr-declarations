@@ -1,0 +1,17 @@
+{
+  "name": "Proctorio",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://proctorio.com/privacy",
+      "select": "html > body > section:nth-of-type(5) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://proctorio.com/about/data-security",
+      "select": "html > body > section:nth-of-type(6) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://proctorio.com/terms",
+      "select": "html > body > section:nth-of-type(5) > div"
+    }
+  }
+}

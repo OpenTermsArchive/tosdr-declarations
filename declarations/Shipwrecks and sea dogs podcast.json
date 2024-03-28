@@ -1,0 +1,13 @@
+{
+  "name": "Shipwrecks and sea dogs podcast",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.shipwrecksandseadogs.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.shipwrecksandseadogs.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

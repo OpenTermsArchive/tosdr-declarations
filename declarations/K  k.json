@@ -1,0 +1,9 @@
+{
+  "name": "K  k",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kkgames.de/privacypolicy.html",
+      "select": "body"
+    }
+  }
+}

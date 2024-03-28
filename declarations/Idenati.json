@@ -1,0 +1,13 @@
+{
+  "name": "Idenati",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://idenati.com/terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(7) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://idenati.com/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(7) > div"
+    }
+  }
+}

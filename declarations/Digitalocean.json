@@ -1,0 +1,9 @@
+{
+  "name": "Digitalocean",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.digitalocean.com/legal/terms-of-service-agreement/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Merger investing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mergerinvesting.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

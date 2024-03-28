@@ -1,0 +1,17 @@
+{
+  "name": "Wire",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wire.com/en/legal/#privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wire.com/en/legal/#terms",
+      "select": "body"
+    },
+    "Merged": {
+      "fetch": "https://wire.com/en/legal/#teams",
+      "select": "body"
+    }
+  }
+}

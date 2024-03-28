@@ -1,0 +1,13 @@
+{
+  "name": "9gag",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://about.9gag.com/tos",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://about.9gag.com/privacy",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div > main > section > div > div > div:nth-of-type(2) > div:first-of-type > div"
+    }
+  }
+}

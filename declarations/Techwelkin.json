@@ -1,0 +1,9 @@
+{
+  "name": "Techwelkin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://techwelkin.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div:first-of-type > main > article > div"
+    }
+  }
+}

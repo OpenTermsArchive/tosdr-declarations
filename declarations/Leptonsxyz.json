@@ -1,0 +1,13 @@
+{
+  "name": "Leptonsxyz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://leptons.xyz/legal/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://leptons.xyz/legal/TOS.html",
+      "select": "body"
+    }
+  }
+}

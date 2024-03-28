@@ -1,0 +1,9 @@
+{
+  "name": "Philadelphia magazine",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.phillymag.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(10)"
+    }
+  }
+}

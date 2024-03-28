@@ -1,0 +1,13 @@
+{
+  "name": "Kidrated",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kidrated.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kidrated.com/terms-conditions/",
+      "select": null
+    }
+  }
+}

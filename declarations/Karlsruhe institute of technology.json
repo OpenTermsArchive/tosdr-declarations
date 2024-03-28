@@ -1,0 +1,9 @@
+{
+  "name": "Karlsruhe institute of technology",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://secuso.aifb.kit.edu/english/1456.php",
+      "select": null
+    }
+  }
+}

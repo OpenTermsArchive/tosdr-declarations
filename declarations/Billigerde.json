@@ -1,0 +1,13 @@
+{
+  "name": "Billigerde",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://company.billiger.de/service/nutzungsbedingungen/portal-user.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://company.billiger.de/service/datenschutzunterrichtung/",
+      "select": "body"
+    }
+  }
+}

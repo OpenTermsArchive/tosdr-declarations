@@ -1,0 +1,13 @@
+{
+  "name": "Companywidecom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.companywide.com/terms-of-use",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.companywide.com/legals",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Bad credit loans",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.badcreditloans.com/terms-of-use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.badcreditloans.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

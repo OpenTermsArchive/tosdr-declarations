@@ -1,0 +1,13 @@
+{
+  "name": "English grammar 101",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.englishgrammar101.com/additional-terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.englishgrammar101.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

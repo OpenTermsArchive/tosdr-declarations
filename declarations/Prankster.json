@@ -1,0 +1,13 @@
+{
+  "name": "Prankster",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pranksterapp.com/terminos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pranksterapp.com/privacidad",
+      "select": "body"
+    }
+  }
+}

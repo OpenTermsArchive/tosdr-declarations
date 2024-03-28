@@ -1,0 +1,13 @@
+{
+  "name": "Pantaya",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pantaya.com/en/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://assets.pantaya.com/legal/pantaya_termsofuse_en.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Semaphore simulations",
+  "documents": {
+    "Other": {
+      "fetch": "https://semaphoresim.com/guidelines/",
+      "select": " > div:nth-of-type(2) > div"
+    }
+  }
+}

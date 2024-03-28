@@ -1,0 +1,17 @@
+{
+  "name": "Toodlebit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.toodlebit.com/index.php/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.toodlebit.com/index.php/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.toodlebit.com/index.php/cookie-policy",
+      "select": "body"
+    }
+  }
+}

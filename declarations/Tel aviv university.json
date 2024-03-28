@@ -1,0 +1,13 @@
+{
+  "name": "Tel aviv university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://english.tau.ac.il/dpo",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://english.tau.ac.il/terms_of_use",
+      "select": "body"
+    }
+  }
+}

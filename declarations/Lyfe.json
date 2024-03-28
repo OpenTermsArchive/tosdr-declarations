@@ -1,0 +1,9 @@
+{
+  "name": "Lyfe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lyfe.ltd/privacy-policy",
+      "select": "body"
+    }
+  }
+}

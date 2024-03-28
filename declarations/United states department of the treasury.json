@@ -1,0 +1,9 @@
+{
+  "name": "United states department of the treasury",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://home.treasury.gov/subfooter/privacy-policy",
+      "select": null
+    }
+  }
+}

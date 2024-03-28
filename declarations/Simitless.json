@@ -1,0 +1,13 @@
+{
+  "name": "Simitless",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://legal.simitless.com/tc/",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://legal.simitless.com/privacycopyright/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Clear sky chart and cleardarkskycom",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.cleardarksky.com/csk/admin.html#terms",
+      "select": "body"
+    }
+  }
+}

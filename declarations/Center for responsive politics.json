@@ -1,0 +1,17 @@
+{
+  "name": "Center for responsive politics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.opensecrets.org/about/policy.php",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.opensecrets.org/open-data/terms-of-service",
+      "select": " > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div"
+    },
+    "Developer Terms": {
+      "fetch": "https://www.opensecrets.org/open-data/api-terms-of-service",
+      "select": " > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

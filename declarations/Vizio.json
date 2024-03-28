@@ -1,0 +1,17 @@
+{
+  "name": "Vizio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.vizio.com/en/terms/myvizio",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.vizio.com/en/terms/shipping-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vizio.com/en/terms/privacy-policy",
+      "select": "body"
+    }
+  }
+}

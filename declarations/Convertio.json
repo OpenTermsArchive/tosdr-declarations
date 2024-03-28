@@ -1,0 +1,13 @@
+{
+  "name": "Convertio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://convertio.co/terms/",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Legal Information": {
+      "fetch": "https://convertio.co/privacy/",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

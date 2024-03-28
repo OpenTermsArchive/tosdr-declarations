@@ -1,0 +1,13 @@
+{
+  "name": "Tory burch llc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.toryburch.com/en-us/terms-of-use/content-terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div > main > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.toryburch.com/en-us/content-privacy/content-privacy/",
+      "select": "html > body > div:first-of-type > div > main > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Wolfram alpha",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.wolframalpha.com/privacypolicy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wolframalpha.com/termsofuse",
+      "select": "html > body > div:first-of-type > div > div:first-of-type"
+    }
+  }
+}

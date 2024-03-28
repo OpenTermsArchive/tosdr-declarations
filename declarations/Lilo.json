@@ -1,0 +1,13 @@
+{
+  "name": "Lilo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lilo.org/charte-donnees-personnelles/",
+      "select": "html > body > main > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lilo.org/cgu-lilo/",
+      "select": " > div"
+    }
+  }
+}

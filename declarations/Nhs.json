@@ -1,0 +1,29 @@
+{
+  "name": "Nhs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nhs.uk/our-policies/privacy-policy/",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.nhs.uk/our-policies/comments-policy/",
+      "select": null
+    },
+    "Other": {
+      "fetch": "https://www.nhs.uk/our-policies/governance-of-the-nhs-website/",
+      "select": null
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://www.nhs.uk/our-policies/linking-from-the-nhs-website/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nhs.uk/our-policies/terms-and-conditions/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.nhs.uk/our-policies/cookies-policy/",
+      "select": null
+    }
+  }
+}

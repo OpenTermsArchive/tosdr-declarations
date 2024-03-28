@@ -1,0 +1,21 @@
+{
+  "name": "Skiff world inc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://app.skiff.com/docs/8e50d705-8d48-4434-922e-bdad09d0e4be#TmfvNJY4Wel9br9jd3Tl3raiiQcsWYcXCe76ToaAsyw=",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://skiff.com/transparency",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://app.skiff.com/docs/c682c6a4-4fde-4e98-95b2-6a85085fdbde#uceeiqhn1+oMDjoItzLjhXwy4Rk7YVaFd1heNKuhDSo=",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=",
+      "select": "body"
+    }
+  }
+}

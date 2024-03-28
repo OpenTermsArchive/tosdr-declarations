@@ -1,0 +1,13 @@
+{
+  "name": "Geeksforgeeks",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.geeksforgeeks.org/cookie-policy/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.geeksforgeeks.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

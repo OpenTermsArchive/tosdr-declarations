@@ -1,0 +1,17 @@
+{
+  "name": "Sonos",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sonos.com/en-us/legal/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sonos.com/en-us/legal/privacy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.sonos.com/en-us/legal/terms-of-use",
+      "select": "www > en-us > legal > terms-of-use"
+    }
+  }
+}

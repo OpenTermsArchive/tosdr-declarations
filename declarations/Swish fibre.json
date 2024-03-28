@@ -1,0 +1,25 @@
+{
+  "name": "Swish fibre",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.swishfibre.com/cookiepolicy ",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.swishfibre.com/_files/ugd/d1ee3b_049a42626971480b887a3c4960290c2e.pdf ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.swishfibre.com/terms-and-conditions-home-broadband ",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.swishfibre.com/complaintspolicy ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.swishfibre.com/privacypolicy",
+      "select": "body"
+    }
+  }
+}

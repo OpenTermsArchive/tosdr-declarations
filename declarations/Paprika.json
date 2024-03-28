@@ -1,0 +1,13 @@
+{
+  "name": "Paprika",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.paprikaapp.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.paprikaapp.com/terms/",
+      "select": "body"
+    }
+  }
+}

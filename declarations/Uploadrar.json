@@ -1,0 +1,17 @@
+{
+  "name": "Uploadrar",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://uploadrar.com/pages/refund.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://uploadrar.com/pages/privacy.html",
+      "select": "body"
+    },
+    "Frequently Asked Questions": {
+      "fetch": "https://uploadrar.com/faq.html",
+      "select": "body"
+    }
+  }
+}

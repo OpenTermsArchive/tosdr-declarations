@@ -1,0 +1,9 @@
+{
+  "name": "Instantrewards",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://instantrewards.me/members/terms.php",
+      "select": "body"
+    }
+  }
+}

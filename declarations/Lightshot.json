@@ -1,0 +1,13 @@
+{
+  "name": "Lightshot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://app.prntscr.com/en/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://app.prntscr.com/en/terms-of-service.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Modio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mod.io/privacy",
+      "select": "html > body > div:nth-of-type(3) > section > section > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://mod.io/terms",
+      "select": "html > body > div:nth-of-type(3) > section > section > div > div > div"
+    }
+  }
+}

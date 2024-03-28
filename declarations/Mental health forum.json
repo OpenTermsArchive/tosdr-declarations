@@ -1,0 +1,13 @@
+{
+  "name": "Mental health forum",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mentalhealthforum.net/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mentalhealthforum.net/privacy/ ",
+      "select": "body"
+    }
+  }
+}

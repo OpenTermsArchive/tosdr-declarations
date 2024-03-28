@@ -1,0 +1,13 @@
+{
+  "name": "Explorelearning",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.explorelearning.com/index.cfm?method=Controller.dspTerms",
+      "select": "html > body > div:nth-of-type(3) > div > div > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.explorelearning.com/index.cfm?method=Controller.dspPrivacy",
+      "select": "html > body > div:nth-of-type(3) > div > div > div:nth-of-type(3)"
+    }
+  }
+}

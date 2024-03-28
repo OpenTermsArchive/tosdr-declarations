@@ -1,0 +1,21 @@
+{
+  "name": "Viber",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.viber.com/en/terms/viber-privacy-policy/",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.viber.com/en/terms/viber-public-content-policy/",
+      "select": "html > body > div:first-of-type > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.viber.com/en/terms/viber-terms-use/",
+      "select": "html > body > div:first-of-type > div > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.viber.com/en/terms/cookies-and-tracking/",
+      "select": "html > body > div:first-of-type > div > main"
+    }
+  }
+}

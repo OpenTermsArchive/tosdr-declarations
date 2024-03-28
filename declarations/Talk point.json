@@ -1,0 +1,17 @@
+{
+  "name": "Talk point",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://talk-point.de/policies/privacy-policy",
+      "select": null
+    },
+    "Other": {
+      "fetch": "https://talk-point.de/policies/legal-notice",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://talk-point.de/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

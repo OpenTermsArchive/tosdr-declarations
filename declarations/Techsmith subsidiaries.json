@@ -1,0 +1,21 @@
+{
+  "name": "Techsmith subsidiaries",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.techsmith.com/privacy-policy.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(7) > div > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.techsmith.com/snagit-eula.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(7) > div > section > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://support.techsmith.com/hc/en-us/articles/203732668",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > main > article > div:nth-of-type(2) > div > div > div:first-of-type"
+    },
+    "Policy": {
+      "fetch": "https://www.techsmith.com/user-account-policy.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(7) > div > section > div"
+    }
+  }
+}

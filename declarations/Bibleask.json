@@ -1,0 +1,13 @@
+{
+  "name": "Bibleask",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bibleask.org/privacy/",
+      "select": "html > body > div:nth-of-type(3) > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://bibleask.org/terms-of-use/",
+      "select": null
+    }
+  }
+}

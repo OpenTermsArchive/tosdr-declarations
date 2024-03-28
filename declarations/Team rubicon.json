@@ -1,0 +1,9 @@
+{
+  "name": "Team rubicon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://teamrubiconusa.org/privacy/",
+      "select": "html > body > div:nth-of-type(2) > main > section:nth-of-type(2)"
+    }
+  }
+}

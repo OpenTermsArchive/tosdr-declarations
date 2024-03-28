@@ -1,0 +1,13 @@
+{
+  "name": "Lippincott williams  wilkins",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://lww.com/_layouts/15/oaks.journals/terms.aspx",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://lww.com/_layouts/15/oaks.journals/privacy.aspx",
+      "select": null
+    }
+  }
+}

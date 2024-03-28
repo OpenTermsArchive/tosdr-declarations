@@ -1,0 +1,13 @@
+{
+  "name": "Melissa",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.melissa.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.melissa.com/privacy",
+      "select": "body"
+    }
+  }
+}

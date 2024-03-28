@@ -1,0 +1,13 @@
+{
+  "name": "Mywifequitherjobcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mywifequitherjob.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://mywifequitherjob.com/terms-of-service/",
+      "select": null
+    }
+  }
+}

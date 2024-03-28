@@ -1,0 +1,13 @@
+{
+  "name": "Speedify",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://speedify.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://speedify.com/privacy-policy/",
+      "select": " > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Wazirx",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wazirx.com/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://s3.ap-south-1.amazonaws.com/wrx-assets/WazirXUserAgreement.pdf?v1",
+      "select": "body"
+    }
+  }
+}

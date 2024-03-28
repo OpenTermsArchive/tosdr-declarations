@@ -1,0 +1,17 @@
+{
+  "name": "Telefnica sa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.telefonica.com/es/politica-de-privacidad/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.telefonica.com/es/cookies/",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://www.telefonica.com/es/aviso-legal/",
+      "select": null
+    }
+  }
+}

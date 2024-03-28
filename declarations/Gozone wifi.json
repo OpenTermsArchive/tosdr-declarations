@@ -1,0 +1,21 @@
+{
+  "name": "Gozone wifi",
+  "documents": {
+    "Affiliate Disclosure": {
+      "fetch": "https://www.gozonewifi.com/terms/affiliate/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.gozonewifi.com/policies/billing/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gozonewifi.com/terms/use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gozonewifi.com/policies/privacy/",
+      "select": "body"
+    }
+  }
+}

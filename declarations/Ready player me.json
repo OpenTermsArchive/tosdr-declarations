@@ -1,0 +1,13 @@
+{
+  "name": "Ready player me",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://drive.google.com/file/d/1dJ4dKguCS_PVxcd0iuTyrFLgm3AUrtdL/view",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://drive.google.com/file/d/1ER3gBvx1UwXMDiOaZk8akzPmO6LAFfTp/view",
+      "select": "body"
+    }
+  }
+}

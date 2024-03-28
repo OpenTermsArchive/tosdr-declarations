@@ -1,0 +1,13 @@
+{
+  "name": "Debutify",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://debutify.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://debutify.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

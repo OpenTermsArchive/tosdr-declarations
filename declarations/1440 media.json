@@ -1,0 +1,9 @@
+{
+  "name": "1440 media",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://join1440.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

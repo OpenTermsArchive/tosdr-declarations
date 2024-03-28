@@ -1,0 +1,9 @@
+{
+  "name": "Grandbaby cakes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://grandbaby-cakes.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

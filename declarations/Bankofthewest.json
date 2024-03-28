@@ -1,0 +1,17 @@
+{
+  "name": "Bankofthewest",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.bankofthewest.com/security-center/policies/online-privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bankofthewest.com/security-center/policies/terms-of-use.html",
+      "select": "html > body > div:nth-of-type(2) > main > div > div > div:nth-of-type(3) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bankofthewest.com/security-center/policies/-/media/Project/BOTW/DotCom/BOTW/PDF/policies/privacy-policy.pdf",
+      "select": "body"
+    }
+  }
+}

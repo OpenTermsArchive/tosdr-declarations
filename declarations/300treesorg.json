@@ -1,0 +1,9 @@
+{
+  "name": "300treesorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://300trees.org/privacy/",
+      "select": "body"
+    }
+  }
+}

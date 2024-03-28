@@ -1,0 +1,13 @@
+{
+  "name": "Utreon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://utreon.com/terms",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://utreon.com/privacy",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > div:nth-of-type(2) > div > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Codeorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://code.org/tos",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://code.org/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://code.org/cookies",
+      "select": "body"
+    }
+  }
+}

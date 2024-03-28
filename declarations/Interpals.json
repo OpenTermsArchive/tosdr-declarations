@@ -1,0 +1,13 @@
+{
+  "name": "Interpals",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.interpals.net/app/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.interpals.net/app/tos",
+      "select": "body"
+    }
+  }
+}

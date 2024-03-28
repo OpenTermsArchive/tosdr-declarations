@@ -1,0 +1,9 @@
+{
+  "name": "Just for kids dentistry  orthodontics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.justforkidsdentistrylv.com/privacy-policy",
+      "select": null
+    }
+  }
+}

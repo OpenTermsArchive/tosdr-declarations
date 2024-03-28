@@ -1,0 +1,13 @@
+{
+  "name": "Amor kids dentistry",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.amorkidsdentistry.com/disclaimers/privacy/",
+      "select": "html > body > div:nth-of-type(8) > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.amorkidsdentistry.com/disclaimers/terms/",
+      "select": "body"
+    }
+  }
+}

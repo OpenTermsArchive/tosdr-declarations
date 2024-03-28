@@ -1,0 +1,9 @@
+{
+  "name": "Erdetfakedk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.erdetfake.dk/privacy",
+      "select": "body"
+    }
+  }
+}

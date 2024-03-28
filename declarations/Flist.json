@@ -1,0 +1,13 @@
+{
+  "name": "Flist",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.f-list.net/doc/privacy.php",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.f-list.net/doc/tos.php",
+      "select": null
+    }
+  }
+}

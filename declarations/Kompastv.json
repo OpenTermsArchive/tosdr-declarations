@@ -1,0 +1,9 @@
+{
+  "name": "Kompastv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kgmedia.id/legal-privacy-id",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Seo powersuite",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.link-assistant.com/privacy-policy.html",
+      "select": "html > body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.link-assistant.com/return-policy.html",
+      "select": "html > body"
+    }
+  }
+}

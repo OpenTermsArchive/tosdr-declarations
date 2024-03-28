@@ -1,0 +1,9 @@
+{
+  "name": "Gavin brown",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gavinbrown.ca/en/privacy",
+      "select": "gavinbrown > documents > privacy"
+    }
+  }
+}

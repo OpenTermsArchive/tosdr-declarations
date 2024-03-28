@@ -1,0 +1,9 @@
+{
+  "name": "Wikihouse",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wikihouse.com/pukiwiki/index.php?%CD%F8%CD%D1%B5%AC%CC%F3",
+      "select": "body"
+    }
+  }
+}

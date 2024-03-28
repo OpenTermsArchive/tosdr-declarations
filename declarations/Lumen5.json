@@ -1,0 +1,13 @@
+{
+  "name": "Lumen5",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lumen5.com/privacy/",
+      "select": "html > body > div:first-of-type > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://lumen5.com/terms/",
+      "select": "html > body > div:first-of-type > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Affirm",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.affirm.com/terms",
+      "select": " > section > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.affirm.com/privacy",
+      "select": " > section > div"
+    }
+  }
+}

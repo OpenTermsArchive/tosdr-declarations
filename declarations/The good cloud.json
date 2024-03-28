@@ -1,0 +1,13 @@
+{
+  "name": "The good cloud",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thegood.cloud/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://thegood.cloud/assets/docs/NLdigital_Terms_-_EN.pdf",
+      "select": "body"
+    }
+  }
+}

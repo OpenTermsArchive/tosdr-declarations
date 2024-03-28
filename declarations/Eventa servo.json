@@ -1,0 +1,9 @@
+{
+  "name": "Eventa servo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://eventaservo.org/gpl.txt",
+      "select": "body"
+    }
+  }
+}

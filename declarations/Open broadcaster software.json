@@ -1,0 +1,13 @@
+{
+  "name": "Open broadcaster software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://obsproject.com/forum/help/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://obsproject.com/forum/help/terms/",
+      "select": "body"
+    }
+  }
+}

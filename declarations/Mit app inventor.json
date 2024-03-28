@@ -1,0 +1,9 @@
+{
+  "name": "Mit app inventor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://appinventor.mit.edu/about/termsofservice",
+      "select": "html > body > div > div:nth-of-type(2)"
+    }
+  }
+}

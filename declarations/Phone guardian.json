@@ -1,0 +1,13 @@
+{
+  "name": "Phone guardian",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.phoneguardianapp.com/pp.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.phoneguardianapp.com/tou/en.ph",
+      "select": "www > tou"
+    }
+  }
+}

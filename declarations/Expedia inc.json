@@ -1,0 +1,13 @@
+{
+  "name": "Expedia inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.expedia.com/lp/b/lg-privacypolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.expedia.com/lp/b/terms-of-service",
+      "select": "body"
+    }
+  }
+}

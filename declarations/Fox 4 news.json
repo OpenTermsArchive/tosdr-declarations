@@ -1,0 +1,13 @@
+{
+  "name": "Fox 4 news",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fox4news.com/privacy-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fox4news.com/terms-of-service",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > main > div:nth-of-type(2) > section"
+    }
+  }
+}

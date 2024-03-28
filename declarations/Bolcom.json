@@ -1,0 +1,17 @@
+{
+  "name": "Bolcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bol.com/nl/m/algemene-verkoopvoorwaarden/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.bol.com/nl/m/cookiebeleid/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bol.com/nl/m/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

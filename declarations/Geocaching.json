@@ -1,0 +1,13 @@
+{
+  "name": "Geocaching",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.geocaching.com/account/documents/privacypolicy",
+      "select": "html > body > div:first-of-type > main > div > ol"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.geocaching.com/account/documents/termsofuse",
+      "select": "html > body > div:first-of-type > main > div > ol"
+    }
+  }
+}

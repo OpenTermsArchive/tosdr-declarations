@@ -1,0 +1,13 @@
+{
+  "name": "Kidoodletv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kidoodle.tv/termsofuse/",
+      "select": "html > body > div:nth-of-type(6)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kidoodle.tv/privacy-policy/",
+      "select": "html > body > div:nth-of-type(6)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ap",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ap.org/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ap.org/terms-and-conditions",
+      "select": "html > body > main > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Woodregistry",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://woodregistry.com/s3/terms/terms.php",
+      "select": "body"
+    }
+  }
+}

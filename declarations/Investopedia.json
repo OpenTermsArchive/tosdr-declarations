@@ -1,0 +1,9 @@
+{
+  "name": "Investopedia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.investopedia.com/legal-4768893",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Goto assignment help",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gotoassignmenthelp.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.gotoassignmenthelp.com/refund-n-revision/",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gotoassignmenthelp.com/terms-of-use/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

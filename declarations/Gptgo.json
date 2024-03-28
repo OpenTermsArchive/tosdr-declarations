@@ -1,0 +1,9 @@
+{
+  "name": "Gptgo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gptgo.ai/pages/terms-of-service.html",
+      "select": "body"
+    }
+  }
+}

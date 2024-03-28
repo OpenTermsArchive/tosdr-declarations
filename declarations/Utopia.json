@@ -1,0 +1,13 @@
+{
+  "name": "Utopia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://u.is/en/policy.html",
+      "select": "html > body > div:nth-of-type(10)"
+    },
+    "Terms of Service": {
+      "fetch": "https://u.is/en/terms.html",
+      "select": "body"
+    }
+  }
+}

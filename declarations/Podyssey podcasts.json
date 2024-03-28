@@ -1,0 +1,13 @@
+{
+  "name": "Podyssey podcasts",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://podyssey.fm/company/terms-of-service",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://podyssey.fm/company/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Erikcagi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://erikcagi.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://erikcagi.com/terms-of-service/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Weatherapi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.weatherapi.com/terms.aspx",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.weatherapi.com/privacy.aspx",
+      "select": "body"
+    }
+  }
+}

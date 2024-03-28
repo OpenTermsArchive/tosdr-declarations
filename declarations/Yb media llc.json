@@ -1,0 +1,13 @@
+{
+  "name": "Yb media llc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.yardbarker.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.yardbarker.com/privacy",
+      "select": "body"
+    }
+  }
+}

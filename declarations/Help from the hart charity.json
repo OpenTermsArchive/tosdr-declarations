@@ -1,0 +1,9 @@
+{
+  "name": "Help from the hart charity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://helpfromthehart.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

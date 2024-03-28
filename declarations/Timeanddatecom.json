@@ -1,0 +1,9 @@
+{
+  "name": "Timeanddatecom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.timeanddate.com/information/privacy.html",
+      "select": "html > body > div:nth-of-type(6) > main > aside:first-of-type > div:first-of-type > div > ol > li:nth-of-type(6) > a"
+    }
+  }
+}

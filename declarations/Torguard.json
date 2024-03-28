@@ -1,0 +1,21 @@
+{
+  "name": "Torguard",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://torguard.net/privacy.php",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://torguard.net/terms.php",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://torguard.net/export.php",
+      "select": "html > body > div > div:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://torguard.net/dmca.php",
+      "select": null
+    }
+  }
+}

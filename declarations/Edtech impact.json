@@ -1,0 +1,13 @@
+{
+  "name": "Edtech impact",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://edtechimpact.com/service-level-agreement/",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://edtechimpact.com/privacy/",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type"
+    }
+  }
+}

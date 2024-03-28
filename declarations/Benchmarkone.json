@@ -1,0 +1,9 @@
+{
+  "name": "Benchmarkone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.benchmarkone.com/privacy/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

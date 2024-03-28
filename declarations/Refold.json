@@ -1,0 +1,17 @@
+{
+  "name": "Refold",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://app.termly.io/document/cookie-policy/1c120bde-7b83-4afe-8847-2388cf1c13eb",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://app.termly.io/document/privacy-policy/7b898f9b-9ea4-44b6-ac31-87fa7a05d046",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://app.termly.io/document/terms-of-use-for-ecommerce/3c983a31-67c9-4799-9638-f6e887c2a36b",
+      "select": "body"
+    }
+  }
+}

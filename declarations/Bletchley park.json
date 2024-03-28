@@ -1,0 +1,21 @@
+{
+  "name": "Bletchley park",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.bletchleypark.org.uk/use-of-cookies ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bletchleypark.org.uk/terms-and-conditions ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bletchleypark.org.uk/privacy-policy ",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://bletchleypark.org.uk/privacy-policies/media-policy/",
+      "select": "body"
+    }
+  }
+}

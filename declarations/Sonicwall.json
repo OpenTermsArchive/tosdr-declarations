@@ -1,0 +1,25 @@
+{
+  "name": "Sonicwall",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sonicwall.com/legal/service-terms/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(7) > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sonicwall.com/legal/cookie-statement/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sonicwall.com/medialibrary/legal/Cloude-Edge-SLA-091020-Clean.pdf",
+      "select": "body"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://www.sonicwall.com/legal/agreement-for-sonicwall-nsv/",
+      "select": "body"
+    },
+    "Developer Terms": {
+      "fetch": "https://www.sonicwall.com/legal/sonicwall-api-plugin-addendum/",
+      "select": "body"
+    }
+  }
+}

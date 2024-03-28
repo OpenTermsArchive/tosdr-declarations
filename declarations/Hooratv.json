@@ -1,0 +1,9 @@
+{
+  "name": "Hooratv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hooratv.com/privacypolicy",
+      "select": "body"
+    }
+  }
+}

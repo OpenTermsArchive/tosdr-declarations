@@ -1,0 +1,13 @@
+{
+  "name": "Rovio",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.rovio.com/privacy/",
+      "select": " > div > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rovio.com/terms-of-service/",
+      "select": " > div > section > div"
+    }
+  }
+}

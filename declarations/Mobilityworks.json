@@ -1,0 +1,13 @@
+{
+  "name": "Mobilityworks",
+  "documents": {
+    "Affiliate Disclosure": {
+      "fetch": "https://www.mobilityworks.com/external-linking-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mobilityworks.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

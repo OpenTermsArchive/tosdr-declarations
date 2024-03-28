@@ -1,0 +1,13 @@
+{
+  "name": "Skillsyncher",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://skillsyncer.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://skillsyncer.com/terms",
+      "select": "body"
+    }
+  }
+}

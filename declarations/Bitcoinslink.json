@@ -1,0 +1,13 @@
+{
+  "name": "Bitcoinslink",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bitcoinslink.site/page/terms",
+      "select": "html > body > section > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bitcoinslink.site/page/privacy",
+      "select": "body"
+    }
+  }
+}

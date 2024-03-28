@@ -1,0 +1,17 @@
+{
+  "name": "Sidn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sidn.nl/en/about-sidn/general-terms-and-conditions",
+      "select": "html > body > div:first-of-type > main > article > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sidn.nl/en/about-sidn/privacy",
+      "select": "html > body > div:first-of-type > main > article > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sidn.nl/en/about-sidn/cookie-statement",
+      "select": "html > body > div:first-of-type > main > article > div"
+    }
+  }
+}

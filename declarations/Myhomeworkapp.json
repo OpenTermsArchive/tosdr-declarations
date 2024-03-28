@@ -1,0 +1,13 @@
+{
+  "name": "Myhomeworkapp",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://myhomeworkapp.com/terms",
+      "select": "html > body > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://myhomeworkapp.com/privacy",
+      "select": "html > body > section:nth-of-type(2)"
+    }
+  }
+}

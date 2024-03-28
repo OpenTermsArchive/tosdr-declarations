@@ -1,0 +1,17 @@
+{
+  "name": "Metroradiocomhk",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.metroradio.com.hk/footer/tnc_c.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.metroradio.com.hk/footer/disclaimer_c.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.metroradio.com.hk/footer/privacy_c.html",
+      "select": "body"
+    }
+  }
+}

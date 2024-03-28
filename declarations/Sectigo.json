@@ -1,0 +1,21 @@
+{
+  "name": "Sectigo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sectigo.com/privacy-policy",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sectigo.com/legal/cookie-policy",
+      "select": "html > body > main > section:first-of-type"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.sectigo.com/uploads/audio/Sectigo-Vulnerability-Scanning-Subscriber-Agreement-v.-2.1.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sectigo.com/terms-of-use",
+      "select": "html > body > main > section"
+    }
+  }
+}

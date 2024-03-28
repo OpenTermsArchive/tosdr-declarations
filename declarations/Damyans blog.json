@@ -1,0 +1,9 @@
+{
+  "name": "Damyans blog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://damyan.blog/privacy",
+      "select": "body"
+    }
+  }
+}

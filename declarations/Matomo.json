@@ -1,0 +1,13 @@
+{
+  "name": "Matomo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://matomo.org/matomo-cloud-dpa/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://matomo.org/matomo-cloud-terms-of-service/",
+      "select": null
+    }
+  }
+}

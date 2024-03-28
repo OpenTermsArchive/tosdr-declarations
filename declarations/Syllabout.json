@@ -1,0 +1,13 @@
+{
+  "name": "Syllabout",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://syllabout.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://syllabout.com/privacy",
+      "select": "body"
+    }
+  }
+}

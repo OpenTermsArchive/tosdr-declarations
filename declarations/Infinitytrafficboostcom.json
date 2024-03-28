@@ -1,0 +1,13 @@
+{
+  "name": "Infinitytrafficboostcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://infinitytrafficboost.com/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://infinitytrafficboost.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

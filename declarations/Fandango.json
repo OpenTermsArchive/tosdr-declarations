@@ -1,0 +1,17 @@
+{
+  "name": "Fandango",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.fandango.com/policies/cookies-and-tracking",
+      "select": "html > body > main > div > div > section > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacyportal-cdn.onetrust.com/dsarwebform/17e5cb00-ad90-47f5-a58d-77597d9d2c16/32a60552-d51c-4734-9c16-70a45aa78080.html",
+      "select": "html > body > app-root > ot-oidc-enabled-webfo > ot-webform > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fandango.com/policies/terms-of-use",
+      "select": "html > body > main > div > div > section > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Seatronic",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.seatronic.no/infosenter/cookies",
+      "select": "body"
+    }
+  }
+}

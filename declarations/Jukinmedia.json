@@ -1,0 +1,13 @@
+{
+  "name": "Jukinmedia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jukinmedia.com/licensing/privacy-policy",
+      "select": "html > body > div:nth-of-type(4) > div > div:first-of-type > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jukinmedia.com/licensing/terms",
+      "select": "html > body > div:nth-of-type(4) > div > div:first-of-type > div > div:nth-of-type(2) > div"
+    }
+  }
+}

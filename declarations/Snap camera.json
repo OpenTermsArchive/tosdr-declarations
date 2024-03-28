@@ -1,0 +1,9 @@
+{
+  "name": "Snap camera",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://snapcamera.snapchat.com/terms/",
+      "select": "body"
+    }
+  }
+}

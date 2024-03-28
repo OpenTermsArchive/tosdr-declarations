@@ -1,0 +1,13 @@
+{
+  "name": "Ck12 foundation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ck12info.org/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ck12info.org/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

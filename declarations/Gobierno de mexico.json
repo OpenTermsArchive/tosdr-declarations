@@ -1,0 +1,13 @@
+{
+  "name": "Gobierno de mexico",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gob.mx/terminos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gob.mx/privacidadsimplificado",
+      "select": "body"
+    }
+  }
+}

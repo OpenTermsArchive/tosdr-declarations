@@ -1,0 +1,13 @@
+{
+  "name": "Ravkoo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ravkoo.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ravkoo.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

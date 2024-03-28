@@ -1,0 +1,13 @@
+{
+  "name": "Trustwave",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.trustwave.com/en-us/legal-documents/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.trustwave.com/en-us/legal-documents/privacy-policy",
+      "select": "body"
+    }
+  }
+}

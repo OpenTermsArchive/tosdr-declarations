@@ -1,0 +1,13 @@
+{
+  "name": "Jamesbushdev",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jamesbush.dev/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://jamesbush.dev/terms.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Proton ag",
+  "documents": {
+    "Law Enforcement Guidelines": {
+      "fetch": "https://protonmail.com/law-enforcement",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://protonmail.com/terms-and-conditions",
+      "select": " > div:nth-of-type(2) > div > main > section > div"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://protonmail.com/blog/transparency-report/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://protonmail.com/privacy-policy",
+      "select": " > div:nth-of-type(2) > div > main > section > div"
+    },
+    "Other": {
+      "fetch": "https://protonmail.com/blog/protonmail-open-source/",
+      "select": null
+    }
+  }
+}

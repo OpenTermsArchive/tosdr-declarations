@@ -1,0 +1,9 @@
+{
+  "name": "Lista robinson",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.listarobinson.es/politica-de-privacidad",
+      "select": "body"
+    }
+  }
+}

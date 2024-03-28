@@ -1,0 +1,21 @@
+{
+  "name": "Everyaction",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.everyaction.com/privacy/cookie-policy",
+      "select": "html > body > div > main > div:first-of-type > div > div:nth-of-type(2) > article > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.everyaction.com/privacy/data-processing-agreement",
+      "select": " > article > section"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.everyaction.com/privacy/acceptable-use-policy",
+      "select": " > article > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.everyaction.com/termsofservice",
+      "select": " > article > section"
+    }
+  }
+}

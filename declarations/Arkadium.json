@@ -1,0 +1,9 @@
+{
+  "name": "Arkadium",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.arkadium.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Movistar",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.movistar.es/particulares/aviso-legal",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.movistar.es/particulares/centro-de-privacidad/",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.movistar.es/particulares/centro-de-seguridad",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ruby shore software",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rubyshore.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rubyshore.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Rocketgit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rocketgit.com/op/tos",
+      "select": "body"
+    }
+  }
+}

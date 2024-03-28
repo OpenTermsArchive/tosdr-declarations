@@ -1,0 +1,13 @@
+{
+  "name": "Tickets",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ticketsbot.net/privacy",
+      "select": " > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://ticketsbot.net/terms-of-service",
+      "select": " > div > div > div > div > div"
+    }
+  }
+}

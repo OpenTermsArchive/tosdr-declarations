@@ -1,0 +1,21 @@
+{
+  "name": "Piazza",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://piazza.com/legal/ferpa",
+      "select": "div.row"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://piazza.com/legal/copyright",
+      "select": "div.row"
+    },
+    "Privacy Policy": {
+      "fetch": "https://piazza.com/legal/privacy",
+      "select": "html > body > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://piazza.com/legal/terms",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

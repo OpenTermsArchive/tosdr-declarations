@@ -1,0 +1,13 @@
+{
+  "name": "Onlyfans",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://onlyfans.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://onlyfans.com/terms",
+      "select": "body"
+    }
+  }
+}

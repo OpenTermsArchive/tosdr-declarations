@@ -1,0 +1,9 @@
+{
+  "name": "Storiesonline",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://storiesonline.net/doc/Privacy-Policy",
+      "select": "body"
+    }
+  }
+}

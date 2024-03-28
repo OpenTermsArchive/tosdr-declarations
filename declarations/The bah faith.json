@@ -1,0 +1,9 @@
+{
+  "name": "The bah faith",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bahai.org/legal",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div:nth-of-type(2)"
+    }
+  }
+}

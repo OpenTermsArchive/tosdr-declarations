@@ -1,0 +1,13 @@
+{
+  "name": "Yiffy power",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://yiff-party.com/dmca-yiff-party-com/",
+      "select": "html > body > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://yiff-party.com/terms-and-conditions/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

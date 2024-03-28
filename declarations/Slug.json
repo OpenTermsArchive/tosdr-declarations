@@ -1,0 +1,9 @@
+{
+  "name": "Slug",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://slug.com/privacy",
+      "select": "body"
+    }
+  }
+}

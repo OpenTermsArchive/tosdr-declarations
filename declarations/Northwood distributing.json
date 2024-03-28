@@ -1,0 +1,17 @@
+{
+  "name": "Northwood distributing",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://northwoodcandlesupply.com/policies/terms-of-service",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://northwoodcandlesupply.com/policies/refund-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://northwoodcandlesupply.com/policies/privacy-policy",
+      "select": "body"
+    }
+  }
+}

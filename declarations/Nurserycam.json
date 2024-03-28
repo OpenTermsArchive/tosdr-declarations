@@ -1,0 +1,13 @@
+{
+  "name": "Nurserycam",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nurserycam.co.uk/Home/Terms-And-Conditions",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nurserycam.co.uk/Home/Privacy-Policy",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

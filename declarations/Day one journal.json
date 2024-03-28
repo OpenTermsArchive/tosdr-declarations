@@ -1,0 +1,13 @@
+{
+  "name": "Day one journal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dayoneapp.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://dayoneapp.com/terms-of-use/",
+      "select": null
+    }
+  }
+}

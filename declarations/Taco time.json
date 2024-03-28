@@ -1,0 +1,13 @@
+{
+  "name": "Taco time",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tacotimefranchise.com/privacy/",
+      "select": "html > body > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tacotime.com/about/terms/index.php",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

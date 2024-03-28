@@ -1,0 +1,13 @@
+{
+  "name": "Ibispaint",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ibispaint.com/agreement.jsp",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ibispaint.com/privacy.jsp",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div:first-of-type"
+    }
+  }
+}

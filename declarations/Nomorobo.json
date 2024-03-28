@@ -1,0 +1,9 @@
+{
+  "name": "Nomorobo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nomorobo.com/pages/privacy",
+      "select": "body"
+    }
+  }
+}

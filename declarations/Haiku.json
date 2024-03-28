@@ -1,0 +1,9 @@
+{
+  "name": "Haiku",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://discuss.haiku-os.org/privacy",
+      "select": "[itemprop=\"mainContentOfPage\"]"
+    }
+  }
+}

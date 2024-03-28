@@ -1,0 +1,9 @@
+{
+  "name": "Sugar daddy news",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sugardaddy.news/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > main > article > div:nth-of-type(2) > div"
+    }
+  }
+}

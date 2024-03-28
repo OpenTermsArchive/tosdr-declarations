@@ -1,0 +1,13 @@
+{
+  "name": "Lulu",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lulu.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lulu.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

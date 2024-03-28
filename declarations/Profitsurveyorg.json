@@ -1,0 +1,13 @@
+{
+  "name": "Profitsurveyorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://profitsurvey.org/privacy.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://profitsurvey.org/cookie.html",
+      "select": "body"
+    }
+  }
+}

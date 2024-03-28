@@ -1,0 +1,21 @@
+{
+  "name": "Mcafee",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.mcafee.com/en-us/consumer-support/policy/legal.html",
+      "select": " > div > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://techmaster.mcafee.com/Terms",
+      "select": "html > body > div:nth-of-type(3)"
+    },
+    "Legal Information": {
+      "fetch": "https://www.mcafee.com/enterprise/en-us/about/legal/privacy.html",
+      "select": " > div > div:nth-of-type(2)"
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://www.mcafee.com/enterprise/en-us/assets/legal/enterprise-sub-processor-list.pdf",
+      "select": "body"
+    }
+  }
+}

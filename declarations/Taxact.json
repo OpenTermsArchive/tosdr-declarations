@@ -1,0 +1,13 @@
+{
+  "name": "Taxact",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.taxact.com/legal-notice",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.taxact.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

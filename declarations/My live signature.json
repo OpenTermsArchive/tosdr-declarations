@@ -1,0 +1,13 @@
+{
+  "name": "My live signature",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mylivesignature.com/terms",
+      "select": " > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mylivesignature.com/usage-policy",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

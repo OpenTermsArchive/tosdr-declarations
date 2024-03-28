@@ -1,0 +1,9 @@
+{
+  "name": "Gartner studios",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gartnerstudios.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > div > div:nth-of-type(4)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Signulous",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.signulous.com/terms",
+      "select": "html > body > main > section"
+    }
+  }
+}

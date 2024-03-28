@@ -1,0 +1,17 @@
+{
+  "name": "Tennessee valley authority",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tva.com/information/tva-privacy-policy",
+      "select": null
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.tva.com/vulnerability-disclosure-policy",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://www.tva.com/legal-notices",
+      "select": null
+    }
+  }
+}

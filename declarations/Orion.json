@@ -1,0 +1,9 @@
+{
+  "name": "Orion",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dateorion.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

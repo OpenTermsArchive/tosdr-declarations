@@ -1,0 +1,9 @@
+{
+  "name": "Drawario",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://drawar.io/privacy.php",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fok",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://frontpage.fok.nl/page/795563/1/1/500/privacy-policy-31-08-2019.html?allowcookies=true&old=true",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://frontpage.fok.nl/page/124633/1/1/50/algemene-voorwaarden-fok-per-27-05-2020.html",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(4)"
+    }
+  }
+}

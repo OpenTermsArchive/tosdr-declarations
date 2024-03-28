@@ -1,0 +1,17 @@
+{
+  "name": "2haas",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://2haas.com/terms-conditions/",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://2haas.com/policy/",
+      "select": "html > body > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://2haas.com/cookie-policy/",
+      "select": "html > body > main"
+    }
+  }
+}

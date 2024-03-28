@@ -1,0 +1,9 @@
+{
+  "name": "Council of autism service providers",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.casproviders.org/legal",
+      "select": null
+    }
+  }
+}

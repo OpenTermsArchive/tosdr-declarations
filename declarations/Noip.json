@@ -1,0 +1,25 @@
+{
+  "name": "Noip",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.noip.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.noip.com/legal/domain-registration-agreement",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.noip.com/legal/domain-renew-delete-agreement",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.noip.com/legal/domain-transfer-agreement",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.icann.org/resources/pages/benefits-2013-09-16-en ",
+      "select": "body"
+    }
+  }
+}

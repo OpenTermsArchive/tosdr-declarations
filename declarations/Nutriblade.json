@@ -1,0 +1,21 @@
+{
+  "name": "Nutriblade",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://buynutriblade.com/ShippingPolicy",
+      "select": "body"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://buynutriblade.com/Arbitration",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://buynutriblade.com/TermsConditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://buynutriblade.com/Privacy-Policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Wise",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://wise.com/gb/legal/cookie-policy",
+      "select": "section.section.rich-text"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wise.com/gb/legal/global-privacy-policy-en",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wise.com/us/terms-of-use-tw-inc",
+      "select": "div.b-page.m-padding.legacy-page div.container"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Policygenius",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.policygenius.com/about/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.policygenius.com/about/privacy/",
+      "select": "body"
+    }
+  }
+}

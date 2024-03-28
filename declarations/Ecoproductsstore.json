@@ -1,0 +1,13 @@
+{
+  "name": "Ecoproductsstore",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ecoproductsstore.com/terms_and_Conditions.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ecoproductsstore.com/privacy_policy.html",
+      "select": "body"
+    }
+  }
+}

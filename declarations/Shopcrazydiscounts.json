@@ -1,0 +1,13 @@
+{
+  "name": "Shopcrazydiscounts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.shopcrazydiscounts.com/realdeal-b1/page-privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.shopcrazydiscounts.com/realdeal-b1/page-terms.php",
+      "select": "body"
+    }
+  }
+}

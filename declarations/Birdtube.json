@@ -1,0 +1,9 @@
+{
+  "name": "Birdtube",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://birdtu.be/login",
+      "select": "html > body > my-app > div > div:nth-of-type(2) > div > div > my-login > div > div:nth-of-type(2) > div:nth-of-type(2) > my-instance-about-acc > ngb-accordion > div > div:nth-of-type(2) > div > div > ol"
+    }
+  }
+}

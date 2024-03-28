@@ -1,0 +1,13 @@
+{
+  "name": "Linuxuser",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://linux-user.gr/t/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://linux-user.gr/tos",
+      "select": "body"
+    }
+  }
+}

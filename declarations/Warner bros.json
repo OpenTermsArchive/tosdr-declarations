@@ -1,0 +1,13 @@
+{
+  "name": "Warner bros",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.warnerbros.com/privacy/policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://policies.warnerbros.com/terms/en-us/html/terms_en-us_1.2.0.html",
+      "select": "body"
+    }
+  }
+}

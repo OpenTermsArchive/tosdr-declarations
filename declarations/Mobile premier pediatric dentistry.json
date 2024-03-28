@@ -1,0 +1,9 @@
+{
+  "name": "Mobile premier pediatric dentistry",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.mobilekidsdentist.com/index.php?privacy=website",
+      "select": "html > body > div:nth-of-type(2) > div > main > div:nth-of-type(2)"
+    }
+  }
+}

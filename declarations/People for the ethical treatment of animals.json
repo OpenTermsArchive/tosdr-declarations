@@ -1,0 +1,17 @@
+{
+  "name": "People for the ethical treatment of animals",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.peta.org/about-peta/learn-about-peta/website-policies/texting-terms-and-conditions/",
+      "select": " > section > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.peta.org/about-peta/learn-about-peta/website-policies/privacy/",
+      "select": " > section > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.peta.org/about-peta/learn-about-peta/website-policies/disclaimer/",
+      "select": " > section > div > p"
+    }
+  }
+}

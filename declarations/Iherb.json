@@ -1,0 +1,13 @@
+{
+  "name": "Iherb",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iherb.com/info/privacy",
+      "select": "html > body > div:nth-of-type(6) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://de.iherb.com/info/terms-of-use",
+      "select": null
+    }
+  }
+}

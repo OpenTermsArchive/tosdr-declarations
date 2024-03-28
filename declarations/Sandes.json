@@ -1,0 +1,9 @@
+{
+  "name": "Sandes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gims.gov.in/privacy",
+      "select": "body"
+    }
+  }
+}

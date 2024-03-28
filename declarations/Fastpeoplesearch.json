@@ -1,0 +1,13 @@
+{
+  "name": "Fastpeoplesearch",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fastpeoplesearch.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fastpeoplesearch.com/privacy",
+      "select": "body"
+    }
+  }
+}

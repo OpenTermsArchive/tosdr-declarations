@@ -1,0 +1,13 @@
+{
+  "name": "Cyberfear",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cyberfear.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cyberfear.com/terms.html",
+      "select": "body"
+    }
+  }
+}

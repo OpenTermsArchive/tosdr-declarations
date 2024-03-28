@@ -1,0 +1,13 @@
+{
+  "name": "Minecraft servers",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://minecraftservers.org/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://minecraftservers.org/privacy",
+      "select": "body"
+    }
+  }
+}

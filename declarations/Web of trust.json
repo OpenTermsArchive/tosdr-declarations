@@ -1,0 +1,17 @@
+{
+  "name": "Web of trust",
+  "documents": {
+    "Other": {
+      "fetch": "https://support.mywot.com/hc/en-us/articles/360013627219-General-guidelines",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mywot.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mywot.com/terms",
+      "select": "body"
+    }
+  }
+}

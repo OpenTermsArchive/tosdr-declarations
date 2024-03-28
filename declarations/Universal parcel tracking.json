@@ -1,0 +1,9 @@
+{
+  "name": "Universal parcel tracking",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://parcelsapp.com/privacy",
+      "select": "body"
+    }
+  }
+}

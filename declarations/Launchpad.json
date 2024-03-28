@@ -1,0 +1,13 @@
+{
+  "name": "Launchpad",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://joinlaunchpad.com/#/resources/12/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > div > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://joinlaunchpad.com/#/resources/10/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > div > section"
+    }
+  }
+}

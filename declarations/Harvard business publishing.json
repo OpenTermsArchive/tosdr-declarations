@@ -1,0 +1,13 @@
+{
+  "name": "Harvard business publishing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hbr.org/privacy-policy",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://hbr.org/corporate/cookie-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > section > div > div"
+    }
+  }
+}

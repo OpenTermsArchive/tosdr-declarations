@@ -1,0 +1,9 @@
+{
+  "name": "Homelabexpress",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://homelab.express/privacy.txt",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Smart receipts",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.smartreceipts.co/privacy",
+      "select": "body"
+    }
+  }
+}

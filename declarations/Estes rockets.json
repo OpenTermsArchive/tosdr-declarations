@@ -1,0 +1,17 @@
+{
+  "name": "Estes rockets",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://estesrockets.com/policies/privacy-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://estesrockets.com/policies/shipping-policy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://estesrockets.com/policies/terms-of-service ",
+      "select": "body"
+    }
+  }
+}

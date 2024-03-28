@@ -1,0 +1,9 @@
+{
+  "name": "Greenbooks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://savingsapp.com/privacy_and_terms",
+      "select": "body"
+    }
+  }
+}

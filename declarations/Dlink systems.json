@@ -1,0 +1,9 @@
+{
+  "name": "Dlink systems",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://us.dlink.com/en/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "4ocean",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://4ocean.com/terms-of-use/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://4ocean.com/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://4ocean.com/privacy-policy/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://4oceanhelp-center.gorgias.help/en-US/return-policy-28853",
+      "select": "body"
+    }
+  }
+}

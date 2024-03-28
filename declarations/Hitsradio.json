@@ -1,0 +1,13 @@
+{
+  "name": "Hitsradio",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://hitsradio.com/#/tnc ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hitsradio.com/privacy-policy.html ",
+      "select": "body"
+    }
+  }
+}

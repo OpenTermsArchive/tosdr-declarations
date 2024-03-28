@@ -1,0 +1,9 @@
+{
+  "name": "Loogup",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://beta.loogup.ai/policies/privacy",
+      "select": "body"
+    }
+  }
+}

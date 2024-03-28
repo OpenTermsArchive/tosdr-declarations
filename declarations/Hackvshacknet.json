@@ -1,0 +1,9 @@
+{
+  "name": "Hackvshacknet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://hackvshack.net/help/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

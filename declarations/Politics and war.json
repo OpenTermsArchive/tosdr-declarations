@@ -1,0 +1,13 @@
+{
+  "name": "Politics and war",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://politicsandwar.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://politicsandwar.com/privacy/",
+      "select": "body"
+    }
+  }
+}

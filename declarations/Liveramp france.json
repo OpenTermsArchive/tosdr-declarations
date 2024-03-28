@@ -1,0 +1,9 @@
+{
+  "name": "Liveramp france",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://liveramp.fr/politique-confidentialite-produits-services/",
+      "select": "body"
+    }
+  }
+}

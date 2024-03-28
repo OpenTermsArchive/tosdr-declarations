@@ -1,0 +1,13 @@
+{
+  "name": "Anonaddy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://anonaddy.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://anonaddy.com/privacy/",
+      "select": "html > body > main"
+    }
+  }
+}

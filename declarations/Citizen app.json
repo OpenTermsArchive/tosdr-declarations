@@ -1,0 +1,13 @@
+{
+  "name": "Citizen app",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.citizen.com/privacy/policy",
+      "select": "body"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://citizen.com/privacy/lawenforcement",
+      "select": null
+    }
+  }
+}

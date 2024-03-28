@@ -1,0 +1,13 @@
+{
+  "name": "Sonicnet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.sonic.com/hc/en-us/articles/235963988-Sonic-net-Policies",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://help.sonic.com/hc/en-us/articles/115000381368-Bandwidth-and-Disk-Quotas",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Wcostreamtv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wcostream.tv/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wcostream.tv/privacy-policy-and-terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr > td:first-of-type"
+    }
+  }
+}

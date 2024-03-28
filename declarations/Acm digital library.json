@@ -1,0 +1,13 @@
+{
+  "name": "Acm digital library",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.acm.org/about-acm/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://libraries.acm.org/digital-library/policies#anchor3",
+      "select": "body"
+    }
+  }
+}

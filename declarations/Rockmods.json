@@ -1,0 +1,9 @@
+{
+  "name": "Rockmods",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rockmods.net/p/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4) > div > main > div > div:first-of-type > div > div > article > div"
+    }
+  }
+}

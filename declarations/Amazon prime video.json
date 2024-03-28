@@ -1,0 +1,17 @@
+{
+  "name": "Amazon prime video",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010&pop-up=1",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.primevideo.com/region/na/help?nodeId=202095490&pop-up=1/ref=atv_hp_cnt",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=202075050&&pop-up=1",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    }
+  }
+}

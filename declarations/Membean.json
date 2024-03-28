@@ -1,0 +1,13 @@
+{
+  "name": "Membean",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://membean.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://membean.com/agreement",
+      "select": "body"
+    }
+  }
+}

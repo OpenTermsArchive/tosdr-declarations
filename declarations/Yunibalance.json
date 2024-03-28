@@ -1,0 +1,13 @@
+{
+  "name": "Yunibalance",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://yunibalance.com/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://yunibalance.com/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Hardwick  pendergast",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hardwickpendergast.com/privacy-policy.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.hardwickpendergast.com/disclaimer.html",
+      "select": "html > body > div:first-of-type > div > main > main-inner > content"
+    }
+  }
+}

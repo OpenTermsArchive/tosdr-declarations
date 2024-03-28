@@ -1,0 +1,17 @@
+{
+  "name": "Brandyourself",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://brandyourself.com/terms-of-service",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://brandyourself.com/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://brandyourself.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

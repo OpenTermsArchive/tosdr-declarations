@@ -1,0 +1,9 @@
+{
+  "name": "Project hope",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.projecthope.org/privacy-policy/",
+      "select": "html > body > main > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

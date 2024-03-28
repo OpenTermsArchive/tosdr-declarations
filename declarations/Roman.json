@@ -1,0 +1,17 @@
+{
+  "name": "Roman",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ro.co/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ro.co/privacy-policy/",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://ro.co/physician_code_of_conduct/",
+      "select": "body"
+    }
+  }
+}

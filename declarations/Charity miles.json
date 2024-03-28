@@ -1,0 +1,13 @@
+{
+  "name": "Charity miles",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://charitymiles.org/privacy-policy/",
+      "select": "html > body > div:nth-of-type(5) > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://charitymiles.org/terms-of-use/",
+      "select": "html > body > div:nth-of-type(5) > div:first-of-type"
+    }
+  }
+}

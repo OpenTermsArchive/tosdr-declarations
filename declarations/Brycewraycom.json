@@ -1,0 +1,9 @@
+{
+  "name": "Brycewraycom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.brycewray.com/privacy/",
+      "select": "body"
+    }
+  }
+}

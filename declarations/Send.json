@@ -1,0 +1,9 @@
+{
+  "name": "Send",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://send.cm/terms",
+      "select": "body"
+    }
+  }
+}

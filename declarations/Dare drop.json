@@ -1,0 +1,17 @@
+{
+  "name": "Dare drop",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://daredrop.com/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://daredrop.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://daredrop.com/terms",
+      "select": "body"
+    }
+  }
+}

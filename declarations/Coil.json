@@ -1,0 +1,13 @@
+{
+  "name": "Coil",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.coil.com/docs/general-info/privacy-policy/index.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.coil.com/docs/general-info/terms-of-service",
+      "select": "body"
+    }
+  }
+}

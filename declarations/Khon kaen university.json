@@ -1,0 +1,9 @@
+{
+  "name": "Khon kaen university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kku.ac.th/privacy-policy-en.html",
+      "select": "body"
+    }
+  }
+}

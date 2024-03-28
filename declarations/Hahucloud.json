@@ -1,0 +1,21 @@
+{
+  "name": "Hahucloud",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.hahucloud.com/cookie-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.hahucloud.com/refund",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hahucloud.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hahucloud.com/privacy",
+      "select": "body"
+    }
+  }
+}

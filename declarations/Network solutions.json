@@ -1,0 +1,13 @@
+{
+  "name": "Network solutions",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.networksolutions.com/legal/English/PrivacyPolicy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.networksolutions.com/legal/English/TermsOfUse.pdf",
+      "select": "body"
+    }
+  }
+}

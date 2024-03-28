@@ -1,0 +1,17 @@
+{
+  "name": "Yik yak",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.notion.so/Yik-Yak-Privacy-Policy-4cba37f3c1c94f0daeba9fb2cc5cd8e3",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.notion.so/Yik-Yak-Terms-of-Service-a58bfc3293c245c58304b5ca47fe500f",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://yikyak.notion.site/Community-Guardrails-2fd5f5274f30415784956efbdf986f1b",
+      "select": "body"
+    }
+  }
+}

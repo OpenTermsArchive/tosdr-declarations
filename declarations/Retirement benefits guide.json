@@ -1,0 +1,17 @@
+{
+  "name": "Retirement benefits guide",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://retirementbenefitsguide.com/terms-conditions/",
+      "select": "html > body > div:first-of-type > div > div > article > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://retirementbenefitsguide.com/privacy-notice/",
+      "select": "html > body > div:first-of-type > div > div > article > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://retirementbenefitsguide.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > article > div > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

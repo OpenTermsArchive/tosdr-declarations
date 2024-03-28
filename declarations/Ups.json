@@ -1,0 +1,13 @@
+{
+  "name": "Ups",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ups.com/us/en/support/shipping-support/legal-terms-conditions/website-terms-of-use.page",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.ups.com/us/en/support/shipping-support/legal-terms-conditions/privacy-notice.page",
+      "select": "body"
+    }
+  }
+}

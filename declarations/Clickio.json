@@ -1,0 +1,13 @@
+{
+  "name": "Clickio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://legal.clickio.com/PublisherAgreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://legal.clickio.com/PrivacyPolicy/",
+      "select": "body"
+    }
+  }
+}

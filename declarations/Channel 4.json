@@ -1,0 +1,17 @@
+{
+  "name": "Channel 4",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.channel4.com/4viewers/privacy",
+      "select": "html > body > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(2) > main > div > article"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.channel4.com/4viewers/cookies",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.channel4.com/4viewers/ts-and-cs",
+      "select": null
+    }
+  }
+}

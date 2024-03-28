@@ -1,0 +1,13 @@
+{
+  "name": "Timer for google forms",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://form-timer.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://form-timer.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

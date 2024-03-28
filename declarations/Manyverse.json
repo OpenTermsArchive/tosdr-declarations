@@ -1,0 +1,9 @@
+{
+  "name": "Manyverse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.manyver.se/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > main > div > div"
+    }
+  }
+}

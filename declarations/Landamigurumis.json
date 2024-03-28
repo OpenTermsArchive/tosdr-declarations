@@ -1,0 +1,9 @@
+{
+  "name": "Landamigurumis",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.landamigurumis.com.br/wordpress/privacy-policy",
+      "select": "body"
+    }
+  }
+}

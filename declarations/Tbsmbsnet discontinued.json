@@ -1,0 +1,9 @@
+{
+  "name": "Tbsmbsnet discontinued",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tbs-mbs.net/fls/US_tbs-mbs.net_privacy_notes.txt",
+      "select": "body"
+    }
+  }
+}

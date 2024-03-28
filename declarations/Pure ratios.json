@@ -1,0 +1,13 @@
+{
+  "name": "Pure ratios",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pureratioswellness.com/pages/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://pureratioswellness.com/pages/terms-of-service",
+      "select": null
+    }
+  }
+}

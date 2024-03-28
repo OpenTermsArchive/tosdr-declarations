@@ -1,0 +1,13 @@
+{
+  "name": "Openzeppelin",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.openzeppelin.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://openzeppelin.com/tos/",
+      "select": "body"
+    }
+  }
+}

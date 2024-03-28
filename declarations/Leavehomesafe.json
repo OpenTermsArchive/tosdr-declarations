@@ -1,0 +1,13 @@
+{
+  "name": "Leavehomesafe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.leavehomesafe.gov.hk/en/personal-information-collection-statement/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.leavehomesafe.gov.hk/en/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

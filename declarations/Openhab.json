@@ -1,0 +1,9 @@
+{
+  "name": "Openhab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.openhab.org/privacy.html",
+      "select": " > div:first-of-type > main > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Simplisafe",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://simplisafe.com/terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://simplisafe.com/privacy",
+      "select": null
+    }
+  }
+}

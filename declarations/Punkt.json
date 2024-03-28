@@ -1,0 +1,21 @@
+{
+  "name": "Punkt",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.punkt.ch/en/cookies/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.punkt.ch/en/privacy-policy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.punkt.ch/en/legal-notice/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.punkt.ch/en/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

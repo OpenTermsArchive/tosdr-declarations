@@ -1,0 +1,13 @@
+{
+  "name": "Taxbit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://taxbit.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://taxbit.com/privacy",
+      "select": "body"
+    }
+  }
+}

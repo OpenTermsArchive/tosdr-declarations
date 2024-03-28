@@ -1,0 +1,17 @@
+{
+  "name": "Emjysoft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.emjysoft.com/mentions-legales/",
+      "select": "html > body > form > div:nth-of-type(2) > div > div > section > table > tbody > tr > td > div > div > div:nth-of-type(3) > table > tbody > tr > td"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.emjysoft.com/_cgu.pdf",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.emjysoft.com/_cgv.pdf",
+      "select": "body"
+    }
+  }
+}

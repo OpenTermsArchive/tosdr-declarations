@@ -1,0 +1,9 @@
+{
+  "name": "Defcon level",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.defconlevel.com/privacy-policy.php",
+      "select": "body"
+    }
+  }
+}

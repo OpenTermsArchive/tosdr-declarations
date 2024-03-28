@@ -1,0 +1,17 @@
+{
+  "name": "Boscovs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.boscovs.com/terms-conditions",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://help.boscovs.com/en_us/return-policy-HJnF96bK",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.boscovs.com/privacy-policy",
+      "select": null
+    }
+  }
+}

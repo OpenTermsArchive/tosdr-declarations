@@ -1,0 +1,9 @@
+{
+  "name": "Nxpay",
+  "documents": {
+    "Other": {
+      "fetch": "http://10711-strait-ln-dallas-texas-75229.ownership.papers.org/documents/2019",
+      "select": null
+    }
+  }
+}

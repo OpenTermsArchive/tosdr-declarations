@@ -1,0 +1,13 @@
+{
+  "name": "Jonhosting",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://jonhosting.com/legal/TOS.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://jonhosting.com/legal/privacy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Baisseleswatts",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.baisseleswatts.fr/conditions-generales-utilisation",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.baisseleswatts.fr/politique-de-confidentialite",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.baisseleswatts.fr/gestion-des-cookies",
+      "select": "body"
+    }
+  }
+}

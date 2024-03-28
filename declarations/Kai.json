@@ -1,0 +1,13 @@
+{
+  "name": "Kai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kai.ai/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kai.ai/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

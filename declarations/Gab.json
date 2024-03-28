@@ -1,0 +1,17 @@
+{
+  "name": "Gab",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://gab.com/about/dmca",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://gab.com/about/tos",
+      "select": " > div > div:nth-of-type(2) > div:nth-of-type(2) > div > main > div > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://gab.com/about/privacy",
+      "select": " > div > div:nth-of-type(2) > div:nth-of-type(2) > div > main > div > div > div > div > div > div"
+    }
+  }
+}

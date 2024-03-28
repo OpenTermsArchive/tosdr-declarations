@@ -1,0 +1,25 @@
+{
+  "name": "Vultr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.vultr.com/legal/tos/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.vultr.com/legal/gdpr/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.vultr.com/legal/cookie_policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vultr.com/legal/privacy/",
+      "select": "body"
+    },
+    "Service Level Agreement": {
+      "fetch": "https://www.vultr.com/legal/sla/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Sainsburys",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacy-hub.sainsburys.co.uk/privacy-policy/",
+      "select": "div.page"
+    },
+    "Trackers Policy": {
+      "fetch": "https://privacy-hub.sainsburys.co.uk/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sainsburys.co.uk/terms",
+      "select": "body"
+    }
+  }
+}

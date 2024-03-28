@@ -1,0 +1,17 @@
+{
+  "name": "Npr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://text.npr.org/179878450",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://shopnpr.org/conditions-of-use",
+      "select": "html > body > div:nth-of-type(6) > div:nth-of-type(5)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://shopnpr.org/shipping-returns",
+      "select": " > div:nth-of-type(2) > div"
+    }
+  }
+}

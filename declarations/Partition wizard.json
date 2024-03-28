@@ -1,0 +1,13 @@
+{
+  "name": "Partition wizard",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.partitionwizard.com/privacy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.partitionwizard.com/terms_conditions.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

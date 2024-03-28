@@ -1,0 +1,9 @@
+{
+  "name": "Project euler",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://projecteuler.net/privacy",
+      "select": "body"
+    }
+  }
+}

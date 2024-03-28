@@ -1,0 +1,13 @@
+{
+  "name": "Trackjs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://trackjs.com/terms/",
+      "select": "html > body > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://trackjs.com/privacy/",
+      "select": "html > body > article"
+    }
+  }
+}

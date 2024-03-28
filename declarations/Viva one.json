@@ -1,0 +1,13 @@
+{
+  "name": "Viva one",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vivaone.ph/terms_and_conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vivaone.ph/privacy",
+      "select": "body"
+    }
+  }
+}

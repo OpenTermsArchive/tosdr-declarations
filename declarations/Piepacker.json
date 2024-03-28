@@ -1,0 +1,9 @@
+{
+  "name": "Piepacker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://piepacker.com/privacy.html",
+      "select": " > div > div > div > div"
+    }
+  }
+}

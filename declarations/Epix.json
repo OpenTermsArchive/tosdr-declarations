@@ -1,0 +1,13 @@
+{
+  "name": "Epix",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.epix.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.epix.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

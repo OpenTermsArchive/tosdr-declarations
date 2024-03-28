@@ -1,0 +1,13 @@
+{
+  "name": "Xtramath",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://home.xtramath.org/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cdn0.xtramath.org/docs/en/privacy-policy.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Everhour",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://everhour.com/cookies",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://everhour.com/terms",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://everhour.com/policy",
+      "select": "html > body > main"
+    }
+  }
+}

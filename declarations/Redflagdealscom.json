@@ -1,0 +1,13 @@
+{
+  "name": "Redflagdealscom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.redflagdeals.com/info/terms/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.redflagdeals.com/info/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Cyberpost",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cyberpost.co/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:first-of-type > div > article > div:first-of-type"
+    }
+  }
+}

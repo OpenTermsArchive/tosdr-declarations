@@ -1,0 +1,17 @@
+{
+  "name": "South park",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.viacomcbsprivacy.com/en/policy?r=southpark.cc.com",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.viacomcbsprivacy.com/en/cookies?r=southpark.cc.com",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://southpark.cc.com/legal/o3ccr8/terms-of-use",
+      "select": "html > body > div:first-of-type > main > div > section"
+    }
+  }
+}

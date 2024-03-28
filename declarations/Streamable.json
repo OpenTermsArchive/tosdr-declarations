@@ -1,0 +1,17 @@
+{
+  "name": "Streamable",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacy.streamable.com/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://terms.streamable.com/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Frequently Asked Questions": {
+      "fetch": "https://support.streamable.com/frequently-asked-questions",
+      "select": "html > body > article:first-of-type > div:first-of-type > div"
+    }
+  }
+}

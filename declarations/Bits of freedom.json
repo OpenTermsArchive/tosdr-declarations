@@ -1,0 +1,9 @@
+{
+  "name": "Bits of freedom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bitsoffreedom.nl/privacy-en-voorwaarden/",
+      "select": "body"
+    }
+  }
+}

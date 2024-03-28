@@ -1,0 +1,9 @@
+{
+  "name": "W10privacy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.w10privacy.de/j/privacy",
+      "select": "body"
+    }
+  }
+}

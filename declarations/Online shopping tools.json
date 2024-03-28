@@ -1,0 +1,13 @@
+{
+  "name": "Online shopping tools",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/21054084/legal",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.iubenda.com/terms-and-conditions/21054084",
+      "select": "body"
+    }
+  }
+}

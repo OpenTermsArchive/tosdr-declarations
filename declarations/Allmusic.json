@@ -1,0 +1,9 @@
+{
+  "name": "Allmusic",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.allmusic.com/privacy-notice",
+      "select": "body"
+    }
+  }
+}

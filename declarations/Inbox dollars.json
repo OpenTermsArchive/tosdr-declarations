@@ -1,0 +1,13 @@
+{
+  "name": "Inbox dollars",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.inboxdollars.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.inboxdollars.com/privacy-policy-intl/",
+      "select": "body"
+    }
+  }
+}

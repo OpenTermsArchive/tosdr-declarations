@@ -1,0 +1,17 @@
+{
+  "name": "Sanity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sanity.io/legal/privacy",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://www.sanity.io/security",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sanity.io/legal/tos",
+      "select": null
+    }
+  }
+}

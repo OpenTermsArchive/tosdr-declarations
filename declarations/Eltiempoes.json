@@ -1,0 +1,17 @@
+{
+  "name": "Eltiempoes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.eltiempo.es/legal/condiciones-generales.html",
+      "select": "html > body > div:nth-of-type(7) > main > div:nth-of-type(4) > div > section:first-of-type > article > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.eltiempo.es/legal/politica-privacidad.html?didomi",
+      "select": "html > body > div:nth-of-type(8) > main > div:nth-of-type(4) > div > section:nth-of-type(2) > article > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.eltiempo.es/legal/politica-cookies.html?didomi",
+      "select": "html > body > div:nth-of-type(7) > main > div:nth-of-type(4) > div > section:first-of-type > article > div:nth-of-type(2)"
+    }
+  }
+}

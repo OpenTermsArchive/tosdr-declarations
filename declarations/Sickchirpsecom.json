@@ -1,0 +1,17 @@
+{
+  "name": "Sickchirpsecom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sickchirpse.com/website-terms-of-use/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sickchirpse.com/cookies-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sickchirpse.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

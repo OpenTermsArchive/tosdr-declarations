@@ -1,0 +1,13 @@
+{
+  "name": "Luma energy llc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lumapr.com/privacy-policy/?lang=en",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://lumapr.com/terms-and-conditions-of-use/?lang=en",
+      "select": "body"
+    }
+  }
+}

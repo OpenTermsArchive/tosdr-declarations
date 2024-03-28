@@ -1,0 +1,13 @@
+{
+  "name": "Paper",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://paper.co/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pages.paper.co/privacy-statement",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Lukol",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lukol.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

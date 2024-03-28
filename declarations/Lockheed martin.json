@@ -1,0 +1,9 @@
+{
+  "name": "Lockheed martin",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.lockheedmartin.com/en-us/contact/disclaimer.html#privacy",
+      "select": "body"
+    }
+  }
+}

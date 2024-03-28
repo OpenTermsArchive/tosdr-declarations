@@ -1,0 +1,9 @@
+{
+  "name": "Larian vault",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.larianvault.com/terms_en.htm",
+      "select": "body"
+    }
+  }
+}

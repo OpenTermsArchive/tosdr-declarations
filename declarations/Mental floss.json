@@ -1,0 +1,17 @@
+{
+  "name": "Mental floss",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mentalfloss.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mentalfloss.com/terms-service",
+      "select": "html > body > div:nth-of-type(3) > div > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.mentalfloss.com/cookie-policy",
+      "select": "html > body > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

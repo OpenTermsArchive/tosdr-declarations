@@ -1,0 +1,17 @@
+{
+  "name": "Mobygames",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mobygames.com/info/privacy",
+      "select": " > div"
+    },
+    "Frequently Asked Questions": {
+      "fetch": "https://www.mobygames.com/info/faq",
+      "select": " > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mobygames.com/info/terms",
+      "select": " > div"
+    }
+  }
+}

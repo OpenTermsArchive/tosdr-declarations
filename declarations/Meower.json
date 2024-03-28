@@ -1,0 +1,17 @@
+{
+  "name": "Meower",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://meower.org/legal",
+      "select": "html > body > section:nth-of-type(8)"
+    },
+    "Terms of Service": {
+      "fetch": "https://meower.org/legal",
+      "select": "html > body > section:nth-of-type(5)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://meower.org/legal",
+      "select": "html > body > section:nth-of-type(7)"
+    }
+  }
+}

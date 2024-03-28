@@ -1,0 +1,13 @@
+{
+  "name": "Ehealths medicare",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ehealthmedicare.com/about-us/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ehealthmedicare.com/about-us/privacy-policy",
+      "select": "body"
+    }
+  }
+}

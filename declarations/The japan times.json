@@ -1,0 +1,17 @@
+{
+  "name": "The japan times",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.japantimes.co.jp/about-us/privacy/",
+      "select": null
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://www.japantimes.co.jp/about-us/link-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://members.japantimes.co.jp/tos/digital-e/",
+      "select": null
+    }
+  }
+}

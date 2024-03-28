@@ -1,0 +1,9 @@
+{
+  "name": "Westjet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.westjet.com/en-ca/legal/privacy-policy",
+      "select": "body"
+    }
+  }
+}

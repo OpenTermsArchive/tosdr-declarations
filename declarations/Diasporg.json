@@ -1,0 +1,13 @@
+{
+  "name": "Diasporg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://diasp.org/terms",
+      "select": "#privacy"
+    },
+    "Terms of Service": {
+      "fetch": "https://diasp.org/terms",
+      "select": "#tos"
+    }
+  }
+}

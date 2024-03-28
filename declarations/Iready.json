@@ -1,0 +1,13 @@
+{
+  "name": "Iready",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cdn.i-ready.com/instruction/content/system-check/iReady_Privacy_Policy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cdn.i-ready.com/instruction/content/system-check/iReady_Terms_Of_Use.pdf",
+      "select": "body"
+    }
+  }
+}

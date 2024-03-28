@@ -1,0 +1,13 @@
+{
+  "name": "Bulc club",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bulc.club/legal/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bulc.club/legal/terms/",
+      "select": "body"
+    }
+  }
+}

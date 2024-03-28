@@ -1,0 +1,17 @@
+{
+  "name": "Muslim pro",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://muslimpro.com/hc/en-us/articles/115001016508",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://muslimpro.com/en/cookies-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://support.muslimpro.com/hc/en-us/articles/203485970-Privacy-Policy",
+      "select": "html > body > main > article > div:first-of-type > p:first-of-type"
+    }
+  }
+}

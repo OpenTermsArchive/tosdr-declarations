@@ -1,0 +1,17 @@
+{
+  "name": "Yleisradio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yle.fi/aihe/s/about-yle/privacy-statement-for-yles-services",
+      "select": " > article > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://yle.fi/aihe/s/yleisradio/cookiepolicy-en",
+      "select": " > article > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://yle.fi/aihe/s/yle-id/terms-of-use",
+      "select": " > article > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

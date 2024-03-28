@@ -1,0 +1,13 @@
+{
+  "name": "Life storage",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lifestorage.com/terms-of-use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lifestorage.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

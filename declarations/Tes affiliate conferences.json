@@ -1,0 +1,13 @@
+{
+  "name": "Tes affiliate conferences",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tesaffiliateconferences.com/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tesaffiliateconferences.com/privacy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Ivpn",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.ivpn.net/refunds/",
+      "select": "html > body > main > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ivpn.net/privacy/",
+      "select": "html > body > main > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ivpn.net/tos/",
+      "select": "html > body > main > section"
+    },
+    "Legal Information": {
+      "fetch": "https://www.ivpn.net/legal-process-guidelines/",
+      "select": "html > body > main > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Letgo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.letgo.com/hc/en-001/articles/5636223944210-Data-Privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.letgo.com/hc/en-001/articles/5328062389394-Terms-of-Service",
+      "select": "body"
+    }
+  }
+}

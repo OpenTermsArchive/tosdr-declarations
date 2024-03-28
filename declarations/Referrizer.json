@@ -1,0 +1,13 @@
+{
+  "name": "Referrizer",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://business.referrizer.com/terms&condition/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://business.referrizer.com/terms&condition/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div:nth-of-type(3) > div"
+    }
+  }
+}

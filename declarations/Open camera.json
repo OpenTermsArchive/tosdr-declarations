@@ -1,0 +1,13 @@
+{
+  "name": "Open camera",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://opencamera.org.uk/#licence",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://opencamera.org.uk/privacy_oc.html",
+      "select": "body"
+    }
+  }
+}

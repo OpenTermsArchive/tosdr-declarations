@@ -1,0 +1,13 @@
+{
+  "name": "Codaio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://coda.io/trust/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://coda.io/trust/tos",
+      "select": "body"
+    }
+  }
+}

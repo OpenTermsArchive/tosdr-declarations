@@ -1,0 +1,13 @@
+{
+  "name": "Trainerize",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.trainerize.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.trainerize.com/businessTerms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Ucaptcha2022",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ucaptcha2022.com/privacypolicy",
+      "select": "body"
+    }
+  }
+}

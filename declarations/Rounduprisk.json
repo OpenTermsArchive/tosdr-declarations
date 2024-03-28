@@ -1,0 +1,13 @@
+{
+  "name": "Rounduprisk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rounduprisk.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://rounduprisk.com/terms-of-service/",
+      "select": null
+    }
+  }
+}

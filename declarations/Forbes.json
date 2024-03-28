@@ -1,0 +1,13 @@
+{
+  "name": "Forbes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.forbes.com/terms-and-conditions/#5b0b91f9193f",
+      "select": " > div:first-of-type > ul > li > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.forbes.com/privacy/english/#6bcdc8b23061",
+      "select": " > div > ul > li > div"
+    }
+  }
+}

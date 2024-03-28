@@ -1,0 +1,17 @@
+{
+  "name": "Honeywell",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.honeywell.com/us/en/privacy-statement",
+      "select": "html > body > main > div > div > div:nth-of-type(2) > div > div > div > div > div > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.honeywell.com/us/en/terms-and-conditions",
+      "select": "html > body > main > div > div > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.honeywell.com/us/en/cookie-notice",
+      "select": "html > body > main > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

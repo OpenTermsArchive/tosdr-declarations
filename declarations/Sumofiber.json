@@ -1,0 +1,17 @@
+{
+  "name": "Sumofiber",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sumofiber.help/en/articles/115-privacy-policy",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://sumofiber.help/en/articles/114-internet-acceptable-use-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://sumofiber.help/en/articles/116-service-level-agreement",
+      "select": "body"
+    }
+  }
+}

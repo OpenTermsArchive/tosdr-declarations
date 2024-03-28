@@ -1,0 +1,13 @@
+{
+  "name": "Media24",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.media24.com/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.media24.com/media24-cookie-policy/",
+      "select": "body"
+    }
+  }
+}

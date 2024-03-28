@@ -1,0 +1,13 @@
+{
+  "name": "Unstoppable domains",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://unstoppabledomains.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://unstoppabledomains.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

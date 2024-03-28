@@ -1,0 +1,13 @@
+{
+  "name": "Wuolah",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wuolah.com/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://wuolah.com/privacy",
+      "select": "html > body > main > section"
+    }
+  }
+}

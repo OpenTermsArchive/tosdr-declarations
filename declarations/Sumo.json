@@ -1,0 +1,9 @@
+{
+  "name": "Sumo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sumo.com/tos",
+      "select": "body"
+    }
+  }
+}

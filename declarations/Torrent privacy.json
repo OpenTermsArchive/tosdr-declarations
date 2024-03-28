@@ -1,0 +1,9 @@
+{
+  "name": "Torrent privacy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://torrentprivacy.com/index.php?mod=v2_terms",
+      "select": "html > body > section > div"
+    }
+  }
+}

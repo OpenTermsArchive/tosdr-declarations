@@ -1,0 +1,13 @@
+{
+  "name": "Meliuz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.meliuz.com.br/termos-e-condicoes",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.meliuz.com.br/termos-e-condicoes#privacy",
+      "select": null
+    }
+  }
+}

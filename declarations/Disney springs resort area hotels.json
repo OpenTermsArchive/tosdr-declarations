@@ -1,0 +1,9 @@
+{
+  "name": "Disney springs resort area hotels",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://disneyspringshotels.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Buffalo games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://buffalogames.com/privacy-policy/",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://buffalogames.com/shipping-and-returns/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Schiffer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://schiffer.tech/privacy.html",
+      "select": "html > body > main > section > div > div"
+    }
+  }
+}

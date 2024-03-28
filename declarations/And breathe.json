@@ -1,0 +1,9 @@
+{
+  "name": "And breathe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://andbreathe.co.uk/privacy/",
+      "select": "body"
+    }
+  }
+}

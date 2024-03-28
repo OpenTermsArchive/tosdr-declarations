@@ -1,0 +1,13 @@
+{
+  "name": "Itv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.itv.com/terms",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.itv.com/privacy",
+      "select": "body"
+    }
+  }
+}

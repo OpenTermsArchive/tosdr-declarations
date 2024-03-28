@@ -1,0 +1,13 @@
+{
+  "name": "Harvest traffic coop",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://harvesttraffic.com/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://harvesttraffic.com/terms.php",
+      "select": "body"
+    }
+  }
+}

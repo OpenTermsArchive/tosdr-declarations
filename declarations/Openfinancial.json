@@ -1,0 +1,13 @@
+{
+  "name": "Openfinancial",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://openfinancial.co/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://openfinancial.co/terms",
+      "select": "body"
+    }
+  }
+}

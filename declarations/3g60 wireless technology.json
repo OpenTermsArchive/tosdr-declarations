@@ -1,0 +1,9 @@
+{
+  "name": "3g60 wireless technology",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.3g60.com/privacypolicy.html",
+      "select": "body"
+    }
+  }
+}

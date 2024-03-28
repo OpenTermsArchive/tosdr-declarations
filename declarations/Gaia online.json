@@ -1,0 +1,13 @@
+{
+  "name": "Gaia online",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gaiaonline.com/info/legal/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gaiaonline.com/info/legal/tos",
+      "select": null
+    }
+  }
+}

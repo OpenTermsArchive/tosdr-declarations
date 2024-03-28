@@ -1,0 +1,13 @@
+{
+  "name": "Full circle",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fullcircle.com/terms-of-use",
+      "select": "html > body > main > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fullcircle.com/privacy-policy",
+      "select": "html > body > main > div:nth-of-type(2)"
+    }
+  }
+}

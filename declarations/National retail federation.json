@@ -1,0 +1,17 @@
+{
+  "name": "National retail federation",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://nrf.com/nrf-cookie-policy",
+      "select": " > article > div > div:nth-of-type(2) > div > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://nrf.com/privacy-policy",
+      "select": " > article > div > div:nth-of-type(2) > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://nrf.com/terms-and-conditions-nrfcom",
+      "select": " > article > div > div:nth-of-type(2) > div > div > div > div > div > div"
+    }
+  }
+}

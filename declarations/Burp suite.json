@@ -1,0 +1,9 @@
+{
+  "name": "Burp suite",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://portswigger.net/burp/eula/community",
+      "select": "body"
+    }
+  }
+}

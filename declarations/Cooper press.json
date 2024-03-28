@@ -1,0 +1,17 @@
+{
+  "name": "Cooper press",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cooperpress.com/legal/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cooperpress.com/legal/privacy/",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://cooperpress.com/legal/spam/",
+      "select": "body"
+    }
+  }
+}

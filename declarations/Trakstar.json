@@ -1,0 +1,9 @@
+{
+  "name": "Trakstar",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.trakstar.com/wp-content/themes/trakstar_marketing/assets/html/TRAKSTAR_TERMS_1MARCH2021.html",
+      "select": "body"
+    }
+  }
+}

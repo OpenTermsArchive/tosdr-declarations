@@ -1,0 +1,13 @@
+{
+  "name": "Dmg media",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.dmgmedia.co.uk/privacy-cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dmgmedia.co.uk/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

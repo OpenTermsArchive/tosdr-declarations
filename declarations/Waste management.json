@@ -1,0 +1,21 @@
+{
+  "name": "Waste management",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wm.com/us/en/privacy",
+      "select": " > div:nth-of-type(4) > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div > div > div > div > div > div > div > div"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.wm.com/us/en/accessibility",
+      "select": " > div:nth-of-type(4) > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div > div > div > div > div > div > div > div > div"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.wm.com/us/en/disputes",
+      "select": " > div:nth-of-type(4) > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div > div > div > div > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wm.com/us/en/terms",
+      "select": " > div:nth-of-type(4) > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div:first-of-type > div > div > div > div > div > div > div > div > div > div"
+    }
+  }
+}

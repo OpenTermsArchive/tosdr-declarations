@@ -1,0 +1,13 @@
+{
+  "name": "Smartbit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.smartbit.com.au/privacy",
+      "select": " > div:nth-of-type(2) > div > md-card"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.smartbit.com.au/terms",
+      "select": " > div:nth-of-type(2) > div > md-card > md-card-content > div:nth-of-type(2) > div > div"
+    }
+  }
+}

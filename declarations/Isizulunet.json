@@ -1,0 +1,9 @@
+{
+  "name": "Isizulunet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://isizulu.net/pvc/",
+      "select": "body"
+    }
+  }
+}

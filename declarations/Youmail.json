@@ -1,0 +1,13 @@
+{
+  "name": "Youmail",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.youmail.com/terms",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.youmail.com/privacy",
+      "select": "html > body > div:first-of-type > main > div"
+    }
+  }
+}

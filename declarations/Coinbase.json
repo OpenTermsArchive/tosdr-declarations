@@ -1,0 +1,21 @@
+{
+  "name": "Coinbase",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.coinbase.com/legal/user_agreement",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.coinbase.com/legal/trading_rules",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.coinbase.com/legal/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.coinbase.com/legal/cookie",
+      "select": "body"
+    }
+  }
+}

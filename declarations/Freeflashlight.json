@@ -1,0 +1,13 @@
+{
+  "name": "Freeflashlight",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://freeflashlight.com/us/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://freeflashlight.com/us/privacy.php",
+      "select": "body"
+    }
+  }
+}

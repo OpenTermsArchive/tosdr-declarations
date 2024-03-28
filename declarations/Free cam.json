@@ -1,0 +1,17 @@
+{
+  "name": "Free cam",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.freescreenrecording.com/legal/terms_of_use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.freescreenrecording.com/company/policy/privacy.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.freescreenrecording.com/legal/cookie_policy",
+      "select": "body"
+    }
+  }
+}

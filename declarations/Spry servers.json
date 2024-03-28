@@ -1,0 +1,29 @@
+{
+  "name": "Spry servers",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.spryservers.net/legal/domain-registration-agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spryservers.net/legal/privacy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.spryservers.net/legal/dmca",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.spryservers.net/legal/refunds",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.spryservers.net/legal/renewal-notification-policy",
+      "select": "body"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://www.spryservers.net/legal/abuse",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Inside tracker",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.insidetracker.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.insidetracker.com/policy-privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Ghost path",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://ghostpath.com/dmca ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ghostpath.com/privacy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ghostpath.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Clcrme",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://clcr.me/terms ",
+      "select": "body"
+    }
+  }
+}

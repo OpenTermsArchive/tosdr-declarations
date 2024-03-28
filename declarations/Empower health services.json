@@ -1,0 +1,9 @@
+{
+  "name": "Empower health services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://empowerhealthservices.com/privacypolicy/",
+      "select": "body"
+    }
+  }
+}

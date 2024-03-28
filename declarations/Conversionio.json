@@ -1,0 +1,9 @@
+{
+  "name": "Conversionio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://conversion.io/privacy-policy",
+      "select": null
+    }
+  }
+}

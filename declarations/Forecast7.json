@@ -1,0 +1,13 @@
+{
+  "name": "Forecast7",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://forecast7.com/en/terms/",
+      "select": "html > body > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://forecast7.com/en/privacy/",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

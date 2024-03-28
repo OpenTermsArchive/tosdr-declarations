@@ -1,0 +1,13 @@
+{
+  "name": "Boomi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://boomi.com/wp-content/uploads/Boomi-MSA-October-2021-ONLINE-VERSION-FINAL.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://boomi.com/privacy/us/",
+      "select": null
+    }
+  }
+}

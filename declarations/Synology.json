@@ -1,0 +1,21 @@
+{
+  "name": "Synology",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.synology.com/en-global/company/legal/terms_conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.synology.com/en-us/company/legal/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.synology.com/en-global/company/legal/cookie_policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.synology.com/en-global/company/legal/warranty",
+      "select": "body"
+    }
+  }
+}

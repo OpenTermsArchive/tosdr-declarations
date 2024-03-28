@@ -1,0 +1,13 @@
+{
+  "name": "Teamseas",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://teamseas.org/terms-of-use/",
+      "select": "html > body > main > section > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://teamseas.org/privacy-policy/",
+      "select": "html > body > main > section > div > div"
+    }
+  }
+}

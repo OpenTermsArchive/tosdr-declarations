@@ -1,0 +1,25 @@
+{
+  "name": "Seagate technology plc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.seagate.com/legal-privacy/electronic-and-physical-security-and-data-protection/",
+      "select": " > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.seagate.com/legal-privacy/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Other": {
+      "fetch": "https://www.seagate.com/legal-privacy/mobile-application-statement/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.seagate.com/legal-privacy/cookie-table/",
+      "select": " > div > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.seagate.com/legal-privacy/california-consumer-privacy-act-notice/",
+      "select": " > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Bellevue college bulldog bistro in student housing",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bcfse.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bcfse.com/privacy",
+      "select": "body"
+    }
+  }
+}

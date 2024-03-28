@@ -1,0 +1,17 @@
+{
+  "name": "Torn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.torn.com/rules.php#tab=terms_of_supply",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.torn.com/rules.php#tab=acceptable_use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.torn.com/rules.php#tab=privacy_policy",
+      "select": null
+    }
+  }
+}

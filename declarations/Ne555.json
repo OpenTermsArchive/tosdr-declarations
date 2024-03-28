@@ -1,0 +1,9 @@
+{
+  "name": "Ne555",
+  "documents": {
+    "Other": {
+      "fetch": "https://ne555.io/imprint/",
+      "select": "body"
+    }
+  }
+}

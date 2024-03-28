@@ -1,0 +1,17 @@
+{
+  "name": "Grievingcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://forums.grieving.com/terms/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://forums.grieving.com/cookies/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://forums.grieving.com/privacy/",
+      "select": "body"
+    }
+  }
+}

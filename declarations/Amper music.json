@@ -1,0 +1,13 @@
+{
+  "name": "Amper music",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ampermusic.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ampermusic.com/terms/",
+      "select": "body"
+    }
+  }
+}

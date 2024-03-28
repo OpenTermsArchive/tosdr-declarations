@@ -1,0 +1,13 @@
+{
+  "name": "M3 software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.m3datarecovery.com/privacy.html",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.m3datarecovery.com/refund-policy.html",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

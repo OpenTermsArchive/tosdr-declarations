@@ -1,0 +1,13 @@
+{
+  "name": "Tactical digital supply sale",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.techdigitalsupplysale.com/fastsupply/v1/page-terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.techdigitalsupplysale.com/fastsupply/v1/page-privacy.php",
+      "select": "body"
+    }
+  }
+}

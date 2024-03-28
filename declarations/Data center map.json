@@ -1,0 +1,9 @@
+{
+  "name": "Data center map",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.datacentermap.com/terms.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div:first-of-type"
+    }
+  }
+}

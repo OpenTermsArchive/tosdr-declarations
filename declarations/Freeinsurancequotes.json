@@ -1,0 +1,13 @@
+{
+  "name": "Freeinsurancequotes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://auto.free-insurance-quotes.us/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://auto.free-insurance-quotes.us/priv.php",
+      "select": "body"
+    }
+  }
+}

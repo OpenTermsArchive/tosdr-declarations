@@ -1,0 +1,13 @@
+{
+  "name": "Sciurls",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sciurls.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sciurls.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Jpmorgan chase",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jpmorganchase.com/about/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jpmorganchase.com/about/terms-and-conditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.jpmorganchase.com/about/cookies",
+      "select": "body"
+    }
+  }
+}

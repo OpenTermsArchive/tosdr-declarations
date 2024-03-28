@@ -1,0 +1,9 @@
+{
+  "name": "Pirates online retribution",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://piratesonline.us/terms.php",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Niconico",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://account.nicovideo.jp/rules/account",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://site.nicovideo.jp/cookies/",
+      "select": "body"
+    }
+  }
+}

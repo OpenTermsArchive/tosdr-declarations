@@ -1,0 +1,17 @@
+{
+  "name": "Adform",
+  "documents": {
+    "Policy": {
+      "fetch": "https://site.adform.com/policies/policies-and-guidelines/ad-quality-policies/",
+      "select": "html > body > div:first-of-type > div > section > div > div:nth-of-type(3) > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://site.adform.com/privacy-center/platform-privacy/product-and-services-privacy-policy/",
+      "select": "html > body > div:first-of-type > div > section > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://site.adform.com/privacy-center/website-privacy/website-cookie-policy/",
+      "select": "html > body > div:first-of-type > div > section > div > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

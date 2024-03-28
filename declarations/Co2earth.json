@@ -1,0 +1,17 @@
+{
+  "name": "Co2earth",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.co2.earth/privacy",
+      "select": "html > body > div:nth-of-type(3) > div > div > section > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.co2.earth/cookies",
+      "select": "html > body > div:nth-of-type(3) > div > div > section > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.co2.earth/terms",
+      "select": "html > body > div:nth-of-type(3) > div > div > section > div:nth-of-type(2)"
+    }
+  }
+}

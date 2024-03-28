@@ -1,0 +1,13 @@
+{
+  "name": "Dystech",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vSvJeDtZ1kLGV9hJb9Lt5wWsoY6JVU91rUmhnZi9y9wtTDI_RZwWg4ZtcOSXvlPcHvDPWOagSDFPNaN/pub",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vRqOVFj68Ou_24LyOJdzB6p-QKbfbtSHVxpOow6bD2Lp8lz9rll3EQBy_tw8auDuClFvEe4NoiyE1kl/pub",
+      "select": "body"
+    }
+  }
+}

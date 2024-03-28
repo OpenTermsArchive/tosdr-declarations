@@ -1,0 +1,9 @@
+{
+  "name": "Justflowerscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.justflowers.com/cs_Privacy.asp",
+      "select": "body"
+    }
+  }
+}

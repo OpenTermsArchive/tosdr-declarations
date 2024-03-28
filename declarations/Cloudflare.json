@@ -1,0 +1,17 @@
+{
+  "name": "Cloudflare",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cloudflare.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cloudflare.com/privacypolicy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.cloudflare.com/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

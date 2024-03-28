@@ -1,0 +1,9 @@
+{
+  "name": "Yep",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yep.com/privacy",
+      "select": "body"
+    }
+  }
+}

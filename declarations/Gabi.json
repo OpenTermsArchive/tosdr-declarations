@@ -1,0 +1,13 @@
+{
+  "name": "Gabi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gabi.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gabi.com/terms/",
+      "select": " > main > div > div:nth-of-type(3)"
+    }
+  }
+}

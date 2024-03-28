@@ -1,0 +1,9 @@
+{
+  "name": "Space oddities",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.spaceoddities.eu/privacy-policy/",
+      "select": null
+    }
+  }
+}

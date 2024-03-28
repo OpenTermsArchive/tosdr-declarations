@@ -1,0 +1,9 @@
+{
+  "name": "Techbyte net",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://techbyte.net/privacy-statement.html",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

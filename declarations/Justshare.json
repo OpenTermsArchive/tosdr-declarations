@@ -1,0 +1,13 @@
+{
+  "name": "Justshare",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://justshare.org.za/terms-conditions",
+      "select": "html > body > main > section > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://justshare.org.za/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Universidad de alcal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://uah.es/es/politica-privacidad/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://uah.es/es/politica-de-cookies/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://uah.es/es/aviso-legal/",
+      "select": "body"
+    }
+  }
+}

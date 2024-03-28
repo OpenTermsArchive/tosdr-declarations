@@ -1,0 +1,17 @@
+{
+  "name": "Witopia",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.personalvpn.com/copyright",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > article > div > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.securemyemail.com/legal/privacy/",
+      "select": " > div > div > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.securemyemail.com/legal/terms/",
+      "select": " > div > div > div:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

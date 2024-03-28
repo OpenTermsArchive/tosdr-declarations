@@ -1,0 +1,9 @@
+{
+  "name": "Webhooksite",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://webhook.site/terms",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

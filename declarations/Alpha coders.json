@@ -1,0 +1,21 @@
+{
+  "name": "Alpha coders",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://alphacoders.com/site/acceptable_use",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://alphacoders.com/site/copyright",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://alphacoders.com/site/tos",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://alphacoders.com/site/privacy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div"
+    }
+  }
+}

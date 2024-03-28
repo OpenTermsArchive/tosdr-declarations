@@ -1,0 +1,13 @@
+{
+  "name": "Flyio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fly.io/legal/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://fly.io/legal/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

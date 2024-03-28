@@ -1,0 +1,9 @@
+{
+  "name": "Blue monkey overdrive",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bluemonkeyoverdrive.com/privacy",
+      "select": "body"
+    }
+  }
+}

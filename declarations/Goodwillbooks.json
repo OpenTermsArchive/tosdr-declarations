@@ -1,0 +1,13 @@
+{
+  "name": "Goodwillbooks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.goodwillbooks.com/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.goodwillbooks.com/term-conditions",
+      "select": null
+    }
+  }
+}

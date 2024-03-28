@@ -1,0 +1,17 @@
+{
+  "name": "Geelong advertiser",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://preferences.news.com.au/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://preferences.news.com.au/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://news-networkeditorial.s3-ap-southeast-2.amazonaws.com/mhr/tandcs/tcs_tc.html",
+      "select": "body"
+    }
+  }
+}

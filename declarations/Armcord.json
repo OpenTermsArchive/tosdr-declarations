@@ -1,0 +1,9 @@
+{
+  "name": "Armcord",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://armcord.app/privacy.txt",
+      "select": "body"
+    }
+  }
+}

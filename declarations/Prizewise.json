@@ -1,0 +1,13 @@
+{
+  "name": "Prizewise",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://go.prizewise.net/terms-and-conditions",
+      "select": "html > body > main > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://go.prizewise.net/privacy-policy",
+      "select": "html > body > main > section"
+    }
+  }
+}

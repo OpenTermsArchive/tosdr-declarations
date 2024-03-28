@@ -1,0 +1,17 @@
+{
+  "name": "Bannernow",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bannernow.com/privacy",
+      "select": "html > body > section > div > div > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://bannernow.com/cookies",
+      "select": "html > body > section > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://bannernow.com/terms",
+      "select": "html > body > section > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

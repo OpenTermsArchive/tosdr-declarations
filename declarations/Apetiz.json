@@ -1,0 +1,13 @@
+{
+  "name": "Apetiz",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.commande.apetiz.com/bfy/pdf/doc_gdpr.action?cid=46166",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.apetiz.com/jcms/fr/conditions-generales-d-utilisation-hen_5041.html",
+      "select": "body"
+    }
+  }
+}

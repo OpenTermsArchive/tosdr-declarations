@@ -1,0 +1,13 @@
+{
+  "name": "Talentprise",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://talentprise.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://talentprise.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

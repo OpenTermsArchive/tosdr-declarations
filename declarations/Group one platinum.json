@@ -1,0 +1,13 @@
+{
+  "name": "Group one platinum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://grouponefreedomcard.com/a/ft_privacy.php",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://grouponefreedomcard.com/a/ft_terms.php",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div"
+    }
+  }
+}

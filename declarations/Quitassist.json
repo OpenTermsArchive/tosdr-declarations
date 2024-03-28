@@ -1,0 +1,9 @@
+{
+  "name": "Quitassist",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.quitassist.com/privacy.htm",
+      "select": "body"
+    }
+  }
+}

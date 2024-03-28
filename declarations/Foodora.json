@@ -1,0 +1,17 @@
+{
+  "name": "Foodora",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.foodora.fi/en/contents/cookies-policy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.foodora.fi/en/contents/terms-and-conditions.htm",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.foodora.fi/en/contents/privacy.htm",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Burning series",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bs.to/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://bs.to/terms",
+      "select": "body"
+    }
+  }
+}

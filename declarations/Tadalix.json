@@ -1,0 +1,13 @@
+{
+  "name": "Tadalix",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://buytadalix.com/promo/v1/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://buytadalix.com/promo/v1/terms.php",
+      "select": "body"
+    }
+  }
+}

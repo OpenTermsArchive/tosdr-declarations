@@ -1,0 +1,9 @@
+{
+  "name": "9974limes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://9974limes--9974lime.repl.co/terms",
+      "select": "body"
+    }
+  }
+}

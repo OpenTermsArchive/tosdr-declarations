@@ -1,0 +1,9 @@
+{
+  "name": "Amaze",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://amaze.org/terms-and-privacy",
+      "select": "body"
+    }
+  }
+}

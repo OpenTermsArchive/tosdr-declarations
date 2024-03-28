@@ -1,0 +1,13 @@
+{
+  "name": "National fire protection association",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nfpa.org/customer-support/privacy-policy",
+      "select": "html > body > form > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nfpa.org/termsofuse",
+      "select": "html > body > form > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Iconsult  services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://iconsult-services.com/1_10_privacy-policy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://iconsult-services.com/1_11_terms.html",
+      "select": "body"
+    }
+  }
+}

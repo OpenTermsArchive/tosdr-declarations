@@ -1,0 +1,9 @@
+{
+  "name": "Blazingfast",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://blazingfast.io/legal#",
+      "select": "body"
+    }
+  }
+}

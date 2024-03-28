@@ -1,0 +1,25 @@
+{
+  "name": "Weasyl",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://www.weasyl.com/policy/community",
+      "select": "html > body > div > div:nth-of-type(3) > div"
+    },
+    "Other": {
+      "fetch": "https://www.weasyl.com/policy/ratings",
+      "select": "html > body > div > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.weasyl.com/policy/tos",
+      "select": "html > body > div > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.weasyl.com/policy/privacy",
+      "select": "html > body > div > div:nth-of-type(3)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.weasyl.com/policy/copyright",
+      "select": "html > body > div > div:nth-of-type(3)"
+    }
+  }
+}

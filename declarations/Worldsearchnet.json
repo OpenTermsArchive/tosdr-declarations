@@ -1,0 +1,13 @@
+{
+  "name": "Worldsearchnet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacy.world-search.net/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://eula.world-search.net/",
+      "select": "body"
+    }
+  }
+}

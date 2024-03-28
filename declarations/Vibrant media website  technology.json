@@ -1,0 +1,17 @@
+{
+  "name": "Vibrant media website  technology",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vibrantmedia.com/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.vibrantmedia.com/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vibrantmedia.com/general-terms-conditions/",
+      "select": "body"
+    }
+  }
+}

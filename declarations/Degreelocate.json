@@ -1,0 +1,13 @@
+{
+  "name": "Degreelocate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.degreelocate.com/privacypolicy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.degreelocate.com/terms.php",
+      "select": "body"
+    }
+  }
+}

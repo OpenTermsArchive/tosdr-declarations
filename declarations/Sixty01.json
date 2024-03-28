@@ -1,0 +1,9 @@
+{
+  "name": "Sixty01",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sixty01.com/ownersapp",
+      "select": "body"
+    }
+  }
+}

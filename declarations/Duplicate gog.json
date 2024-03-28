@@ -1,0 +1,17 @@
+{
+  "name": "Duplicate gog",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://support.gog.com/hc/en-us/articles/212632089-GOG-User-Agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://support.gog.com/hc/en-us/articles/212632109-Privacy-Policy?product=gog",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://support.gog.com/hc/en-us/articles/115000498685-Cookie-Policy",
+      "select": "body"
+    }
+  }
+}

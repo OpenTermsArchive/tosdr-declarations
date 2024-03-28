@@ -1,0 +1,13 @@
+{
+  "name": "Piczel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://piczel.tv/help/privacy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://piczel.tv/help/tos",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div:nth-of-type(3)"
+    }
+  }
+}

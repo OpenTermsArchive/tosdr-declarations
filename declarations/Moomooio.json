@@ -1,0 +1,9 @@
+{
+  "name": "Moomooio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://moomoo.io/docs/terms.txt",
+      "select": "body"
+    }
+  }
+}

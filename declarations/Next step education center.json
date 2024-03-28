@@ -1,0 +1,9 @@
+{
+  "name": "Next step education center",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.nextstepeducationcenter.com/privacypolicy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Notabug",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://notabug.org/tos",
+      "select": "body"
+    }
+  }
+}

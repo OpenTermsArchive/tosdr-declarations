@@ -1,0 +1,13 @@
+{
+  "name": "Childrens of alabama",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.childrensal.org/childrens-alabama-online-privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.childrensal.org/sites/default/files/workfiles/Corp_Comm/terms.pdf",
+      "select": "body"
+    }
+  }
+}

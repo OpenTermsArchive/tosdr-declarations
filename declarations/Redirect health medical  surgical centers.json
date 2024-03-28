@@ -1,0 +1,13 @@
+{
+  "name": "Redirect health medical  surgical centers",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://arrowheadhealth.com/privacy-policy-hipaa/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div > div > main > article > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://arrowheadhealth.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div > div > main > article > div > div:nth-of-type(2) > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Open culture",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.openculture.com/terms_of_use_agreement",
+      "select": "html > body > div:nth-of-type(5) > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.openculture.com/privacy_policy",
+      "select": "html > body > div:nth-of-type(5) > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.openculture.com/copyright_policy",
+      "select": "html > body > div:nth-of-type(5) > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

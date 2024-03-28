@@ -1,0 +1,13 @@
+{
+  "name": "Youngzsoft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.youngzsoft.net/privacy.htm",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.youngzsoft.net/terms.htm",
+      "select": null
+    }
+  }
+}

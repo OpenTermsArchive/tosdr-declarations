@@ -1,0 +1,13 @@
+{
+  "name": "Klevu",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.klevu.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.klevu.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

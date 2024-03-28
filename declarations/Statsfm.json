@@ -1,0 +1,13 @@
+{
+  "name": "Statsfm",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://stats.fm/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://stats.fm/privacy",
+      "select": "body"
+    }
+  }
+}

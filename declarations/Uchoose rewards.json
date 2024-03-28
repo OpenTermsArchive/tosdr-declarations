@@ -1,0 +1,13 @@
+{
+  "name": "Uchoose rewards",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.uchooserewards.com/e/members/article.php?sid=40XXdKrlo40&method=terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.uchooserewards.com/e/members/article.php?sid=40XXdKrlo40&method=privacy",
+      "select": "body"
+    }
+  }
+}

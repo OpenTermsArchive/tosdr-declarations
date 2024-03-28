@@ -1,0 +1,9 @@
+{
+  "name": "Wells fargo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wellsfargo.com/privacy-security/terms",
+      "select": "body"
+    }
+  }
+}

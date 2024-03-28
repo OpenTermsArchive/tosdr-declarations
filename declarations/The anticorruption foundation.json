@@ -1,0 +1,9 @@
+{
+  "name": "The anticorruption foundation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://acf.international/files/privacy-policy-en.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Album of the year",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.albumoftheyear.org/privacy.php",
+      "select": "html > body > div:nth-of-type(4) > div > div:first-of-type"
+    }
+  }
+}

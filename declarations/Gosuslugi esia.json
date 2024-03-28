@@ -1,0 +1,9 @@
+{
+  "name": "Gosuslugi esia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://esia.gosuslugi.ru/registration/policiesTerms.xhtml",
+      "select": "body"
+    }
+  }
+}

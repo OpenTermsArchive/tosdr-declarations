@@ -1,0 +1,13 @@
+{
+  "name": "Linqto",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.linqto.com/privacy/",
+      "select": "html > body > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.linqto.com/terms-of-use/",
+      "select": "html > body > section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Faithful counseling",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.faithfulcounseling.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.faithfulcounseling.com/privacy/",
+      "select": "body"
+    }
+  }
+}

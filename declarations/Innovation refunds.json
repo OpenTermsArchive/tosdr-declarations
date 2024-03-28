@@ -1,0 +1,13 @@
+{
+  "name": "Innovation refunds",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.innovationrefunds.com/privacy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.innovationrefunds.com/terms",
+      "select": "body"
+    }
+  }
+}

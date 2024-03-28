@@ -1,0 +1,9 @@
+{
+  "name": "Consoe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://consoe.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

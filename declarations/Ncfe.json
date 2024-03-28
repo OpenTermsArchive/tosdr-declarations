@@ -1,0 +1,9 @@
+{
+  "name": "Ncfe",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.ncfe.org.uk/customer-and-learner-support/legal-information/privacy-notice/",
+      "select": "html > body > main > div > section:nth-of-type(2) > div > section"
+    }
+  }
+}

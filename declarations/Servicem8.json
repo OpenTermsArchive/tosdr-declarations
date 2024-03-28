@@ -1,0 +1,13 @@
+{
+  "name": "Servicem8",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.servicem8.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.servicem8.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

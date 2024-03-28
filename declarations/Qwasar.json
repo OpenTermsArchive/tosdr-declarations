@@ -1,0 +1,9 @@
+{
+  "name": "Qwasar",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://upskill.us.qwasar.io/tos",
+      "select": "body"
+    }
+  }
+}

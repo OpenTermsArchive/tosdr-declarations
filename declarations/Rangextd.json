@@ -1,0 +1,13 @@
+{
+  "name": "Rangextd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rangextd.com/policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rangextd.com/terms.html",
+      "select": "body"
+    }
+  }
+}

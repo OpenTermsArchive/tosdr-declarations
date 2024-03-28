@@ -1,0 +1,17 @@
+{
+  "name": "Playasia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.play-asia.com/info/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.play-asia.com/info/tou",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.play-asia.com/info/tos",
+      "select": "body"
+    }
+  }
+}

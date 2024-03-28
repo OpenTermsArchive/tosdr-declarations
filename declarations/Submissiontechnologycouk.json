@@ -1,0 +1,9 @@
+{
+  "name": "Submissiontechnologycouk",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://submissiontechnology.co.uk/privacy_policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Vivaldi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vivaldi.com/privacy/community-terms-of-use/",
+      "select": "html > body > main > div:nth-of-type(2) > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://vivaldi.com/is/privacy/cookie-policy/",
+      "select": "html > body > main > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vivaldi.com/privacy/browser/",
+      "select": " > div:nth-of-type(2) > div > div"
+    }
+  }
+}

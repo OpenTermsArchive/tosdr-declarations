@@ -1,0 +1,13 @@
+{
+  "name": "Spacehey",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://spacehey.com/rules",
+      "select": "html > body > div > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://spacehey.com/privacy",
+      "select": "html > body > div > main"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Seedr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.seedr.cc/dynamic/terms_of_use",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.seedr.cc/dynamic/dmca",
+      "select": "html > body > div:nth-of-type(15) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.seedr.cc/dynamic/privacy_policy",
+      "select": "body"
+    }
+  }
+}

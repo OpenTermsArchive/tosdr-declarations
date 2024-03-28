@@ -1,0 +1,9 @@
+{
+  "name": "Washington lawhelp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.washingtonlawhelp.org/privacy",
+      "select": null
+    }
+  }
+}

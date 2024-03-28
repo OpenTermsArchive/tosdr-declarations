@@ -1,0 +1,17 @@
+{
+  "name": "Alcatelmobilecom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.alcatelmobile.com/terms-conditions/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(5) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.alcatelmobile.com/cookie-policy",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.alcatelmobile.com/privacy/",
+      "select": null
+    }
+  }
+}

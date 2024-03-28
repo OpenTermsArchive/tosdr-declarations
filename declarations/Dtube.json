@@ -1,0 +1,13 @@
+{
+  "name": "Dtube",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://about.d.tube/legal/privacy_policy.html",
+      "select": "html > body"
+    },
+    "Terms of Service": {
+      "fetch": "https://about.d.tube/legal/terms_of_use.html",
+      "select": "html > body"
+    }
+  }
+}

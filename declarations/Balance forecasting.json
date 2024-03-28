@@ -1,0 +1,13 @@
+{
+  "name": "Balance forecasting",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://balanceforecastingapp.com/Terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://balanceforecastingapp.com/Privacy",
+      "select": "body"
+    }
+  }
+}

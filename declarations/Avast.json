@@ -1,0 +1,17 @@
+{
+  "name": "Avast",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.avast.com/eula",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.avast.com/acceptable-use-policy",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.avast.com/privacy-policy",
+      "select": null
+    }
+  }
+}

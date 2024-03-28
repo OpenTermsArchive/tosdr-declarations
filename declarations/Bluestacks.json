@@ -1,0 +1,21 @@
+{
+  "name": "Bluestacks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bluestacks.com/terms-and-privacy.html",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.bluestacks.com/copyright-dispute-policy.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bluestacks.com/terms-and-privacy.html#eu-privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.bluestacks.com/terms-and-privacy.html#cookie",
+      "select": "body"
+    }
+  }
+}

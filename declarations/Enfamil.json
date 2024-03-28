@@ -1,0 +1,13 @@
+{
+  "name": "Enfamil",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.enfamil.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > main > article > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.enfamil.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div > main > article > section:nth-of-type(2)"
+    }
+  }
+}

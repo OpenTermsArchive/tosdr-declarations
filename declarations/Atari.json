@@ -1,0 +1,17 @@
+{
+  "name": "Atari",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.atari.com/terms-of-use/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.atari.com/terms-of-use/#",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.atari.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

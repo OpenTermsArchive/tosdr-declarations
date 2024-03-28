@@ -1,0 +1,13 @@
+{
+  "name": "Flipkart",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.flipkart.com/pages/terms?otracker=undefined_footer_navlinks",
+      "select": " > div > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.flipkart.com/pages/privacypolicy?otracker=undefined_footer_navlinks",
+      "select": " > div > div:nth-of-type(3)"
+    }
+  }
+}

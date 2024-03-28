@@ -1,0 +1,13 @@
+{
+  "name": "Ulta",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ulta.com/company/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ulta.com/company/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Horizon network",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://horizonnetwork.co/terms/",
+      "select": "html > body > div:nth-of-type(12) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://horizonnetwork.co/privacy/",
+      "select": "html > body > div:nth-of-type(12) > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://horizonnetwork.co/cookies/",
+      "select": "html > body > div:nth-of-type(12) > div > div:nth-of-type(2)"
+    }
+  }
+}

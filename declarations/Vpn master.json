@@ -1,0 +1,9 @@
+{
+  "name": "Vpn master",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://doc-hosting.flycricket.io/vpn-master-privacy-policy/9e486c09-cf19-4e36-b137-e7466197a938/privacy",
+      "select": "body"
+    }
+  }
+}

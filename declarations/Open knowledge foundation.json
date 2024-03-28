@@ -1,0 +1,21 @@
+{
+  "name": "Open knowledge foundation",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://okfn.org/ip-policy/",
+      "select": "main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://okfn.org/cookie-policy/",
+      "select": "main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://okfn.org/privacy-policy/",
+      "select": "main"
+    },
+    "Terms of Service": {
+      "fetch": "https://okfn.org/terms-of-use/",
+      "select": "div div, main"
+    }
+  }
+}

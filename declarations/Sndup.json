@@ -1,0 +1,13 @@
+{
+  "name": "Sndup",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sndup.net/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sndup.net/privacy",
+      "select": "body"
+    }
+  }
+}

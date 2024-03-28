@@ -1,0 +1,25 @@
+{
+  "name": "Clario",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://clario.co/eula/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://clario.co/privacy-policy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://clario.co/privacy-notice/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://clario.co/refund-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://clario.co/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Bilibili",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bilibili.com/blackboard/privacy-pc.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bilibili.com/protocal/licence.html",
+      "select": "html > body > article > section > div > div > div > div"
+    }
+  }
+}

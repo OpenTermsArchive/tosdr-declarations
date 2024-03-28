@@ -1,0 +1,17 @@
+{
+  "name": "Macys",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.customerservice-macys.com/app/answers/detail/a_id/595/session/L2F2LzEvdGltZS8xNTczNTI4MDc2L2dlbi8xNTczNTI4MDc2L3NpZC9mVTNUUWJabzUwNXA1QXRqVWJhd2lRN0w2WTlOc3lqSHZ5WF9iV2s0YTlCQ1RvZ0tHQm5qOFdBck5FX2t1SGdsNG9ySFVUNm1UNlp4TUxMMUpvMG42WFlXTVFlU2FFRzhuJTdFcnRpMDQwS2ZRVXlNN3liTzhrZVNPUSUyMSUyMQ%3D%3D",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://customerservice-macys.com/articles/what-are-macys-policies-for-online-merchandise-pricing-and-price-adjustments",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://customerservice-macys.com/articles/legal-notice",
+      "select": "body"
+    }
+  }
+}

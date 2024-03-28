@@ -1,0 +1,9 @@
+{
+  "name": "Crypt0n",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://crypt-0n.fr/association/mentions-legales",
+      "select": "body"
+    }
+  }
+}

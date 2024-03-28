@@ -1,0 +1,9 @@
+{
+  "name": "Traffic humanoid",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://traffichumanoid.website/terms.php",
+      "select": "body"
+    }
+  }
+}

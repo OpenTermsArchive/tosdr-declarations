@@ -1,0 +1,9 @@
+{
+  "name": "Pencils of promise",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pencilsofpromise.org/wp-content/uploads/2021/06/PoP-Privacy-Policy_March-2021.pdf",
+      "select": "body"
+    }
+  }
+}

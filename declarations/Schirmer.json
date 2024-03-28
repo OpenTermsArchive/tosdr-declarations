@@ -1,0 +1,13 @@
+{
+  "name": "Schirmer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://schirmer.net/datenschutz",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > main > article > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://schirmer.net/impressum",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > main > article > div"
+    }
+  }
+}

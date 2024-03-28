@@ -1,0 +1,13 @@
+{
+  "name": "Pediatric dentistry orthodontics  oral surgery",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dpdsmiles.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div > article > div > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dpdsmiles.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

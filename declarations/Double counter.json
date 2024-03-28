@@ -1,0 +1,13 @@
+{
+  "name": "Double counter",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.dcounter.space/legal",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://dcounter.space/terms-conditions.html",
+      "select": "body"
+    }
+  }
+}

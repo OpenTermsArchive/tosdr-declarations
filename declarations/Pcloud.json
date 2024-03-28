@@ -1,0 +1,17 @@
+{
+  "name": "Pcloud",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.pcloud.com/int_pr_policy.html",
+      "select": "html > body > div:nth-of-type(3) > div > div:nth-of-type(3)"
+    },
+    "Legal Information": {
+      "fetch": "https://www.pcloud.com/privacy_policy.html",
+      "select": "html > body > div:nth-of-type(3) > div > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pcloud.com/terms_and_conditions.html",
+      "select": "html > body > div:nth-of-type(3) > div > div:nth-of-type(3)"
+    }
+  }
+}

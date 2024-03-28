@@ -1,0 +1,13 @@
+{
+  "name": "Magicjack for business",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.magicjackforbusiness.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.magicjackforbusiness.com/legal/",
+      "select": "html > body > section > div"
+    }
+  }
+}

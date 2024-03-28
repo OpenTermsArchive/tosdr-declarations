@@ -1,0 +1,9 @@
+{
+  "name": "4ct",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.4ct.org/privacypolicy.htm",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "What culture",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://whatculture.com/privacy-policy",
+      "select": "html > body > article > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "City of grande prairie",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cityofgp.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

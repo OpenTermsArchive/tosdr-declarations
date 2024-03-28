@@ -1,0 +1,9 @@
+{
+  "name": "The atlas society",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.atlassociety.org/privacy-notice",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Extreme reach",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://extremereach.com/privacy-policies/",
+      "select": null
+    }
+  }
+}

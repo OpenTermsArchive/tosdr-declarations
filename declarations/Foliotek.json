@@ -1,0 +1,9 @@
+{
+  "name": "Foliotek",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.foliotek.com/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

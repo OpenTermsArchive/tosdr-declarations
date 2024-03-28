@@ -1,0 +1,17 @@
+{
+  "name": "Influencer matchmaker",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://influencermatchmaker.co.uk/cookie-policy",
+      "select": "html > body > main > section:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://influencermatchmaker.co.uk/privacy-policy",
+      "select": "html > body > main > section:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://influencermatchmaker.co.uk/terms-of-use",
+      "select": "html > body > main > section:nth-of-type(2) > div"
+    }
+  }
+}

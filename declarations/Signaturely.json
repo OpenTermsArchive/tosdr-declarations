@@ -1,0 +1,13 @@
+{
+  "name": "Signaturely",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://signaturely.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://signaturely.com/privacy/",
+      "select": "body"
+    }
+  }
+}

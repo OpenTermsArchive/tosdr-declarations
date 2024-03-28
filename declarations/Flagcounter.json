@@ -1,0 +1,13 @@
+{
+  "name": "Flagcounter",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flagcounter.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://flagcounter.com/terms.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Faria education group limited",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.faria.org/terms/managebac/terms/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.faria.org/terms/managebac/terms/terms-of-service",
+      "select": "body"
+    }
+  }
+}

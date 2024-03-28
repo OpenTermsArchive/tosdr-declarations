@@ -1,0 +1,13 @@
+{
+  "name": "The washington times",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.washingtontimes.com/terms-of-use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.washingtontimes.com/privacy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Autistic self advocacy network",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://autisticadvocacy.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

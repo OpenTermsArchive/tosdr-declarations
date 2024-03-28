@@ -1,0 +1,13 @@
+{
+  "name": "Kensington books publishing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.penguinrandomhouse.com/privacy/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.kensingtonbooks.com/pages/returns/",
+      "select": "body"
+    }
+  }
+}

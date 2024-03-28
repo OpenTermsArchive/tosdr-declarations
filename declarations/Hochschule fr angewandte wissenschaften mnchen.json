@@ -1,0 +1,17 @@
+{
+  "name": "Hochschule fr angewandte wissenschaften mnchen",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hm.edu/en/impressum_1/data_protection/data_protection_declaration.en.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.hm.edu/en/impressum_1/data_protection/cookie_consent.en.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.hm.edu/en/impressum_1/legal_notice_1.en.html",
+      "select": "body"
+    }
+  }
+}

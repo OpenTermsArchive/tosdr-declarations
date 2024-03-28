@@ -1,0 +1,9 @@
+{
+  "name": "Or security",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.or.security/privacy-policy/",
+      "select": "html > body > main"
+    }
+  }
+}

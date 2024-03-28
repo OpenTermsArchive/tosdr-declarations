@@ -1,0 +1,13 @@
+{
+  "name": "Breitbart news network",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.breitbart.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.breitbart.com/terms-of-use",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Doodle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://doodle.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://doodle.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

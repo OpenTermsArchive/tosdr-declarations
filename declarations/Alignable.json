@@ -1,0 +1,21 @@
+{
+  "name": "Alignable",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.alignable.com/privacy-policy",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.alignable.com/code-of-conduct",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.alignable.com/terms-conditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.alignable.com/visitor-cookie-policy",
+      "select": "body"
+    }
+  }
+}

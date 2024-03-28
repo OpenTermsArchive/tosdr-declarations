@@ -1,0 +1,13 @@
+{
+  "name": "Clif bar  company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.clifbar.com/privacy-statement",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.clifbar.com/use-terms",
+      "select": "html > body > div:first-of-type > div > div > div > main > div > div > div:nth-of-type(2)"
+    }
+  }
+}

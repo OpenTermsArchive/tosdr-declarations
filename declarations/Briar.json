@@ -1,0 +1,17 @@
+{
+  "name": "Briar",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://briarproject.org/privacy-policy/",
+      "select": null
+    },
+    "Other": {
+      "fetch": "https://briarproject.org/governance/",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://briarproject.org/copyright/",
+      "select": null
+    }
+  }
+}

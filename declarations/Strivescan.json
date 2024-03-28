@@ -1,0 +1,13 @@
+{
+  "name": "Strivescan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.strivescan.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.strivescan.com/privacy/",
+      "select": null
+    }
+  }
+}

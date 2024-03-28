@@ -1,0 +1,13 @@
+{
+  "name": "Copyleaks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://copyleaks.com/legal/termsofuse",
+      "select": "html > body > app-root > div > app-website-layout > div > app-navbar > mat-sidenav-container > mat-sidenav-content > div > div > main > app-terms-of-use-page > div > div > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://copyleaks.com/legal/privacypolicy",
+      "select": "html > body > app-root > div > app-website-layout > div > app-navbar > mat-sidenav-container > mat-sidenav-content > div > div > main > app-privacy-policy-pa > div > div > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

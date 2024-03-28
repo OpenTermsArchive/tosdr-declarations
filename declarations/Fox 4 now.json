@@ -1,0 +1,13 @@
+{
+  "name": "Fox 4 now",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fox4now.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fox4now.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

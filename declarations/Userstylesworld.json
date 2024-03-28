@@ -1,0 +1,13 @@
+{
+  "name": "Userstylesworld",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://userstyles.world/legal/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://userstyles.world/legal/privacy-policy",
+      "select": "body"
+    }
+  }
+}

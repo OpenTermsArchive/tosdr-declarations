@@ -1,0 +1,13 @@
+{
+  "name": "Wildfire games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://trac.wildfiregames.com/browser/ps/trunk/binaries/data/mods/public/gui/userreport/Terms_and_Conditions.txt",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wildfiregames.com/forum/terms/",
+      "select": "body"
+    }
+  }
+}

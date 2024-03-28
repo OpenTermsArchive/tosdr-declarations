@@ -1,0 +1,17 @@
+{
+  "name": "Uber",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacy.uber.com/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.uber.com/legal/terms/us/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.uber.com/legal/en/document/?country=united-states&lang=en&name=report-copyright-infringement",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Simplero",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://simplero.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://simplero.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

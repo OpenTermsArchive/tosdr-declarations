@@ -1,0 +1,13 @@
+{
+  "name": "Auberge du jeu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aubergedujeu.ch/politique-de-confidentialite/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.aubergedujeu.ch/politique-de-confidentialite/",
+      "select": null
+    }
+  }
+}

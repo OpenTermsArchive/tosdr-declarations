@@ -1,0 +1,13 @@
+{
+  "name": "Gordon food service",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gfs.com/en-us/terms-of-use-agreement",
+      "select": "html > body > div:nth-of-type(2) > div > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gfs.com/en-us/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > main"
+    }
+  }
+}

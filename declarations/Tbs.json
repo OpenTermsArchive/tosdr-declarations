@@ -1,0 +1,13 @@
+{
+  "name": "Tbs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.warnermediaprivacy.com/policycenter/b2c/WMG/en-us/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tbs.com/terms",
+      "select": "body"
+    }
+  }
+}

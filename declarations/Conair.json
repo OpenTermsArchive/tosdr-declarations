@@ -1,0 +1,13 @@
+{
+  "name": "Conair",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.conair.com/en/PrivacyPolicy?lang=en_US",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.conair.com/en/termsofuse?lang=en_US",
+      "select": "body"
+    }
+  }
+}

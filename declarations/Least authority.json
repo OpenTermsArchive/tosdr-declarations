@@ -1,0 +1,9 @@
+{
+  "name": "Least authority",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://leastauthority.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div > main > article > div > div"
+    }
+  }
+}

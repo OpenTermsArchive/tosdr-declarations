@@ -1,0 +1,9 @@
+{
+  "name": "Aragon ventures llc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aragon.ventures/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Spanio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.span.io/sales-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.span.io/privacy",
+      "select": "body"
+    }
+  }
+}

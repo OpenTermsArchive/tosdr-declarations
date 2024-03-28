@@ -1,0 +1,9 @@
+{
+  "name": "The sapa project",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.sapa-project.org/survey/start.php",
+      "select": "body"
+    }
+  }
+}

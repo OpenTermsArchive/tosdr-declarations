@@ -1,0 +1,13 @@
+{
+  "name": "Reverso",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.reverso.net/privacy.aspx?lang=EN",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://account.reverso.net/Terms",
+      "select": "body"
+    }
+  }
+}

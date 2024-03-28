@@ -1,0 +1,13 @@
+{
+  "name": "Drawgpt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://drawgpt.ai/privacy-policy/",
+      "select": "html > body > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://drawgpt.ai/terms-of-service/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

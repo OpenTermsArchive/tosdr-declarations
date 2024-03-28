@@ -1,0 +1,17 @@
+{
+  "name": "Wanttoknownlbe",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wanttoknow.nl/algemene-voorwaarden-wanttoknow-aanbiedingen/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wanttoknow.nl/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wanttoknow.nl/cookies-op-wanttoknow/",
+      "select": null
+    }
+  }
+}

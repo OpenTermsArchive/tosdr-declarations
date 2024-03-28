@@ -1,0 +1,13 @@
+{
+  "name": "Klarna",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.klarna.com/us/privacy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.klarna.com/us/legal/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Therapynotes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.therapyportal.com/portal/legal/privacypolicy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.therapyportal.com/portal/legal/usertermsofservice/",
+      "select": "body"
+    }
+  }
+}

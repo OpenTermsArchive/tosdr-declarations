@@ -1,0 +1,13 @@
+{
+  "name": "Mediafire",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.mediafire.com/policies/privacy_policy.php",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mediafire.com/policies/terms_of_service.php",
+      "select": null
+    }
+  }
+}

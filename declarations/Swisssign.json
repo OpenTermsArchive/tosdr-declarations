@@ -1,0 +1,17 @@
+{
+  "name": "Swisssign",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.swisssign.com/en/datenschutz.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.swisssign.com/en/agb-swisssign.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.swisssign.com/en/rechtlicher-hinweis.html",
+      "select": "body"
+    }
+  }
+}

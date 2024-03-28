@@ -1,0 +1,9 @@
+{
+  "name": "Toplogger",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://app.toplogger.nu/en-gb/terms-of-service",
+      "select": "html > body > div:first-of-type > div > main > div"
+    }
+  }
+}

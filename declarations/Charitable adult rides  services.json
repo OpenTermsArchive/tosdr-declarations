@@ -1,0 +1,13 @@
+{
+  "name": "Charitable adult rides  services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://careasy.org/privacy-policy",
+      "select": "html > body > main > main > section > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://careasy.org/terms-of-use",
+      "select": "body"
+    }
+  }
+}

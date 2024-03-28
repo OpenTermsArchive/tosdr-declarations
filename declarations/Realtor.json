@@ -1,0 +1,9 @@
+{
+  "name": "Realtor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.realtor.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

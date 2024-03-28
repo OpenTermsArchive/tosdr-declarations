@@ -1,0 +1,21 @@
+{
+  "name": "T2botio",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://t2bot.io/docs/legal/copyright-v1/",
+      "select": "html > body > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://t2bot.io/docs/legal/terms-v1/",
+      "select": "html > body > div > main"
+    },
+    "Community Guidelines": {
+      "fetch": "https://t2bot.io/docs/legal/code-of-conduct-v1/",
+      "select": "html > body > div > main"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://t2bot.io/docs/legal/security-disclosure-policy-v1/",
+      "select": "html > body > div > main"
+    }
+  }
+}

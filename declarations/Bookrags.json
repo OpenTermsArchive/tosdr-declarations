@@ -1,0 +1,13 @@
+{
+  "name": "Bookrags",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://support.bookrags.com/hc/en-us/articles/233215788-Privacy-Policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://support.bookrags.com/hc/en-us/articles/233215668-Terms-of-Service",
+      "select": "body"
+    }
+  }
+}

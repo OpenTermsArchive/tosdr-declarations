@@ -1,0 +1,13 @@
+{
+  "name": "Tixte",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tixte.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tixte.com/legal/terms",
+      "select": "body"
+    }
+  }
+}

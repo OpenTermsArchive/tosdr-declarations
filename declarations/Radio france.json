@@ -1,0 +1,9 @@
+{
+  "name": "Radio france",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.radiofrance.com/protection-des-donnees",
+      "select": " > section:nth-of-type(5) > div > div > div > div:first-of-type"
+    }
+  }
+}

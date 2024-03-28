@@ -1,0 +1,13 @@
+{
+  "name": "Mimecast",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mimecast.com/company/mimecast-trust-center/privacy-statement/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mimecast.com/legal/terms-of-use/",
+      "select": null
+    }
+  }
+}

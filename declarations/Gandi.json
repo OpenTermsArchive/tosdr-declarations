@@ -1,0 +1,9 @@
+{
+  "name": "Gandi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gandi.net/en/contracts/privacy-policy",
+      "select": "body"
+    }
+  }
+}

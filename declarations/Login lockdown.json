@@ -1,0 +1,13 @@
+{
+  "name": "Login lockdown",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://loginlockdown.com/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://loginlockdown.com/privacy-policy",
+      "select": null
+    }
+  }
+}

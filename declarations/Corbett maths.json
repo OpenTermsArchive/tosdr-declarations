@@ -1,0 +1,13 @@
+{
+  "name": "Corbett maths",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://corbettmaths.com/2018/05/17/terms-and-conditions/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://corbettmaths.com/2018/05/17/privacy-policy/",
+      "select": null
+    }
+  }
+}

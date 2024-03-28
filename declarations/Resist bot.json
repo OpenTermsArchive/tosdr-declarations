@@ -1,0 +1,13 @@
+{
+  "name": "Resist bot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://resist.bot/terms",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://resist.bot/privacy",
+      "select": "body"
+    }
+  }
+}

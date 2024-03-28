@@ -1,0 +1,9 @@
+{
+  "name": "Identica",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://identi.ca/javascript/about.html",
+      "select": "body"
+    }
+  }
+}

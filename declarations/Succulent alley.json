@@ -1,0 +1,13 @@
+{
+  "name": "Succulent alley",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://succulentalley.com/terms-and-conditions/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://succulentalley.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Smurfgo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://smurfgo.com/index.php?view=privacypolicy&",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Privacy guides",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacyguides.org/privacy-policy/",
+      "select": "html > body > main > div"
+    },
+    "Legal Information": {
+      "fetch": "https://privacyguides.org/terms-and-notices/",
+      "select": "html > body > main > div"
+    }
+  }
+}

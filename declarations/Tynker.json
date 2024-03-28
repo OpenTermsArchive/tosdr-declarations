@@ -1,0 +1,13 @@
+{
+  "name": "Tynker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tynker.com/privacy/non-student",
+      "select": "html > body > main > div > div:nth-of-type(2) > section > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tynker.com/terms/live-classes",
+      "select": "html > body > main > div > div:nth-of-type(2) > section > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Univention",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.univention.com/privacy-statement/",
+      "select": "html > body > main > div > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.univention.de/wp-content/uploads/2020/01/200124_Terms-Conditions_EN.pdf",
+      "select": "body"
+    }
+  }
+}

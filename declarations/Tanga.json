@@ -1,0 +1,13 @@
+{
+  "name": "Tanga",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tanga.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tanga.com/pages/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

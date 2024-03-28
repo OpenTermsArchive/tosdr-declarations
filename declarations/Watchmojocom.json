@@ -1,0 +1,9 @@
+{
+  "name": "Watchmojocom",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.watchmojo.com/corporate/copyright.php",
+      "select": "body"
+    }
+  }
+}

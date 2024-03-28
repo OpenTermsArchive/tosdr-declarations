@@ -1,0 +1,17 @@
+{
+  "name": "National pool wholesalers",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nationalpoolwholesalers.com/privacy_policy.html",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.nationalpoolwholesalers.com/shipping_policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nationalpoolwholesalers.com/terms_of_use.html",
+      "select": "body"
+    }
+  }
+}

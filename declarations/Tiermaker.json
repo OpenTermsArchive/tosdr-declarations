@@ -1,0 +1,13 @@
+{
+  "name": "Tiermaker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tiermaker.com/guidelines/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tiermaker.com/guidelines/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Seek",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.seek.com.au/",
+      "select": "body"
+    }
+  }
+}

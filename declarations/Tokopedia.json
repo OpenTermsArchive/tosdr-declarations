@@ -1,0 +1,13 @@
+{
+  "name": "Tokopedia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tokopedia.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tokopedia.com/terms",
+      "select": "body"
+    }
+  }
+}

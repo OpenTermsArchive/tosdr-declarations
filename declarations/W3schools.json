@@ -1,0 +1,13 @@
+{
+  "name": "W3schools",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.w3schools.com/about/about_copyright.asp",
+      "select": "#main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.w3schools.com/about/about_privacy.asp",
+      "select": "#main"
+    }
+  }
+}

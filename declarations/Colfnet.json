@@ -1,0 +1,13 @@
+{
+  "name": "Colfnet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://coflnet.com/legal",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://coflnet.com/privacy",
+      "select": "body"
+    }
+  }
+}

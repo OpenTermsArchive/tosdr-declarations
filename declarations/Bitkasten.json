@@ -1,0 +1,13 @@
+{
+  "name": "Bitkasten",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bitkasten.de/nutzungsbedingungen/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bitkasten.de/datenschutzerklaerung/",
+      "select": "body"
+    }
+  }
+}

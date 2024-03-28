@@ -1,0 +1,9 @@
+{
+  "name": "Hackerweb",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hackerwebapp.com/privacy.md",
+      "select": "body"
+    }
+  }
+}

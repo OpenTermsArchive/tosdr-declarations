@@ -1,0 +1,13 @@
+{
+  "name": "My treat bag",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mytrickortreat.com/terms/",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mytrickortreat.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > main > div"
+    }
+  }
+}

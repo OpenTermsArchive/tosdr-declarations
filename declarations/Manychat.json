@@ -1,0 +1,13 @@
+{
+  "name": "Manychat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://manychat.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://manychat.com/tos.html",
+      "select": "body"
+    }
+  }
+}

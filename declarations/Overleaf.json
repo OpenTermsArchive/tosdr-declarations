@@ -1,0 +1,25 @@
+{
+  "name": "Overleaf",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.overleaf.com/legal#Terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.overleaf.com/legal#Security",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.overleaf.com/legal#Cookies",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.overleaf.com/legal#Use",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.overleaf.com/legal#Privacy",
+      "select": "body"
+    }
+  }
+}

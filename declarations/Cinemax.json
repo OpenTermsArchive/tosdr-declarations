@@ -1,0 +1,17 @@
+{
+  "name": "Cinemax",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cinemax.com/terms-of-use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cinemax.com/privacy-policy.html",
+      "select": "html > body > div:first-of-type > div > div > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.cinemax.com/ad-choices.html",
+      "select": "body"
+    }
+  }
+}

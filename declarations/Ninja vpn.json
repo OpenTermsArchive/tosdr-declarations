@@ -1,0 +1,13 @@
+{
+  "name": "Ninja vpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ninjavpn.io/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ninjavpn.io/privacy",
+      "select": "body"
+    }
+  }
+}

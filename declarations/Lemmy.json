@@ -1,0 +1,9 @@
+{
+  "name": "Lemmy",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://join-lemmy.org/docs/en/code_of_conduct.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Razer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.razer.com/legal/customer-privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.razer.com/legal/general-terms-of-use",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.razer.com/legal/cookies",
+      "select": "body"
+    }
+  }
+}

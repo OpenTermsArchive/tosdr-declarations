@@ -1,0 +1,17 @@
+{
+  "name": "Lorex",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.lorex.com/pages/cookie-notice ",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.lorex.com/policies/terms-of-service ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lorex.com/policies/privacy-policy",
+      "select": null
+    }
+  }
+}

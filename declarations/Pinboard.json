@@ -1,0 +1,13 @@
+{
+  "name": "Pinboard",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pinboard.in/tos/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://pinboard.in/privacy/",
+      "select": null
+    }
+  }
+}

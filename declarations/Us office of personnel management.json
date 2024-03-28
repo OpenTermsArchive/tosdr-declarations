@@ -1,0 +1,9 @@
+{
+  "name": "Us office of personnel management",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.opm.gov/information-management/privacy-policy/#url=Web-Privacy-Notice",
+      "select": "body"
+    }
+  }
+}

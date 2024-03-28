@@ -1,0 +1,9 @@
+{
+  "name": "Seafile",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.seafile.com/en/privacy_policy/",
+      "select": "body"
+    }
+  }
+}

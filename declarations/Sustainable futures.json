@@ -1,0 +1,9 @@
+{
+  "name": "Sustainable futures",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sustainablefuturesglobal.org/sfa_privacy-policy/",
+      "select": "body"
+    }
+  }
+}

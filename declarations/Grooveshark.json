@@ -1,0 +1,9 @@
+{
+  "name": "Grooveshark",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://web.archive.org/web/20080419142634/grooveshark.com/terms",
+      "select": null
+    }
+  }
+}

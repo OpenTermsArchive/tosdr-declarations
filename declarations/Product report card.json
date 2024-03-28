@@ -1,0 +1,13 @@
+{
+  "name": "Product report card",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.productreportcard.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.productreportcard.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    }
+  }
+}

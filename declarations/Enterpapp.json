@@ -1,0 +1,13 @@
+{
+  "name": "Enterpapp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://enterpapp.xyz/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://enterpapp.xyz/terms-conditions.html",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Summertime saga",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://summertimesaga.com/privacy",
+      "select": null
+    }
+  }
+}

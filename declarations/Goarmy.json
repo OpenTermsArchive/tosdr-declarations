@@ -1,0 +1,9 @@
+{
+  "name": "Goarmy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.goarmy.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

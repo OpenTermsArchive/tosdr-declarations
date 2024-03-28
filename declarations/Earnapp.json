@@ -1,0 +1,13 @@
+{
+  "name": "Earnapp",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://earnapp.com/user-agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://earnapp.com/privacy",
+      "select": "body"
+    }
+  }
+}

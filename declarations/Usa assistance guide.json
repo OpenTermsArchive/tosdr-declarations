@@ -1,0 +1,13 @@
+{
+  "name": "Usa assistance guide",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://usaassistanceguide.com/terms-conditions/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://usaassistanceguide.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

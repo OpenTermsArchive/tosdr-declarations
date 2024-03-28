@@ -1,0 +1,13 @@
+{
+  "name": "Peoplelooker",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.peoplelooker.com/terms-conditions/",
+      "select": "html > body > section:nth-of-type(2) > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.peoplelooker.com/privacy-policy/",
+      "select": "html > body > section:nth-of-type(2) > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Namazsoeu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://namazso.eu/privacy.html",
+      "select": "body"
+    }
+  }
+}

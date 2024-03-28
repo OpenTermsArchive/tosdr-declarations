@@ -1,0 +1,21 @@
+{
+  "name": "Logitech",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.logitech.com/en-us/legal/cookie-policy.html",
+      "select": "html > body > div:first-of-type > main > div > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.logitech.com/en-us/legal/product-privacy-policy.html",
+      "select": "html > body > div:first-of-type > main > div > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.logitech.com/en-us/footer/terms-of-use",
+      "select": "html > body > div:first-of-type > main > div > div > div:first-of-type"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.logitech.com/en-us/my-account/order-faqs.html#returns-cancellations",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(65) > div > div > div > div:nth-of-type(3) > div > div > section > div > div"
+    }
+  }
+}

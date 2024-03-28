@@ -1,0 +1,9 @@
+{
+  "name": "Alivebarinstance",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://alive.bar/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:first-of-type > div"
+    }
+  }
+}

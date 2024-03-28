@@ -1,0 +1,13 @@
+{
+  "name": "Equitable",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://equitable.com/about-us/usage",
+      "select": "html > body > div:first-of-type > main > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://equitable.com/about-us/privacy",
+      "select": "html > body > div:first-of-type > main > div > div:first-of-type > div > div > div:first-of-type > div > div > div"
+    }
+  }
+}

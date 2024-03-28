@@ -1,0 +1,13 @@
+{
+  "name": "Gojek",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gojek.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gojek.com/en-id/terms-of-service",
+      "select": "body"
+    }
+  }
+}

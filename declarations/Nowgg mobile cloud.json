@@ -1,0 +1,21 @@
+{
+  "name": "Nowgg mobile cloud",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://now.gg/terms-and-privacy.html#eu-privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://now.gg/terms-and-privacy.html#cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://now.gg/terms-and-privacy.html#privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://now.gg/terms-and-privacy.html#terms",
+      "select": "body"
+    }
+  }
+}

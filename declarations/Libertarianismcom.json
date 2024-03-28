@@ -1,0 +1,13 @@
+{
+  "name": "Libertarianismcom",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.libertarianism.com/shipping-returns/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.libertarianism.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

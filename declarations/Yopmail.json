@@ -1,0 +1,9 @@
+{
+  "name": "Yopmail",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yopmail.com/en/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main"
+    }
+  }
+}

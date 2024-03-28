@@ -1,0 +1,25 @@
+{
+  "name": "Vive",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.htc.com/uk/terms/privacy/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://myshop.vive.com/vive_uk/faq/category/return-cancellation",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.htc.com/us/terms/code-of-conduct/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.htc.com/us/terms/terms-of-use",
+      "select": "html > body > div:first-of-type > aside > section > div > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.vive.com/uk/cookie-preferences/",
+      "select": "body"
+    }
+  }
+}

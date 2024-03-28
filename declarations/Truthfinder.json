@@ -1,0 +1,13 @@
+{
+  "name": "Truthfinder",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.truthfinder.com/privacy-policy/",
+      "select": "html > body > section > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.truthfinder.com/terms-of-use/",
+      "select": "html > body > section > div"
+    }
+  }
+}

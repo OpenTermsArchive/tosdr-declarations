@@ -1,0 +1,21 @@
+{
+  "name": "Digital theatre+",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://edu.digitaltheatreplus.com/privacy-policy",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://edu.digitaltheatreplus.com/cookies",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://edu.digitaltheatreplus.com/copyright",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://edu.digitaltheatreplus.com/terms/uk",
+      "select": null
+    }
+  }
+}

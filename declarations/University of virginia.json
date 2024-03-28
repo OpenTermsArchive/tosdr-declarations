@@ -1,0 +1,9 @@
+{
+  "name": "University of virginia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.virginia.edu/siteinfo/privacy",
+      "select": "body"
+    }
+  }
+}

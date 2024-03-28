@@ -1,0 +1,13 @@
+{
+  "name": "Walgreens",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.walgreens.com/topic/help/generalhelp/privacyandsecurity.jsp?foot=security",
+      "select": "html > body > main > div:first-of-type > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.walgreens.com/topic/help/generalhelp/termsofuse.jsp",
+      "select": "html > body > main > div:first-of-type > div > section"
+    }
+  }
+}

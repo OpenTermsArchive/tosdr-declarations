@@ -1,0 +1,13 @@
+{
+  "name": "Consent manager",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.consentmanager.net/tac.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.consentmanager.net/datenschutz",
+      "select": "html > body > main > div"
+    }
+  }
+}

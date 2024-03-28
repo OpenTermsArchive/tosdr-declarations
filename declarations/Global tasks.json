@@ -1,0 +1,13 @@
+{
+  "name": "Global tasks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vQs0IpVlELlsMXeXDvdgd9uuy88D4sg_sLIIMccCwGMn18-Ca0RtLG3-prkBULsyrh0tf7sv-Z6a_l-/pub",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/e/2PACX-1vSkQf1wYMi6HyIDhZPJUXwmoQMubP7EgaQfjt57xtpK9a7F7GUYyXRz12Zx8pkwqA/pub",
+      "select": "body"
+    }
+  }
+}

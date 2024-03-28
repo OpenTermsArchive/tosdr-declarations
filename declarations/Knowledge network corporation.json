@@ -1,0 +1,9 @@
+{
+  "name": "Knowledge network corporation",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.knowledge.ca/terms-privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Greenlightdepot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://greenlightdepot.com/pages/terms-of-service",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://greenlightdepot.com/pages/customer-warranty",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://greenlightdepot.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

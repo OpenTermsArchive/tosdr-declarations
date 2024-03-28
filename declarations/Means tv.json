@@ -1,0 +1,13 @@
+{
+  "name": "Means tv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://means.tv/pages/terms-conditions",
+      "select": "html > body > main > div:first-of-type > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://means.tv/pages/privacy-policy",
+      "select": "html > body > main > div:first-of-type > div > div > div"
+    }
+  }
+}

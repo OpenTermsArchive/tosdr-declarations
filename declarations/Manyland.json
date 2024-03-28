@@ -1,0 +1,9 @@
+{
+  "name": "Manyland",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://manyland.com/info#terms",
+      "select": "body"
+    }
+  }
+}

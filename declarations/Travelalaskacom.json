@@ -1,0 +1,9 @@
+{
+  "name": "Travelalaskacom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.travelalaska.com/Contact/Privacy-Policy.aspx",
+      "select": "html > body > form > div:nth-of-type(3) > main > div > div > div > div > div > div > div > div"
+    }
+  }
+}

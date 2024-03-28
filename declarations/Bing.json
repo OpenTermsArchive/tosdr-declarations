@@ -1,0 +1,13 @@
+{
+  "name": "Bing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacy.microsoft.com/en-us/privacystatement",
+      "select": " > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.microsoft.com/en-us/servicesagreement/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type"
+    }
+  }
+}

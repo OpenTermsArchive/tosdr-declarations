@@ -1,0 +1,9 @@
+{
+  "name": "Sportractive",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://sportractive.com/index.php?link=privacypolicy&lang=en",
+      "select": "body"
+    }
+  }
+}

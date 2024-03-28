@@ -1,0 +1,13 @@
+{
+  "name": "Looki",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.looki.com/en/privacy",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.looki.com/en/terms",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    }
+  }
+}

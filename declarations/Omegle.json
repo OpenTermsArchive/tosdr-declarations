@@ -1,0 +1,13 @@
+{
+  "name": "Omegle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.omegle.com/static/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.omegle.com/",
+      "select": "body"
+    }
+  }
+}

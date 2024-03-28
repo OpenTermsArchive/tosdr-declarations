@@ -1,0 +1,9 @@
+{
+  "name": "Regtons",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://regtons.com/registration_agreement.pdf",
+      "select": "body"
+    }
+  }
+}

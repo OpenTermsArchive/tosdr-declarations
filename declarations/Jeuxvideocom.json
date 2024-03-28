@@ -1,0 +1,21 @@
+{
+  "name": "Jeuxvideocom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.jeuxvideo.com/cookies.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jeuxvideo.com/cgu.htm ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.jeuxvideo.com/politique-confidentialite.htm ",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.jeuxvideo.com/cgv.htm ",
+      "select": "body"
+    }
+  }
+}

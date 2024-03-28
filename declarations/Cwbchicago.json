@@ -1,0 +1,9 @@
+{
+  "name": "Cwbchicago",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cwbchicago.com/26359-2",
+      "select": null
+    }
+  }
+}

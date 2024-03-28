@@ -1,0 +1,13 @@
+{
+  "name": "Take action for mental health",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://takeaction4mh.com/privacy-policy/",
+      "select": "html > body > section > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://takeaction4mh.com/terms-and-conditions/",
+      "select": "html > body > section > div > div:nth-of-type(2)"
+    }
+  }
+}

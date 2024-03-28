@@ -1,0 +1,13 @@
+{
+  "name": "Metacafe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.metacafe.com/privacy/policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.metacafe.com/privacy/terms/",
+      "select": "body"
+    }
+  }
+}

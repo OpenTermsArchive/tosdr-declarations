@@ -1,0 +1,17 @@
+{
+  "name": "Rediff",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rediff.com/w3c/policy.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.rediff.com/disclaim.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rediff.com/terms.html",
+      "select": "body"
+    }
+  }
+}

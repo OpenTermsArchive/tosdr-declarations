@@ -1,0 +1,13 @@
+{
+  "name": "Goguardian",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.goguardian.com/eula.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.goguardian.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

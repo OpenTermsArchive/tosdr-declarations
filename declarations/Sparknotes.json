@@ -1,0 +1,9 @@
+{
+  "name": "Sparknotes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sparknotes.com/legal",
+      "select": "body"
+    }
+  }
+}

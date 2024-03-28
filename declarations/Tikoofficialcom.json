@@ -1,0 +1,13 @@
+{
+  "name": "Tikoofficialcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tikoofficial.com/TIKO%20Privacy%20Policy%20-%20Final.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tikoofficial.com/TIKO%20Terms%20of%20Use%20-%20Static%20Version.pdf",
+      "select": "body"
+    }
+  }
+}

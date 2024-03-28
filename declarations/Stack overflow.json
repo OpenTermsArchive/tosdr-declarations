@@ -1,0 +1,29 @@
+{
+  "name": "Stack overflow",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://stackoverflow.com/legal/gdpr/data-subjects",
+      "select": "main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://stackoverflow.com/legal/cookie-policy",
+      "select": "main"
+    },
+    "Terms of Service": {
+      "fetch": "https://stackoverflow.com/legal/terms-of-service/public",
+      "select": "main"
+    },
+    "Data Controller Agreement": {
+      "fetch": "https://stackoverflow.com/legal/gdpr/data-controllers",
+      "select": "main"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://stackoverflow.com/legal/acceptable-use-policy",
+      "select": "main"
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://stackoverflow.com/legal/gdpr/data-processors",
+      "select": "main"
+    }
+  }
+}

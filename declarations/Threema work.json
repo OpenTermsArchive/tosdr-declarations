@@ -1,0 +1,13 @@
+{
+  "name": "Threema work",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://threema.ch/privacy_policy/index.php?lang=en&version=0k",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://work.threema.ch/en/terms-of-service",
+      "select": "body"
+    }
+  }
+}

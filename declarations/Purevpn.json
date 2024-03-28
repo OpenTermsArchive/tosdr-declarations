@@ -1,0 +1,17 @@
+{
+  "name": "Purevpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.purevpn.com/term-of-affiliate.php",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.purevpn.com/privacy-policy.php",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(3) > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.purevpn.com/refund-policy.php",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(3) > div"
+    }
+  }
+}

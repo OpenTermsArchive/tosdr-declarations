@@ -1,0 +1,13 @@
+{
+  "name": "Verisign",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.verisign.com/en_US/verisign-privacy-statement/index.xhtml",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.verisign.com/en_US/legal-notices/index.xhtml",
+      "select": "html > body > article > div:nth-of-type(2) > div > section"
+    }
+  }
+}

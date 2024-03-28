@@ -1,0 +1,13 @@
+{
+  "name": "Safedns",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.safedns.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.safedns.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

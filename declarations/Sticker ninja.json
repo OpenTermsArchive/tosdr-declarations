@@ -1,0 +1,13 @@
+{
+  "name": "Sticker ninja",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://stickerninja.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://stickerninja.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Bucket list journey",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://bucketlistjourney.net/terms/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > section > div > div > div > div > div > div > div:first-of-type"
+    }
+  }
+}

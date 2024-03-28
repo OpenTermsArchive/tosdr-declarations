@@ -1,0 +1,13 @@
+{
+  "name": "Zanterite",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://zanterite.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://zanterite.com/terms",
+      "select": "body"
+    }
+  }
+}

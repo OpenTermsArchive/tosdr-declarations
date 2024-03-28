@@ -1,0 +1,9 @@
+{
+  "name": "Adult film index",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://adultfilmindex.com/terms",
+      "select": "body"
+    }
+  }
+}

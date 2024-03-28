@@ -1,0 +1,17 @@
+{
+  "name": "Bright vpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://brightvpn.com/legal/sla",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://brightvpn.com/legal/dmca",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://brightvpn.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

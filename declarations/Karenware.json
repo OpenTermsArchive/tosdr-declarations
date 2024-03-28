@@ -1,0 +1,9 @@
+{
+  "name": "Karenware",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.karenware.com/privacy",
+      "select": "html > body > main > div > div:first-of-type > div > div"
+    }
+  }
+}

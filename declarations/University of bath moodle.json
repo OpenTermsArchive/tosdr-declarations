@@ -1,0 +1,21 @@
+{
+  "name": "University of bath moodle",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.bath.ac.uk/corporate-information/it-acceptable-use-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bath.ac.uk/guides/data-protection-act/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.bath.ac.uk/guides/understanding-copyright-and-keeping-your-copying-legal/",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.bath.ac.uk/guides/data-protection-statement-for-student-registration/",
+      "select": "body"
+    }
+  }
+}

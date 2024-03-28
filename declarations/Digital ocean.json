@@ -1,0 +1,21 @@
+{
+  "name": "Digital ocean",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://www.digitalocean.com/legal/acceptable-use-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > section > span > section > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.digitalocean.com/legal/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > section > span > section > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.digitalocean.com/legal/terms-of-service-agreement",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > section > span > section > div > div:first-of-type"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.digitalocean.com/legal/dmca-copyright-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > section > span > section > div > div:first-of-type"
+    }
+  }
+}

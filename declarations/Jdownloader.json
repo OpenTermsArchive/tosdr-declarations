@@ -1,0 +1,13 @@
+{
+  "name": "Jdownloader",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://my.jdownloader.org/legal/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://my.jdownloader.org/legal/terms.html",
+      "select": "body"
+    }
+  }
+}

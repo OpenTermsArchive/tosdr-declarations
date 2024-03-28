@@ -1,0 +1,13 @@
+{
+  "name": "Boss monsta",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://bossmonsta.com/policies/refund-policy",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://bossmonsta.com/policies/terms-of-service",
+      "select": "body"
+    }
+  }
+}

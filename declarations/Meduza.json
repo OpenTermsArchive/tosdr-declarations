@@ -1,0 +1,9 @@
+{
+  "name": "Meduza",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://meduza.io/feature/2018/05/22/kak-my-obrabatyvaem-vashi-personalnye-dannye-kotorye-hranyatsya-na-meduze",
+      "select": "body"
+    }
+  }
+}

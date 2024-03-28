@@ -1,0 +1,13 @@
+{
+  "name": "Careerboutique",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.careerboutique.com/privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.careerboutique.com/terms_of_use",
+      "select": "body"
+    }
+  }
+}

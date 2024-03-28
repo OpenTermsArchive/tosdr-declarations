@@ -1,0 +1,21 @@
+{
+  "name": "Polarsteps",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.polarsteps.com/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.polarsteps.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.polarsteps.com/terms-of-use",
+      "select": "html > body > div:nth-of-type(10) > div > div:nth-of-type(2) > div:nth-of-type(3) > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.polarsteps.com/notice-and-takedown",
+      "select": "body"
+    }
+  }
+}

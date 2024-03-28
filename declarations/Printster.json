@@ -1,0 +1,13 @@
+{
+  "name": "Printster",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.printster.co.uk/privacy/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.printster.co.uk/conditions/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

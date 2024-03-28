@@ -1,0 +1,17 @@
+{
+  "name": "Le soir",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.rossel.be/mentions-legales/politique-protection-vie-privee-1/",
+      "select": "html > body > main > div > ul > li:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "http://www.rossel.be/mentions-legales/cookies-1/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://www.rossel.be/mentions-legales/rossel-cie-2/cgv-3/",
+      "select": "body"
+    }
+  }
+}

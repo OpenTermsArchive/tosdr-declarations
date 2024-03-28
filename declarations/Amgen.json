@@ -1,0 +1,13 @@
+{
+  "name": "Amgen",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wwwext.amgen.com/privacy-statement ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.amgen.com/terms-of-use",
+      "select": "html > body > div:nth-of-type(9) > div > div > div"
+    }
+  }
+}

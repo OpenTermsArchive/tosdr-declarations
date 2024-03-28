@@ -1,0 +1,17 @@
+{
+  "name": "Whereby",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://whereby.com/information/tos/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "www.whereby.com/information/tos/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://whereby.com/information/tos/",
+      "select": "body"
+    }
+  }
+}

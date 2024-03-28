@@ -1,0 +1,13 @@
+{
+  "name": "Doc  phoebe",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docandphoebe.com/pages/terms-conditions-new",
+      "select": "html > body > div:nth-of-type(3) > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docandphoebe.com/pages/privacy-policy-new",
+      "select": "html > body > div:nth-of-type(3) > section"
+    }
+  }
+}

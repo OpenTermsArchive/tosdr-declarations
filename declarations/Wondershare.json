@@ -1,0 +1,21 @@
+{
+  "name": "Wondershare",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.wondershare.com/cookies-policy.html",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://filmstock.wondershare.com/license/what-is-your-refund-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://filmstock.wondershare.com/license/end-user-license-agreement.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://filmstock.wondershare.com/license/filmstocks-privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

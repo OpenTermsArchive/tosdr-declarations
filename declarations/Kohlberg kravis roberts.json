@@ -1,0 +1,13 @@
+{
+  "name": "Kohlberg kravis roberts",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.kkr.com/privacy-notice-non-eu",
+      "select": "html > body > section:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kkr.com/terms-use",
+      "select": "body"
+    }
+  }
+}

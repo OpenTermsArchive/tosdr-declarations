@@ -1,0 +1,13 @@
+{
+  "name": "Writeaprisoner",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://writeaprisoner.com/terms-service",
+      "select": "html > body > div:nth-of-type(5) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://writeaprisoner.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(5) > div"
+    }
+  }
+}

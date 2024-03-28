@@ -1,0 +1,9 @@
+{
+  "name": "The back room tech",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://thebackroomtech.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Etura",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://e-tugra.com.tr/kullanim-sartlari/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://e-tugra.com.tr/gizlilik-politikasi/",
+      "select": "body"
+    }
+  }
+}

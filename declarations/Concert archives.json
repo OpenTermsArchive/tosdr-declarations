@@ -1,0 +1,17 @@
+{
+  "name": "Concert archives",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.concertarchives.org/privacy-policy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.concertarchives.org/dmca-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.concertarchives.org/terms-of-use",
+      "select": "body"
+    }
+  }
+}

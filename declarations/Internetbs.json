@@ -1,0 +1,9 @@
+{
+  "name": "Internetbs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://internetbs.net/en/privacypolicy.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4) > div > div"
+    }
+  }
+}

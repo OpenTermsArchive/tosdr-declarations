@@ -1,0 +1,13 @@
+{
+  "name": "Epubor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://epubor.com/privacy-policy.html",
+      "select": " > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://epubor.com/refund-policy.html",
+      "select": " > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    }
+  }
+}

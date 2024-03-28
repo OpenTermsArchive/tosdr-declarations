@@ -1,0 +1,13 @@
+{
+  "name": "Dood stream",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://doodstream.com/copyright",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://doodstream.com/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div"
+    }
+  }
+}

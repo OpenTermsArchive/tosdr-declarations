@@ -1,0 +1,13 @@
+{
+  "name": "Nicehash",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nicehash.com/legal-privacy/shop-terms",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(6) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nicehash.com/legal-privacy/shop-privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(6) > div:nth-of-type(2)"
+    }
+  }
+}

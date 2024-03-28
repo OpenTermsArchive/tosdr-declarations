@@ -1,0 +1,13 @@
+{
+  "name": "Rampow",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rampow.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://rampow.com/privacy",
+      "select": "body"
+    }
+  }
+}

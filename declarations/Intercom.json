@@ -1,0 +1,29 @@
+{
+  "name": "Intercom",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.intercom.com/terms-and-policies#cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.intercom.com/terms-and-policies#sla",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.intercom.com/terms-and-policies#privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.intercom.com/terms-and-policies#support-policy",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.intercom.com/terms-and-policies#aup",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.intercom.com/terms-and-policies#billing",
+      "select": "body"
+    }
+  }
+}

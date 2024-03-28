@@ -1,0 +1,13 @@
+{
+  "name": "Action news jax",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.actionnewsjax.com/visitor-agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.actionnewsjax.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > section > div"
+    }
+  }
+}

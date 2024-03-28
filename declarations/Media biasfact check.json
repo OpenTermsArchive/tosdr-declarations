@@ -1,0 +1,13 @@
+{
+  "name": "Media biasfact check",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://mediabiasfactcheck.com/fair-use-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mediabiasfactcheck.com/terms-and-conditions/",
+      "select": null
+    }
+  }
+}

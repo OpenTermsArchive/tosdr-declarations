@@ -1,0 +1,17 @@
+{
+  "name": "Geniuslink",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://geniuslink.com/terms",
+      "select": "html > body > div:first-of-type"
+    },
+    "Community Guidelines": {
+      "fetch": "https://geniuslink.com/spam-policy",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://geniuslink.com/privacy",
+      "select": "html > body > div:first-of-type > section"
+    }
+  }
+}

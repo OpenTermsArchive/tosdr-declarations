@@ -1,0 +1,17 @@
+{
+  "name": "Vectary",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vectary.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.vectary.com/cookie-policy/",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vectary.com/terms-of-service/",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(2)"
+    }
+  }
+}

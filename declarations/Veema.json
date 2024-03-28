@@ -1,0 +1,17 @@
+{
+  "name": "Veema",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://veema.co.uk/veema-education-our-cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://veema.co.uk/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://veema.co.uk/veema-limited-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

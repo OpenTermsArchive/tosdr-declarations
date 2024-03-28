@@ -1,0 +1,13 @@
+{
+  "name": "Future of privacy forum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fpf.org/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://fpf.org/website-cookie-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

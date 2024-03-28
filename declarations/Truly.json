@@ -1,0 +1,13 @@
+{
+  "name": "Truly",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.trulybeauty.com/pages/shipping",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.trulybeauty.com/pages/privacy-policy-and-terms-of-use",
+      "select": "body"
+    }
+  }
+}

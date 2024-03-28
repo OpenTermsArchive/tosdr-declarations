@@ -1,0 +1,9 @@
+{
+  "name": "Codepen",
+  "documents": {
+    "Other": {
+      "fetch": "rstar",
+      "select": "body"
+    }
+  }
+}

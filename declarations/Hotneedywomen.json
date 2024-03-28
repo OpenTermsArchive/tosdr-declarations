@@ -1,0 +1,17 @@
+{
+  "name": "Hotneedywomen",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hotneedywomen.com/privacy",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.hotneedywomen.com/cookiepolicy",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hotneedywomen.com/agreement",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

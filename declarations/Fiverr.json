@@ -1,0 +1,13 @@
+{
+  "name": "Fiverr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fiverr.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fiverr.com/terms_of_service",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Bloxawards",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://bux.fun/terms-of-service",
+      "select": "body"
+    }
+  }
+}

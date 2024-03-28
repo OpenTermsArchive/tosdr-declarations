@@ -1,0 +1,17 @@
+{
+  "name": "Discord",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://discord.com/terms",
+      "select": "body > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://discord.com/privacy",
+      "select": "body > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Community Guidelines": {
+      "fetch": "https://discord.com/guidelines",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

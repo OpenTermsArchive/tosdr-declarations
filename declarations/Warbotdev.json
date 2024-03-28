@@ -1,0 +1,13 @@
+{
+  "name": "Warbotdev",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.warbot.dev/Other/TermsOfService/",
+      "select": "html > body > div:nth-of-type(3) > main > div > div:nth-of-type(3) > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.warbot.dev/Other/PrivacyPolicy/",
+      "select": "html > body > div:nth-of-type(3) > main > div > div:nth-of-type(3) > article"
+    }
+  }
+}

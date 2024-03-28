@@ -1,0 +1,13 @@
+{
+  "name": "Sequencingcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sequencing.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://sequencing.com/terms-use",
+      "select": "html > body > div:nth-of-type(3) > div"
+    }
+  }
+}

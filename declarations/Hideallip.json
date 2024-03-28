@@ -1,0 +1,13 @@
+{
+  "name": "Hideallip",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hideallip.com/privacy.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div > div > article > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.hideallip.com/refund.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div > div > article > div"
+    }
+  }
+}

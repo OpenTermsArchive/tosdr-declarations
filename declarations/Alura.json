@@ -1,0 +1,13 @@
+{
+  "name": "Alura",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.alura.com.br/termos-de-uso",
+      "select": "html > body > main > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.alura.com.br/politica-de-privacidade",
+      "select": "body"
+    }
+  }
+}

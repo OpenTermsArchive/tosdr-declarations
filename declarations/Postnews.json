@@ -1,0 +1,13 @@
+{
+  "name": "Postnews",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://post.news/about/verified_account_terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://post.news/about/privacy_policy",
+      "select": "body"
+    }
+  }
+}

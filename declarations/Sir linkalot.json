@@ -1,0 +1,13 @@
+{
+  "name": "Sir linkalot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sirlinkalot.org/privacypolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sirlinkalot.org/termsandconditions",
+      "select": "body"
+    }
+  }
+}

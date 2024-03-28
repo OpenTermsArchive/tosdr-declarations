@@ -1,0 +1,17 @@
+{
+  "name": "Hrk game",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.hrkgame.com/en/pages/refund-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hrkgame.com/en/pages/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hrkgame.com/en/pages/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

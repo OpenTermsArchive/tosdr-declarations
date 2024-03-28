@@ -1,0 +1,9 @@
+{
+  "name": "Hermitcraftcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hermitcraft.com/privacy",
+      "select": "body"
+    }
+  }
+}

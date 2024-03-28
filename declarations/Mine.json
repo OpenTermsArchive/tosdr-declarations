@@ -1,0 +1,13 @@
+{
+  "name": "Mine",
+  "documents": {
+    "Developer Terms": {
+      "fetch": "https://saymine.com/terms-of-use/the-highlights",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://saymine.com/privacy-policy/the-highlights",
+      "select": "body"
+    }
+  }
+}

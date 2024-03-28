@@ -1,0 +1,17 @@
+{
+  "name": "Vorwerk thermomix",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cookidoo.thermomix.com/commerce/en-US/terms-of-use",
+      "select": "html > body > div:first-of-type > div > core-richtext"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cookidoo.thermomix.com/commerce/en-US/privacy-policy",
+      "select": "html > body > div:first-of-type > div > core-richtext"
+    },
+    "Trackers Policy": {
+      "fetch": "https://cookidoo.thermomix.com/foundation/en-US/cookie-policy",
+      "select": "html > body > div:first-of-type > section > core-richtext"
+    }
+  }
+}

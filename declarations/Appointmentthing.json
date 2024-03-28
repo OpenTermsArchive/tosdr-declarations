@@ -1,0 +1,21 @@
+{
+  "name": "Appointmentthing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://appointmentthing.com/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://appointmentthing.com/privacy/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://appointmentthing.com/terms",
+      "select": "body"
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://appointmentthing.com/privacy/subdata-processors",
+      "select": "body"
+    }
+  }
+}

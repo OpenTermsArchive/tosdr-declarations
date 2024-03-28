@@ -1,0 +1,13 @@
+{
+  "name": "Rand paul",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://randpaul.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://randpaul.com/mobile-tos/",
+      "select": "body"
+    }
+  }
+}

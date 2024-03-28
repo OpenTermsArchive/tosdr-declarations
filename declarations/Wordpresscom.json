@@ -1,0 +1,17 @@
+{
+  "name": "Wordpresscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://automattic.com/privacy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://wordpress.com/tos/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://automattic.com/cookies/",
+      "select": " > div > div:first-of-type"
+    }
+  }
+}

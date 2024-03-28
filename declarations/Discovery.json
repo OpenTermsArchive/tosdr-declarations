@@ -1,0 +1,17 @@
+{
+  "name": "Discovery",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://corporate.discovery.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > article > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://corporate.discovery.com/visitor-agreement/",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > article > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://corporate.discovery.com/tracking-technologies-notice/",
+      "select": " > div > div"
+    }
+  }
+}

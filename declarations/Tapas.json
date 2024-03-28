@@ -1,0 +1,13 @@
+{
+  "name": "Tapas",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.tapas.io/hc/en-us/articles/115005377787",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.tapas.io/hc/en-us/articles/115005545248",
+      "select": "body"
+    }
+  }
+}

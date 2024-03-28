@@ -1,0 +1,13 @@
+{
+  "name": "Mailcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mail.com/company/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mail.com/company/privacypolicy/",
+      "select": "body"
+    }
+  }
+}

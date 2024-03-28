@@ -1,0 +1,9 @@
+{
+  "name": "Upload zeal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "data:text/html,By%20using%20this%20website,%20you%20agree%20your%20data%20may%20be%20sold.",
+      "select": "body"
+    }
+  }
+}

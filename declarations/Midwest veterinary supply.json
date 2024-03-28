@@ -1,0 +1,13 @@
+{
+  "name": "Midwest veterinary supply",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.midwestvetsupply.com/wps/portal/c/contact-us/about-us/mvs-privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.midwestvetsupply.com/wps/portal/c/contact-us/about-us/mvs-terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Anchor",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://anchor.fm/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://anchor.fm/privacy",
+      "select": "html > body > div:first-of-type > div > main > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://anchor.fm/dmca",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Oak national academy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thenational.academy/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.thenational.academy/legal/cookie-policy",
+      "select": "html > body > div:first-of-type > div > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.thenational.academy/legal/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div > div > main"
+    }
+  }
+}

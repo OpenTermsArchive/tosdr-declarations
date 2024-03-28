@@ -1,0 +1,13 @@
+{
+  "name": "Mitgo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policies.mitgo.com/en/privacy-policy/admitad-privacy-policy-intro/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://policies.mitgo.com/en/",
+      "select": "html > body > div:nth-of-type(2) > div > main > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

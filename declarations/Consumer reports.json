@@ -1,0 +1,9 @@
+{
+  "name": "Consumer reports",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.consumerreports.org/cro/customerservice/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

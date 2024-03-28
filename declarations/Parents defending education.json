@@ -1,0 +1,9 @@
+{
+  "name": "Parents defending education",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://defendinged.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

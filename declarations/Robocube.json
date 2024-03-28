@@ -1,0 +1,17 @@
+{
+  "name": "Robocube",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.robocube.co.uk/pages/t-c",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.robocube.co.uk/pages/privacy-policy",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.robocube.co.uk/policies/refund-policy",
+      "select": "body"
+    }
+  }
+}

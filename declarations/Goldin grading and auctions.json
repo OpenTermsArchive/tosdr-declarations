@@ -1,0 +1,13 @@
+{
+  "name": "Goldin grading and auctions",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.collectors.com/useragreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.collectors.com/privacy",
+      "select": "body"
+    }
+  }
+}

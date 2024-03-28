@@ -1,0 +1,17 @@
+{
+  "name": "Flowplayer",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://flowplayer.com/aup",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://flowplayer.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://flowplayer.com/terms",
+      "select": "body"
+    }
+  }
+}

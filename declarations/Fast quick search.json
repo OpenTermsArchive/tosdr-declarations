@@ -1,0 +1,17 @@
+{
+  "name": "Fast quick search",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fastquicksearch.com/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.fastquicksearch.com/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fastquicksearch.com/privacy",
+      "select": "body"
+    }
+  }
+}

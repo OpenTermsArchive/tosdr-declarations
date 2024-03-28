@@ -1,0 +1,13 @@
+{
+  "name": "Ynab you need a budget",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.youneedabudget.com/terms/",
+      "select": "html > body > div:first-of-type > main > article > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.youneedabudget.com/security/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Eitca",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://eitca.org/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://eitca.org/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

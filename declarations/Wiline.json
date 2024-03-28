@@ -1,0 +1,13 @@
+{
+  "name": "Wiline",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wiline.com/assets/WiLineServiceAgreementTermsAndConditions.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wiline.com/legal/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    }
+  }
+}

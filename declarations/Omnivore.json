@@ -1,0 +1,13 @@
+{
+  "name": "Omnivore",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://omnivore.app/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://omnivore.app/terms",
+      "select": "body"
+    }
+  }
+}

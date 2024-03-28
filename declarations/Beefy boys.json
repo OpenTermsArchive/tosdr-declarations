@@ -1,0 +1,17 @@
+{
+  "name": "Beefy boys",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://beefyboys.win/about/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://beefyboys.win/about/privacy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://beefyboys.win/about/dmca",
+      "select": "body"
+    }
+  }
+}

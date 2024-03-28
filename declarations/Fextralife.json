@@ -1,0 +1,17 @@
+{
+  "name": "Fextralife",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://fextralife.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://fextralife.com/privacy-policy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://fextralife.com/copyright-policy/",
+      "select": "body"
+    }
+  }
+}

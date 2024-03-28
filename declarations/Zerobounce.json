@@ -1,0 +1,13 @@
+{
+  "name": "Zerobounce",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zerobounce.net/privacy-policy.html",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > section > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.zerobounce.net/terms-of-use.html",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > section > div > div:nth-of-type(2)"
+    }
+  }
+}

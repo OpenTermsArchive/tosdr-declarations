@@ -1,0 +1,13 @@
+{
+  "name": "Perplexity ai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.perplexity.ai/privacy",
+      "select": "html > body > div > div > div:first-of-type > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.perplexity.ai/tos",
+      "select": "body"
+    }
+  }
+}

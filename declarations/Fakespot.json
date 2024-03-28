@@ -1,0 +1,13 @@
+{
+  "name": "Fakespot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fakespot.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fakespot.com/privacy-notice",
+      "select": "body"
+    }
+  }
+}

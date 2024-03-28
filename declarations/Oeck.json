@@ -1,0 +1,13 @@
+{
+  "name": "Oeck",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.oeck.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.oeck.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

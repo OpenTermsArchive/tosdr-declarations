@@ -1,0 +1,21 @@
+{
+  "name": "Filefactory",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.filefactory.com/legal/affiliate.php",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.filefactory.com/legal/fairusepolicy.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.filefactory.com/legal/privacy.php",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.filefactory.com/legal/dmca.php",
+      "select": "body"
+    }
+  }
+}

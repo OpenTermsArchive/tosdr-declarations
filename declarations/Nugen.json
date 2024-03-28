@@ -1,0 +1,9 @@
+{
+  "name": "Nugen",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nu-gen.net/policies",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

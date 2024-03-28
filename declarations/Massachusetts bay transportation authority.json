@@ -1,0 +1,13 @@
+{
+  "name": "Massachusetts bay transportation authority",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mbta.com/policies/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mbta.com/policies/terms-use",
+      "select": "body"
+    }
+  }
+}

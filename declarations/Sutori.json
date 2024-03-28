@@ -1,0 +1,13 @@
+{
+  "name": "Sutori",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sutori.com/en/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sutori.com/en/terms-of-use",
+      "select": "body"
+    }
+  }
+}

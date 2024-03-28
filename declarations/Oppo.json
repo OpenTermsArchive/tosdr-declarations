@@ -1,0 +1,9 @@
+{
+  "name": "Oppo",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.oppo.com/uk/privacy/ ",
+      "select": "body"
+    }
+  }
+}

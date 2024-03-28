@@ -1,0 +1,9 @@
+{
+  "name": "Phishstats",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://phishstats.info/tos.html",
+      "select": "body"
+    }
+  }
+}

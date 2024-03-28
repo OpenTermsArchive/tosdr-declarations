@@ -1,0 +1,13 @@
+{
+  "name": "Party animals",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://partyanimals.com/user-agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://partyanimals.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

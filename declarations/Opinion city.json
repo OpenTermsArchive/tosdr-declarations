@@ -1,0 +1,13 @@
+{
+  "name": "Opinion city",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.opinioncity.com/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.opinioncity.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

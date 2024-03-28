@@ -1,0 +1,13 @@
+{
+  "name": "Tripcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pages.trip.com/service-guideline/terms-en-us.html?locale=en-US&curr=USD",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://pages.trip.com/service-guideline/privacy-policy-en-us.html",
+      "select": "body"
+    }
+  }
+}

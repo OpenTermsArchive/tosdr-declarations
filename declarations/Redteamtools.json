@@ -1,0 +1,17 @@
+{
+  "name": "Redteamtools",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.redteamtools.com/shipping-returns/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.redteamtools.com/terms-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.redteamtools.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

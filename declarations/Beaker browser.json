@@ -1,0 +1,13 @@
+{
+  "name": "Beaker browser",
+  "documents": {
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://beakerbrowser.com/vuln-disclosure/ ",
+      "select": "body"
+    },
+    "Frequently Asked Questions": {
+      "fetch": "https://docs.beakerbrowser.com/faq",
+      "select": "body"
+    }
+  }
+}

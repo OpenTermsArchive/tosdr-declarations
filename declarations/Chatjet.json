@@ -1,0 +1,13 @@
+{
+  "name": "Chatjet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cvprogramming.tk/files/documents/licenses/ChatJetLicense.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cvprogramming.tk/files/documents/licenses/ChatJetPrivacy.pdf",
+      "select": "body"
+    }
+  }
+}

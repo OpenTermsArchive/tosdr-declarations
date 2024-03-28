@@ -1,0 +1,13 @@
+{
+  "name": "Cpalead",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cpalead.com/privacy.php",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cpalead.com/terms-of-service.php",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

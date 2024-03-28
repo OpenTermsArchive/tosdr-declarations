@@ -1,0 +1,13 @@
+{
+  "name": "Chris titus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://christitus.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://christitus.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

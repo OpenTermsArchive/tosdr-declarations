@@ -1,0 +1,21 @@
+{
+  "name": "Sweet",
+  "documents": {
+    "Other": {
+      "fetch": "https://sweet.sh/about#comparison",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://sweet.sh/about#privacy-policy",
+      "select": null
+    },
+    "About": {
+      "fetch": "https://sweet.sh/about#about-sweet",
+      "select": null
+    },
+    "Community Guidelines": {
+      "fetch": "https://sweet.sh/about#code-of-conduct",
+      "select": null
+    }
+  }
+}

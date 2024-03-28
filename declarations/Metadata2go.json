@@ -1,0 +1,13 @@
+{
+  "name": "Metadata2go",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.metadata2go.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.metadata2go.com/privacy",
+      "select": "body"
+    }
+  }
+}

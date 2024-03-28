@@ -1,0 +1,13 @@
+{
+  "name": "Iheartradio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iheart.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.iheart.com/content/terms-of-use/",
+      "select": " > div:nth-of-type(4) > div:nth-of-type(2) > section > div:first-of-type > div:nth-of-type(2) > article > div:nth-of-type(3) > section > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Moby group",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mobygroup.com/terms-of-use",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2) > div > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mobygroup.com/privacy-policy",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2) > div > div > div > div > div > div"
+    }
+  }
+}

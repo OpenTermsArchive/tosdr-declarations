@@ -1,0 +1,9 @@
+{
+  "name": "Guiding tech",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.guidingtech.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > main > article > div > div > div"
+    }
+  }
+}

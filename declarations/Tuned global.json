@@ -1,0 +1,9 @@
+{
+  "name": "Tuned global",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tunedglobal.com/privacy-policy-statement-tuned-global?hsLang=en",
+      "select": "body"
+    }
+  }
+}

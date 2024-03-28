@@ -1,0 +1,13 @@
+{
+  "name": "Cyberpowerpc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cyberpowerpc.com/company/warranty.aspx",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cyberpowerpc.com/company/privacy.aspx",
+      "select": null
+    }
+  }
+}

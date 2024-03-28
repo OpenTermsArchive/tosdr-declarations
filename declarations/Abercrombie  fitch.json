@@ -1,0 +1,13 @@
+{
+  "name": "Abercrombie  fitch",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.abercrombie.com/shop/CustomerService?pageName=club&storeId=10051&textKey=LEGAL_CLUB_TERMS&catalogId=10901&langId=-1",
+      "select": "html > body > div:nth-of-type(5)"
+    },
+    "Legal Information": {
+      "fetch": "https://www.abercrombie.com/shop/CustomerService?pageName=privacy&storeId=10051&textKey=LEGAL_PRIVACY_POLICY&catalogId=10901&langId=-1",
+      "select": "html > body > div:nth-of-type(5)"
+    }
+  }
+}

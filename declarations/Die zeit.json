@@ -1,0 +1,13 @@
+{
+  "name": "Die zeit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zeit.de/hilfe/datenschutz",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.zeit.de/administratives/agb-kommentare-artikel",
+      "select": "body"
+    }
+  }
+}

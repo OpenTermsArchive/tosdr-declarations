@@ -1,0 +1,17 @@
+{
+  "name": "2gis",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://law.2gis.ru/en/dialer-licensing-agreement/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://law.2gis.ru/en/cookies/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://law.2gis.ru/privacy/",
+      "select": "body"
+    }
+  }
+}

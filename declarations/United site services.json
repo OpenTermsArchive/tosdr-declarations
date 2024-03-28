@@ -1,0 +1,13 @@
+{
+  "name": "United site services",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.unitedsiteservices.com/cookie-policy/?lng=en ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.unitedsiteservices.com/privacy-policy/",
+      "select": "html > body > main > div:nth-of-type(9) > div > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Bushitme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rimgo.bus-hit.me/privacy",
+      "select": "body"
+    }
+  }
+}

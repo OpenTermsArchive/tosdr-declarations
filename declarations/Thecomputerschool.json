@@ -1,0 +1,9 @@
+{
+  "name": "Thecomputerschool",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thecomputerschool.net/privacy.php",
+      "select": "body"
+    }
+  }
+}

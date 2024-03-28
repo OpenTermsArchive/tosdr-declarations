@@ -1,0 +1,17 @@
+{
+  "name": "Freedompop",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.freedompop.com/privacy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.freedompop.com/return-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.freedompop.com/terms_and_conditions",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Factpros",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://factpros.com/privacy/",
+      "select": "body"
+    }
+  }
+}

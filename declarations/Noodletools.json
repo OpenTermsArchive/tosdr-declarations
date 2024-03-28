@@ -1,0 +1,13 @@
+{
+  "name": "Noodletools",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.noodletools.com/tos/",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.noodletools.com/privacy/",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

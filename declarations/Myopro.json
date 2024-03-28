@@ -1,0 +1,9 @@
+{
+  "name": "Myopro",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://myopro.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

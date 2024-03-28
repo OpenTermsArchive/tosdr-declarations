@@ -1,0 +1,9 @@
+{
+  "name": "Sipc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sipc.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Petagree",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.petagree.net/store/pg/6-Our-Privacy-Policy.aspx",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.petagree.net/store/pg/9-Terms-and-Conditions.aspx",
+      "select": "body"
+    }
+  }
+}

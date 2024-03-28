@@ -1,0 +1,13 @@
+{
+  "name": "Linuxfabrik nextcloud",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.linuxfabrik.ch/ueber-uns/agb/datenschutzerklaerung/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.linuxfabrik.ch/ueber-uns/agb/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Showbie",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.showbie.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.showbie.com/terms/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Ivacy vpn",
+  "documents": {
+    "Affiliate Disclosure": {
+      "fetch": "https://www.ivacy.com/legal/#afilitae-policy",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ivacy.com/legal/#privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ivacy.com/legal/#usage-terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ivacy.com/legal/",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.ivacy.com/legal/#refund-policy",
+      "select": "body"
+    }
+  }
+}

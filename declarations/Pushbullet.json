@@ -1,0 +1,13 @@
+{
+  "name": "Pushbullet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pushbullet.com/privacy",
+      "select": "html > body > div > div > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pushbullet.com/tos",
+      "select": "html > body > div > div > div:nth-of-type(4)"
+    }
+  }
+}

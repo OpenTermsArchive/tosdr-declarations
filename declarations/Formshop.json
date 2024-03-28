@@ -1,0 +1,13 @@
+{
+  "name": "Formshop",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://formshop.in/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://formshop.in/terms",
+      "select": "body"
+    }
+  }
+}

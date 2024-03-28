@@ -1,0 +1,17 @@
+{
+  "name": "Gemotest",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gemotest.ru/upload/pdf/personal_data_policy.pdf",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://gemotest.ru/company/payments/",
+      "select": "html > body > div:nth-of-type(3) > main > div:nth-of-type(2) > div > div > div > div:first-of-type > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://gemotest.ru/cookies/",
+      "select": "body"
+    }
+  }
+}

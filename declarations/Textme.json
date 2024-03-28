@@ -1,0 +1,13 @@
+{
+  "name": "Textme",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://textme-www-assets.s3.amazonaws.com/docs/terms-and-conditions/terms_and_conditions_v33.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://textme-www-assets.s3.amazonaws.com/docs/privacy-policy/privacy_policy_v29.html",
+      "select": "body"
+    }
+  }
+}

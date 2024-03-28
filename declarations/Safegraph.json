@@ -1,0 +1,9 @@
+{
+  "name": "Safegraph",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.safegraph.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

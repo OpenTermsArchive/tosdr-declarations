@@ -1,0 +1,13 @@
+{
+  "name": "Genfx",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.genfx.com/terms-conditions/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.genfx.com/emailpriv/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Escape from tarkov",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.escapefromtarkov.com/legal/privacy_policy_en.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.escapefromtarkov.com/legal/license_agreement_en.html",
+      "select": "body"
+    }
+  }
+}

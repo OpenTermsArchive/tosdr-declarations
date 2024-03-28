@@ -1,0 +1,17 @@
+{
+  "name": "Lotus cars",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lotuscars.com/en-US/terms-conditions",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.lotuscars.com/en-US/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lotuscars.com/en-US/privacy-policy",
+      "select": "body"
+    }
+  }
+}

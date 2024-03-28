@@ -1,0 +1,9 @@
+{
+  "name": "Htmltopdf",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://html2pdf.com/terms?rnd=0.22613960258439303",
+      "select": "body"
+    }
+  }
+}

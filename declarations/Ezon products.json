@@ -1,0 +1,9 @@
+{
+  "name": "Ezon products",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ezonpro.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

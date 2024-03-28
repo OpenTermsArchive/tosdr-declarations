@@ -1,0 +1,17 @@
+{
+  "name": "Bandai namco entertainment inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bandainamcoent.co.jp/info/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://legal.bandainamcoent.co.jp/privacy/cookies-bandainamcoent-official",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bandainamcoent.co.jp/info/",
+      "select": "body"
+    }
+  }
+}

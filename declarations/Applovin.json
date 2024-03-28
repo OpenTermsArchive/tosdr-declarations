@@ -1,0 +1,17 @@
+{
+  "name": "Applovin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.applovin.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.applovin.com/eula/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.applovin.com/dmca/",
+      "select": "body"
+    }
+  }
+}

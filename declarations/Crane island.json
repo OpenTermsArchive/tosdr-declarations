@@ -1,0 +1,9 @@
+{
+  "name": "Crane island",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://app.termly.io/document/privacy-policy/dcb17e5e-13b3-4c2a-9df8-22f6e6c7e329",
+      "select": "body"
+    }
+  }
+}

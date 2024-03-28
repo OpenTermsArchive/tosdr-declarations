@@ -1,0 +1,13 @@
+{
+  "name": "Tv shows ace",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tvshowsace.com/terms-and-conditions/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tvshowsace.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > main > div > article > div"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Cakey bot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cakey.bot/privacy.html",
+      "select": " > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://cakey.bot/terms.html",
+      "select": " > div > div:first-of-type"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://cakey.bot/terms.html",
+      "select": " > div > div:nth-of-type(2)"
+    }
+  }
+}

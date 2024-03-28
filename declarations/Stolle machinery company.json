@@ -1,0 +1,9 @@
+{
+  "name": "Stolle machinery company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.stollemachinery.com/legal-notices",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > main > section > div > article"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Hellsh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hell.sh/privacy",
+      "select": "body"
+    }
+  }
+}

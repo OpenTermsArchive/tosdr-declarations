@@ -1,0 +1,9 @@
+{
+  "name": "Yogadns",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.yogadns.com/legal/",
+      "select": "html > body > div:nth-of-type(2) > section > div"
+    }
+  }
+}

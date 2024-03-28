@@ -1,0 +1,13 @@
+{
+  "name": "Visishield",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://newvisionbreakthrough.com/privacypolicy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://newvisionbreakthrough.com/terms/",
+      "select": "body"
+    }
+  }
+}

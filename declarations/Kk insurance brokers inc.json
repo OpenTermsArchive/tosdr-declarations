@@ -1,0 +1,17 @@
+{
+  "name": "Kk insurance brokers inc",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.kandkinsurance.com/sites/K12Voluntary/Pages/RefundPolicy.aspx",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.kandkcanada.com/Pages/Privacy-Legal-Notice.aspx",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kandkinsurance.com/sites/K12Voluntary/Pages/PrivacyPolicy.aspx",
+      "select": "html > body > form > div:nth-of-type(4) > div > div:nth-of-type(3) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table:nth-of-type(2) > tbody > tr > td"
+    }
+  }
+}

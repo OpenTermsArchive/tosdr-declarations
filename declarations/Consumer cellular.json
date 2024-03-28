@@ -1,0 +1,21 @@
+{
+  "name": "Consumer cellular",
+  "documents": {
+    "Other": {
+      "fetch": "https://www.consumercellular.com/content/dam/consumercellularincprogram/web/pages/agreement/ConsumerCellularGrandPadAddendum042020.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.consumercellular.com/content/dam/consumercellularincprogram/web/pages/agreement/Wireless%20Customer%20Agreement%20(APR%202023).pdf",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.consumercellular.com/content/dam/consumercellularincprogram/web/pages/agreement/Consumer%20Cellular%20DMCA%20Policy.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.consumercellular.com/legal/privacyandsecurity",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:first-of-type > div > div > div:nth-of-type(3) > div:first-of-type > main > div > div > div:first-of-type > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Zamtel beatz services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://zamtel.scontentzone.com/app/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://zamtel.scontentzone.com/app/terms",
+      "select": "body"
+    }
+  }
+}

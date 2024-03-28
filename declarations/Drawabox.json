@@ -1,0 +1,13 @@
+{
+  "name": "Drawabox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://drawabox.com/privacy",
+      "select": "html > body > main > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://drawabox.com/tos",
+      "select": "html > body > main > div:first-of-type > div"
+    }
+  }
+}

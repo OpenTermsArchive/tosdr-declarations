@@ -1,0 +1,13 @@
+{
+  "name": "Edquity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.edquity.co/privacy-policy",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.edquity.co/terms",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

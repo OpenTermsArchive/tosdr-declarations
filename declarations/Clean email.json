@@ -1,0 +1,9 @@
+{
+  "name": "Clean email",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://clean.email/privacy",
+      "select": "body"
+    }
+  }
+}

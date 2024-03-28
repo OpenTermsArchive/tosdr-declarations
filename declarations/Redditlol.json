@@ -1,0 +1,9 @@
+{
+  "name": "Redditlol",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://reddit.lol/privacy",
+      "select": "body"
+    }
+  }
+}

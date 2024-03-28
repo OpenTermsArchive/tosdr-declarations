@@ -1,0 +1,9 @@
+{
+  "name": "Simplex chat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://raw.githubusercontent.com/simplex-chat/simplex-chat/stable/PRIVACY.md",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Ssl hound",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sslhound.com/help/privacy-policy",
+      "select": "article"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.sslhound.com/help/cookie-policy",
+      "select": "article"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.sslhound.com/help/responsible-disclosure-policy",
+      "select": "article"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sslhound.com/help/terms-of-service/",
+      "select": "article"
+    }
+  }
+}

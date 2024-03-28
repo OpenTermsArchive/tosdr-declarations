@@ -1,0 +1,13 @@
+{
+  "name": "Ebird",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.birds.cornell.edu/home/terms-of-use/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.birds.cornell.edu/home/privacy/",
+      "select": "body"
+    }
+  }
+}

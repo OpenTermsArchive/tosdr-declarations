@@ -1,0 +1,9 @@
+{
+  "name": "School reading list",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://schoolreadinglist.co.uk/policies",
+      "select": null
+    }
+  }
+}

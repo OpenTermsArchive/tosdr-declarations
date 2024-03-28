@@ -1,0 +1,9 @@
+{
+  "name": "Multi sinergi ambara",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ptmsambara.com/Privacy-Policy.html",
+      "select": "html > body > div:first-of-type > section:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "7up",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.7up.com/__/legal/us/terms/content.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.7up.com/__/legal/us/privacy/content.html",
+      "select": "body"
+    }
+  }
+}

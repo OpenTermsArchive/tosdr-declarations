@@ -1,0 +1,13 @@
+{
+  "name": "The hearth and home store",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://thehearthandhomestore.com/termsconditions/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://thehearthandhomestore.com/return-policy/",
+      "select": "body"
+    }
+  }
+}

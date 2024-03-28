@@ -1,0 +1,13 @@
+{
+  "name": "Postgrain",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://postgrain.com/en/terms-of-use/",
+      "select": "html > body > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > div > div > section > div > div > div > div > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://postgrain.com/politica-privacidade/",
+      "select": "html > body > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div > div > div > section > div > div > div > div"
+    }
+  }
+}

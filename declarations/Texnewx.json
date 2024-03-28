@@ -1,0 +1,13 @@
+{
+  "name": "Texnewx",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://texnewx.today/terms",
+      "select": "html > body > div:nth-of-type(2) > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://texnewx.today/privacy",
+      "select": "html > body > div:nth-of-type(2) > article"
+    }
+  }
+}

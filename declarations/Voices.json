@@ -1,0 +1,17 @@
+{
+  "name": "Voices",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.voices.com/company/terms-and-policies/cookie-declaration",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.voices.com/company/terms-and-policies/terms-of-service",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.voices.com/company/terms-and-policies/privacy-policy",
+      "select": null
+    }
+  }
+}

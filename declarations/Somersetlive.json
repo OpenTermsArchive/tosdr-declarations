@@ -1,0 +1,17 @@
+{
+  "name": "Somersetlive",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.somersetlive.co.uk/cookie-policy/",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.somersetlive.co.uk/terms-conditions/",
+      "select": "html > body > main"
+    },
+    "Legal Information": {
+      "fetch": "https://www.somersetlive.co.uk/privacy-notice/",
+      "select": "html > body > main"
+    }
+  }
+}

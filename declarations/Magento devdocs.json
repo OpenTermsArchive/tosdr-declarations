@@ -1,0 +1,13 @@
+{
+  "name": "Magento devdocs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://magento.com/legal/terms/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://magento.com/legal/terms/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Linux mint",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://linuxmint.com/privacy.php",
+      "select": "html > body > section:first-of-type"
+    }
+  }
+}

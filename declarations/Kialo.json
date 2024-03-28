@@ -1,0 +1,13 @@
+{
+  "name": "Kialo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kialo.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.kialo.com/privacy",
+      "select": "body"
+    }
+  }
+}

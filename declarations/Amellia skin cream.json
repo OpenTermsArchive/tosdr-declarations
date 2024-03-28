@@ -1,0 +1,13 @@
+{
+  "name": "Amellia skin cream",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tryamelliaskin.com/afsksv1/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tryamelliaskin.com/afsksv1/privacy/",
+      "select": "body"
+    }
+  }
+}

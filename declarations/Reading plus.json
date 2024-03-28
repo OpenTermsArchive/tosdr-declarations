@@ -1,0 +1,13 @@
+{
+  "name": "Reading plus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.readingplus.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.readingplus.com/privacy-policy/",
+      "select": "html"
+    }
+  }
+}

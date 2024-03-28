@@ -1,0 +1,9 @@
+{
+  "name": "Hybrid analysis",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hybrid-analysis.com/terms",
+      "select": "body"
+    }
+  }
+}

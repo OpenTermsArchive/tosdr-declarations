@@ -1,0 +1,9 @@
+{
+  "name": "Centerless imagery",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.centerlessimagery.com/privacy",
+      "select": "body"
+    }
+  }
+}

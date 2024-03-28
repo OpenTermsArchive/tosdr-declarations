@@ -1,0 +1,13 @@
+{
+  "name": "Seymour  lerhn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.seymourlerhn.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > main > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.seymourlerhn.com/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > main > div > div > div > div > div > div > div"
+    }
+  }
+}

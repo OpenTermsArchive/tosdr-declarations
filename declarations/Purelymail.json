@@ -1,0 +1,13 @@
+{
+  "name": "Purelymail",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://purelymail.com/termsofservice",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://purelymail.com/privacy",
+      "select": "body"
+    }
+  }
+}

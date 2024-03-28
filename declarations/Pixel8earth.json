@@ -1,0 +1,13 @@
+{
+  "name": "Pixel8earth",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pixel8.earth/terms-of-use.html",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pixel8.earth/privacy-policy.html",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

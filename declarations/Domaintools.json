@@ -1,0 +1,13 @@
+{
+  "name": "Domaintools",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.domaintools.com/company/privacy-policy/",
+      "select": "html > body > section > section > section:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.domaintools.com/company/terms-of-service/",
+      "select": "html > body > section > section > div > div > div > div > div"
+    }
+  }
+}

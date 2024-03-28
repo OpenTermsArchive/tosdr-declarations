@@ -1,0 +1,9 @@
+{
+  "name": "The student voice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.thestudentvoice.co.uk/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Lootably",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://app.termly.io/document/privacy-policy/bf96b7d6-2180-4165-b771-496417fef46f",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://app.termly.io/document/terms-of-service/bc5db861-2695-45f8-902d-dd570695ae18",
+      "select": "body"
+    }
+  }
+}

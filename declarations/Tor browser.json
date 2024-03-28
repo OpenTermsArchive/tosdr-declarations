@@ -1,0 +1,9 @@
+{
+  "name": "Tor browser",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://donate.torproject.org/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > main > div > div > div:first-of-type"
+    }
+  }
+}

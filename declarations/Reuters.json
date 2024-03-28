@@ -1,0 +1,13 @@
+{
+  "name": "Reuters",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.reuters.com/terms-of-use",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(3) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.thomsonreuters.com/en/privacy-statement.html",
+      "select": "html > body > div:first-of-type > div > main > div:nth-of-type(6) > div"
+    }
+  }
+}

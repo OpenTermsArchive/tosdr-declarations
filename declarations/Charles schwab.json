@@ -1,0 +1,9 @@
+{
+  "name": "Charles schwab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.schwab.com/legal/privacy",
+      "select": "body"
+    }
+  }
+}

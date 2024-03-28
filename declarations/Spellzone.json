@@ -1,0 +1,17 @@
+{
+  "name": "Spellzone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.spellzone.com/pages/policies/privacy-policy.cfm",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.spellzone.com/pages/policies/cookie-policy.cfm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.spellzone.com/pages/policies/terms.cfm",
+      "select": "body"
+    }
+  }
+}

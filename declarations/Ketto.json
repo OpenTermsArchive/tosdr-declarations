@@ -1,0 +1,21 @@
+{
+  "name": "Ketto",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.ketto.org/terms-of-use.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ketto.org/privacy-policy.php",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ketto.org/support/use-of-cookies.php",
+      "select": null
+    },
+    "Policy": {
+      "fetch": "https://customerhappiness.ketto.org/portal/en/kb/articles/aml-policy-6-8-2021",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Baidu tieba",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tieba.baidu.com/tb/eula.html",
+      "select": "html > body > table:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://tieba.baidu.com/tb/cms/tieba-fe/tieba_promise.html",
+      "select": "html > body > table:nth-of-type(3)"
+    }
+  }
+}

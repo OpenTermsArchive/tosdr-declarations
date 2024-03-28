@@ -1,0 +1,13 @@
+{
+  "name": "No copyright sounds",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ncs.io/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ncs.io/usage-policy/terms",
+      "select": "body"
+    }
+  }
+}

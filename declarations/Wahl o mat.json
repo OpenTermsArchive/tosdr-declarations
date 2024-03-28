@@ -1,0 +1,9 @@
+{
+  "name": "Wahl o mat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wahl-o-mat.de/europawahl2019/popup_impressum.php",
+      "select": "html > body > div > div > div"
+    }
+  }
+}

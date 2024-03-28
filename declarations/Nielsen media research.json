@@ -1,0 +1,13 @@
+{
+  "name": "Nielsen media research",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nielsen.com/legal/privacy-principles/website-privacy-statement/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nielsen.com/legal/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

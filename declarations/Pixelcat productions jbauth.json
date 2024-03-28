@@ -1,0 +1,13 @@
+{
+  "name": "Pixelcat productions jbauth",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://forums.pixelcatproductions.net/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://contracts.pixelcatproductions.net/view/19/x16hk5tarpybh7crj3kah9kqrau5y246",
+      "select": ".container .alert.alert-success"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Trivie",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.trivie.com/payments-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.trivie.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.trivie.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.trivie.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

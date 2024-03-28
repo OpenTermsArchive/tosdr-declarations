@@ -1,0 +1,13 @@
+{
+  "name": "Garan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.garanimals.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.garanimals.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

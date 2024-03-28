@@ -1,0 +1,13 @@
+{
+  "name": "Opencritic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://opencritic.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://opencritic.com/privacy",
+      "select": "body"
+    }
+  }
+}

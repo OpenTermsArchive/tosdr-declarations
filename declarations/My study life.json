@@ -1,0 +1,13 @@
+{
+  "name": "My study life",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/70328380",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mystudylife.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

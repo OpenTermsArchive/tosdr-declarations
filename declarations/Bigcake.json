@@ -1,0 +1,9 @@
+{
+  "name": "Bigcake",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bigcakegame.com/static/page/pp.html ",
+      "select": "body"
+    }
+  }
+}

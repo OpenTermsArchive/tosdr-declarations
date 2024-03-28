@@ -1,0 +1,13 @@
+{
+  "name": "Momondocom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.momondo.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.momondo.com/privacy",
+      "select": "body"
+    }
+  }
+}

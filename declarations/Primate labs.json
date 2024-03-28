@@ -1,0 +1,13 @@
+{
+  "name": "Primate labs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.primatelabs.com/legal/terms-of-use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.primatelabs.com/legal/privacy.html",
+      "select": "body"
+    }
+  }
+}

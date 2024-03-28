@@ -1,0 +1,17 @@
+{
+  "name": "Avocado mattress",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://help.avocadogreenmattress.com/en/articles/6641437-what-is-avocado-s-return-policy ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.avocadogreenmattress.com/pages/privacy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.avocadogreenmattress.com/pages/terms",
+      "select": "body"
+    }
+  }
+}

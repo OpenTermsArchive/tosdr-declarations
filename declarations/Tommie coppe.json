@@ -1,0 +1,13 @@
+{
+  "name": "Tommie coppe",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tommiecopper.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tommiecopper.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

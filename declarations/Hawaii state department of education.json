@@ -1,0 +1,9 @@
+{
+  "name": "Hawaii state department of education",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hawaiipublicschools.org/Pages/TermsOfUse.aspx",
+      "select": "body"
+    }
+  }
+}

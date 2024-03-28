@@ -1,0 +1,17 @@
+{
+  "name": "Digiarty software",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.winxdvd.com/company/end-user-license-agreement.htm",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.winxdvd.com/privacy-policy.htm",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.winxdvd.com/copyright-notice.htm",
+      "select": "body"
+    }
+  }
+}

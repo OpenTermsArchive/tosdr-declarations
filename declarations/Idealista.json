@@ -1,0 +1,17 @@
+{
+  "name": "Idealista",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.idealista.com/ayuda/articulos/privacy-policy/?lang=en",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.idealista.com/en/info/politica-cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.idealista.com/ayuda/articulos/legal-statement/?lang=en",
+      "select": "body"
+    }
+  }
+}

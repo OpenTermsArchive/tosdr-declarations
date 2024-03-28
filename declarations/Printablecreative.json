@@ -1,0 +1,13 @@
+{
+  "name": "Printablecreative",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://printablecreative.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://printablecreative.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

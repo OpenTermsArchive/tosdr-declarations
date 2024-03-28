@@ -1,0 +1,13 @@
+{
+  "name": "Lifecare",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lifecare.com/terms-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lifecare.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

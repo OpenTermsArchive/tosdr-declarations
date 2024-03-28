@@ -1,0 +1,17 @@
+{
+  "name": "Flock",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://support.flock.com/hc/en-us/articles/115004286213-Flock-Customer-Agreement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://support.flock.com/hc/en-us/articles/115004312874-Flock-Privacy-Policy",
+      "select": "html > body > main"
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://support.flock.com/hc/en-us/articles/360005941494-List-of-Sub-processors",
+      "select": "body"
+    }
+  }
+}

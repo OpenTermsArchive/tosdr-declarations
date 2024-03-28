@@ -1,0 +1,13 @@
+{
+  "name": "Highspeedinternetcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.highspeedinternet.com/terms",
+      "select": "html > body > main > div > article > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.highspeedinternet.com/privacy-policy",
+      "select": "html > body > main > div > article > div > div > div > div > div:first-of-type > section > div"
+    }
+  }
+}

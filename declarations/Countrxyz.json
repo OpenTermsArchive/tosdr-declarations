@@ -1,0 +1,13 @@
+{
+  "name": "Countrxyz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://countr.xyz/privacy",
+      "select": "html > body > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://countr.xyz/terms",
+      "select": "html > body > section > div"
+    }
+  }
+}

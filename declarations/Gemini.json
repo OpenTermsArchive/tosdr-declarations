@@ -1,0 +1,29 @@
+{
+  "name": "Gemini",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gemini.com/legal/user-agreement#section-welcome-to-gemini",
+      "select": "html > body > div:first-of-type > main > main > section:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gemini.com/legal/market-data-agreement#section-introduction",
+      "select": "body"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://www.gemini.com/legal/custody-agreement#section-introduction",
+      "select": "html > body > div:first-of-type > main > main > section:first-of-type"
+    },
+    "Other": {
+      "fetch": "https://www.gemini.com/legal/bsa-aml-program#section-bank-secrecy-act-and-anti-money-laundering-compliance-program",
+      "select": "html > body > div:first-of-type > main > main > section:first-of-type"
+    },
+    "Legal Information": {
+      "fetch": "https://www.gemini.com/legal/consumer-privacy-notice",
+      "select": "html > body > div:first-of-type > main > main > section:first-of-type"
+    },
+    "Developer Terms": {
+      "fetch": "https://www.gemini.com/legal/api-agreement#section-welcome-to-the-gemini-api",
+      "select": "html > body > div:first-of-type > main > main > section:first-of-type"
+    }
+  }
+}

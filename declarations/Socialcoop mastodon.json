@@ -1,0 +1,13 @@
+{
+  "name": "Socialcoop mastodon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://social.coop/terms",
+      "select": "body"
+    },
+    "Spam": {
+      "fetch": "https://www.divyagoal.com/",
+      "select": "body"
+    }
+  }
+}

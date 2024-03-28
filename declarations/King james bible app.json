@@ -1,0 +1,9 @@
+{
+  "name": "King james bible app",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kingjamesbibleapp.org/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > main > article > div > div > div > div > div > div > div > div > div > div > div"
+    }
+  }
+}

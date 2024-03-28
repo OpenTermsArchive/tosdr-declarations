@@ -1,0 +1,13 @@
+{
+  "name": "Reason foundation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://reason.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://reason.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

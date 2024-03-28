@@ -1,0 +1,9 @@
+{
+  "name": "Amplitude",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://amplitude.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Oatmealdome",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://oatmealdome.me/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

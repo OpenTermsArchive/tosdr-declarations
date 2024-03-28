@@ -1,0 +1,13 @@
+{
+  "name": "Qualtrics",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.qualtrics.com/terms-of-service/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.qualtrics.com/privacy-statement/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > section > div"
+    }
+  }
+}

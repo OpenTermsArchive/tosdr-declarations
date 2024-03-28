@@ -1,0 +1,9 @@
+{
+  "name": "Anantaraha",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://anantaraha.github.io/mymoney/privacy.html",
+      "select": "body"
+    }
+  }
+}

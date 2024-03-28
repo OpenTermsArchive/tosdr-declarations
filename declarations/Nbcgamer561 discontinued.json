@@ -1,0 +1,9 @@
+{
+  "name": "Nbcgamer561 discontinued",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nbcgamer561.xyz/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

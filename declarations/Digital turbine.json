@@ -1,0 +1,17 @@
+{
+  "name": "Digital turbine",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.digitalturbine.com/terms-of-use/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.digitalturbine.com/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.digitalturbine.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

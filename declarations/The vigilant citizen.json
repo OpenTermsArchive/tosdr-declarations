@@ -1,0 +1,9 @@
+{
+  "name": "The vigilant citizen",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vigilantcitizen.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

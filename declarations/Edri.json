@@ -1,0 +1,9 @@
+{
+  "name": "Edri",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://edri.org/privacy-policy",
+      "select": "html > body > div:first-of-type > main > section:nth-of-type(2) > section > div > div"
+    }
+  }
+}

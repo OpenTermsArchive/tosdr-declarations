@@ -1,0 +1,13 @@
+{
+  "name": "Mchost24",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mc-host24.de/agb",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mc-host24.de/datenschutz",
+      "select": "html > body > div:first-of-type > main > div > div > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

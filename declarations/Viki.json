@@ -1,0 +1,21 @@
+{
+  "name": "Viki",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.viki.com/legal/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.viki.com/legal/cookies",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.viki.com/legal/copyright",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.viki.com/legal/terms_of_use",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div > div > div"
+    }
+  }
+}

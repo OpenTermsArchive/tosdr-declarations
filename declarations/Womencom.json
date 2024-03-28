@@ -1,0 +1,13 @@
+{
+  "name": "Womencom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.women.com/pages/privacy_policy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.women.com/pages/copyright_act",
+      "select": "body"
+    }
+  }
+}

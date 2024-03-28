@@ -1,0 +1,17 @@
+{
+  "name": "Topgorg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://topg.org/tos",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://topg.org/refund",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://topg.org/privacy",
+      "select": "body"
+    }
+  }
+}

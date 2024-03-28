@@ -1,0 +1,9 @@
+{
+  "name": "American red cross",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.redcross.org/terms-of-use.html",
+      "select": "html > body > main > div:nth-of-type(4)"
+    }
+  }
+}

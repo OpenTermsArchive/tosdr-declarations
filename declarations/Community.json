@@ -1,0 +1,13 @@
+{
+  "name": "Community",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://community.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.community.com/legal/terms",
+      "select": "body"
+    }
+  }
+}

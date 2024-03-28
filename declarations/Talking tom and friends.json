@@ -1,0 +1,13 @@
+{
+  "name": "Talking tom and friends",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://talkingtomandfriends.com/terms/",
+      "select": " > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://outfit7.com/privacy-web/en",
+      "select": " > div > div:nth-of-type(2) > div > main > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Bear blog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://github.com/HermanMartinus/bearblog/wiki/Privacy-Policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://github.com/HermanMartinus/bearblog/wiki/Terms-of-Service",
+      "select": null
+    }
+  }
+}

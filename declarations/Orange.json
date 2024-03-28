@@ -1,0 +1,21 @@
+{
+  "name": "Orange",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://communaute.orange.fr/t5/custom/page/page-id/conditions-utilisation",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.orange.com/en/privacy-notice-protecting-your-personal-data",
+      "select": " > article > div:nth-of-type(2) > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://assistance.orange.fr/ordinateurs-peripheriques/installer-et-utiliser/la-recherche-et-navigation-sur-le-web-cookies/des-informations-sur-les-cookies/pc/cookies-presentation_226120-768184",
+      "select": "html > body > main > div > article > section > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://c.orange.fr/pages-juridiques/donnees-personnelles.html#pourquoi-Orange-traite-vos-donnees",
+      "select": " > div > div > div:first-of-type"
+    }
+  }
+}

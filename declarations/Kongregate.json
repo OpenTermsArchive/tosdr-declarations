@@ -1,0 +1,17 @@
+{
+  "name": "Kongregate",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.kongregate.com/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kongregate.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.kongregate.com/user-agreement",
+      "select": "body"
+    }
+  }
+}

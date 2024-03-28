@@ -1,0 +1,13 @@
+{
+  "name": "Modern collab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://moderncollab.co.uk/worksmart-privacy-statement/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://moderncollab.co.uk/worksmart-terms-of-use/",
+      "select": "body"
+    }
+  }
+}

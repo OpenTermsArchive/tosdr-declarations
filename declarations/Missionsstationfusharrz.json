@@ -1,0 +1,9 @@
+{
+  "name": "Missionsstationfusharrz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://missionsstation-fushearrez.jimdofree.com/j/privacy",
+      "select": "body"
+    }
+  }
+}

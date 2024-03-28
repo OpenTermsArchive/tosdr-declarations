@@ -1,0 +1,13 @@
+{
+  "name": "Apps112",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.apps112.com/terms.html",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.apps112.com/policy.html",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div"
+    }
+  }
+}

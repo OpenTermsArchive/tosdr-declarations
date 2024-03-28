@@ -1,0 +1,9 @@
+{
+  "name": "Digichama",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.digichama.co.ke/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

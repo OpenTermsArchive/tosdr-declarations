@@ -1,0 +1,9 @@
+{
+  "name": "Bakashots",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bakashots.me/ToS.php",
+      "select": null
+    }
+  }
+}

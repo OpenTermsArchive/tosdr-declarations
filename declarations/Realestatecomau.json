@@ -1,0 +1,13 @@
+{
+  "name": "Realestatecomau",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://about.realestate.com.au/terms-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://about.realestate.com.au/privacy",
+      "select": "body"
+    }
+  }
+}

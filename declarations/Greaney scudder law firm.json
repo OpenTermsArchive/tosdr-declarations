@@ -1,0 +1,9 @@
+{
+  "name": "Greaney scudder law firm",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.greaneylaw.com/privacy/",
+      "select": "html > body > div:first-of-type > div > div > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

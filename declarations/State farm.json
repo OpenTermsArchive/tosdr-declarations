@@ -1,0 +1,17 @@
+{
+  "name": "State farm",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.statefarm.com/customer-care/privacy-security/privacy/about-our-ads",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.statefarm.com/customer-care/privacy-security/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.statefarm.com/customer-care/disclosures/terms-of-use",
+      "select": "body"
+    }
+  }
+}

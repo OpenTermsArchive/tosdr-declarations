@@ -1,0 +1,13 @@
+{
+  "name": "Foundationapp",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://foundation.app/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://foundation.app/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Streamlare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://streamlare.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://streamlare.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://streamlare.com/copyright-policy",
+      "select": "body"
+    }
+  }
+}

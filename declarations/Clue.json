@@ -1,0 +1,13 @@
+{
+  "name": "Clue",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://helloclue.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://helloclue.com/terms",
+      "select": "body"
+    }
+  }
+}

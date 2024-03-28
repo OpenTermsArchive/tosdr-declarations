@@ -1,0 +1,13 @@
+{
+  "name": "Dark sky",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://darksky.net/dev/docs/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://darksky.net/dev/docs/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Oxford learning centres",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.oxfordlearning.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

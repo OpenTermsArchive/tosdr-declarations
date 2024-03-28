@@ -1,0 +1,17 @@
+{
+  "name": "Dws remote control",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dwservice.net/en/privacy-policy.html",
+      "select": "html > body > section"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.dwservice.net/en/cookie-policy.html",
+      "select": "html > body > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dwservice.net/en/terms-and-conditions.html",
+      "select": "html > body > section"
+    }
+  }
+}

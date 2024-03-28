@@ -1,0 +1,13 @@
+{
+  "name": "Drama",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://drama.gg/p/1",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://drama.gg/p/2",
+      "select": "body"
+    }
+  }
+}

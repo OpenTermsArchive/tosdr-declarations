@@ -1,0 +1,9 @@
+{
+  "name": "Opensuse",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://en.opensuse.org/Terms_of_site",
+      "select": "body"
+    }
+  }
+}

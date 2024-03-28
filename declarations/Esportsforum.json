@@ -1,0 +1,9 @@
+{
+  "name": "Esportsforum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://esportsforum.co.in/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > article > div > div > div > div > div:first-of-type > div > div > div > div:nth-of-type(3) > div > div:first-of-type > div:first-of-type > div"
+    }
+  }
+}

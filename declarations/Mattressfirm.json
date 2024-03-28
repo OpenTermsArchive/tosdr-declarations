@@ -1,0 +1,13 @@
+{
+  "name": "Mattressfirm",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mattressfirm.com/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mattressfirm.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Privatestorage",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://private.storage/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://private.storage/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

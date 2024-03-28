@@ -1,0 +1,13 @@
+{
+  "name": "Vhl central",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vhlcentral.com/privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vhlcentral.com/terms_of_use",
+      "select": "body"
+    }
+  }
+}

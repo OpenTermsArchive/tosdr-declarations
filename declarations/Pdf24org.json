@@ -1,0 +1,13 @@
+{
+  "name": "Pdf24org",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://en.pdf24.org/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pdf24.org/en/terms-of-use",
+      "select": "body"
+    }
+  }
+}

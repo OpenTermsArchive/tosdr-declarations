@@ -1,0 +1,13 @@
+{
+  "name": "Lunaricu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://quetre.lunar.icu/privacy",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://invidious.lunar.icu/privacy",
+      "select": "body"
+    }
+  }
+}

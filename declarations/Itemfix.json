@@ -1,0 +1,17 @@
+{
+  "name": "Itemfix",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.itemfix.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.itemfix.com/tos",
+      "select": "html > body > section > div > div > table > tbody > tr:nth-of-type(2) > td"
+    },
+    "Legal Information": {
+      "fetch": "https://www.itemfix.com/copyright",
+      "select": null
+    }
+  }
+}

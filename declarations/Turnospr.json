@@ -1,0 +1,9 @@
+{
+  "name": "Turnospr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://turnospr.com/Terms.aspx",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Lrt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://apie.lrt.lt/privatumo-politika",
+      "select": "body"
+    }
+  }
+}

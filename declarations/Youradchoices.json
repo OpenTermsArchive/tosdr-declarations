@@ -1,0 +1,13 @@
+{
+  "name": "Youradchoices",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://youradchoices.com/privacy-policy?language=en",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://youradchoices.com/terms-of-use?language=en",
+      "select": "body"
+    }
+  }
+}

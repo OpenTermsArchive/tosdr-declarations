@@ -1,0 +1,13 @@
+{
+  "name": "Voxy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://voxy.com/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://voxy.com/terms-of-use",
+      "select": null
+    }
+  }
+}

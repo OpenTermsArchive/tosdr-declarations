@@ -1,0 +1,13 @@
+{
+  "name": "Pronunciator",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pronunciator.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pronunciator.com/privacy/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

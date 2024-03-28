@@ -1,0 +1,13 @@
+{
+  "name": "Goodwill industries international",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.goodwill.org/terms-conditions/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(2) > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.goodwill.org/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(2) > section"
+    }
+  }
+}

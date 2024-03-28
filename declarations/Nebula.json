@@ -1,0 +1,13 @@
+{
+  "name": "Nebula",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://watchnebula.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://watchnebula.com/privacy",
+      "select": "body"
+    }
+  }
+}

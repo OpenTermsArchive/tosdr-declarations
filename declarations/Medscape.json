@@ -1,0 +1,17 @@
+{
+  "name": "Medscape",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.medscape.com/public/termsofuse",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.medscape.com/public/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.medscape.com/public/privacy",
+      "select": "body"
+    }
+  }
+}

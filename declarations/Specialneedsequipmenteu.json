@@ -1,0 +1,13 @@
+{
+  "name": "Specialneedsequipmenteu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://specialneedsequipment.eu/page/4/privacy-policy.html",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://specialneedsequipment.eu/page/5/terms-conditions.html",
+      "select": null
+    }
+  }
+}

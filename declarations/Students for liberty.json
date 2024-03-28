@@ -1,0 +1,21 @@
+{
+  "name": "Students for liberty",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://studentsforliberty.org/disclaimer/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://studentsforliberty.org/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://studentsforliberty.org/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://studentsforliberty.org/cookies/",
+      "select": "body"
+    }
+  }
+}

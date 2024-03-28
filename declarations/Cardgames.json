@@ -1,0 +1,9 @@
+{
+  "name": "Cardgames",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cardgames.io/privacy/",
+      "select": "body"
+    }
+  }
+}

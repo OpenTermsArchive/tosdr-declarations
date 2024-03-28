@@ -1,0 +1,13 @@
+{
+  "name": "Mymind",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mymind.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mymind.com/privacypolicy",
+      "select": "body"
+    }
+  }
+}

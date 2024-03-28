@@ -1,0 +1,9 @@
+{
+  "name": "Realvnc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.realvnc.com/en/legal/",
+      "select": "body"
+    }
+  }
+}

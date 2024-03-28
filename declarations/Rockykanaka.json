@@ -1,0 +1,9 @@
+{
+  "name": "Rockykanaka",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rockykanaka.com/pages/privacy-policy",
+      "select": " > main > div > div > div > div > div > div"
+    }
+  }
+}

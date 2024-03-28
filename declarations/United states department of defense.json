@@ -1,0 +1,9 @@
+{
+  "name": "United states department of defense",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.defense.gov/Legal-Administrative/Privacy-Security/",
+      "select": "html > body > form > main > div:nth-of-type(2) > div"
+    }
+  }
+}

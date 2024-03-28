@@ -1,0 +1,9 @@
+{
+  "name": "Flowminder",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.flowminder.org/privacy",
+      "select": "div.tabbed-content-panel__tabs"
+    }
+  }
+}

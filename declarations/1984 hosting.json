@@ -1,0 +1,13 @@
+{
+  "name": "1984 hosting",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.1984hosting.com/cookiepolicy/",
+      "select": "html > body > main > div > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.1984hosting.com/tos/",
+      "select": "html > body > main > div > div > div > div"
+    }
+  }
+}

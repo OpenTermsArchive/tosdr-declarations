@@ -1,0 +1,13 @@
+{
+  "name": "St jude childrens research hospital",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.stjude.org/legal.html",
+      "select": "body"
+    },
+    "Affiliate Disclosure": {
+      "fetch": "https://www.stjude.org/legal/linking-policy.html",
+      "select": "body"
+    }
+  }
+}

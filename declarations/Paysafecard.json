@@ -1,0 +1,13 @@
+{
+  "name": "Paysafecard",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.paysafecard.com/en/privacy-notice/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.paysafecard.com/en/cookie-notice/",
+      "select": "body"
+    }
+  }
+}

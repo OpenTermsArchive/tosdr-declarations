@@ -1,0 +1,13 @@
+{
+  "name": "Tartle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tartle.co/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://tartle.co/terms-of-service/",
+      "select": "html > body > div:nth-of-type(2) > section > div"
+    }
+  }
+}

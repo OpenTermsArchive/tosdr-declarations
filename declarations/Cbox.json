@@ -1,0 +1,13 @@
+{
+  "name": "Cbox",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cbox.ws/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cbox.ws/privacy",
+      "select": "body"
+    }
+  }
+}

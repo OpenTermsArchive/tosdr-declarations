@@ -1,0 +1,13 @@
+{
+  "name": "Joshai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.josh.ai/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.josh.ai/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Shout docs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/27195692",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.shout.com/article/172-terms-and-conditions",
+      "select": "html > body > section:first-of-type > div:first-of-type > section > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Khq",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.khq.com/site/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.khq.com/site/privacy.html",
+      "select": null
+    }
+  }
+}

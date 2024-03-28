@@ -1,0 +1,9 @@
+{
+  "name": "The daily records",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.thedailyrecords.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

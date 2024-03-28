@@ -1,0 +1,13 @@
+{
+  "name": "Pawshake",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://en.pawshake.be/privacy-cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://en.pawshake.be/pawshake-terms-conditions",
+      "select": "body"
+    }
+  }
+}

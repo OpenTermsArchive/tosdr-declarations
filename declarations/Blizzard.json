@@ -1,0 +1,17 @@
+{
+  "name": "Blizzard",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://us.blizzard.com/en-us/company/about/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.blizzard.com/en-us/legal/fba4d00f-c7e4-4883-b8b9-1b4500a402ea/blizzard-end-user-license-agreement",
+      "select": "body"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.blizzard.com/en-us/legal/b2e0b082-fddb-4824-93fa-ee9c1bf814f8/blizzard-entertainment-dispute-resolution-policy",
+      "select": "body"
+    }
+  }
+}

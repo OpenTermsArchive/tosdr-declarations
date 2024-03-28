@@ -1,0 +1,13 @@
+{
+  "name": "Kidadl",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://kidadl.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://kidadl.com/terms-of-services",
+      "select": "body"
+    }
+  }
+}

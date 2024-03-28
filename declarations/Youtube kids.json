@@ -1,0 +1,13 @@
+{
+  "name": "Youtube kids",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://kids.youtube.com/t/noticeforchildren",
+      "select": "body"
+    },
+    "Safety Guidelines": {
+      "fetch": "https://support.google.com/youtubekids/#topic=6130504",
+      "select": "body"
+    }
+  }
+}

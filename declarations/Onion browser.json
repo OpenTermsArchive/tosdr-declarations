@@ -1,0 +1,13 @@
+{
+  "name": "Onion browser",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://onionbrowser.com/privacy-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://onionbrowser.com/legal",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Downsize dc foundation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://downsizedc.org/privacy-policy-terms-of-use/",
+      "select": "html > body > div:nth-of-type(6) > div:nth-of-type(2)"
+    }
+  }
+}

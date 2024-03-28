@@ -1,0 +1,9 @@
+{
+  "name": "Kuaikan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kuaikanmanhua.com/webs/agreement",
+      "select": "body"
+    }
+  }
+}

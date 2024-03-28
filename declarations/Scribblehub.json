@@ -1,0 +1,13 @@
+{
+  "name": "Scribblehub",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.scribblehub.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(3) > div > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.scribblehub.com/terms-of-service/",
+      "select": " > div > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

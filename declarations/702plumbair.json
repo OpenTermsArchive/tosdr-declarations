@@ -1,0 +1,9 @@
+{
+  "name": "702plumbair",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.702plumbair.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "All covered",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.allcovered.com/about/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.allcovered.com/about/terms",
+      "select": "body"
+    }
+  }
+}

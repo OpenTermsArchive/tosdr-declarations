@@ -1,0 +1,9 @@
+{
+  "name": "Lakkatv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lakka.tv/about/",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

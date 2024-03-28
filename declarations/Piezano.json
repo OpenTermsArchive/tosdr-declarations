@@ -1,0 +1,21 @@
+{
+  "name": "Piezano",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://buypiezano.com/Privacy-Policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://buypiezano.com/Terms-and-Conditions",
+      "select": "body"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://buypiezano.com/Arbitration-Agreement",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://buypiezano.com/Return-Policy",
+      "select": "body"
+    }
+  }
+}

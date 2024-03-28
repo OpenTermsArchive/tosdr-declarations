@@ -1,0 +1,13 @@
+{
+  "name": "Total technology",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://totaltechnology.com/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://totaltechnology.com/cookies-policy/",
+      "select": "body"
+    }
+  }
+}

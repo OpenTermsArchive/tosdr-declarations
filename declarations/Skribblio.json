@@ -1,0 +1,9 @@
+{
+  "name": "Skribblio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://skribbl.io:443/terms",
+      "select": "body"
+    }
+  }
+}

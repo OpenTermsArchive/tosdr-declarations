@@ -1,0 +1,21 @@
+{
+  "name": "Paxful",
+  "documents": {
+    "Policy": {
+      "fetch": "https://paxful.com/aml-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://paxful.com/vendor-reminder",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://paxful.com/privacy-notice",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://paxful.com/cookie-policy",
+      "select": " > section"
+    }
+  }
+}

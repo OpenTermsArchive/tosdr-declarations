@@ -1,0 +1,21 @@
+{
+  "name": "E2 essential elements",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://e2essentialelements.com/politique-de-confidentialite/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://e2essentialelements.com/mentions-legales/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://e2essentialelements.com/conditions-generales-de-vente/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://e2essentialelements.com/politique-des-cookies/",
+      "select": "body"
+    }
+  }
+}

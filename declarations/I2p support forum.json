@@ -1,0 +1,13 @@
+{
+  "name": "I2p support forum",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://i2pforum.net/ucp.php?mode=terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://i2pforum.net/ucp.php?mode=privacy",
+      "select": "body"
+    }
+  }
+}

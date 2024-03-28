@@ -1,0 +1,9 @@
+{
+  "name": "Marketwatch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dowjones.com/privacy-notice/?mod=mw",
+      "select": "html > body > footer > div:first-of-type > div > div:first-of-type > div > p:nth-of-type(2) > a:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Ancestry  services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ancestry.com/cs/legal/privacystatement",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ancestry.com/cs/legal/AboutCookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ancestry.com/cs/legal/termsandconditions",
+      "select": "html > body > div:nth-of-type(2) > div > div > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.ancestry.com/cs/legal/community-rules",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.ancestry.com/cs/legal/renewal-cancellation-terms",
+      "select": null
+    }
+  }
+}

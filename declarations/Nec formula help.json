@@ -1,0 +1,13 @@
+{
+  "name": "Nec formula help",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.necformulahelp.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.necformulahelp.com/terms/",
+      "select": "body"
+    }
+  }
+}

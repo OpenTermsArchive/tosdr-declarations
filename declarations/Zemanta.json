@@ -1,0 +1,17 @@
+{
+  "name": "Zemanta",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vault.pactsafe.io/s/9ac72792-c7df-4d0d-832d-0ca873f73a64/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://vault.pactsafe.io/s/9ac72792-c7df-4d0d-832d-0ca873f73a64/privacy#terms-of-service",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://vault.pactsafe.io/s/9ac72792-c7df-4d0d-832d-0ca873f73a64/privacy#cookies",
+      "select": "body"
+    }
+  }
+}

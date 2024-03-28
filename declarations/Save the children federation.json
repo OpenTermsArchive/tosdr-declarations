@@ -1,0 +1,13 @@
+{
+  "name": "Save the children federation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.savethechildren.org/us/about-us/privacy-policy",
+      "select": "html > body > main > div > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.savethechildren.org/us/about-us/terms-of-use",
+      "select": "html > body > main > div > div > section"
+    }
+  }
+}

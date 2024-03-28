@@ -1,0 +1,17 @@
+{
+  "name": "Talking products",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.talkingproducts.com/pages/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.talkingproducts.com/pages/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.talkingproducts.com/pages/cookie-policy",
+      "select": "body"
+    }
+  }
+}

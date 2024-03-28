@@ -1,0 +1,13 @@
+{
+  "name": "Kivuto solutions",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kivuto.com/privacy-policy-index/privacy-policy-en-us/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://kivuto.com/terms/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Wisemetering",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wisemetering.com/en/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wisemetering.com/en/terms-and-conditions/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wisemetering.com/en/cookies-policy/",
+      "select": null
+    }
+  }
+}

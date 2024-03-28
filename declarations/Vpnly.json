@@ -1,0 +1,13 @@
+{
+  "name": "Vpnly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vpnly.net/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vpnly.net/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

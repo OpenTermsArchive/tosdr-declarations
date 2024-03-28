@@ -1,0 +1,17 @@
+{
+  "name": "Junta de andaluca",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.juntadeandalucia.es/protecciondedatos.html",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://www.juntadeandalucia.es/informacion/legal.html",
+      "select": " > div"
+    },
+    "Other": {
+      "fetch": "https://www.juntadeandalucia.es/informacion/accesibilidad.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Dental land pediatrics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dentallandpediatrics.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

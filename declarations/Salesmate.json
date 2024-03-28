@@ -1,0 +1,13 @@
+{
+  "name": "Salesmate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.salesmate.io/security-reliability/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.salesmate.io/tos/",
+      "select": "body"
+    }
+  }
+}

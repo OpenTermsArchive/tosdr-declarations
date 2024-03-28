@@ -1,0 +1,9 @@
+{
+  "name": "Sixt",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.sixt.com/privacy/#/",
+      "select": "body"
+    }
+  }
+}

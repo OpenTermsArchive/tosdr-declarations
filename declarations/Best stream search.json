@@ -1,0 +1,13 @@
+{
+  "name": "Best stream search",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://beststreamsearch.com/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://beststreamsearch.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

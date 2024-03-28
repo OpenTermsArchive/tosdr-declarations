@@ -1,0 +1,13 @@
+{
+  "name": "Cirkul",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://drinkcirkul.com/pages/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://drinkcirkul.com/pages/privacy",
+      "select": "body"
+    }
+  }
+}

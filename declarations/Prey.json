@@ -1,0 +1,17 @@
+{
+  "name": "Prey",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://preyproject.com/terms/",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://preyproject.com/privacy/",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://preyproject.com/cookies/",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    }
+  }
+}

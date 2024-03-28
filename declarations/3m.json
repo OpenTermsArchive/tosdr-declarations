@@ -1,0 +1,13 @@
+{
+  "name": "3m",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.3m.com/3M/en_US/company-us/legal-information",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.3m.com/3M/en_US/company-us/privacy-policy",
+      "select": "body"
+    }
+  }
+}

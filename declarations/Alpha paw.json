@@ -1,0 +1,13 @@
+{
+  "name": "Alpha paw",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.alphapaw.com/terms-conditions/",
+      "select": "html > body > div:nth-of-type(2) > main > div > article > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.alphapaw.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > main > div > article > div > div > div > div > div > div > div > div"
+    }
+  }
+}

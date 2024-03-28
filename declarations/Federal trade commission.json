@@ -1,0 +1,9 @@
+{
+  "name": "Federal trade commission",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ftc.gov/site-information/privacy-policy",
+      "select": null
+    }
+  }
+}

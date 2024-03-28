@@ -1,0 +1,9 @@
+{
+  "name": "Mcmarket",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mc-market.org/wiki/terms/",
+      "select": "body"
+    }
+  }
+}

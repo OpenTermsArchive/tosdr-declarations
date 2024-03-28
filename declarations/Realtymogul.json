@@ -1,0 +1,13 @@
+{
+  "name": "Realtymogul",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.realtymogul.com/terms-service",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.realtymogul.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > main > div"
+    }
+  }
+}

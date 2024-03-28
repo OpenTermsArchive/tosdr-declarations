@@ -1,0 +1,13 @@
+{
+  "name": "Visitdays",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://visitdays.com/platform-terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/23453634/full-legal",
+      "select": "body"
+    }
+  }
+}

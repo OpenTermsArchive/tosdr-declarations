@@ -1,0 +1,13 @@
+{
+  "name": "Autoscout24",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://guide.autoscout24.ch/fr/declaration-de-protection-des-donnees/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.autoscout24.ch/fr/content/conditions-generales",
+      "select": "body"
+    }
+  }
+}

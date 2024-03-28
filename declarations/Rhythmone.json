@@ -1,0 +1,17 @@
+{
+  "name": "Rhythmone",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rhythmone.com/terms-of-use/",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.rhythmone.com/brand-safety-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rhythmone.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

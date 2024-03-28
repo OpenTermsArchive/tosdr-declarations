@@ -1,0 +1,13 @@
+{
+  "name": "Math playground",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mathplayground.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mathplayground.com/privacy",
+      "select": "body"
+    }
+  }
+}

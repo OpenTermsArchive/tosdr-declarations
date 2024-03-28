@@ -1,0 +1,13 @@
+{
+  "name": "Codeium",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://codeium.com/terms-of-service-individual",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://codeium.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

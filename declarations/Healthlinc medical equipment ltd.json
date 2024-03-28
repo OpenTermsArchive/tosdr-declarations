@@ -1,0 +1,17 @@
+{
+  "name": "Healthlinc medical equipment ltd",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hmebc.com/wp-content/uploads/HME_Delivery_Installation_Term_Conditions.pdf",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.hmebc.com/return-policy/",
+      "select": "html > body > div:nth-of-type(5)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hmebc.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

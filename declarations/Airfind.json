@@ -1,0 +1,13 @@
+{
+  "name": "Airfind",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://airfind.com/terms/",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://airfind.com/privacy/",
+      "select": "html > body > main"
+    }
+  }
+}

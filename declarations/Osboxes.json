@@ -1,0 +1,9 @@
+{
+  "name": "Osboxes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.osboxes.org/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div:first-of-type"
+    }
+  }
+}

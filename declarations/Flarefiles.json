@@ -1,0 +1,17 @@
+{
+  "name": "Flarefiles",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flarefiles.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://flarefiles.com/dmca/",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://flarefiles.com/tos/",
+      "select": "html > body > div:nth-of-type(2) > div > div:first-of-type"
+    }
+  }
+}

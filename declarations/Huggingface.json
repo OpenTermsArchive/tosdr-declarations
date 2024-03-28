@@ -1,0 +1,13 @@
+{
+  "name": "Huggingface",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://huggingface.co/terms-of-service",
+      "select": "html > body > div:first-of-type > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://huggingface.co/privacy",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

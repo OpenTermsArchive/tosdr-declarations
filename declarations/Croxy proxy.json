@@ -1,0 +1,13 @@
+{
+  "name": "Croxy proxy",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.croxyproxy.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.croxyproxy.com/privacy",
+      "select": "body"
+    }
+  }
+}

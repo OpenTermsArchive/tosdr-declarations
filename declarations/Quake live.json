@@ -1,0 +1,17 @@
+{
+  "name": "Quake live",
+  "documents": {
+    "Legal Information": {
+      "fetch": "http://www.quakelive.com/legals/notices",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://bethesda.net/document/terms-of-service",
+      "select": "html > body > section > section > div > article > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bethesda.net/privacypolicy",
+      "select": "html > body > section > section > div > article > section"
+    }
+  }
+}

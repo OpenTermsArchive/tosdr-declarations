@@ -1,0 +1,13 @@
+{
+  "name": "Veeam",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.veeam.com/cookie-notice.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.veeam.com/privacy-notice.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    }
+  }
+}

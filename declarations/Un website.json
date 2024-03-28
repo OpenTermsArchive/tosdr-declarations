@@ -1,0 +1,13 @@
+{
+  "name": "Un website",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.un.org/en/about-us/privacy-notice",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.un.org/en/about-us/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div:first-of-type > div"
+    }
+  }
+}

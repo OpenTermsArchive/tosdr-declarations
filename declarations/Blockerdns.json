@@ -1,0 +1,13 @@
+{
+  "name": "Blockerdns",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://blockerdns.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://blockerdns.com/terms",
+      "select": null
+    }
+  }
+}

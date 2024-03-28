@@ -1,0 +1,13 @@
+{
+  "name": "Shortcut software company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://shortcut.com/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:first-of-type > div:nth-of-type(5) > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://shortcut.com/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:first-of-type > div:nth-of-type(5) > div > div > div:first-of-type"
+    }
+  }
+}

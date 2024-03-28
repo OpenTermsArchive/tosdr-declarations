@@ -1,0 +1,9 @@
+{
+  "name": "Mobitaak",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mobitaak.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div > div > div:first-of-type"
+    }
+  }
+}

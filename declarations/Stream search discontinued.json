@@ -1,0 +1,9 @@
+{
+  "name": "Stream search discontinued",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://streamcompany.github.io/stream/privacy.html",
+      "select": "body"
+    }
+  }
+}

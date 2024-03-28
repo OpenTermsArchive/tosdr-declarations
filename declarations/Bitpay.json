@@ -1,0 +1,17 @@
+{
+  "name": "Bitpay",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://bitpay.com/about/privacy-eu/",
+      "select": "div.row"
+    },
+    "Terms of Service": {
+      "fetch": "https://bitpay.com/legal/terms-of-use/",
+      "select": "div.row"
+    },
+    "Trackers Policy": {
+      "fetch": "https://bitpay.com/about/cookie-policy/",
+      "select": "div.row"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Densho",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://densho.org/terms-of-use-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

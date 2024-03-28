@@ -1,0 +1,13 @@
+{
+  "name": "Emudhra",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://repository.emsign.com/terms-of-service.jsp",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://repository.emsign.com/privacy-policy.jsp",
+      "select": "body"
+    }
+  }
+}

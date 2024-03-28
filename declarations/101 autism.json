@@ -1,0 +1,9 @@
+{
+  "name": "101 autism",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://101autism.com/privacy-policy-for-101-autism",
+      "select": null
+    }
+  }
+}

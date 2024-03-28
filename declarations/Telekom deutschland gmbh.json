@@ -1,0 +1,9 @@
+{
+  "name": "Telekom deutschland gmbh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.telekom.de/ueber-das-unternehmen/datenschutz",
+      "select": "body"
+    }
+  }
+}

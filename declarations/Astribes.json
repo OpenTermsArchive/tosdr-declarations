@@ -1,0 +1,13 @@
+{
+  "name": "Astribes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://astribes.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://astribes.com/policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Ipvoid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.privalicy.com/privacy-policy/7147764",
+      "select": "body"
+    }
+  }
+}

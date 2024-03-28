@@ -1,0 +1,9 @@
+{
+  "name": "Element14",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.element14.com/community/static/legal/e14fullterms#privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Kleinanzeigende gmbh",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://themen.ebay-kleinanzeigen.de/datenschutzerklaerung/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://themen.ebay-kleinanzeigen.de/nutzungsbedingungen/",
+      "select": "body"
+    }
+  }
+}

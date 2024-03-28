@@ -1,0 +1,9 @@
+{
+  "name": "St cloud technical  community college",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sctcc.edu/online-privacy-statement",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > main > div:nth-of-type(5)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Trust no wan",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://trustnowan.com/privacy-policy",
+      "select": "html > body > div > div > div:nth-of-type(2) > div > article > div > div"
+    }
+  }
+}

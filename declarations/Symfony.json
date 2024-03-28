@@ -1,0 +1,13 @@
+{
+  "name": "Symfony",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://connect.symfony.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://connect.symfony.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

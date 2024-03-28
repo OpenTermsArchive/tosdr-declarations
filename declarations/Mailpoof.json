@@ -1,0 +1,13 @@
+{
+  "name": "Mailpoof",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mailpoof.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mailpoof.com/terms",
+      "select": "body"
+    }
+  }
+}

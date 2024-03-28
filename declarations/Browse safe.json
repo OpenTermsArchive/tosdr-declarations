@@ -1,0 +1,13 @@
+{
+  "name": "Browse safe",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://browse-safe.net/privacy",
+      "select": "html > body > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://browse-safe.net/terms",
+      "select": "html > body > section"
+    }
+  }
+}

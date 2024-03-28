@@ -1,0 +1,13 @@
+{
+  "name": "Milkshake cms",
+  "documents": {
+    "Other": {
+      "fetch": "https://milkshakecms.000webhostapp.com:443/index.php",
+      "select": "body"
+    },
+    "Spam": {
+      "fetch": "https://milkshakecms.000webhostapp.com:443/icons/",
+      "select": "body"
+    }
+  }
+}

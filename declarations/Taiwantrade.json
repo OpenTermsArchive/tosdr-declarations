@@ -1,0 +1,9 @@
+{
+  "name": "Taiwantrade",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www-onepage.taiwantrade.com/mp/help#4",
+      "select": "body"
+    }
+  }
+}

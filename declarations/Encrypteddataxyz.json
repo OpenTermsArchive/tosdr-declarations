@@ -1,0 +1,9 @@
+{
+  "name": "Encrypteddataxyz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://teddit.encrypted-data.xyz/privacy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

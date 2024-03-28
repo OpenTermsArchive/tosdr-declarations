@@ -1,0 +1,13 @@
+{
+  "name": "Insuranceratesforless",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://auto.insuranceratesforless.com/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://auto.insuranceratesforless.com/terms.html",
+      "select": "body"
+    }
+  }
+}

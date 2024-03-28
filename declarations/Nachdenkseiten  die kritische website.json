@@ -1,0 +1,9 @@
+{
+  "name": "Nachdenkseiten  die kritische website",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nachdenkseiten.de/?page_id=44004",
+      "select": null
+    }
+  }
+}

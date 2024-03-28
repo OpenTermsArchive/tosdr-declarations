@@ -1,0 +1,17 @@
+{
+  "name": "Cira canadian shield",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cira.ca/en/resources/documents/about/website-terms-use/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div:first-of-type > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.cira.ca/en/cookies-and-additional-information-about-our-website/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cira.ca/en/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

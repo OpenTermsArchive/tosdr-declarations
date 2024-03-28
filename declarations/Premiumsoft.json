@@ -1,0 +1,13 @@
+{
+  "name": "Premiumsoft",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.navicat.com/en/legalstatement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.navicat.com/en/privacystatement",
+      "select": "body"
+    }
+  }
+}

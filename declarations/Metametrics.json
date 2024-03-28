@@ -1,0 +1,13 @@
+{
+  "name": "Metametrics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policies.metametricsinc.com/MetaMetrics_Global_Privacy_Policy.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://policies.metametricsinc.com/MetaMetrics_Terms_of_Use.pdf ",
+      "select": "body"
+    }
+  }
+}

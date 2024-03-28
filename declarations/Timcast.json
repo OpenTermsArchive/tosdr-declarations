@@ -1,0 +1,13 @@
+{
+  "name": "Timcast",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://timcast.com/privacy-policy",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://timcast.com/terms-of-service",
+      "select": "html > body > main"
+    }
+  }
+}

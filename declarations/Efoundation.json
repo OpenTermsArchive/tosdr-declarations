@@ -1,0 +1,13 @@
+{
+  "name": "Efoundation",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://e.foundation/legal-notice-privacy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://community.e.foundation/tos",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Emp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.emp.de/customer-service/terms-%26-conditions/terms-privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.emp-online.com/customer-service/terms-%26-conditions/terms.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.emp-online.com/terms-cookie-policy.html",
+      "select": "body"
+    }
+  }
+}

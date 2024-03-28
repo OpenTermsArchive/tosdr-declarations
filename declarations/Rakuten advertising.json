@@ -1,0 +1,17 @@
+{
+  "name": "Rakuten advertising",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rakutenadvertising.com/legal-notices/general-data-protection-regulation-addendum/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://rakutenadvertising.com/legal-notices/intellectual-property-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://rakutenadvertising.com/legal-notices/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

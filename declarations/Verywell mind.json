@@ -1,0 +1,9 @@
+{
+  "name": "Verywell mind",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.verywellmind.com/legal-4773968#privacy-policy",
+      "select": "body"
+    }
+  }
+}

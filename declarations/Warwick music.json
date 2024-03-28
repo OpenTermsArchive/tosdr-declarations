@@ -1,0 +1,17 @@
+{
+  "name": "Warwick music",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.warwickmusic.com/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.warwickmusic.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.warwickmusic.com/terms/",
+      "select": "body"
+    }
+  }
+}

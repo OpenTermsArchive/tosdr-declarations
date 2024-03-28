@@ -1,0 +1,13 @@
+{
+  "name": "Data axle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.data-axle.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.data-axle.com/terms-and-conditions/",
+      "select": null
+    }
+  }
+}

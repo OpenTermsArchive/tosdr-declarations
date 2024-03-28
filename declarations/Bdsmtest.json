@@ -1,0 +1,9 @@
+{
+  "name": "Bdsmtest",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bdsmtest.org/privacy",
+      "select": null
+    }
+  }
+}

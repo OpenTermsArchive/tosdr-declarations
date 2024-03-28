@@ -1,0 +1,13 @@
+{
+  "name": "Tune my music",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tunemymusic.com/Privacy-Policy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tunemymusic.com/Terms-of-Use.php",
+      "select": "body"
+    }
+  }
+}

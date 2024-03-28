@@ -1,0 +1,13 @@
+{
+  "name": "Chartable",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://chartable.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://chartable.com/terms",
+      "select": "body"
+    }
+  }
+}

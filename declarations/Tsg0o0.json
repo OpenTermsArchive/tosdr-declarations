@@ -1,0 +1,9 @@
+{
+  "name": "Tsg0o0",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tsg0o0.com/privacy/en",
+      "select": "body"
+    }
+  }
+}

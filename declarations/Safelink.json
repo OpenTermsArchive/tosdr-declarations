@@ -1,0 +1,21 @@
+{
+  "name": "Safelink",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.safelink.com/wps/portal/home/h/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.safelink.com/wps/portal/home/h/tandc",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.verizon.com/about/sites/default/files/Verizon-Code-of-Conduct.pdf",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.tfwunlockpolicy.com/wps/portal/home",
+      "select": "body"
+    }
+  }
+}

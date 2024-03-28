@@ -1,0 +1,13 @@
+{
+  "name": "Phytage laboratories",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fighttinnitusnowpromo.com/terms/privacy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fighttinnitusnowpromo.com/terms/terms.php",
+      "select": "body"
+    }
+  }
+}

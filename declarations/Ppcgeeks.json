@@ -1,0 +1,9 @@
+{
+  "name": "Ppcgeeks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ppcgeeks.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Vodafone group",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.vodafone.com/legal-terms",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vodafone.com/cookie-policies",
+      "select": "body"
+    }
+  }
+}

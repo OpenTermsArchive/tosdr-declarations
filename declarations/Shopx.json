@@ -1,0 +1,9 @@
+{
+  "name": "Shopx",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://shopxcommerce.com/help/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div > div > div:nth-of-type(2) > section"
+    }
+  }
+}

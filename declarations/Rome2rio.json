@@ -1,0 +1,13 @@
+{
+  "name": "Rome2rio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rome2rio.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rome2rio.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

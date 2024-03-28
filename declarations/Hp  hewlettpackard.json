@@ -1,0 +1,25 @@
+{
+  "name": "Hp  hewlettpackard",
+  "documents": {
+    "Other": {
+      "fetch": "https://www8.hp.com/us/en/hp-information/recalls.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www8.hp.com/uk/en/privacy/privacy.html?jumpid=in_R11928_/uk/en/corp/privacy-central/privacy-statements#pd10=1&pd9=1&pd8=1&pd7=1&pd6=1&pd5=1&pd4=1&pd3=1&pd2=1&pd1=1",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div > div:nth-of-type(3)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www8.hp.com/us/en/privacy/use-of-cookies.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div > div:first-of-type > div > div:nth-of-type(2) > div:first-of-type > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www8.hp.com/uk/en/terms-of-use.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www8.hp.com/us/en/privacy/limited_warranty.html",
+      "select": null
+    }
+  }
+}

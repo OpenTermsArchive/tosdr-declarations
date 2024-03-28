@@ -1,0 +1,13 @@
+{
+  "name": "Shutterstock",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.shutterstock.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.shutterstock.com/terms",
+      "select": "body"
+    }
+  }
+}

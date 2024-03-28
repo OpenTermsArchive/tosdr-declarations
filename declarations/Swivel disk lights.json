@@ -1,0 +1,17 @@
+{
+  "name": "Swivel disk lights",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://swiveldisklights.com/pages/shipping-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://swiveldisklights.com/pages/security-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://swiveldisklights.com/pages/terms-and-conditions-of-use",
+      "select": "html > body > div:first-of-type > main > div > div > div:first-of-type"
+    }
+  }
+}

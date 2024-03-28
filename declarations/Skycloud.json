@@ -1,0 +1,9 @@
+{
+  "name": "Skycloud",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://scloud.live/Privacy-Policy",
+      "select": "body"
+    }
+  }
+}

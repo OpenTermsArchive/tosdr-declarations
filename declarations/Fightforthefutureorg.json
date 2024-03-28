@@ -1,0 +1,9 @@
+{
+  "name": "Fightforthefutureorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fightforthefuture.org/privacy/",
+      "select": "html > body > div > div > div > div > div:first-of-type > section:nth-of-type(2) > div > div > div > div > div:first-of-type"
+    }
+  }
+}

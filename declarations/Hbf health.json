@@ -1,0 +1,13 @@
+{
+  "name": "Hbf health",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hbf.com.au/about-hbf/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hbf.com.au/about-hbf/legal/terms-of-use",
+      "select": "body"
+    }
+  }
+}

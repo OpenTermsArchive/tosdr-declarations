@@ -1,0 +1,9 @@
+{
+  "name": "Keepsolid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.keepsolid.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

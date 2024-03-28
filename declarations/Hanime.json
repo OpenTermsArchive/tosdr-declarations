@@ -1,0 +1,17 @@
+{
+  "name": "Hanime",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://hanime.tv/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://hanime.tv/eula",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hanime.tv/privacy",
+      "select": "body"
+    }
+  }
+}

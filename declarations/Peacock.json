@@ -1,0 +1,13 @@
+{
+  "name": "Peacock",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nbcuniversal.com/privacy?brandA=Peacock&intake=Peacock",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.peacocktv.com/terms",
+      "select": "body"
+    }
+  }
+}

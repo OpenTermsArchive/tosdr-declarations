@@ -1,0 +1,17 @@
+{
+  "name": "Revoltchat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://revolt.chat/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://revolt.chat/privacy",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://revolt.chat/aup",
+      "select": "body"
+    }
+  }
+}

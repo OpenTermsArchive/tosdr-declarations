@@ -1,0 +1,21 @@
+{
+  "name": "Titan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://support.titan.email/hc/en-us/articles/900002712643-Service-Level-Agreement",
+      "select": "body"
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://support.titan.email/hc/en-us/articles/900000761823-List-of-Sub-processors",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://support.titan.email/hc/en-us/articles/900000775226-Titan-Acceptable-Use-Policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://support.titan.email/hc/en-us/articles/360038535773-Titan-Privacy-Policy",
+      "select": "body"
+    }
+  }
+}

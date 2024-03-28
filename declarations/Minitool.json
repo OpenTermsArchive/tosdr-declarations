@@ -1,0 +1,13 @@
+{
+  "name": "Minitool",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://moviemaker.minitool.com/help/privacy-policy.html",
+      "select": "html > body > div:first-of-type > main > div > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://moviemaker.minitool.com/terms.html",
+      "select": "html > body > section:nth-of-type(2) > div"
+    }
+  }
+}

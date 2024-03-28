@@ -1,0 +1,9 @@
+{
+  "name": "Adsb exchange",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.adsbexchange.com/legal-and-privacy/",
+      "select": "body"
+    }
+  }
+}

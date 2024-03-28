@@ -1,0 +1,17 @@
+{
+  "name": "Ntegra",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.ntegra.com/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ntegra.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ntegra.com/terms",
+      "select": "body"
+    }
+  }
+}

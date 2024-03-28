@@ -1,0 +1,13 @@
+{
+  "name": "Tosdr phoenix",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tosdr.atlassian.net/wiki/spaces/SP/pages/95354649/edit.tosdr.org+Privacy+Policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:first-of-type > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:first-of-type > div > div > div > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://tosdr.atlassian.net/wiki/spaces/SP/pages/95354642/edit.tosdr.org+Terms+of+Service",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:first-of-type > div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:first-of-type > div > div > div > div > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

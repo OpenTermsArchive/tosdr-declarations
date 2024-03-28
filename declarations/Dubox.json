@@ -1,0 +1,13 @@
+{
+  "name": "Dubox",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dubox.com/box-static/disk-system/html/wap_privacy.html?lang=en_US",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dubox.com/box-static/disk-system/html/wap_duty.html?lang=en_US",
+      "select": "body"
+    }
+  }
+}

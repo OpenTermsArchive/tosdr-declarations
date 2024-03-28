@@ -1,0 +1,9 @@
+{
+  "name": "Anti spy mobile",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://antispymobile.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

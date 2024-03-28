@@ -1,0 +1,13 @@
+{
+  "name": "Airtel",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.airtel.in/cookie-notice",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.airtel.in/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

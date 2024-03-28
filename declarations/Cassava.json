@@ -1,0 +1,13 @@
+{
+  "name": "Cassava",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gocassava.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://gocassava.com/terms",
+      "select": "body"
+    }
+  }
+}

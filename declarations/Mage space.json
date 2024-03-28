@@ -1,0 +1,13 @@
+{
+  "name": "Mage space",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mage.space/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mage.space/privacy-policy",
+      "select": "body"
+    }
+  }
+}

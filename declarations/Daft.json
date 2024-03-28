@@ -1,0 +1,9 @@
+{
+  "name": "Daft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://publish.daft.ie/privacy/",
+      "select": "body"
+    }
+  }
+}

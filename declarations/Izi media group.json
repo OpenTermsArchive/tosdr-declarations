@@ -1,0 +1,13 @@
+{
+  "name": "Izi media group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://izimedia.gr/en/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > article > div > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://izimedia.gr/en/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > article > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

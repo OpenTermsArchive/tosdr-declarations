@@ -1,0 +1,13 @@
+{
+  "name": "Jobtip",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://jobtip.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://jobtip.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

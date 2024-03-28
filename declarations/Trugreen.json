@@ -1,0 +1,17 @@
+{
+  "name": "Trugreen",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.trugreen.co.uk/terms-conditions/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.trugreen.co.uk/cookies-policy/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.trugreen.co.uk/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

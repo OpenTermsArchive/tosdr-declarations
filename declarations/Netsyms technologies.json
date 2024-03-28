@@ -1,0 +1,9 @@
+{
+  "name": "Netsyms technologies",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://netsyms.com/legal",
+      "select": "body"
+    }
+  }
+}

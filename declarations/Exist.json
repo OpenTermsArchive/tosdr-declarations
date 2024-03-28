@@ -1,0 +1,9 @@
+{
+  "name": "Exist",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://exist.io/privacy/",
+      "select": "body"
+    }
+  }
+}

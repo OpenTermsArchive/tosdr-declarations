@@ -1,0 +1,9 @@
+{
+  "name": "Swisstransfer",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.swisstransfer.com/en",
+      "select": "html > body > ngb-modal-window > div > div"
+    }
+  }
+}

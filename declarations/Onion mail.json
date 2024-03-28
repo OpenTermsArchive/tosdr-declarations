@@ -1,0 +1,13 @@
+{
+  "name": "Onion mail",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://onionmail.org/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://onionmail.org/tos",
+      "select": "body"
+    }
+  }
+}

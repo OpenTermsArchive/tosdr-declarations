@@ -1,0 +1,13 @@
+{
+  "name": "Circleslife",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pages.circles.life/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pages.circles.life/terms/data-protection/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Typeform",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://admin.typeform.com/to/dwk6gt/",
+      "select": "html > body > div:nth-of-type(3) > main > div:first-of-type > div > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > div > div > div:nth-of-type(3) > section > div > div > div > div"
+    }
+  }
+}

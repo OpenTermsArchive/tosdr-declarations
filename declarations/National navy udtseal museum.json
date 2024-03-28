@@ -1,0 +1,9 @@
+{
+  "name": "National navy udtseal museum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://shop.navysealmuseum.org/shipping-returns-privacy-policies/",
+      "select": "body"
+    }
+  }
+}

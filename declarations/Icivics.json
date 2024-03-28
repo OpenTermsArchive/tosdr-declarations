@@ -1,0 +1,13 @@
+{
+  "name": "Icivics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.icivics.org/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.icivics.org/terms-use",
+      "select": "html > body > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

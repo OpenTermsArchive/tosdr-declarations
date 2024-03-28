@@ -1,0 +1,13 @@
+{
+  "name": "Slowly",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://slowly.app/en/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://slowly.app/en/terms/",
+      "select": "body"
+    }
+  }
+}

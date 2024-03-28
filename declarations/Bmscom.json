@@ -1,0 +1,9 @@
+{
+  "name": "Bmscom",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.bms.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Imazing",
+  "documents": {
+    "Policy": {
+      "fetch": "https://imazing.com/licensing-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://imazing.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://imazing.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Streamplay",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://streampiay.fun/dmca",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://streampiay.fun/tos",
+      "select": "body"
+    }
+  }
+}

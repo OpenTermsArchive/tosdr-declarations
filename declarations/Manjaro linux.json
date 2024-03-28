@@ -1,0 +1,17 @@
+{
+  "name": "Manjaro linux",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://manjaro.org/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://manjaro.org/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Other": {
+      "fetch": "https://manjaro.org/imprint/",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    }
+  }
+}

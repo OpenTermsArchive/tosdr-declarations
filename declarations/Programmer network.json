@@ -1,0 +1,13 @@
+{
+  "name": "Programmer network",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://programmer.network/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://programmer.network/privacy-policy",
+      "select": "body"
+    }
+  }
+}

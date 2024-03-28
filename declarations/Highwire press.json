@@ -1,0 +1,13 @@
+{
+  "name": "Highwire press",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.highwirepress.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > section"
+    },
+    "Terms of Service": {
+      "fetch": "http://highwire.org/about/terms-of-use.dtl",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

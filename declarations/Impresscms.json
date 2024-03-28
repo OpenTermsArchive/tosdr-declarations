@@ -1,0 +1,9 @@
+{
+  "name": "Impresscms",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.impresscms.org/modules/content/content.php?content_id=2&page=/about/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Pixelfed italia",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pixelfed.uno/site/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pixelfed.uno/site/privacy",
+      "select": "body"
+    }
+  }
+}

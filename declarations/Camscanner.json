@@ -1,0 +1,17 @@
+{
+  "name": "Camscanner",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://v3.camscanner.com/app/service?language=en-us",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://v3.camscanner.com/app/privacy?language=en-us",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.camscanner.com/privacySettings",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    }
+  }
+}

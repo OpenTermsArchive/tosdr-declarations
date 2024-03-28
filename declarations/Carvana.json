@@ -1,0 +1,13 @@
+{
+  "name": "Carvana",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacyportal.carvana.com/organization/privacy_policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.carvana.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

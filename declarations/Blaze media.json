@@ -1,0 +1,13 @@
+{
+  "name": "Blaze media",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.theblaze.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.theblaze.com/privacy",
+      "select": "body"
+    }
+  }
+}

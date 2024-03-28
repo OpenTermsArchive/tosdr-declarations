@@ -1,0 +1,13 @@
+{
+  "name": "Eduspot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://eduspot.co.uk/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://eduspot.co.uk/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

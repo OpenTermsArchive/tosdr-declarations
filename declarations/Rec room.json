@@ -1,0 +1,17 @@
+{
+  "name": "Rec room",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://recroom.com/ccoc",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://recroom.com/gift-card-terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://recroom.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > main > div:nth-of-type(2) > div > div > div > div > div"
+    }
+  }
+}

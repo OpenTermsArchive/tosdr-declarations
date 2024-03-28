@@ -1,0 +1,13 @@
+{
+  "name": "Stimart",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.stimart.com/PrivacyPolicy/PP_stimart_us.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.stimart.com/CGU/CGU_COMPETITION_us.pdf",
+      "select": "body"
+    }
+  }
+}

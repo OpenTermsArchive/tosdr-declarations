@@ -1,0 +1,21 @@
+{
+  "name": "Spideroak",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://spideroak.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div > section:nth-of-type(2) > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://spideroak.com/service-agreement/",
+      "select": "html > body > div:nth-of-type(2) > div > div > section:nth-of-type(2) > div > div > div > div"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://spideroak.com/law-enforcement/",
+      "select": "html > body > div:nth-of-type(2) > div > div > section:nth-of-type(2) > div > div > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://spideroak.com/hipaa/",
+      "select": "html > body > div:nth-of-type(2) > div > div > section:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

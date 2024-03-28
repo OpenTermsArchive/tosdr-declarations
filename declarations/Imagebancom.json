@@ -1,0 +1,9 @@
+{
+  "name": "Imagebancom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.imagebam.com/tou",
+      "select": "body"
+    }
+  }
+}

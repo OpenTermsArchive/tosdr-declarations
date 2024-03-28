@@ -1,0 +1,13 @@
+{
+  "name": "Helplaw",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.law/privacy-policy",
+      "select": "html > body > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.law/website-terms-and-conditions",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

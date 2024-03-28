@@ -1,0 +1,13 @@
+{
+  "name": "Thinking aloud  alex neihauss blog on cloud computing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.yobyot.com/wpautoterms/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.yobyot.com/wpautoterms/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

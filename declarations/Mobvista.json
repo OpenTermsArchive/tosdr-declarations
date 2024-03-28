@@ -1,0 +1,13 @@
+{
+  "name": "Mobvista",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mobvista.com/en/privacy",
+      "select": "html > body > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.mobvista.com/wp-content/uploads/2020/11/Cookies政策-英文-Mobvista-1.pdf",
+      "select": "body"
+    }
+  }
+}

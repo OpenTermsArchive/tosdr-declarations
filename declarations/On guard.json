@@ -1,0 +1,13 @@
+{
+  "name": "On guard",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.onguardprotect.com/conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.onguardprotect.com/privacy/",
+      "select": "body"
+    }
+  }
+}

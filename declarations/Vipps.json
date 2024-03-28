@@ -1,0 +1,9 @@
+{
+  "name": "Vipps",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vipps.no/personvern-og-vilkar/personvern/",
+      "select": "body"
+    }
+  }
+}

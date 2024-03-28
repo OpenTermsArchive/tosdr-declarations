@@ -1,0 +1,9 @@
+{
+  "name": "Fleetweb",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.fleet-web.com/tos.aspx",
+      "select": "#PrivacyPolicy"
+    }
+  }
+}

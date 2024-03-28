@@ -1,0 +1,13 @@
+{
+  "name": "Zapmap",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zap-map.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.zap-map.com/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

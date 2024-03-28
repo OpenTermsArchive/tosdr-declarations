@@ -1,0 +1,13 @@
+{
+  "name": "Royal society of chemistry",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.rsc.org/help-legal/legal/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://www.rsc.org/help-legal/legal/terms-conditions/",
+      "select": "div"
+    }
+  }
+}

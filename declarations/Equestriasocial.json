@@ -1,0 +1,13 @@
+{
+  "name": "Equestriasocial",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://equestria.social/about",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://equestria.social/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div"
+    }
+  }
+}

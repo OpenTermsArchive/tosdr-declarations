@@ -1,0 +1,13 @@
+{
+  "name": "Weglot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://weglot.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://weglot.com/privacy/",
+      "select": "body"
+    }
+  }
+}

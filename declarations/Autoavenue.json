@@ -1,0 +1,13 @@
+{
+  "name": "Autoavenue",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://autoavenue.net/terms_c.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://autoavenue.net/privacy_c.php",
+      "select": "body"
+    }
+  }
+}

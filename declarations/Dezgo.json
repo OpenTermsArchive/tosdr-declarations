@@ -1,0 +1,13 @@
+{
+  "name": "Dezgo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dezgo.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dezgo.com/privacy",
+      "select": "body"
+    }
+  }
+}

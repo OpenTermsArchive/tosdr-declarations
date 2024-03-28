@@ -1,0 +1,29 @@
+{
+  "name": "Mailchimp",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mailchimp.com/legal/additional-terms/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://mailchimp.com/legal/cookies/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://mailchimp.com/legal/acceptable_use/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://mailchimp.com/legal/privacy/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    },
+    "Developer Terms": {
+      "fetch": "https://mailchimp.com/legal/api_use/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://mailchimp.com/legal/copyright/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    }
+  }
+}

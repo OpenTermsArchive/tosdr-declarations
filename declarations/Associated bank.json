@@ -1,0 +1,13 @@
+{
+  "name": "Associated bank",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.associatedbank.com/forms-and-disclosures/disclosures/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.associatedbank.com/privacy",
+      "select": "body"
+    }
+  }
+}

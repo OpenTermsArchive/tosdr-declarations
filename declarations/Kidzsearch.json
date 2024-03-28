@@ -1,0 +1,9 @@
+{
+  "name": "Kidzsearch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kidzsearch.com/privacy.html",
+      "select": "body"
+    }
+  }
+}

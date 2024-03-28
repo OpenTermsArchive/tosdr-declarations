@@ -1,0 +1,13 @@
+{
+  "name": "Mother jones",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.motherjones.com/about/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.motherjones.com/about/privacy-policy/",
+      "select": null
+    }
+  }
+}

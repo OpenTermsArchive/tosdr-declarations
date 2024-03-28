@@ -1,0 +1,13 @@
+{
+  "name": "Airship group",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.airship.com/legal/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.airship.com/legal/privacy/",
+      "select": "body"
+    }
+  }
+}

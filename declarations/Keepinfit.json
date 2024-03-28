@@ -1,0 +1,13 @@
+{
+  "name": "Keepinfit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://keepinfit.net/terms-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://keepinfit.net/privacy-policy",
+      "select": "body"
+    }
+  }
+}

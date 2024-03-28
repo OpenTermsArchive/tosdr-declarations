@@ -1,0 +1,13 @@
+{
+  "name": "Fossbytes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fossbytes.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > main > div > div > section > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://fossbytes.com/cookie-policy-for-fossbytes/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > main > div > div > section > div > div > div > div"
+    }
+  }
+}

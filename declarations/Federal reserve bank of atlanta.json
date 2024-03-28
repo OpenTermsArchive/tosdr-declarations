@@ -1,0 +1,13 @@
+{
+  "name": "Federal reserve bank of atlanta",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.atlantafed.org/disclaimers-and-terms-of-use",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.atlantafed.org/data-privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

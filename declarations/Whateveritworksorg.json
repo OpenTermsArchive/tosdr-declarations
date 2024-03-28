@@ -1,0 +1,33 @@
+{
+  "name": "Whateveritworksorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://yt.whateveritworks.org/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.whateveritworks.org/terms",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.whateveritworks.org/bandwidth",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.whateveritworks.org/refund",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.whateveritworks.org/dmca",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://gh.whateveritworks.org/",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://binge.whateveritworks.org/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Dev community",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dev.to/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://dev.to/terms",
+      "select": "body"
+    }
+  }
+}

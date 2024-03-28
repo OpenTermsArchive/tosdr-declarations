@@ -1,0 +1,17 @@
+{
+  "name": "Dirtyship",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dirtyship.com/privacy-policy/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://dirtyship.com/18-usc-2257/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://dirtyship.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

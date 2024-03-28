@@ -1,0 +1,13 @@
+{
+  "name": "Safewise",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.safewise.com/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.safewise.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

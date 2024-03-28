@@ -1,0 +1,9 @@
+{
+  "name": "Avaaz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://secure.avaaz.org/en/privacy/",
+      "select": "body"
+    }
+  }
+}

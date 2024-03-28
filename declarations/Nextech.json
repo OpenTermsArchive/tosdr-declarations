@@ -1,0 +1,25 @@
+{
+  "name": "Nextech",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nex-tech.com/legal/terms-of-service/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > article > div > div > div > div:nth-of-type(3)"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.nex-tech.com/Portals/0/INTERNET/Nex-Tech_Network_Management_Disclosure.pdf",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.nex-tech.com/Portals/0/INTERNET/Acceptable_Use_Policy.pdf",
+      "select": "body"
+    },
+    "Miscellaneous Agreement": {
+      "fetch": "https://www.nex-tech.com/Portals/0/BUSINESS/Microsoft_Cloud_Agreement.PDF",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nex-tech.com/legal/account-privacy/",
+      "select": "body"
+    }
+  }
+}

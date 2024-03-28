@@ -1,0 +1,13 @@
+{
+  "name": "Horizon hobby",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.horizonhobby.com/privacy-policy-page.html?cp_source=footer&cp_medium=legal",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.horizonhobby.com/terms-and-conditions-page.html?cp_source=footer&cp_medium=legal",
+      "select": "body"
+    }
+  }
+}

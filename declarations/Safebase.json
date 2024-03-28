@@ -1,0 +1,13 @@
+{
+  "name": "Safebase",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://safebase.io/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://safebase.io/terms-of-service",
+      "select": "body"
+    }
+  }
+}

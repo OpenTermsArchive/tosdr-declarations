@@ -1,0 +1,13 @@
+{
+  "name": "Mythic beasts",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mythic-beasts.com/terms/overview",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mythic-beasts.com/terms/privacy",
+      "select": "body"
+    }
+  }
+}

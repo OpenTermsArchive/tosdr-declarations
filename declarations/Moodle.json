@@ -1,0 +1,13 @@
+{
+  "name": "Moodle",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://moodle.com/privacy-notice",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://moodle.com/cookies-policy/",
+      "select": null
+    }
+  }
+}

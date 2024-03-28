@@ -1,0 +1,17 @@
+{
+  "name": "Lorde",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lorde.co.nz/terms",
+      "select": "html > body > div:first-of-type > section > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.lorde.co.nz/cookiepolicy",
+      "select": "html > body > div:first-of-type > section > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lorde.co.nz/privacy",
+      "select": "body"
+    }
+  }
+}

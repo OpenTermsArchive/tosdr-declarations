@@ -1,0 +1,9 @@
+{
+  "name": "Homedepot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.homedepot.com/privacy/Privacy_Security/ ",
+      "select": "body"
+    }
+  }
+}

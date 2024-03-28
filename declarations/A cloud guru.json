@@ -1,0 +1,21 @@
+{
+  "name": "A cloud guru",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://acloudguru.com/policies/data-processing",
+      "select": "body"
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://acloudguru.com/policies/subprocessors",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://acloudguru.com/policies/terms-of-use",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://acloudguru.com/policies/code-of-conduct",
+      "select": "body"
+    }
+  }
+}

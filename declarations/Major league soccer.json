@@ -1,0 +1,13 @@
+{
+  "name": "Major league soccer",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mlssoccer.com/legal/terms-of-service",
+      "select": "html > body > div:first-of-type > main > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mlssoccer.com/legal/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Invisalign",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.invisalign.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.invisalign.com/terms-of-use",
+      "select": "html > body > div:nth-of-type(7) > div:nth-of-type(2)"
+    }
+  }
+}

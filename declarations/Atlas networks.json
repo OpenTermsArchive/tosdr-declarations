@@ -1,0 +1,9 @@
+{
+  "name": "Atlas networks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gigabit.io/customers/tv-services-agreement",
+      "select": "body"
+    }
+  }
+}

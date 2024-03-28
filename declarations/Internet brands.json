@@ -1,0 +1,21 @@
+{
+  "name": "Internet brands",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.internetbrands.com/privacy/privacy-main",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.internetbrands.com/privacy/cookie-policy",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.internetbrands.com/privacy/text-messaging",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.internetbrands.com/ibterms/",
+      "select": "body"
+    }
+  }
+}

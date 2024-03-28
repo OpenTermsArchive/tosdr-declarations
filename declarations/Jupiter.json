@@ -1,0 +1,13 @@
+{
+  "name": "Jupiter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://jupiter.money/terms-and-conditions/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://jupiter.money/privacy-policy/",
+      "select": null
+    }
+  }
+}

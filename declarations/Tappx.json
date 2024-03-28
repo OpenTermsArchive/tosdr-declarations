@@ -1,0 +1,13 @@
+{
+  "name": "Tappx",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.tappx.com/legal-advice/",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tappx.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div"
+    }
+  }
+}

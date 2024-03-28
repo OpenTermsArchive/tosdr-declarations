@@ -1,0 +1,13 @@
+{
+  "name": "Onetrust",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.onetrust.com/cookie-policy/",
+      "select": " > div:first-of-type > div:first-of-type"
+    },
+    "Legal Information": {
+      "fetch": "https://www.onetrust.com/privacy-notice/",
+      "select": " > div:first-of-type > div:first-of-type"
+    }
+  }
+}

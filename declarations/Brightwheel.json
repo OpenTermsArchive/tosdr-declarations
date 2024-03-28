@@ -1,0 +1,13 @@
+{
+  "name": "Brightwheel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mybrightwheel.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mybrightwheel.com/terms/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Grubhub",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://grubhub.com/help/privacy/opt-out",
+      "select": "html > body > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://grubhub.com/legal/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    },
+    "Legal Information": {
+      "fetch": "https://grubhub.com/legal/ca-privacy-notice",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    }
+  }
+}

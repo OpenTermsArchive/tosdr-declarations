@@ -1,0 +1,13 @@
+{
+  "name": "Visible",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.visible.com/legal/terms-and-conditions/",
+      "select": " > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.visible.com/legal/privacy/",
+      "select": null
+    }
+  }
+}

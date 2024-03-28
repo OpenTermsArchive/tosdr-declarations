@@ -1,0 +1,13 @@
+{
+  "name": "Sony liv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sonyliv.com/terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sonyliv.com/privacy-policy",
+      "select": null
+    }
+  }
+}

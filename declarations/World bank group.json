@@ -1,0 +1,13 @@
+{
+  "name": "World bank group",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://archivesphotos.worldbank.org/en/about/archives/photo-gallery/terms-of-use",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.worldbank.org/en/about/legal/privacy-notice",
+      "select": "body"
+    }
+  }
+}

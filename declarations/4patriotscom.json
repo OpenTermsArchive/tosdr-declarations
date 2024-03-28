@@ -1,0 +1,17 @@
+{
+  "name": "4patriotscom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://4patriots.com/pages/terms-service",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://4patriots.com/pages/refund-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://4patriots.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

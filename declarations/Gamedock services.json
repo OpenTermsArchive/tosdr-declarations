@@ -1,0 +1,9 @@
+{
+  "name": "Gamedock services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.gamedock.io/#/gdprPrivacyPolicy",
+      "select": "body"
+    }
+  }
+}

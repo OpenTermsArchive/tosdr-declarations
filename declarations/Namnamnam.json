@@ -1,0 +1,9 @@
+{
+  "name": "Namnamnam",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://namnamnam.no/personvernerklaering/",
+      "select": "body"
+    }
+  }
+}

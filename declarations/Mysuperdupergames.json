@@ -1,0 +1,9 @@
+{
+  "name": "Mysuperdupergames",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mysuperdupergames.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fellow",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://fellow.app/terms-of-use/",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://fellow.app/privacy-policy",
+      "select": "html > body > main"
+    }
+  }
+}

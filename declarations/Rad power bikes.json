@@ -1,0 +1,13 @@
+{
+  "name": "Rad power bikes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.radpowerbikes.com/pages/terms-of-purchase ",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.radpowerbikes.com/pages/privacy-policy ",
+      "select": "body"
+    }
+  }
+}

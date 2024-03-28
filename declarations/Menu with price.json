@@ -1,0 +1,13 @@
+{
+  "name": "Menu with price",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.menuwithprice.com/about/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.menuwithprice.com/about/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

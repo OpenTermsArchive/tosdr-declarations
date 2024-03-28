@@ -1,0 +1,9 @@
+{
+  "name": "F2pool",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.f2pool.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Trustzone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://trust.zone/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://trust.zone/terms",
+      "select": "html > body > div:nth-of-type(6)"
+    }
+  }
+}

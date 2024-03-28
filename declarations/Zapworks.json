@@ -1,0 +1,25 @@
+{
+  "name": "Zapworks",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://zap.works/privacy-note-b2b-marketing/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://zap.works/cookies/",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://zap.works/unlawful-content-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://zap.works/dpa/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://zap.works/terms/",
+      "select": "body"
+    }
+  }
+}

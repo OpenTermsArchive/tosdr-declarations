@@ -1,0 +1,13 @@
+{
+  "name": "Kids360",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kids360.app/en/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://kids360.app/en/term-of-use",
+      "select": "body"
+    }
+  }
+}

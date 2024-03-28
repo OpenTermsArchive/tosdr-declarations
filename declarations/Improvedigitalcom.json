@@ -1,0 +1,9 @@
+{
+  "name": "Improvedigitalcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.improvedigital.com/en/privacy-policy ",
+      "select": "body"
+    }
+  }
+}

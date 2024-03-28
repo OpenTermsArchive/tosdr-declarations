@@ -1,0 +1,13 @@
+{
+  "name": "Downdetector",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://downdetector.com/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://downdetector.com/terms-of-use.html",
+      "select": "body"
+    }
+  }
+}

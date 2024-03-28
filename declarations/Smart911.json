@@ -1,0 +1,13 @@
+{
+  "name": "Smart911",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ravemobilesafety.com/wp-content/uploads/2022/12/Smart911-PrivacyPolicy-2022.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ravemobilesafety.com/wp-content/uploads/2022/12/Smart911-ToU-2022.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Propappsinfo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.propapps.info/?c=painst&subid=439350353658392673&cid=3253712",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.propapps.info/?c=painst&subid=439350353658392673&cid=3253712",
+      "select": "html > body > div:first-of-type > div:first-of-type > section"
+    }
+  }
+}

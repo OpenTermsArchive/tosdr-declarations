@@ -1,0 +1,9 @@
+{
+  "name": "Get me justice shapiro delgado",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://getmejustice.com/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Routenote",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.routenote.com/privacypolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.routenote.com/rn/artistlabelagreement",
+      "select": "body"
+    }
+  }
+}

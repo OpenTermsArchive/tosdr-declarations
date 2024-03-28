@@ -1,0 +1,9 @@
+{
+  "name": "Darcy norman dot net",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://darcynorman.net/privacy",
+      "select": "article"
+    }
+  }
+}

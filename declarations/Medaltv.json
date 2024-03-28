@@ -1,0 +1,13 @@
+{
+  "name": "Medaltv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://medal.tv/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://medal.tv/privacy",
+      "select": "body"
+    }
+  }
+}

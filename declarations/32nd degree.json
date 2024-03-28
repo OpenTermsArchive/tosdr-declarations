@@ -1,0 +1,21 @@
+{
+  "name": "32nd degree",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fidofinder.com/privacy/",
+      "select": "body"
+    },
+    "Frequently Asked Questions": {
+      "fetch": "https://raiserclothing.com/faq/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.namingforce.com/terms-of-use/",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.namingforce.com/privacy/",
+      "select": "body"
+    }
+  }
+}

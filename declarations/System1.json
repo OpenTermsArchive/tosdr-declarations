@@ -1,0 +1,13 @@
+{
+  "name": "System1",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://system1.com/terms/privacy-policy",
+      "select": "html > body > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://system1.com/terms/terms-of-use",
+      "select": "html > body > article"
+    }
+  }
+}

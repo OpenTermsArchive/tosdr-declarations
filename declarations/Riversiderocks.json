@@ -1,0 +1,21 @@
+{
+  "name": "Riversiderocks",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://gh.riverside.rocks/",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://wiki.riverside.rocks/index.php/Terms_of_service",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://inv.riverside.rocks/privacy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://wiki.riverside.rocks/index.php/DMCA",
+      "select": null
+    }
+  }
+}

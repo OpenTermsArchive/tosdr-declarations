@@ -1,0 +1,13 @@
+{
+  "name": "Airdroid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.airdroid.com/en/legal/privacy.html",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.airdroid.com/en/legal/eula.html",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2)"
+    }
+  }
+}

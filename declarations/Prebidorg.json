@@ -1,0 +1,9 @@
+{
+  "name": "Prebidorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.prebid.org/privacy.html",
+      "select": "body"
+    }
+  }
+}

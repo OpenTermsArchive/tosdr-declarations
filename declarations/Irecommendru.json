@@ -1,0 +1,13 @@
+{
+  "name": "Irecommendru",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://irecommend.ru/politikakonfidentsialnosti",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://irecommend.ru/pravila",
+      "select": "body"
+    }
+  }
+}

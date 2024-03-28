@@ -1,0 +1,13 @@
+{
+  "name": "Cisco networking academy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cisco.com/c/en/us/about/legal/privacy.html",
+      "select": " > div:nth-of-type(2) > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.netacad.com/sites/default/files/terms/cisco_networking_academy_terms_and_conditions_july_2016_v3_english.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Gskill",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gskill.com/privacy",
+      "select": "html > body > div:first-of-type > main > article > section"
+    }
+  }
+}

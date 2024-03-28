@@ -1,0 +1,13 @@
+{
+  "name": "My water advisor",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mywateradvisor.com/TermsAndConditionsNL.aspx",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mywateradvisor.com/pp.aspx",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    }
+  }
+}

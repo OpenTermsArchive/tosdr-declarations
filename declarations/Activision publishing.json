@@ -1,0 +1,13 @@
+{
+  "name": "Activision publishing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.activision.com/legal/privacy-policy",
+      "select": " > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.activision.com/legal/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div"
+    }
+  }
+}

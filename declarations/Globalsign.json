@@ -1,0 +1,13 @@
+{
+  "name": "Globalsign",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.globalsign.com/en/repository",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.globalsign.com/en/cookie-policy",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2) > div > div > div:first-of-type > div"
+    }
+  }
+}

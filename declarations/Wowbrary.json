@@ -1,0 +1,9 @@
+{
+  "name": "Wowbrary",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://wowbrary.org/termsofservice.aspx",
+      "select": "html > body > form > div:nth-of-type(3) > div > table:nth-of-type(3) > tbody > tr > td:nth-of-type(2)"
+    }
+  }
+}

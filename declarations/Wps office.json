@@ -1,0 +1,17 @@
+{
+  "name": "Wps office",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wps.com/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wps.com/cookie-declaration",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wps.com/eula",
+      "select": "html > body > div:nth-of-type(4) > div"
+    }
+  }
+}

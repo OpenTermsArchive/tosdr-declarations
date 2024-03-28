@@ -1,0 +1,17 @@
+{
+  "name": "Maru springboard america",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.springboardamerica.com/static/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.springboardamerica.com/static/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.springboardamerica.com/static/cookies",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:first-of-type"
+    }
+  }
+}

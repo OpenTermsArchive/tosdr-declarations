@@ -1,0 +1,9 @@
+{
+  "name": "Freedom of the press foundation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://freedom.press/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

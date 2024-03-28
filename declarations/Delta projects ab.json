@@ -1,0 +1,9 @@
+{
+  "name": "Delta projects ab",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://deltaprojects.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Chocolatey",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://chocolatey.org/privacy",
+      "select": "html > body > main > section > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Globaledit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.globaledit.com/globaledit-privacy-policy/",
+      "select": "html > body > div:nth-of-type(6) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.globaledit.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(6) > div"
+    }
+  }
+}

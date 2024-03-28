@@ -1,0 +1,13 @@
+{
+  "name": "Sayches",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sayches.com/docs/privacy-policy",
+      "select": "html > body > section > div > div > div > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://sayches.com/docs/terms-of-service",
+      "select": "body"
+    }
+  }
+}

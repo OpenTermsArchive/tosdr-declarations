@@ -1,0 +1,13 @@
+{
+  "name": "Cpx research",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cpx-research.com/main/en/privacy-user/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cpx-research.com/main/en/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Workday inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.workday.com/en-us/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.workday.com/en-us/legal/site-terms.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.workday.com/en-us/privacy/cookie-notice.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.workday.com/en-us/legal/notice-and-takedown-policy.html",
+      "select": "body"
+    }
+  }
+}

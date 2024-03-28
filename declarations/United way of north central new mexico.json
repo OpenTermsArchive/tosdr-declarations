@@ -1,0 +1,13 @@
+{
+  "name": "United way of north central new mexico",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://uwncnm.org/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://uwncnm.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Cloudamo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cloudamo.com/knowledgebase/12/Privacy-Policy.html",
+      "select": "body"
+    }
+  }
+}

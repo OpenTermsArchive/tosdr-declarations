@@ -1,0 +1,9 @@
+{
+  "name": "Jeffreygifford",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jeffreygifford.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

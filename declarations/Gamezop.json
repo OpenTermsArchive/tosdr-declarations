@@ -1,0 +1,17 @@
+{
+  "name": "Gamezop",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://static.gamezop.com/legal/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://static.gamezop.com/legal/cookie-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://static.gamezop.com/legal/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

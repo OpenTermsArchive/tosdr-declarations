@@ -1,0 +1,13 @@
+{
+  "name": "Mailinator",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mailinator.com/v4/privacy.html",
+      "select": "www > site > privacy-policy"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mailinator.com/v4/terms.html",
+      "select": "body"
+    }
+  }
+}

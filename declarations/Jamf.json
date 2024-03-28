@@ -1,0 +1,13 @@
+{
+  "name": "Jamf",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jamf.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jamf.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Free speech tv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://freespeech.org/terms/",
+      "select": "html > body > div:nth-of-type(4) > div > main > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://freespeech.org/privacy/",
+      "select": "body"
+    }
+  }
+}

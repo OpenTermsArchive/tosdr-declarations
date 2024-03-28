@@ -1,0 +1,9 @@
+{
+  "name": "Hackforums",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hackforums.net/member.php?action=register",
+      "select": "body"
+    }
+  }
+}

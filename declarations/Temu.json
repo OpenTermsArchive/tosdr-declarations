@@ -1,0 +1,13 @@
+{
+  "name": "Temu",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.temu.com/terms-of-use.html?region_id=211&_x_sessn_id=u5k2uswztl&refer_page_name=login&refer_page_id=10013_1693568915628_1g3sele6fq&refer_page_sn=10013",
+      "select": "html"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.temu.com/privacy-and-cookie-policy.html?from_pc=1&region_id=211&_x_sessn_id=u5k2uswztl&refer_page_name=terms-of-use&refer_page_id=10026_1693568924009_9db910o62p&refer_page_sn=10026",
+      "select": "body"
+    }
+  }
+}

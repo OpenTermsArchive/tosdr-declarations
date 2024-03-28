@@ -1,0 +1,17 @@
+{
+  "name": "Metager",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://metager.org/impressum",
+      "select": "html > body > div:first-of-type"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://metager.org/transparency",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://metager.org/datenschutz",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

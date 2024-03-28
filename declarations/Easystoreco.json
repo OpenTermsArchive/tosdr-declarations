@@ -1,0 +1,13 @@
+{
+  "name": "Easystoreco",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.easystore.co/en-us/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.easystore.co/legal/terms",
+      "select": "html > body > div:first-of-type > main > section"
+    }
+  }
+}

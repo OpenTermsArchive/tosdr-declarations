@@ -1,0 +1,13 @@
+{
+  "name": "Maplesoft",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.maplesoft.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.maplesoft.com/terms/",
+      "select": "body"
+    }
+  }
+}

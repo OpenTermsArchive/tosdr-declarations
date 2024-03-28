@@ -1,0 +1,9 @@
+{
+  "name": "Obeo",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.obeosoft.com/en/legal-information",
+      "select": null
+    }
+  }
+}

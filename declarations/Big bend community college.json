@@ -1,0 +1,13 @@
+{
+  "name": "Big bend community college",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bigbend.edu/about-us/terms-of-use/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bigbend.edu/about-us/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div"
+    }
+  }
+}

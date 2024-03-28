@@ -1,0 +1,9 @@
+{
+  "name": "Turbowarp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://turbowarp.org/privacy.html",
+      "select": "body"
+    }
+  }
+}

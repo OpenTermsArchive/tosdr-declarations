@@ -1,0 +1,25 @@
+{
+  "name": "Designcrowd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.designcrowd.nl/modal/legal/PrivacyPolicy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.designcrowd.nl/modal/legal/SpecialTerms",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.designcrowd.nl/modal/legal/ContestsPaidRefundPolicy",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.designcrowd.nl/modal/legal/ContestsCommunity",
+      "select": "body"
+    },
+    "Spam": {
+      "fetch": "https://bit.ly/3dP2RaD",
+      "select": "body"
+    }
+  }
+}

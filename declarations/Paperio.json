@@ -1,0 +1,9 @@
+{
+  "name": "Paperio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://paper-io.com/privacy/",
+      "select": "body"
+    }
+  }
+}

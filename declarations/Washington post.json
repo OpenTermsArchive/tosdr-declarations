@@ -1,0 +1,13 @@
+{
+  "name": "Washington post",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.washingtonpost.com/terms-of-service/2011/11/18/gIQAldiYiN_story.html",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(2) > div > article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.washingtonpost.com/privacy-policy/2011/11/18/gIQASIiaiN_story.html",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(2) > div > article"
+    }
+  }
+}

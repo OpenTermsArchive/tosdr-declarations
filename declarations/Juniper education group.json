@@ -1,0 +1,13 @@
+{
+  "name": "Juniper education group",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://junipereducation.org/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://junipereducation.org/terms/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Adaptivemall",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.adaptivemall.com/returnpolicy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.adaptivemall.com/privacy-policy-cookie-restriction-mode",
+      "select": null
+    }
+  }
+}

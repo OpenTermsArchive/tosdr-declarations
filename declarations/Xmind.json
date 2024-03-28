@@ -1,0 +1,13 @@
+{
+  "name": "Xmind",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://xmind.app/terms/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://xmind.app/privacy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

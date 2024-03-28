@@ -1,0 +1,17 @@
+{
+  "name": "Getcontact",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.getcontact.com/purchases-policy",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.getcontact.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.getcontact.com/en/terms",
+      "select": null
+    }
+  }
+}

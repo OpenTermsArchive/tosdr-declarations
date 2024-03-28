@@ -1,0 +1,17 @@
+{
+  "name": "Interfolio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.interfolio.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.interfolio.com/terms-of-service/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.interfolio.com/cookies-policy/",
+      "select": "body"
+    }
+  }
+}

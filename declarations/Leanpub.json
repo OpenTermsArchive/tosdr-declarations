@@ -1,0 +1,17 @@
+{
+  "name": "Leanpub",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://leanpub.com/takedown",
+      "select": " > div:nth-of-type(2) > article > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://leanpub.com/terms",
+      "select": " > div:nth-of-type(2) > article > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://leanpub.com/privacy",
+      "select": " > div:nth-of-type(2) > article > section"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Sumup",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.sumup.com/en-us/cookies/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sumup.com/en-us/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sumup.com/privacy/",
+      "select": "body"
+    }
+  }
+}

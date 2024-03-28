@@ -1,0 +1,13 @@
+{
+  "name": "Stonyfield farm",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.stonyfield.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.stonyfield.com/terms-use/ ",
+      "select": "body"
+    }
+  }
+}

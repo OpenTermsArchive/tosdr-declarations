@@ -1,0 +1,9 @@
+{
+  "name": "Malte linke",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://malte-linke.com/en/privacypolicy",
+      "select": "body"
+    }
+  }
+}

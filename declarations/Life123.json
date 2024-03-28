@@ -1,0 +1,17 @@
+{
+  "name": "Life123",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.life123.com/cookies?qo=footerLinks",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.life123.com/terms?qo=footerLinks",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.life123.com/privacy?qo=footerLinks",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

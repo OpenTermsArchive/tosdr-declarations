@@ -1,0 +1,13 @@
+{
+  "name": "Epsilon data management",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.epsilon.com/us/terms-and-conditions ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.epsilon.com/us/privacy-policy ",
+      "select": "body"
+    }
+  }
+}

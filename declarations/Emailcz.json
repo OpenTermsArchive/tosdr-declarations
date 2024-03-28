@@ -1,0 +1,9 @@
+{
+  "name": "Emailcz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://napoveda.seznam.cz/cz/smluvni-podminky/podminky-email-cz/",
+      "select": "div.article"
+    }
+  }
+}

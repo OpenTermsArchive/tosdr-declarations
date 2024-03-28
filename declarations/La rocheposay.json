@@ -1,0 +1,13 @@
+{
+  "name": "La rocheposay",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.laroche-posay.us/customer-service-mobile-text-terms.html",
+      "select": "html > body > div:nth-of-type(10) > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.laroche-posay.us/customer-service-privacy-and-security.html",
+      "select": "body"
+    }
+  }
+}

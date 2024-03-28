@@ -1,0 +1,13 @@
+{
+  "name": "Portableapps",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://portableapps.com/forums/guidelines",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://portableapps.com/about/privacy",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:first-of-type > div"
+    }
+  }
+}

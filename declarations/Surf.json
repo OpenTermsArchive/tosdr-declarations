@@ -1,0 +1,13 @@
+{
+  "name": "Surf",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.joinsurf.com/terms-of-service",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.joinsurf.com/privacy-policy",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

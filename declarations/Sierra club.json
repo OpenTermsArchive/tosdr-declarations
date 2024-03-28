@@ -1,0 +1,13 @@
+{
+  "name": "Sierra club",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sierraclub.org/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sierraclub.org/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Gog",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://support.gog.com/hc/en-us/articles/360004559077?product=gog",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > div:first-of-type > article > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://support.gog.com/hc/en-us/articles/212632089-User-Agreement",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://support.gog.com/hc/en-us/articles/115000498685-Cookie-Policy",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://support.gog.com/hc/en-us/articles/213224285-Copyright-Policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://support.gog.com/hc/en-us/articles/115000487189-Money-Back-Guarantee-Policy",
+      "select": "body"
+    }
+  }
+}

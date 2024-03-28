@@ -1,0 +1,13 @@
+{
+  "name": "Simons foundation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.simonsfoundation.org/privacy-policy-online-publications/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.simonsfoundation.org/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

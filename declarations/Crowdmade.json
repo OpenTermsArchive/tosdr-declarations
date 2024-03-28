@@ -1,0 +1,13 @@
+{
+  "name": "Crowdmade",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://crowdmade.com/pages/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://crowdmade.com/pages/privacy",
+      "select": null
+    }
+  }
+}

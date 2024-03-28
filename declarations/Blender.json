@@ -1,0 +1,9 @@
+{
+  "name": "Blender",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.blender.org/privacy-policy/",
+      "select": " > div"
+    }
+  }
+}

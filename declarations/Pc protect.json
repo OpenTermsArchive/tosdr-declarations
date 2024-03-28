@@ -1,0 +1,17 @@
+{
+  "name": "Pc protect",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pcprotect.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pcprotect.com/terms",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.pcprotect.com/dmca",
+      "select": "body"
+    }
+  }
+}

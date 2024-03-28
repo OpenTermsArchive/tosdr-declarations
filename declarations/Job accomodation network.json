@@ -1,0 +1,21 @@
+{
+  "name": "Job accomodation network",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://askjan.org/disclaimer.cfm",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(3) > div > div > div > div > div > div > div > div > div > div > div"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://askjan.org/accessibility.cfm",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(3) > div > div > div > div > div > div > div > div > div:nth-of-type(2) > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://askjan.org/copyright.cfm",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(3) > div > div > div > div > div > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://askjan.org/privacy-statement.cfm",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(3) > div > div > div > div > div > div > div > div > div > div > div"
+    }
+  }
+}

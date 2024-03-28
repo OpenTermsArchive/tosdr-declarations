@@ -1,0 +1,25 @@
+{
+  "name": "Bodybuildingcom",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://bodybuilding.kustomer.help/eu-privacy-policy-ByxPeem9v",
+      "select": "article > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://bodybuilding.kustomer.help/terms-of-use-Byaiex75D",
+      "select": "article > div:nth-of-type(2)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://bodybuilding.kustomer.help/conditions-of-sale-ry6dJlQ5D",
+      "select": "article > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://bodybuilding.kustomer.help/cookies-policy-SJxvbxmcP",
+      "select": "article > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bodybuilding.kustomer.help/privacy-policy-rkOJgx7cP",
+      "select": "article > div:nth-of-type(2)"
+    }
+  }
+}

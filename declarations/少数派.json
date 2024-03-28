@@ -1,0 +1,9 @@
+{
+  "name": "少数派",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sspai.com/post/37739",
+      "select": "body"
+    }
+  }
+}

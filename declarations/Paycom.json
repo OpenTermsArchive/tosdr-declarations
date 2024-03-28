@@ -1,0 +1,13 @@
+{
+  "name": "Paycom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.paycom.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.paycom.com/privacy",
+      "select": "body"
+    }
+  }
+}

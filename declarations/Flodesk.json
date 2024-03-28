@@ -1,0 +1,13 @@
+{
+  "name": "Flodesk",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://help.flodesk.com/en/articles/3186402-flodesk-terms-of-service",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://help.flodesk.com/en/articles/3390453-data-processing-addendum",
+      "select": "html > body > div:first-of-type > div > section > div:nth-of-type(2) > div:first-of-type > div > article"
+    }
+  }
+}

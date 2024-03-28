@@ -1,0 +1,17 @@
+{
+  "name": "Taco bell",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tacobell.com/legal-notices/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.tacobell.com/legal-notices/about-our-ads",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tacobell.com/legal-notices/terms-of-use",
+      "select": "body"
+    }
+  }
+}

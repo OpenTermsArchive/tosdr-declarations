@@ -1,0 +1,13 @@
+{
+  "name": "Cloudconvert",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cloudconvert.com/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cloudconvert.com/privacy",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    }
+  }
+}

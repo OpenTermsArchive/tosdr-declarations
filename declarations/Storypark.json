@@ -1,0 +1,13 @@
+{
+  "name": "Storypark",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.storypark.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.storypark.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

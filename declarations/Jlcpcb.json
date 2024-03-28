@@ -1,0 +1,13 @@
+{
+  "name": "Jlcpcb",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://jlcpcb.com/help/article/30-Terms-%26-Conditions",
+      "select": "html > body > div:first-of-type > div > div > main > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://jlcpcb.com/help/article/31-Privacy-Policy",
+      "select": "html > body > div:first-of-type > div > div > main > div > div > div > div"
+    }
+  }
+}

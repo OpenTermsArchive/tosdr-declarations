@@ -1,0 +1,9 @@
+{
+  "name": "Helicopter flying",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.helicentre.eu/privacy-cookie-policy/",
+      "select": "body"
+    }
+  }
+}

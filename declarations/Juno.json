@@ -1,0 +1,9 @@
+{
+  "name": "Juno",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.juno.com/start/landing.do?page=www/legal/terms",
+      "select": "body"
+    }
+  }
+}

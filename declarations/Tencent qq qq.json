@@ -1,0 +1,13 @@
+{
+  "name": "Tencent qq qq",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacy.qq.com",
+      "select": "html > body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.qq.com/copyright20201229.htm",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Tricare",
+  "documents": {
+    "Merged": {
+      "fetch": "https://samuelsamuelbusinessofinformation.enterprise",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tricare.mil/Privacy",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "http://www.samuelsamuelbusinessofinformation.enterprises",
+      "select": null
+    }
+  }
+}

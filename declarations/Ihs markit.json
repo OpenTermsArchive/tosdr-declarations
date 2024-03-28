@@ -1,0 +1,21 @@
+{
+  "name": "Ihs markit",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://ihsmarkit.com/Legal/disclaimers.html",
+      "select": " > section > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ihsmarkit.com/Legal/privacy.html",
+      "select": " > section > div:nth-of-type(2)"
+    },
+    "Other": {
+      "fetch": "https://ihsmarkit.com/Legal/infrastructure-technology-transformation.html",
+      "select": " > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://ihsmarkit.com/legal/terms-of-use.html",
+      "select": " > section > div > div"
+    }
+  }
+}

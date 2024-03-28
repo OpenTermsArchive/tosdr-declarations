@@ -1,0 +1,9 @@
+{
+  "name": "Stepsapp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://steps.app/en/privacy?os=android",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Grove dental",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://grovedental.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

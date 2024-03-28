@@ -1,0 +1,13 @@
+{
+  "name": "Calcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cal.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cal.com/terms",
+      "select": "body"
+    }
+  }
+}

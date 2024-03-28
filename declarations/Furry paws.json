@@ -1,0 +1,13 @@
+{
+  "name": "Furry paws",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.furry-paws.com/main/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.furry-paws.com/main/terms",
+      "select": "body"
+    }
+  }
+}

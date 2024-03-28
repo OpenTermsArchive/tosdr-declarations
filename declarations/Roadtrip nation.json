@@ -1,0 +1,13 @@
+{
+  "name": "Roadtrip nation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://roadtripnation.com/legal/privacy",
+      "select": "html > body > main > div:nth-of-type(3) > div:first-of-type > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://roadtripnation.com/legal/tos",
+      "select": "html > body > main > div:nth-of-type(3) > div:first-of-type > div:nth-of-type(3)"
+    }
+  }
+}

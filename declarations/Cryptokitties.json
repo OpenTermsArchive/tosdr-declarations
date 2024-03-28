@@ -1,0 +1,13 @@
+{
+  "name": "Cryptokitties",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cryptokitties.co/privacy-policy",
+      "select": " > div > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cryptokitties.co/terms-of-use",
+      "select": " > div > main > div > div > div"
+    }
+  }
+}

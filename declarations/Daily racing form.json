@@ -1,0 +1,17 @@
+{
+  "name": "Daily racing form",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.drf.com/about_cookie",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.drf.com/about_privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.drf.com/about_wssa",
+      "select": null
+    }
+  }
+}

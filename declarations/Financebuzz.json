@@ -1,0 +1,21 @@
+{
+  "name": "Financebuzz",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://financebuzz.com/privacy",
+      "select": "html > body > div:first-of-type"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://financebuzz.com/dmca",
+      "select": "html > body > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://financebuzz.com/tou",
+      "select": "html > body > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "https://financebuzz.com/advertising-policy",
+      "select": "html > body > div:first-of-type"
+    }
+  }
+}

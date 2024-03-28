@@ -1,0 +1,13 @@
+{
+  "name": "Attain by aetna",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.attainbyaetna.com/privacy.html",
+      "select": " > div:nth-of-type(2) > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.attainbyaetna.com/terms.html",
+      "select": "body"
+    }
+  }
+}

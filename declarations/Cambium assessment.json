@@ -1,0 +1,9 @@
+{
+  "name": "Cambium assessment",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cambiumassessment.com/en/about/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div > div > div > div:nth-of-type(3) > div > div"
+    }
+  }
+}

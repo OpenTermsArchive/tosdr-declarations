@@ -1,0 +1,17 @@
+{
+  "name": "Cleanbrowsing",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cleanbrowsing.org/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cleanbrowsing.org/privacy/",
+      "select": "html > body > div:first-of-type > div > div > div > div > article > div > div > div:nth-of-type(5) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://cleanbrowsing.org/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

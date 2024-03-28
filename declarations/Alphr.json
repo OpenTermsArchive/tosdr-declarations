@@ -1,0 +1,13 @@
+{
+  "name": "Alphr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.alphr.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.alphr.com/tos/",
+      "select": "body"
+    }
+  }
+}

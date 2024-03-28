@@ -1,0 +1,13 @@
+{
+  "name": "Echobots",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://echobots.dev/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://echobots.dev/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

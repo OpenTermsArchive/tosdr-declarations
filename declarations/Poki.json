@@ -1,0 +1,13 @@
+{
+  "name": "Poki",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://poki.com/en/c/terms-of-use-outside-eea",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://poki.com/en/c/privacy-statement-outside-eea",
+      "select": "body"
+    }
+  }
+}

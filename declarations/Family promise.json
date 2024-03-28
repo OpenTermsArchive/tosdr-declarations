@@ -1,0 +1,13 @@
+{
+  "name": "Family promise",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://familypromise.org/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://familypromise.org/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

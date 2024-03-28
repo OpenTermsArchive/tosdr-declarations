@@ -1,0 +1,13 @@
+{
+  "name": "Fairgo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fairgoplus.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fairgoplus.com/terms-conditions",
+      "select": "body"
+    }
+  }
+}

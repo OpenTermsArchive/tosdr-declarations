@@ -1,0 +1,13 @@
+{
+  "name": "Ipv6 leak test",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ipv6leak.com/terms_of_service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ipv6leak.com/privacy_policy",
+      "select": "body"
+    }
+  }
+}

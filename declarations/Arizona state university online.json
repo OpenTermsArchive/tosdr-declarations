@@ -1,0 +1,9 @@
+{
+  "name": "Arizona state university online",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.asu.edu/privacy/",
+      "select": "body"
+    }
+  }
+}

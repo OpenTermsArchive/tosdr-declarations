@@ -1,0 +1,13 @@
+{
+  "name": "Vbaudio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://shop.vb-audio.com/en/content/3-Terms-of-use",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://vb-audio.com/Services/PrivacyPolicy.htm",
+      "select": "body"
+    }
+  }
+}

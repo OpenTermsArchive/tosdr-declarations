@@ -1,0 +1,17 @@
+{
+  "name": "Doom wiki",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://doomwiki.org/wiki/Doom_Wiki:Terms_of_use",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://doomwiki.org/wiki/Doom_Wiki:Policies_and_guidelines",
+      "select": "body"
+    },
+    "Frequently Asked Questions": {
+      "fetch": "https://doomwiki.org/wiki/Doom_Wiki:FAQ",
+      "select": "body"
+    }
+  }
+}

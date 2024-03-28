@@ -1,0 +1,9 @@
+{
+  "name": "Griffith university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan",
+      "select": "body"
+    }
+  }
+}

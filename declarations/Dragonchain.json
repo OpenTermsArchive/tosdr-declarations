@@ -1,0 +1,9 @@
+{
+  "name": "Dragonchain",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dragonchain.com/terms",
+      "select": "body"
+    }
+  }
+}

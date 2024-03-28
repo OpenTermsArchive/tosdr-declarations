@@ -1,0 +1,13 @@
+{
+  "name": "Capitalone shopping",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://capitaloneshopping.com/our-terms",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://capitaloneshopping.com/our-terms/terms-of-service",
+      "select": "body"
+    }
+  }
+}

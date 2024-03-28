@@ -1,0 +1,17 @@
+{
+  "name": "Notion",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.notion.so/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.notion.so/GDPR-c8eac6ea83a64fb1a3ea3bcd5c3d4951",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.notion.so/Personal-Use-Terms-of-Service-00e4e5d0f2b9411cbee6493f15779500",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Kiva",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kiva.org/legal/privacy",
+      "select": "body"
+    }
+  }
+}

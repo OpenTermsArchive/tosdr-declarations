@@ -1,0 +1,17 @@
+{
+  "name": "Uktv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://network.uktv.co.uk/article/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://network.uktv.co.uk/article/privacy-policy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://network.uktv.co.uk/article/cookie-notice/",
+      "select": null
+    }
+  }
+}

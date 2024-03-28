@@ -1,0 +1,9 @@
+{
+  "name": "Orions arm universe project",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://orionsarm.com/xcms.php?r=oa-page&page=gen_terms",
+      "select": "body"
+    }
+  }
+}

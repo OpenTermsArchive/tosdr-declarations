@@ -1,0 +1,13 @@
+{
+  "name": "Flight centre",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.flightcentre.com.au/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.flightcentre.com.au/s/article/booking-terms-conditions-au",
+      "select": "body"
+    }
+  }
+}

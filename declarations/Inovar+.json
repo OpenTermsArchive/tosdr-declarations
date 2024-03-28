@@ -1,0 +1,9 @@
+{
+  "name": "Inovar+",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://inovar-mais.com/politica-de-privacidade/",
+      "select": "body"
+    }
+  }
+}

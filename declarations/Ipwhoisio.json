@@ -1,0 +1,13 @@
+{
+  "name": "Ipwhoisio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ipwhois.io/terms",
+      "select": "html > body > main > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ipwhois.io/privacy",
+      "select": "html > body > main > section"
+    }
+  }
+}

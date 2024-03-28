@@ -1,0 +1,13 @@
+{
+  "name": "Wilbooks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wilbooks.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wilbooks.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Byond",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.byond.com/Privacy",
+      "select": "html > body > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.byond.com/TOS",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

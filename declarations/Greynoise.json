@@ -1,0 +1,17 @@
+{
+  "name": "Greynoise",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://greynoise.io/privacy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.greynoise.io/cookie",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.greynoise.io/terms",
+      "select": "body"
+    }
+  }
+}

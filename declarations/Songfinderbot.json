@@ -1,0 +1,9 @@
+{
+  "name": "Songfinderbot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pigeonburger.xyz/songfinderbot/terms/",
+      "select": "body"
+    }
+  }
+}

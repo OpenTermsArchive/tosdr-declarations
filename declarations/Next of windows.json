@@ -1,0 +1,9 @@
+{
+  "name": "Next of windows",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nextofwindows.com/privacy",
+      "select": " > div:nth-of-type(2) > div > div:nth-of-type(2) > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Clean master ultra",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cleanermasterultra.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

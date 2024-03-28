@@ -1,0 +1,9 @@
+{
+  "name": "Schulportal hessen",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://schulportal.hessen.de/datenschutzerklaerung",
+      "select": "body"
+    }
+  }
+}

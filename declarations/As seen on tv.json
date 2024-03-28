@@ -1,0 +1,17 @@
+{
+  "name": "As seen on tv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.asseenontvlive.com/policies/terms/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.asseenontvlive.com/policies/returns/ ",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.asseenontvlive.com/policies/safe-shopping/ ",
+      "select": "body"
+    }
+  }
+}

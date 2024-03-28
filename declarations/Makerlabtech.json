@@ -1,0 +1,9 @@
+{
+  "name": "Makerlabtech",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://inv.makerlab.tech/privacy",
+      "select": "body"
+    }
+  }
+}

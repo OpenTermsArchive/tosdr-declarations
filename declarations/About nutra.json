@@ -1,0 +1,13 @@
+{
+  "name": "About nutra",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.aboutnutra.com/privacy-policy-2",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.aboutnutra.com/terms-and-conditions",
+      "select": null
+    }
+  }
+}

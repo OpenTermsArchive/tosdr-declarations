@@ -1,0 +1,13 @@
+{
+  "name": "Superawesome",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.superawesome.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.superawesome.com/privacy-hub/awesomeads-privacy-policy",
+      "select": "body"
+    }
+  }
+}

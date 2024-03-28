@@ -1,0 +1,13 @@
+{
+  "name": "Biotrust",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.biotrust.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.biotrust.com/pages/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ubisoft",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://legal.ubi.com/termsofuse/en-CA",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://legal.ubi.com/privacypolicy/en-CA",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Blue by adt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bluebyadt.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

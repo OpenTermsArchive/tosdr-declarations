@@ -1,0 +1,17 @@
+{
+  "name": "Fairphone",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fairphone.com/en/legal/terms-and-conditions-for-fairphone-website-usage/",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.fairphone.com/en/legal/fairphone-returns-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.fairphone.com/en/legal/fairphone-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

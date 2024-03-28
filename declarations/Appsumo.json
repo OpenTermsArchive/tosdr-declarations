@@ -1,0 +1,13 @@
+{
+  "name": "Appsumo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://appsumo.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://appsumo.com/terms-of-use/",
+      "select": "html > body > div:nth-of-type(2) > main"
+    }
+  }
+}

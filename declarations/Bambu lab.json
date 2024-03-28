@@ -1,0 +1,17 @@
+{
+  "name": "Bambu lab",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bambulab.com/en/policies/terms",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://bambulab.com/en/policies/cookie-policy",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bambulab.com/en/policies/privacy",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    }
+  }
+}

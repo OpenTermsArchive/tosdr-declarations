@@ -1,0 +1,13 @@
+{
+  "name": "Talkwalker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.talkwalker.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.talkwalker.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

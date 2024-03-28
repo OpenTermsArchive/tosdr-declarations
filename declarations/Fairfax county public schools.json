@@ -1,0 +1,9 @@
+{
+  "name": "Fairfax county public schools",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fcps.edu/about-fcps/policies-regulations-and-notices/web-privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > div > article > div"
+    }
+  }
+}

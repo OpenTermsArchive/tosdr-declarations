@@ -1,0 +1,17 @@
+{
+  "name": "Wunderman thompson",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wundermanthompson.com/privacy-policy",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wundermanthompson.com/cookie-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wundermanthompson.com/terms",
+      "select": null
+    }
+  }
+}

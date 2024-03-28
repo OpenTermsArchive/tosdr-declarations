@@ -1,0 +1,9 @@
+{
+  "name": "Blou",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://blou.xyz/privacypolicy/",
+      "select": "body"
+    }
+  }
+}

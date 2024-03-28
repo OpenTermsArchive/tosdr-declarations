@@ -1,0 +1,9 @@
+{
+  "name": "Headway egypt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.headwayhosting.com/legal.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Penske media corporation",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pmc.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > article > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pmc.com/california-opt-out-of-sale-of-data/",
+      "select": " > div"
+    }
+  }
+}

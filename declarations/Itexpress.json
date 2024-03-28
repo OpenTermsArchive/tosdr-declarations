@@ -1,0 +1,9 @@
+{
+  "name": "Itexpress",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.uni-accounting.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Texoviva",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.texoviva.com/privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.texoviva.com/tos",
+      "select": "body"
+    }
+  }
+}

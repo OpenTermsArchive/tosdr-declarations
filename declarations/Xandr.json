@@ -1,0 +1,17 @@
+{
+  "name": "Xandr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.xandr.com/privacy/platform-privacy-policy/",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.xandr.com/privacy/cookie-policy/",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.xandr.com/legal/",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2)"
+    }
+  }
+}

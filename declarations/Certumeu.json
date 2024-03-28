@@ -1,0 +1,9 @@
+{
+  "name": "Certumeu",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.support.certum.eu/en/cert-expertise-privacy-policy/",
+      "select": "html > body > main > section:first-of-type > div > div:first-of-type > div:first-of-type > article > section > div"
+    }
+  }
+}

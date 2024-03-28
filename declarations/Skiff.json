@@ -1,0 +1,17 @@
+{
+  "name": "Skiff",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.skiff.org/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.skiff.org/terms-of-service",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.skiff.org/acceptable-use-policy",
+      "select": "body"
+    }
+  }
+}

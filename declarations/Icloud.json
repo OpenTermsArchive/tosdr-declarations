@@ -1,0 +1,13 @@
+{
+  "name": "Icloud",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.apple.com/legal/internet-services/icloud/en/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://support.apple.com/en-us/HT202303",
+      "select": "body"
+    }
+  }
+}

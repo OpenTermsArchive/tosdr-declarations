@@ -1,0 +1,13 @@
+{
+  "name": "Radmin vpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.radmin-vpn.com/eula/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.radmin-vpn.com/privacy/",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Nrla",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nrla.org.uk/about-us/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

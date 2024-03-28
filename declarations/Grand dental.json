@@ -1,0 +1,9 @@
+{
+  "name": "Grand dental",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.granddentallockport.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

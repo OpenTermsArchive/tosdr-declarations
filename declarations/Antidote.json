@@ -1,0 +1,13 @@
+{
+  "name": "Antidote",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.antidote.info/en/conditions-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.antidote.info/en/privacy-policy",
+      "select": "body"
+    }
+  }
+}

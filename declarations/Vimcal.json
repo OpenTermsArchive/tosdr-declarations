@@ -1,0 +1,13 @@
+{
+  "name": "Vimcal",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.vimcal.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vimcal.com/privacy",
+      "select": "body"
+    }
+  }
+}

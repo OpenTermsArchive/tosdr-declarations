@@ -1,0 +1,17 @@
+{
+  "name": "Marca",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.marca.com/corporativo/aviso-legal.html",
+      "select": "html > body > main > section > div > div > section > div > ul > li > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.marca.com/corporativo/politica_privacidad.html",
+      "select": "html > body > main > section > div > div > section > div > ul > li > div:first-of-type"
+    },
+    "Trackers Policy": {
+      "fetch": "http://cookies.unidadeditorial.es",
+      "select": "html > body > div:nth-of-type(2) > div > div"
+    }
+  }
+}

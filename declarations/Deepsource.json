@@ -1,0 +1,13 @@
+{
+  "name": "Deepsource",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://deepsource.io/terms-of-service/",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://deepsource.io/privacy/",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

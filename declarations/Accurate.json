@@ -1,0 +1,9 @@
+{
+  "name": "Accurate",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.accurate.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > section"
+    }
+  }
+}

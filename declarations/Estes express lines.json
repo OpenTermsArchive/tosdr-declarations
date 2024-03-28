@@ -1,0 +1,9 @@
+{
+  "name": "Estes express lines",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.estes-express.com/privacy-policy",
+      "select": "html > body > section > div > div > div > div > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Irs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.irs.gov/privacy-disclosure/irs-privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(2) > div > article > div:first-of-type"
+    }
+  }
+}

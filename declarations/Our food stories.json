@@ -1,0 +1,9 @@
+{
+  "name": "Our food stories",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ourfoodstories.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

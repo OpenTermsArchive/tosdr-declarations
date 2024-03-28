@@ -1,0 +1,17 @@
+{
+  "name": "Philip morris international",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pmiprivacy.com/en/terms-of-use",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.pmi.com/cookie-notice",
+      "select": null
+    },
+    "Legal Information": {
+      "fetch": "https://pmiprivacy.com/en/corporate-website",
+      "select": null
+    }
+  }
+}

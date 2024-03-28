@@ -1,0 +1,17 @@
+{
+  "name": "Clemson university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.clemson.edu/privacypolicy.html",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://www.clemson.edu/siteinfo.html",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.clemson.edu/administration/internalaudit/ethicsline.html",
+      "select": "body"
+    }
+  }
+}

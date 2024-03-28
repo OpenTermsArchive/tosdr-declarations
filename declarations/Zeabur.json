@@ -1,0 +1,13 @@
+{
+  "name": "Zeabur",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.zeabur.com/en-US/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.zeabur.com/en-US/legal/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Video deck for youtube",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.videodeck.net/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.videodeck.net/privacy",
+      "select": "body"
+    }
+  }
+}

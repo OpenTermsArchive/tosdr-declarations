@@ -1,0 +1,9 @@
+{
+  "name": "Pure sport cbd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://puresportcbd.com/privacy-statement/",
+      "select": "body"
+    }
+  }
+}

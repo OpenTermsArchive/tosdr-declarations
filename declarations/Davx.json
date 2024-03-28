@@ -1,0 +1,9 @@
+{
+  "name": "Davx",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.davx5.com/privacy ",
+      "select": "body"
+    }
+  }
+}

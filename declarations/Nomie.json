@@ -1,0 +1,9 @@
+{
+  "name": "Nomie",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nomie.app/pages/privacy",
+      "select": "body"
+    }
+  }
+}

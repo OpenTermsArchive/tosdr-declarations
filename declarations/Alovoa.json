@@ -1,0 +1,13 @@
+{
+  "name": "Alovoa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://alovoa.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://alovoa.com/tos",
+      "select": "body"
+    }
+  }
+}

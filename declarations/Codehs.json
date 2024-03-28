@@ -1,0 +1,13 @@
+{
+  "name": "Codehs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://codehs.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://codehs.com/terms",
+      "select": "body"
+    }
+  }
+}

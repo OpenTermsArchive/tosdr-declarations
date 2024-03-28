@@ -1,0 +1,9 @@
+{
+  "name": "Geforce now",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.nvidia.com/en-eu/geforce-now/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

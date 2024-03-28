@@ -1,0 +1,17 @@
+{
+  "name": "Openweb",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.openweb.com/legal-and-privacy/privacy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.openweb.com/legal-and-privacy/cookie-policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.openweb.com/legal-and-privacy/terms-of-use/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main"
+    }
+  }
+}

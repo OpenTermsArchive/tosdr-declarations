@@ -1,0 +1,13 @@
+{
+  "name": "Nelnet campus commerce",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://campuscommerce.com/terms-of-use/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://campuscommerce.com/privacy-policy/",
+      "select": "html > body > main > section:nth-of-type(2)"
+    }
+  }
+}

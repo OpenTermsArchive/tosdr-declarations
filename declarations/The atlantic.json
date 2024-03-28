@@ -1,0 +1,17 @@
+{
+  "name": "The atlantic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.theatlantic.com/terms-and-conditions/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.theatlantic.com/privacy-policy/",
+      "select": null
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.theatlantic.com/responsible-disclosure-policy/",
+      "select": "html"
+    }
+  }
+}

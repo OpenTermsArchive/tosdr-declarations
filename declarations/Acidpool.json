@@ -1,0 +1,9 @@
+{
+  "name": "Acidpool",
+  "documents": {
+    "Frequently Asked Questions": {
+      "fetch": "https://acidpool.co.uk/#vtc1/faq",
+      "select": "body"
+    }
+  }
+}

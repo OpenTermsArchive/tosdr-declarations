@@ -1,0 +1,9 @@
+{
+  "name": "Joplin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://joplinapp.org/privacy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    }
+  }
+}

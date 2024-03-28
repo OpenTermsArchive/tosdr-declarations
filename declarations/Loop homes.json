@@ -1,0 +1,17 @@
+{
+  "name": "Loop homes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://loop.homes/website-terms-of-use/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://loop.homes/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://loop.homes/privacy-policy-2/",
+      "select": "body"
+    }
+  }
+}

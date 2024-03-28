@@ -1,0 +1,9 @@
+{
+  "name": "Resmed",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.resmed.com/en-us/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

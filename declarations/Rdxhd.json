@@ -1,0 +1,13 @@
+{
+  "name": "Rdxhd",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rdxhd99.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://rdxhd99.com/dmca/",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

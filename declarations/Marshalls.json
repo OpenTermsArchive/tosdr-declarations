@@ -1,0 +1,13 @@
+{
+  "name": "Marshalls",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://marshalls.com/us/m/jump/topic/Legal/2400080",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.marshalls.com/us/m/jump/topic/Legal/2400080",
+      "select": "body"
+    }
+  }
+}

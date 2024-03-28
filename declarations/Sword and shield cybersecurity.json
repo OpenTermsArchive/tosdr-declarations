@@ -1,0 +1,9 @@
+{
+  "name": "Sword and shield cybersecurity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://swordshieldcyber.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

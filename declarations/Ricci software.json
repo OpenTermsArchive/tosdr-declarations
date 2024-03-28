@@ -1,0 +1,9 @@
+{
+  "name": "Ricci software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.riccisoftware.com.br/Arquivos/politica_de_privacidade/PuxaAssunto/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Rslt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rslt.io/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

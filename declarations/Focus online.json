@@ -1,0 +1,9 @@
+{
+  "name": "Focus online",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.focus.de/intern/datenschutzerklaerung-datenschutzerklaerung-fuer-die-webseite-www-focus-de_id_6846331.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Puget sound energy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pse.com/pages/privacy",
+      "select": " > div > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pse.com/pages/terms-of-use",
+      "select": " > div > div > div:nth-of-type(2) > div:first-of-type > div"
+    }
+  }
+}

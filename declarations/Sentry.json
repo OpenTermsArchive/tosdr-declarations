@@ -1,0 +1,13 @@
+{
+  "name": "Sentry",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sentry.io/legal/dpa/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://sentry.io/terms/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > div > div"
+    }
+  }
+}

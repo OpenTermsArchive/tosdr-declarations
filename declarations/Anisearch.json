@@ -1,0 +1,9 @@
+{
+  "name": "Anisearch",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.anisearch.com/faq/privacy",
+      "select": null
+    }
+  }
+}

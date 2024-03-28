@@ -1,0 +1,13 @@
+{
+  "name": "Make survey money",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.makesurveymoney.com/privacy-policy.asp",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.makesurveymoney.com/terms-of-services.asp",
+      "select": "body"
+    }
+  }
+}

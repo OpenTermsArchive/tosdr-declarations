@@ -1,0 +1,13 @@
+{
+  "name": "Senior discounts club",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://seniordiscountsclub.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(5) > main > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://seniordiscountsclub.com/terms-and-conditions",
+      "select": "html > body > div:nth-of-type(5) > main > article"
+    }
+  }
+}

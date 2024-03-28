@@ -1,0 +1,13 @@
+{
+  "name": "Tutorcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tutor.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://lhh.tutor.com/policies/privacy.aspx",
+      "select": "body"
+    }
+  }
+}

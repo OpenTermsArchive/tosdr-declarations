@@ -1,0 +1,13 @@
+{
+  "name": "Substack",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://substack.com/privacy",
+      "select": " > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://substack.com/tos",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

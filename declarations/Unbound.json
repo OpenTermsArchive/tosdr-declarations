@@ -1,0 +1,9 @@
+{
+  "name": "Unbound",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.unboundapp.com/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Spiceworks",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.spiceworks.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spiceworks.com/privacy/",
+      "select": "html > body > main > div > div:nth-of-type(2) > section > div:nth-of-type(2) > div > div > div > section > div > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.spiceworks.com/privacy/cookies/",
+      "select": "html > body > main > div > div:nth-of-type(2) > section > div:nth-of-type(2) > div > div > div > section > div > div:nth-of-type(2) > div"
+    }
+  }
+}

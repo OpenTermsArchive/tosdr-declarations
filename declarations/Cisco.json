@@ -1,0 +1,21 @@
+{
+  "name": "Cisco",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.cisco.com/c/en/us/about/brand-center/copyright-use.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4)"
+    },
+    "Other": {
+      "fetch": "https://www.cisco.com/c/en/us/about/brand-center/copyright-use/copyright-material-guidelines.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cisco.com/c/en/us/about/legal/privacy-full.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cisco.com/c/en/us/about/legal/cloud-and-software/end_user_license_agreement.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2)"
+    }
+  }
+}

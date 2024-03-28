@@ -1,0 +1,13 @@
+{
+  "name": "Minecraft server list",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://minecraft-server-list.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://minecraft-server-list.com/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Meetup",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.meetup.com/privacy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.meetup.com/terms/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://help.meetup.com/hc/en-us/articles/360001674451-Intellectual-Property-Dispute-Policies",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.meetup.com/cookie_policy/",
+      "select": "body"
+    }
+  }
+}

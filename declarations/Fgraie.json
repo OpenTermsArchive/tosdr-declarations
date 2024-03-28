@@ -1,0 +1,17 @@
+{
+  "name": "Fgraie",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fógraí.ie/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://fógraí.ie/terms-of-sale",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://xn--fgra-ypa6a.ie/cookie-policy",
+      "select": "body"
+    }
+  }
+}

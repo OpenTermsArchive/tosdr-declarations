@@ -1,0 +1,9 @@
+{
+  "name": "Pdf annotator",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pdfannotator.com/en/license",
+      "select": "html > body > div:first-of-type > div > section:nth-of-type(2) > div"
+    }
+  }
+}

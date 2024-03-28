@@ -1,0 +1,13 @@
+{
+  "name": "Atlas vpn",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://atlasvpn.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://atlasvpn.com/privacy-policy",
+      "select": " > div:nth-of-type(4) > main > div"
+    }
+  }
+}

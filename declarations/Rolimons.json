@@ -1,0 +1,9 @@
+{
+  "name": "Rolimons",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rolimons.com/termsandprivacy",
+      "select": "html > body > div:nth-of-type(7)"
+    }
+  }
+}

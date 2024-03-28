@@ -1,0 +1,17 @@
+{
+  "name": "Archive of our own",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://archiveofourown.org/tos#privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://archiveofourown.org/tos",
+      "select": null
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://archiveofourown.org/dmca",
+      "select": "body"
+    }
+  }
+}

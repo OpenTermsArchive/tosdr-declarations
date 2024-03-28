@@ -1,0 +1,13 @@
+{
+  "name": "Thenextddscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://thenextdds.com/general/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://thenextdds.com/general/terms-of-use",
+      "select": "body"
+    }
+  }
+}

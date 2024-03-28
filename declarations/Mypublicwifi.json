@@ -1,0 +1,9 @@
+{
+  "name": "Mypublicwifi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mypublicwifi.com/myhotspot/en/Datenschutzbestimmungen.html",
+      "select": "body"
+    }
+  }
+}

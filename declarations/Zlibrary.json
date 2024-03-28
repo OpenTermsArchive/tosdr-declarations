@@ -1,0 +1,13 @@
+{
+  "name": "Zlibrary",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://1lib.us/privacy.php",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://1lib.us/dmca.php",
+      "select": "body"
+    }
+  }
+}

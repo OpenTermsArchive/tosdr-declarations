@@ -1,0 +1,9 @@
+{
+  "name": "Open and free technology community",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://oftc.net/Privacy_Policy/",
+      "select": "body"
+    }
+  }
+}

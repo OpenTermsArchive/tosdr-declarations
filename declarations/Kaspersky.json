@@ -1,0 +1,21 @@
+{
+  "name": "Kaspersky",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://support.kaspersky.com/KPC/1.0/en-US/192969.htm",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.kaspersky.com/anti-corruption-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://my.kaspersky.com/Home/ThirdPartyCode",
+      "select": "html > body > section:first-of-type > div > div > section > div"
+    },
+    "Legal Information": {
+      "fetch": "https://support.kaspersky.com/KPC/1.0/en-US/97345.htm",
+      "select": "body"
+    }
+  }
+}

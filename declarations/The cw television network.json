@@ -1,0 +1,13 @@
+{
+  "name": "The cw television network",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cwtv.com/thecw/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > section > div > div > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cwtv.com/thecw/terms-of-use/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > section > div > div > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

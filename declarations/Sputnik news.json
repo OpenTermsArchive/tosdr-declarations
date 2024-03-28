@@ -1,0 +1,9 @@
+{
+  "name": "Sputnik news",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sputniknews.com/docs/about/privacy_policy.html",
+      "select": "body"
+    }
+  }
+}

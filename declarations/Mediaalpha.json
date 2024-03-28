@@ -1,0 +1,13 @@
+{
+  "name": "Mediaalpha",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://insurance.mediaalpha.com/content/terms-of-use.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://insurance.mediaalpha.com/content/privacy-policy.html",
+      "select": "body"
+    }
+  }
+}

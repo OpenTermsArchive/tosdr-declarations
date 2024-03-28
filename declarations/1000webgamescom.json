@@ -1,0 +1,13 @@
+{
+  "name": "1000webgamescom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://1000webgames.com/privacy.php",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://1000webgames.com/cookies.php",
+      "select": "body"
+    }
+  }
+}

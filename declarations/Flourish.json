@@ -1,0 +1,13 @@
+{
+  "name": "Flourish",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flourish.studio/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://flourish.studio/terms/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Massachusetts institute of technology",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mastodon.mit.edu/terms",
+      "select": "body"
+    }
+  }
+}

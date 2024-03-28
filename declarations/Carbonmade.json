@@ -1,0 +1,13 @@
+{
+  "name": "Carbonmade",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://carbonmade.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://carbonmade.com/terms",
+      "select": "body"
+    }
+  }
+}

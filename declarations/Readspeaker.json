@@ -1,0 +1,13 @@
+{
+  "name": "Readspeaker",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.readspeaker.com/privacy-policy",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.readspeaker.com/cookie-policy/",
+      "select": null
+    }
+  }
+}

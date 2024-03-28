@@ -1,0 +1,9 @@
+{
+  "name": "Elkzone",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.elk.zone/docs/privacy",
+      "select": " > div > div:nth-of-type(2) > div > article > div:first-of-type"
+    }
+  }
+}

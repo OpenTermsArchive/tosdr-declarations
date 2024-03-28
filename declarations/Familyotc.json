@@ -1,0 +1,17 @@
+{
+  "name": "Familyotc",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://familyotc.com/pages/return-policy",
+      "select": "html > body > div:nth-of-type(4)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://familyotc.com/pages/privacy-policy",
+      "select": "html > body > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://familyotc.com/pages/terms-of-use",
+      "select": "html > body > div:nth-of-type(4)"
+    }
+  }
+}

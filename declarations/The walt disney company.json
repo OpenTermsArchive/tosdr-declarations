@@ -1,0 +1,13 @@
+{
+  "name": "The walt disney company",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://disneytermsofuse.com/english/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/",
+      "select": "body"
+    }
+  }
+}

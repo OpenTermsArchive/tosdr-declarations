@@ -1,0 +1,13 @@
+{
+  "name": "Manna drone delivery",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.manna.aero/terms",
+      "select": "html > body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.manna.aero/privacy",
+      "select": "html > body"
+    }
+  }
+}

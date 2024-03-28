@@ -1,0 +1,13 @@
+{
+  "name": "Virtbiz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.virtbiz.com/wp-content/uploads/Network-Service-Agreement.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.virtbiz.com/about/tos/privacy/",
+      "select": null
+    }
+  }
+}

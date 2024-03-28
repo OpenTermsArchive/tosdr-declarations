@@ -1,0 +1,9 @@
+{
+  "name": "Gutter helmet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gutterhelmet.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Fusebox",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://fusebox.fm/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

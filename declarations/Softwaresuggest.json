@@ -1,0 +1,13 @@
+{
+  "name": "Softwaresuggest",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.softwaresuggest.com/privacy",
+      "select": "html > body > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.softwaresuggest.com/tos",
+      "select": "body"
+    }
+  }
+}

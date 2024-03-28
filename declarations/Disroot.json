@@ -1,0 +1,13 @@
+{
+  "name": "Disroot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://disroot.org/en/privacy_policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://disroot.org/en/tos",
+      "select": " > div > div"
+    }
+  }
+}

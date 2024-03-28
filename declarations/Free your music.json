@@ -1,0 +1,17 @@
+{
+  "name": "Free your music",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://freeyourmusic.com/privacy-policy",
+      "select": "html > body > div > div > div:nth-of-type(3)"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://freeyourmusic.com/refund-policy",
+      "select": "html > body > div > div > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://freeyourmusic.com/terms-of-service",
+      "select": "html > body > div > div > div:nth-of-type(3)"
+    }
+  }
+}

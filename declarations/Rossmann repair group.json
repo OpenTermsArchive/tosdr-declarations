@@ -1,0 +1,13 @@
+{
+  "name": "Rossmann repair group",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rossmanngroup.com/terms-and-conditions/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://rossmanngroup.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

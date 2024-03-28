@@ -1,0 +1,21 @@
+{
+  "name": "Appuals",
+  "documents": {
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://appuals.com/affiliate-disclosure/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://appuals.com/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://appuals.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://appuals.com/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

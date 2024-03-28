@@ -1,0 +1,9 @@
+{
+  "name": "Blue donut games",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bdgame.uk/privacy-policy",
+      "select": "body"
+    }
+  }
+}

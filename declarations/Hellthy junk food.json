@@ -1,0 +1,9 @@
+{
+  "name": "Hellthy junk food",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://shop.hellthyjunkfood.com/privacy",
+      "select": "html > body > div:nth-of-type(3) > div > section > div"
+    }
+  }
+}

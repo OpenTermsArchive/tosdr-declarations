@@ -1,0 +1,25 @@
+{
+  "name": "Gentlent",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.gentlent.com/legal-notice",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gentlent.com/resources/terms-of-service",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.gentlent.com/resources/cookie-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://gentlent.com/resources/privacy-policy",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.gentlent.com/resources/code-of-conduct",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Greenant networks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.greenant.net/about-us/",
+      "select": "body"
+    }
+  }
+}

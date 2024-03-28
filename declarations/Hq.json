@@ -1,0 +1,13 @@
+{
+  "name": "Hq",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hq.hype.space/legal/rules.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hq.hype.space/legal/privacy-row.html",
+      "select": "body"
+    }
+  }
+}

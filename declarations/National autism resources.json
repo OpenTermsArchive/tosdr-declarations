@@ -1,0 +1,13 @@
+{
+  "name": "National autism resources",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nationalautismresources.com/privacy-policy/",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://nationalautismresources.com/shipping/",
+      "select": "body"
+    }
+  }
+}

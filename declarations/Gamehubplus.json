@@ -1,0 +1,13 @@
+{
+  "name": "Gamehubplus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gamehubplus.com/terms-and-conditions/website",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gamehubplus.com/terms-and-conditions/u2opia-terms-conditions",
+      "select": "body"
+    }
+  }
+}

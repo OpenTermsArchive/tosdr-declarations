@@ -1,0 +1,9 @@
+{
+  "name": "Mym",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://mym.fans/app/terms-of-use",
+      "select": "body"
+    }
+  }
+}

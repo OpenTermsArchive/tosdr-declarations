@@ -1,0 +1,13 @@
+{
+  "name": "Cybrary",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cybrary.it/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cybrary.it/terms-service/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div:nth-of-type(2)"
+    }
+  }
+}

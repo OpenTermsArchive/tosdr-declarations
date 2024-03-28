@@ -1,0 +1,13 @@
+{
+  "name": "Dean morris cards",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.deanmorriscards.co.uk/conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.deanmorriscards.co.uk/privacy",
+      "select": "body"
+    }
+  }
+}

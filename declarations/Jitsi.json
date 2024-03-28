@@ -1,0 +1,13 @@
+{
+  "name": "Jitsi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://jitsi.org/meet-jit-si-terms-of-service/",
+      "select": "body > div:first-of-type > main > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://jitsi.org/meet-jit-si-privacy/",
+      "select": "body"
+    }
+  }
+}

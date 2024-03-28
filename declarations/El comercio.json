@@ -1,0 +1,9 @@
+{
+  "name": "El comercio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.elcomercio.com/politicas-de-privacidad/",
+      "select": "body"
+    }
+  }
+}

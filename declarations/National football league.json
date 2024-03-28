@@ -1,0 +1,13 @@
+{
+  "name": "National football league",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nfl.com/legal/privacy/",
+      "select": "html > body > div:nth-of-type(3) > main > article > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nfl.com/legal/terms/",
+      "select": "body"
+    }
+  }
+}

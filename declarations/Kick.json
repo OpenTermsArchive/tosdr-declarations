@@ -1,0 +1,21 @@
+{
+  "name": "Kick",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://kick.com/dmca-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://kick.com/terms-of-service",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://kick.com/community-guidelines",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kick.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

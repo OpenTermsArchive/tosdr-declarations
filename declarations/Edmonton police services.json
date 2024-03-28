@@ -1,0 +1,13 @@
+{
+  "name": "Edmonton police services",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.policesolutions.ca/checks/services/edmonton/index.php?page=checkeula",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.policesolutions.ca/checks/services/edmonton/index.php?page=privacypolicy",
+      "select": null
+    }
+  }
+}

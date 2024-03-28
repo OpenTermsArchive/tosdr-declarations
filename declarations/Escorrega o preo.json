@@ -1,0 +1,13 @@
+{
+  "name": "Escorrega o preo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.escorregaopreco.com.br/politica-de-privacidade",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.escorregaopreco.com.br/termos-e-condicoes",
+      "select": "body"
+    }
+  }
+}

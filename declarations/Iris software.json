@@ -1,0 +1,13 @@
+{
+  "name": "Iris software",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pmx.parentmail.co.uk/resources/terms-and-conditions/privacy-policy.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.iris.co.uk/cookies/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Lemon8",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lemon8-app.com/legal/privacy?region=us",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.lemon8-app.com/legal/cookies-policy?region=us",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lemon8-app.com/legal/terms-of-service?region=us",
+      "select": "body"
+    }
+  }
+}

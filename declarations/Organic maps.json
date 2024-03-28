@@ -1,0 +1,13 @@
+{
+  "name": "Organic maps",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://organicmaps.app/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://organicmaps.app/terms/",
+      "select": "body"
+    }
+  }
+}

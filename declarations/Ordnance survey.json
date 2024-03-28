@@ -1,0 +1,17 @@
+{
+  "name": "Ordnance survey",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ordnancesurvey.co.uk/governance/policies/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ordnancesurvey.co.uk/legal",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ordnancesurvey.co.uk/cookies",
+      "select": "body"
+    }
+  }
+}

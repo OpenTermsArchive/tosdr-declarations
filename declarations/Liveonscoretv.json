@@ -1,0 +1,17 @@
+{
+  "name": "Liveonscoretv",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "http://liveonscore.tv/dmca/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:first-of-type > div > article > div > p"
+    },
+    "Terms of Service": {
+      "fetch": "http://liveonscore.tv/terms-of-services/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://liveonscore.tv/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div:first-of-type > div > article > div > div:first-of-type > div > div > div"
+    }
+  }
+}

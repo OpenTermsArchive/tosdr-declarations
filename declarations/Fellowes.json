@@ -1,0 +1,13 @@
+{
+  "name": "Fellowes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.fellowes.com/us/en/misc/privacy-policy.aspx",
+      "select": "html > body > form > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(4) > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fellowes.com/us/en/misc/terms-of-use.aspx",
+      "select": "body"
+    }
+  }
+}

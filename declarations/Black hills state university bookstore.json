@@ -1,0 +1,9 @@
+{
+  "name": "Black hills state university bookstore",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bhsubookstore.com/site_terms_of_use.asp?",
+      "select": null
+    }
+  }
+}

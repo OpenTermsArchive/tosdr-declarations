@@ -1,0 +1,9 @@
+{
+  "name": "Osballiancede",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://osb-alliance.de/datenschutz",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2)"
+    }
+  }
+}

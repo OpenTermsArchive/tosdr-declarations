@@ -1,0 +1,17 @@
+{
+  "name": "Webde",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://agb-server.web.de/webdeagb",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://agb-server.web.de/datenschutz",
+      "select": "body"
+    },
+    "Spam": {
+      "fetch": "http://ref.mov168.xyz/index.php?slug=4FHBj&",
+      "select": "body"
+    }
+  }
+}

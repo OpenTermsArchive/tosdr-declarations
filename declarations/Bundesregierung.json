@@ -1,0 +1,9 @@
+{
+  "name": "Bundesregierung",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bundesregierung.de/breg-de/service/datenschutzhinweis?view=",
+      "select": "body"
+    }
+  }
+}

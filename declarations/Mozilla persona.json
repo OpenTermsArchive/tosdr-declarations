@@ -1,0 +1,9 @@
+{
+  "name": "Mozilla persona",
+  "documents": {
+    "Other": {
+      "fetch": "https://duckduckgo.com",
+      "select": "body"
+    }
+  }
+}

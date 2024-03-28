@@ -1,0 +1,17 @@
+{
+  "name": "Bestcasinosaustraliacom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://best-casinos-australia.com/terms-and-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://best-casinos-australia.com/privacy-policy/",
+      "select": "html > body > main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://best-casinos-australia.com/cookie-policy/",
+      "select": "html > body > main"
+    }
+  }
+}

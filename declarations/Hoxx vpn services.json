@@ -1,0 +1,13 @@
+{
+  "name": "Hoxx vpn services",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hoxx.com/eula/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hoxx.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

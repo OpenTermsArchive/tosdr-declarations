@@ -1,0 +1,13 @@
+{
+  "name": "Tintolav",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.tintolav.com/en/cookie-policy.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > section > div > div > section > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tintolav.com/en/privacy-policy.html",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > section > div > div > section > div > div"
+    }
+  }
+}

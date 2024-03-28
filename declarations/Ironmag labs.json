@@ -1,0 +1,17 @@
+{
+  "name": "Ironmag labs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ironmaglabs.com/forums/help/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ironmaglabs.com/forums/help/cookies/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ironmaglabs.com/forums/help/terms/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div"
+    }
+  }
+}

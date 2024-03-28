@@ -1,0 +1,17 @@
+{
+  "name": "Tabdigital",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cloud.tab.digital/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://cloud.tab.digital/dpa",
+      "select": null
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://cloud.tab.digital/refundpolicy",
+      "select": null
+    }
+  }
+}

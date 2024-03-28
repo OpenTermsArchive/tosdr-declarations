@@ -1,0 +1,13 @@
+{
+  "name": "Hallmark",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hallmark.com/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hallmarkmoviesandmysteries.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tourofcaliforniaorg",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.tourofcalifornia.org/2006/01/disclaimer.html",
+      "select": "html > body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tourofcalifornia.org/2006/01/privacy-policy.html",
+      "select": "html > body"
+    }
+  }
+}

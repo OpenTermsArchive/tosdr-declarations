@@ -1,0 +1,13 @@
+{
+  "name": "Welke online datingsite",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://welkeonlinedatingsite.nl/privacy-statement/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://welkeonlinedatingsite.nl/algemene-voorwaarden/",
+      "select": "body"
+    }
+  }
+}

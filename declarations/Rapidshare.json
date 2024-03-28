@@ -1,0 +1,13 @@
+{
+  "name": "Rapidshare",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://rapidshare.io/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://rapidshare.io/terms.html",
+      "select": "html > body > section:first-of-type"
+    }
+  }
+}

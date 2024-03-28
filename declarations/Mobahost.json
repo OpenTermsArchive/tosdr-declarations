@@ -1,0 +1,13 @@
+{
+  "name": "Mobahost",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wumpus.host/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wumpus.host/tos.html",
+      "select": "body"
+    }
+  }
+}

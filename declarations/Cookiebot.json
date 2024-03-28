@@ -1,0 +1,13 @@
+{
+  "name": "Cookiebot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cookiebot.com/en/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cookiebot.com/en/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Australia post",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://auspost.com.au/privacy",
+      "select": "html > body > div:first-of-type > main > div:first-of-type > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://auspost.com.au/terms-conditions/mypost-account-terms-of-use",
+      "select": " > div > section > div > div"
+    }
+  }
+}

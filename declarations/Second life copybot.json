@@ -1,0 +1,17 @@
+{
+  "name": "Second life copybot",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://secondlifecopybot.com/policy_violation/copyright.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://secondlifecopybot.com/policy_violation/PrivacyPolicy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://secondlifecopybot.com/policy_violation/Terms%20of%20Service.html",
+      "select": "body"
+    }
+  }
+}

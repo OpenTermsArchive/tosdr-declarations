@@ -1,0 +1,29 @@
+{
+  "name": "Tiktok",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tiktok.com/en-uk/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tiktok.com/en/privacy-policy-row",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.tiktok.com/legal/cookie-policy",
+      "select": "body"
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.tiktok.com/legal/law-enforcement",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.tiktok.com/legal/copyright-policy",
+      "select": "body"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.tiktok.com/community-guidelines",
+      "select": "body"
+    }
+  }
+}

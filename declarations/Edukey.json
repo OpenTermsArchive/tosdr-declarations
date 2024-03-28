@@ -1,0 +1,21 @@
+{
+  "name": "Edukey",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.edukey.co.uk/privacy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tes.com/terms-conditions/terms-and-conditions",
+      "select": " > div > article > div > div:nth-of-type(2) > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.tes.com/terms-conditions/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.tes.com/policies/cookies-policy",
+      "select": "html > body > div:first-of-type > div > main > div"
+    }
+  }
+}

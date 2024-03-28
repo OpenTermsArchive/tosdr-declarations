@@ -1,0 +1,13 @@
+{
+  "name": "Moon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://paywithmoon.com/terms-conditions",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://paywithmoon.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(2) > div"
+    }
+  }
+}

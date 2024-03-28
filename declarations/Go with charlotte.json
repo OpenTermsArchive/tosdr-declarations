@@ -1,0 +1,13 @@
+{
+  "name": "Go with charlotte",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gowithcharlotte.com/term-conditions",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gowithcharlotte.com/privacy-policy",
+      "select": "html > body > main"
+    }
+  }
+}

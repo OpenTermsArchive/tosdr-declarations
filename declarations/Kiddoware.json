@@ -1,0 +1,17 @@
+{
+  "name": "Kiddoware",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kiddoware.com/kiddoware-eula-and-terms-and-services-agreement/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kiddoware.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://kiddoware.com/cookie-policy-2/",
+      "select": "html > body > div:first-of-type > div > div > section > div > div > div > section:nth-of-type(3)"
+    }
+  }
+}

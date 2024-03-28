@@ -1,0 +1,13 @@
+{
+  "name": "Rapid7",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rapid7.com/privacy-policy/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.rapid7.com/privacy-policy/tracking-technologies/",
+      "select": "body"
+    }
+  }
+}

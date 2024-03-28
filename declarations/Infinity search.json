@@ -1,0 +1,9 @@
+{
+  "name": "Infinity search",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://infinitysearch.ai/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Nexters",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://nexters.com/terms_of_service",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://nexters.com/privacy_policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

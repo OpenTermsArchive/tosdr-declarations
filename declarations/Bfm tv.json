@@ -1,0 +1,17 @@
+{
+  "name": "Bfm tv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bfmtv.com/politique-donnees-personnelles/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bfmtv.com/cgu/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.bfmtv.com/cookies/",
+      "select": null
+    }
+  }
+}

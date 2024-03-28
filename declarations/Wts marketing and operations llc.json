@@ -1,0 +1,9 @@
+{
+  "name": "Wts marketing and operations llc",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wts.everflowclient.io/affiliate/signup",
+      "select": null
+    }
+  }
+}

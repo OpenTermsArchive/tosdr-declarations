@@ -1,0 +1,13 @@
+{
+  "name": "Photobucket",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://app.photobucket.com/legal/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://photobucket.com/legal/privacy-policy",
+      "select": "body"
+    }
+  }
+}

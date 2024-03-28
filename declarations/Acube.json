@@ -1,0 +1,13 @@
+{
+  "name": "Acube",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://acube.xyz/cookies_policy_1.php?lang=en",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://acube.xyz/privacy_policy_1.php?lang=en",
+      "select": "body"
+    }
+  }
+}

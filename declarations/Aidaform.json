@@ -1,0 +1,13 @@
+{
+  "name": "Aidaform",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://aidaform.com/terms-of-use.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://aidaform.com/privacy-policy.html",
+      "select": "html > body > main > article > section > div > div > div"
+    }
+  }
+}

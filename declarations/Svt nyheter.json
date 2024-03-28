@@ -1,0 +1,9 @@
+{
+  "name": "Svt nyheter",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://kontakt.svt.se/guide/cookies-och-personuppgifter",
+      "select": "body"
+    }
+  }
+}

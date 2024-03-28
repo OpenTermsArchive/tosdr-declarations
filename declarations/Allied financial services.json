@@ -1,0 +1,13 @@
+{
+  "name": "Allied financial services",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://alliedco.com/terms.php",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://alliedco.com/privacy.php",
+      "select": "body"
+    }
+  }
+}

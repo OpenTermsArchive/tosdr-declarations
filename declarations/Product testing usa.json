@@ -1,0 +1,13 @@
+{
+  "name": "Product testing usa",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://producttestingusa.com/p/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://producttestingusa.com/p/terms-conditions",
+      "select": null
+    }
+  }
+}

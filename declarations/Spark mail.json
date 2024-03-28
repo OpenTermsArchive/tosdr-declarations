@@ -1,0 +1,17 @@
+{
+  "name": "Spark mail",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sparkmailapp.com/terms",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://sparkmailapp.com/responsible-disclosure",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sparkmailapp.com/privacy",
+      "select": "body"
+    }
+  }
+}

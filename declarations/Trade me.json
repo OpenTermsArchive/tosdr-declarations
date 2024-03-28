@@ -1,0 +1,13 @@
+{
+  "name": "Trade me",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://go.trademe.co.nz/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.trademe.co.nz/hc/en-us/articles/360007001532",
+      "select": "body"
+    }
+  }
+}

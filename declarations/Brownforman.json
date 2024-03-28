@@ -1,0 +1,17 @@
+{
+  "name": "Brownforman",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://legal.brown-forman.com/privacy-policy/english ",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://legal.brown-forman.com/cookie-policy/english",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://legal.brown-forman.com/terms-of-use/english",
+      "select": "body"
+    }
+  }
+}

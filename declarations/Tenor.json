@@ -1,0 +1,13 @@
+{
+  "name": "Tenor",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://tenor.com/legal-terms",
+      "select": " > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://policies.google.com/privacy?hl=en",
+      "select": " > c-wiz > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > c-wiz"
+    }
+  }
+}

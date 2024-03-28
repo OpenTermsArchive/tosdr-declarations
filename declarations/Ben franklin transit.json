@@ -1,0 +1,17 @@
+{
+  "name": "Ben franklin transit",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.bft.org/customer-contact-policy/ ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bft.org/privacy-policy/ ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bft.org/terms-of-use",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Instructables",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.autodesk.com/company/legal-notices-trademarks/terms-of-service-autodesk360-web-services/instructables-terms-of-service-june-5-2013",
+      "select": "body"
+    }
+  }
+}

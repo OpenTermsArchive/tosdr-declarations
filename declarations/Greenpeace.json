@@ -1,0 +1,17 @@
+{
+  "name": "Greenpeace",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.greenpeace.org/international/privacy/",
+      "select": "html > body > div:nth-of-type(3)"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.greenpeace.org/international/community-policy/",
+      "select": "html > body > div:nth-of-type(3)"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.greenpeace.org/international/copyright/",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

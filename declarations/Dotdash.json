@@ -1,0 +1,13 @@
+{
+  "name": "Dotdash",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.dotdashmeredith.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.dotdashmeredith.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div > main > div"
+    }
+  }
+}

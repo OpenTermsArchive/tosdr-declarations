@@ -1,0 +1,9 @@
+{
+  "name": "Cole title company",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.coletitle.org/privacy",
+      "select": " > div"
+    }
+  }
+}

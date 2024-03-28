@@ -1,0 +1,17 @@
+{
+  "name": "Bobs watches",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.bobswatches.com/privacy-policy",
+      "select": "body"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.bobswatches.com/return-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.bobswatches.com/terms-and-conditions",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Languagetool",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://languagetool.org/legal/terms",
+      "select": "html > body > div:first-of-type > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://languagetool.org/legal/privacy",
+      "select": "html > body > div:first-of-type > section"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Freeocrapi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://freeocrapi.com/",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2)"
+    }
+  }
+}

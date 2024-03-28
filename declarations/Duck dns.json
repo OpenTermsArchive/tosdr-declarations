@@ -1,0 +1,13 @@
+{
+  "name": "Duck dns",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.duckdns.org/tac.jsp",
+      "select": "html > body > main > section > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.duckdns.org/pp.jsp",
+      "select": "html > body > main > section > div:nth-of-type(2) > div > div > div > div"
+    }
+  }
+}

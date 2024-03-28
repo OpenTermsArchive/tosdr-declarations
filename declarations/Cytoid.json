@@ -1,0 +1,13 @@
+{
+  "name": "Cytoid",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://cytoid.io/pages/dmca",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cytoid.io/pages/terms",
+      "select": "body"
+    }
+  }
+}

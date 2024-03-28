@@ -1,0 +1,13 @@
+{
+  "name": "Vpnranks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vpnranks.com/privacy-policy/",
+      "select": "html > body > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.vpnranks.com/terms-and-conditions/",
+      "select": "html > body > main > div > div"
+    }
+  }
+}

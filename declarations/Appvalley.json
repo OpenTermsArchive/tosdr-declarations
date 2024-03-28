@@ -1,0 +1,9 @@
+{
+  "name": "Appvalley",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://appvalleyapp.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > div > main > article > div > div"
+    }
+  }
+}

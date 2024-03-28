@@ -1,0 +1,13 @@
+{
+  "name": "Actblue",
+  "documents": {
+    "Other": {
+      "fetch": "https://secure.actblue.com/content/fineprint",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://secure.actblue.com/privacy",
+      "select": null
+    }
+  }
+}

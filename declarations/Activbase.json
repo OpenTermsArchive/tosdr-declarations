@@ -1,0 +1,13 @@
+{
+  "name": "Activbase",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://activbase.net/DN/PrivacyPolicy",
+      "select": "#content"
+    },
+    "Terms of Service": {
+      "fetch": "https://activbase.net/DN/TermsAndConditions",
+      "select": null
+    }
+  }
+}

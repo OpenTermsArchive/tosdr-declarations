@@ -1,0 +1,17 @@
+{
+  "name": "O2",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.o2.co.uk/termsandconditions/privacy-policy",
+      "select": "html > body > section > div > div > section:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > section > div > div:nth-of-type(2) > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.o2.co.uk/termsandconditions/website-terms-of-use",
+      "select": "html > body > section > div > div > section:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > section > div > div:nth-of-type(2) > div > div > div > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.o2.co.uk/cookie-policy",
+      "select": "html > body > section > div > div > section:nth-of-type(2) > div > div > div > div > div > section > div > div:nth-of-type(2) > div > div > div"
+    }
+  }
+}

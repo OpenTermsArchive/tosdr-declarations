@@ -1,0 +1,13 @@
+{
+  "name": "Cookiehub",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cookiehub.com/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cookiehub.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

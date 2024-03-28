@@ -1,0 +1,13 @@
+{
+  "name": "Scaveway",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://scaveway.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://scaveway.com/terms-and-conditions/",
+      "select": null
+    }
+  }
+}

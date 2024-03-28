@@ -1,0 +1,17 @@
+{
+  "name": "Renaissance",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://www.renaissance.com/copyright-policy/ ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.renaissance.com/terms-of-use/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.renaissance.com/privacy/",
+      "select": "body"
+    }
+  }
+}

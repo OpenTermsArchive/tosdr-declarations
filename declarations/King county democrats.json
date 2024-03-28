@@ -1,0 +1,9 @@
+{
+  "name": "King county democrats",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.kcdems.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

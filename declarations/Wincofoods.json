@@ -1,0 +1,9 @@
+{
+  "name": "Wincofoods",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wincofoods.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

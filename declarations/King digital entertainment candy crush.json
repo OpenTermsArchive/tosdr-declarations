@@ -1,0 +1,13 @@
+{
+  "name": "King digital entertainment candy crush",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.king.com/termsAndConditions",
+      "select": " > section > div > div > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.king.com/privacyPolicy",
+      "select": "html > body > div:nth-of-type(2) > div > main > section > div > div > div > div:first-of-type"
+    }
+  }
+}

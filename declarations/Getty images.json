@@ -1,0 +1,13 @@
+{
+  "name": "Getty images",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gettyimages.com/company/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gettyimages.com/company/terms",
+      "select": "html > body > div:nth-of-type(2) > section > div > div:nth-of-type(3)"
+    }
+  }
+}

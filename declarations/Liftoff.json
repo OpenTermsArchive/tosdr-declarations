@@ -1,0 +1,17 @@
+{
+  "name": "Liftoff",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://liftoff.io/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://liftoff.io/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://liftoff.io/cookie-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Tactical tech",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tacticaltech.org/pages/data-use-policy/",
+      "select": "body"
+    }
+  }
+}

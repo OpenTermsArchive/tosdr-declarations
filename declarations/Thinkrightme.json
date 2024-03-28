@@ -1,0 +1,13 @@
+{
+  "name": "Thinkrightme",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.thinkrightme.com/en/terms-of-service",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.thinkright.me/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div > div"
+    }
+  }
+}

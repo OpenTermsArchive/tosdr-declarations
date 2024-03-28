@@ -1,0 +1,9 @@
+{
+  "name": "University of maryland",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://umd.edu/privacy-notice",
+      "select": "html > body > div:nth-of-type(4) > div > div:first-of-type"
+    }
+  }
+}

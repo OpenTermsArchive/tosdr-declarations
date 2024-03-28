@@ -1,0 +1,9 @@
+{
+  "name": "Researchchemaial switzerland",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://get-rc.to/disclaimer-tos/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Screenshot machine",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.screenshotmachine.com/privacypolicy.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.screenshotmachine.com/termsandconditions.php",
+      "select": "body"
+    }
+  }
+}

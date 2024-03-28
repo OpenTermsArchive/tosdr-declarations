@@ -1,0 +1,9 @@
+{
+  "name": "Bushwick ayuda mutua",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.google.com/document/d/1U-woPdAnN9vXQSP4Ew5dqb6g5yuNGrDZzNPJC3eyads/edit?usp=sharing",
+      "select": "body"
+    }
+  }
+}

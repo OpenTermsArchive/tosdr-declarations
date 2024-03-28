@@ -1,0 +1,13 @@
+{
+  "name": "Healthydebate",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://healthydebate.ca/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://healthydebate.ca/privacy-policy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Elysium online website",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://http://www.elysiumonline.xyz/privacy.html",
+      "select": "body"
+    }
+  }
+}

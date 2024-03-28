@@ -1,0 +1,9 @@
+{
+  "name": "Findanyanswer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://findanyanswer.com/privacy-policy.php",
+      "select": "body"
+    }
+  }
+}

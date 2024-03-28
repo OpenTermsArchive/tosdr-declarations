@@ -1,0 +1,13 @@
+{
+  "name": "Fleek",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fleek.co/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://fleek.co/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

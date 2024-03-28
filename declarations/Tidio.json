@@ -1,0 +1,13 @@
+{
+  "name": "Tidio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tidio.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tidio.com/terms/",
+      "select": "body"
+    }
+  }
+}

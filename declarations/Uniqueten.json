@@ -1,0 +1,13 @@
+{
+  "name": "Uniqueten",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://uniqueten.net/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://uniqueten.net/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

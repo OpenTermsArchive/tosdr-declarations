@@ -1,0 +1,13 @@
+{
+  "name": "American public media group",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.americanpublicmedia.org/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.americanpublicmedia.org/privacy/",
+      "select": "body"
+    }
+  }
+}

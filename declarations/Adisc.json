@@ -1,0 +1,13 @@
+{
+  "name": "Adisc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.adisc.org/forum/threads/privacy-policy.116261/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.adisc.org/forum/threads/the-rules.697/",
+      "select": "body"
+    }
+  }
+}

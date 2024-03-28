@@ -1,0 +1,13 @@
+{
+  "name": "Fibromyalgia forum",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://forum.livingwithfibro.org/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://forum.livingwithfibro.org/privacy",
+      "select": "body"
+    }
+  }
+}

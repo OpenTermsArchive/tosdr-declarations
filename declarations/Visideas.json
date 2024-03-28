@@ -1,0 +1,9 @@
+{
+  "name": "Visideas",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://visideas.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > main > article > div"
+    }
+  }
+}

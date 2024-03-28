@@ -1,0 +1,17 @@
+{
+  "name": "Blackbaud",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.blackbaud.com/company/privacy-policy/blackbaud-id",
+      "select": "html > body > div:first-of-type > div > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.blackbaud.com/company/terms-of-use",
+      "select": "html > body > div:first-of-type > div > section:nth-of-type(2)"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.blackbaud.com/company/acceptable-use-policy",
+      "select": "html > body > div:first-of-type > div > section:nth-of-type(2)"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Teen counseling",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.teencounseling.com/terms",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.teencounseling.com/privacy",
+      "select": null
+    }
+  }
+}

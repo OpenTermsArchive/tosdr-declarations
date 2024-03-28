@@ -1,0 +1,21 @@
+{
+  "name": "Mint mobile",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mintmobile.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mintmobile.com/plan-terms-and-conditions/",
+      "select": "html > body > div:first-of-type > section > div"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.mintmobile.com/return-policy/",
+      "select": "html > body > div:first-of-type > section:nth-of-type(3) > div:nth-of-type(3)"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.mintmobile.com/acceptable-use-policy/",
+      "select": "html > body > div:first-of-type > section > div"
+    }
+  }
+}

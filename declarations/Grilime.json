@@ -1,0 +1,13 @@
+{
+  "name": "Grilime",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://grilime.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://grilime.com/terms-of-use-end-user-license-agreement/",
+      "select": " > div:first-of-type"
+    }
+  }
+}

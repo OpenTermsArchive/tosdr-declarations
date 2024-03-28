@@ -1,0 +1,9 @@
+{
+  "name": "Will robots take my job",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://willrobotstakemyjob.com/privacy-policy.aspx",
+      "select": "html > body > form > main > div > div:nth-of-type(2) > div"
+    }
+  }
+}

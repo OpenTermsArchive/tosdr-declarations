@@ -1,0 +1,9 @@
+{
+  "name": "Techwiser",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://techwiser.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

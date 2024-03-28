@@ -1,0 +1,13 @@
+{
+  "name": "Iron",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.iron.io/terms",
+      "select": "html > body > div:first-of-type > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.iron.io/privacy",
+      "select": "html > body > div:first-of-type > main > div"
+    }
+  }
+}

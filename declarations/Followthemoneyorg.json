@@ -1,0 +1,9 @@
+{
+  "name": "Followthemoneyorg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.followthemoney.org/about-us/privacy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Techaarvi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://techaarvi.com/privacy-policy/ ",
+      "select": "body"
+    }
+  }
+}

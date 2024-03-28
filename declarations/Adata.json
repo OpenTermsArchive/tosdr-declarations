@@ -1,0 +1,13 @@
+{
+  "name": "Adata",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://corp.adata.com/us/about/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://corp.adata.com/us/about/term/",
+      "select": "body"
+    }
+  }
+}

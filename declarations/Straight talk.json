@@ -1,0 +1,17 @@
+{
+  "name": "Straight talk",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.verizon.com/about/terms-conditions/terms-of-use",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.tfwunlockpolicy.com/wps/portal/home/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tracfonewirelessinc.com/en/Privacy%2BPolicy/",
+      "select": "body"
+    }
+  }
+}

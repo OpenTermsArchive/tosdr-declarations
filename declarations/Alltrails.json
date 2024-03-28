@@ -1,0 +1,17 @@
+{
+  "name": "Alltrails",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.alltrails.com/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.alltrails.com/cookie_policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.alltrails.com/privacy",
+      "select": "body"
+    }
+  }
+}

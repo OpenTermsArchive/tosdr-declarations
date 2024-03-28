@@ -1,0 +1,13 @@
+{
+  "name": "Glasswire",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.glasswire.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.glasswire.com/license/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div"
+    }
+  }
+}

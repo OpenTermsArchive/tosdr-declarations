@@ -1,0 +1,17 @@
+{
+  "name": "Lingerie lowdown",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lingerielowdown.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.lingerielowdown.com/terms-and-conditions/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.lingerielowdown.com/cookies/",
+      "select": null
+    }
+  }
+}

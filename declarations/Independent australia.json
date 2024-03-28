@@ -1,0 +1,13 @@
+{
+  "name": "Independent australia",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://independentaustralia.net/about-ia/comments-policy",
+      "select": "html > body > div:nth-of-type(4) > div > div:first-of-type > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://independentaustralia.net/about-ia/privacy-policy",
+      "select": "html > body > div:nth-of-type(4) > div > div:first-of-type > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tower of fantasy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.toweroffantasy-global.com/en/ingame/PrivacyPolicy_frame.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.toweroffantasy-global.com/UserAgreement_EN.html",
+      "select": "body"
+    }
+  }
+}

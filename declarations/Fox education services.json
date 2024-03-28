@@ -1,0 +1,9 @@
+{
+  "name": "Fox education services",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://foxeducation.com/de/foxeducation/privacy-website/",
+      "select": "body"
+    }
+  }
+}

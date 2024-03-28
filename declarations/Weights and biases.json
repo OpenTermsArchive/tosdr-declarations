@@ -1,0 +1,13 @@
+{
+  "name": "Weights and biases",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wandb.ai/site/privacy",
+      "select": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://wandb.ai/site/terms",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

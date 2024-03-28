@@ -1,0 +1,21 @@
+{
+  "name": "Pcpartpicker",
+  "documents": {
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://pcpartpicker.com/disclosure/",
+      "select": "div.block.markdown"
+    },
+    "Community Guidelines": {
+      "fetch": "https://pcpartpicker.com/code-of-conduct/industry-affiliate/",
+      "select": "div.block.markdown"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pcpartpicker.com/privacy/",
+      "select": "div.wrapper.wrapper__pageContent"
+    },
+    "Terms of Service": {
+      "fetch": "https://pcpartpicker.com/tos/",
+      "select": "div.wrapper.wrapper__pageContent"
+    }
+  }
+}

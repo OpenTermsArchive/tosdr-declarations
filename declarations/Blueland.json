@@ -1,0 +1,13 @@
+{
+  "name": "Blueland",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.blueland.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.blueland.com/terms-and-conditions",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > main > div:nth-of-type(2) > div > div"
+    }
+  }
+}

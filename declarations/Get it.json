@@ -1,0 +1,13 @@
+{
+  "name": "Get it",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.get.it/privacy",
+      "select": "html > body > div:first-of-type > div > div > div > main > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.get.it/terms",
+      "select": "html > body > div:first-of-type > div > div > div > main > div > div"
+    }
+  }
+}

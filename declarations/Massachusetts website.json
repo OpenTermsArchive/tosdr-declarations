@@ -1,0 +1,9 @@
+{
+  "name": "Massachusetts website",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mass.gov/privacypolicy",
+      "select": "body"
+    }
+  }
+}

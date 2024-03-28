@@ -1,0 +1,13 @@
+{
+  "name": "Pepsi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policy.pepsi.com/privacy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pepsi.com/en-us/terms/",
+      "select": "body"
+    }
+  }
+}

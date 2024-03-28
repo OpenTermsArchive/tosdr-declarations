@@ -1,0 +1,13 @@
+{
+  "name": "Onelaunch technologies",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://onelaunch.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://onelaunch.com/eula",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Australian open",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.tennis.com.au/wp-content/uploads/2021/02/Virtual-Hub-Conditions-of-Use-FINAL-JR02.02.21.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tennis.com.au/privacy",
+      "select": "body"
+    }
+  }
+}

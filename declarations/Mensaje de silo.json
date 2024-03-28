@@ -1,0 +1,9 @@
+{
+  "name": "Mensaje de silo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mensajedesilo.es/privacidad/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(6) > div:nth-of-type(2) > section > div:first-of-type > div:first-of-type > div"
+    }
+  }
+}

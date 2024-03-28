@@ -1,0 +1,9 @@
+{
+  "name": "Antenna deals",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://antennadeals.com/PrivacyPolicy.html",
+      "select": null
+    }
+  }
+}

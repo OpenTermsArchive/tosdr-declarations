@@ -1,0 +1,9 @@
+{
+  "name": "Ant download manager",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://antdownloadmanager.com/policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Lorain national bank",
+  "documents": {
+    "Spam": {
+      "fetch": "https://punampandy.tumblr.com/",
+      "select": "body"
+    }
+  }
+}

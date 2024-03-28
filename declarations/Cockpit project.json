@@ -1,0 +1,13 @@
+{
+  "name": "Cockpit project",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://cockpit-project.org/code-of-conduct.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cockpit-project.org/privacy.html",
+      "select": "body"
+    }
+  }
+}

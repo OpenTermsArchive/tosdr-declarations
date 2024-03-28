@@ -1,0 +1,13 @@
+{
+  "name": "Aquatis",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aquatis.host/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > article > div > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://aquatis.host/service-level-agreement",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > article > div > div > div > div > div > div:nth-of-type(2)"
+    }
+  }
+}

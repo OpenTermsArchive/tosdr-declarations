@@ -1,0 +1,13 @@
+{
+  "name": "Gates foundation",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.gatesfoundation.org/privacy-and-cookies-notice",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.gatesfoundation.org/Terms-of-Use",
+      "select": "html > body > div:first-of-type > main > div:nth-of-type(2)"
+    }
+  }
+}

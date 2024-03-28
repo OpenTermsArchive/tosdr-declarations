@@ -1,0 +1,13 @@
+{
+  "name": "Indiamart",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.indiamart.com/terms-of-use.html",
+      "select": "html > body > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.indiamart.com/privacy-policy.html",
+      "select": "html > body > div:first-of-type > div"
+    }
+  }
+}

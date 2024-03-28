@@ -1,0 +1,13 @@
+{
+  "name": "General assembly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://generalassemb.ly/terms_of_service",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://generalassemb.ly/privacy_policy",
+      "select": "body"
+    }
+  }
+}

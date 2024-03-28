@@ -1,0 +1,13 @@
+{
+  "name": "Biblia",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://faithlife.com/terms",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.logos.com/privacy",
+      "select": "body"
+    }
+  }
+}

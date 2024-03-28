@@ -1,0 +1,13 @@
+{
+  "name": "Us solar savings",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ussolarsavings.com/terms.php",
+      "select": "html > body > section"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ussolarsavings.com/privacy.php",
+      "select": "html > body > section"
+    }
+  }
+}

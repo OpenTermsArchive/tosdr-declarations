@@ -1,0 +1,13 @@
+{
+  "name": "Museum explorer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://museumexplorer.xyz/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://museumexplorer.xyz/eula",
+      "select": "body"
+    }
+  }
+}

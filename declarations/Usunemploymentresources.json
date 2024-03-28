@@ -1,0 +1,13 @@
+{
+  "name": "Usunemploymentresources",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.us-unemployment-resources.com/pp.php",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.us-unemployment-resources.com/tc.php",
+      "select": "body"
+    }
+  }
+}

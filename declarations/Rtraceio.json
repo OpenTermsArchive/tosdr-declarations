@@ -1,0 +1,13 @@
+{
+  "name": "Rtraceio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://speedtest.rtrace.io/#",
+      "select": null
+    },
+    "Other": {
+      "fetch": "https://blog.rtrace.io/impressum",
+      "select": "body"
+    }
+  }
+}

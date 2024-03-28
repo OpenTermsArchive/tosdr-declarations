@@ -1,0 +1,9 @@
+{
+  "name": "Dudle",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://dudle.inf.tu-dresden.de/about.cgi",
+      "select": "body"
+    }
+  }
+}

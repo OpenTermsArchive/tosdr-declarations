@@ -1,0 +1,13 @@
+{
+  "name": "Wcbs",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.wcbs.co.uk/hub-privacy-cookies/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wcbs.co.uk/hub-terms/",
+      "select": "body"
+    }
+  }
+}

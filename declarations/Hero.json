@@ -1,0 +1,13 @@
+{
+  "name": "Hero",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://herohealth.com/terms",
+      "select": "div.description.left"
+    },
+    "Privacy Policy": {
+      "fetch": "https://herohealth.com/privacy",
+      "select": "div.description.left"
+    }
+  }
+}

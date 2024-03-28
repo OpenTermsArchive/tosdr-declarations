@@ -1,0 +1,13 @@
+{
+  "name": "Cybercode online",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cybercodeonline.com/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cybercodeonline.com/terms.html",
+      "select": "body"
+    }
+  }
+}

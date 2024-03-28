@@ -1,0 +1,9 @@
+{
+  "name": "Its canada inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://its-can.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

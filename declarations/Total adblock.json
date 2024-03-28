@@ -1,0 +1,13 @@
+{
+  "name": "Total adblock",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.totaladblock.com/privacy",
+      "select": "html > body > div > div:first-of-type > main > div:nth-of-type(2) > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.totaladblock.com/terms",
+      "select": "body"
+    }
+  }
+}

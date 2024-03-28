@@ -1,0 +1,13 @@
+{
+  "name": "Rt",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rt.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.rt.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

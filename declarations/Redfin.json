@@ -1,0 +1,13 @@
+{
+  "name": "Redfin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.redfin.com/about/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.redfin.com/docs/tos.html",
+      "select": "body"
+    }
+  }
+}

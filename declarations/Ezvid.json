@@ -1,0 +1,13 @@
+{
+  "name": "Ezvid",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wiki.ezvid.com/privacy",
+      "select": "html > body > section > div > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://wiki.ezvid.com/terms",
+      "select": "html > body > section > div > section"
+    }
+  }
+}

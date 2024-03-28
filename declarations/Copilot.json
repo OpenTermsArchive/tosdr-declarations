@@ -1,0 +1,13 @@
+{
+  "name": "Copilot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://copilot.money/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > section > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://copilot.money/terms-of-service/",
+      "select": "html > body > div:first-of-type > div:first-of-type > section > div"
+    }
+  }
+}

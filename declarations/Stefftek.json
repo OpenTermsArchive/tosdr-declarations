@@ -1,0 +1,9 @@
+{
+  "name": "Stefftek",
+  "documents": {
+    "Other": {
+      "fetch": "https://stefftek.de/imprint",
+      "select": "body"
+    }
+  }
+}

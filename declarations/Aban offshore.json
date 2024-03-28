@@ -1,0 +1,9 @@
+{
+  "name": "Aban offshore",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.abanoffshore.com/pdf/GCC%20AOL.pdf",
+      "select": "body"
+    }
+  }
+}

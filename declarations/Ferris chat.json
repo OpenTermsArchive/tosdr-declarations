@@ -1,0 +1,9 @@
+{
+  "name": "Ferris chat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ferris.chat/terms",
+      "select": "body"
+    }
+  }
+}

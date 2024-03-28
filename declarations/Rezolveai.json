@@ -1,0 +1,13 @@
+{
+  "name": "Rezolveai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rezolve.ai/generalTerms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.rezolve.ai/hipaa",
+      "select": "body"
+    }
+  }
+}

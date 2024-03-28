@@ -1,0 +1,13 @@
+{
+  "name": "Callapp",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://callapp.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://callapp.com/privacy",
+      "select": null
+    }
+  }
+}

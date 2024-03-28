@@ -1,0 +1,9 @@
+{
+  "name": "Waldhr solutions",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.waldhoer.org/privacy/",
+      "select": "body"
+    }
+  }
+}

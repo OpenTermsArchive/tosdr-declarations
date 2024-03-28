@@ -1,0 +1,9 @@
+{
+  "name": "Arkouda",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://arkouda.xyz/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > main > article > div"
+    }
+  }
+}

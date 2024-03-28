@@ -1,0 +1,13 @@
+{
+  "name": "Metamask",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://metamask.io/privacy.html",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://metamask.io/cla.html",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

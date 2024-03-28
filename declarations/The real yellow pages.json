@@ -1,0 +1,17 @@
+{
+  "name": "The real yellow pages",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.yellowpages.com/about/legal",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.yellowpages.com/about/legal/terms-conditions-yahoo-yp",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.yellowpages.com/about/legal/terms-conditions?re=yp",
+      "select": null
+    }
+  }
+}

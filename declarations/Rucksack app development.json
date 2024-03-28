@@ -1,0 +1,13 @@
+{
+  "name": "Rucksack app development",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://rucksack.dev/legal/terms-conditions/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://rucksack.dev/legal/privacy-policy-for-this-website/",
+      "select": "body"
+    }
+  }
+}

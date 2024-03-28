@@ -1,0 +1,17 @@
+{
+  "name": "Pearltrees",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "http://www.pearltrees.com/s/info/cookie",
+      "select": "html"
+    },
+    "Terms of Service": {
+      "fetch": "http://www.pearltrees.com/s/info/terms",
+      "select": "html"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.pearltrees.com/s/info/privacy",
+      "select": "html"
+    }
+  }
+}

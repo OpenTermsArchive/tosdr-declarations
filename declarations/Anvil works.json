@@ -1,0 +1,13 @@
+{
+  "name": "Anvil works",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://anvil.works/privacy",
+      "select": "html > body > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://anvil.works/terms-of-service",
+      "select": "html > body > main"
+    }
+  }
+}

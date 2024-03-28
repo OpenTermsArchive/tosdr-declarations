@@ -1,0 +1,9 @@
+{
+  "name": "Adways",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.adways.com/privacy-policy?lang=en",
+      "select": "html > body > div:first-of-type > div > div > div > div"
+    }
+  }
+}

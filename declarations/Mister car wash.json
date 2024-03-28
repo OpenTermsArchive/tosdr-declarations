@@ -1,0 +1,13 @@
+{
+  "name": "Mister car wash",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mistercarwash.com/privacy-notice/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://mistercarwash.com/terms/",
+      "select": "body"
+    }
+  }
+}

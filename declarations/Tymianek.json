@@ -1,0 +1,9 @@
+{
+  "name": "Tymianek",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://tymianek.mooo.com/terms",
+      "select": "html > body > div"
+    }
+  }
+}

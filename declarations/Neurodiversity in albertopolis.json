@@ -1,0 +1,9 @@
+{
+  "name": "Neurodiversity in albertopolis",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ndia.co.uk/privacy/",
+      "select": null
+    }
+  }
+}

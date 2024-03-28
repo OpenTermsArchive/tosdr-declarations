@@ -1,0 +1,13 @@
+{
+  "name": "All of us research program",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://participant.joinallofus.org/api/serverasset/email/assetLocation?assetType=PRIVACY_POLICY&programCode=PMI&locale=en",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://participant.joinallofus.org/api/serverasset/email/assetLocation?assetType=TERMS_OF_SERVICE&programCode=PMI&locale=en",
+      "select": "body"
+    }
+  }
+}

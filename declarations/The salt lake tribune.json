@@ -1,0 +1,9 @@
+{
+  "name": "The salt lake tribune",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.sltrib.com/legal-notices",
+      "select": "body"
+    }
+  }
+}

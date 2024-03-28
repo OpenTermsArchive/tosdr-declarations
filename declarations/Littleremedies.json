@@ -1,0 +1,13 @@
+{
+  "name": "Littleremedies",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.littleremedies.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.littleremedies.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

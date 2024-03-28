@@ -1,0 +1,13 @@
+{
+  "name": "Workpilots suomifinland",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://web.workpilots.com/tou/merchant/d9ba806928b0407a96d69b78dea8748a.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.workpilots.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

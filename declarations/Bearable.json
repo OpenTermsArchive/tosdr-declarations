@@ -1,0 +1,13 @@
+{
+  "name": "Bearable",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bearable.app/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://bearable.app/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

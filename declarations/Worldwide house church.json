@@ -1,0 +1,9 @@
+{
+  "name": "Worldwide house church",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://worldwidehousechurch.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

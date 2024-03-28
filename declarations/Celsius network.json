@@ -1,0 +1,13 @@
+{
+  "name": "Celsius network",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://celsius.network/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://celsius.network/terms-of-use",
+      "select": "body"
+    }
+  }
+}

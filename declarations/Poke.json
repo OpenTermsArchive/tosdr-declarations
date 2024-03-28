@@ -1,0 +1,9 @@
+{
+  "name": "Poke",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://poketube.fun/privacy",
+      "select": "body"
+    }
+  }
+}

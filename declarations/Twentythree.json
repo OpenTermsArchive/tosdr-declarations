@@ -1,0 +1,17 @@
+{
+  "name": "Twentythree",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://d1jyqwpez3grep.cloudfront.net/integrations/TwentyThree-Terms-of-Service.pdf?",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://d1jyqwpez3grep.cloudfront.net/integrations/TwentyThree-Terms-of-Service.pdf?",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://d1jyqwpez3grep.cloudfront.net/integrations/TwentyThree-Privacy-and-Cookie-Policy_2023-09-24-213357_lcsn.pdf?",
+      "select": "body"
+    }
+  }
+}

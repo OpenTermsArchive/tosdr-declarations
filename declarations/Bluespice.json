@@ -1,0 +1,9 @@
+{
+  "name": "Bluespice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bluespice.com/privacy/",
+      "select": "body"
+    }
+  }
+}

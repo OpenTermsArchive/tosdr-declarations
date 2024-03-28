@@ -1,0 +1,13 @@
+{
+  "name": "Copper fit x back",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://getxback.com/Return-Policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://getxback.com/Security-Policy",
+      "select": "body"
+    }
+  }
+}

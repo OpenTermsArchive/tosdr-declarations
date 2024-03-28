@@ -1,0 +1,9 @@
+{
+  "name": "Dharti solutions",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.dhartisolutions.com/privacy",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(7) > div > div"
+    }
+  }
+}

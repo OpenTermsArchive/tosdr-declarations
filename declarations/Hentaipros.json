@@ -1,0 +1,13 @@
+{
+  "name": "Hentaipros",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hentaipros.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://support.hentaipros.com/terms-of-service",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > div > section"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Rensselaer polytechnic institute",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://info.rpi.edu/web-privacy-statement",
+      "select": "body"
+    }
+  }
+}

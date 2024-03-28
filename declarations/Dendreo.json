@@ -1,0 +1,9 @@
+{
+  "name": "Dendreo",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.dendreo.com/conditions-generales-de-ventes/",
+      "select": "body"
+    }
+  }
+}

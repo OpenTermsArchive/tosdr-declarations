@@ -1,0 +1,13 @@
+{
+  "name": "The intercept",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.firstlookinstitute.org/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://theintercept.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

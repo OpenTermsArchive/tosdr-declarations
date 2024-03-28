@@ -1,0 +1,13 @@
+{
+  "name": "Stocard",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://stocardapp.com/privacy",
+      "select": "html > body > main > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://stocardapp.com/en/us/terms",
+      "select": "html > body > main > div:nth-of-type(2)"
+    }
+  }
+}

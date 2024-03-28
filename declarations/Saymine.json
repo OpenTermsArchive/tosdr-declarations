@@ -1,0 +1,17 @@
+{
+  "name": "Saymine",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.saymine.com/legal/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.saymine.com/legal/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.saymine.com/legal/mine-terms-of-service",
+      "select": "body"
+    }
+  }
+}

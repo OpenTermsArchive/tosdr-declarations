@@ -1,0 +1,13 @@
+{
+  "name": "Topsweeps",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://get.topsweeps.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://get.topsweeps.com/privacy",
+      "select": "body"
+    }
+  }
+}

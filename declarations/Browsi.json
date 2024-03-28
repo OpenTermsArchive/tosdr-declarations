@@ -1,0 +1,13 @@
+{
+  "name": "Browsi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gobrowsi.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://gobrowsi.com/terms-of-use/",
+      "select": "body"
+    }
+  }
+}

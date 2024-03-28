@@ -1,0 +1,13 @@
+{
+  "name": "Smartrent",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://smartrent.com/privacy-us",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://smartrent.com/terms/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div > main > div"
+    }
+  }
+}

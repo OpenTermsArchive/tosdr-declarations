@@ -1,0 +1,13 @@
+{
+  "name": "Virtual world computing cocoon mydata rewards",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://trycocoon.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://trycocoon.com/privacy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Legal defense and educational fund",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.naacpldf.org/privacy-policy/",
+      "select": "html > body > section:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.naacpldf.org/legal-disclaimer/",
+      "select": "html > body > section:nth-of-type(3)"
+    }
+  }
+}

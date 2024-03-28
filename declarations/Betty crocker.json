@@ -1,0 +1,9 @@
+{
+  "name": "Betty crocker",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.bettycrocker.com/coupons-promotions/sweepstakes/25th-cookie/rules",
+      "select": "body"
+    }
+  }
+}

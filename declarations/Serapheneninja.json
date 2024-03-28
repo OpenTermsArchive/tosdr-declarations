@@ -1,0 +1,9 @@
+{
+  "name": "Serapheneninja",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://blog.seraphene.ninja/privacy/",
+      "select": "body"
+    }
+  }
+}

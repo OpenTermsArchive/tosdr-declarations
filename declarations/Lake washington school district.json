@@ -1,0 +1,9 @@
+{
+  "name": "Lake washington school district",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lwsd.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

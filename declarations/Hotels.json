@@ -1,0 +1,17 @@
+{
+  "name": "Hotels",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hotels.com/lp/b/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hotels.com/lp/b/privacy?pos=HCOM_US&locale=en_US&siteid=300000001",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.hotels.com/lp/b/cookie ",
+      "select": "body"
+    }
+  }
+}

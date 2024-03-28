@@ -1,0 +1,13 @@
+{
+  "name": "Real world",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://app.termly.io/document/privacy-policy/cea7511c-4a8f-48d1-9eae-cff227bd88c5",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://app.termly.io/document/terms-of-use-for-ecommerce/6c0c7f1b-0318-4ba5-afb4-193ae38053b2",
+      "select": "body"
+    }
+  }
+}

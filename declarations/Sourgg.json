@@ -1,0 +1,13 @@
+{
+  "name": "Sourgg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sour.gg/pages/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sour.gg/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

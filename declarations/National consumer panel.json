@@ -1,0 +1,13 @@
+{
+  "name": "National consumer panel",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.ncponline.com/panel/US/EN/Footer/PrivacyPolicy.htm",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.ncponline.com/panel/US/EN/Footer/TermsOfUse.vsp",
+      "select": "body"
+    }
+  }
+}

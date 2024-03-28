@@ -1,0 +1,13 @@
+{
+  "name": "Next generation internet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ngi.eu/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.ngi.eu/cookie-policy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(2)"
+    }
+  }
+}

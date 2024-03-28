@@ -1,0 +1,13 @@
+{
+  "name": "Pacific northwest ballet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.pnb.org/aboutpnb/site/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pnb.org/aboutpnb/site/privacy/",
+      "select": "body"
+    }
+  }
+}

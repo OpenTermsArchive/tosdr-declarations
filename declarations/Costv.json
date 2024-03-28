@@ -1,0 +1,17 @@
+{
+  "name": "Costv",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://cos.tv/docs/cookies-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cos.tv/docs/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cos.tv/docs/privacy-policy",
+      "select": "body"
+    }
+  }
+}

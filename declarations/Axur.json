@@ -1,0 +1,9 @@
+{
+  "name": "Axur",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://axur.com/en/politica-de-privacidade/",
+      "select": "body"
+    }
+  }
+}

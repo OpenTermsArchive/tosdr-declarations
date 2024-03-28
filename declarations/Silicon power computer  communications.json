@@ -1,0 +1,9 @@
+{
+  "name": "Silicon power computer  communications",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.silicon-power.com/web/privacy_article",
+      "select": "html > body > div:nth-of-type(4) > div > div"
+    }
+  }
+}

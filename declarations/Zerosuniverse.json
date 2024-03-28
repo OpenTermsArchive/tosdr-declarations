@@ -1,0 +1,9 @@
+{
+  "name": "Zerosuniverse",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.zerosuniverse.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > main > article"
+    }
+  }
+}

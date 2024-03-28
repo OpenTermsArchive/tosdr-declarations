@@ -1,0 +1,13 @@
+{
+  "name": "Clicksfly",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://clicksfly.com/pages/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://clicksfly.com/pages/privacy",
+      "select": "body"
+    }
+  }
+}

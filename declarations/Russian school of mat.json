@@ -1,0 +1,13 @@
+{
+  "name": "Russian school of mat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.russianschool.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.russianschool.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

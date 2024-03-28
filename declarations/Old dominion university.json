@@ -1,0 +1,9 @@
+{
+  "name": "Old dominion university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ww1.odu.edu/privacy",
+      "select": "html > body > div:first-of-type > section > div > div"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Berkshire hathaway inc",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://berkshirehathaway.com/disclaimer.html",
+      "select": "body"
+    }
+  }
+}

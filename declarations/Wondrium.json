@@ -1,0 +1,13 @@
+{
+  "name": "Wondrium",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wondrium.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wondrium.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Trafficwave",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.trafficwave.net/privacy.html",
+      "select": "html > body > div:first-of-type > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.trafficwave.net/tos.html",
+      "select": "html > body > div:first-of-type > div > div"
+    }
+  }
+}

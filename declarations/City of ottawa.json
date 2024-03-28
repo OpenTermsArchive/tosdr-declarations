@@ -1,0 +1,9 @@
+{
+  "name": "City of ottawa",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://ottawa.ca/en/terms-use#privacy",
+      "select": "body"
+    }
+  }
+}

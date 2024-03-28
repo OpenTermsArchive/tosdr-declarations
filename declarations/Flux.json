@@ -1,0 +1,9 @@
+{
+  "name": "Flux",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flux.community/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > div > div:nth-of-type(4) > div:nth-of-type(2) > div > article > div"
+    }
+  }
+}

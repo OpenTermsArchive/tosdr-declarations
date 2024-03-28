@@ -1,0 +1,17 @@
+{
+  "name": "Digiex",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://digiex.net/help/terms",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://digiex.net/pages/privacy",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > article"
+    },
+    "Trackers Policy": {
+      "fetch": "https://digiex.net/help/cookies",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div"
+    }
+  }
+}

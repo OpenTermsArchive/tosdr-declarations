@@ -1,0 +1,9 @@
+{
+  "name": "Super cook",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.supercook.com/privacypolicy.htm",
+      "select": "body"
+    }
+  }
+}

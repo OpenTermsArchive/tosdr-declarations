@@ -1,0 +1,13 @@
+{
+  "name": "Shmoop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.shmoop.com/public/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.shmoop.com/public/privacy/",
+      "select": "body"
+    }
+  }
+}

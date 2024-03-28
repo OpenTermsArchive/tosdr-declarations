@@ -1,0 +1,13 @@
+{
+  "name": "Greater goods",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://greatergoods.com/legal/tos",
+      "select": "html > body > app-root > div > main > ng-component > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://greatergoods.com/legal/privacy-policy",
+      "select": "html > body > app-root > div > main > ng-component > div > div"
+    }
+  }
+}

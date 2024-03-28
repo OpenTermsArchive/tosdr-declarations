@@ -1,0 +1,9 @@
+{
+  "name": "Quaker valley school district",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.qvsd.org/apps/pages/index.jsp?uREC_ID=1238212&type=d&pREC_ID=1467525",
+      "select": "html > body > main > div > div:first-of-type"
+    }
+  }
+}

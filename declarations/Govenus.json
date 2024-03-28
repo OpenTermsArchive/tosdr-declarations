@@ -1,0 +1,13 @@
+{
+  "name": "Govenus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.govenus.co/tandc.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.govenus.co/privacypolicy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sketchuptextureclub",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.sketchuptextureclub.com/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sketchuptextureclub.com/terms-of-use",
+      "select": "body"
+    }
+  }
+}

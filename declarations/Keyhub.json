@@ -1,0 +1,9 @@
+{
+  "name": "Keyhub",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://key-hub.eu/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div"
+    }
+  }
+}

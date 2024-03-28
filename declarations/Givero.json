@@ -1,0 +1,9 @@
+{
+  "name": "Givero",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.givero.com/privacy#collected_web",
+      "select": "body"
+    }
+  }
+}

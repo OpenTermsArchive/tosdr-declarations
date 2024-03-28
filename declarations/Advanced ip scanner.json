@@ -1,0 +1,9 @@
+{
+  "name": "Advanced ip scanner",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.advanced-ip-scanner.com/privacy/",
+      "select": "html > body > div:nth-of-type(2)"
+    }
+  }
+}

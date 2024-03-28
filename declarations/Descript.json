@@ -1,0 +1,13 @@
+{
+  "name": "Descript",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.descript.com/privacy",
+      "select": "html > body > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.descript.com/terms",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

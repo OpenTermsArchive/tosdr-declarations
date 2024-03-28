@@ -1,0 +1,9 @@
+{
+  "name": "Oregon",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.oregon.gov/pages/terms-and-conditions.aspx",
+      "select": "html > body > main > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Easy breathe",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.easybreathe.com/Privacy-Policy-2.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.easybreathe.com/Terms-and-Conditions-3.html",
+      "select": "html > body > div:nth-of-type(3) > main > div:nth-of-type(3) > div"
+    }
+  }
+}

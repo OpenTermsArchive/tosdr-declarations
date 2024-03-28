@@ -1,0 +1,13 @@
+{
+  "name": "Cattlefax",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.cattlefax.com/#!/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.cattlefax.com/#!/privacy-policy",
+      "select": null
+    }
+  }
+}

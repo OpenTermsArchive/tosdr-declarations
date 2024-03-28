@@ -1,0 +1,13 @@
+{
+  "name": "Nrma",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nrma.com.au/sites/nrma/files/nrma-privacy-policy-0123.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nrma.com.au/terms",
+      "select": "html > body > main > div > section > section:first-of-type > div > div:first-of-type > div > section:nth-of-type(2) > section"
+    }
+  }
+}

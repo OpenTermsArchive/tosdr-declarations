@@ -1,0 +1,13 @@
+{
+  "name": "Turbo heat",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.buyturboheat.com/Shipping-Policy.dtm ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.buyturboheat.com/Privacy-Policy.dtm",
+      "select": "html > body > main > section:first-of-type > div > article"
+    }
+  }
+}

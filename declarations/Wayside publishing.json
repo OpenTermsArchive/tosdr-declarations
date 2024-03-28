@@ -1,0 +1,13 @@
+{
+  "name": "Wayside publishing",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://learningsite.waysidepublishing.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://learningsite.waysidepublishing.com/terms-full",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(2)"
+    }
+  }
+}

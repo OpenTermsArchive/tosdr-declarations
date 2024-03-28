@@ -1,0 +1,13 @@
+{
+  "name": "Together for choice",
+  "documents": {
+    "Policy": {
+      "fetch": "https://www.togetherforchoice.org/policystatement",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.togetherforchoice.org/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(3) > div > main > div > div > div > div:nth-of-type(2) > div > div > div > section:nth-of-type(2) > div:first-of-type > div:first-of-type"
+    }
+  }
+}

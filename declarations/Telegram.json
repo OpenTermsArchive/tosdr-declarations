@@ -1,0 +1,17 @@
+{
+  "name": "Telegram",
+  "documents": {
+    "Frequently Asked Questions": {
+      "fetch": "https://telegram.org/faq",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://telegram.org/tos",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://telegram.org/privacy",
+      "select": "body"
+    }
+  }
+}

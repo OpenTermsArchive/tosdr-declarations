@@ -1,0 +1,9 @@
+{
+  "name": "Sportspyder",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://sportspyder.com/privacy",
+      "select": "body"
+    }
+  }
+}

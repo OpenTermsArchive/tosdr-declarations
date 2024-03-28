@@ -1,0 +1,17 @@
+{
+  "name": "Datadome",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://datadome.co/cookies-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://datadome.co/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://datadome.co/terms-conditions/",
+      "select": "body"
+    }
+  }
+}

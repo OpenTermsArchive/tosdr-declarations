@@ -1,0 +1,17 @@
+{
+  "name": "Opensap",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://open.sap.com/pages/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://open.sap.com/pages/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sap.com/corporate/en/legal/terms-of-use.html",
+      "select": "body"
+    }
+  }
+}

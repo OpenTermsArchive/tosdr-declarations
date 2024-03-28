@@ -1,0 +1,13 @@
+{
+  "name": "Acronis",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.acronis.com/en-us/legal.html",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.acronis.com/en-us/company/privacy.html",
+      "select": null
+    }
+  }
+}

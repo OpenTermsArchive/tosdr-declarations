@@ -1,0 +1,17 @@
+{
+  "name": "Foodvisor",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.foodvisor.io/en/cookies/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.foodvisor.io/en/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.foodvisor.io/en/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

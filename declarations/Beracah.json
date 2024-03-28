@@ -1,0 +1,9 @@
+{
+  "name": "Beracah",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://beracah.info/privacy-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type"
+    }
+  }
+}

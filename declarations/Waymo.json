@@ -1,0 +1,13 @@
+{
+  "name": "Waymo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://waymo.com/terms/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://waymo.com/privacy/",
+      "select": null
+    }
+  }
+}

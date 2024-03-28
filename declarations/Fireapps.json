@@ -1,0 +1,17 @@
+{
+  "name": "Fireapps",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://fireapps.io/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://fireapps.io/terms-of-service",
+      "select": "body"
+    },
+    "Spam": {
+      "fetch": "https://www.genericday.com/avaforce-100-mg.html",
+      "select": "body"
+    }
+  }
+}

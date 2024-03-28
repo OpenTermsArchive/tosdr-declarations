@@ -1,0 +1,17 @@
+{
+  "name": "Built in",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://builtin.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div > main > div > div > div > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://builtin.com/community-terms-of-use",
+      "select": "html > body > div:first-of-type > div > main > div > div > div > div > div > div > div > div"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://builtin.com/copyright-policy",
+      "select": "html > body > div:first-of-type > div:first-of-type > main > div > div > div > div:nth-of-type(2) > div > div > div > article > div > div:nth-of-type(2)"
+    }
+  }
+}

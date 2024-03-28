@@ -1,0 +1,9 @@
+{
+  "name": "Kiesproductnl",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.kiesproduct.nl/info/disclaimer",
+      "select": " > div"
+    }
+  }
+}

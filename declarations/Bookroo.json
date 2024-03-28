@@ -1,0 +1,13 @@
+{
+  "name": "Bookroo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bookroo.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://bookroo.com/terms-of-service",
+      "select": "body"
+    }
+  }
+}

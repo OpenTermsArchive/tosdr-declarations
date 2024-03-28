@@ -1,0 +1,13 @@
+{
+  "name": "Circle media labs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://meetcircle.com/pages/legal-terms ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://meetcircle.com/pages/legal-privacy",
+      "select": "body"
+    }
+  }
+}

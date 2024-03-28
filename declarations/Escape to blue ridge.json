@@ -1,0 +1,9 @@
+{
+  "name": "Escape to blue ridge",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.escapetoblueridge.com/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    }
+  }
+}

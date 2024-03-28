@@ -1,0 +1,9 @@
+{
+  "name": "Repairwiki",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://repair.wiki/w/RepairWiki:General_disclaimer",
+      "select": "body"
+    }
+  }
+}

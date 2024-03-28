@@ -1,0 +1,13 @@
+{
+  "name": "Wealthfront",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wealthfront.com/legal/terms",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wealthfront.com/legal/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3)"
+    }
+  }
+}

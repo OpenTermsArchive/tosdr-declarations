@@ -1,0 +1,9 @@
+{
+  "name": "Peafm",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pea.fm/privacy_policy.php",
+      "select": "body"
+    }
+  }
+}

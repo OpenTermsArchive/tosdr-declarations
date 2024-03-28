@@ -1,0 +1,13 @@
+{
+  "name": "Yuga labs",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.yuga.com/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.yuga.com/privacy",
+      "select": "body"
+    }
+  }
+}

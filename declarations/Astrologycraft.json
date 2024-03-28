@@ -1,0 +1,13 @@
+{
+  "name": "Astrologycraft",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://astrologycraft.com/common/termsofservice.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://astrologycraft.com/common/privacypolicy.html",
+      "select": "body"
+    }
+  }
+}

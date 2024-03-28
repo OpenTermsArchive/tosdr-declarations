@@ -1,0 +1,17 @@
+{
+  "name": "Searchinfotoday",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.searchinfotoday.com/terms",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.searchinfotoday.com/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.searchinfotoday.com/privacy",
+      "select": "body"
+    }
+  }
+}

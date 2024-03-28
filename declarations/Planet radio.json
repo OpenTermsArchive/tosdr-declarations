@@ -1,0 +1,17 @@
+{
+  "name": "Planet radio",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bauerlegal.co.uk/competition-general-terms-and-conditions-20230711",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.bauerlegal.co.uk/cookie-policy-20200605",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bauerlegal.co.uk/privacy-policy-20231101",
+      "select": "body"
+    }
+  }
+}

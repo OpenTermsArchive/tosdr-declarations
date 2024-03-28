@@ -1,0 +1,9 @@
+{
+  "name": "Friend match",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.friendmatch.com/terms-conditions-privacy-policy",
+      "select": "body"
+    }
+  }
+}

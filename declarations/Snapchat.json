@@ -1,0 +1,25 @@
+{
+  "name": "Snapchat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.snapchat.com/create/terms.html",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.snap.com/en-US/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.snap.com/en-US/privacy/privacy-policy/",
+      "select": ".textarticle-container.privacy-policy"
+    },
+    "Community Guidelines": {
+      "fetch": "https://support.snapchat.com/en-US/a/guidelines",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://support.snapchat.com/en-US/co/report-copyright",
+      "select": "body"
+    }
+  }
+}

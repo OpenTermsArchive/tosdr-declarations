@@ -1,0 +1,13 @@
+{
+  "name": "Waschsalon gaming",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://waschsalon-gaming.de/sc-terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://waschsalon-gaming.de/datenschutzerklaerung",
+      "select": "body"
+    }
+  }
+}

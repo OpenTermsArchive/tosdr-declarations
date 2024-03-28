@@ -1,0 +1,9 @@
+{
+  "name": "United states department of housing and urban development",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.hud.gov/privacy_policy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Evenflo feeding",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.evenflofeeding.com/policies/refund-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.evenflofeeding.com/policies/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.evenflofeeding.com/policies/privacy-policy",
+      "select": "body"
+    }
+  }
+}

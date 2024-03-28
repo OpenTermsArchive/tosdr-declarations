@@ -1,0 +1,9 @@
+{
+  "name": "Renren",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://renren.com/info/agreement.jsp",
+      "select": "h3 > div"
+    }
+  }
+}

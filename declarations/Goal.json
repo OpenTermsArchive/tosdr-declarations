@@ -1,0 +1,13 @@
+{
+  "name": "Goal",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.goal.com/en/legal/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.goal.com/en/legal/terms-conditions",
+      "select": "body"
+    }
+  }
+}

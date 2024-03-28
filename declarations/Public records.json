@@ -1,0 +1,13 @@
+{
+  "name": "Public records",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.publicrecords.info/terms-services",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.publicrecords.info/privacy-policy",
+      "select": "body"
+    }
+  }
+}

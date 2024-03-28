@@ -1,0 +1,13 @@
+{
+  "name": "Buff",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.buff.game/buff-privacy-policy/",
+      "select": "html > body > div:first-of-type > div > main > div > div > div > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.buff.game/website-terms-of-use/",
+      "select": "html > body > div:first-of-type > div > main > div > div > div > article > div > div > div > div > section:nth-of-type(2)"
+    }
+  }
+}

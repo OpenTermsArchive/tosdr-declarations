@@ -1,0 +1,9 @@
+{
+  "name": "Saudi adhd society",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://adhd.org.sa/en/privacy-policy/",
+      "select": null
+    }
+  }
+}

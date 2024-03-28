@@ -1,0 +1,13 @@
+{
+  "name": "Getdivvycom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://getdivvy.com/terms-conditions",
+      "select": "html > body > div:nth-of-type(4) > div:first-of-type > div > div > div > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://getdivvy.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(4) > div:first-of-type > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div"
+    }
+  }
+}

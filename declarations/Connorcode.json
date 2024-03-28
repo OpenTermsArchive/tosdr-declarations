@@ -1,0 +1,9 @@
+{
+  "name": "Connorcode",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://connorcode.com/about",
+      "select": "body"
+    }
+  }
+}

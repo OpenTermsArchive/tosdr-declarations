@@ -1,0 +1,13 @@
+{
+  "name": "Zetbull",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://zetbull.com/?a=rules",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(2)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://zetbull.com/?a=cust&page=privacy",
+      "select": "html > body > div:nth-of-type(3) > section:nth-of-type(2)"
+    }
+  }
+}

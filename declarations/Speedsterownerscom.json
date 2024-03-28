@@ -1,0 +1,9 @@
+{
+  "name": "Speedsterownerscom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.speedsterowners.com/pages/tos",
+      "select": "body"
+    }
+  }
+}

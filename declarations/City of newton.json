@@ -1,0 +1,9 @@
+{
+  "name": "City of newton",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.newtonma.gov/about/links-policy",
+      "select": null
+    }
+  }
+}

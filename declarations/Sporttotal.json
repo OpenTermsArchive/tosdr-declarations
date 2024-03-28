@@ -1,0 +1,17 @@
+{
+  "name": "Sporttotal",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sporttotal.tv/legal",
+      "select": " > div:first-of-type > div:first-of-type > div:first-of-type > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sporttotal.tv/privacy",
+      "select": " > div:first-of-type > div:first-of-type > div:first-of-type > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://sporttotal.tv/cookies",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Myanimelist",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://myanimelist.net/about/terms_of_use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://myanimelist.net/about/privacy_policy",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://myanimelist.net/about/cookie_policy",
+      "select": null
+    }
+  }
+}

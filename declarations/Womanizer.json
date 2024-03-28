@@ -1,0 +1,9 @@
+{
+  "name": "Womanizer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.womanizer.com/eu/privacy-policy",
+      "select": "body"
+    }
+  }
+}

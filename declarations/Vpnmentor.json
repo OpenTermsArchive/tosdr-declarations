@@ -1,0 +1,13 @@
+{
+  "name": "Vpnmentor",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.vpnmentor.com/terms-and-conditions-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vpnmentor.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

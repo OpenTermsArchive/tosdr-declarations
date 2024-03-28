@@ -1,0 +1,13 @@
+{
+  "name": "Disktrixcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.disktrix.com/terms-and-conditions.html",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(5) > div > div > div:first-of-type > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.disktrix.com/privacy-statement.html",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(5) > div > div > div:first-of-type > div > div > div"
+    }
+  }
+}

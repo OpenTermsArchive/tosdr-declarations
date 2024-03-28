@@ -1,0 +1,13 @@
+{
+  "name": "Onshape",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.onshape.com/en/legal/terms-of-use",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.onshape.com/en/privacy-center/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

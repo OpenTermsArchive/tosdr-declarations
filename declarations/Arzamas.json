@@ -1,0 +1,13 @@
+{
+  "name": "Arzamas",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://arzamas.academy/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://arzamas.academy/license",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Twit",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://twit.tv/terms-of-service ",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://twit.tv/about/privacy ",
+      "select": "body"
+    }
+  }
+}

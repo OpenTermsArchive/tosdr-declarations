@@ -1,0 +1,9 @@
+{
+  "name": "Vector unit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.vectorunit.com/privacy",
+      "select": "body"
+    }
+  }
+}

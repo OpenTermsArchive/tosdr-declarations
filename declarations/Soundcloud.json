@@ -1,0 +1,21 @@
+{
+  "name": "Soundcloud",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://soundcloud.com/community-guidelines",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://soundcloud.com/pages/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:first-of-type > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://soundcloud.com/terms-of-use",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://soundcloud.com/pages/cookies",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:first-of-type > div > div"
+    }
+  }
+}

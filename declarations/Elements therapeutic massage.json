@@ -1,0 +1,13 @@
+{
+  "name": "Elements therapeutic massage",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://elementsmassage.com/privacy-policy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://elementsmassage.com/terms-of-use",
+      "select": null
+    }
+  }
+}

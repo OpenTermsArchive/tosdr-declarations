@@ -1,0 +1,9 @@
+{
+  "name": "Businessinsider",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.insider-inc.com/terms",
+      "select": "body"
+    }
+  }
+}

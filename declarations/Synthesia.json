@@ -1,0 +1,13 @@
+{
+  "name": "Synthesia",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.synthesia.io/terms/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.synthesia.io/terms/terms-of-service",
+      "select": "body"
+    }
+  }
+}

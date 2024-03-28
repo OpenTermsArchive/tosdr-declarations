@@ -1,0 +1,17 @@
+{
+  "name": "Atlanticrecords",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.atlanticrecords.com/terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.atlanticrecords.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(2) > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wminewmedia.com/cookies-policy/",
+      "select": "body"
+    }
+  }
+}

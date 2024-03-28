@@ -1,0 +1,9 @@
+{
+  "name": "Donbigs",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.donbigs.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(4) > div > div:first-of-type > div > div > div > div:nth-of-type(5) > div > div:first-of-type"
+    }
+  }
+}

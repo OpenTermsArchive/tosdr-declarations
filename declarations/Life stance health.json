@@ -1,0 +1,13 @@
+{
+  "name": "Life stance health",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lifestanceshealth.com/terms-conditions/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lifestanceshealth.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

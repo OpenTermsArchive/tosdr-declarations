@@ -1,0 +1,17 @@
+{
+  "name": "Wechat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wechat.com/en/privacy_policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wechat.com/en/service_terms.html",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.wechat.com/en/acceptable_use_policy.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Bump boxes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bumpboxes.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bumpboxes.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

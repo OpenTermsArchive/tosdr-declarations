@@ -1,0 +1,13 @@
+{
+  "name": "Dba originals",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mindbodygreen.com/terms-of-sale",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://us.dbaoriginals.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

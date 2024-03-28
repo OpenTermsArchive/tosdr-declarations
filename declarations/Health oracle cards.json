@@ -1,0 +1,9 @@
+{
+  "name": "Health oracle cards",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://healthoraclecards.com/privacy-policy",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Irobot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://webapi.irobot.com/Legal/Documents/North-America/United-States/Legal-Documents/EULA.aspx",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.irobot.com/legal/privacy-policy",
+      "select": "body"
+    }
+  }
+}

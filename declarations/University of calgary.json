@@ -1,0 +1,9 @@
+{
+  "name": "University of calgary",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://web.ucalgary.ca/sites/default/files/teams/1/digital-privacy-statement.pdf",
+      "select": "body"
+    }
+  }
+}

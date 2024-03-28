@@ -1,0 +1,9 @@
+{
+  "name": "Benjy ross",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gdprprivacypolicy.net/live.php?token=AY8gPAQ2i23ZBsPobc0jHAXQBPKHjOpF",
+      "select": "body"
+    }
+  }
+}

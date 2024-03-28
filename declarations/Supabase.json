@@ -1,0 +1,17 @@
+{
+  "name": "Supabase",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://supabase.io/docs/company/aup",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://supabase.io/docs/company/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://supabase.io/docs/company/terms",
+      "select": "body"
+    }
+  }
+}

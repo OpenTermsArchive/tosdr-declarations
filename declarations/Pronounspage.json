@@ -1,0 +1,13 @@
+{
+  "name": "Pronounspage",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://en.pronouns.page/terms",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type"
+    },
+    "Privacy Policy": {
+      "fetch": "https://en.pronouns.page/privacy",
+      "select": "body"
+    }
+  }
+}

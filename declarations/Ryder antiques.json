@@ -1,0 +1,9 @@
+{
+  "name": "Ryder antiques",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ryderantiques.com/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

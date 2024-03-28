@@ -1,0 +1,13 @@
+{
+  "name": "Applebees",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.applebees.com/en/mobile-program ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.applebees.com/en/terms-of-use",
+      "select": "body"
+    }
+  }
+}

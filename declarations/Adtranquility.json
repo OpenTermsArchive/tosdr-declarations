@@ -1,0 +1,13 @@
+{
+  "name": "Adtranquility",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/76187372 ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.iubenda.com/terms-and-conditions/59177745",
+      "select": "body"
+    }
+  }
+}

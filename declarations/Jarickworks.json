@@ -1,0 +1,13 @@
+{
+  "name": "Jarickworks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jarick.works/privacy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://jarick.works/copyright/",
+      "select": "body"
+    }
+  }
+}

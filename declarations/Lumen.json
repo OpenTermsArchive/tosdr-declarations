@@ -1,0 +1,9 @@
+{
+  "name": "Lumen",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lumendatabase.org/pages/privacy",
+      "select": "html > body > section > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tplink",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.kasasmart.com/1/legal/us/kasacare-service-agreement#overview-and-relation-to-other-agreements",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tp-link.com/us/about-us/privacy",
+      "select": "body"
+    }
+  }
+}

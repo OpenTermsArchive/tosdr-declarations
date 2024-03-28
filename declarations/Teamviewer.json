@@ -1,0 +1,21 @@
+{
+  "name": "Teamviewer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.teamviewer.com/en-us/privacy-notice/#teamviewer-website-privacy-notice",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > main > article > div > section > div:nth-of-type(3) > div > div"
+    },
+    "Legal Information": {
+      "fetch": "https://www.teamviewer.com/en-us/privacy-notice/#product-privacy-notice",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > main > article > div > section > div:nth-of-type(3) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.teamviewer.com/en/eula/#dpa",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > main > article > div > section > div:nth-of-type(3) > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.teamviewer.com/en-us/privacy-notice/#teamViewer-cookie-notice",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:first-of-type > main > article > div > section > div:nth-of-type(3) > div > div"
+    }
+  }
+}

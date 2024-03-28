@@ -1,0 +1,9 @@
+{
+  "name": "Worxdata",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://worxdata.de/datenschutz.htm",
+      "select": "body"
+    }
+  }
+}

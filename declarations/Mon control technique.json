@@ -1,0 +1,13 @@
+{
+  "name": "Mon control technique",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.moncontroletechnique.fr/charte-de-confidentialite",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.moncontroletechnique.fr/conditions-generales-dutilisation",
+      "select": null
+    }
+  }
+}

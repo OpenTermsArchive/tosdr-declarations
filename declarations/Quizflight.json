@@ -1,0 +1,13 @@
+{
+  "name": "Quizflight",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.quizflight.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.quizflight.com/privacy?terms",
+      "select": "body"
+    }
+  }
+}

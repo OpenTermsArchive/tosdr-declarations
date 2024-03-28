@@ -1,0 +1,21 @@
+{
+  "name": "Team satchel",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.teamsatchel.com/legals/cookie_policy.html",
+      "select": "body"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.teamsatchel.com/legals/acceptable_use.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.teamsatchel.com/legals/terms.html",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.teamsatchel.com/legals/privacy_notice.html",
+      "select": null
+    }
+  }
+}

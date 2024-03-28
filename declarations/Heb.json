@@ -1,0 +1,9 @@
+{
+  "name": "Heb",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.heb.com/terms?version=7c14d4ef1028955334cfb4bcb5f3372d",
+      "select": "body"
+    }
+  }
+}

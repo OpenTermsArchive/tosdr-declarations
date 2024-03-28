@@ -1,0 +1,17 @@
+{
+  "name": "Starbase 118",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wiki.starbase118.net/wiki/index.php?title=118Wiki:Privacy_policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://wiki.starbase118.net/wiki/index.php?title=118Wiki:General_disclaimer",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://starbase118.net/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

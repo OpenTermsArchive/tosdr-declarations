@@ -1,0 +1,13 @@
+{
+  "name": "Home chef",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.homechef.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.homechef.com/terms",
+      "select": "body"
+    }
+  }
+}

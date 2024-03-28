@@ -1,0 +1,13 @@
+{
+  "name": "Tembo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.tembo.app/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.tembo.app/terms",
+      "select": "body"
+    }
+  }
+}

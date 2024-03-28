@@ -1,0 +1,13 @@
+{
+  "name": "Buildstore",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://builds.io/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://builds.io/privacy",
+      "select": "body"
+    }
+  }
+}

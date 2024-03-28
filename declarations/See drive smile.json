@@ -1,0 +1,9 @@
+{
+  "name": "See drive smile",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.seedrivesmile.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

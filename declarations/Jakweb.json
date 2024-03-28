@@ -1,0 +1,13 @@
+{
+  "name": "Jakweb",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.jakweb.ch/terms-condition",
+      "select": "html > body > div:nth-of-type(5)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.jakweb.ch/privacy",
+      "select": "html > body > div:nth-of-type(5)"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Gold coast bulletin",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://preferences.news.com.au/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://preferences.news.com.au/cookies",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.goldcoastbulletin.com.au/help/termsconditions",
+      "select": "body"
+    }
+  }
+}

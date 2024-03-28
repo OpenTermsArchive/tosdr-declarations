@@ -1,0 +1,13 @@
+{
+  "name": "Mavrck",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mavrck.co/legal/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mavrck.co/legal/privacypolicy/",
+      "select": "body"
+    }
+  }
+}

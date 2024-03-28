@@ -1,0 +1,17 @@
+{
+  "name": "Simon property group",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.simon.com/legal/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.simon.com/legal/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.simon.com/legal",
+      "select": "html > body > main > article > div:nth-of-type(2)"
+    }
+  }
+}

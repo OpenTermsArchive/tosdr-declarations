@@ -1,0 +1,13 @@
+{
+  "name": "Best randoms",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bestrandoms.com/index.php/Index/terms_and_conditions",
+      "select": "html > body > section:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bestrandoms.com/index.php/Index/privacy",
+      "select": "body"
+    }
+  }
+}

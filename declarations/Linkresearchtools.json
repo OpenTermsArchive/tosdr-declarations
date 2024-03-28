@@ -1,0 +1,13 @@
+{
+  "name": "Linkresearchtools",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://smart.linkresearchtools.com/legal/browser",
+      "select": "html > body > main > section:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://smart.linkresearchtools.com/legal/terms",
+      "select": "html > body > main > section:nth-of-type(2)"
+    }
+  }
+}

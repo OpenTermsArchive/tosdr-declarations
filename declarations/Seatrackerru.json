@@ -1,0 +1,13 @@
+{
+  "name": "Seatrackerru",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://seatracker.ru/misc.php?do=info&show=user_agreement",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://seatracker.ru/misc.php?do=info&show=copyright_holders",
+      "select": "body"
+    }
+  }
+}

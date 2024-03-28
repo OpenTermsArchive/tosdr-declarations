@@ -1,0 +1,9 @@
+{
+  "name": "Quick attorney search",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.quickattorneysearch.com/terms",
+      "select": "body"
+    }
+  }
+}

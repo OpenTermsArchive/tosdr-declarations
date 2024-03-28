@@ -1,0 +1,9 @@
+{
+  "name": "Prepped",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://app.fullyprepped.ca/en/termsandconditions",
+      "select": "body"
+    }
+  }
+}

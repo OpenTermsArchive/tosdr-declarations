@@ -1,0 +1,9 @@
+{
+  "name": "Sharex",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://getsharex.com/privacy-policy/",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

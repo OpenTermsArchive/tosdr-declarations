@@ -1,0 +1,17 @@
+{
+  "name": "Imagilabs",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://imagilabs.com/pages/cookies-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://imagilabs.com/pages/terms-and-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://imagilabs.com/pages/privacy-policy",
+      "select": "body"
+    }
+  }
+}

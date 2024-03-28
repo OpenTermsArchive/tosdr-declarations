@@ -1,0 +1,13 @@
+{
+  "name": "Smartcj",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://smartcj.com/forum/ucp.php?mode=privacy",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > div:nth-of-type(3) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://smartcj.com/forum/ucp.php?mode=terms",
+      "select": "html > body > div:first-of-type > div > div > div:first-of-type > div:nth-of-type(3) > div"
+    }
+  }
+}

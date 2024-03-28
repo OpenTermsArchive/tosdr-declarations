@@ -1,0 +1,9 @@
+{
+  "name": "Ecotricity",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ecotricity.co.uk/the-legal-stuff/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Wyoming registered agent services llc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wyomingagents.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wyomingagents.com/agreement",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Open key chain",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.openkeychain.org/help/privacy-policy",
+      "select": "body"
+    }
+  }
+}

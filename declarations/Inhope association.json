@@ -1,0 +1,13 @@
+{
+  "name": "Inhope association",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.inhope.org/media/site/f648c0cf12-1675094561/inhope_cookiepolicy2023.pdf",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.inhope.org/media/site/c852131a1b-1692193290/inhope.org_privacystatement_2023.pdf",
+      "select": "body"
+    }
+  }
+}

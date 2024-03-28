@@ -1,0 +1,9 @@
+{
+  "name": "Library of congress",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.loc.gov/legal/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

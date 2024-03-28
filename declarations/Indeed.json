@@ -1,0 +1,13 @@
+{
+  "name": "Indeed",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "http://www.indeed.com/intl/en/privacy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.indeed.com/legal?hl=en&redirect=true#tos",
+      "select": "body"
+    }
+  }
+}

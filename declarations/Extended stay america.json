@@ -1,0 +1,13 @@
+{
+  "name": "Extended stay america",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.extendedstayamerica.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.extendedstayamerica.com/terms-conditions",
+      "select": "body"
+    }
+  }
+}

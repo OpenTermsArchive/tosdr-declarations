@@ -1,0 +1,13 @@
+{
+  "name": "Noicelink",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://noice.link/legal/privacy/",
+      "select": "html > body > main > section > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://noice.link/legal/tos",
+      "select": "html > body > main > section > div > div"
+    }
+  }
+}

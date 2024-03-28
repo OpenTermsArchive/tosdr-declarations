@@ -1,0 +1,9 @@
+{
+  "name": "Geicocom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://media.geico.com/legal/privacy_policy.htm",
+      "select": "body"
+    }
+  }
+}

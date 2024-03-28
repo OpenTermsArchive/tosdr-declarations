@@ -1,0 +1,13 @@
+{
+  "name": "National academy of sciences",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.nationalacademies.org/legal/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(3) > div > div > div > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.nationalacademies.org/legal/terms",
+      "select": "body"
+    }
+  }
+}

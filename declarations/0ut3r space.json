@@ -1,0 +1,13 @@
+{
+  "name": "0ut3r space",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://0ut3r.space/tos/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://0ut3r.space/tos/",
+      "select": "body"
+    }
+  }
+}

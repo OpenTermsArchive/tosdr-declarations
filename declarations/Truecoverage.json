@@ -1,0 +1,13 @@
+{
+  "name": "Truecoverage",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://truecoverage.com/privacy-policy/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://truecoverage.com/terms/",
+      "select": "html > body > div:first-of-type > div > div > div > article > div > div > div > div"
+    }
+  }
+}

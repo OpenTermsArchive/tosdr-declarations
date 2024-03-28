@@ -1,0 +1,13 @@
+{
+  "name": "Danone",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.danone.com/footer/Cookies.html",
+      "select": "html > body > main > section:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.danone.com/footer/privacy.html",
+      "select": "html > body > main > section:nth-of-type(3)"
+    }
+  }
+}

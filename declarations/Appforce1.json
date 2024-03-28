@@ -1,0 +1,9 @@
+{
+  "name": "Appforce1",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://appforce1.net/privacy-web.html",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Stellersecurity",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://stellersecurity.com/terms.html",
+      "select": "html > body > main > div:nth-of-type(2)"
+    }
+  }
+}

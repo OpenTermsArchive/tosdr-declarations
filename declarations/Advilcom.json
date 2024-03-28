@@ -1,0 +1,17 @@
+{
+  "name": "Advilcom",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://terms.gsk.com/en-us/consumer-healthcare/default/",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://privacy.gsk.com/en-us/consumer-healthcare/default/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://cookies.gsk.com/en-us/consumer-healthcare/default/",
+      "select": "body"
+    }
+  }
+}

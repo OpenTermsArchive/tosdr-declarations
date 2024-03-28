@@ -1,0 +1,9 @@
+{
+  "name": "Songoda",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://songoda.com/legal/privacy-policy",
+      "select": "body"
+    }
+  }
+}

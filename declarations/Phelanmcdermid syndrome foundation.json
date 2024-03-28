@@ -1,0 +1,9 @@
+{
+  "name": "Phelanmcdermid syndrome foundation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pmsf.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fetch rewards",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fetchrewards.com/terms-of-service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fetchrewards.com/privacy-policy",
+      "select": "html > body > div:first-of-type > main > div"
+    }
+  }
+}

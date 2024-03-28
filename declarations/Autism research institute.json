@@ -1,0 +1,9 @@
+{
+  "name": "Autism research institute",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://autism.org/privacy/",
+      "select": "body"
+    }
+  }
+}

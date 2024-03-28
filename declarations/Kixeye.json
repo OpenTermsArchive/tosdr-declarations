@@ -1,0 +1,17 @@
+{
+  "name": "Kixeye",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://corp.kixeye.com/pp.html",
+      "select": "html > body > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://corp.kixeye.com/cookie-policy.html",
+      "select": "html > body > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://corp.kixeye.com/tos.html",
+      "select": "html > body > div"
+    }
+  }
+}

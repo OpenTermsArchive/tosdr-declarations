@@ -1,0 +1,9 @@
+{
+  "name": "Zotarios",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.privacypolicygenerator.info/live.php?token=t9KtEJG9ZTelF4YIaZf0F9r0vbRGbUWG",
+      "select": "body"
+    }
+  }
+}

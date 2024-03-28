@@ -1,0 +1,13 @@
+{
+  "name": "Futurelearn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.futurelearn.com/info/terms",
+      "select": "html > body > main > article > div > div:nth-of-type(2) > div:first-of-type > div > div > div > div > div:nth-of-type(2)"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.futurelearn.com/info/terms/cookie-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(2) > section > div"
+    }
+  }
+}

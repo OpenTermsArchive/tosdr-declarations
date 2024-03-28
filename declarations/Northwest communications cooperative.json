@@ -1,0 +1,17 @@
+{
+  "name": "Northwest communications cooperative",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://nccray.com/wp-content/uploads/2020/03/NCC-Video_Terms_of_Service_sent-to-Mobi.pdf",
+      "select": "body"
+    },
+    "Other": {
+      "fetch": "https://nccray.com/wp-content/uploads/2018/10/Internet-Agreement-AUP-fillable-form.pdf",
+      "select": "body"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://nccray.com/wp-content/uploads/2022/06/NCC-Network-Management-Practices-Policy-Disclosure_March-2023.pdf",
+      "select": "body"
+    }
+  }
+}

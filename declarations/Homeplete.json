@@ -1,0 +1,13 @@
+{
+  "name": "Homeplete",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.homeplete.com/terms-of-use",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.homeplete.com/privacy-policy",
+      "select": null
+    }
+  }
+}

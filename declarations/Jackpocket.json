@@ -1,0 +1,13 @@
+{
+  "name": "Jackpocket",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jackpocket.com/privacy",
+      "select": "html > body > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jackpocket.com/tos/",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

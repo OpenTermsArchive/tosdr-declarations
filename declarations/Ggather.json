@@ -1,0 +1,17 @@
+{
+  "name": "Ggather",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://hq.ggather.com/legal/terms-of-use",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://hq.ggather.com/legal/cookies-policy",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://hq.ggather.com/legal/privacy-policy",
+      "select": "body"
+    }
+  }
+}

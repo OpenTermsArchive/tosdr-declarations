@@ -1,0 +1,13 @@
+{
+  "name": "Ricardo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://help.ricardo.ch/hc/fr/articles/4417494500498-D%C3%A9claration-de-protection-des-donn%C3%A9es-SMG-Swiss-Marketplace-Group-SA",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://help.ricardo.ch/hc/fr/articles/4417210291858-Conditions-g%C3%A9n%C3%A9rales-valable-%C3%A0-partir-du-05-09-2022",
+      "select": "Body"
+    }
+  }
+}

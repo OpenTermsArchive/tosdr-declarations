@@ -1,0 +1,13 @@
+{
+  "name": "Show me grant county",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://showmegrantcounty.com/terms-of-service/",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://showmegrantcounty.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

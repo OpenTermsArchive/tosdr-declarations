@@ -1,0 +1,13 @@
+{
+  "name": "Improvmx",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://improvmx.com/terms-of-service/",
+      "select": "html > body > main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://improvmx.com/privacy-policy/",
+      "select": "html > body > main"
+    }
+  }
+}

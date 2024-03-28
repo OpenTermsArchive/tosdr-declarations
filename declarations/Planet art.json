@@ -1,0 +1,9 @@
+{
+  "name": "Planet art",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.planetart.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

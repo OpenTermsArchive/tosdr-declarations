@@ -1,0 +1,17 @@
+{
+  "name": "Breezometer",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.breezometer.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.breezometer.com/terms-of-use",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.breezometer.com/cookies-policy",
+      "select": "body"
+    }
+  }
+}

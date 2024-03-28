@@ -1,0 +1,13 @@
+{
+  "name": "Career fair plus",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cdn.careerfairplus.com/terms.html",
+      "select": "html > body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://cdn.careerfairplus.com/PrivacyPolicy.html",
+      "select": "html > body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Datafilehostcom",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.datafilehost.com/pages/privacy.php",
+      "select": "body"
+    }
+  }
+}

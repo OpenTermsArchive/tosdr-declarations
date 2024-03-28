@@ -1,0 +1,13 @@
+{
+  "name": "Bluepoint mortgage",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bluepointmtg.com/privacy-policy",
+      "select": "html > body > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://bluepointmtg.com/terms-conditions/",
+      "select": "html > body > section"
+    }
+  }
+}

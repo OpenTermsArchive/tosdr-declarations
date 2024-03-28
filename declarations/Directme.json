@@ -1,0 +1,13 @@
+{
+  "name": "Directme",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://direct.me/privacy",
+      "select": "html > body > div:nth-of-type(3) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://direct.me/terms",
+      "select": "html > body > div:nth-of-type(3) > div > div"
+    }
+  }
+}

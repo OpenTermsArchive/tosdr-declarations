@@ -1,0 +1,13 @@
+{
+  "name": "Glossika",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ai.glossika.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://ai.glossika.com/terms",
+      "select": "body"
+    }
+  }
+}

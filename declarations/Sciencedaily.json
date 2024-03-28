@@ -1,0 +1,13 @@
+{
+  "name": "Sciencedaily",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sciencedaily.com/terms.htm",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sciencedaily.com/privacy.htm",
+      "select": "html > body > div:first-of-type > div > div:first-of-type"
+    }
+  }
+}

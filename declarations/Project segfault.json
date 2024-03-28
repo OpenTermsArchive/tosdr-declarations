@@ -1,0 +1,17 @@
+{
+  "name": "Project segfault",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://invidious.projectsegfau.lt/privacy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://projectsegfau.lt/legal",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://projectsegfau.lt/legal/tos",
+      "select": "html > body > div:first-of-type > main"
+    }
+  }
+}

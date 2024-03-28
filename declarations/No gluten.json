@@ -1,0 +1,13 @@
+{
+  "name": "No gluten",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nogluten.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://nogluten.com/terms-of-use/",
+      "select": "html > body > div:first-of-type > div > div:first-of-type > main > article > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Make tech easier",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.maketecheasier.com/privacy-policy/",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.maketecheasier.com/terms-of-service/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Sniply",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sniply.io/terms-of-service/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sniply.io/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

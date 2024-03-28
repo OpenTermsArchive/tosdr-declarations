@@ -1,0 +1,13 @@
+{
+  "name": "Amazon aws",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://aws.amazon.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://aws.amazon.com/service-terms/",
+      "select": "body"
+    }
+  }
+}

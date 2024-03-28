@@ -1,0 +1,13 @@
+{
+  "name": "North jersey",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cm.northjersey.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cm.northjersey.com/terms",
+      "select": "body"
+    }
+  }
+}

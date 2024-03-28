@@ -1,0 +1,17 @@
+{
+  "name": "Medicalnewsupdates",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://medical-news-updates.com/cookie-policy.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "http://medical-news-updates.com/data-protection-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "http://medical-news-updates.com/terms.html",
+      "select": "body"
+    }
+  }
+}

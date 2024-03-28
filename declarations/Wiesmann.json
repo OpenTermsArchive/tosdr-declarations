@@ -1,0 +1,17 @@
+{
+  "name": "Wiesmann",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wiesmann.com/pages/privacy-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://wiesmann.com/pages/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://wiesmann.com/pages/terms",
+      "select": "body"
+    }
+  }
+}

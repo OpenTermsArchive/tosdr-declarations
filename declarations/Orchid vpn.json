@@ -1,0 +1,13 @@
+{
+  "name": "Orchid vpn",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.orchid.com/privacy-policy",
+      "select": " > app-privacy-policy > section > article"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.orchid.com/service-terms",
+      "select": " > app-service-terms > section > article"
+    }
+  }
+}

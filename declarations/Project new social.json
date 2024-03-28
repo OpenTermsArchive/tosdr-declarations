@@ -1,0 +1,13 @@
+{
+  "name": "Project new social",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.projectnewsocial.com/web-terms-of-conditions",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.projectnewsocial.com/web-privacy-policy",
+      "select": "body"
+    }
+  }
+}

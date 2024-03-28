@@ -1,0 +1,13 @@
+{
+  "name": "Cagbc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.cagbc.org/CAGBC/About_Us/Privacy_Policy/CAGBC/PrivacyPolicy.aspx?hkey=5554a843-45ef-4b94-b201-b4b35eb896d5",
+      "select": "html > body > form > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cagbc.org/CAGBC/About_Us/Terms_Conditions/CAGBC/Education/Terms_and_Conditions.aspx?hkey=f1b7e657-d4b7-41cc-b68d-71e76aa3655f",
+      "select": "body"
+    }
+  }
+}

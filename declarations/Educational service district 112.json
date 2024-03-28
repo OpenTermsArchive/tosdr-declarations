@@ -1,0 +1,9 @@
+{
+  "name": "Educational service district 112",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.esd112.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}

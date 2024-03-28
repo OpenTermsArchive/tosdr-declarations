@@ -1,0 +1,17 @@
+{
+  "name": "Whatrocks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.whatrocks.co/en/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.whatrocks.co/en/terms-of-use",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.whatrocks.co/en/cookie-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Technology advice",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://technologyadvice.com/privacy-policy",
+      "select": "html > body > main > div > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://technologyadvice.com/terms-conditions/",
+      "select": "html > body > main > div > div > div"
+    }
+  }
+}

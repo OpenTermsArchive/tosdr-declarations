@@ -1,0 +1,13 @@
+{
+  "name": "Bridtv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cms.brid.tv/pages/view/privacy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.brid.tv/terms-and-conditions/",
+      "select": "body"
+    }
+  }
+}

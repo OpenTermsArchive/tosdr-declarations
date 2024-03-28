@@ -1,0 +1,13 @@
+{
+  "name": "Gradescope",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.gradescope.com/tos",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gradescope.com/privacy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Beyond all reason",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://www.beyondallreason.info/code-of-conduct",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.beyondallreason.info/privacy",
+      "select": "body"
+    }
+  }
+}

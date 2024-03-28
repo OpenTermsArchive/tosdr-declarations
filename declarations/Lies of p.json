@@ -1,0 +1,13 @@
+{
+  "name": "Lies of p",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.liesofp.com/en-us/termsOfUse/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.liesofp.com/en-us/privacyPolicy/",
+      "select": "body"
+    }
+  }
+}

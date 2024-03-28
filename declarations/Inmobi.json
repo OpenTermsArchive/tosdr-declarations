@@ -1,0 +1,21 @@
+{
+  "name": "Inmobi",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://www.inmobi.com/content-guidelines-publishers/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.inmobi.com/exchange-terms/",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.inmobi.com/cookie-policy/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.inmobi.com/website-privacy-policy",
+      "select": "body"
+    }
+  }
+}

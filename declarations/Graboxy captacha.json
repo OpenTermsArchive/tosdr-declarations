@@ -1,0 +1,13 @@
+{
+  "name": "Graboxy captacha",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://captcha.graboxy.com/#/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://captcha.graboxy.com/#/privacy",
+      "select": "body"
+    }
+  }
+}

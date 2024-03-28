@@ -1,0 +1,13 @@
+{
+  "name": "Laravel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vapor.laravel.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://vapor.laravel.com/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Spam to be deleted",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://flaglerclerk.com/privacy/",
+      "select": null
+    }
+  }
+}

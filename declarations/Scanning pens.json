@@ -1,0 +1,17 @@
+{
+  "name": "Scanning pens",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.scanningpens.com/privacy-policy-SPUS.html",
+      "select": "html > body > div:nth-of-type(5) > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:nth-of-type(2) > td > table > tbody > tr > td > table > tbody > tr > td"
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.scanningpens.com/returns_usa.html",
+      "select": "html > body > div:nth-of-type(5) > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:nth-of-type(2) > td > table > tbody > tr > td > table > tbody > tr > td"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.scanningpens.com/terms_conditions_privacy_usa.html",
+      "select": "html > body > div:nth-of-type(5) > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:nth-of-type(2) > td > table > tbody > tr > td > table > tbody > tr > td"
+    }
+  }
+}

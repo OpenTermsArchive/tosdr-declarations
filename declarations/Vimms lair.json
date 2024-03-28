@@ -1,0 +1,9 @@
+{
+  "name": "Vimms lair",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://vimm.net/?p=privacy",
+      "select": null
+    }
+  }
+}

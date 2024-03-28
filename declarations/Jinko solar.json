@@ -1,0 +1,9 @@
+{
+  "name": "Jinko solar",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jinkosolar.us/privacy-policy-2/",
+      "select": "html > body > div:nth-of-type(2) > div > div > div > section"
+    }
+  }
+}

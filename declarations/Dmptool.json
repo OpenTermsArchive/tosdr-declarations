@@ -1,0 +1,13 @@
+{
+  "name": "Dmptool",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dmptool.org/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dmptool.org/privacy",
+      "select": "body"
+    }
+  }
+}

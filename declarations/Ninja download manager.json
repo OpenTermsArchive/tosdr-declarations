@@ -1,0 +1,9 @@
+{
+  "name": "Ninja download manager",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ninjadownloadmanager.com/privacy",
+      "select": "body"
+    }
+  }
+}

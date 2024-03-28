@@ -1,0 +1,13 @@
+{
+  "name": "Zona idol projects",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.idolprojects.com/privacy-policy/",
+      "select": "body"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.idolprojects.com/disclaimer/",
+      "select": "body"
+    }
+  }
+}

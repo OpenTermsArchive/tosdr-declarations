@@ -1,0 +1,13 @@
+{
+  "name": "Virustotal",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://support.virustotal.com/hc/en-us/articles/115002145529-Terms-of-Service",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://support.virustotal.com/hc/en-us/articles/115002168385-Privacy-Policy",
+      "select": "body"
+    }
+  }
+}

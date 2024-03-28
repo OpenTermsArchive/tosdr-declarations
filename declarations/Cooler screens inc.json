@@ -1,0 +1,9 @@
+{
+  "name": "Cooler screens inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.coolerscreens.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

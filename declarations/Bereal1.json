@@ -1,0 +1,13 @@
+{
+  "name": "Bereal1",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bere.al/en/privacy/",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://bere.al/en/terms",
+      "select": "html > body > div:first-of-type > div:first-of-type > div:nth-of-type(2)"
+    }
+  }
+}

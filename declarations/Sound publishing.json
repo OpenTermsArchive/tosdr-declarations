@@ -1,0 +1,13 @@
+{
+  "name": "Sound publishing",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.soundpublishing.com/about/terms-of-use/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.soundpublishing.com/about/privacy-policy/",
+      "select": null
+    }
+  }
+}

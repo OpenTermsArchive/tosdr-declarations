@@ -1,0 +1,13 @@
+{
+  "name": "Vbulletin",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "http://www.internetbrands.com/ibterms/",
+      "select": "div#main"
+    },
+    "Privacy Policy": {
+      "fetch": "http://www.internetbrands.com/privacy/privacy-main.html",
+      "select": "div#main"
+    }
+  }
+}

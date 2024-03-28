@@ -1,0 +1,13 @@
+{
+  "name": "Pillpack",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.pillpack.com/privacy-notice",
+      "select": "html > body > main > section"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.pillpack.com/terms-of-use",
+      "select": "html > body > main > section"
+    }
+  }
+}

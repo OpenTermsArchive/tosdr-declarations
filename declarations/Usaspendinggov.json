@@ -1,0 +1,9 @@
+{
+  "name": "Usaspendinggov",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.usaspending.gov/about/privacy",
+      "select": "html > body > div:first-of-type > div > main > div"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Lenovo netfilter",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://files.lenovosoftware.com/privacy/LanSchool-NetFilter-Privacy-Statement.pdf",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://lenovonetfilter.com/cookie-list",
+      "select": "body"
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://files.lenovosoftware.com/privacy/Lenovo-NetFilter-Data-Processor-Agreement.pdf",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://files.lenovosoftware.com/legal/eula/Lenovo-NetFilter-Terms-of-Service.pdf",
+      "select": "body"
+    }
+  }
+}

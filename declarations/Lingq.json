@@ -1,0 +1,9 @@
+{
+  "name": "Lingq",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.lingq.com/en/privacy/",
+      "select": "html > body > div:nth-of-type(2) > div"
+    }
+  }
+}

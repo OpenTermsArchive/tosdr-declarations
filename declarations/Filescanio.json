@@ -1,0 +1,17 @@
+{
+  "name": "Filescanio",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.filescan.io/privacy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.filescan.io/cookie-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.filescan.io/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tripadvisor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tripadvisor.mediaroom.com/us-privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://tripadvisor.mediaroom.com/us-terms-of-use",
+      "select": "div#wd_printable_content > div:first-of-type"
+    }
+  }
+}

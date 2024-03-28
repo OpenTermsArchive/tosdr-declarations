@@ -1,0 +1,13 @@
+{
+  "name": "Cloaks+",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cloaksplus.com/legal#privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://cloaksplus.com/legal#terms",
+      "select": "body"
+    }
+  }
+}

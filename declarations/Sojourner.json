@@ -1,0 +1,13 @@
+{
+  "name": "Sojourner",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sojourner.biz/privacy-policy.html",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://sojourner.biz/terms-and-conditions.html",
+      "select": "html > body > div:first-of-type > div > div:nth-of-type(5) > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

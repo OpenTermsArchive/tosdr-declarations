@@ -1,0 +1,13 @@
+{
+  "name": "Pixabay",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://pixabay.com/service/terms/",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://pixabay.com/service/privacy/",
+      "select": "body"
+    }
+  }
+}

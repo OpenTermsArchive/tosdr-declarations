@@ -1,0 +1,13 @@
+{
+  "name": "Invisv",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://invisv.com/terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://invisv.com/privacy",
+      "select": "body"
+    }
+  }
+}

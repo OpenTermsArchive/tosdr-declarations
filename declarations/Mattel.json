@@ -1,0 +1,17 @@
+{
+  "name": "Mattel",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://corporate.mattel.com/mattel-shopping-terms",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://shop.mattel.com/pages/privacy-statement",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://shop.mattel.com/pages/cookies-and-technologies",
+      "select": "body"
+    }
+  }
+}

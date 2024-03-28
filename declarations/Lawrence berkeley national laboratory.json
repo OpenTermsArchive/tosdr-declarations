@@ -1,0 +1,13 @@
+{
+  "name": "Lawrence berkeley national laboratory",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.lbl.gov/terms-and-conditions/",
+      "select": "html > body > div:first-of-type > div > div > div > main > div > article > div > div > lbl-container:first-of-type"
+    },
+    "Legal Information": {
+      "fetch": "https://www.lbl.gov/terms-and-conditions/web-privacy-notice/",
+      "select": "body"
+    }
+  }
+}

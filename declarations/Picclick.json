@@ -1,0 +1,9 @@
+{
+  "name": "Picclick",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://picclick.com/pages/terms.html",
+      "select": "body"
+    }
+  }
+}

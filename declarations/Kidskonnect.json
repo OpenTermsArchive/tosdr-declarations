@@ -1,0 +1,13 @@
+{
+  "name": "Kidskonnect",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://kidskonnect.com/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://kidskonnect.com/terms/",
+      "select": "body"
+    }
+  }
+}

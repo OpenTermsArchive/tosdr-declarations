@@ -1,0 +1,13 @@
+{
+  "name": "Fuel up to play 60",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.fueluptoplay60.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fueluptoplay60.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

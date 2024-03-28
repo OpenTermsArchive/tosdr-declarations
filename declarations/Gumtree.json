@@ -1,0 +1,13 @@
+{
+  "name": "Gumtree",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.gumtree.com/cookies",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.gumtree.com/privacy_policy",
+      "select": "body"
+    }
+  }
+}

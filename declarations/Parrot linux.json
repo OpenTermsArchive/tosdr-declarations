@@ -1,0 +1,9 @@
+{
+  "name": "Parrot linux",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://parrotsec.org/privacy/",
+      "select": "body"
+    }
+  }
+}

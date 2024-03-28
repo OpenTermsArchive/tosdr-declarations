@@ -1,0 +1,13 @@
+{
+  "name": "Liberland",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://liberland.org/privacy-policy",
+      "select": "html > body > div:first-of-type > app-root > main"
+    },
+    "Terms of Service": {
+      "fetch": "https://liberland.org/en/terms-and-conditions",
+      "select": "html > body > div:first-of-type > app-root > main"
+    }
+  }
+}

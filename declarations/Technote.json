@@ -1,0 +1,17 @@
+{
+  "name": "Technote",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.technote.ai/privacy-policy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.technote.ai/terms-of-service",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div > div"
+    },
+    "Trackers Policy": {
+      "fetch": "https://technote.ai/cookie-policy",
+      "select": null
+    }
+  }
+}

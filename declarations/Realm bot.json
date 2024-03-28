@@ -1,0 +1,13 @@
+{
+  "name": "Realm bot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://realmbot.dev/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://realmbot.dev/tos",
+      "select": "body"
+    }
+  }
+}

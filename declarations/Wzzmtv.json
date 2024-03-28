@@ -1,0 +1,13 @@
+{
+  "name": "Wzzmtv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.wzzm13.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.wzzm13.com/terms",
+      "select": "body"
+    }
+  }
+}

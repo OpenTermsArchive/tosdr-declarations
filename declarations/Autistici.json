@@ -1,0 +1,9 @@
+{
+  "name": "Autistici",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.autistici.org/who/privacy-policy.en",
+      "select": "body"
+    }
+  }
+}

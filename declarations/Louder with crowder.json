@@ -1,0 +1,13 @@
+{
+  "name": "Louder with crowder",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.louderwithcrowder.com/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.louderwithcrowder.com/privacy-policy",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Hentaiheroes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.hentaiheroes.com/contact.html",
+      "select": "html > body > div:nth-of-type(3) > section > div > div"
+    }
+  }
+}

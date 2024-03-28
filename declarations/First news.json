@@ -1,0 +1,13 @@
+{
+  "name": "First news",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://live.firstnews.co.uk/terms/",
+      "select": "html > body > div:nth-of-type(2) > main > article > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://live.firstnews.co.uk/privacy/",
+      "select": "html > body > div:nth-of-type(2) > main > article > div > div"
+    }
+  }
+}

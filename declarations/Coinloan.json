@@ -1,0 +1,9 @@
+{
+  "name": "Coinloan",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://coinloan.io/terms-and-conditions/",
+      "select": " > div > div:first-of-type > section > div > div > div"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Treatstream",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://treatstream.com/privacy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://treatstream.com/terms",
+      "select": "body"
+    }
+  }
+}

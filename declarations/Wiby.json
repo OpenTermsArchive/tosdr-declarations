@@ -1,0 +1,9 @@
+{
+  "name": "Wiby",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wiby.me/about/pp.html",
+      "select": "body"
+    }
+  }
+}

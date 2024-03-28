@@ -1,0 +1,9 @@
+{
+  "name": "Nasty comics",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nastycomics.eu/privacy/",
+      "select": "body"
+    }
+  }
+}

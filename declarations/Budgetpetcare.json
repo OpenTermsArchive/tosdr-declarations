@@ -1,0 +1,17 @@
+{
+  "name": "Budgetpetcare",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.budgetpetcare.com/ship_returns.aspx",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.budgetpetcare.com/terms-of-use.aspx",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.budgetpetcare.com/privacy.aspx",
+      "select": "html > body > div:nth-of-type(5)"
+    }
+  }
+}

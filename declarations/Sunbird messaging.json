@@ -1,0 +1,13 @@
+{
+  "name": "Sunbird messaging",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.sunbirdapp.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > p"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.sunbirdapp.com/end-user-license-agreement",
+      "select": "html > body > div:nth-of-type(3)"
+    }
+  }
+}

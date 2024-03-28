@@ -1,0 +1,21 @@
+{
+  "name": "Rooster teeth",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.warnermediaprivacy.com/policycenter/b2c/WME/en-us/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://roosterteeth.com/terms-of-use",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(3) > main > div"
+    },
+    "Community Guidelines": {
+      "fetch": "https://roosterteeth.com/code-of-conduct",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://roosterteeth.com/cookie-policy",
+      "select": "html > body > div:first-of-type > div > div > div:nth-of-type(3) > main > div > div"
+    }
+  }
+}

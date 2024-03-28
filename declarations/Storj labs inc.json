@@ -1,0 +1,9 @@
+{
+  "name": "Storj labs inc",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.storj.io/privacy-policy",
+      "select": "body"
+    }
+  }
+}

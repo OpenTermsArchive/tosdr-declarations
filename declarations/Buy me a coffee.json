@@ -1,0 +1,13 @@
+{
+  "name": "Buy me a coffee",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.buymeacoffee.com/privacy-policy",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.buymeacoffee.com/terms",
+      "select": "body"
+    }
+  }
+}

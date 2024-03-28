@@ -1,0 +1,17 @@
+{
+  "name": "Jehovahs witnesses",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.jw.org/en/privacy-policy/global-data-protection-policy/",
+      "select": null
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.jw.org/en/privacy-policy/global-policy-use-of-cookies/cookies-shared/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.jw.org/en/terms-of-use/",
+      "select": null
+    }
+  }
+}

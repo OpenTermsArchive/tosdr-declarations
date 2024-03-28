@@ -1,0 +1,13 @@
+{
+  "name": "Spam blocker",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sblocker.app/terms.html",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://sblocker.app/privacypolicy.html",
+      "select": "body"
+    }
+  }
+}

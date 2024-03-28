@@ -1,0 +1,9 @@
+{
+  "name": "Fdroid",
+  "documents": {
+    "About": {
+      "fetch": "https://f-droid.org/en/about",
+      "select": "body"
+    }
+  }
+}

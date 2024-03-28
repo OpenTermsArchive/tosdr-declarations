@@ -1,0 +1,17 @@
+{
+  "name": "Altervista",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/8267552",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://en.altervista.org/terms.php",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/87184196/cookie-policy?ifr=true&height=309",
+      "select": "body"
+    }
+  }
+}

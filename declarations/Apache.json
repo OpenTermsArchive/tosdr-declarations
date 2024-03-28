@@ -1,0 +1,9 @@
+{
+  "name": "Apache",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://privacy.apache.org/policies/privacy-policy-public.html",
+      "select": "html > body > main"
+    }
+  }
+}

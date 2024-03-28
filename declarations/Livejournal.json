@@ -1,0 +1,9 @@
+{
+  "name": "Livejournal",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.livejournal.com/legal/tos-en.bml",
+      "select": "html > body > div:nth-of-type(2) > div:nth-of-type(5) > div:first-of-type > div"
+    }
+  }
+}

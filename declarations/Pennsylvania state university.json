@@ -1,0 +1,17 @@
+{
+  "name": "Pennsylvania state university",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.psu.edu/web-privacy-statement/",
+      "select": " > section:first-of-type > div > div > div"
+    },
+    "Policy": {
+      "fetch": "https://policy.psu.edu/policies/hr11#B ",
+      "select": "body"
+    },
+    "Corporate Social Responsibility": {
+      "fetch": "https://www.psu.edu/accessibilitystatement/ ",
+      "select": "body"
+    }
+  }
+}

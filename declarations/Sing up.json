@@ -1,0 +1,21 @@
+{
+  "name": "Sing up",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.singup.org/terms-and-conditions",
+      "select": "body"
+    },
+    "Policy": {
+      "fetch": "https://www.singup.org/photography-policy",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.singup.org/cookie-policy",
+      "select": "body"
+    },
+    "Legal Information": {
+      "fetch": "https://www.singup.org/privacy-policy",
+      "select": "body"
+    }
+  }
+}

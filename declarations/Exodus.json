@@ -1,0 +1,9 @@
+{
+  "name": "Exodus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.exodus.com/legal/exodus-pp-20210225-v7.pdf",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "British food depot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://britishfooddepot.com/privacy-policy",
+      "select": "html > body > div:nth-of-type(4)"
+    },
+    "Terms of Service": {
+      "fetch": "https://britishfooddepot.com/terms-conditions",
+      "select": "html > body > div:nth-of-type(4)"
+    }
+  }
+}

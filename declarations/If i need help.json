@@ -1,0 +1,9 @@
+{
+  "name": "If i need help",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ifineedhelp.org/privacy/page",
+      "select": "body"
+    }
+  }
+}

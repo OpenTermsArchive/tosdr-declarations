@@ -1,0 +1,9 @@
+{
+  "name": "Teachmephysiology",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://teachmephysiology.com/privacy-policy",
+      "select": " > div:nth-of-type(3) > div > div > div"
+    }
+  }
+}

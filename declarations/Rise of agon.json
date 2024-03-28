@@ -1,0 +1,13 @@
+{
+  "name": "Rise of agon",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.riseofagon.com/legal-info/privacy-policy/",
+      "select": "html > body > main > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.riseofagon.com/legal-info/tos-eula/",
+      "select": "html > body > main > div:nth-of-type(2)"
+    }
+  }
+}

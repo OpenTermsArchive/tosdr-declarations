@@ -1,0 +1,9 @@
+{
+  "name": "Finobe",
+  "documents": {
+    "Other": {
+      "fetch": "http://medicallightassociation.com",
+      "select": "body"
+    }
+  }
+}

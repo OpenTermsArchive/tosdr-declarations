@@ -1,0 +1,13 @@
+{
+  "name": "Coin monster",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://coinmonster.store/privacy-policy/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    },
+    "Terms of Service": {
+      "fetch": "https://coinmonster.store/terms-conditions/",
+      "select": "html > body > div:first-of-type > div:nth-of-type(2) > div"
+    }
+  }
+}

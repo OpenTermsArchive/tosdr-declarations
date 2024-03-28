@@ -1,0 +1,13 @@
+{
+  "name": "Harper macaw shop",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://harpermacaw.com/pages/terms-conditions",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://harpermacaw.com/pages/privacy-policy",
+      "select": "html > body > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div"
+    }
+  }
+}

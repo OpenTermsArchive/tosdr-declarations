@@ -1,0 +1,17 @@
+{
+  "name": "Redbubble",
+  "documents": {
+    "Copyright Claims Policy": {
+      "fetch": "https://help.redbubble.com/hc/en-us/articles/201579195",
+      "select": "html > body > main > div:nth-of-type(3) > div > div > article > div:first-of-type > div:first-of-type"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.redbubble.com/agreement",
+      "select": null
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.redbubble.com/privacy",
+      "select": "html > body > div:first-of-type > div:nth-of-type(7) > div:nth-of-type(2) > div"
+    }
+  }
+}

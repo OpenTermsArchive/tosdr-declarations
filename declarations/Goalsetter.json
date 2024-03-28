@@ -1,0 +1,13 @@
+{
+  "name": "Goalsetter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.goalsetter.co/terms-of-use",
+      "select": "body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.goalsetter.co/privacypolicy",
+      "select": "body"
+    }
+  }
+}

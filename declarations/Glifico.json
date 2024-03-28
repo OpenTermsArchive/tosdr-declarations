@@ -1,0 +1,13 @@
+{
+  "name": "Glifico",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/29411574/legal",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.glifico.com/pdf_viewer/web/viewer.html?file=161008TCv03.pdf",
+      "select": "body"
+    }
+  }
+}

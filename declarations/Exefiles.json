@@ -1,0 +1,13 @@
+{
+  "name": "Exefiles",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.exefiles.com/en/privacy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.exefiles.com/en/terms/",
+      "select": "html > body > div:nth-of-type(4) > div:first-of-type"
+    }
+  }
+}

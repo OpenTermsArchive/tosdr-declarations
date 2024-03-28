@@ -1,0 +1,13 @@
+{
+  "name": "Xenon bot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/88601334",
+      "select": "body"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.iubenda.com/privacy-policy/88601334/cookie-policy",
+      "select": "body"
+    }
+  }
+}

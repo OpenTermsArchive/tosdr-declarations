@@ -1,0 +1,13 @@
+{
+  "name": "Hypixel",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hypixel.net/privacy",
+      "select": " > div:nth-of-type(6) > div > div > div:nth-of-type(2)"
+    },
+    "Terms of Service": {
+      "fetch": "https://hypixel.net/terms",
+      "select": "body"
+    }
+  }
+}

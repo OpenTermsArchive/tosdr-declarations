@@ -1,0 +1,13 @@
+{
+  "name": "Teteosnet",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.teteos.net/blog/1-terms-of-use",
+      "select": "html > body > div:nth-of-type(2) > main > div:first-of-type > div > div > div:nth-of-type(2) > div:first-of-type > div:first-of-type > div:nth-of-type(3)"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.teteos.net/blog/3-privacy-policy",
+      "select": "html > body > div:nth-of-type(2) > main > div:first-of-type > div > div > div:nth-of-type(2) > div:first-of-type > div:first-of-type > div:nth-of-type(3)"
+    }
+  }
+}

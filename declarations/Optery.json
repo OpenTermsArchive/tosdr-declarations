@@ -1,0 +1,13 @@
+{
+  "name": "Optery",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://optery.com/privacy-policy/",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.optery.com/terms-of-service/",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Bluemail",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://bluemail.me/tos/",
+      "select": "html > body > div > div > main > div"
+    },
+    "Privacy Policy": {
+      "fetch": "https://bluemail.me/privacy/",
+      "select": "html > body > div > div > main > div"
+    }
+  }
+}

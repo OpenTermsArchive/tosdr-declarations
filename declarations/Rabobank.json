@@ -1,0 +1,13 @@
+{
+  "name": "Rabobank",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rabobank.com/privacy",
+      "select": "html > body > senses-global-sites > senses-global-sites-p > main > div > page-default"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.rabobank.com/cookies",
+      "select": "html > body > senses-global-sites > senses-global-sites-p > main > div > page-default"
+    }
+  }
+}

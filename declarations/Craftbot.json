@@ -1,0 +1,13 @@
+{
+  "name": "Craftbot",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://craftbot.com/privacy",
+      "select": null
+    },
+    "Terms of Service": {
+      "fetch": "https://craftbot.com/terms",
+      "select": null
+    }
+  }
+}

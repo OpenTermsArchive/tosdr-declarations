@@ -1,0 +1,13 @@
+{
+  "name": "7eleven speakout",
+  "documents": {
+    "Legal Information": {
+      "fetch": "https://www.speakout7eleven.ca/privacy ",
+      "select": "body"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.speakout7eleven.ca/terms",
+      "select": "body"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Cv compiler",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cvcompiler.com/terms",
+      "select": "body"
+    }
+  }
+}

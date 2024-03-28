@@ -1,0 +1,9 @@
+{
+  "name": "Pillar box blue",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.pillarboxblue.com/privacy-policy/",
+      "select": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Askgeek",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://askgeek.io/de/privacy",
+      "select": "body"
+    }
+  }
+}

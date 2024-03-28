@@ -1,0 +1,9 @@
+{
+  "name": "Lokinet",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://lokinet.org/privacy-policy/",
+      "select": "body"
+    }
+  }
+}
