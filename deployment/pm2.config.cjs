@@ -7,6 +7,7 @@ module.exports = {
       max_restarts: 2,
       min_uptime: '1h', // Set a relatively high duration (more than the longest run) so that restarts that occur before this duration has elapsed are considered unstable.
       restart_delay: 3 * 60 * 60 * 1000,  // likely related to a connectivity problem that will take some time to be fixed
+      log_date_format: "YYYY-MM-DD HH:mm Z",
       env: {
         "NODE_OPTIONS": "--max-old-space-size=4096", // Avoid `FATAL ERROR: Reached heap limit Allocation failed`
       }
